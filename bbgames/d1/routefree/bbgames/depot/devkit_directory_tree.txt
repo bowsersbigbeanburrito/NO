@@ -1,0 +1,939 @@
+devkit/
+└── japan/
+    ├── CHANGES.txt,v
+    ├── CVS/
+    │   └── fileattr
+    ├── N64SoundTools/
+    │   ├── CVS/
+    │   │   └── fileattr
+    │   ├── DiskLP/
+    │   │   ├── convert.bat,v
+    │   │   ├── convpc.bat,v
+    │   │   ├── CVS/
+    │   │   │   └── fileattr
+    │   │   ├── lib/
+    │   │   │   ├── CVS/
+    │   │   │   │   └── fileattr
+    │   │   │   ├── libmus.h,v
+    │   │   │   ├── libmus_data.h,v
+    │   │   │   ├── n_libaudio_sc.h,v
+    │   │   │   └── n_libaudio_sn_sc.h,v
+    │   │   ├── lib-src/
+    │   │   │   ├── aud_dma.c,v
+    │   │   │   ├── aud_dma.h,v
+    │   │   │   ├── aud_samples.c,v
+    │   │   │   ├── aud_samples.h,v
+    │   │   │   ├── aud_sched.c,v
+    │   │   │   ├── aud_sched.h,v
+    │   │   │   ├── aud_thread.c,v
+    │   │   │   ├── aud_thread.h,v
+    │   │   │   ├── CVS/
+    │   │   │   │   └── fileattr
+    │   │   │   ├── lib_memory.c,v
+    │   │   │   ├── lib_memory.h,v
+    │   │   │   ├── libgmus/
+    │   │   │   ├── libgmus_d/
+    │   │   │   ├── libmus.h,v
+    │   │   │   ├── libmus_config.h,v
+    │   │   │   ├── libmus_data.h,v
+    │   │   │   ├── libn_gmus/
+    │   │   │   ├── libn_gmus_d/
+    │   │   │   ├── Makefile,v
+    │   │   │   ├── Makefile.depend,v
+    │   │   │   ├── Makefile.dos,v
+    │   │   │   ├── n_abi.h,v
+    │   │   │   ├── n_libaudio_sc.h,v
+    │   │   │   ├── n_libaudio_sn_sc.h,v
+    │   │   │   ├── n_synthInternals.h,v
+    │   │   │   ├── player.c,v
+    │   │   │   ├── player.h,v
+    │   │   │   ├── player_api.c,v
+    │   │   │   ├── player_commands.c,v
+    │   │   │   ├── player_fifo.c,v
+    │   │   │   ├── player_fifo.h,v
+    │   │   │   ├── player_fx.c,v
+    │   │   │   ├── player_fx.h,v
+    │   │   │   └── synthInternals.h,v
+    │   │   ├── n_gaudio_sc/
+    │   │   │   ├── CVS/
+    │   │   │   │   └── fileattr
+    │   │   │   ├── n_libaudio_sc.h,v
+    │   │   │   ├── n_libaudio_sn_sc.h,v
+    │   │   │   ├── README.TXT,v
+    │   │   │   └── src/
+    │   │   │       ├── CVS/
+    │   │   │       │   └── fileattr
+    │   │   │       ├── Makefile,v
+    │   │   │       ├── n_abi.h,v
+    │   │   │       ├── n_auxbus.c,v
+    │   │   │       ├── n_drvrNew.c,v
+    │   │   │       ├── n_env.c,v
+    │   │   │       ├── n_env_add01.c,v
+    │   │   │       ├── n_libaudio_sc.h,v
+    │   │   │       ├── n_libaudio_sn_sc.h,v
+    │   │   │       ├── n_load.c,v
+    │   │   │       ├── n_load_add01.c,v
+    │   │   │       ├── n_load_add02.c,v
+    │   │   │       ├── n_mainbus.c,v
+    │   │   │       ├── n_resample.c,v
+    │   │   │       ├── n_resample_add01.c,v
+    │   │   │       ├── n_reverb.c,v
+    │   │   │       ├── n_reverb_add01.c,v
+    │   │   │       ├── n_reverb_add02.c,v
+    │   │   │       ├── n_reverb_add03.c,v
+    │   │   │       ├── n_reverb_add04.c,v
+    │   │   │       ├── n_save.c,v
+    │   │   │       ├── n_save_add01.c,v
+    │   │   │       ├── n_sl.c,v
+    │   │   │       ├── n_synaddplayer.c,v
+    │   │   │       ├── n_synallocfx.c,v
+    │   │   │       ├── n_synallocvoice.c,v
+    │   │   │       ├── n_syndelete.c,v
+    │   │   │       ├── n_synfreefx.c,v
+    │   │   │       ├── n_synfreevoice.c,v
+    │   │   │       ├── n_syngetfxref.c,v
+    │   │   │       ├── n_syngetpriority.c,v
+    │   │   │       ├── n_synremoveplayer.c,v
+    │   │   │       ├── n_synsetfxmix.c,v
+    │   │   │       ├── n_synsetfxparam.c,v
+    │   │   │       ├── n_synsetfxtype.c,v
+    │   │   │       ├── n_synsetpan.c,v
+    │   │   │       ├── n_synsetpitch.c,v
+    │   │   │       ├── n_synsetpriority.c,v
+    │   │   │       ├── n_synsetvol.c,v
+    │   │   │       ├── n_synstartvoice.c,v
+    │   │   │       ├── n_synstartvoiceparam.c,v
+    │   │   │       ├── n_synstopvoice.c,v
+    │   │   │       ├── n_synthesizer.c,v
+    │   │   │       ├── n_synthInternals.h,v
+    │   │   │       ├── README.TXT,v
+    │   │   │       └── synthInternals.h,v
+    │   │   ├── README.txt,v
+    │   │   └── samples/
+    │   │       ├── crossfade/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.dos,v
+    │   │       │   ├── Makefile.dos.n,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── README.txt,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── CVS/
+    │   │       │   └── fileattr
+    │   │       ├── effects/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.dos,v
+    │   │       │   ├── Makefile.dos.n,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── README.txt,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── fromram/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.dos,v
+    │   │       │   ├── Makefile.dos.n,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── README.txt,v
+    │   │       │   ├── sampleram.c,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── fxchange/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.dos,v
+    │   │       │   ├── Makefile.dos.n,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── README.txt,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── fxsong/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.dos,v
+    │   │       │   ├── Makefile.dos.n,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── README.txt,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── lookup/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.dos,v
+    │   │       │   ├── Makefile.dos.n,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── README.txt,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── Makefile,v
+    │   │       ├── Makefile.dos,v
+    │   │       ├── Makefile.dos.n,v
+    │   │       ├── marker/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.dos,v
+    │   │       │   ├── Makefile.dos.n,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── README.txt,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── n64dd/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.dos,v
+    │   │       │   ├── Makefile.dos.n,v
+    │   │       │   ├── Makefile.makedisk,v
+    │   │       │   ├── Makefile.makedisk.n,v
+    │   │       │   ├── README.txt,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_mem.c,v
+    │   │       │   ├── test_mem.h,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_n64dd.c,v
+    │   │       │   ├── test_n64dd.h,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── nnsched/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.dos,v
+    │   │       │   ├── Makefile.dos.n,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── nnsched.c,v
+    │   │       │   ├── nnsched.h,v
+    │   │       │   ├── nnsched.txt,v
+    │   │       │   ├── README.txt,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── pause/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.dos,v
+    │   │       │   ├── Makefile.dos.n,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── README.txt,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── README.SAMPLES,v
+    │   │       ├── README.SAMPLES.txt,v
+    │   │       ├── simple/
+    │   │       │   ├── after/
+    │   │       │   │   ├── CVS/
+    │   │       │   │   │   └── fileattr
+    │   │       │   │   ├── Makefile,v
+    │   │       │   │   ├── Makefile.depend,v
+    │   │       │   │   ├── Makefile.dos,v
+    │   │       │   │   ├── Makefile.dos.n,v
+    │   │       │   │   ├── Makefile.makerom,v
+    │   │       │   │   ├── Makefile.makerom.n,v
+    │   │       │   │   ├── README.txt,v
+    │   │       │   │   ├── test_main.c,v
+    │   │       │   │   ├── test_music.c,v
+    │   │       │   │   ├── test_rom.h,v
+    │   │       │   │   └── test_workspace.c,v
+    │   │       │   └── before/
+    │   │       │       ├── CVS/
+    │   │       │       │   └── fileattr
+    │   │       │       ├── Makefile,v
+    │   │       │       ├── Makefile.depend,v
+    │   │       │       ├── Makefile.dos,v
+    │   │       │       ├── Makefile.makerom,v
+    │   │       │       ├── README.txt,v
+    │   │       │       ├── test_main.c,v
+    │   │       │       ├── test_rom.h,v
+    │   │       │       └── test_workspace.c,v
+    │   │       ├── SoundData/
+    │   │       └── testmenu/
+    │   │           ├── CVS/
+    │   │           │   └── fileattr
+    │   │           ├── Makefile,v
+    │   │           ├── Makefile.depend,v
+    │   │           ├── Makefile.dos,v
+    │   │           ├── Makefile.dos.n,v
+    │   │           ├── Makefile.makerom,v
+    │   │           ├── Makefile.makerom.n,v
+    │   │           ├── README.txt,v
+    │   │           ├── test_draw.c,v
+    │   │           ├── test_main.c,v
+    │   │           ├── test_menu.c,v
+    │   │           ├── test_rom.h,v
+    │   │           └── test_workspace.c,v
+    │   ├── DiskLS/
+    │   │   ├── convert.bat,v
+    │   │   ├── convpc.bat,v
+    │   │   ├── CVS/
+    │   │   │   └── fileattr
+    │   │   ├── lib/
+    │   │   │   ├── CVS/
+    │   │   │   │   └── fileattr
+    │   │   │   ├── libmus.h,v
+    │   │   │   ├── libmus_data.h,v
+    │   │   │   ├── n_libaudio_sc.h,v
+    │   │   │   └── n_libaudio_sn_sc.h,v
+    │   │   ├── lib-src/
+    │   │   │   ├── aud_dma.c,v
+    │   │   │   ├── aud_dma.h,v
+    │   │   │   ├── aud_samples.c,v
+    │   │   │   ├── aud_samples.h,v
+    │   │   │   ├── aud_sched.c,v
+    │   │   │   ├── aud_sched.h,v
+    │   │   │   ├── aud_thread.c,v
+    │   │   │   ├── aud_thread.h,v
+    │   │   │   ├── CVS/
+    │   │   │   │   └── fileattr
+    │   │   │   ├── lib_memory.c,v
+    │   │   │   ├── lib_memory.h,v
+    │   │   │   ├── libmus/
+    │   │   │   ├── libmus.h,v
+    │   │   │   ├── libmus_config.h,v
+    │   │   │   ├── libmus_d/
+    │   │   │   ├── libmus_data.h,v
+    │   │   │   ├── libn_mus/
+    │   │   │   ├── libn_mus_d/
+    │   │   │   ├── Makefile,v
+    │   │   │   ├── Makefile.depend,v
+    │   │   │   ├── Makefile.sgi,v
+    │   │   │   ├── n_abi.h,v
+    │   │   │   ├── n_libaudio_sc.h,v
+    │   │   │   ├── n_libaudio_sn_sc.h,v
+    │   │   │   ├── n_synthInternals.h,v
+    │   │   │   ├── player.c,v
+    │   │   │   ├── player.h,v
+    │   │   │   ├── player_api.c,v
+    │   │   │   ├── player_commands.c,v
+    │   │   │   ├── player_fifo.c,v
+    │   │   │   ├── player_fifo.h,v
+    │   │   │   ├── player_fx.c,v
+    │   │   │   ├── player_fx.h,v
+    │   │   │   └── synthInternals.h,v
+    │   │   ├── n_audio_sc/
+    │   │   │   ├── CVS/
+    │   │   │   │   └── fileattr
+    │   │   │   ├── n_libaudio_sc.h,v
+    │   │   │   ├── n_libaudio_sn_sc.h,v
+    │   │   │   ├── README,v
+    │   │   │   └── src/
+    │   │   │       ├── CVS/
+    │   │   │       │   └── fileattr
+    │   │   │       ├── Makefile,v
+    │   │   │       ├── n_abi.h,v
+    │   │   │       ├── n_auxbus.c,v
+    │   │   │       ├── n_drvrNew.c,v
+    │   │   │       ├── n_env.c,v
+    │   │   │       ├── n_env_add01.c,v
+    │   │   │       ├── n_libaudio_sc.h,v
+    │   │   │       ├── n_libaudio_sn_sc.h,v
+    │   │   │       ├── n_load.c,v
+    │   │   │       ├── n_load_add01.c,v
+    │   │   │       ├── n_load_add02.c,v
+    │   │   │       ├── n_mainbus.c,v
+    │   │   │       ├── n_resample.c,v
+    │   │   │       ├── n_resample_add01.c,v
+    │   │   │       ├── n_reverb.c,v
+    │   │   │       ├── n_reverb_add01.c,v
+    │   │   │       ├── n_reverb_add02.c,v
+    │   │   │       ├── n_reverb_add03.c,v
+    │   │   │       ├── n_reverb_add04.c,v
+    │   │   │       ├── n_save.c,v
+    │   │   │       ├── n_save_add01.c,v
+    │   │   │       ├── n_sl.c,v
+    │   │   │       ├── n_synaddplayer.c,v
+    │   │   │       ├── n_synallocfx.c,v
+    │   │   │       ├── n_synallocvoice.c,v
+    │   │   │       ├── n_syndelete.c,v
+    │   │   │       ├── n_synfreefx.c,v
+    │   │   │       ├── n_synfreevoice.c,v
+    │   │   │       ├── n_syngetfxref.c,v
+    │   │   │       ├── n_syngetpriority.c,v
+    │   │   │       ├── n_synremoveplayer.c,v
+    │   │   │       ├── n_synsetfxmix.c,v
+    │   │   │       ├── n_synsetfxparam.c,v
+    │   │   │       ├── n_synsetfxtype.c,v
+    │   │   │       ├── n_synsetpan.c,v
+    │   │   │       ├── n_synsetpitch.c,v
+    │   │   │       ├── n_synsetpriority.c,v
+    │   │   │       ├── n_synsetvol.c,v
+    │   │   │       ├── n_synstartvoice.c,v
+    │   │   │       ├── n_synstartvoiceparam.c,v
+    │   │   │       ├── n_synstopvoice.c,v
+    │   │   │       ├── n_synthesizer.c,v
+    │   │   │       ├── n_synthInternals.h,v
+    │   │   │       ├── README,v
+    │   │   │       └── synthInternals.h,v
+    │   │   ├── README,v
+    │   │   └── samples/
+    │   │       ├── crossfade/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── Makefile.sgi,v
+    │   │       │   ├── Makefile.sgi.n,v
+    │   │       │   ├── README.euc,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── CVS/
+    │   │       │   └── fileattr
+    │   │       ├── effects/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── Makefile.sgi,v
+    │   │       │   ├── Makefile.sgi.n,v
+    │   │       │   ├── README.euc,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── fromram/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── Makefile.sgi,v
+    │   │       │   ├── Makefile.sgi.n,v
+    │   │       │   ├── README.euc,v
+    │   │       │   ├── sampleram.c,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── fxchange/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── Makefile.sgi,v
+    │   │       │   ├── Makefile.sgi.n,v
+    │   │       │   ├── README.euc,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── fxsong/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── Makefile.sgi,v
+    │   │       │   ├── Makefile.sgi.n,v
+    │   │       │   ├── README.euc,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── lookup/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── Makefile.sgi,v
+    │   │       │   ├── Makefile.sgi.n,v
+    │   │       │   ├── README.euc,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── Makefile,v
+    │   │       ├── Makefile.sgi,v
+    │   │       ├── Makefile.sgi.n,v
+    │   │       ├── marker/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── Makefile.sgi,v
+    │   │       │   ├── Makefile.sgi.n,v
+    │   │       │   ├── README.euc,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── n64dd/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.makedisk,v
+    │   │       │   ├── Makefile.makedisk.n,v
+    │   │       │   ├── Makefile.sgi,v
+    │   │       │   ├── Makefile.sgi.n,v
+    │   │       │   ├── README.euc,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_mem.c,v
+    │   │       │   ├── test_mem.h,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_n64dd.c,v
+    │   │       │   ├── test_n64dd.h,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── nnsched/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── Makefile.sgi,v
+    │   │       │   ├── Makefile.sgi.n,v
+    │   │       │   ├── nnsched.c,v
+    │   │       │   ├── nnsched.h,v
+    │   │       │   ├── README.euc,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── pause/
+    │   │       │   ├── CVS/
+    │   │       │   │   └── fileattr
+    │   │       │   ├── Makedepend,v
+    │   │       │   ├── Makefile,v
+    │   │       │   ├── Makefile.depend,v
+    │   │       │   ├── Makefile.makerom,v
+    │   │       │   ├── Makefile.makerom.n,v
+    │   │       │   ├── Makefile.sgi,v
+    │   │       │   ├── Makefile.sgi.n,v
+    │   │       │   ├── README.euc,v
+    │   │       │   ├── test_main.c,v
+    │   │       │   ├── test_music.c,v
+    │   │       │   ├── test_rom.h,v
+    │   │       │   └── test_workspace.c,v
+    │   │       ├── README.SAMPLES,v
+    │   │       ├── README.SAMPLES.euc,v
+    │   │       ├── simple/
+    │   │       │   ├── after/
+    │   │       │   │   ├── CVS/
+    │   │       │   │   │   └── fileattr
+    │   │       │   │   ├── Makefile,v
+    │   │       │   │   ├── Makefile.depend,v
+    │   │       │   │   ├── Makefile.makerom,v
+    │   │       │   │   ├── Makefile.makerom.n,v
+    │   │       │   │   ├── Makefile.sgi,v
+    │   │       │   │   ├── Makefile.sgi.n,v
+    │   │       │   │   ├── README.euc,v
+    │   │       │   │   ├── test_main.c,v
+    │   │       │   │   ├── test_music.c,v
+    │   │       │   │   ├── test_rom.h,v
+    │   │       │   │   └── test_workspace.c,v
+    │   │       │   └── before/
+    │   │       │       ├── CVS/
+    │   │       │       │   └── fileattr
+    │   │       │       ├── Makefile,v
+    │   │       │       ├── Makefile.depend,v
+    │   │       │       ├── Makefile.makerom,v
+    │   │       │       ├── Makefile.sgi,v
+    │   │       │       ├── Makefile.sgi.n,v
+    │   │       │       ├── README.euc,v
+    │   │       │       ├── test_main.c,v
+    │   │       │       ├── test_rom.h,v
+    │   │       │       └── test_workspace.c,v
+    │   │       ├── SoundData/
+    │   │       └── testmenu/
+    │   │           ├── CVS/
+    │   │           │   └── fileattr
+    │   │           ├── Makefile,v
+    │   │           ├── Makefile.depend,v
+    │   │           ├── Makefile.makerom,v
+    │   │           ├── Makefile.makerom.n,v
+    │   │           ├── Makefile.sgi,v
+    │   │           ├── Makefile.sgi.n,v
+    │   │           ├── README.euc,v
+    │   │           ├── test_draw.c,v
+    │   │           ├── test_main.c,v
+    │   │           ├── test_menu.c,v
+    │   │           ├── test_rom.h,v
+    │   │           └── test_workspace.c,v
+    │   ├── DiskM/
+    │   │   ├── ChangeLog.txt,v
+    │   │   ├── CVS/
+    │   │   │   └── fileattr
+    │   │   ├── html/
+    │   │   │   ├── chapter_apiuse.html,v
+    │   │   │   ├── chapter_cautions.html,v
+    │   │   │   ├── chapter_history.html,v
+    │   │   │   ├── chapter_libfiles.html,v
+    │   │   │   ├── chapter_libref.html,v
+    │   │   │   ├── chapter_libuse.html,v
+    │   │   │   ├── chapter_overview.html,v
+    │   │   │   ├── contents_apiuse.html,v
+    │   │   │   ├── contents_libfiles.html,v
+    │   │   │   ├── contents_libref.html,v
+    │   │   │   ├── contents_libuse.html,v
+    │   │   │   ├── CVS/
+    │   │   │   │   └── fileattr
+    │   │   │   ├── image_arrowdown.gif,v
+    │   │   │   ├── image_arrowup.gif,v
+    │   │   │   ├── image_logoscbg.gif,v
+    │   │   │   ├── index.html,v
+    │   │   │   ├── index_contents.html,v
+    │   │   │   ├── index_cover.html,v
+    │   │   │   ├── MusAsk.html,v
+    │   │   │   ├── MusFxBankGetCurrent.html,v
+    │   │   │   ├── MusFxBankGetPtrBank.html,v
+    │   │   │   ├── MusFxBankInitialize.html,v
+    │   │   │   ├── MusFxBankNumberOfEffects.html,v
+    │   │   │   ├── MusFxBankSetCurrent.html,v
+    │   │   │   ├── MusFxBankSetPtrBank.html,v
+    │   │   │   ├── MusFxBankSetSingle.html,v
+    │   │   │   ├── MusHandleAsk.html,v
+    │   │   │   ├── MusHandleGetPtrBank.html,v
+    │   │   │   ├── MusHandlePause.html,v
+    │   │   │   ├── MusHandleSetFreqOffset.html,v
+    │   │   │   ├── MusHandleSetPan.html,v
+    │   │   │   ├── MusHandleSetReverb.html,v
+    │   │   │   ├── MusHandleSetTempo.html,v
+    │   │   │   ├── MusHandleSetVolume.html,v
+    │   │   │   ├── MusHandleStop.html,v
+    │   │   │   ├── MusHandleUnPause.html,v
+    │   │   │   ├── MusHandleWaveAddress.html,v
+    │   │   │   ├── MusHandleWaveCount.html,v
+    │   │   │   ├── MusInitialize.html,v
+    │   │   │   ├── MusPtrBankGetCurrent.html,v
+    │   │   │   ├── MusPtrBankInitialize.html,v
+    │   │   │   ├── MusPtrBankSetCurrent.html,v
+    │   │   │   ├── MusPtrBankSetSingle.html,v
+    │   │   │   ├── MusSetFxType.html,v
+    │   │   │   ├── MusSetMarkerCallback.html,v
+    │   │   │   ├── MusSetMasterVolume.html,v
+    │   │   │   ├── MusSetScheduler.html,v
+    │   │   │   ├── MusSetSongFxChange.html,v
+    │   │   │   ├── MusStartEffect.html,v
+    │   │   │   ├── MusStartEffect2.html,v
+    │   │   │   ├── MusStartSong.html,v
+    │   │   │   ├── MusStartSongFromMarker.html,v
+    │   │   │   └── MusStop.html,v
+    │   │   ├── PROGMANJ.doc,v
+    │   │   ├── readme.txt,v
+    │   │   ├── RELNOTE.DOC,v
+    │   │   ├── SETUP.DOC,v
+    │   │   ├── TUTORMAN.DOC,v
+    │   │   └── USERMANJ.doc,v
+    │   ├── DiskSD-1/
+    │   │   └── samples/
+    │   │       └── SoundData/
+    │   │           ├── CVS/
+    │   │           │   └── fileattr
+    │   │           ├── fxbank1.bfx,v
+    │   │           ├── fxbank1.ptr,v
+    │   │           ├── fxbank1.wbk,v
+    │   │           ├── fxbank2.bfx,v
+    │   │           ├── fxbank2.ptr,v
+    │   │           ├── fxbank2.wbk,v
+    │   │           ├── groove.bin,v
+    │   │           ├── groove.ptr,v
+    │   │           ├── groove.wbk,v
+    │   │           ├── groovedd.bin,v
+    │   │           ├── groovedd.ptr,v
+    │   │           ├── groovedd.wbk,v
+    │   │           ├── rock.bfx,v
+    │   │           ├── rock.bin,v
+    │   │           ├── rock.ptr,v
+    │   │           └── rock.wbk,v
+    │   ├── DiskSD-2/
+    │   │   └── samples/
+    │   │       └── SoundData/
+    │   │           ├── CVS/
+    │   │           │   └── fileattr
+    │   │           ├── ddtest0.bin,v
+    │   │           ├── ddtest0.ptr,v
+    │   │           ├── ddtest0.wbk,v
+    │   │           ├── drumtest.ptr,v
+    │   │           ├── drumtest.wbk,v
+    │   │           ├── drumtst.bfx,v
+    │   │           ├── dt_sfx1.bfx,v
+    │   │           ├── dt_song1.bin,v
+    │   │           ├── dt_song2.bin,v
+    │   │           ├── dt_song3.bin,v
+    │   │           ├── dt_song4.bin,v
+    │   │           ├── orch.bfx,v
+    │   │           ├── orch.bin,v
+    │   │           ├── orch.ptr,v
+    │   │           └── orch.wbk,v
+    │   ├── README.euc,v
+    │   ├── README.txt,v
+    │   └── Tools/
+    │       ├── disk1/
+    │       │   ├── _INST32I.EX_,v
+    │       │   ├── _Setup.dll,v
+    │       │   ├── _sys1.cab,v
+    │       │   ├── _sys1.hdr,v
+    │       │   ├── _user1.cab,v
+    │       │   ├── _user1.hdr,v
+    │       │   ├── CVS/
+    │       │   │   └── fileattr
+    │       │   ├── DATA.TAG,v
+    │       │   ├── data1.cab,v
+    │       │   ├── data1.hdr,v
+    │       │   ├── lang.dat,v
+    │       │   ├── layout.bin,v
+    │       │   ├── os.dat,v
+    │       │   ├── SETUP.INI,v
+    │       │   ├── setup.ins,v
+    │       │   └── setup.lid,v
+    │       └── disk2/
+    │           ├── CVS/
+    │           │   └── fileattr
+    │           └── data2.cab,v
+    ├── pc/
+    │   ├── _INST16.EX_,v
+    │   ├── _INST32I.EX_,v
+    │   ├── _setup.dll,v
+    │   ├── _sys1.cab,v
+    │   ├── _sys1.hdr,v
+    │   ├── _user1.cab,v
+    │   ├── _user1.hdr,v
+    │   ├── basic/
+    │   │   ├── _INST16.EX_,v
+    │   │   ├── _INST32I.EX_,v
+    │   │   ├── _setup.dll,v
+    │   │   ├── _sys1.cab,v
+    │   │   ├── _sys1.hdr,v
+    │   │   ├── _user1.cab,v
+    │   │   ├── _user1.hdr,v
+    │   │   ├── CVS/
+    │   │   │   └── fileattr
+    │   │   ├── DATA.TAG,v
+    │   │   ├── data1.cab,v
+    │   │   ├── data1.hdr,v
+    │   │   ├── lang.dat,v
+    │   │   ├── layout.bin,v
+    │   │   ├── os.dat,v
+    │   │   ├── README.txt,v
+    │   │   ├── README2.TXT,v
+    │   │   ├── SETUP.INI,v
+    │   │   ├── setup.ins,v
+    │   │   └── setup.lid,v
+    │   ├── CVS/
+    │   │   └── fileattr
+    │   ├── DATA.TAG,v
+    │   ├── data1.cab,v
+    │   ├── data1.hdr,v
+    │   ├── ddtool/
+    │   │   ├── _INST32I.EX_,v
+    │   │   ├── _ISDEL.EXE,v
+    │   │   ├── _SETUP.DLL,v
+    │   │   ├── _sys1.cab,v
+    │   │   ├── _sys1.hdr,v
+    │   │   ├── _user1.cab,v
+    │   │   ├── _user1.hdr,v
+    │   │   ├── CVS/
+    │   │   │   └── fileattr
+    │   │   ├── DATA.TAG,v
+    │   │   ├── data1.cab,v
+    │   │   ├── data1.hdr,v
+    │   │   ├── lang.dat,v
+    │   │   ├── layout.bin,v
+    │   │   ├── os.dat,v
+    │   │   ├── README.txt,v
+    │   │   ├── SETUP.EXE,v
+    │   │   ├── SETUP.INI,v
+    │   │   ├── setup.ins,v
+    │   │   └── setup.lid,v
+    │   ├── dptest/
+    │   │   ├── _inst32i.ex_,v
+    │   │   ├── _Setup.dll,v
+    │   │   ├── _sys1.cab,v
+    │   │   ├── _sys1.hdr,v
+    │   │   ├── _user1.cab,v
+    │   │   ├── _user1.hdr,v
+    │   │   ├── CVS/
+    │   │   │   └── fileattr
+    │   │   ├── DATA.TAG,v
+    │   │   ├── data1.cab,v
+    │   │   ├── data1.hdr,v
+    │   │   ├── lang.dat,v
+    │   │   ├── layout.bin,v
+    │   │   ├── os.dat,v
+    │   │   ├── SETUP.INI,v
+    │   │   ├── setup.ins,v
+    │   │   └── setup.lid,v
+    │   ├── HVQ/
+    │   │   ├── _INST32I.EX_,v
+    │   │   ├── _setup.dll,v
+    │   │   ├── _sys1.cab,v
+    │   │   ├── _sys1.hdr,v
+    │   │   ├── _user1.cab,v
+    │   │   ├── _user1.hdr,v
+    │   │   ├── CVS/
+    │   │   │   └── fileattr
+    │   │   ├── DATA.TAG,v
+    │   │   ├── data1.cab,v
+    │   │   ├── data1.hdr,v
+    │   │   ├── lang.dat,v
+    │   │   ├── layout.bin,v
+    │   │   ├── os.dat,v
+    │   │   ├── README.TXT,v
+    │   │   ├── SETUP.INI,v
+    │   │   ├── setup.ins,v
+    │   │   └── setup.lid,v
+    │   ├── lang.dat,v
+    │   ├── layout.bin,v
+    │   ├── mmv64/
+    │   │   ├── _inst32i.ex_,v
+    │   │   ├── _Setup.dll,v
+    │   │   ├── _sys1.cab,v
+    │   │   ├── _sys1.hdr,v
+    │   │   ├── _user1.cab,v
+    │   │   ├── _user1.hdr,v
+    │   │   ├── CVS/
+    │   │   │   └── fileattr
+    │   │   ├── DATA.TAG,v
+    │   │   ├── data1.cab,v
+    │   │   ├── data1.hdr,v
+    │   │   ├── lang.dat,v
+    │   │   ├── layout.bin,v
+    │   │   ├── os.dat,v
+    │   │   ├── setup.bmp,v
+    │   │   ├── SETUP.INI,v
+    │   │   ├── setup.ins,v
+    │   │   └── setup.lid,v
+    │   ├── niff/
+    │   │   ├── _inst16.ex_,v
+    │   │   ├── _inst32i.ex_,v
+    │   │   ├── _setup.dll,v
+    │   │   ├── _sys1.cab,v
+    │   │   ├── _sys1.hdr,v
+    │   │   ├── _user1.cab,v
+    │   │   ├── _user1.hdr,v
+    │   │   ├── CVS/
+    │   │   │   └── fileattr
+    │   │   ├── DATA.TAG,v
+    │   │   ├── data1.cab,v
+    │   │   ├── data1.hdr,v
+    │   │   ├── lang.dat,v
+    │   │   ├── layout.bin,v
+    │   │   ├── os.dat,v
+    │   │   ├── SETUP.INI,v
+    │   │   ├── setup.ins,v
+    │   │   └── setup.lid,v
+    │   ├── niffedit/
+    │   │   ├── _INST32I.EX_,v
+    │   │   ├── _sys1.cab,v
+    │   │   ├── _sys1.hdr,v
+    │   │   ├── _user1.cab,v
+    │   │   ├── _user1.hdr,v
+    │   │   ├── CVS/
+    │   │   │   └── fileattr
+    │   │   ├── DATA.TAG,v
+    │   │   ├── data1.cab,v
+    │   │   ├── data1.hdr,v
+    │   │   ├── lang.dat,v
+    │   │   ├── layout.bin,v
+    │   │   ├── os.dat,v
+    │   │   ├── SETUP.INI,v
+    │   │   ├── setup.ins,v
+    │   │   ├── setup.lid,v
+    │   │   └── setupdir/
+    │   │       ├── 0009/
+    │   │       │   ├── _setup.dll,v
+    │   │       │   └── CVS/
+    │   │       │       └── fileattr
+    │   │       └── 0011/
+    │   │           ├── _setup.dll,v
+    │   │           └── CVS/
+    │   │               └── fileattr
+    │   ├── os.dat,v
+    │   ├── pict.bmp,v
+    │   ├── README.TXT,v
+    │   ├── Setup.bmp,v
+    │   ├── SETUP.INI,v
+    │   ├── setup.ins,v
+    │   ├── setup.lid,v
+    │   └── texedit/
+    │       ├── _INST32I.EX_,v
+    │       ├── _sys1.cab,v
+    │       ├── _sys1.hdr,v
+    │       ├── _user1.cab,v
+    │       ├── _user1.hdr,v
+    │       ├── CVS/
+    │       │   └── fileattr
+    │       ├── DATA.TAG,v
+    │       ├── data1.cab,v
+    │       ├── data1.hdr,v
+    │       ├── lang.dat,v
+    │       ├── layout.bin,v
+    │       ├── os.dat,v
+    │       ├── setup.bmp,v
+    │       ├── SETUP.INI,v
+    │       ├── setup.ins,v
+    │       ├── setup.lid,v
+    │       └── setupdir/
+    │           ├── 0009/
+    │           │   ├── _Setup.dll,v
+    │           │   └── CVS/
+    │           │       └── fileattr
+    │           └── 0011/
+    │               ├── _Setup.dll,v
+    │               └── CVS/
+    │                   └── fileattr
+    ├── README.txt,v
+    └── sgi/
+        ├── CVS/
+        │   └── fileattr
+        └── n64kit50.tgz,v

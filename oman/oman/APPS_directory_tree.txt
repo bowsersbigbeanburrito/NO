@@ -1,0 +1,2255 @@
+APPS/
+├── ALL/
+│   ├── ALL.C
+│   ├── ALL.H
+│   ├── MAKEFILE
+│   └── SPEC
+├── APPSIM/
+│   ├── APPSIM.H
+│   ├── CLIENT.C
+│   ├── FAKE.C
+│   ├── IPC.C
+│   ├── IPC.H
+│   ├── MAKEFILE
+│   ├── R4300.C
+│   ├── README
+│   ├── TASK.C
+│   └── TASK.H
+├── AUTOFILL/
+│   ├── 2D.GNU
+│   ├── AA_NOZB.GNU
+│   ├── AA_ZB.GNU
+│   ├── ALL.GNU
+│   ├── CFB.C
+│   ├── CFB_B.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── DRAM_STACK.C
+│   ├── FILL.C
+│   ├── FILL.H
+│   ├── MAKEFILE
+│   ├── NOAA_NOZB.GNU
+│   ├── NOAA_ZB.GNU
+│   ├── PLOT.GNU
+│   ├── RDP_OUTPUT.C
+│   ├── RDP_OUTPUT_LEN.C
+│   ├── README
+│   ├── RUNGNU
+│   ├── RUNTEST
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── STATIC.H
+│   ├── TIMER.C
+│   ├── TIMER.H
+│   ├── TRIS.C
+│   └── ZBUFFER.C
+├── BUMPMAP/
+│   ├── BUMPMAP.C
+│   ├── BUMPMAP.H
+│   ├── CFB.C
+│   ├── MAKEFILE
+│   ├── OBJ_REAL.H
+│   ├── README
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── TEXLIT/
+│   │   ├── B240_FS.H
+│   │   ├── B240_VS.H
+│   │   ├── BB_FACES.H
+│   │   ├── BB_VERTS.H
+│   │   ├── MAIN.C
+│   │   ├── MAIN.H
+│   │   ├── MAKEFILE
+│   │   ├── OBJ.C
+│   │   ├── OBJ.H
+│   │   ├── OBJ_DESC.C
+│   │   ├── README
+│   │   ├── SPHD.C
+│   │   ├── STATIC.C
+│   │   ├── TEXLIT.C
+│   │   ├── VERT.C
+│   │   └── VERT.H
+│   └── ZBUF.C
+├── CI4FB/
+│   ├── 2D.GNU
+│   ├── AA_NOZB.GNU
+│   ├── AA_ZB.GNU
+│   ├── ALL.GNU
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── DRAM_STACK.C
+│   ├── FILL.C
+│   ├── FILL.H
+│   ├── MAKEFILE
+│   ├── MARIO_SMALL.RGB
+│   ├── NOAA_NOZB.GNU
+│   ├── NOAA_ZB.GNU
+│   ├── PLOT.GNU
+│   ├── RDP_OUTPUT.C
+│   ├── RDP_OUTPUT_LEN.C
+│   ├── README
+│   ├── RSP_CFB.C
+│   ├── RUNGNU
+│   ├── RUNTEST
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── STATIC.H
+│   ├── TEXTURE.C
+│   ├── TEXTURE.H
+│   ├── TIMER.C
+│   ├── TIMER.H
+│   ├── TRIS.C
+│   └── ZBUFFER.C
+├── CILT/
+│   ├── APP.H
+│   ├── CFB.C
+│   ├── CI_TEST_VTX.H
+│   ├── CZB.C
+│   ├── DRAM_STACK.C
+│   ├── DUMP
+│   ├── DYNAMIC.C
+│   ├── MAIN.C
+│   ├── MAKE_CI4_TEX.C
+│   ├── MAKE_CI8_TEX.C
+│   ├── MAKEFILE
+│   ├── MATRIX.C
+│   ├── MATRIX.H
+│   ├── RDP_OUTPUT.C
+│   ├── RDP_OUTPUT_LEN.C
+│   ├── RGBA16GRID.H
+│   ├── RGBA32GRID.H
+│   ├── RSP_CFB.C
+│   ├── RSP_CZB.C
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── TEXTURE.C
+│   ├── TEXTURE.H
+│   ├── VECTOR.C
+│   ├── VECTOR.H
+│   ├── WALK_AROUND.C
+│   └── WALK_AROUND.H
+├── CONTROLLER/
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── MAKEFILE
+│   └── SPEC
+├── DETAIL/
+│   ├── APP.H
+│   ├── CFB.C
+│   ├── CZB.C
+│   ├── GORGE_DL.H
+│   ├── GORGE_VTX.H
+│   ├── I8WATER32.H
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── MATRIX.C
+│   ├── MATRIX.H
+│   ├── README
+│   ├── RGBA16DRAINAGE32.H
+│   ├── RGBA16FIELD32.H
+│   ├── RGBA16FOREST32.H
+│   ├── RGBA16LEAF32.H
+│   ├── RGBA16SAND64X32.H
+│   ├── RIVER_DL.H
+│   ├── RSP_CFB.C
+│   ├── RSP_CZB.C
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── VECTOR.C
+│   ├── VECTOR.H
+│   ├── WALK_AROUND.C
+│   └── WALK_AROUND.H
+├── DRVRMONKEY/
+│   ├── DRVRMONKEY.C
+│   ├── DRVRMONKEY.H
+│   ├── DYNAMIC.C
+│   ├── MAKEFILE
+│   ├── MONKEY.C
+│   ├── PLAYER.C
+│   ├── PLAYER.H
+│   └── SPEC
+├── EEPROM/
+│   ├── ASCI.C
+│   ├── CFB.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── NU64SYS.C
+│   ├── SPEC
+│   ├── TEXTLIB.C
+│   ├── TEXTLIB.H
+│   └── THREAD.H
+├── ERRORMONKEY/
+│   ├── ERROR.C
+│   ├── ERROR.H
+│   ├── MAKEFILE
+│   └── SPEC
+├── FIRE/
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── I4SPEC.H
+│   ├── IA8PHONG.H
+│   ├── MAKEFILE
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── STATIC_AUG.C
+│   ├── TEAPOT.C
+│   ├── TEAPOT.H
+│   ├── TEAPOT_TRI.H
+│   ├── TEAPOT_VTX.H
+│   ├── TEXTURE/
+│   │   ├── TV2_0
+│   │   ├── TV2_1
+│   │   ├── TV2_10
+│   │   ├── TV2_11
+│   │   ├── TV2_12
+│   │   ├── TV2_13
+│   │   ├── TV2_14
+│   │   ├── TV2_15
+│   │   ├── TV2_16
+│   │   ├── TV2_17
+│   │   ├── TV2_18
+│   │   ├── TV2_19
+│   │   ├── TV2_2
+│   │   ├── TV2_20
+│   │   ├── TV2_21
+│   │   ├── TV2_22
+│   │   ├── TV2_23
+│   │   ├── TV2_24
+│   │   ├── TV2_25
+│   │   ├── TV2_26
+│   │   ├── TV2_27
+│   │   ├── TV2_28
+│   │   ├── TV2_29
+│   │   ├── TV2_3
+│   │   ├── TV2_30
+│   │   ├── TV2_31
+│   │   ├── TV2_32
+│   │   ├── TV2_33
+│   │   ├── TV2_34
+│   │   ├── TV2_35
+│   │   ├── TV2_36
+│   │   ├── TV2_37
+│   │   ├── TV2_38
+│   │   ├── TV2_39
+│   │   ├── TV2_4
+│   │   ├── TV2_40
+│   │   ├── TV2_41
+│   │   ├── TV2_42
+│   │   ├── TV2_43
+│   │   ├── TV2_44
+│   │   ├── TV2_45
+│   │   ├── TV2_46
+│   │   ├── TV2_47
+│   │   ├── TV2_48
+│   │   ├── TV2_49
+│   │   ├── TV2_5
+│   │   ├── TV2_50
+│   │   ├── TV2_51
+│   │   ├── TV2_52
+│   │   ├── TV2_53
+│   │   ├── TV2_54
+│   │   ├── TV2_55
+│   │   ├── TV2_56
+│   │   ├── TV2_57
+│   │   ├── TV2_58
+│   │   ├── TV2_59
+│   │   ├── TV2_6
+│   │   ├── TV2_7
+│   │   ├── TV2_8
+│   │   └── TV2_9
+│   └── ZBUFFER.C
+├── FLIPBOOK/
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── FLIPBOOK.C
+│   ├── FLIPBOOK.H
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── LCASE_IMG.H
+│   ├── MAKEFILE
+│   ├── PICS.C
+│   ├── SPEC
+│   ├── STATIC.C
+│   └── ZBUFFER.C
+├── FLY/
+│   ├── FLY.C
+│   ├── FLY.H
+│   ├── FRACTAL.C
+│   ├── MAKEFILE
+│   └── SPEC
+├── FOGWORLD/
+│   ├── BOOT.C
+│   ├── BOOT.H
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── GAME.C
+│   ├── GAME.H
+│   ├── GFXINIT.C
+│   ├── GFXSTATIC.C
+│   ├── LETTERS_IMG.H
+│   ├── MAKEFILE
+│   ├── README
+│   ├── RGBA16FOLIAGEMM.H
+│   ├── RGBA16GRANITEMM.H
+│   ├── RGBA16GRASS2MM.H
+│   ├── RGBA16SANDMM.H
+│   ├── RGBA16SIDEWALKMM.H
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   ├── STATIC.H
+│   ├── TER0_DATA.H
+│   ├── TER0_HEADER.H
+│   ├── TEXTURE.C
+│   └── ZBUFFER.C
+├── GINV/
+│   ├── GINV.C
+│   ├── GINV.H
+│   ├── MAKEFILE
+│   └── SPEC
+├── GNG.SKIP/
+│   ├── AUDIO/
+│   │   ├── AUDASSETS/
+│   │   │   ├── GNGBANK.INST
+│   │   │   ├── GONOGO1.MID
+│   │   │   ├── GONOGO2.MID
+│   │   │   ├── GONOGO3.MID
+│   │   │   ├── MAKEFILE
+│   │   │   └── SQRWAVE.AIFF
+│   │   ├── AUDIO.C
+│   │   ├── AUDIO.H
+│   │   └── MAKEFILE
+│   ├── AUDIO.C
+│   ├── BALL_TRI.H
+│   ├── BALL_VTX.H
+│   ├── BL.C
+│   ├── BL.H
+│   ├── BL_STATIC.C
+│   ├── BL_TEX1.H
+│   ├── BOOT.C
+│   ├── CASES.C
+│   ├── CC.C
+│   ├── CC.H
+│   ├── CC_STATIC.C
+│   ├── CC_TEX.H
+│   ├── CFB.C
+│   ├── CHECKSUM.H
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── CS.C
+│   ├── CS.H
+│   ├── CS_HARDCODED_TRIS.H
+│   ├── CS_HARDCODED_TRIS2.H
+│   ├── CS_STATIC.C
+│   ├── CSEWCRITICAL_TEX.H
+│   ├── DIAGBOOT.S
+│   ├── DLDRIVER.C
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── FRAC_TRI.H
+│   ├── FRAC_VTX.H
+│   ├── GNG.H
+│   ├── GNG_REPORT.C
+│   ├── IA4CIRCLE.H
+│   ├── IA4TREE2.H
+│   ├── INIT.C
+│   ├── LOADTLUT.H
+│   ├── LOGO_TRI.H
+│   ├── LOGO_VTX.H
+│   ├── LSPHERE.DAT
+│   ├── LSPHERE.DL
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── MAP.H
+│   ├── MKA5TEX.C
+│   ├── MKRANDTEX.C
+│   ├── MS.C
+│   ├── MS.H
+│   ├── MS_STATIC.C
+│   ├── PIF.C
+│   ├── PIF.H
+│   ├── RDPATT.C
+│   ├── RDPATT.H
+│   ├── RDPATT_STATIC.C
+│   ├── RDPCOV.C
+│   ├── RDPCOV.H
+│   ├── RDPCOV_STATIC.C
+│   ├── RDPVECTOR.H
+│   ├── README
+│   ├── RGBA16BLUE.H
+│   ├── RGBA16BLUE2.H
+│   ├── RGBA16CHECKERMM.H
+│   ├── RGBA16DATA.H
+│   ├── RGBA16DATA_BAR.H
+│   ├── RGBA16GREEN.H
+│   ├── RGBA16GREEN2.H
+│   ├── RGBA16LONGSPAN.H
+│   ├── RGBA16POWERSOFTWOMM.H
+│   ├── RGBA16RED.H
+│   ├── RGBA16RED2.H
+│   ├── RGBA32PATTERN.H
+│   ├── RSP_CFB.C
+│   ├── SPACER.H
+│   ├── SPEC
+│   ├── SPHERE.DAT
+│   ├── SPHERE.DL
+│   ├── SPIN_TORUS_TRI.H
+│   ├── SPIN_TORUS_VTX.H
+│   ├── SSPHERE.DAT
+│   ├── SSPHERE.DL
+│   ├── TC.C
+│   ├── TC.H
+│   ├── TC_STATIC.C
+│   ├── TEXTURE/
+│   │   ├── CHECKER.RGB
+│   │   ├── COLORBAR.RGB
+│   │   ├── DANA_TINY.RGB
+│   │   ├── EYE.RGB
+│   │   ├── GRANITE.2.BW
+│   │   ├── GRANITE.3.BW
+│   │   ├── GRID.RGB
+│   │   ├── HAEBERLI_FIXED.BW
+│   │   ├── LETTERS.RGB
+│   │   ├── LUNA.RGB
+│   │   ├── MARIO_1.RGB
+│   │   ├── MARIO_2.RGB
+│   │   ├── MARIO_32.RGB
+│   │   ├── NOISE.RGB
+│   │   ├── PHONG.RGBA
+│   │   └── TYMES-ELFIN.BW
+│   ├── TEXTURE.C
+│   ├── TEXTURE.H
+│   ├── TF.C
+│   ├── TF.H
+│   ├── TF_STATIC.C
+│   ├── TF_TEX.H
+│   ├── TM.C
+│   ├── TM.H
+│   ├── TM_STATIC.C
+│   ├── TOPLEVEL.C
+│   ├── TOPLEVEL.H
+│   ├── TORUS_CMDS.H
+│   ├── TORUS_VTX.H
+│   ├── TYMES-ELFIN.H
+│   ├── U64_TRI.H
+│   ├── U64_VTX.H
+│   ├── VI.C
+│   ├── YUVBARS.H
+│   └── ZBUFFER.C
+├── GRESET/
+│   ├── GRESET.C
+│   └── MAKEFILE
+├── GROUND/
+│   ├── BOOT.C
+│   ├── BOOT.H
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── GAME.C
+│   ├── GAME.H
+│   ├── GFXINIT.C
+│   ├── GFXSTATIC.C
+│   ├── LETTERS_IMG.H
+│   ├── MAKEFILE
+│   ├── README
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   ├── SPHERE_DL.H
+│   ├── SPHERE_VTX.H
+│   ├── STATIC.H
+│   ├── TEXTURE.C
+│   ├── TEXTURE.H
+│   └── ZBUFFER.C
+├── GTDEMO/
+│   ├── CFB.C
+│   ├── CHAR_DATA.H
+│   ├── CHARACTER.C
+│   ├── CHARACTER.H
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── FLOOR.C
+│   ├── GTDEMO.C
+│   ├── GTDEMO.H
+│   ├── MAKEFILE
+│   ├── PUNCH.C
+│   ├── PUNCH.H
+│   ├── PUNCHTABLE.C
+│   ├── RDP_OUTPUT.C
+│   ├── RDP_OUTPUT_LEN.C
+│   ├── README
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── TIMER.C
+│   ├── TIMER.H
+│   ├── TURBO.C
+│   ├── TURBO.H
+│   ├── WALK.C
+│   ├── WALK.H
+│   ├── WALKTABLE.C
+│   └── ZBUFFER.C
+├── HOSTIO/
+│   ├── GAME.C
+│   ├── HOST.C
+│   ├── HOSTIO.H
+│   ├── MAKEFILE
+│   └── SPEC
+├── HOSTIOTEST/
+│   ├── GAME.C
+│   ├── HOST.C
+│   ├── HOSTIOTEST.H
+│   ├── MAKEFILE
+│   └── SPEC
+├── LIGHTS/
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── I4SPEC.H
+│   ├── IA8PHONG.H
+│   ├── MAKEFILE
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── TEAPOT.C
+│   ├── TEAPOT.H
+│   ├── TEAPOT.IV
+│   ├── TEAPOT_TRI.H
+│   ├── TEAPOT_VTX.H
+│   ├── TEXTURE/
+│   │   └── TEAPOT_SHAD64.RGB
+│   └── ZBUFFER.C
+├── LOADTILE/
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── DRAM_STACK.C
+│   ├── DRAM_YIELD.C
+│   ├── DYNAMIC.C
+│   ├── INIT.C
+│   ├── MAIN.C
+│   ├── MAKE_CI4_TEX.C
+│   ├── MAKE_CI8_TEX.C
+│   ├── MAKEFILE
+│   ├── MKTEX.C
+│   ├── RDP_OUTPUT.C
+│   ├── RDP_OUTPUT_LEN.C
+│   ├── RSPVERIF.C
+│   ├── RSPVERIF.H
+│   ├── SPEC
+│   ├── SPEC_EM
+│   ├── STATIC.C
+│   ├── TEXTURE.C
+│   ├── TEXTURE.H
+│   └── ZBUFFER.C
+├── LOGTEST/
+│   ├── LOGTEST.C
+│   ├── LOGTEST.H
+│   ├── MAKEFILE
+│   └── SPEC
+├── MAKEFILE
+├── MIPMAP/
+│   ├── BOOT.C
+│   ├── BOOT.H
+│   ├── BRICK.RGB
+│   ├── BRICK0.RGB
+│   ├── BRICK1.RGB
+│   ├── BRICK2.RGB
+│   ├── BRICK3.RGB
+│   ├── BRICK4.RGB
+│   ├── BRICK5.RGB
+│   ├── CFB.C
+│   ├── CHAINLINK.RGB
+│   ├── CHAINLINK0.RGB
+│   ├── CHAINLINK1.RGB
+│   ├── CHAINLINK2.RGB
+│   ├── CHAINLINK3.RGB
+│   ├── CHAINLINK4.RGB
+│   ├── CHECKER.RGBA
+│   ├── CHECKER0.RGB
+│   ├── CHECKER0.RGBA
+│   ├── CHECKER1.RGB
+│   ├── CHECKER2.RGB
+│   ├── CHECKER3.RGB
+│   ├── CHECKER4.RGB
+│   ├── CHECKER5.RGB
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── GAME.C
+│   ├── GAME.H
+│   ├── GFXINIT.C
+│   ├── GFXSTATIC.C
+│   ├── MAKEFILE
+│   ├── MOLECULE.RGBA
+│   ├── MOLECULE0.RGBA
+│   ├── MOLECULE1.RGBA
+│   ├── MOLECULE2.RGBA
+│   ├── MOLECULE3.RGBA
+│   ├── MOLECULE4.RGBA
+│   ├── MOLECULE5.RGBA
+│   ├── MYMIP.RGB
+│   ├── MYMIP0.RGB
+│   ├── MYMIP1.RGB
+│   ├── MYMIP2.RGB
+│   ├── MYMIP3.RGB
+│   ├── MYMIP4.RGB
+│   ├── README
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   ├── STATIC.H
+│   ├── TEXTURE.C
+│   ├── TEXTURE.H
+│   └── ZBUFFER.C
+├── MORPHCUBE/
+│   ├── BATMAN.PPM
+│   ├── CFB.C
+│   ├── DRAM_STACK.C
+│   ├── DYNAMIC.C
+│   ├── MAKEFILE
+│   ├── MAKEVERTS.C
+│   ├── MARIO.PPM
+│   ├── MORPH.C
+│   ├── MORPHDEMO.C
+│   ├── MORPHDEMO.H
+│   ├── PPM2CTEX.C
+│   ├── SPEC
+│   ├── STATIC.C
+│   └── ZBUF.C
+├── MORPHFACES/
+│   ├── CFB.C
+│   ├── DATA.C
+│   ├── DRAM_STACK.C
+│   ├── DYNAMIC.C
+│   ├── ED.PPM
+│   ├── ED_TJ.T
+│   ├── ED_TJ.V
+│   ├── LIBAUX.A
+│   ├── MAKEFILE
+│   ├── MEDIT.C
+│   ├── MEDIT2C.C
+│   ├── MORPH.C
+│   ├── MORPHDEMO
+│   ├── MORPHFACES.C
+│   ├── MORPHFACES.H
+│   ├── NOTES
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── TJ.PPM
+│   └── ZBUF.C
+├── MPEGAUDIO.DELETED/
+│   ├── BITSTREAMS/
+│   │   ├── FEED.AIFF.MPG
+│   │   ├── JAMES.AIFF.MPG
+│   │   ├── NEWYORK.MPG
+│   │   ├── SIN.AIFF.MPG
+│   │   └── VIOLIN.MPG
+│   ├── DUMP.C
+│   ├── DUMP.H
+│   ├── DUMPFILTER.C
+│   ├── MAKEFILE
+│   ├── MPEGAUDIO.C
+│   ├── MPEGAUDIO.H
+│   └── SPEC
+├── MUSIC/
+│   ├── AUDIO.C
+│   ├── AUDIO.H
+│   ├── CHANNELUI.C
+│   ├── CHANNELUI.H
+│   ├── CONTROLLER.C
+│   ├── CURSOR.C
+│   ├── CURSOR.H
+│   ├── DIGIT6FONT.H
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── GFX.C
+│   ├── GFX.H
+│   ├── GFX_TRI.H
+│   ├── GFX_VTX.H
+│   ├── GFXCFB.C
+│   ├── GFXDYNAMIC.C
+│   ├── GFXINIT.C
+│   ├── GFXSTATIC.C
+│   ├── GFXYIELD.C
+│   ├── GFXZBUFFER.C
+│   ├── HIST.C
+│   ├── HIST.H
+│   ├── LETTERS.H
+│   ├── LOG.FMT
+│   ├── MAKEFILE
+│   ├── MISC.C
+│   ├── MISC.H
+│   ├── MUSIC.C
+│   ├── MUSIC.H
+│   ├── MUSICROM.H
+│   ├── MUSICUI.C
+│   ├── MUSICUI.H
+│   ├── PERFORMANCE.C
+│   ├── PERFORMANCE.H
+│   ├── PINFONT.H
+│   ├── SEQUENCE.C
+│   ├── SEQUENCE.H
+│   ├── SNDPLAYUI.C
+│   ├── SNDPLAYUI.H
+│   ├── SPEC
+│   ├── SPEC_EM
+│   ├── TEXTURE/
+│   │   ├── AUTOQ.RGB
+│   │   ├── CRSR.RGB
+│   │   ├── CUEB.RGB
+│   │   ├── CUEF.RGB
+│   │   ├── DIGIT6.RGB
+│   │   ├── FWD.RGB
+│   │   ├── LETTERS.RGB
+│   │   ├── LPEN.RGB
+│   │   ├── MINUS.RGB
+│   │   ├── NBOX.RGB
+│   │   ├── PINFONT1.RGB
+│   │   ├── PLAY.RGB
+│   │   ├── PLUS.RGB
+│   │   ├── REW.RGB
+│   │   ├── SFXPLAY.RGB
+│   │   └── STOP.RGB
+│   ├── TRANSPORT.C
+│   ├── TRANSPORT.H
+│   ├── UI.H
+│   ├── UIEVENT.H
+│   ├── UIPANE.C
+│   ├── UIPANE.H
+│   ├── UIUTILS.C
+│   ├── UNIVERSALSP.H
+│   ├── UTILS.C
+│   └── UTILS.H
+├── MVTFLT/
+│   ├── ACOS_F.H
+│   ├── AUDIO.C
+│   ├── AUDIO.H
+│   ├── GFX.H
+│   ├── GFXCFB.C
+│   ├── GFXDYNAMIC.C
+│   ├── GFXINIT.C
+│   ├── GFXSTATIC.C
+│   ├── GFXYIELD.C
+│   ├── GFXZBUFFER.C
+│   ├── LOG.FMT
+│   ├── MAKEFILE
+│   ├── MATRIX.C
+│   ├── MATRIX.H
+│   ├── MISC.C
+│   ├── MISC.H
+│   ├── MODEL.C
+│   ├── MODEL.H
+│   ├── MODEL_AUX.H
+│   ├── MVTDATA.C
+│   ├── MVTDEFS.H
+│   ├── MVTRECORD.C
+│   ├── MVTRECORD.H
+│   ├── PARSE.C
+│   ├── SCHED.C
+│   ├── SCHED.H
+│   ├── SPEC
+│   ├── STACKS.C
+│   ├── STACKS.H
+│   ├── VECTOR.C
+│   ├── VECTOR.H
+│   ├── WALK.C
+│   ├── WALK.H
+│   └── WALKROM.H
+├── MVTPORTALS/
+│   ├── ACOS_F.H
+│   ├── AUDIO.C
+│   ├── AUDIO.H
+│   ├── CHAMBER.C
+│   ├── CHAMBER.H
+│   ├── CHAPEL.C
+│   ├── CHAPEL.H
+│   ├── DINEHALL.C
+│   ├── DINEHALL.H
+│   ├── GFX.H
+│   ├── GFXCFB.C
+│   ├── GFXDYNAMIC.C
+│   ├── GFXINIT.C
+│   ├── GFXSTATIC.C
+│   ├── GFXYIELD.C
+│   ├── GFXZBUFFER.C
+│   ├── HALL.C
+│   ├── HALL.H
+│   ├── HIFREQTEX.H
+│   ├── LOG.FMT
+│   ├── LONGHALL.C
+│   ├── LONGHALL.H
+│   ├── LOWERSTAIRS.C
+│   ├── LOWERSTAIRS.H
+│   ├── MAKEFILE
+│   ├── MATRIX.C
+│   ├── MATRIX.H
+│   ├── MISC.C
+│   ├── MISC.H
+│   ├── MVTDEFS.H
+│   ├── MVTRECORD.C
+│   ├── MVTRECORD.H
+│   ├── NOOSEROOM.C
+│   ├── NOOSEROOM.H
+│   ├── ORIGINALHOUSE_MVTRECORD.C
+│   ├── ORIGINALHOUSE_PORTALS.C
+│   ├── ORIGINALHOUSE_PORTALS.H
+│   ├── ORIGINALHOUSE_ROOT.C
+│   ├── OUTPUT.H
+│   ├── PARSE.C
+│   ├── SCHED.C
+│   ├── SCHED.H
+│   ├── SHORTHALL.C
+│   ├── SHORTHALL.H
+│   ├── SPEC
+│   ├── STACKS.C
+│   ├── STACKS.H
+│   ├── UPPERSTAIRS.C
+│   ├── UPPERSTAIRS.H
+│   ├── VECTOR.C
+│   ├── VECTOR.H
+│   ├── WALK.C
+│   ├── WALK.H
+│   └── WALKROM.H
+├── MVTWALK/
+│   ├── ACOS_I.H
+│   ├── AUDIO.C
+│   ├── AUDIO.H
+│   ├── CHAMBER.C
+│   ├── CHAMBER.H
+│   ├── CHAPEL.C
+│   ├── CHAPEL.H
+│   ├── DINEHALL.C
+│   ├── DINEHALL.H
+│   ├── GFX.H
+│   ├── GFXCFB.C
+│   ├── GFXDYNAMIC.C
+│   ├── GFXINIT.C
+│   ├── GFXSTATIC.C
+│   ├── GFXYIELD.C
+│   ├── GFXZBUFFER.C
+│   ├── HALL.C
+│   ├── HALL.H
+│   ├── HIFREQTEX.H
+│   ├── LOG.FMT
+│   ├── LONGHALL.C
+│   ├── LONGHALL.H
+│   ├── LOWERSTAIRS.C
+│   ├── LOWERSTAIRS.H
+│   ├── MAKEFILE
+│   ├── MATRIX.C
+│   ├── MATRIX.H
+│   ├── MISC.C
+│   ├── MISC.H
+│   ├── MVTDEFS.H
+│   ├── MVTVIEW.C
+│   ├── MVTVIEW.H
+│   ├── MVTVIEW_DL.H
+│   ├── NOOSEROOM.C
+│   ├── NOOSEROOM.H
+│   ├── ORIGINALHOUSE_MVT.C
+│   ├── ORIGINALHOUSE_MVT_DL.C
+│   ├── ORIGINALHOUSE_PORTALS.C
+│   ├── ORIGINALHOUSE_PORTALS.H
+│   ├── ORIGINALHOUSE_ROOT.C
+│   ├── SCHED.C
+│   ├── SCHED.H
+│   ├── SHORTHALL.C
+│   ├── SHORTHALL.H
+│   ├── SPEC
+│   ├── STACKS.C
+│   ├── STACKS.H
+│   ├── UPORTALS.C
+│   ├── UPPERSTAIRS.C
+│   ├── UPPERSTAIRS.H
+│   ├── VECTOR.C
+│   ├── VECTOR.H
+│   ├── WALK.C
+│   ├── WALK.H
+│   └── WALKROM.H
+├── NOSPAK/
+│   ├── LIB/
+│   │   ├── LIBNOS.H
+│   │   ├── LIBNOS.UU
+│   │   ├── LIBNOS_JPN.UU
+│   │   ├── MAKEFILE
+│   │   └── NCODE.H
+│   ├── MAKEFILE
+│   ├── MAN/
+│   │   ├── MAKEFILE
+│   │   ├── NOSLOADFONT.MAN
+│   │   ├── NOSLOADFONTJ.MAN
+│   │   ├── NOSPAKMENU.MAN
+│   │   └── NOSPAKMENUJ.MAN
+│   ├── README
+│   └── SRC/
+│       ├── CANVAS.C
+│       ├── CANVAS.S
+│       ├── LOADFONT.S
+│       ├── MAKEFILE
+│       ├── PAKMENU.C
+│       ├── PAKMENU.H
+│       └── PAKMENU.S
+├── NRSPLIGHT/
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── FSPHERE.DAT
+│   ├── FSPHERE.DL
+│   ├── I4BUMP.H
+│   ├── I4LARGE.H
+│   ├── I4SMALL.H
+│   ├── MAKEFILE
+│   ├── RSPLIGHT.C
+│   ├── RSPLIGHT.H
+│   ├── SPEC
+│   ├── SPHERE.DAT
+│   ├── SPHERE.DL
+│   ├── STATIC.C
+│   ├── STATIC.H
+│   └── ZBUFFER.C
+├── NTRON.SKIP/
+│   ├── CFB.C
+│   ├── DUMP.C
+│   ├── DUMP.H
+│   ├── DYNAMIC.C
+│   ├── MAKEFILE
+│   ├── MAKEGRID.C
+│   ├── SPEC
+│   ├── TRON.C
+│   ├── TRON.H
+│   └── ZBUFFER.C
+├── ONETRI/
+│   ├── BRICK.H
+│   ├── CFB.C
+│   ├── DRAM_STACK.C
+│   ├── MAKEFILE
+│   ├── ONETRI.C
+│   ├── ONETRI.H
+│   ├── RDP_OUTPUT.C
+│   ├── RDP_OUTPUT_LEN.C
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   └── STATIC.C
+├── OSCOREFUNC/
+│   ├── BITFLL.C
+│   ├── BUFFER.C
+│   ├── CCONST.C
+│   ├── COREFUNC.H
+│   ├── DIV.C
+│   ├── DOGLOAD.SH
+│   ├── END_PROGRAM.S
+│   ├── EVENT0.C
+│   ├── INT0.C
+│   ├── INT1.C
+│   ├── INT2.C
+│   ├── INT3.C
+│   ├── INT4.C
+│   ├── LLTEST.C
+│   ├── LONGLONG.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── MAKEULTRA
+│   ├── MESG0.C
+│   ├── MESG1.C
+│   ├── MESG2.C
+│   ├── MESG3.C
+│   ├── MESG4.C
+│   ├── MESG5.C
+│   ├── MESG6.C
+│   ├── SPEC
+│   ├── SPEC.ULTRA
+│   ├── T
+│   ├── THREAD.C
+│   ├── THREAD.H
+│   ├── THREAD0.C
+│   ├── THREAD1.C
+│   ├── THREAD2.C
+│   ├── THREAD3.C
+│   ├── THREAD4.C
+│   ├── THREAD5.C
+│   ├── THREAD6.C
+│   ├── THREAD7.C
+│   ├── THREAD8.C
+│   ├── THREAD9.C
+│   ├── THREADASM.S
+│   ├── TLB0.C
+│   └── TLB1.C
+├── OSPERF/
+│   ├── INT0.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── PERF.H
+│   └── SPEC
+├── OSPIF/
+│   ├── BUFFER.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── OSTIME.H
+│   ├── PIF.C
+│   ├── SPEC
+│   ├── TIMER1.C
+│   ├── TIMER2.C
+│   └── TIMER3.C
+├── OSPROF/
+│   ├── BUFFER.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── OSPROF.H
+│   ├── PROF.C
+│   ├── SPEC
+│   ├── TIMER1.C
+│   ├── TIMER2.C
+│   └── TIMER3.C
+├── OSREBOOT/
+│   ├── BOOT0.C
+│   ├── BOOT1.C
+│   ├── MAKEFILE
+│   ├── REBOOT.H
+│   └── SPEC
+├── OVERLAY/
+│   ├── BRICK.H
+│   ├── CFB.C
+│   ├── DRAM_STACK.C
+│   ├── MAKEFILE
+│   ├── OVERLAY.C
+│   ├── OVERLAY.H
+│   ├── PLAIN.C
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   └── TEXTURE.C
+├── PERFCNTR/
+│   ├── BRICK.H
+│   ├── CFB.C
+│   ├── DRAM_STACK.C
+│   ├── DYNAMIC.C
+│   ├── MAKEFILE
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── TRIVIAL.C
+│   ├── TRIVIAL.H
+│   ├── WALK_AROUND.C
+│   ├── WALK_AROUND.H
+│   └── ZBUF.C
+├── PERFMONKEY/
+│   ├── CFB.C
+│   ├── COLORBAR.RGB
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── DUMP.C
+│   ├── DUMP.H
+│   ├── DUMPSAVE.C
+│   ├── DYNAMIC.C
+│   ├── GRID.C
+│   ├── MAKEFILE
+│   ├── MBI2READ.C
+│   ├── MONKEYFUNCS.C
+│   ├── MONKEYFUNCS.H
+│   ├── PERF.C
+│   ├── PERF.H
+│   ├── RDPFUNCS.C
+│   ├── RDPFUNCS.H
+│   ├── README
+│   ├── RESULTS
+│   ├── RGBA16CBAR.H
+│   ├── RSPFUNCS.C
+│   ├── RSPFUNCS.H
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── STATIC.H
+│   └── ZBUFFER.C
+├── PFS/
+│   ├── ASCI.C
+│   ├── CFB.C
+│   ├── EEP_TEST.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── NU64SYS.C
+│   ├── README
+│   ├── SPEC
+│   ├── TEXTLIB.C
+│   ├── TEXTLIB.H
+│   └── THREAD.H
+├── PLAYSEQ/
+│   ├── MAKEFILE
+│   ├── PLAYSEQ.C
+│   ├── PLAYSEQ.FB
+│   ├── PLAYSEQ.H
+│   └── SPEC
+├── POLYLINE/
+│   ├── CFB.C
+│   ├── LINES.C
+│   ├── LINES.H
+│   ├── MAKEFILE
+│   ├── MAKESPHERE.C
+│   ├── README
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── STATIC.H
+│   └── ZBUFFER.C
+├── PRINT/
+│   ├── MAKEFILE
+│   ├── PRINT.C
+│   ├── PRINT.H
+│   └── SPEC
+├── RDBTEST/
+│   ├── AUDIO.C
+│   ├── AUDIO.H
+│   ├── AUDIOMGR.C
+│   ├── CONTROLLER.C
+│   ├── GFX.C
+│   ├── GFX.H
+│   ├── GFX_TRI.H
+│   ├── GFX_VTX.H
+│   ├── GFXCFB.C
+│   ├── GFXDLISTS.C
+│   ├── GFXDYNAMIC.C
+│   ├── GFXINIT.C
+│   ├── GFXSTACK.C
+│   ├── GFXSTATIC.C
+│   ├── GFXYIELD.C
+│   ├── GFXZBUFFER.C
+│   ├── IDLE.C
+│   ├── MAKEFILE
+│   ├── MISC.C
+│   ├── MISC.H
+│   ├── RDBTEST/
+│   │   └── LOCDEFS
+│   ├── RDBTEST.C
+│   ├── RDBTEST.H
+│   ├── RDBTEST_D/
+│   │   └── LOCDEFS
+│   ├── RDBTEST_ROM/
+│   │   └── LOCDEFS
+│   └── SPEC
+├── RDPATT/
+│   ├── BALL_TRI.H
+│   ├── BALL_VTX.H
+│   ├── CASES.C
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── INIT.C
+│   ├── LOGO_TRI.H
+│   ├── LOGO_VTX.H
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── README
+│   ├── SPEC
+│   ├── SPHERE.DAT
+│   ├── SPHERE.DL
+│   ├── STATIC.C
+│   ├── TEXTURE/
+│   │   ├── CHECKER.RGB
+│   │   ├── CHECKER.RGBA
+│   │   ├── COLORBAR.RGB
+│   │   ├── DANA_TINY.RGB
+│   │   ├── EYE.RGB
+│   │   ├── GRANITE.2.BW
+│   │   ├── GRANITE.3.BW
+│   │   ├── GRID.RGB
+│   │   ├── GRID.RGBA
+│   │   ├── HAEBERLI_FIXED.BW
+│   │   ├── LUNA.RGB
+│   │   ├── MAKEFILE
+│   │   ├── MARIO_1.RGB
+│   │   ├── MARIO_2.RGB
+│   │   ├── MARIO_32.RGB
+│   │   ├── NOISE.RGB
+│   │   ├── PHONG.RGBA
+│   │   ├── TREE_32.RGBA
+│   │   └── TYMES-ELFIN.BW
+│   ├── TMEMDATA/
+│   │   └── MAKEFILE
+│   └── ZBUFFER.C
+├── RDPATT_HW/
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── FRAC_TRI.H
+│   ├── FRAC_VTX.H
+│   ├── HAEBERLI_FIXED.H
+│   ├── IA4CIRCLE.H
+│   ├── IA4TREE2.H
+│   ├── INIT.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── RGBA16BLUE.H
+│   ├── RGBA16BLUE2.H
+│   ├── RGBA16GREEN.H
+│   ├── RGBA16GREEN2.H
+│   ├── RGBA16RED.H
+│   ├── RGBA16RED2.H
+│   ├── SPEC
+│   ├── SPEC_EM
+│   ├── SPIN_TORUS_TRI.H
+│   ├── SPIN_TORUS_VTX.H
+│   ├── STATIC.C
+│   ├── TORUS_CMDS.H
+│   ├── TORUS_VTX.H
+│   ├── TYMES-ELFIN.H
+│   ├── U64_TRI.H
+│   ├── U64_VTX.H
+│   └── ZBUFFER.C
+├── RDPCOV/
+│   ├── BALL_TRI.H
+│   ├── BALL_VTX.H
+│   ├── CASES.C
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── INIT.C
+│   ├── LOGO_TRI.H
+│   ├── LOGO_VTX.H
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── README
+│   ├── SPEC
+│   ├── SPHERE.DAT
+│   ├── SPHERE.DL
+│   ├── STATIC.C
+│   ├── TEXTURE/
+│   │   ├── CHECKER.RGB
+│   │   ├── CHECKER.RGBA
+│   │   ├── COLORBAR.RGB
+│   │   ├── DANA_TINY.RGB
+│   │   ├── EYE.RGB
+│   │   ├── GRANITE.2.BW
+│   │   ├── GRANITE.3.BW
+│   │   ├── GRID.RGB
+│   │   ├── GRID.RGBA
+│   │   ├── HAEBERLI_FIXED.BW
+│   │   ├── LUNA.RGB
+│   │   ├── MAKEFILE
+│   │   ├── MARIO_1.RGB
+│   │   ├── MARIO_2.RGB
+│   │   ├── MARIO_32.RGB
+│   │   ├── NOISE.RGB
+│   │   ├── PHONG.RGBA
+│   │   ├── TREE_32.RGBA
+│   │   └── TYMES-ELFIN.BW
+│   ├── TMEMDATA/
+│   │   └── MAKEFILE
+│   └── ZBUFFER.C
+├── RDPCOV_HW/
+│   ├── BALL_TRI.H
+│   ├── BALL_VTX.H
+│   ├── CASES.C
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── CSEWCRITICAL_TEX.H
+│   ├── INIT.C
+│   ├── LOGO_TRI.H
+│   ├── LOGO_VTX.H
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── SPEC
+│   ├── SPEC_EM
+│   ├── SPHERE.DAT
+│   ├── SPHERE.DL
+│   ├── STATIC.C
+│   ├── TEXTURE/
+│   │   ├── COLORBAR.RGB
+│   │   ├── DANA_TINY.RGB
+│   │   ├── GRID.RGB
+│   │   └── PHONG.RGBA
+│   └── ZBUFFER.C
+├── RDPEW/
+│   ├── BALL_TRI.H
+│   ├── BALL_VTX.H
+│   ├── CASES.C
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── INIT.C
+│   ├── LOGO_TRI.H
+│   ├── LOGO_VTX.H
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── README
+│   ├── SPEC
+│   ├── SPHERE.DAT
+│   ├── SPHERE.DL
+│   ├── STATIC.C
+│   ├── TEXTURE/
+│   │   ├── CHECKER.RGB
+│   │   ├── CHECKER.RGBA
+│   │   ├── COLORBAR.RGB
+│   │   ├── DANA_TINY.RGB
+│   │   ├── EYE.RGB
+│   │   ├── GRANITE.2.BW
+│   │   ├── GRANITE.3.BW
+│   │   ├── GRID.RGB
+│   │   ├── GRID.RGBA
+│   │   ├── HAEBERLI_FIXED.BW
+│   │   ├── LUNA.RGB
+│   │   ├── MAKEFILE
+│   │   ├── MARIO_1.RGB
+│   │   ├── MARIO_2.RGB
+│   │   ├── MARIO_32.RGB
+│   │   ├── NOISE.RGB
+│   │   ├── PHONG.RGBA
+│   │   ├── TREE_32.RGBA
+│   │   └── TYMES-ELFIN.BW
+│   ├── TMEMDATA/
+│   │   └── MAKEFILE
+│   └── ZBUFFER.C
+├── RDPEW_HW/
+│   ├── B25_TRI.H
+│   ├── B25_VTX.H
+│   ├── CFB.C
+│   ├── CHAIR_TRI.H
+│   ├── CHAIR_VTX.H
+│   ├── CLIP_TRI.H
+│   ├── CLIP_VTX.H
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── COW_TRI.H
+│   ├── COW_VTX.H
+│   ├── INIT.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── QSIM_PRIMS.H
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── SKULL_TRI.H
+│   ├── SKULL_VTX.H
+│   ├── SPEC
+│   ├── SPEC_EM
+│   ├── STATIC.C
+│   ├── VW_TRI.H
+│   ├── VW_VTX.H
+│   └── ZBUFFER.C
+├── RDPFB_HW/
+│   ├── BOOT.C
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── INIT.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── SPEC
+│   ├── STATIC.C
+│   └── ZBUFFER.C
+├── RDPMS/
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── I4SPEC.H
+│   ├── I4SPECA.H
+│   ├── I4SPECC.H
+│   ├── IA4TREE2.H
+│   ├── IA8SPEC.H
+│   ├── IA8SPECA.H
+│   ├── INIT.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── README
+│   ├── RGBA16DANA.H
+│   ├── RGBA16GRID.H
+│   ├── RGBA16RAINBOW.H
+│   ├── RGBA16SPEC.H
+│   ├── RGBA16TOWN.H
+│   ├── RGBA8DANA.H
+│   ├── SPEC
+│   ├── SPHERE.DAT
+│   ├── SPHERE.DL
+│   ├── STATIC.C
+│   ├── TESTIT
+│   └── ZBUFFER.C
+├── RDPMS_HW/
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── I4SPEC.H
+│   ├── I4SPECA.H
+│   ├── I4SPECC.H
+│   ├── IA4TREE2.H
+│   ├── IA8SPEC.H
+│   ├── IA8SPECA.H
+│   ├── INIT.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── RGBA16GRID.H
+│   ├── RGBA16RAINBOW.H
+│   ├── RGBA16TOWN.H
+│   ├── SPEC
+│   ├── SPEC_EM
+│   ├── SPHERE.DAT
+│   ├── SPHERE.DL
+│   ├── STATIC.C
+│   └── ZBUFFER.C
+├── RDPTEST/
+│   ├── DYNAMIC.C
+│   ├── INIT.C
+│   ├── LIBMEM.C
+│   ├── LIBMEM.H
+│   ├── MAKEFILE
+│   ├── RDPTEST.C
+│   ├── RDPTEST.H
+│   └── SPEC
+├── RDPTEX/
+│   ├── BALL_TRI.H
+│   ├── BALL_VTX.H
+│   ├── CASES.C
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── GOLDEN/
+│   │   ├── MIPMAP1.MEM.Z
+│   │   ├── MIPMAP1.RDP.Z
+│   │   ├── MIPMAP2.MEM.Z
+│   │   └── MIPMAP2.RDP.Z
+│   ├── INIT.C
+│   ├── LOGO_TRI.H
+│   ├── LOGO_VTX.H
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── README
+│   ├── SPEC
+│   ├── SPHERE.DAT
+│   ├── SPHERE.DL
+│   ├── STATIC.C
+│   ├── TEXTURE/
+│   │   ├── CHECKER.RGB
+│   │   ├── CHECKER.RGBA
+│   │   ├── COLORBAR.RGB
+│   │   ├── DANA_TINY.RGB
+│   │   ├── EYE.RGB
+│   │   ├── GRANITE.2.BW
+│   │   ├── GRANITE.3.BW
+│   │   ├── GRID.RGB
+│   │   ├── GRID.RGBA
+│   │   ├── HAEBERLI_FIXED.BW
+│   │   ├── LUNA.RGB
+│   │   ├── MAKEFILE
+│   │   ├── MARIO_1.RGB
+│   │   ├── MARIO_2.RGB
+│   │   ├── MARIO_32.RGB
+│   │   ├── NOISE.RGB
+│   │   ├── PHONG.RGBA
+│   │   ├── TREE_32.RGBA
+│   │   └── TYMES-ELFIN.BW
+│   └── ZBUFFER.C
+├── RDPTEX_HW/
+│   ├── CFB.C
+│   ├── CI4CIRCLE.H
+│   ├── CI8CIRCLE.H
+│   ├── CITEST0.H
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── I4ODDCHECK.H
+│   ├── I8CRATER16MM.H
+│   ├── I8CRATER32.H
+│   ├── IA4TREE2.H
+│   ├── INIT.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── RGBA16CHECKERMM.H
+│   ├── RGBA16GRIDMM.H
+│   ├── RUNWAY_CMDS.H
+│   ├── RUNWAY_VTX.H
+│   ├── SPEC
+│   ├── SPEC_EM
+│   ├── STATIC.C
+│   ├── TLUT0.H
+│   ├── TLUT1.H
+│   ├── TLUT2.H
+│   ├── TLUT3.H
+│   ├── TORUS_CMDS.H
+│   ├── TORUS_VTX.H
+│   ├── YUVBARS.H
+│   └── ZBUFFER.C
+├── RDPVECTOR/
+│   ├── BL.C
+│   ├── BL.H
+│   ├── BL_STATIC.C
+│   ├── BL_TEX1.H
+│   ├── BOOT.C
+│   ├── CC.C
+│   ├── CC.H
+│   ├── CC_STATIC.C
+│   ├── CC_TEX.H
+│   ├── CFB.C
+│   ├── CHECKSUM.H
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── COPY_TEXRECT.C
+│   ├── CS.C
+│   ├── CS.H
+│   ├── CS_HARDCODED_TRIS.H
+│   ├── CS_STATIC.C
+│   ├── EW.C
+│   ├── EW.H
+│   ├── EW_STATIC.C
+│   ├── GETIMAGES.C
+│   ├── INIT.C
+│   ├── IRAMP256_MOD_7.H
+│   ├── LINEARRAMP16.H
+│   ├── LOADTLUT.H
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── MAP.H
+│   ├── MKA5TEX.C
+│   ├── MKRANDTEX.C
+│   ├── MS.C
+│   ├── MS.H
+│   ├── MS_STATIC.C
+│   ├── MS_VECTOR.RDRAM.Z
+│   ├── RDP.ASCII
+│   ├── RDP31DATA.H
+│   ├── RDPASCII2RDRAM.C
+│   ├── RDPVECTOR.H
+│   ├── README
+│   ├── RGBA16CHECKERMM.H
+│   ├── RGBA16DANA.H
+│   ├── RGBA16DATA.H
+│   ├── RGBA16DATA_BAR.H
+│   ├── RGBA16LONGSPAN.H
+│   ├── RGBA16POWERSOFTWOMM.H
+│   ├── RGBA32PATTERN.H
+│   ├── SPACER.H
+│   ├── SPEC
+│   ├── ST.C
+│   ├── ST.H
+│   ├── ST_STATIC.C
+│   ├── TC.C
+│   ├── TC.H
+│   ├── TC_STATIC.C
+│   ├── TEXTURE.C
+│   ├── TEXTURE.H
+│   ├── TF.C
+│   ├── TF.H
+│   ├── TF_STATIC.C
+│   ├── TF_TEX.H
+│   ├── TM.C
+│   ├── TM.H
+│   ├── TM_STATIC.C
+│   ├── TOPLEVEL.C
+│   ├── TOPLEVEL.H
+│   ├── TORUS_CMDS.H
+│   ├── TORUS_VTX.H
+│   ├── YUVBARS.H
+│   └── ZBUFFER.C
+├── RGTEST/
+│   ├── MAKEFILE
+│   ├── MEMORY.C
+│   ├── PARSE.C
+│   ├── RGTEST.C
+│   ├── RGTEST.H
+│   └── SPEC
+├── RSPGEN/
+│   ├── CFB.C
+│   ├── CFB.O
+│   ├── CODESEGMENT.O
+│   ├── DYNAMIC.C
+│   ├── DYNAMIC.O
+│   ├── INIT.C
+│   ├── INIT.O
+│   ├── MAIN.C
+│   ├── MAIN.O
+│   ├── MAKEDEPEND
+│   ├── MAKEFILE
+│   ├── NOOP_96.H
+│   ├── README
+│   ├── ROM
+│   ├── RSPVERIF
+│   ├── RSPVERIF.C
+│   ├── RSPVERIF.H
+│   ├── RSPVERIF.O
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── STATIC.O
+│   ├── ZBUFFER.C
+│   └── ZBUFFER.O
+├── RSPLIGHT/
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── FSPHERE.DAT
+│   ├── FSPHERE.DL
+│   ├── GOLDEN/
+│   │   ├── IMAGE01.RGB.GZ
+│   │   ├── IMAGE02.RGB.GZ
+│   │   ├── IMAGE03.RGB.GZ
+│   │   ├── IMAGE04.RGB.GZ
+│   │   ├── IMAGE05.RGB.GZ
+│   │   ├── IMAGE06.RGB.GZ
+│   │   ├── IMAGE07.RGB.GZ
+│   │   ├── IMAGE08.RGB.GZ
+│   │   ├── IMAGE09.RGB.GZ
+│   │   ├── IMAGE10.RGB.GZ
+│   │   ├── IMAGE11.RGB.GZ
+│   │   ├── IMAGE12.RGB.GZ
+│   │   ├── IMAGE13.RGB.GZ
+│   │   ├── IMAGE14.RGB.GZ
+│   │   ├── IMAGE15.RGB.GZ
+│   │   ├── IMAGE16.RGB.GZ
+│   │   ├── IMAGE17.RGB.GZ
+│   │   ├── IMAGE18.RGB.GZ
+│   │   ├── IMAGE19.RGB.GZ
+│   │   ├── IMAGE20.RGB.GZ
+│   │   ├── IMAGE21.RGB.GZ
+│   │   ├── IMAGE22.RGB.GZ
+│   │   ├── IMAGE23.RGB.GZ
+│   │   ├── IMAGE24.RGB.GZ
+│   │   ├── IMAGE25.RGB.GZ
+│   │   ├── IMAGE26.RGB.GZ
+│   │   ├── IMAGE27.RGB.GZ
+│   │   ├── IMAGE28.RGB.GZ
+│   │   ├── IMAGE29.RGB.GZ
+│   │   ├── IMAGE30.RGB.GZ
+│   │   ├── IMAGE31.RGB.GZ
+│   │   ├── SNAP28.RGB.GZ
+│   │   ├── SNAP29.RGB.GZ
+│   │   └── SNAP30.RGB.GZ
+│   ├── I4BUMP.H
+│   ├── I4LARGE.H
+│   ├── I4SMALL.H
+│   ├── I4SPEC.H
+│   ├── IA8SPEC.H
+│   ├── INIT.C
+│   ├── LIGHT/
+│   │   ├── LIGHT.C
+│   │   └── MAKEFILE
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── README
+│   ├── RSPVERIF.C
+│   ├── RSPVERIF.H
+│   ├── SPEC
+│   ├── SPHERE.DAT
+│   ├── SPHERE.DL
+│   ├── STATIC.C
+│   └── ZBUFFER.C
+├── RSPMTX/
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── INDATA/
+│   │   └── MAKEFILE
+│   ├── INIT.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── README
+│   ├── RSPVERIF.C
+│   ├── RSPVERIF.H
+│   ├── SPEC
+│   ├── STATIC.C
+│   └── ZBUFFER.C
+├── RTMONKY/
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── INDATA/
+│   │   └── MAKEFILE
+│   ├── MAKEFILE
+│   ├── ONETRI.C
+│   ├── ONETRI.H
+│   ├── SPEC
+│   ├── SPEC_EM
+│   ├── STATIC.C
+│   └── ZBUFFER.C
+├── RTMONKY2/
+│   ├── BRICK.H
+│   ├── CFB.C
+│   ├── DRAM_STACK.C
+│   ├── MAKEFILE
+│   ├── RANDTRI.C
+│   ├── RANDTRI.H
+│   ├── RDP_OUTPUT.C
+│   ├── RDP_OUTPUT_LEN.C
+│   ├── RSP_CFB.C
+│   ├── RTMONKY.C
+│   ├── RTMONKY.H
+│   ├── SPEC
+│   └── STATIC.C
+├── SCISRECT/
+│   ├── BOOT.C
+│   ├── BOOT.H
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── GAME.C
+│   ├── GAME.H
+│   ├── GFXINIT.C
+│   ├── GFXSTATIC.C
+│   ├── MAKEFILE
+│   ├── MOLECULE.RGBA
+│   ├── MOLECULE2.RGBA
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   ├── STATIC.H
+│   ├── TEXTURE.C
+│   └── TEXTURE.H
+├── SHOWVID.DELETED/
+│   ├── ALL.H
+│   ├── CFB.C
+│   ├── DISPLAY.C
+│   ├── DISPLAY.H
+│   ├── DUMP.C
+│   ├── DUMP.H
+│   ├── DUMPFILTER.C
+│   ├── DYNAMIC.C
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── MAIN.C
+│   ├── MAIN.H
+│   ├── MAKEFILE
+│   ├── MPEG_DEC.C
+│   ├── MPEG_LPROTO.H
+│   ├── MPEG_PROTO.H
+│   ├── MPEG_TOK.H
+│   ├── NIDCT.C
+│   ├── NIDCT.H
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   ├── SPGAME.C
+│   ├── STATIC.C
+│   ├── TEXTURE/
+│   │   └── LETTERS.RGB
+│   ├── TOK.C
+│   ├── TOK.H
+│   ├── TOK_PROTO.H
+│   ├── TOKENS.OUT
+│   ├── VTX_GEN.C
+│   └── ZBUFFER.C
+├── SIMPLE/
+│   ├── AUDIO.C
+│   ├── AUDIO.H
+│   ├── AUDIOMGR.C
+│   ├── CONTROLLER.C
+│   ├── GFX.C
+│   ├── GFX.H
+│   ├── GFX_TRI.H
+│   ├── GFX_VTX.H
+│   ├── GFXCFB.C
+│   ├── GFXDLISTS.C
+│   ├── GFXDYNAMIC.C
+│   ├── GFXINIT.C
+│   ├── GFXSTACK.C
+│   ├── GFXSTATIC.C
+│   ├── GFXYIELD.C
+│   ├── GFXZBUFFER.C
+│   ├── MAKEFILE
+│   ├── MISC.C
+│   ├── MISC.H
+│   ├── SIMPLE/
+│   │   ├── LOCDEFS
+│   │   └── LOG.FMT
+│   ├── SIMPLE.C
+│   ├── SIMPLE.H
+│   ├── SIMPLE_D/
+│   │   └── LOCDEFS
+│   ├── SIMPLE_ROM/
+│   │   └── LOCDEFS
+│   └── SPEC
+├── SOAK/
+│   ├── CFB.C
+│   ├── CHECK_SHORT.C
+│   ├── ERROR.C
+│   ├── MAIN.C
+│   ├── MAIN.H
+│   ├── MAKEFILE
+│   ├── RDRAM.C
+│   ├── SPEC
+│   ├── STRESS_EXT.C
+│   └── STRESS_INT.C
+├── SOUNDMONKEY/
+│   ├── MAKEFILE
+│   ├── SOUNDMONKEY.C
+│   ├── SOUNDMONKEY.H
+│   └── SPEC
+├── SPACE/
+│   ├── ACOS_I.H
+│   ├── AUDIO.C
+│   ├── AUDIO.H
+│   ├── ENTERPRISE.C
+│   ├── ENTERPRISE.H
+│   ├── ENTERPRISE_MVT.H
+│   ├── ENTERPRISE_MVT_DL.H
+│   ├── GFX.H
+│   ├── GFXCFB.C
+│   ├── GFXDYNAMIC.C
+│   ├── GFXINIT.C
+│   ├── GFXSTATIC.C
+│   ├── GFXYIELD.C
+│   ├── GFXZBUFFER.C
+│   ├── LOG.FMT
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── MAKESPHERE.C
+│   ├── MATRIX.C
+│   ├── MATRIX.H
+│   ├── MISC.C
+│   ├── MISC.H
+│   ├── MVTDEFS.H
+│   ├── MVTVIEW.C
+│   ├── MVTVIEW.H
+│   ├── MVTVIEW_DL.H
+│   ├── OBJ_DLS.H
+│   ├── OBJ_TEXS.H
+│   ├── OBJ_VERTS.H
+│   ├── SPACE.C
+│   ├── SPACE.H
+│   ├── SPACEROM.H
+│   ├── SPEC
+│   ├── STACKS.C
+│   ├── STACKS.H
+│   ├── TEXTURE/
+│   │   ├── MAHOGANY.RGB
+│   │   └── SPACEBACKGROUND.RGB
+│   ├── VECTOR.C
+│   └── VECTOR.H
+├── SPBACKG/
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── MAIN.C
+│   ├── MAIN.H
+│   ├── MAKEFILE
+│   ├── RSP_CFB.C
+│   ├── SPBACKG.C
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── TEXTURE/
+│   │   └── L2_TV.RGB
+│   └── ZBUFFER.C
+├── SPBENCH/
+│   ├── BALL16X16X8.RGBA
+│   ├── BALL32X16X4.RGBA
+│   ├── BALL32X32X2.RGBA
+│   ├── BALL64X32.RGBA
+│   ├── CONTROLLER.C
+│   ├── FRAMEBUF.C
+│   ├── MAKEFILE
+│   ├── METER.C
+│   ├── PARAM.C
+│   ├── README
+│   ├── SPBENCH.C
+│   ├── SPBENCH.H
+│   └── SPEC
+├── SPGAME/
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── MAIN.C
+│   ├── MAIN.H
+│   ├── MAKEFILE
+│   ├── PICS.C
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   ├── SPGAME.C
+│   ├── STATIC.C
+│   └── TEXTURE/
+│       ├── BALL.RGBA
+│       └── L2_TV.RGB
+├── SPIN/
+│   ├── AIRPORT_DL.H
+│   ├── AIRPORT_VTX.H
+│   ├── ASIN.C
+│   ├── CALLBACK.C
+│   ├── CALLBACK.H
+│   ├── CFB.C
+│   ├── DB/
+│   │   ├── BUMBLE_DL.H
+│   │   ├── BUMBLE_VTX.H
+│   │   ├── CONE_DL.H
+│   │   ├── CONE_VTX.H
+│   │   ├── CROSS_DL.H
+│   │   ├── CROSS_VTX.H
+│   │   ├── CYLINDER_DL.H
+│   │   ├── CYLINDER_VTX.H
+│   │   ├── FRAC_ISLAND_DL.H
+│   │   ├── FRAC_ISLAND_VTX.H
+│   │   ├── FRUSTRUM_DL.H
+│   │   ├── FRUSTRUM_VTX.H
+│   │   ├── PIPE_DL.H
+│   │   ├── PIPE_VTX.H
+│   │   ├── SECTOR_DL.H
+│   │   ├── SECTOR_VTX.H
+│   │   ├── SPHERE_DL.H
+│   │   ├── SPHERE_VTX.H
+│   │   ├── TORII_DL.H
+│   │   ├── TORII_VTX.H
+│   │   ├── TORUS_DL.H
+│   │   ├── TORUS_VTX.H
+│   │   ├── TWIST1_DL.H
+│   │   ├── TWIST1_VTX.H
+│   │   ├── TWIST_DL.H
+│   │   ├── TWIST_VTX.H
+│   │   ├── U64_TRI.H
+│   │   └── U64_VTX.H
+│   ├── DRIVERD.C
+│   ├── DYNAMIC.C
+│   ├── FLY.C
+│   ├── FLY.H
+│   ├── GEN_DL.C
+│   ├── GORGE_DL.H
+│   ├── GORGE_VTX.H
+│   ├── I4GRANITE3.H
+│   ├── I8GRID.H
+│   ├── I8MAND.H
+│   ├── IA16TREE.H
+│   ├── IA4TREE.H
+│   ├── IA8TREE.H
+│   ├── INIT.C
+│   ├── LIBM.H
+│   ├── MAIN.C
+│   ├── MAKEDEPEND
+│   ├── MAKEFILE
+│   ├── MODELS.C
+│   ├── README
+│   ├── RGBA16CHECKMM.H
+│   ├── RGBA16DANA.H
+│   ├── RGBA16GRID.H
+│   ├── RUNWAY_CMDS.H
+│   ├── RUNWAY_VTX.H
+│   ├── SPEC
+│   ├── SPEC_EM
+│   ├── SPIN.C
+│   ├── SPIN.H
+│   ├── SPINCONTROL.H
+│   ├── SPINIT
+│   ├── SPINIT_EM
+│   ├── SPINTCL.C
+│   ├── TEXTURE/
+│   │   ├── CHECK.RGBA
+│   │   ├── CHECK1.RGBA
+│   │   ├── CI4MARIO.H
+│   │   ├── CI8MARIO.H
+│   │   ├── CLOUD.RGB
+│   │   ├── DANA_TINY.RGB
+│   │   ├── FOLIAGE4.RGB
+│   │   ├── GRANITE.3.BW
+│   │   ├── GRID.RGBA
+│   │   ├── LUNA.RGB
+│   │   ├── MAND.RGB
+│   │   ├── MARIO.RGB
+│   │   ├── MARIO64.RGB
+│   │   ├── MOLECULE.RGBA
+│   │   ├── RGBA16CHECKMM.H
+│   │   ├── RGBA16FOLIAGEMM.H
+│   │   ├── RGBA16TREEMM.H
+│   │   └── TREE32.RGBA
+│   ├── TEXTURE.C
+│   ├── TEXTURE.H
+│   ├── TRACK.C
+│   ├── TRACK.H
+│   ├── UI/
+│   │   ├── BLMAIN.TCL
+│   │   ├── BLMODES0
+│   │   ├── BLMODES0.C
+│   │   ├── BLMODES1
+│   │   ├── BLMODES1.C
+│   │   ├── CALLDEFS.H
+│   │   ├── CCMAIN.TCL
+│   │   ├── CREATE_CALLBACK.TCL
+│   │   ├── DEFBL.TCL
+│   │   ├── DEFCC.TCL
+│   │   ├── DEFRSP.TCL
+│   │   ├── DEFTEX.TCL
+│   │   ├── LOADBLOCK.TCL
+│   │   ├── LOADDET.TCL
+│   │   ├── LOADTEX.TCL
+│   │   ├── LOADTILE.TCL
+│   │   ├── LOADTLUT.TCL
+│   │   ├── MAKEFILE
+│   │   ├── RSPMAIN.TCL
+│   │   ├── SCRIPTS/
+│   │   │   ├── DET.REC
+│   │   │   ├── MAKEFILE
+│   │   │   ├── MIP.REC
+│   │   │   ├── TEX_EDGE.REC
+│   │   │   ├── XLU.REC
+│   │   │   └── XLU1.REC
+│   │   ├── SETCONV.TCL
+│   │   ├── SETTILEANDTILESIZE.TCL
+│   │   ├── SETTIMG.TCL
+│   │   ├── SETTOTHER.TCL
+│   │   ├── SPTEX.TCL
+│   │   ├── TEX
+│   │   ├── TEXMAIN.TCL
+│   │   └── TEXSTATEDONE.TCL
+│   ├── VECT.C
+│   ├── VECT.H
+│   └── ZBUFFER.C
+├── SPPLAY/
+│   ├── CFB.C
+│   ├── DRAM_STACK.C
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── MAIN.C
+│   ├── MAIN.H
+│   ├── MAKEFILE
+│   ├── PICS.C
+│   ├── RDP_OUTPUT.C
+│   ├── RDP_OUTPUT_LEN.C
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   ├── SPPLAY.C
+│   ├── STATIC.C
+│   └── TEXTURE/
+│       ├── ANDROM.RGBA
+│       ├── BALL.RGBA
+│       ├── BBORG.RGB
+│       ├── BORG.JPG
+│       ├── LETTERS.RGB
+│       ├── LIT.RGB
+│       ├── PNT.RGBA
+│       ├── SATURN.RGBA
+│       ├── T16X14.RGB
+│       ├── T16X16.RGB
+│       └── TREE_31.RGBA
+├── SPRITEMONKEY/
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── DK.H
+│   ├── DK7.H
+│   ├── MAKEFILE
+│   ├── SPEC
+│   ├── SPRITE.C
+│   ├── SPRITE.H
+│   ├── STATIC.C
+│   └── STATIC.H
+├── SPRITES/
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── INIT.C
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── RDPVERIF.C
+│   ├── RDPVERIF.H
+│   ├── SP1.H
+│   ├── SPEC
+│   ├── STATIC.C
+│   ├── TEXTURE/
+│   │   ├── ANNULAR_61.RGB
+│   │   ├── H0.RGB
+│   │   ├── H1.RGB
+│   │   ├── H2.RGB
+│   │   ├── H3.RGB
+│   │   ├── H4.RGB
+│   │   ├── H5.RGB
+│   │   ├── H6.RGB
+│   │   ├── H7.RGB
+│   │   ├── H8.RGB
+│   │   ├── H9.RGB
+│   │   ├── L2_TV.RGB
+│   │   ├── LCASE.RGB
+│   │   ├── MTPEAK_32.RGB
+│   │   └── UCASE.RGB
+│   └── ZBUFFER.C
+├── SPTEXT/
+│   ├── CFB.C
+│   ├── DYNAMIC.C
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── LCASE_IMG.H
+│   ├── MAIN.C
+│   ├── MAIN.H
+│   ├── MAKEFILE
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   ├── SPTEXT.C
+│   ├── STATIC.C
+│   ├── TEXTURE/
+│   │   └── LETTERS.RGB
+│   └── ZBUFFER.C
+├── STRESS/
+│   ├── ALTIMETER.C
+│   ├── AUDIO.C
+│   ├── AUDIO.H
+│   ├── CFB.C
+│   ├── CLOCK.C
+│   ├── DB/
+│   │   ├── LTSPHERE_DL.H
+│   │   ├── LTSPHERE_VTX.H
+│   │   ├── PALMSHADE_DL.H
+│   │   ├── PALMSHADE_VTX.H
+│   │   ├── PALMTOP_DL.H
+│   │   ├── PALMTOP_VTX.H
+│   │   ├── PALMTRUNK_DL.H
+│   │   ├── PALMTRUNK_VTX.H
+│   │   ├── POOL_DL.H
+│   │   ├── POOL_VTX.H
+│   │   ├── POOLDB.H
+│   │   ├── POOLDB_MAT.H
+│   │   ├── RIDGE_DL.H
+│   │   ├── RIDGE_VTX.H
+│   │   ├── RIDGEDB.H
+│   │   ├── RIDGEDB_MAT.H
+│   │   ├── SAND_DL.H
+│   │   ├── SAND_VTX.H
+│   │   ├── UMBRELLA_DL.H
+│   │   ├── UMBRELLA_VTX.H
+│   │   ├── UMBSHADE_DL.H
+│   │   └── UMBSHADE_VTX.H
+│   ├── DRAM_STACK.C
+│   ├── DYNAMIC.C
+│   ├── FLIGHT_PATH.C
+│   ├── FLIGHT_PATH.H
+│   ├── FLY.C
+│   ├── FLY.H
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── GFXINIT.C
+│   ├── GFXYIELD.C
+│   ├── I4SPEC.H
+│   ├── IA4PALMHALF.H
+│   ├── IA4PALMSHADOW.H
+│   ├── IA4PALMTRUNK.H
+│   ├── IA4UMBSHADOW.H
+│   ├── LETTERS_IMG.H
+│   ├── LOG.FMT
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── MODELS.C
+│   ├── RDP_OUTPUT.C
+│   ├── RDP_OUTPUT_LEN.C
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   ├── SPEC_EM
+│   ├── STRESS.H
+│   ├── STRESSCTRL.H
+│   ├── STRESSIT
+│   ├── STRESSIT_EM
+│   ├── STRESSTCL.C
+│   ├── TEXTURE/
+│   │   ├── BAMBOO5.RGB
+│   │   ├── BAMBOO6.RGB
+│   │   ├── BANK1.RGB
+│   │   ├── BONZAI3.RGB
+│   │   ├── DANA_TINY.RGB
+│   │   ├── DEADTREETOP.RGB
+│   │   ├── DEADTREETRUNK.RGB
+│   │   ├── FOILAGE3.RGB
+│   │   ├── FOILAGE4.RGB
+│   │   ├── GRANITE.3.BW
+│   │   ├── GRASS1.RGB
+│   │   ├── GRASS4.RGB
+│   │   ├── I8SINC.C
+│   │   ├── IMGINFO
+│   │   ├── L2_TV.RGB
+│   │   ├── LUNA.RGB
+│   │   ├── MANDRILL48X42.RGB
+│   │   ├── MARIO_1.RGB
+│   │   ├── PALMHALF.RGB
+│   │   ├── PALMHALF1.RGB
+│   │   ├── PALMSHADOW.RGB
+│   │   ├── PALMTOP.RGB
+│   │   ├── PALMTREE2.RGB
+│   │   ├── PALMTRUNK.RGB
+│   │   ├── PINEBARK1.RGB
+│   │   ├── PINEBARK3.RGB
+│   │   ├── PINEBARK4.RGB
+│   │   ├── RIPPLE1.RGB
+│   │   ├── RIPPLE2.RGB
+│   │   ├── ROCK1.RGB
+│   │   ├── ROCK2.RGB
+│   │   ├── ROCK3.RGB
+│   │   ├── ROCK4.RGB
+│   │   ├── SHELL1.RGB
+│   │   ├── SIDEWALK2.RGB
+│   │   ├── UMBSHADOW.RGB
+│   │   └── WATER1.RGB
+│   ├── TEXTURE.C
+│   ├── TEXTURE.H
+│   ├── UI/
+│   │   └── STRESSUI
+│   ├── VECT.C
+│   ├── VECT.H
+│   ├── WAVES.C
+│   └── ZBUFFER.C
+├── TERRAIN/
+│   ├── BOOT.C
+│   ├── BOOT.H
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── GAME.C
+│   ├── GAME.H
+│   ├── GFXINIT.C
+│   ├── GFXSTATIC.C
+│   ├── LETTERS_IMG.H
+│   ├── MAKEFILE
+│   ├── README
+│   ├── RSP_CFB.C
+│   ├── SHARED.H
+│   ├── SPEC
+│   ├── STATIC.H
+│   ├── TER0_SAVE.H.COOL
+│   ├── TER0_SAVE.H.COOL2
+│   ├── TERRAIN.C
+│   ├── TERRAINFILE
+│   ├── TERRAINLS
+│   ├── TERRAINLSMM
+│   ├── TERRAINLSRGB
+│   ├── TIMING
+│   └── ZBUFFER.C
+├── TEXLIGHT/
+│   ├── BOOT.C
+│   ├── BOOT.H
+│   ├── BRICK.JPG
+│   ├── CFB.C
+│   ├── CONTROLLER.C
+│   ├── CONTROLLER.H
+│   ├── FONT.C
+│   ├── FONT.H
+│   ├── FONT_EXT.H
+│   ├── GAME.C
+│   ├── GAME.H
+│   ├── GFXINIT.C
+│   ├── GFXSTATIC.C
+│   ├── I4SPEC.H
+│   ├── MAKEFILE
+│   ├── RSP_CFB.C
+│   ├── SPEC
+│   ├── STATIC.H
+│   ├── TEAPOT_TRI.H
+│   ├── TEAPOT_VTX.H
+│   ├── TEXTURE.C
+│   ├── TEXTURE.H
+│   └── ZBUFFER.C
+└── TEXTURE/
+    ├── BRICK.RGB
+    ├── CHAINLINK.RGB
+    ├── CHECKER.RGBA
+    ├── LETTERS.RGB
+    ├── MAKEFILE
+    ├── MARIO.RGB
+    ├── MOLECULE.RGBA
+    └── README

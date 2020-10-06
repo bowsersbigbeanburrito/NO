@@ -1,0 +1,577 @@
+dmg/
+├── DMG/
+│   └── XXX__ゼルダの伝説 夢を見る島/
+│       └── Source/
+│           ├── DMG_Zelda_DE_FR/
+│           │   ├── CanadianFrench_01/
+│           │   │   ├── ZE8.DMG
+│           │   │   ├── ZEND.DMG
+│           │   │   ├── ZES.DMG
+│           │   │   ├── ZEX.DMG
+│           │   │   ├── ZMA.DMG
+│           │   │   ├── ZPL.DMG
+│           │   │   ├── ZRAM.DMG
+│           │   │   └── ZROM.DMG
+│           │   ├── CanadianFrench_02/
+│           │   │   ├── BGM_1F.HEX
+│           │   │   ├── BGM_2.HEX
+│           │   │   ├── GBMSDT.DMG
+│           │   │   ├── SE.HEX
+│           │   │   ├── ZBD.DMG
+│           │   │   ├── ZBN.DMG
+│           │   │   ├── ZBS.DMG
+│           │   │   ├── ZCO.DMG
+│           │   │   ├── ZDB.DMG
+│           │   │   ├── ZED.DMG
+│           │   │   ├── ZGB.DMG
+│           │   │   ├── ZGD.DMG
+│           │   │   ├── ZMS.DMG
+│           │   │   ├── ZS1.DMG
+│           │   │   ├── ZSD.DMG
+│           │   │   ├── ZTI.DMG
+│           │   │   └── ZVD.DMG
+│           │   ├── CanadianFrench_03/
+│           │   │   ├── ZE2.DMG
+│           │   │   ├── ZE3.DMG
+│           │   │   ├── ZE4.DMG
+│           │   │   ├── ZE5.DMG
+│           │   │   ├── ZE6.DMG
+│           │   │   ├── ZE7.DMG
+│           │   │   └── ZEN.DMG
+│           │   ├── CanadianFrench_Character/
+│           │   │   ├── C1.CHR
+│           │   │   ├── C2.CHR
+│           │   │   ├── C3.CHR
+│           │   │   ├── C4.CHR
+│           │   │   ├── C5.CHR
+│           │   │   ├── C6.CHR
+│           │   │   ├── C7.CHR
+│           │   │   └── C8.CHR
+│           │   ├── French_01/
+│           │   │   ├── ZE8.DMG
+│           │   │   ├── ZEND.DMG
+│           │   │   ├── ZES.DMG
+│           │   │   ├── ZEX.DMG
+│           │   │   ├── ZMA.DMG
+│           │   │   ├── ZPL.DMG
+│           │   │   ├── ZRAM.DMG
+│           │   │   └── ZROM.DMG
+│           │   ├── French_02/
+│           │   │   ├── BGM_1F.HEX
+│           │   │   ├── BGM_2.HEX
+│           │   │   ├── GBMSDT.DMG
+│           │   │   ├── SE.HEX
+│           │   │   ├── ZBD.DMG
+│           │   │   ├── ZBN.DMG
+│           │   │   ├── ZBS.DMG
+│           │   │   ├── ZCO.DMG
+│           │   │   ├── ZDB.DMG
+│           │   │   ├── ZED.DMG
+│           │   │   ├── ZGB.DMG
+│           │   │   ├── ZGD.DMG
+│           │   │   ├── ZMS.DMG
+│           │   │   ├── ZS1.DMG
+│           │   │   ├── ZSD.DMG
+│           │   │   ├── ZTI.DMG
+│           │   │   └── ZVD.DMG
+│           │   ├── French_03/
+│           │   │   ├── ZE2.DMG
+│           │   │   ├── ZE3.DMG
+│           │   │   ├── ZE4.DMG
+│           │   │   ├── ZE5.DMG
+│           │   │   ├── ZE6.DMG
+│           │   │   ├── ZE7.DMG
+│           │   │   └── ZEN.DMG
+│           │   ├── French_Character/
+│           │   │   ├── C1.CHR
+│           │   │   ├── C2.CHR
+│           │   │   ├── C3.CHR
+│           │   │   ├── C4.CHR
+│           │   │   ├── C5.CHR
+│           │   │   ├── C6.CHR
+│           │   │   ├── C7.CHR
+│           │   │   └── C8.CHR
+│           │   ├── German_01/
+│           │   │   ├── ZE8.DMG
+│           │   │   ├── ZEND.DMG
+│           │   │   ├── ZES.DMG
+│           │   │   ├── ZEX.DMG
+│           │   │   ├── ZMA.DMG
+│           │   │   ├── ZPL.DMG
+│           │   │   ├── ZRAM.DMG
+│           │   │   └── ZROM.DMG
+│           │   ├── German_02/
+│           │   │   ├── BGM_1G.HEX
+│           │   │   ├── BGM_2.HEX
+│           │   │   ├── GBMSDT.DMG
+│           │   │   ├── SE.HEX
+│           │   │   ├── ZBD.DMG
+│           │   │   ├── ZBN.DMG
+│           │   │   ├── ZBS.DMG
+│           │   │   ├── ZCO.DMG
+│           │   │   ├── ZDB.DMG
+│           │   │   ├── ZED.DMG
+│           │   │   ├── ZGB.DMG
+│           │   │   ├── ZGD.DMG
+│           │   │   ├── ZMS.DMG
+│           │   │   ├── ZS1.DMG
+│           │   │   ├── ZSD.DMG
+│           │   │   ├── ZTI.DMG
+│           │   │   └── ZVD.DMG
+│           │   ├── German_03/
+│           │   │   ├── ZE2.DMG
+│           │   │   ├── ZE3.DMG
+│           │   │   ├── ZE4.DMG
+│           │   │   ├── ZE5.DMG
+│           │   │   ├── ZE6.DMG
+│           │   │   ├── ZE7.DMG
+│           │   │   └── ZEN.DMG
+│           │   └── German_Character/
+│           │       ├── C1.CHR
+│           │       ├── C2.CHR
+│           │       ├── C3.CHR
+│           │       ├── C4.CHR
+│           │       ├── C5.CHR
+│           │       ├── C6.CHR
+│           │       ├── C7.CHR
+│           │       └── C8.CHR
+│           ├── DMG_Zelda_DE_FR_v1/
+│           │   ├── French_01/
+│           │   │   ├── ZE8.DMG
+│           │   │   ├── ZEND.DMG
+│           │   │   ├── ZES.DMG
+│           │   │   ├── ZEX.DMG
+│           │   │   ├── ZMA.DMG
+│           │   │   ├── ZPL.DMG
+│           │   │   ├── ZRAM.DMG
+│           │   │   └── ZROM.DMG
+│           │   ├── French_02/
+│           │   │   ├── BGM_1F.HEX
+│           │   │   ├── BGM_2.HEX
+│           │   │   ├── GBMSDT.DMG
+│           │   │   ├── SE.HEX
+│           │   │   ├── ZBD.DMG
+│           │   │   ├── ZBN.DMG
+│           │   │   ├── ZBS.DMG
+│           │   │   ├── ZCO.DMG
+│           │   │   ├── ZDB.DMG
+│           │   │   ├── ZED.DMG
+│           │   │   ├── ZGB.DMG
+│           │   │   ├── ZGD.DMG
+│           │   │   ├── ZMS.DMG
+│           │   │   ├── ZS1.DMG
+│           │   │   ├── ZSD.DMG
+│           │   │   ├── ZTI.DMG
+│           │   │   └── ZVD.DMG
+│           │   ├── French_03/
+│           │   │   ├── ZE2.DMG
+│           │   │   ├── ZE3.DMG
+│           │   │   ├── ZE4.DMG
+│           │   │   ├── ZE5.DMG
+│           │   │   ├── ZE6.DMG
+│           │   │   ├── ZE7.DMG
+│           │   │   └── ZEN.DMG
+│           │   ├── French_Character/
+│           │   │   ├── C1.CHR
+│           │   │   ├── C2.CHR
+│           │   │   ├── C3.CHR
+│           │   │   ├── C4.CHR
+│           │   │   ├── C5.CHR
+│           │   │   ├── C6.CHR
+│           │   │   ├── C7.CHR
+│           │   │   └── C8.CHR
+│           │   ├── German_01/
+│           │   │   ├── ZE8.DMG
+│           │   │   ├── ZEND.DMG
+│           │   │   ├── ZES.DMG
+│           │   │   ├── ZEX.DMG
+│           │   │   ├── ZMA.DMG
+│           │   │   ├── ZPL.DMG
+│           │   │   ├── ZRAM.DMG
+│           │   │   └── ZROM.DMG
+│           │   ├── German_02/
+│           │   │   ├── BGM_1G.HEX
+│           │   │   ├── BGM_2.HEX
+│           │   │   ├── GBMSDT.DMG
+│           │   │   ├── SE.HEX
+│           │   │   ├── ZBD.DMG
+│           │   │   ├── ZBN.DMG
+│           │   │   ├── ZBS.DMG
+│           │   │   ├── ZCO.DMG
+│           │   │   ├── ZDB.DMG
+│           │   │   ├── ZED.DMG
+│           │   │   ├── ZGB.DMG
+│           │   │   ├── ZGD.DMG
+│           │   │   ├── ZMS.DMG
+│           │   │   ├── ZS1.DMG
+│           │   │   ├── ZSD.DMG
+│           │   │   ├── ZTI.DMG
+│           │   │   └── ZVD.DMG
+│           │   ├── German_03/
+│           │   │   ├── ZE2.DMG
+│           │   │   ├── ZE3.DMG
+│           │   │   ├── ZE4.DMG
+│           │   │   ├── ZE5.DMG
+│           │   │   ├── ZE6.DMG
+│           │   │   ├── ZE7.DMG
+│           │   │   └── ZEN.DMG
+│           │   └── German_Character/
+│           │       ├── C1.CHR
+│           │       ├── C2.CHR
+│           │       ├── C3.CHR
+│           │       ├── C4.CHR
+│           │       ├── C5.CHR
+│           │       ├── C6.CHR
+│           │       ├── C7.CHR
+│           │       └── C8.CHR
+│           ├── DMG_Zelda_EN_v2_CFR_v1/
+│           │   ├── CanadianFrench_v1_01/
+│           │   │   ├── ZE8.DMG
+│           │   │   ├── ZEND.DMG
+│           │   │   ├── ZES.DMG
+│           │   │   ├── ZEX.DMG
+│           │   │   ├── ZMA.DMG
+│           │   │   ├── ZPL.DMG
+│           │   │   ├── ZRAM.DMG
+│           │   │   └── ZROM.DMG
+│           │   ├── CanadianFrench_v1_02/
+│           │   │   ├── BGM_1F.HEX
+│           │   │   ├── BGM_2.HEX
+│           │   │   ├── GBMSDT.DMG
+│           │   │   ├── SE.HEX
+│           │   │   ├── ZBD.DMG
+│           │   │   ├── ZBN.DMG
+│           │   │   ├── ZBS.DMG
+│           │   │   ├── ZCO.DMG
+│           │   │   ├── ZDB.DMG
+│           │   │   ├── ZED.DMG
+│           │   │   ├── ZGB.DMG
+│           │   │   ├── ZGD.DMG
+│           │   │   ├── ZMS.DMG
+│           │   │   ├── ZS1.DMG
+│           │   │   ├── ZSD.DMG
+│           │   │   ├── ZTI.DMG
+│           │   │   └── ZVD.DMG
+│           │   ├── CanadianFrench_v1_03/
+│           │   │   ├── ZE2.DMG
+│           │   │   ├── ZE3.DMG
+│           │   │   ├── ZE4.DMG
+│           │   │   ├── ZE5.DMG
+│           │   │   ├── ZE6.DMG
+│           │   │   ├── ZE7.DMG
+│           │   │   └── ZEN.DMG
+│           │   ├── CanadianFrench_v1_Character/
+│           │   │   ├── C1.CHR
+│           │   │   ├── C2.CHR
+│           │   │   ├── C3.CHR
+│           │   │   ├── C4.CHR
+│           │   │   ├── C5.CHR
+│           │   │   ├── C6.CHR
+│           │   │   ├── C7.CHR
+│           │   │   └── C8.CHR
+│           │   ├── US_v2_01/
+│           │   │   ├── ZE7
+│           │   │   ├── ZE8.DMG
+│           │   │   ├── ZEND.DMG
+│           │   │   ├── ZES.DMG
+│           │   │   ├── ZEX.DMG
+│           │   │   ├── ZMA.DMG
+│           │   │   ├── ZPL.DMG
+│           │   │   ├── ZRAM.DMG
+│           │   │   └── ZROM.DMG
+│           │   ├── US_v2_02/
+│           │   │   ├── BGM_1.HEX
+│           │   │   ├── BGM_2.HEX
+│           │   │   ├── GBMSDT.DMG
+│           │   │   ├── SE.HEX
+│           │   │   ├── ZBD.DMG
+│           │   │   ├── ZBN.DMG
+│           │   │   ├── ZBS.DMG
+│           │   │   ├── ZCO.DMG
+│           │   │   ├── ZDB.DMG
+│           │   │   ├── ZED.DMG
+│           │   │   ├── ZGB.DMG
+│           │   │   ├── ZGD.DMG
+│           │   │   ├── ZMS.DMG
+│           │   │   ├── ZS1.DMG
+│           │   │   ├── ZSD.DMG
+│           │   │   ├── ZTI.DMG
+│           │   │   └── ZVD.DMG
+│           │   ├── US_v2_03/
+│           │   │   ├── ZE2.DMG
+│           │   │   ├── ZE3.DMG
+│           │   │   ├── ZE4.DMG
+│           │   │   ├── ZE5.DMG
+│           │   │   ├── ZE6.DMG
+│           │   │   ├── ZE7.DMG
+│           │   │   └── ZEN.DMG
+│           │   └── US_v2_Character/
+│           │       ├── C1.CHR
+│           │       ├── C2.CHR
+│           │       ├── C3.CHR
+│           │       ├── C4.CHR
+│           │       ├── C5.CHR
+│           │       ├── C6.CHR
+│           │       ├── C7.CHR
+│           │       ├── C8.CHR
+│           │       ├── GAL.BAT
+│           │       └── RZ.ICE
+│           ├── DMG_Zelda_JP_EN/
+│           │   ├── JP_v0_01/
+│           │   │   ├── ZE8.DMG
+│           │   │   ├── ZEND.DMG
+│           │   │   ├── ZES.DMG
+│           │   │   ├── ZEX.DMG
+│           │   │   ├── ZMA.DMG
+│           │   │   ├── ZPL.DMG
+│           │   │   ├── ZRAM.DMG
+│           │   │   └── ZROM.DMG
+│           │   ├── JP_v0_02/
+│           │   │   ├── BGM_1.HEX
+│           │   │   ├── BGM_2.HEX
+│           │   │   ├── GBMSDT.DMG
+│           │   │   ├── SE.HEX
+│           │   │   ├── ZBD.DMG
+│           │   │   ├── ZBN.DMG
+│           │   │   ├── ZBS.DMG
+│           │   │   ├── ZCO.DMG
+│           │   │   ├── ZDB.DMG
+│           │   │   ├── ZED.DMG
+│           │   │   ├── ZGD.DMG
+│           │   │   ├── ZMS.DMG
+│           │   │   ├── ZS1.DMG
+│           │   │   ├── ZSD.DMG
+│           │   │   ├── ZTI.DMG
+│           │   │   └── ZVD.DMG
+│           │   ├── JP_v0_03/
+│           │   │   ├── ZE2.DMG
+│           │   │   ├── ZE3.DMG
+│           │   │   ├── ZE4.DMG
+│           │   │   ├── ZE5.DMG
+│           │   │   ├── ZE6.DMG
+│           │   │   ├── ZE7.DMG
+│           │   │   └── ZEN.DMG
+│           │   ├── JP_v0_Character/
+│           │   │   ├── C1.CHR
+│           │   │   ├── C2.CHR
+│           │   │   ├── C3.CHR
+│           │   │   ├── C4.CHR
+│           │   │   ├── C5.CHR
+│           │   │   ├── C6.CHR
+│           │   │   ├── C7.CHR
+│           │   │   └── C8.CHR
+│           │   ├── Jp_v1_01/
+│           │   │   ├── ZE8.DMG
+│           │   │   ├── ZEND.BAK
+│           │   │   ├── ZEND.DMG
+│           │   │   ├── ZES.DMG
+│           │   │   ├── ZEX.DMG
+│           │   │   ├── ZMA.DMG
+│           │   │   ├── ZPL.BAK
+│           │   │   ├── ZPL.DMG
+│           │   │   ├── ZRAM.DMG
+│           │   │   └── ZROM.DMG
+│           │   ├── Jp_v1_02/
+│           │   │   ├── BGM_1.HEX
+│           │   │   ├── BGM_2.HEX
+│           │   │   ├── GBMSDT.DMG
+│           │   │   ├── SE.HEX
+│           │   │   ├── ZBD.DMG
+│           │   │   ├── ZBN.DMG
+│           │   │   ├── ZBS.DMG
+│           │   │   ├── ZCO.DMG
+│           │   │   ├── ZDB.DMG
+│           │   │   ├── ZED.DMG
+│           │   │   ├── ZGB.DMG
+│           │   │   ├── ZGD.DMG
+│           │   │   ├── ZMS.DMG
+│           │   │   ├── ZS1.DMG
+│           │   │   ├── ZSD.DMG
+│           │   │   ├── ZTI.DMG
+│           │   │   └── ZVD.DMG
+│           │   ├── Jp_v1_03/
+│           │   │   ├── ZE2.DMG
+│           │   │   ├── ZE3.DMG
+│           │   │   ├── ZE4.DMG
+│           │   │   ├── ZE5.DMG
+│           │   │   ├── ZE6.DMG
+│           │   │   ├── ZE7.DMG
+│           │   │   └── ZEN.DMG
+│           │   ├── JP_v1_Character/
+│           │   │   ├── C1.CHR
+│           │   │   ├── C2.CHR
+│           │   │   ├── C3.CHR
+│           │   │   ├── C4.CHR
+│           │   │   ├── C5.CHR
+│           │   │   ├── C6.CHR
+│           │   │   ├── C7.CHR
+│           │   │   ├── C8.CHR
+│           │   │   ├── GAL.BAT
+│           │   │   └── RZ.ICE
+│           │   ├── US_v0_01/
+│           │   │   ├── ZE8.DMG
+│           │   │   ├── ZEND.DMG
+│           │   │   ├── ZES.DMG
+│           │   │   ├── ZEX.DMG
+│           │   │   ├── ZMA.DMG
+│           │   │   ├── ZPL.DMG
+│           │   │   ├── ZRAM.DMG
+│           │   │   └── ZROM.DMG
+│           │   ├── US_v0_02/
+│           │   │   ├── BGM_1.HEX
+│           │   │   ├── BGM_2.HEX
+│           │   │   ├── GBMSDT.DMG
+│           │   │   ├── SE.HEX
+│           │   │   ├── ZBD.DMG
+│           │   │   ├── ZBN.DMG
+│           │   │   ├── ZBS.DMG
+│           │   │   ├── ZCO.DMG
+│           │   │   ├── ZDB.DMG
+│           │   │   ├── ZED.DMG
+│           │   │   ├── ZGB.DMG
+│           │   │   ├── ZGD.DMG
+│           │   │   ├── ZMS.DMG
+│           │   │   ├── ZS1.DMG
+│           │   │   ├── ZSD.DMG
+│           │   │   ├── ZTI.DMG
+│           │   │   └── ZVD.DMG
+│           │   ├── US_v0_03/
+│           │   │   ├── ZE2.DMG
+│           │   │   ├── ZE3.DMG
+│           │   │   ├── ZE4.DMG
+│           │   │   ├── ZE5.DMG
+│           │   │   ├── ZE6.DMG
+│           │   │   ├── ZE7.DMG
+│           │   │   └── ZEN.DMG
+│           │   └── US_v0_Character/
+│           │       ├── C1.CHR
+│           │       ├── C2.CHR
+│           │       ├── C3.CHR
+│           │       ├── C4.CHR
+│           │       ├── C5.CHR
+│           │       ├── C6.CHR
+│           │       ├── C7.CHR
+│           │       ├── C8.CHR
+│           │       ├── GAL.BAT
+│           │       └── RZ.ICE
+│           └── SRD_DMG_Zelda_JP_v0/
+│               ├── 1/
+│               │   ├── ZE8.DMG
+│               │   ├── ZEND.DMG
+│               │   ├── ZES.DMG
+│               │   ├── ZEX.DMG
+│               │   ├── ZMA.DMG
+│               │   ├── ZPL.DMG
+│               │   ├── ZRAM.DMG
+│               │   └── ZROM.DMG
+│               ├── 2/
+│               │   ├── BGM_1.HEX
+│               │   ├── BGM_2.HEX
+│               │   ├── GBMSDT.DMG
+│               │   ├── SE.HEX
+│               │   ├── ZBD.DMG
+│               │   ├── ZBN.DMG
+│               │   ├── ZBS.DMG
+│               │   ├── ZCO.DMG
+│               │   ├── ZDB.DMG
+│               │   ├── ZED.DMG
+│               │   ├── ZGB.DMG
+│               │   ├── ZGD.DMG
+│               │   ├── ZMS.DMG
+│               │   ├── ZS1.DMG
+│               │   ├── ZSD.DMG
+│               │   ├── ZTI.DMG
+│               │   └── ZVD.DMG
+│               ├── 3/
+│               │   ├── ZE2.DMG
+│               │   ├── ZE3.DMG
+│               │   ├── ZE4.DMG
+│               │   ├── ZE5.DMG
+│               │   ├── ZE6.DMG
+│               │   ├── ZE7.DMG
+│               │   └── ZEN.DMG
+│               ├── face/
+│               │   ├── 21.DAT
+│               │   ├── 22.DAT
+│               │   ├── 23.DAT
+│               │   ├── 24.DAT
+│               │   ├── 25.DAT
+│               │   ├── 26.DAT
+│               │   ├── 27.DAT
+│               │   ├── 28.DAT
+│               │   ├── 31.DAT
+│               │   ├── 32.DAT
+│               │   ├── 33.DAT
+│               │   ├── 34.DAT
+│               │   ├── 35.DAT
+│               │   ├── 36.DAT
+│               │   ├── 37.DAT
+│               │   ├── 38.DAT
+│               │   ├── 41.DAT
+│               │   ├── 42.DAT
+│               │   ├── 43.DAT
+│               │   ├── 44.DAT
+│               │   ├── 45.DAT
+│               │   ├── 46.DAT
+│               │   ├── 47.DAT
+│               │   ├── 48.DAT
+│               │   ├── BOM2.DAT
+│               │   ├── BOM3.DAT
+│               │   ├── BOM4.DAT
+│               │   ├── BOMB.DAT
+│               │   ├── D1A0.DAT
+│               │   ├── MRT.DAT
+│               │   ├── MRT2.DAT
+│               │   ├── MRTX.DAT
+│               │   ├── SA.DAT
+│               │   ├── SA2.DAT
+│               │   ├── SA3.DAT
+│               │   ├── SBA.DAT
+│               │   ├── SPECIAL.TXT
+│               │   ├── TEST
+│               │   ├── ZCPG.BAT
+│               │   ├── ZCPS.BAT
+│               │   ├── ZE2.DMG
+│               │   └── ZED.DMG
+│               └── system/
+│                   ├── A.EXE
+│                   ├── ASMB.EXE
+│                   ├── ASMD.EXE
+│                   ├── ASMDMG.EXE
+│                   ├── CGE2DMG.EXE
+│                   ├── CGEDCG.BAT
+│                   ├── DCG2BYT.CVT
+│                   ├── DCGDMG.BAT
+│                   ├── DMGFUNC.TB0
+│                   ├── FCV.EXE
+│                   ├── FDT.EXE
+│                   ├── GENBYTE.CVT
+│                   ├── HDT.EXE
+│                   ├── IS65.EXE
+│                   ├── ISD.EXE
+│                   ├── ISDMG.EXE
+│                   ├── ISLINK.EXE
+│                   ├── L.EXE
+│                   ├── PW.EXE
+│                   ├── PW2.EXE
+│                   ├── PW2.TB0
+│                   ├── SCR2DMG.COM
+│                   ├── SHL.COM
+│                   ├── SHL.KEY
+│                   ├── SHVC.EXE
+│                   ├── VRAMTR.CVT
+│                   └── VUP.EXE
+└── その他/
+    └── DMGZelda/
+        └── Ver1JP/
+            └── Character/
+                ├── C1.CHR
+                ├── C2.CHR
+                ├── C3.CHR
+                ├── C4.CHR
+                ├── C5.CHR
+                ├── C6.CHR
+                ├── C7.CHR
+                ├── C8.CHR
+                ├── GAL.BAT
+                └── RZ.ICE

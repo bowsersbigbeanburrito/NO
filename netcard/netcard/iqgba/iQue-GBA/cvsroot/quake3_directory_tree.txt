@@ -1,0 +1,1471 @@
+quake3/
+├── code/
+│   ├── botlib/
+│   │   ├── aasfile.h,v
+│   │   ├── be_aas_bsp.h,v
+│   │   ├── be_aas_bspq3.c,v
+│   │   ├── be_aas_cluster.c,v
+│   │   ├── be_aas_cluster.h,v
+│   │   ├── be_aas_debug.c,v
+│   │   ├── be_aas_debug.h,v
+│   │   ├── be_aas_def.h,v
+│   │   ├── be_aas_entity.c,v
+│   │   ├── be_aas_entity.h,v
+│   │   ├── be_aas_file.c,v
+│   │   ├── be_aas_file.h,v
+│   │   ├── be_aas_funcs.h,v
+│   │   ├── be_aas_main.c,v
+│   │   ├── be_aas_main.h,v
+│   │   ├── be_aas_move.c,v
+│   │   ├── be_aas_move.h,v
+│   │   ├── be_aas_optimize.c,v
+│   │   ├── be_aas_optimize.h,v
+│   │   ├── be_aas_reach.c,v
+│   │   ├── be_aas_reach.h,v
+│   │   ├── be_aas_route.c,v
+│   │   ├── be_aas_route.h,v
+│   │   ├── be_aas_routealt.c,v
+│   │   ├── be_aas_routealt.h,v
+│   │   ├── be_aas_sample.c,v
+│   │   ├── be_aas_sample.h,v
+│   │   ├── be_ai_char.c,v
+│   │   ├── be_ai_chat.c,v
+│   │   ├── be_ai_gen.c,v
+│   │   ├── be_ai_goal.c,v
+│   │   ├── be_ai_move.c,v
+│   │   ├── be_ai_weap.c,v
+│   │   ├── be_ai_weight.c,v
+│   │   ├── be_ai_weight.h,v
+│   │   ├── be_ea.c,v
+│   │   ├── be_interface.c,v
+│   │   ├── be_interface.h,v
+│   │   ├── botlib.vcproj,v
+│   │   ├── l_crc.c,v
+│   │   ├── l_crc.h,v
+│   │   ├── l_libvar.c,v
+│   │   ├── l_libvar.h,v
+│   │   ├── l_log.c,v
+│   │   ├── l_log.h,v
+│   │   ├── l_memory.c,v
+│   │   ├── l_memory.h,v
+│   │   ├── l_precomp.c,v
+│   │   ├── l_precomp.h,v
+│   │   ├── l_script.c,v
+│   │   ├── l_script.h,v
+│   │   ├── l_struct.c,v
+│   │   ├── l_struct.h,v
+│   │   ├── l_utils.h,v
+│   │   ├── lcc.mak,v
+│   │   └── linux-i386.mak,v
+│   ├── bspc/
+│   │   ├── _files.c,v
+│   │   ├── aas_areamerging.c,v
+│   │   ├── aas_areamerging.h,v
+│   │   ├── aas_cfg.c,v
+│   │   ├── aas_cfg.h,v
+│   │   ├── aas_create.c,v
+│   │   ├── aas_create.h,v
+│   │   ├── aas_edgemelting.c,v
+│   │   ├── aas_edgemelting.h,v
+│   │   ├── aas_facemerging.c,v
+│   │   ├── aas_facemerging.h,v
+│   │   ├── aas_file.c,v
+│   │   ├── aas_file.h,v
+│   │   ├── aas_gsubdiv.c,v
+│   │   ├── aas_gsubdiv.h,v
+│   │   ├── aas_map.c,v
+│   │   ├── aas_map.h,v
+│   │   ├── aas_prunenodes.c,v
+│   │   ├── aas_prunenodes.h,v
+│   │   ├── aas_store.c,v
+│   │   ├── aas_store.h,v
+│   │   ├── aasfile.h,v
+│   │   ├── be_aas_bspc.c,v
+│   │   ├── be_aas_bspc.h,v
+│   │   ├── brushbsp.c,v
+│   │   ├── bspc.c,v
+│   │   ├── bspc.sln,v
+│   │   ├── bspc.vcproj,v
+│   │   ├── cfgq3.c,v
+│   │   ├── Conscript,v
+│   │   ├── csg.c,v
+│   │   ├── faces.c,v
+│   │   ├── gldraw.c,v
+│   │   ├── glfile.c,v
+│   │   ├── l_bsp_ent.c,v
+│   │   ├── l_bsp_ent.h,v
+│   │   ├── l_bsp_hl.c,v
+│   │   ├── l_bsp_hl.h,v
+│   │   ├── l_bsp_q1.c,v
+│   │   ├── l_bsp_q1.h,v
+│   │   ├── l_bsp_q2.c,v
+│   │   ├── l_bsp_q2.h,v
+│   │   ├── l_bsp_q3.c,v
+│   │   ├── l_bsp_q3.h,v
+│   │   ├── l_bsp_sin.c,v
+│   │   ├── l_bsp_sin.h,v
+│   │   ├── l_cmd.c,v
+│   │   ├── l_cmd.h,v
+│   │   ├── l_log.c,v
+│   │   ├── l_log.h,v
+│   │   ├── l_math.c,v
+│   │   ├── l_math.h,v
+│   │   ├── l_mem.c,v
+│   │   ├── l_mem.h,v
+│   │   ├── l_poly.c,v
+│   │   ├── l_poly.h,v
+│   │   ├── l_qfiles.c,v
+│   │   ├── l_qfiles.h,v
+│   │   ├── l_threads.c,v
+│   │   ├── l_threads.h,v
+│   │   ├── l_utils.c,v
+│   │   ├── l_utils.h,v
+│   │   ├── lcc.mak,v
+│   │   ├── leakfile.c,v
+│   │   ├── linux-i386.mak,v
+│   │   ├── Makefile,v
+│   │   ├── map.c,v
+│   │   ├── map_hl.c,v
+│   │   ├── map_q1.c,v
+│   │   ├── map_q2.c,v
+│   │   ├── map_q3.c,v
+│   │   ├── map_sin.c,v
+│   │   ├── nodraw.c,v
+│   │   ├── portals.c,v
+│   │   ├── prtfile.c,v
+│   │   ├── q2files.h,v
+│   │   ├── q3files.h,v
+│   │   ├── qbsp.h,v
+│   │   ├── qfiles.h,v
+│   │   ├── sinfiles.h,v
+│   │   ├── tetrahedron.c,v
+│   │   ├── tetrahedron.h,v
+│   │   ├── textures.c,v
+│   │   ├── tree.c,v
+│   │   └── writebsp.c,v
+│   ├── cgame/
+│   │   ├── cg_consolecmds.c,v
+│   │   ├── cg_draw.c,v
+│   │   ├── cg_drawtools.c,v
+│   │   ├── cg_effects.c,v
+│   │   ├── cg_ents.c,v
+│   │   ├── cg_event.c,v
+│   │   ├── cg_info.c,v
+│   │   ├── cg_local.h,v
+│   │   ├── cg_localents.c,v
+│   │   ├── cg_main.c,v
+│   │   ├── cg_marks.c,v
+│   │   ├── cg_newdraw.c,v
+│   │   ├── cg_particles.c,v
+│   │   ├── cg_players.c,v
+│   │   ├── cg_playerstate.c,v
+│   │   ├── cg_predict.c,v
+│   │   ├── cg_public.h,v
+│   │   ├── cg_scoreboard.c,v
+│   │   ├── cg_servercmds.c,v
+│   │   ├── cg_snapshot.c,v
+│   │   ├── cg_syscalls.asm,v
+│   │   ├── cg_syscalls.c,v
+│   │   ├── cg_view.c,v
+│   │   ├── cg_weapons.c,v
+│   │   ├── cgame.bat,v
+│   │   ├── cgame.def,v
+│   │   ├── cgame.plg,v
+│   │   ├── cgame.q3asm,v
+│   │   ├── cgame.sh,v
+│   │   ├── cgame.vcproj,v
+│   │   ├── cgame_ta.bat,v
+│   │   ├── cgame_ta.q3asm,v
+│   │   ├── cgame_ta.sh,v
+│   │   ├── Conscript,v
+│   │   └── tr_types.h,v
+│   ├── cgame.lnt,v
+│   ├── clean.bat,v
+│   ├── client/
+│   │   ├── cl_cgame.c,v
+│   │   ├── cl_cin.c,v
+│   │   ├── cl_console.c,v
+│   │   ├── cl_input.c,v
+│   │   ├── cl_keys.c,v
+│   │   ├── cl_main.c,v
+│   │   ├── cl_net_chan.c,v
+│   │   ├── cl_parse.c,v
+│   │   ├── cl_scrn.c,v
+│   │   ├── cl_ui.c,v
+│   │   ├── client.h,v
+│   │   ├── keys.h,v
+│   │   ├── snd_adpcm.c,v
+│   │   ├── snd_dma.c,v
+│   │   ├── snd_local.h,v
+│   │   ├── snd_mem.c,v
+│   │   ├── snd_mix.c,v
+│   │   ├── snd_public.h,v
+│   │   └── snd_wavelet.c,v
+│   ├── Construct,v
+│   ├── game/
+│   │   ├── ai_chat.c,v
+│   │   ├── ai_chat.h,v
+│   │   ├── ai_cmd.c,v
+│   │   ├── ai_cmd.h,v
+│   │   ├── ai_dmnet.c,v
+│   │   ├── ai_dmnet.h,v
+│   │   ├── ai_dmq3.c,v
+│   │   ├── ai_dmq3.h,v
+│   │   ├── ai_main.c,v
+│   │   ├── ai_main.h,v
+│   │   ├── ai_team.c,v
+│   │   ├── ai_team.h,v
+│   │   ├── ai_vcmd.c,v
+│   │   ├── ai_vcmd.h,v
+│   │   ├── be_aas.h,v
+│   │   ├── be_ai_char.h,v
+│   │   ├── be_ai_chat.h,v
+│   │   ├── be_ai_gen.h,v
+│   │   ├── be_ai_goal.h,v
+│   │   ├── be_ai_move.h,v
+│   │   ├── be_ai_weap.h,v
+│   │   ├── be_ea.h,v
+│   │   ├── bg_lib.c,v
+│   │   ├── bg_lib.h,v
+│   │   ├── bg_local.h,v
+│   │   ├── bg_misc.c,v
+│   │   ├── bg_pmove.c,v
+│   │   ├── bg_public.h,v
+│   │   ├── bg_slidemove.c,v
+│   │   ├── botlib.h,v
+│   │   ├── chars.h,v
+│   │   ├── Conscript,v
+│   │   ├── g_active.c,v
+│   │   ├── g_arenas.c,v
+│   │   ├── g_bot.c,v
+│   │   ├── g_client.c,v
+│   │   ├── g_cmds.c,v
+│   │   ├── g_combat.c,v
+│   │   ├── g_items.c,v
+│   │   ├── g_local.h,v
+│   │   ├── g_main.c,v
+│   │   ├── g_mem.c,v
+│   │   ├── g_misc.c,v
+│   │   ├── g_missile.c,v
+│   │   ├── g_mover.c,v
+│   │   ├── g_public.h,v
+│   │   ├── g_rankings.c,v
+│   │   ├── g_rankings.h,v
+│   │   ├── g_session.c,v
+│   │   ├── g_spawn.c,v
+│   │   ├── g_svcmds.c,v
+│   │   ├── g_syscalls.asm,v
+│   │   ├── g_syscalls.c,v
+│   │   ├── g_target.c,v
+│   │   ├── g_team.c,v
+│   │   ├── g_team.h,v
+│   │   ├── g_trigger.c,v
+│   │   ├── g_utils.c,v
+│   │   ├── g_weapon.c,v
+│   │   ├── game.bat,v
+│   │   ├── game.def,v
+│   │   ├── game.q3asm,v
+│   │   ├── game.sh,v
+│   │   ├── game.vcproj,v
+│   │   ├── game_ta.bat,v
+│   │   ├── game_ta.q3asm,v
+│   │   ├── game_ta.sh,v
+│   │   ├── inv.h,v
+│   │   ├── match.h,v
+│   │   ├── q_math.c,v
+│   │   ├── q_shared.c,v
+│   │   ├── q_shared.h,v
+│   │   ├── surfaceflags.h,v
+│   │   └── syn.h,v
+│   ├── game.lnt,v
+│   ├── installdebug.bat,v
+│   ├── installrelease.bat,v
+│   ├── installvms.bat,v
+│   ├── jpeg-6/
+│   │   ├── jcapimin.c,v
+│   │   ├── jcapistd.c,v
+│   │   ├── jccoefct.c,v
+│   │   ├── jccolor.c,v
+│   │   ├── jcdctmgr.c,v
+│   │   ├── jchuff.c,v
+│   │   ├── jchuff.h,v
+│   │   ├── jcinit.c,v
+│   │   ├── jcmainct.c,v
+│   │   ├── jcmarker.c,v
+│   │   ├── jcmaster.c,v
+│   │   ├── jcomapi.c,v
+│   │   ├── jconfig.h,v
+│   │   ├── jcparam.c,v
+│   │   ├── jcphuff.c,v
+│   │   ├── jcprepct.c,v
+│   │   ├── jcsample.c,v
+│   │   ├── jctrans.c,v
+│   │   ├── jdapimin.c,v
+│   │   ├── jdapistd.c,v
+│   │   ├── jdatadst.c,v
+│   │   ├── jdatasrc.c,v
+│   │   ├── jdcoefct.c,v
+│   │   ├── jdcolor.c,v
+│   │   ├── jdct.h,v
+│   │   ├── jddctmgr.c,v
+│   │   ├── jdhuff.c,v
+│   │   ├── jdhuff.h,v
+│   │   ├── jdinput.c,v
+│   │   ├── jdmainct.c,v
+│   │   ├── jdmarker.c,v
+│   │   ├── jdmaster.c,v
+│   │   ├── jdmerge.c,v
+│   │   ├── jdphuff.c,v
+│   │   ├── jdpostct.c,v
+│   │   ├── jdsample.c,v
+│   │   ├── jdtrans.c,v
+│   │   ├── jerror.c,v
+│   │   ├── jerror.h,v
+│   │   ├── jfdctflt.c,v
+│   │   ├── jfdctfst.c,v
+│   │   ├── jfdctint.c,v
+│   │   ├── jidctflt.c,v
+│   │   ├── jidctfst.c,v
+│   │   ├── jidctint.c,v
+│   │   ├── jidctred.c,v
+│   │   ├── jinclude.h,v
+│   │   ├── jload.c,v
+│   │   ├── jmemansi.c,v
+│   │   ├── jmemdos.c,v
+│   │   ├── jmemmgr.c,v
+│   │   ├── jmemname.c,v
+│   │   ├── jmemnobs.c,v
+│   │   ├── jmemsys.h,v
+│   │   ├── jmorecfg.h,v
+│   │   ├── jpegint.h,v
+│   │   ├── jpeglib.h,v
+│   │   ├── jpegtran.c,v
+│   │   ├── jquant1.c,v
+│   │   ├── jquant2.c,v
+│   │   ├── jutils.c,v
+│   │   ├── jversion.h,v
+│   │   └── README,v
+│   ├── macosx/
+│   │   ├── banner.jpg,v
+│   │   ├── botlib.log,v
+│   │   ├── BuildRelease,v
+│   │   ├── CGMouseDeltaFix.h,v
+│   │   ├── CGMouseDeltaFix.m,v
+│   │   ├── CGPrivateAPI.h,v
+│   │   ├── GenerateQGL.pl,v
+│   │   ├── macosx_display.h,v
+│   │   ├── macosx_display.m,v
+│   │   ├── macosx_glimp.h,v
+│   │   ├── macosx_glimp.m,v
+│   │   ├── macosx_glsmp_mutex.m,v
+│   │   ├── macosx_glsmp_null.m,v
+│   │   ├── macosx_glsmp_ports.m,v
+│   │   ├── macosx_input.m,v
+│   │   ├── macosx_local.h,v
+│   │   ├── macosx_qgl.h,v
+│   │   ├── macosx_sndcore.m,v
+│   │   ├── macosx_snddma.m,v
+│   │   ├── macosx_sys.m,v
+│   │   ├── macosx_timers.h,v
+│   │   ├── macosx_timers.m,v
+│   │   ├── Performance.rtf,v
+│   │   ├── Q3Controller.h,v
+│   │   ├── Q3Controller.m,v
+│   │   ├── Quake3.icns,v
+│   │   ├── Quake3.nib/
+│   │   │   ├── classes.nib,v
+│   │   │   ├── info.nib,v
+│   │   │   └── objects.nib,v
+│   │   ├── Quake3.pbproj/
+│   │   │   ├── apple.pbxuser,v
+│   │   │   └── project.pbxproj,v
+│   │   ├── RecordDemo.zsh,v
+│   │   └── timedemo.zsh,v
+│   ├── Makefile,v
+│   ├── null/
+│   │   ├── mac_net.c,v
+│   │   ├── null_client.c,v
+│   │   ├── null_glimp.c,v
+│   │   ├── null_input.c,v
+│   │   ├── null_main.c,v
+│   │   ├── null_net.c,v
+│   │   └── null_snddma.c,v
+│   ├── opts.lnt,v
+│   ├── q3_ui/
+│   │   ├── compile.bat,v
+│   │   ├── Conscript,v
+│   │   ├── keycodes.h,v
+│   │   ├── q3_ui.bat,v
+│   │   ├── q3_ui.q3asm,v
+│   │   ├── q3_ui.sh,v
+│   │   ├── q3_ui.vcproj,v
+│   │   ├── ui.def,v
+│   │   ├── ui.q3asm,v
+│   │   ├── ui_addbots.c,v
+│   │   ├── ui_atoms.c,v
+│   │   ├── ui_cdkey.c,v
+│   │   ├── ui_cinematics.c,v
+│   │   ├── ui_confirm.c,v
+│   │   ├── ui_connect.c,v
+│   │   ├── ui_controls2.c,v
+│   │   ├── ui_credits.c,v
+│   │   ├── ui_demo2.c,v
+│   │   ├── ui_display.c,v
+│   │   ├── ui_gameinfo.c,v
+│   │   ├── ui_ingame.c,v
+│   │   ├── ui_loadconfig.c,v
+│   │   ├── ui_local.h,v
+│   │   ├── ui_login.c,v
+│   │   ├── ui_main.c,v
+│   │   ├── ui_menu.c,v
+│   │   ├── ui_mfield.c,v
+│   │   ├── ui_mods.c,v
+│   │   ├── ui_network.c,v
+│   │   ├── ui_options.c,v
+│   │   ├── ui_playermodel.c,v
+│   │   ├── ui_players.c,v
+│   │   ├── ui_playersettings.c,v
+│   │   ├── ui_preferences.c,v
+│   │   ├── ui_qmenu.c,v
+│   │   ├── ui_rankings.c,v
+│   │   ├── ui_rankstatus.c,v
+│   │   ├── ui_removebots.c,v
+│   │   ├── ui_saveconfig.c,v
+│   │   ├── ui_serverinfo.c,v
+│   │   ├── ui_servers2.c,v
+│   │   ├── ui_setup.c,v
+│   │   ├── ui_signup.c,v
+│   │   ├── ui_sound.c,v
+│   │   ├── ui_sparena.c,v
+│   │   ├── ui_specifyleague.c,v
+│   │   ├── ui_specifyserver.c,v
+│   │   ├── ui_splevel.c,v
+│   │   ├── ui_sppostgame.c,v
+│   │   ├── ui_spreset.c,v
+│   │   ├── ui_spskill.c,v
+│   │   ├── ui_startserver.c,v
+│   │   ├── ui_team.c,v
+│   │   ├── ui_teamorders.c,v
+│   │   └── ui_video.c,v
+│   ├── qcommon/
+│   │   ├── cm_load.c,v
+│   │   ├── cm_local.h,v
+│   │   ├── cm_patch.c,v
+│   │   ├── cm_patch.h,v
+│   │   ├── cm_polylib.c,v
+│   │   ├── cm_polylib.h,v
+│   │   ├── cm_public.h,v
+│   │   ├── cm_test.c,v
+│   │   ├── cm_trace.c,v
+│   │   ├── cmd.c,v
+│   │   ├── cmd.c.save,v
+│   │   ├── common.c,v
+│   │   ├── cvar.c,v
+│   │   ├── files.c,v
+│   │   ├── huffman.c,v
+│   │   ├── md4.c,v
+│   │   ├── msg.c,v
+│   │   ├── net_chan.c,v
+│   │   ├── qcommon.h,v
+│   │   ├── qfiles.h,v
+│   │   ├── unzip.c,v
+│   │   ├── unzip.h,v
+│   │   ├── vm.c,v
+│   │   ├── vm_interpreted.c,v
+│   │   ├── vm_local.h,v
+│   │   ├── vm_ppc.c,v
+│   │   ├── vm_ppc_new.c,v
+│   │   └── vm_x86.c,v
+│   ├── quake3.sln,v
+│   ├── quake3.vcproj,v
+│   ├── renderer/
+│   │   ├── qgl.h,v
+│   │   ├── qgl_linked.h,v
+│   │   ├── ref_trin.def,v
+│   │   ├── renderer.vcproj,v
+│   │   ├── tr_animation.c,v
+│   │   ├── tr_backend.c,v
+│   │   ├── tr_bsp.c,v
+│   │   ├── tr_cmds.c,v
+│   │   ├── tr_curve.c,v
+│   │   ├── tr_flares.c,v
+│   │   ├── tr_font.c,v
+│   │   ├── tr_image.c,v
+│   │   ├── tr_init.c,v
+│   │   ├── tr_light.c,v
+│   │   ├── tr_local.h,v
+│   │   ├── tr_main.c,v
+│   │   ├── tr_marks.c,v
+│   │   ├── tr_mesh.c,v
+│   │   ├── tr_model.c,v
+│   │   ├── tr_noise.c,v
+│   │   ├── tr_public.h,v
+│   │   ├── tr_scene.c,v
+│   │   ├── tr_shade.c,v
+│   │   ├── tr_shade_calc.c,v
+│   │   ├── tr_shader.c,v
+│   │   ├── tr_shadows.c,v
+│   │   ├── tr_sky.c,v
+│   │   ├── tr_surface.c,v
+│   │   └── tr_world.c,v
+│   ├── renderer.lnt,v
+│   ├── run.bat,v
+│   ├── runrelease.bat,v
+│   ├── server/
+│   │   ├── server.h,v
+│   │   ├── sv_bot.c,v
+│   │   ├── sv_ccmds.c,v
+│   │   ├── sv_client.c,v
+│   │   ├── sv_game.c,v
+│   │   ├── sv_init.c,v
+│   │   ├── sv_main.c,v
+│   │   ├── sv_net_chan.c,v
+│   │   ├── sv_rankings.c,v
+│   │   ├── sv_snapshot.c,v
+│   │   └── sv_world.c,v
+│   ├── splines/
+│   │   ├── math_angles.cpp,v
+│   │   ├── math_angles.h,v
+│   │   ├── math_matrix.cpp,v
+│   │   ├── math_matrix.h,v
+│   │   ├── math_quaternion.cpp,v
+│   │   ├── math_quaternion.h,v
+│   │   ├── math_vector.cpp,v
+│   │   ├── math_vector.h,v
+│   │   ├── q_parse.cpp,v
+│   │   ├── q_shared.cpp,v
+│   │   ├── q_shared.h,v
+│   │   ├── q_shared.hpp,v
+│   │   ├── splines.cpp,v
+│   │   ├── splines.h,v
+│   │   ├── Splines.vcproj,v
+│   │   ├── util_list.h,v
+│   │   ├── util_str.cpp,v
+│   │   └── util_str.h,v
+│   ├── ui/
+│   │   ├── compile.bat,v
+│   │   ├── Conscript,v
+│   │   ├── keycodes.h,v
+│   │   ├── ui.bat,v
+│   │   ├── ui.def,v
+│   │   ├── ui.q3asm,v
+│   │   ├── ui.vcproj,v
+│   │   ├── ui_atoms.c,v
+│   │   ├── ui_gameinfo.c,v
+│   │   ├── ui_local.h,v
+│   │   ├── ui_main.c,v
+│   │   ├── ui_players.c,v
+│   │   ├── ui_public.h,v
+│   │   ├── ui_shared.c,v
+│   │   ├── ui_shared.h,v
+│   │   ├── ui_syscalls.asm,v
+│   │   ├── ui_syscalls.c,v
+│   │   └── ui_util.c,v
+│   ├── unix/
+│   │   ├── build_setup.sh,v
+│   │   ├── ChangeLog,v
+│   │   ├── cons,v
+│   │   ├── Cons_gcc.pm,v
+│   │   ├── Conscript-client,v
+│   │   ├── Conscript-dedicated,v
+│   │   ├── Conscript-pk3,v
+│   │   ├── Conscript-sdk,v
+│   │   ├── Conscript-setup,v
+│   │   ├── extract_ver.pl,v
+│   │   ├── ftol.nasm,v
+│   │   ├── linux_common.c,v
+│   │   ├── linux_glimp.c,v
+│   │   ├── linux_joystick.c,v
+│   │   ├── linux_local.h,v
+│   │   ├── linux_qgl.c,v
+│   │   ├── linux_signals.c,v
+│   │   ├── linux_snd.c,v
+│   │   ├── LinuxSupport/
+│   │   │   ├── CHANGES-1.32.txt,v
+│   │   │   ├── index.html,v
+│   │   │   ├── INSTALL,v
+│   │   │   ├── udp_wide_broadcast.patch,v
+│   │   │   └── udp_wide_README.txt,v
+│   │   ├── Makefile,v
+│   │   ├── Makefile.Game,v
+│   │   ├── matha.s,v
+│   │   ├── pcons-2.3.1,v
+│   │   ├── q3test.spec.sh,v
+│   │   ├── qasm.h,v
+│   │   ├── quake3.gif,v
+│   │   ├── Quake3.kdelnk,v
+│   │   ├── quake3.xpm,v
+│   │   ├── README.EULA,v
+│   │   ├── README.Linux,v
+│   │   ├── README.Q3Test,v
+│   │   ├── run-target.sh,v
+│   │   ├── snapvector.nasm,v
+│   │   ├── snd_mixa.s,v
+│   │   ├── sys_dosa.s,v
+│   │   ├── unix_glw.h,v
+│   │   ├── unix_main.c,v
+│   │   ├── unix_net.c,v
+│   │   ├── unix_shared.c,v
+│   │   ├── vm_x86.c,v
+│   │   └── vm_x86a.s,v
+│   └── win32/
+│       ├── background.bmp,v
+│       ├── clear.bmp,v
+│       ├── glw_win.h,v
+│       ├── icon2.ico,v
+│       ├── mod-sdk-setup/
+│       │   ├── bin/
+│       │   ├── GameSource.VCT,v
+│       │   └── QIIIA Game Source License.doc,v
+│       ├── qe3.ico,v
+│       ├── resource.h,v
+│       ├── win_gamma.c,v
+│       ├── win_glimp.c,v
+│       ├── win_input.c,v
+│       ├── win_local.h,v
+│       ├── win_main.c,v
+│       ├── win_net.c,v
+│       ├── win_qgl.c,v
+│       ├── win_shared.c,v
+│       ├── win_snd.c,v
+│       ├── win_syscon.c,v
+│       ├── win_wndproc.c,v
+│       └── winquake.rc,v
+├── common/
+│   ├── aselib.c,v
+│   ├── aselib.h,v
+│   ├── bspfile.c,v
+│   ├── bspfile.h,v
+│   ├── cmdlib.c,v
+│   ├── cmdlib.h,v
+│   ├── GNUmakefile,v
+│   ├── imagelib.c,v
+│   ├── imagelib.h,v
+│   ├── l3dslib.c,v
+│   ├── l3dslib.h,v
+│   ├── mathlib.c,v
+│   ├── mathlib.h,v
+│   ├── md4.c,v
+│   ├── mutex.c,v
+│   ├── mutex.h,v
+│   ├── polylib.c,v
+│   ├── polylib.h,v
+│   ├── polyset.h,v
+│   ├── qfiles.h,v
+│   ├── scriplib.c,v
+│   ├── scriplib.h,v
+│   ├── surfaceflags.h,v
+│   ├── threads.c,v
+│   ├── threads.h,v
+│   ├── trilib.c,v
+│   └── trilib.h,v
+├── COPYING.txt,v
+├── lcc/
+│   ├── alpha/
+│   │   └── osf/
+│   │       └── tst/
+│   │           ├── 8q.1bk,v
+│   │           ├── 8q.2bk,v
+│   │           ├── 8q.sbk,v
+│   │           ├── array.1bk,v
+│   │           ├── array.2bk,v
+│   │           ├── array.sbk,v
+│   │           ├── cf.1bk,v
+│   │           ├── cf.2bk,v
+│   │           ├── cf.sbk,v
+│   │           ├── cq.1bk,v
+│   │           ├── cq.2bk,v
+│   │           ├── cq.sbk,v
+│   │           ├── cvt.1bk,v
+│   │           ├── cvt.2bk,v
+│   │           ├── cvt.sbk,v
+│   │           ├── fields.1bk,v
+│   │           ├── fields.2bk,v
+│   │           ├── fields.sbk,v
+│   │           ├── front.2bk,v
+│   │           ├── front.sbk,v
+│   │           ├── incr.1bk,v
+│   │           ├── incr.2bk,v
+│   │           ├── incr.sbk,v
+│   │           ├── init.1bk,v
+│   │           ├── init.2bk,v
+│   │           ├── init.sbk,v
+│   │           ├── limits.1bk,v
+│   │           ├── limits.2bk,v
+│   │           ├── limits.sbk,v
+│   │           ├── paranoia.1bk,v
+│   │           ├── paranoia.2bk,v
+│   │           ├── paranoia.sbk,v
+│   │           ├── sort.1bk,v
+│   │           ├── sort.2bk,v
+│   │           ├── sort.sbk,v
+│   │           ├── spill.1bk,v
+│   │           ├── spill.2bk,v
+│   │           ├── spill.sbk,v
+│   │           ├── stdarg.1bk,v
+│   │           ├── stdarg.2bk,v
+│   │           ├── stdarg.sbk,v
+│   │           ├── struct.1bk,v
+│   │           ├── struct.2bk,v
+│   │           ├── struct.sbk,v
+│   │           ├── switch.1bk,v
+│   │           ├── switch.2bk,v
+│   │           ├── switch.sbk,v
+│   │           ├── wf1.1bk,v
+│   │           ├── wf1.2bk,v
+│   │           ├── wf1.sbk,v
+│   │           ├── yacc.1bk,v
+│   │           ├── yacc.2bk,v
+│   │           └── yacc.sbk,v
+│   ├── bin/
+│   ├── buildnt.bat,v
+│   ├── buildnt.sh,v
+│   ├── COPYRIGHT,v
+│   ├── cpp/
+│   │   ├── cpp.c,v
+│   │   ├── cpp.h,v
+│   │   ├── eval.c,v
+│   │   ├── getopt.c,v
+│   │   ├── hideset.c,v
+│   │   ├── include.c,v
+│   │   ├── lex.c,v
+│   │   ├── macro.c,v
+│   │   ├── nlist.c,v
+│   │   ├── tokens.c,v
+│   │   └── unix.c,v
+│   ├── custom.mk,v
+│   ├── doc/
+│   │   ├── 4.html,v
+│   │   ├── bprint.1,v
+│   │   ├── bprint.pdf,v
+│   │   ├── install.html,v
+│   │   ├── lcc.1,v
+│   │   └── lcc.pdf,v
+│   ├── etc/
+│   │   ├── bprint.c,v
+│   │   ├── gcc-solaris.c,v
+│   │   ├── irix.c,v
+│   │   ├── lcc.c,v
+│   │   ├── linux.c,v
+│   │   ├── ops.c,v
+│   │   ├── osf.c,v
+│   │   ├── solaris.c,v
+│   │   └── win32.c,v
+│   ├── include/
+│   │   ├── alpha/
+│   │   │   └── osf/
+│   │   │       ├── assert.h,v
+│   │   │       ├── ctype.h,v
+│   │   │       ├── errno.h,v
+│   │   │       ├── float.h,v
+│   │   │       ├── limits.h,v
+│   │   │       ├── locale.h,v
+│   │   │       ├── math.h,v
+│   │   │       ├── setjmp.h,v
+│   │   │       ├── signal.h,v
+│   │   │       ├── stdarg.h,v
+│   │   │       ├── stddef.h,v
+│   │   │       ├── stdio.h,v
+│   │   │       ├── stdlib.h,v
+│   │   │       ├── string.h,v
+│   │   │       └── time.h,v
+│   │   ├── mips/
+│   │   │   └── irix/
+│   │   │       ├── assert.h,v
+│   │   │       ├── ctype.h,v
+│   │   │       ├── errno.h,v
+│   │   │       ├── float.h,v
+│   │   │       ├── limits.h,v
+│   │   │       ├── locale.h,v
+│   │   │       ├── math.h,v
+│   │   │       ├── setjmp.h,v
+│   │   │       ├── signal.h,v
+│   │   │       ├── stdarg.h,v
+│   │   │       ├── stddef.h,v
+│   │   │       ├── stdio.h,v
+│   │   │       ├── stdlib.h,v
+│   │   │       ├── string.h,v
+│   │   │       └── time.h,v
+│   │   ├── sparc/
+│   │   │   └── solaris/
+│   │   │       ├── assert.h,v
+│   │   │       ├── ctype.h,v
+│   │   │       ├── errno.h,v
+│   │   │       ├── float.h,v
+│   │   │       ├── limits.h,v
+│   │   │       ├── locale.h,v
+│   │   │       ├── math.h,v
+│   │   │       ├── setjmp.h,v
+│   │   │       ├── signal.h,v
+│   │   │       ├── stdarg.h,v
+│   │   │       ├── stddef.h,v
+│   │   │       ├── stdio.h,v
+│   │   │       ├── stdlib.h,v
+│   │   │       ├── string.h,v
+│   │   │       └── time.h,v
+│   │   └── x86/
+│   │       └── linux/
+│   │           ├── assert.h,v
+│   │           ├── float.h,v
+│   │           └── stdarg.h,v
+│   ├── lburg/
+│   │   ├── gram.c,v
+│   │   ├── gram.y,v
+│   │   ├── lburg.1,v
+│   │   ├── lburg.c,v
+│   │   └── lburg.h,v
+│   ├── lib/
+│   │   ├── assert.c,v
+│   │   ├── bbexit.c,v
+│   │   └── yynull.c,v
+│   ├── LOG,v
+│   ├── makefile,v
+│   ├── makefile.nt,v
+│   ├── mips/
+│   │   └── irix/
+│   │       └── tst/
+│   │           ├── 8q.1bk,v
+│   │           ├── 8q.2bk,v
+│   │           ├── 8q.sbk,v
+│   │           ├── array.1bk,v
+│   │           ├── array.2bk,v
+│   │           ├── array.sbk,v
+│   │           ├── cf.1bk,v
+│   │           ├── cf.2bk,v
+│   │           ├── cf.sbk,v
+│   │           ├── cq.1bk,v
+│   │           ├── cq.2bk,v
+│   │           ├── cq.sbk,v
+│   │           ├── cvt.1bk,v
+│   │           ├── cvt.2bk,v
+│   │           ├── cvt.sbk,v
+│   │           ├── fields.1bk,v
+│   │           ├── fields.2bk,v
+│   │           ├── fields.sbk,v
+│   │           ├── front.2bk,v
+│   │           ├── front.sbk,v
+│   │           ├── incr.2bk,v
+│   │           ├── incr.sbk,v
+│   │           ├── init.1bk,v
+│   │           ├── init.2bk,v
+│   │           ├── init.sbk,v
+│   │           ├── limits.1bk,v
+│   │           ├── limits.2bk,v
+│   │           ├── limits.sbk,v
+│   │           ├── paranoia.1bk,v
+│   │           ├── paranoia.2bk,v
+│   │           ├── paranoia.sbk,v
+│   │           ├── sort.1bk,v
+│   │           ├── sort.2bk,v
+│   │           ├── sort.sbk,v
+│   │           ├── spill.2bk,v
+│   │           ├── spill.sbk,v
+│   │           ├── stdarg.1bk,v
+│   │           ├── stdarg.2bk,v
+│   │           ├── stdarg.sbk,v
+│   │           ├── struct.1bk,v
+│   │           ├── struct.2bk,v
+│   │           ├── struct.sbk,v
+│   │           ├── switch.1bk,v
+│   │           ├── switch.2bk,v
+│   │           ├── switch.sbk,v
+│   │           ├── wf1.1bk,v
+│   │           ├── wf1.2bk,v
+│   │           ├── wf1.sbk,v
+│   │           ├── yacc.1bk,v
+│   │           ├── yacc.2bk,v
+│   │           └── yacc.sbk,v
+│   ├── msdev/
+│   │   ├── rcc.dsp,v
+│   │   └── rcc.dsw,v
+│   ├── packing.lst,v
+│   ├── README,v
+│   ├── README.id,v
+│   ├── sparc/
+│   │   └── solaris/
+│   │       └── tst/
+│   │           ├── 8q.1bk,v
+│   │           ├── 8q.2bk,v
+│   │           ├── 8q.sbk,v
+│   │           ├── array.1bk,v
+│   │           ├── array.2bk,v
+│   │           ├── array.sbk,v
+│   │           ├── cf.1bk,v
+│   │           ├── cf.2bk,v
+│   │           ├── cf.sbk,v
+│   │           ├── cq.1bk,v
+│   │           ├── cq.2bk,v
+│   │           ├── cq.sbk,v
+│   │           ├── cvt.1bk,v
+│   │           ├── cvt.2bk,v
+│   │           ├── cvt.sbk,v
+│   │           ├── fields.1bk,v
+│   │           ├── fields.2bk,v
+│   │           ├── fields.sbk,v
+│   │           ├── front.2bk,v
+│   │           ├── front.sbk,v
+│   │           ├── incr.1bk,v
+│   │           ├── incr.2bk,v
+│   │           ├── incr.sbk,v
+│   │           ├── init.1bk,v
+│   │           ├── init.2bk,v
+│   │           ├── init.sbk,v
+│   │           ├── limits.1bk,v
+│   │           ├── limits.2bk,v
+│   │           ├── limits.sbk,v
+│   │           ├── paranoia.1bk,v
+│   │           ├── paranoia.2bk,v
+│   │           ├── paranoia.sbk,v
+│   │           ├── sort.1bk,v
+│   │           ├── sort.2bk,v
+│   │           ├── sort.sbk,v
+│   │           ├── spill.1bk,v
+│   │           ├── spill.2bk,v
+│   │           ├── spill.sbk,v
+│   │           ├── stdarg.1bk,v
+│   │           ├── stdarg.2bk,v
+│   │           ├── stdarg.sbk,v
+│   │           ├── struct.1bk,v
+│   │           ├── struct.2bk,v
+│   │           ├── struct.sbk,v
+│   │           ├── switch.1bk,v
+│   │           ├── switch.2bk,v
+│   │           ├── switch.sbk,v
+│   │           ├── wf1.1bk,v
+│   │           ├── wf1.2bk,v
+│   │           ├── wf1.sbk,v
+│   │           ├── yacc.1bk,v
+│   │           ├── yacc.2bk,v
+│   │           └── yacc.sbk,v
+│   ├── src/
+│   │   ├── 2html.c,v
+│   │   ├── alloc.c,v
+│   │   ├── alpha.md,v
+│   │   ├── asdl.c,v
+│   │   ├── bind.c,v
+│   │   ├── bytecode.c,v
+│   │   ├── c.h,v
+│   │   ├── config.h,v
+│   │   ├── dag.c,v
+│   │   ├── dagcheck.md,v
+│   │   ├── decl.c,v
+│   │   ├── enode.c,v
+│   │   ├── error.c,v
+│   │   ├── event.c,v
+│   │   ├── expr.c,v
+│   │   ├── gen.c,v
+│   │   ├── init.c,v
+│   │   ├── inits.c,v
+│   │   ├── input.c,v
+│   │   ├── lex.c,v
+│   │   ├── list.c,v
+│   │   ├── main.c,v
+│   │   ├── mips.md,v
+│   │   ├── null.c,v
+│   │   ├── output.c,v
+│   │   ├── pass2.c,v
+│   │   ├── prof.c,v
+│   │   ├── profio.c,v
+│   │   ├── rcc.asdl,v
+│   │   ├── run.sh,v
+│   │   ├── simp.c,v
+│   │   ├── sparc.md,v
+│   │   ├── stab.c,v
+│   │   ├── stab.h,v
+│   │   ├── stmt.c,v
+│   │   ├── string.c,v
+│   │   ├── sym.c,v
+│   │   ├── symbolic.c,v
+│   │   ├── token.h,v
+│   │   ├── trace.c,v
+│   │   ├── tree.c,v
+│   │   ├── types.c,v
+│   │   ├── x86.md,v
+│   │   └── x86linux.md,v
+│   ├── tst/
+│   │   ├── 8q.0,v
+│   │   ├── 8q.c,v
+│   │   ├── array.0,v
+│   │   ├── array.c,v
+│   │   ├── cf.0,v
+│   │   ├── cf.c,v
+│   │   ├── cq.0,v
+│   │   ├── cq.c,v
+│   │   ├── cvt.0,v
+│   │   ├── cvt.c,v
+│   │   ├── fields.0,v
+│   │   ├── fields.c,v
+│   │   ├── front.0,v
+│   │   ├── front.c,v
+│   │   ├── incr.0,v
+│   │   ├── incr.c,v
+│   │   ├── init.0,v
+│   │   ├── init.c,v
+│   │   ├── limits.0,v
+│   │   ├── limits.c,v
+│   │   ├── paranoia.0,v
+│   │   ├── paranoia.c,v
+│   │   ├── sort.0,v
+│   │   ├── sort.c,v
+│   │   ├── spill.0,v
+│   │   ├── spill.c,v
+│   │   ├── stdarg.0,v
+│   │   ├── stdarg.c,v
+│   │   ├── struct.0,v
+│   │   ├── struct.c,v
+│   │   ├── switch.0,v
+│   │   ├── switch.c,v
+│   │   ├── wf1.0,v
+│   │   ├── wf1.c,v
+│   │   ├── yacc.0,v
+│   │   └── yacc.c,v
+│   └── x86/
+│       ├── linux/
+│       │   └── tst/
+│       │       ├── 8q.1bk,v
+│       │       ├── 8q.2bk,v
+│       │       ├── 8q.sbk,v
+│       │       ├── array.1bk,v
+│       │       ├── array.2bk,v
+│       │       ├── array.sbk,v
+│       │       ├── cf.1bk,v
+│       │       ├── cf.2bk,v
+│       │       ├── cf.sbk,v
+│       │       ├── cq.1bk,v
+│       │       ├── cq.2bk,v
+│       │       ├── cq.sbk,v
+│       │       ├── cvt.1bk,v
+│       │       ├── cvt.2bk,v
+│       │       ├── cvt.sbk,v
+│       │       ├── fields.1bk,v
+│       │       ├── fields.2bk,v
+│       │       ├── fields.sbk,v
+│       │       ├── front.2bk,v
+│       │       ├── front.sbk,v
+│       │       ├── incr.1bk,v
+│       │       ├── incr.2bk,v
+│       │       ├── incr.sbk,v
+│       │       ├── init.1bk,v
+│       │       ├── init.2bk,v
+│       │       ├── init.sbk,v
+│       │       ├── limits.1bk,v
+│       │       ├── limits.2bk,v
+│       │       ├── limits.sbk,v
+│       │       ├── paranoia.1bk,v
+│       │       ├── paranoia.2bk,v
+│       │       ├── paranoia.sbk,v
+│       │       ├── sort.1bk,v
+│       │       ├── sort.2bk,v
+│       │       ├── sort.sbk,v
+│       │       ├── spill.1bk,v
+│       │       ├── spill.2bk,v
+│       │       ├── spill.sbk,v
+│       │       ├── stdarg.1bk,v
+│       │       ├── stdarg.2bk,v
+│       │       ├── stdarg.sbk,v
+│       │       ├── struct.1bk,v
+│       │       ├── struct.2bk,v
+│       │       ├── struct.sbk,v
+│       │       ├── switch.1bk,v
+│       │       ├── switch.2bk,v
+│       │       ├── switch.sbk,v
+│       │       ├── wf1.1bk,v
+│       │       ├── wf1.2bk,v
+│       │       ├── wf1.sbk,v
+│       │       ├── yacc.1bk,v
+│       │       ├── yacc.2bk,v
+│       │       └── yacc.sbk,v
+│       └── win32/
+│           └── tst/
+│               ├── 8q.1bk,v
+│               ├── 8q.2bk,v
+│               ├── 8q.sbk,v
+│               ├── array.1bk,v
+│               ├── array.2bk,v
+│               ├── array.sbk,v
+│               ├── cf.1bk,v
+│               ├── cf.2bk,v
+│               ├── cf.sbk,v
+│               ├── cq.1bk,v
+│               ├── cq.2bk,v
+│               ├── cq.sbk,v
+│               ├── cvt.1bk,v
+│               ├── cvt.2bk,v
+│               ├── cvt.sbk,v
+│               ├── fields.1bk,v
+│               ├── fields.2bk,v
+│               ├── fields.sbk,v
+│               ├── front.2bk,v
+│               ├── front.sbk,v
+│               ├── incr.1bk,v
+│               ├── incr.2bk,v
+│               ├── incr.sbk,v
+│               ├── init.1bk,v
+│               ├── init.2bk,v
+│               ├── init.sbk,v
+│               ├── limits.1bk,v
+│               ├── limits.2bk,v
+│               ├── limits.sbk,v
+│               ├── paranoia.1bk,v
+│               ├── paranoia.2bk,v
+│               ├── paranoia.sbk,v
+│               ├── sort.1bk,v
+│               ├── sort.2bk,v
+│               ├── sort.sbk,v
+│               ├── spill.1bk,v
+│               ├── spill.2bk,v
+│               ├── spill.sbk,v
+│               ├── stdarg.1bk,v
+│               ├── stdarg.2bk,v
+│               ├── stdarg.sbk,v
+│               ├── struct.1bk,v
+│               ├── struct.2bk,v
+│               ├── struct.sbk,v
+│               ├── switch.1bk,v
+│               ├── switch.2bk,v
+│               ├── switch.sbk,v
+│               ├── wf1.1bk,v
+│               ├── wf1.2bk,v
+│               ├── wf1.sbk,v
+│               ├── yacc.1bk,v
+│               ├── yacc.2bk,v
+│               └── yacc.sbk,v
+├── libs/
+│   ├── cmdlib/
+│   │   ├── cmdlib.cpp,v
+│   │   └── cmdlib.vcproj,v
+│   ├── cmdlib.h,v
+│   ├── jpeg6/
+│   │   ├── jchuff.h,v
+│   │   ├── jcomapi.cpp,v
+│   │   ├── jconfig.h,v
+│   │   ├── jdapimin.cpp,v
+│   │   ├── jdapistd.cpp,v
+│   │   ├── jdatasrc.cpp,v
+│   │   ├── jdcoefct.cpp,v
+│   │   ├── jdcolor.cpp,v
+│   │   ├── jdct.h,v
+│   │   ├── jddctmgr.cpp,v
+│   │   ├── jdhuff.cpp,v
+│   │   ├── jdhuff.h,v
+│   │   ├── jdinput.cpp,v
+│   │   ├── jdmainct.cpp,v
+│   │   ├── jdmarker.cpp,v
+│   │   ├── jdmaster.cpp,v
+│   │   ├── jdpostct.cpp,v
+│   │   ├── jdsample.cpp,v
+│   │   ├── jdtrans.cpp,v
+│   │   ├── jerror.cpp,v
+│   │   ├── jerror.h,v
+│   │   ├── jfdctflt.cpp,v
+│   │   ├── jidctflt.cpp,v
+│   │   ├── jinclude.h,v
+│   │   ├── jmemmgr.cpp,v
+│   │   ├── jmemnobs.cpp,v
+│   │   ├── jmemsys.h,v
+│   │   ├── jmorecfg.h,v
+│   │   ├── jpeg6.vcproj,v
+│   │   ├── jpegint.h,v
+│   │   ├── jpgload.cpp,v
+│   │   ├── jutils.cpp,v
+│   │   ├── jversion.h,v
+│   │   └── README,v
+│   ├── jpeglib.h,v
+│   ├── pak/
+│   │   ├── pak.vcproj,v
+│   │   ├── pakstuff.cpp,v
+│   │   ├── unzip.cpp,v
+│   │   └── unzip.h,v
+│   ├── pakstuff.h,v
+│   └── str.h,v
+├── q3asm/
+│   ├── cmdlib.c,v
+│   ├── cmdlib.h,v
+│   ├── lib.txt,v
+│   ├── Makefile,v
+│   ├── mathlib.h,v
+│   ├── notes.txt,v
+│   ├── ops.txt,v
+│   ├── opstrings.h,v
+│   ├── q3asm.c,v
+│   ├── q3asm.sln,v
+│   ├── q3asm.vcproj,v
+│   ├── qfiles.h,v
+│   └── README.Id,v
+├── q3map/
+│   ├── brush.c,v
+│   ├── brush_primit.c,v
+│   ├── bsp.c,v
+│   ├── facebsp.c,v
+│   ├── fog.c,v
+│   ├── gldraw.c,v
+│   ├── glfile.c,v
+│   ├── GNUmakefile,v
+│   ├── leakfile.c,v
+│   ├── light.c,v
+│   ├── light.h,v
+│   ├── light_trace.c,v
+│   ├── lightmaps.c,v
+│   ├── lightv.c,v
+│   ├── makefile,v
+│   ├── map.c,v
+│   ├── mesh.c,v
+│   ├── mesh.h,v
+│   ├── misc_model.c,v
+│   ├── nodraw.c,v
+│   ├── patch.c,v
+│   ├── portals.c,v
+│   ├── prtfile.c,v
+│   ├── q3map.sln,v
+│   ├── q3map.vcproj,v
+│   ├── qbsp.h,v
+│   ├── shaders.c,v
+│   ├── shaders.h,v
+│   ├── soundv.c,v
+│   ├── surface.c,v
+│   ├── terrain.c,v
+│   ├── tjunction.c,v
+│   ├── tree.c,v
+│   ├── vis.c,v
+│   ├── vis.h,v
+│   ├── visflow.c,v
+│   └── writebsp.c,v
+├── q3radiant/
+│   ├── Bmp.cpp,v
+│   ├── BMP.H,v
+│   ├── Brush.cpp,v
+│   ├── BRUSH.H,v
+│   ├── brush_primit.cpp,v
+│   ├── BrushScript.cpp,v
+│   ├── BSInput.cpp,v
+│   ├── BSInput.h,v
+│   ├── BSPFILE.H,v
+│   ├── CAMERA.H,v
+│   ├── cameratargetdlg.cpp,v
+│   ├── cameratargetdlg.h,v
+│   ├── CamWnd.cpp,v
+│   ├── CamWnd.h,v
+│   ├── CapDialog.cpp,v
+│   ├── CapDialog.h,v
+│   ├── cbrushstub.cpp,v
+│   ├── CharBuffer.h,v
+│   ├── ChildFrm.cpp,v
+│   ├── ChildFrm.h,v
+│   ├── CommandsDlg.cpp,v
+│   ├── CommandsDlg.h,v
+│   ├── CSG.CPP,v
+│   ├── DialogInfo.cpp,v
+│   ├── DialogInfo.h,v
+│   ├── DialogTextures.cpp,v
+│   ├── DialogTextures.h,v
+│   ├── DialogThick.cpp,v
+│   ├── DialogThick.h,v
+│   ├── dlgcamera.cpp,v
+│   ├── dlgcamera.h,v
+│   ├── DlgEvent.cpp,v
+│   ├── DlgEvent.h,v
+│   ├── DRAG.CPP,v
+│   ├── ECLASS.CPP,v
+│   ├── EditWnd.cpp,v
+│   ├── EditWnd.h,v
+│   ├── ENTITY.CPP,v
+│   ├── ENTITY.H,v
+│   ├── EntityListDlg.cpp,v
+│   ├── EntityListDlg.h,v
+│   ├── ENTITYW.H,v
+│   ├── EPAIRS.H,v
+│   ├── EpairsWrapper.h,v
+│   ├── FindTextureDlg.cpp,v
+│   ├── FindTextureDlg.h,v
+│   ├── FNMATCH.CPP,v
+│   ├── FNMATCH.H,v
+│   ├── GLINGR.H,v
+│   ├── GLInterface.cpp,v
+│   ├── GLW_WIN.H,v
+│   ├── GroupBar.cpp,v
+│   ├── GroupBar.h,v
+│   ├── GroupDlg.cpp,v
+│   ├── GroupDlg.h,v
+│   ├── IBSPFrontend.h,v
+│   ├── ICON1.ICO,v
+│   ├── IEpairs.cpp,v
+│   ├── IEpairs.h,v
+│   ├── igl.h,v
+│   ├── IMessaging.h,v
+│   ├── IPluginEntities.h,v
+│   ├── iscriplib.h,v
+│   ├── ISelectedFace.h,v
+│   ├── IShaders.cpp,v
+│   ├── IShaders.h,v
+│   ├── isurfaceplugin.h,v
+│   ├── LBMLIB.CPP,v
+│   ├── LBMLIB.H,v
+│   ├── LstToolBar.cpp,v
+│   ├── LstToolBar.h,v
+│   ├── MainFrm.cpp,v
+│   ├── MainFrm.h,v
+│   ├── MAP.CPP,v
+│   ├── MAP.H,v
+│   ├── MapInfo.cpp,v
+│   ├── MapInfo.h,v
+│   ├── MATHLIB.CPP,v
+│   ├── MATHLIB.H,v
+│   ├── Messaging.cpp,v
+│   ├── Messaging.h,v
+│   ├── MRU.CPP,v
+│   ├── MRU.H,v
+│   ├── NameDlg.cpp,v
+│   ├── NameDlg.h,v
+│   ├── NewProjDlg.cpp,v
+│   ├── NewProjDlg.h,v
+│   ├── PARSE.CPP,v
+│   ├── PARSE.H,v
+│   ├── PatchDensityDlg.cpp,v
+│   ├── PatchDensityDlg.h,v
+│   ├── PatchDialog.cpp,v
+│   ├── PatchDialog.h,v
+│   ├── PlugIn.cpp,v
+│   ├── PlugIn.h,v
+│   ├── PluginEntities.cpp,v
+│   ├── PlugInManager.cpp,v
+│   ├── PlugInManager.h,v
+│   ├── PMESH.CPP,v
+│   ├── PMESH.H,v
+│   ├── POINTS.CPP,v
+│   ├── PrefsDlg.cpp,v
+│   ├── PrefsDlg.h,v
+│   ├── QE3.CPP,v
+│   ├── QE3.H,v
+│   ├── QEDEFS.H,v
+│   ├── qerplugin.h,v
+│   ├── QERTYPES.H,v
+│   ├── QFILES.H,v
+│   ├── QGL.H,v
+│   ├── QGL_WIN.C,v
+│   ├── QGL_WIN.CPP,v
+│   ├── RADBSP.CPP,v
+│   ├── RADEditView.cpp,v
+│   ├── RADEditView.h,v
+│   ├── RADEditWnd.cpp,v
+│   ├── RADEditWnd.h,v
+│   ├── Radiant.clw,v
+│   ├── Radiant.cpp,v
+│   ├── Radiant.h,v
+│   ├── Radiant.rc,v
+│   ├── Radiant.sln,v
+│   ├── Radiant.vcproj,v
+│   ├── RadiantDoc.cpp,v
+│   ├── RadiantDoc.h,v
+│   ├── RadiantView.cpp,v
+│   ├── RadiantView.h,v
+│   ├── RADKEYS.INI,v
+│   ├── res/
+│   │   ├── BEVEL.BMP,v
+│   │   ├── BITMAP2.BMP,v
+│   │   ├── BMP00001.BMP,v
+│   │   ├── BMP00002.BMP,v
+│   │   ├── bmp00003.bmp,v
+│   │   ├── BMP0002.BMP,v
+│   │   ├── DEFTEX.WAL,v
+│   │   ├── ENDCAP.BMP,v
+│   │   ├── IBEVEL.BMP,v
+│   │   ├── icon2.ico,v
+│   │   ├── IENDCAP.BMP,v
+│   │   ├── logo_sm3dfx.bmp,v
+│   │   ├── Q.BMP,v
+│   │   ├── Radiant.ico,v
+│   │   ├── Radiant.rc2,v
+│   │   ├── RADIANT3.GIF,v
+│   │   ├── RadiantDoc.ico,v
+│   │   ├── shaderbar.bmp,v
+│   │   ├── shaderdoc.ico,v
+│   │   ├── shaderframe.ico,v
+│   │   ├── Toolbar.bmp,v
+│   │   ├── TOOLBAR1.BMP,v
+│   │   ├── TOOLBAR2.BMP,v
+│   │   ├── VIEWDEFA.BMP,v
+│   │   └── VIEWOPPO.BMP,v
+│   ├── resource.h,v
+│   ├── RotateDlg.cpp,v
+│   ├── RotateDlg.h,v
+│   ├── ScaleDialog.cpp,v
+│   ├── ScaleDialog.h,v
+│   ├── ScriptDlg.cpp,v
+│   ├── ScriptDlg.h,v
+│   ├── SELECT.CPP,v
+│   ├── SELECT.H,v
+│   ├── SelectedFace.cpp,v
+│   ├── ShaderEdit.cpp,v
+│   ├── ShaderEdit.h,v
+│   ├── ShaderInfo.cpp,v
+│   ├── ShaderInfo.h,v
+│   ├── splines/
+│   │   ├── math_angles.cpp,v
+│   │   ├── math_angles.h,v
+│   │   ├── math_matrix.cpp,v
+│   │   ├── math_matrix.h,v
+│   │   ├── math_quaternion.cpp,v
+│   │   ├── math_quaternion.h,v
+│   │   ├── math_vector.cpp,v
+│   │   ├── math_vector.h,v
+│   │   ├── q_parse.cpp,v
+│   │   ├── q_shared.cpp,v
+│   │   ├── q_shared.h,v
+│   │   ├── splines.cpp,v
+│   │   ├── splines.h,v
+│   │   ├── Splines.vcproj,v
+│   │   ├── util_list.h,v
+│   │   ├── util_str.cpp,v
+│   │   └── util_str.h,v
+│   ├── StdAfx.cpp,v
+│   ├── StdAfx.h,v
+│   ├── SurfaceDlg.cpp,v
+│   ├── SurfaceDlg.h,v
+│   ├── SurfacePlugin.cpp,v
+│   ├── terrain.cpp,v
+│   ├── terrain.h,v
+│   ├── TexEdit.cpp,v
+│   ├── TexEdit.h,v
+│   ├── TextureBar.cpp,v
+│   ├── TextureBar.h,v
+│   ├── TextureLayout.cpp,v
+│   ├── TextureLayout.h,v
+│   ├── TextureLoad.cpp,v
+│   ├── TextureLoad.h,v
+│   ├── Textures.h,v
+│   ├── TexWnd.cpp,v
+│   ├── TexWnd.h,v
+│   ├── ToolWnd.cpp,v
+│   ├── ToolWnd.h,v
+│   ├── Undo.cpp,v
+│   ├── Undo.h,v
+│   ├── VERTSEL.CPP,v
+│   ├── VIEW.H,v
+│   ├── WaveOpen.cpp,v
+│   ├── WaveOpen.h,v
+│   ├── WIN_CAM.CPP,v
+│   ├── WIN_DLG.CPP,v
+│   ├── Win_ent.cpp,v
+│   ├── Win_main.cpp,v
+│   ├── WIN_QE3.CPP,v
+│   ├── WIN_QE3.RC2,v
+│   ├── WIN_XY.CPP,v
+│   ├── WIN_Z.CPP,v
+│   ├── Winding.cpp,v
+│   ├── Winding.h,v
+│   ├── XY.H,v
+│   ├── XYWnd.cpp,v
+│   ├── XYWnd.h,v
+│   ├── Z.CPP,v
+│   ├── Z.H,v
+│   ├── ZView.cpp,v
+│   ├── ZView.h,v
+│   ├── ZWnd.cpp,v
+│   └── ZWnd.h,v
+├── README.txt,v
+└── ui/
+    ├── hud.txt,v
+    ├── hud2.txt,v
+    ├── ingame.txt,v
+    ├── menudef.h,v
+    └── menus.txt,v

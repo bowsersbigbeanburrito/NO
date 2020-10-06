@@ -1,0 +1,46 @@
+tools/
+├── compress/
+│   ├── Makefile,v
+│   └── sliutil.c,v
+├── conversion/
+│   ├── allBut.py,v
+│   ├── ar2rgba.pl,v
+│   ├── ascii2raw.py,v
+│   ├── binaryReplacer,v
+│   ├── binaryReplacer.c,v
+│   ├── c2ppm.py,v
+│   ├── checkForTexture.py,v
+│   ├── ci_c2ppm.py,v
+│   ├── convertRGBAToSGI.py,v
+│   ├── cv.py,v
+│   ├── CVS/
+│   │   └── fileattr
+│   ├── doSymbolReplace.sh,v
+│   ├── extractTextures.py,v
+│   ├── findAddress.py,v
+│   ├── fixRGB.pl,v
+│   ├── font2ppm.py,v
+│   ├── font2rgba.pl,v
+│   ├── genMIFFfromRGBA.pl,v
+│   ├── genPPMfrom1Color.pl,v
+│   ├── genPPMfromASCIIClut.sh,v
+│   ├── genPPMfromASCIIRGBA16.sh,v
+│   ├── genPPMfromClut.pl,v
+│   ├── genPPMfromRGB.pl,v
+│   ├── genPPMfromRGBA.pl,v
+│   ├── genRawFromClut.pl,v
+│   ├── genRGBAfromASCII16.sh,v
+│   ├── i82rgba.pl,v
+│   ├── mergeDotS.py,v
+│   ├── raw2BWAlpha.pl,v
+│   ├── raw2tex.pl,v
+│   ├── rawC2ppm.py,v
+│   ├── replaceTexture.py,v
+│   ├── rgb216rgba.pl,v
+│   ├── rgb2font.pl,v
+│   ├── rgb2rgba.pl,v
+│   ├── rgba22B.pl,v
+│   ├── rgba2i8.pl,v
+│   ├── rgba2red.pl,v
+│   └── writeBytes.pl,v
+└── sync.py,v

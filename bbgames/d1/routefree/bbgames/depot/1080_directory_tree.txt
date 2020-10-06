@@ -1,0 +1,345 @@
+1080/
+├── apps/
+│   └── ski/
+│       ├── data/
+│       │   ├── effects/
+│       │   │   ├── effects.o,v
+│       │   │   ├── flare1.bin,v
+│       │   │   ├── flare2.bin,v
+│       │   │   ├── flare3.bin,v
+│       │   │   ├── flare4.bin,v
+│       │   │   ├── flare5.bin,v
+│       │   │   ├── lens.o,v
+│       │   │   └── suns.o,v
+│       │   ├── maps/
+│       │   │   ├── a.bin,v
+│       │   │   ├── bg1_data.o,v
+│       │   │   ├── bg2_data.o,v
+│       │   │   ├── grid.o,v
+│       │   │   ├── grid_pgrid.o,v
+│       │   │   ├── halfpipe01.o,v
+│       │   │   ├── halfpipe01_pgrid.o,v
+│       │   │   ├── halfpipe_env.bin,v
+│       │   │   ├── halfpipe_item.bin,v
+│       │   │   ├── halfpipe_mark.bin,v
+│       │   │   ├── k_back01.o,v
+│       │   │   ├── k_back02.o,v
+│       │   │   ├── k_map01.o,v
+│       │   │   ├── k_map01_pgrid.o,v
+│       │   │   ├── k_map02.o,v
+│       │   │   ├── k_map02_pgrid.o,v
+│       │   │   ├── k_map03.o,v
+│       │   │   ├── k_map03_pgrid.o,v
+│       │   │   ├── k_map04.o,v
+│       │   │   ├── k_map04_pgrid.o,v
+│       │   │   ├── k_map05.o,v
+│       │   │   ├── k_map05_pgrid.o,v
+│       │   │   ├── k_map06.o,v
+│       │   │   ├── k_map06_pgrid.o,v
+│       │   │   ├── k_map07.o,v
+│       │   │   ├── k_map07_pgrid.o,v
+│       │   │   ├── kmap01_prop.bin,v
+│       │   │   ├── light01.o,v
+│       │   │   ├── map01_item.bin,v
+│       │   │   ├── map01_mark.bin,v
+│       │   │   ├── map01_prop.bin,v
+│       │   │   ├── map02_env.bin,v
+│       │   │   ├── map02_item.bin,v
+│       │   │   ├── map02_mark.bin,v
+│       │   │   ├── map02_prop.bin,v
+│       │   │   ├── map02a_env.bin,v
+│       │   │   ├── map02b_env.bin,v
+│       │   │   ├── map02o_env.bin,v
+│       │   │   ├── map03_env.bin,v
+│       │   │   ├── map03_item.bin,v
+│       │   │   ├── map03_mark.bin,v
+│       │   │   ├── map03_prop.bin,v
+│       │   │   ├── map03a_env.bin,v
+│       │   │   ├── map03b_env.bin,v
+│       │   │   ├── map04_env.bin,v
+│       │   │   ├── map04_item.bin,v
+│       │   │   ├── map04_mark.bin,v
+│       │   │   ├── map04_prop.bin,v
+│       │   │   ├── map04a_env.bin,v
+│       │   │   ├── map04b_env.bin,v
+│       │   │   ├── map05_env.bin,v
+│       │   │   ├── map05_item.bin,v
+│       │   │   ├── map05_mark.bin,v
+│       │   │   ├── map05a_env.bin,v
+│       │   │   ├── map05b_env.bin,v
+│       │   │   ├── map06_env.bin,v
+│       │   │   ├── map06_item.bin,v
+│       │   │   ├── map06_mark.bin,v
+│       │   │   ├── map06_prop.bin,v
+│       │   │   ├── map06a_env.bin,v
+│       │   │   ├── map06a_item.bin,v
+│       │   │   ├── map06b_env.bin,v
+│       │   │   ├── map07_item.bin,v
+│       │   │   ├── map07_mark.bin,v
+│       │   │   ├── map07a_env.bin,v
+│       │   │   ├── map10_data.co,v
+│       │   │   ├── map10_data.o,v
+│       │   │   ├── map1_data.co,v
+│       │   │   ├── map1_data.o,v
+│       │   │   ├── map2_data.co,v
+│       │   │   ├── map2_data.o,v
+│       │   │   ├── map3_data.co,v
+│       │   │   ├── map3_data.o,v
+│       │   │   ├── map4_data.co,v
+│       │   │   ├── map4_data.o,v
+│       │   │   ├── map5_data.co,v
+│       │   │   ├── map5_data.o,v
+│       │   │   ├── map6_data.co,v
+│       │   │   ├── map6_data.o,v
+│       │   │   ├── map7_data.co,v
+│       │   │   ├── map7_data.o,v
+│       │   │   ├── map8_data.co,v
+│       │   │   ├── map8_data.o,v
+│       │   │   ├── map9_data.co,v
+│       │   │   ├── map9_data.o,v
+│       │   │   ├── obj_data.o,v
+│       │   │   ├── onemake03_env.bin,v
+│       │   │   ├── onemake03_item.bin,v
+│       │   │   ├── onemake_item.bin,v
+│       │   │   ├── onemake_mark.bin,v
+│       │   │   ├── onemakejump04.o,v
+│       │   │   ├── onemakejump04_pgrid.o,v
+│       │   │   ├── sidetree01.o,v
+│       │   │   ├── tree01.o,v
+│       │   │   ├── tree_02.o,v
+│       │   │   ├── tricks.bin,v
+│       │   │   └── tv_01.o,v
+│       │   └── players/
+│       │       ├── anim.bin,v
+│       │       ├── anim8.bin,v
+│       │       ├── Animdata.bin,v
+│       │       ├── AnimData_006.bin,v
+│       │       ├── anims.bin,v
+│       │       ├── anims2.bin,v
+│       │       ├── anims3.bin,v
+│       │       ├── anims4.bin,v
+│       │       ├── blin149.o,v
+│       │       ├── blin154.o,v
+│       │       ├── board1.bin,v
+│       │       ├── board10.bin,v
+│       │       ├── board11.bin,v
+│       │       ├── board2.bin,v
+│       │       ├── board3.bin,v
+│       │       ├── board4.bin,v
+│       │       ├── board5.bin,v
+│       │       ├── board6.bin,v
+│       │       ├── board7.bin,v
+│       │       ├── board8.bin,v
+│       │       ├── board9.bin,v
+│       │       ├── board_a.bin,v
+│       │       ├── board_b.bin,v
+│       │       ├── board_bak.bin,v
+│       │       ├── board_c.bin,v
+│       │       ├── board_d.bin,v
+│       │       ├── board_e.bin,v
+│       │       ├── board_f.bin,v
+│       │       ├── board_g.bin,v
+│       │       ├── board_h.bin,v
+│       │       ├── boarder.o,v
+│       │       ├── boarder1.o,v
+│       │       ├── boarder1h.o,v
+│       │       ├── boarder1l.o,v
+│       │       ├── boarder2.o,v
+│       │       ├── boarder2h.o,v
+│       │       ├── boarder2l.o,v
+│       │       ├── boarder3.o,v
+│       │       ├── boarder3h.o,v
+│       │       ├── boarder3l.o,v
+│       │       ├── boarder4.o,v
+│       │       ├── boarder4h.o,v
+│       │       ├── boarder4l.o,v
+│       │       ├── boarder5.o,v
+│       │       ├── boarder5h.o,v
+│       │       ├── boarder5l.o,v
+│       │       ├── boarder_shad.o,v
+│       │       ├── cam_ca.bin,v
+│       │       ├── cam_info.bin,v
+│       │       ├── lookat_ca.bin,v
+│       │       ├── lookat_ca2.bin,v
+│       │       ├── merlot143.o,v
+│       │       ├── merlot147.o,v
+│       │       ├── okanim3.bin,v
+│       │       ├── p1_parm.bin,v
+│       │       ├── p1_prop.bin,v
+│       │       ├── p2_parm.bin,v
+│       │       ├── p3_parm.bin,v
+│       │       ├── p4_parm.bin,v
+│       │       ├── penguin.o,v
+│       │       ├── player.bin,v
+│       │       ├── player1.bin,v
+│       │       ├── player1_bak.bin,v
+│       │       ├── player1_test.bin,v
+│       │       ├── player2.bin,v
+│       │       ├── player2_bak.bin,v
+│       │       ├── player2_test.bin,v
+│       │       ├── player3.bin,v
+│       │       ├── player3_bak.bin,v
+│       │       ├── player4.bin,v
+│       │       ├── player5.bin,v
+│       │       ├── player5_test.bin,v
+│       │       ├── player6.bin,v
+│       │       ├── player7.bin,v
+│       │       ├── player8.bin,v
+│       │       ├── player_bak.bin,v
+│       │       ├── player_cpu.bin,v
+│       │       ├── psolid_parm.bin,v
+│       │       ├── scout156.o,v
+│       │       ├── scoutltd162.o,v
+│       │       ├── tahoe151.o,v
+│       │       ├── tahoe155.o,v
+│       │       ├── tricks.bin,v
+│       │       └── tricks2.bin,v
+│       ├── flow/
+│       │   ├── 1psel.bin,v
+│       │   ├── 2psela.bin,v
+│       │   ├── 2pselb.bin,v
+│       │   ├── arcademode.o,v
+│       │   ├── arcmenu.o,v
+│       │   ├── arcproc.o,v
+│       │   ├── arcrace.o,v
+│       │   ├── backupram.o,v
+│       │   ├── ban_test.o,v
+│       │   ├── charfir.o,v
+│       │   ├── charmap.o,v
+│       │   ├── charsel.o,v
+│       │   ├── charsps.o,v
+│       │   ├── datamanager.o,v
+│       │   ├── dmgadgets.o,v
+│       │   ├── eddproc.o,v
+│       │   ├── flow.o,v
+│       │   ├── flowImages.bin,v
+│       │   ├── flowimgs.bin,v
+│       │   ├── fucked.bin,v
+│       │   ├── gameflow.o,v
+│       │   ├── gamegfx.o,v
+│       │   ├── generic.o,v
+│       │   ├── generic_sections.o,v
+│       │   ├── gennameenter.o,v
+│       │   ├── gennewrecords.o,v
+│       │   ├── genproc.co,v
+│       │   ├── genproc.o,v
+│       │   ├── genselectcharacter.o,v
+│       │   ├── genselectcourse.o,v
+│       │   ├── h2hproc.o,v
+│       │   ├── h2hrace.o,v
+│       │   ├── head2head.o,v
+│       │   ├── mgrproc.co,v
+│       │   ├── mgrproc.o,v
+│       │   ├── mgrrace.o,v
+│       │   ├── multigamerace.o,v
+│       │   ├── n64demo.o,v
+│       │   ├── n64proc.o,v
+│       │   ├── nameent.o,v
+│       │   ├── procfader.o,v
+│       │   ├── racecol.bin,v
+│       │   ├── sel_ca.bin,v
+│       │   ├── selinfo.bin,v
+│       │   ├── selwin1.bin,v
+│       │   ├── selwin2a.bin,v
+│       │   ├── selwin2b.bin,v
+│       │   ├── testwin.bin,v
+│       │   ├── timeattack.o,v
+│       │   ├── timmenu.o,v
+│       │   ├── timproc.co,v
+│       │   ├── timproc.o,v
+│       │   ├── timrace.o,v
+│       │   ├── titledemo.o,v
+│       │   ├── titproc.o,v
+│       │   ├── training.o,v
+│       │   ├── trainrace.o,v
+│       │   ├── trickmode.o,v
+│       │   ├── trkmenu.o,v
+│       │   ├── trkproc.co,v
+│       │   ├── trkproc.o,v
+│       │   ├── trkrace.o,v
+│       │   ├── trnproc.o,v
+│       │   └── viewrec.o,v
+│       ├── gui/
+│       │   ├── gui.o,v
+│       │   ├── gui_common.o,v
+│       │   ├── gui_font.o,v
+│       │   └── gui_sprite.o,v
+│       ├── snow/
+│       │   ├── boardspray.o,v
+│       │   ├── sn_lights.o,v
+│       │   ├── snow.o,v
+│       │   ├── snoweffects.o,v
+│       │   └── trail.o,v
+│       ├── u64/
+│       │   ├── audio/
+│       │   │   └── snowaudio.o,v
+│       │   ├── bootup.map,v
+│       │   ├── bootup.o,v
+│       │   ├── gdu64,v
+│       │   ├── halpatch.map,v
+│       │   ├── link.map,v
+│       │   ├── main.uso,v
+│       │   ├── makefile,v
+│       │   ├── makefile.main,v
+│       │   ├── rom,v
+│       │   ├── rom.map,v
+│       │   ├── rom.uso,v
+│       │   ├── spec,v
+│       │   ├── spec.h,v
+│       │   ├── u64audio/
+│       │   │   ├── aspMain.o,v
+│       │   │   ├── audio.o,v
+│       │   │   ├── audio_bank.o,v
+│       │   │   ├── audio_hb.o,v
+│       │   │   ├── audio_hm.o,v
+│       │   │   ├── audio_hs.o,v
+│       │   │   ├── audio_hw.o,v
+│       │   │   ├── audio_seq.o,v
+│       │   │   ├── audio_wave.o,v
+│       │   │   ├── audioheap.o,v
+│       │   │   └── audiowork.o,v
+│       │   ├── uso.o,v
+│       │   └── usoboot.o,v
+│       └── world/
+│           ├── balloon.o,v
+│           ├── bg1tex.co,v
+│           ├── bg1tex.o,v
+│           ├── bg2tex.co,v
+│           ├── bg2tex.o,v
+│           ├── bg3tex.co,v
+│           ├── bg3tex.o,v
+│           ├── bg4tex.co,v
+│           ├── bg4tex.o,v
+│           ├── bg5tex.co,v
+│           ├── bg5tex.o,v
+│           ├── bg6tex.co,v
+│           ├── bg6tex.o,v
+│           ├── bg7tex.co,v
+│           ├── bg7tex.o,v
+│           ├── bg8tex.co,v
+│           ├── bg8tex.o,v
+│           ├── bg9tex.co,v
+│           ├── bg9tex.o,v
+│           ├── checkpoint.o,v
+│           ├── fire.o,v
+│           ├── game.co,v
+│           ├── game.o,v
+│           ├── heli.o,v
+│           ├── initgame.o,v
+│           ├── main.o,v
+│           ├── mapprop.o,v
+│           ├── sbanim.o,v
+│           ├── singlerace.o,v
+│           ├── skiedit.o,v
+│           ├── snowai.o,v
+│           ├── snowboarder.o,v
+│           ├── snowcam.o,v
+│           ├── sun.o,v
+│           ├── u64bgwall.o,v
+│           ├── version.bin,v
+│           ├── world.o,v
+│           └── worldserver.o,v
+└── lib/
+    └── u64/
+        ├── libgdl_u64.a,v
+        └── makefile.def,v

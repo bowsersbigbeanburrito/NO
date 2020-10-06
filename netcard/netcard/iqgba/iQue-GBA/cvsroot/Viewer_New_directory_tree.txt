@@ -1,0 +1,932 @@
+Viewer_New/
+├── AgbGNUProBash.bat,v
+├── Attic/
+│   ├── .bash_history,v
+│   ├── GNUmakefile.bak,v
+│   ├── MakeInclude.bak,v
+│   ├── ot,v
+│   └── out,v
+├── base/
+│   ├── buddy.c,v
+│   ├── buddy.h,v
+│   ├── createdata.c,v
+│   ├── createdata.h,v
+│   ├── device.c,v
+│   ├── device.h,v
+│   ├── flashsave.c,v
+│   ├── flashsave.h,v
+│   ├── game.c,v
+│   ├── game.h,v
+│   ├── GNUmakefile,v
+│   ├── level.c,v
+│   ├── level.h,v
+│   ├── lobby.c,v
+│   ├── lobby.h,v
+│   ├── localdata_manager.c,v
+│   ├── localdata_manager.h,v
+│   ├── maildata.c,v
+│   ├── maildata.h,v
+│   ├── option.c,v
+│   ├── option.h,v
+│   ├── README,v
+│   ├── save.c,v
+│   ├── save.h,v
+│   ├── user.c,v
+│   ├── user.h,v
+│   ├── viewerdata.c,v
+│   ├── viewerdata.h,v
+│   ├── visualize.c,v
+│   └── visualize.h,v
+├── bins/
+│   ├── viewer_new_051229.bin,v
+│   ├── viewer_new_060104.bin,v
+│   ├── viewer_new_060110.bin,v
+│   ├── viewer_new_060112.bin,v
+│   ├── viewer_new_060116.bin,v
+│   ├── viewer_new_060120.bin,v
+│   ├── viewer_new_060206.bin,v
+│   ├── viewer_new_060210.bin,v
+│   ├── viewer_new_060215.bin,v
+│   ├── viewer_new_060216.bin,v
+│   ├── viewer_new_060221.bin,v
+│   └── viewer_new_060224.bin,v
+├── common/
+│   ├── common.c,v
+│   ├── common.h,v
+│   ├── fix.c,v
+│   ├── fix.h,v
+│   ├── GNUmakefile,v
+│   ├── random.c,v
+│   ├── random.h,v
+│   ├── varg.h,v
+│   ├── w_string.c,v
+│   └── w_string.h,v
+├── communicate/
+│   ├── connect_pool/
+│   │   ├── connect_pool.c,v
+│   │   ├── connect_pool.h,v
+│   │   └── GNUmakefile,v
+│   ├── GNUmakefile,v
+│   ├── mail/
+│   │   ├── GNUmakefile,v
+│   │   ├── mail.c,v
+│   │   └── mail.h,v
+│   └── protocol/
+│       ├── GNUmakefile,v
+│       ├── protocol.c,v
+│       └── protocol.h,v
+├── doc/
+│   ├── architecture.doc,v
+│   └── Readme.txt,v
+├── GNUmakefile,v
+├── graphics/
+│   ├── emotion.c,v
+│   ├── emotion.h,v
+│   ├── font.c,v
+│   ├── font.h,v
+│   ├── GNUmakefile,v
+│   ├── raster.c,v
+│   ├── raster.h,v
+│   ├── rtf.c,v
+│   └── rtf.h,v
+├── logic/
+│   ├── club_room/
+│   │   ├── GameCenter.c,v
+│   │   ├── GameCenter.h,v
+│   │   ├── GNUmakefile,v
+│   │   ├── LobbyRoom.c,v
+│   │   ├── LobbyRoom.h,v
+│   │   ├── MainRoom.c,v
+│   │   ├── MainRoom.h,v
+│   │   ├── MediaCenter.c,v
+│   │   └── MediaCenter.h,v
+│   ├── common/
+│   │   ├── buddylist_win.c,v
+│   │   ├── buddylist_win.h,v
+│   │   ├── GNUmakefile,v
+│   │   ├── listwindow.c,v
+│   │   ├── listwindow.h,v
+│   │   ├── message_win.c,v
+│   │   ├── message_win.h,v
+│   │   ├── pfile_header.h,v
+│   │   ├── popmenu.c,v
+│   │   ├── popmenu.h,v
+│   │   ├── popwindow.c,v
+│   │   ├── popwindow.h,v
+│   │   ├── proc_id.h,v
+│   │   ├── proclist.c,v
+│   │   ├── proclist.h,v
+│   │   ├── room.c,v
+│   │   ├── room.h,v
+│   │   ├── room_p.c,v
+│   │   ├── room_w.c,v
+│   │   ├── status_bar.c,v
+│   │   ├── status_bar.h,v
+│   │   ├── visual_win.c,v
+│   │   ├── visual_win.h,v
+│   │   ├── wfile_header.h,v
+│   │   └── win_id.h,v
+│   ├── game_center/
+│   │   ├── game_shop.h,v
+│   │   ├── game_shop_p.c,v
+│   │   ├── game_shop_w.c,v
+│   │   ├── gamelist.h,v
+│   │   ├── gamelist_p.c,v
+│   │   ├── gamelist_w.c,v
+│   │   └── GNUmakefile,v
+│   ├── GNUmakefile,v
+│   ├── initialize/
+│   │   ├── Attic/
+│   │   │   ├── initialize_1.h,v
+│   │   │   ├── initialize_1_p.c,v
+│   │   │   ├── initialize_1_w.c,v
+│   │   │   ├── initialize_2.h,v
+│   │   │   ├── initialize_2_p.c,v
+│   │   │   ├── initialize_2_w.c,v
+│   │   │   ├── initialize_3.h,v
+│   │   │   ├── initialize_3_p.c,v
+│   │   │   ├── initialize_3_w.c,v
+│   │   │   ├── initialize_secret.h,v
+│   │   │   ├── initialize_secret_p.c,v
+│   │   │   └── initialize_secret_w.c,v
+│   │   ├── GNUmakefile,v
+│   │   ├── initialize_1.h,v
+│   │   ├── initialize_1_p.c,v
+│   │   ├── initialize_1_w.c,v
+│   │   ├── initialize_2.h,v
+│   │   ├── initialize_2_p.c,v
+│   │   ├── initialize_2_w.c,v
+│   │   ├── initialize_3.h,v
+│   │   ├── initialize_3_p.c,v
+│   │   ├── initialize_3_w.c,v
+│   │   ├── initialize_secret.h,v
+│   │   ├── initialize_secret_p.c,v
+│   │   ├── initialize_secret_w.c,v
+│   │   ├── register.h,v
+│   │   ├── register_p.c,v
+│   │   └── register_w.c,v
+│   ├── lobby/
+│   │   ├── Attic/
+│   │   │   ├── ique_online_add_buddy.h,v
+│   │   │   ├── ique_online_add_buddy_p.c,v
+│   │   │   ├── ique_online_add_buddy_w.c,v
+│   │   │   ├── ique_online_link_game_p.c,v
+│   │   │   ├── ique_online_link_game_w.c,v
+│   │   │   ├── ique_online_link_main.h,v
+│   │   │   ├── ique_online_link_main_p.c,v
+│   │   │   ├── ique_online_link_main_w.c,v
+│   │   │   ├── ique_online_lobby.h,v
+│   │   │   ├── ique_online_lobby_p.c,v
+│   │   │   ├── ique_online_lobby_w.c,v
+│   │   │   ├── ique_online_main.h,v
+│   │   │   ├── ique_online_main_p.c,v
+│   │   │   ├── ique_online_main_w.c,v
+│   │   │   ├── ique_online_msg_from_p.c,v
+│   │   │   ├── ique_online_msg_from_w.c,v
+│   │   │   ├── ique_online_msg_to.h,v
+│   │   │   ├── ique_online_msg_to_p.c,v
+│   │   │   ├── ique_online_msg_to_w.c,v
+│   │   │   ├── ique_online_p_list.c,v
+│   │   │   └── ique_online_p_list.h,v
+│   │   ├── GNUmakefile,v
+│   │   ├── ique_online_add_buddy.h,v
+│   │   ├── ique_online_add_buddy_p.c,v
+│   │   ├── ique_online_add_buddy_w.c,v
+│   │   ├── ique_online_chat.h,v
+│   │   ├── ique_online_chat_p.c,v
+│   │   ├── ique_online_chat_w.c,v
+│   │   ├── ique_online_link_game_p.c,v
+│   │   ├── ique_online_link_game_w.c,v
+│   │   ├── ique_online_link_main.h,v
+│   │   ├── ique_online_link_main_p.c,v
+│   │   ├── ique_online_link_main_w.c,v
+│   │   ├── ique_online_link_mode_p.c,v
+│   │   ├── ique_online_link_mode_w.c,v
+│   │   ├── ique_online_link_room.h,v
+│   │   ├── ique_online_link_room_p.c,v
+│   │   ├── ique_online_link_room_w.c,v
+│   │   ├── ique_online_link_wait_p.c,v
+│   │   ├── ique_online_link_wait_w.c,v
+│   │   ├── ique_online_lobby.h,v
+│   │   ├── ique_online_lobby_p.c,v
+│   │   ├── ique_online_lobby_w.c,v
+│   │   ├── ique_online_mail_main.h,v
+│   │   ├── ique_online_mail_main_p.c,v
+│   │   ├── ique_online_mail_main_w.c,v
+│   │   ├── ique_online_mail_new.h,v
+│   │   ├── ique_online_mail_new_p.c,v
+│   │   ├── ique_online_mail_new_w.c,v
+│   │   ├── ique_online_mail_read.h,v
+│   │   ├── ique_online_mail_read_p.c,v
+│   │   ├── ique_online_mail_read_w.c,v
+│   │   ├── ique_online_main.h,v
+│   │   ├── ique_online_main_p.c,v
+│   │   ├── ique_online_main_w.c,v
+│   │   ├── ique_online_msg_from_p.c,v
+│   │   ├── ique_online_msg_from_w.c,v
+│   │   ├── ique_online_msg_to.h,v
+│   │   ├── ique_online_msg_to_p.c,v
+│   │   ├── ique_online_msg_to_w.c,v
+│   │   ├── ique_online_p_list.c,v
+│   │   ├── ique_online_p_list.h,v
+│   │   ├── ique_online_setup.h,v
+│   │   ├── ique_online_setup_msglist.h,v
+│   │   ├── ique_online_setup_msglist_p.c,v
+│   │   ├── ique_online_setup_msglist_w.c,v
+│   │   ├── ique_online_setup_p.c,v
+│   │   └── ique_online_setup_w.c,v
+│   ├── media_center/
+│   │   ├── Attic/
+│   │   │   └── niebgr.o,v
+│   │   ├── GNUmakefile,v
+│   │   ├── mc_book_read.h,v
+│   │   ├── mc_book_read_p.c,v
+│   │   ├── mc_book_read_w.c,v
+│   │   ├── mc_pic_play.h,v
+│   │   ├── mc_pic_play_p.c,v
+│   │   ├── mc_readbook.h,v
+│   │   ├── mc_readbook_p.c,v
+│   │   ├── mc_readbook_w.c,v
+│   │   └── niebgr.o,v
+│   ├── system_procs/
+│   │   ├── GNUmakefile,v
+│   │   ├── net_procedure.c,v
+│   │   ├── sys_procedure.c,v
+│   │   └── sys_procedure.h,v
+│   └── utils/
+│       ├── chongzhi.h,v
+│       ├── chongzhi_p.c,v
+│       ├── chongzhi_w.c,v
+│       ├── GNUmakefile,v
+│       ├── userinfo.h,v
+│       ├── userinfo_p.c,v
+│       └── userinfo_w.c,v
+├── main/
+│   ├── crt0.s,v
+│   ├── GNUmakefile,v
+│   ├── main.c,v
+│   ├── procs.c,v
+│   └── rom_header.s,v
+├── MakeInclude,v
+├── res/
+│   ├── club_room/
+│   │   ├── Attic/
+│   │   │   ├── door.acg,v
+│   │   │   ├── door.acl,v
+│   │   │   ├── door.aob,v
+│   │   │   ├── shop_main_btn.acg,v
+│   │   │   ├── shop_main_btn.acl,v
+│   │   │   └── shop_main_btn.aob,v
+│   │   ├── boy.acg,v
+│   │   ├── boy.acl,v
+│   │   ├── boy.aob,v
+│   │   ├── chongzhi_bg.acg,v
+│   │   ├── chongzhi_bg.acl,v
+│   │   ├── chongzhi_bg.asc,v
+│   │   ├── club_room.cfg,v
+│   │   ├── door.acg,v
+│   │   ├── door.acl,v
+│   │   ├── door.aob,v
+│   │   ├── game_center.acg,v
+│   │   ├── game_center.acl,v
+│   │   ├── game_center.asc,v
+│   │   ├── gamecenter_obj.acg,v
+│   │   ├── gamecenter_obj.acl,v
+│   │   ├── gamecenter_obj.aob,v
+│   │   ├── GNUmakefile,v
+│   │   ├── lighting.acg,v
+│   │   ├── lighting.acl,v
+│   │   ├── lighting.asc,v
+│   │   ├── lobby.acg,v
+│   │   ├── lobby.acl,v
+│   │   ├── lobby.asc,v
+│   │   ├── main_room.acg,v
+│   │   ├── main_room.acl,v
+│   │   ├── main_room.asc,v
+│   │   ├── mainrroom_obj.acg,v
+│   │   ├── mainrroom_obj.acl,v
+│   │   ├── mainrroom_obj.aob,v
+│   │   ├── media_center.acg,v
+│   │   ├── media_center.acl,v
+│   │   ├── media_center.asc,v
+│   │   ├── mediacenter_obj.acg,v
+│   │   ├── mediacenter_obj.acl,v
+│   │   ├── mediacenter_obj.aob,v
+│   │   ├── reception_obj.acg,v
+│   │   ├── reception_obj.acl,v
+│   │   ├── reception_obj.aob,v
+│   │   ├── shop_main_btn.acg,v
+│   │   ├── shop_main_btn.acl,v
+│   │   ├── shop_main_btn.aob,v
+│   │   ├── userinfo_bg.acg,v
+│   │   ├── userinfo_bg.acl,v
+│   │   ├── userinfo_bg.asc,v
+│   │   ├── userinfo_txt_bg.acg,v
+│   │   ├── userinfo_txt_bg.acl,v
+│   │   └── userinfo_txt_bg.asc,v
+│   ├── common/
+│   │   ├── 1234567890.acg,v
+│   │   ├── 1234567890.acl,v
+│   │   ├── 1234567890.aob,v
+│   │   ├── Attic/
+│   │   │   ├── ol_buddylist.acg,v
+│   │   │   ├── ol_buddylist.acl,v
+│   │   │   └── ol_buddylist.aob,v
+│   │   ├── bg_mail_edit.asc,v
+│   │   ├── bg_text.acg,v
+│   │   ├── bg_text.acl,v
+│   │   ├── bg_text.asc,v
+│   │   ├── characters_bg.acg,v
+│   │   ├── Characters_bg.acl,v
+│   │   ├── common.cfg,v
+│   │   ├── gbabutton.acg,v
+│   │   ├── gbabutton.acl,v
+│   │   ├── gbabutton.aob,v
+│   │   ├── GNUmakefile,v
+│   │   ├── help.acg,v
+│   │   ├── help.acl,v
+│   │   ├── help.asc,v
+│   │   ├── help_bg_text.acg,v
+│   │   ├── help_bg_text.asc,v
+│   │   ├── help_buddylist.asc,v
+│   │   ├── list_title_man_obj.acg,v
+│   │   ├── list_title_man_obj.acl,v
+│   │   ├── list_title_man_obj.aob,v
+│   │   ├── list_title_media_obj.acg,v
+│   │   ├── list_title_media_obj.acl,v
+│   │   ├── list_title_media_obj.aob,v
+│   │   ├── list_window_bg.acg,v
+│   │   ├── list_window_bg.acl,v
+│   │   ├── list_window_bg.asc,v
+│   │   ├── list_window_obj.acg,v
+│   │   ├── list_window_obj.acl,v
+│   │   ├── list_window_obj.aob,v
+│   │   ├── list_window_txt_bg.acg,v
+│   │   ├── list_window_txt_bg.asc,v
+│   │   ├── ol_buddylist.acg,v
+│   │   ├── ol_buddylist.acl,v
+│   │   ├── ol_buddylist.aob,v
+│   │   ├── ol_buddylist_bg.acg,v
+│   │   ├── ol_buddylist_bg.acl,v
+│   │   ├── ol_buddylist_bg.asc,v
+│   │   ├── ol_buddylist_obj.acg,v
+│   │   ├── ol_buddylist_obj.acl,v
+│   │   ├── ol_buddylist_obj.aob,v
+│   │   ├── ol_xx.acg,v
+│   │   ├── ol_xx.acl,v
+│   │   ├── ol_xx.aob,v
+│   │   ├── popup.acg,v
+│   │   ├── popup.acl,v
+│   │   ├── popup.aob,v
+│   │   ├── scrollmsg_obj.acg,v
+│   │   ├── scrollmsg_obj.acl,v
+│   │   ├── scrollmsg_obj.aob,v
+│   │   ├── shadow.acg,v
+│   │   ├── shadow.acl,v
+│   │   ├── shadow.asc,v
+│   │   ├── shuru.acg,v
+│   │   ├── shuru.acl,v
+│   │   ├── shuru.aob,v
+│   │   ├── shuru.asc,v
+│   │   ├── statusbar_obj.acg,v
+│   │   ├── statusbar_obj.acl,v
+│   │   ├── statusbar_obj.aob,v
+│   │   ├── text_bg.acg,v
+│   │   ├── text_bg.acl,v
+│   │   └── text_bg_pal2.asc,v
+│   ├── font/
+│   │   ├── emo_4b_data.dta,v
+│   │   ├── emo_4b_mask.dta,v
+│   │   ├── face.acl,v
+│   │   ├── fnt12_1b_data.dta,v
+│   │   ├── fnt12_1b_map.dta,v
+│   │   ├── fnt12_1bc_data.dta,v
+│   │   ├── fnt12_1bc_map.dta,v
+│   │   ├── fnt8_1b_data.dta,v
+│   │   ├── fnt8_1b_map.dta,v
+│   │   ├── fnt8_1b_width.dta,v
+│   │   ├── font.acl,v
+│   │   ├── font.cfg,v
+│   │   └── GNUmakefile,v
+│   ├── game_center/
+│   │   ├── game_center.cfg,v
+│   │   ├── gamelist_bg.acg,v
+│   │   ├── gamelist_bg.acl,v
+│   │   ├── gamelist_bg.asc,v
+│   │   ├── GameList_more_bg.acg,v
+│   │   ├── gamelist_more_bg.acl,v
+│   │   ├── gamelist_more_bg.asc,v
+│   │   ├── gamelist_more_obj.acg,v
+│   │   ├── gamelist_more_obj.acl,v
+│   │   ├── gamelist_more_obj.aob,v
+│   │   ├── gamelist_obj.acg,v
+│   │   ├── gamelist_obj.acl,v
+│   │   ├── gamelist_obj.aob,v
+│   │   ├── gamereplace_nc_obj.acg,v
+│   │   ├── gamereplace_nc_obj.acl,v
+│   │   ├── gamereplace_nc_obj.aob,v
+│   │   ├── gamereplace_obj.acg,v
+│   │   ├── gamereplace_obj.acl,v
+│   │   ├── gamereplace_obj.aob,v
+│   │   └── GNUmakefile,v
+│   ├── GNUmakefile,v
+│   ├── history,v
+│   ├── initialize/
+│   │   ├── Attic/
+│   │   │   ├── initialize_1_bg.acg,v
+│   │   │   ├── initialize_1_bg.acl,v
+│   │   │   ├── initialize_1_bg.asc,v
+│   │   │   ├── initialize_2_bg.acg,v
+│   │   │   ├── initialize_2_bg.acl,v
+│   │   │   ├── initialize_2_bg.asc,v
+│   │   │   ├── initialize_3_bg.acg,v
+│   │   │   ├── initialize_3_bg.acl,v
+│   │   │   ├── initialize_3_bg.asc,v
+│   │   │   ├── initialize_q_bg.acg,v
+│   │   │   ├── initialize_q_bg.acl,v
+│   │   │   ├── initialize_q_bg.asc,v
+│   │   │   ├── initialize_q_bg_text.acg,v
+│   │   │   ├── initialize_q_bg_text.acl,v
+│   │   │   └── initialize_q_bg_text.asc,v
+│   │   ├── GNUmakefile,v
+│   │   ├── initialize.cfg,v
+│   │   ├── initialize_1_bg.acg,v
+│   │   ├── initialize_1_bg.acl,v
+│   │   ├── initialize_1_bg.asc,v
+│   │   ├── initialize_2_bg.acg,v
+│   │   ├── initialize_2_bg.acl,v
+│   │   ├── initialize_2_bg.asc,v
+│   │   ├── initialize_3_bg.acg,v
+│   │   ├── initialize_3_bg.acl,v
+│   │   ├── initialize_3_bg.asc,v
+│   │   ├── initialize_bg.acg,v
+│   │   ├── initialize_bg.acl,v
+│   │   ├── initialize_bg.asc,v
+│   │   ├── initialize_obj.acg,v
+│   │   ├── initialize_obj.acl,v
+│   │   ├── initialize_obj.aob,v
+│   │   ├── initialize_q_bg.acg,v
+│   │   ├── initialize_q_bg.acl,v
+│   │   ├── initialize_q_bg.asc,v
+│   │   ├── initialize_q_bg_text.acg,v
+│   │   ├── initialize_q_bg_text.acl,v
+│   │   └── initialize_q_bg_text.asc,v
+│   ├── lobby/
+│   │   ├── Attic/
+│   │   │   ├── link_select.acg,v
+│   │   │   ├── link_select.acl,v
+│   │   │   ├── link_select.asc,v
+│   │   │   ├── ol_bg.acg,v
+│   │   │   ├── ol_bg.acl,v
+│   │   │   ├── ol_bg.asc,v
+│   │   │   ├── ol_btn.acg,v
+│   │   │   ├── ol_btn.acl,v
+│   │   │   ├── ol_buddylist_from.acg,v
+│   │   │   ├── ol_buddylist_from.acl,v
+│   │   │   ├── ol_buddylist_from.asc,v
+│   │   │   ├── ol_buddylist_invite.acg,v
+│   │   │   ├── ol_buddylist_invite.acl,v
+│   │   │   ├── ol_buddylist_invite.asc,v
+│   │   │   ├── ol_buddylist_to.acg,v
+│   │   │   ├── ol_buddylist_to.acl,v
+│   │   │   ├── ol_buddylist_to.asc,v
+│   │   │   ├── ol_chat_btn.acg,v
+│   │   │   ├── ol_chat_btn.acl,v
+│   │   │   ├── ol_chat_btn.aob,v
+│   │   │   ├── ol_link_bg.acg,v
+│   │   │   ├── ol_link_bg.acl,v
+│   │   │   ├── ol_link_bg.asc,v
+│   │   │   ├── ol_link_btn.acg,v
+│   │   │   ├── ol_link_btn.acl,v
+│   │   │   ├── ol_link_btn.aob,v
+│   │   │   ├── ol_link_game_bg.acg,v
+│   │   │   ├── ol_link_game_bg.acl,v
+│   │   │   ├── ol_link_game_bg.asc,v
+│   │   │   ├── ol_link_game_btn.acg,v
+│   │   │   ├── ol_link_game_btn.acl,v
+│   │   │   ├── ol_link_game_btn.aob,v
+│   │   │   ├── ol_link_mode_btn.acg,v
+│   │   │   ├── ol_link_mode_btn.acl,v
+│   │   │   ├── ol_link_mode_btn.aob,v
+│   │   │   ├── ol_link_mode_obj.asc,v
+│   │   │   ├── ol_link_room_btn.acg,v
+│   │   │   ├── ol_link_room_btn.acl,v
+│   │   │   ├── ol_link_room_btn.aob,v
+│   │   │   ├── ol_lobby_bg.acg,v
+│   │   │   ├── ol_lobby_bg.acl,v
+│   │   │   ├── ol_lobby_bg.asc,v
+│   │   │   ├── ol_lobby_btn.acg,v
+│   │   │   ├── ol_lobby_btn.acl,v
+│   │   │   ├── ol_lobby_btn.aob,v
+│   │   │   ├── ol_mail_new_bg.acg,v
+│   │   │   ├── ol_mail_new_bg.acl,v
+│   │   │   ├── ol_mail_new_bg.asc,v
+│   │   │   ├── ol_mail_new_btn.acg,v
+│   │   │   ├── ol_mail_new_btn.acl,v
+│   │   │   ├── ol_mail_new_btn.aob,v
+│   │   │   ├── ol_mail_new_edit.asc,v
+│   │   │   ├── ol_mail_read_bg.acg,v
+│   │   │   ├── ol_mail_read_bg.acl,v
+│   │   │   ├── ol_mail_read_bg.asc,v
+│   │   │   ├── ol_mail_read_btn.acg,v
+│   │   │   ├── ol_mail_read_btn.acl,v
+│   │   │   ├── ol_mail_read_btn.aob,v
+│   │   │   ├── ol_main_bg.acg,v
+│   │   │   ├── ol_main_bg.acl,v
+│   │   │   ├── ol_main_bg_game0.asc,v
+│   │   │   ├── ol_main_bg_game1.asc,v
+│   │   │   ├── ol_main_bg_lobby0.asc,v
+│   │   │   ├── ol_main_bg_lobby1.asc,v
+│   │   │   ├── ol_main_bg_mail0.asc,v
+│   │   │   ├── ol_main_bg_mail1.asc,v
+│   │   │   ├── ol_main_bg_setup0.asc,v
+│   │   │   ├── ol_main_bg_setup1.asc,v
+│   │   │   ├── ol_main_btn.acg,v
+│   │   │   ├── ol_main_btn.acl,v
+│   │   │   ├── ol_main_btn.aob,v
+│   │   │   ├── ol_main_btn.cfg,v
+│   │   │   ├── ol_main_btn0.asc,v
+│   │   │   ├── ol_main_btn1.asc,v
+│   │   │   ├── ol_main_btn2.asc,v
+│   │   │   ├── ol_main_btn3.asc,v
+│   │   │   ├── ol_main_game.cfg,v
+│   │   │   ├── ol_main_lobby.cfg,v
+│   │   │   ├── ol_main_mail.cfg,v
+│   │   │   ├── ol_main_setup.cfg,v
+│   │   │   ├── ol_setup_btn.acg,v
+│   │   │   ├── ol_setup_btn.acl,v
+│   │   │   ├── ol_setup_btn.aob,v
+│   │   │   ├── ol_setup_btn.cfg,v
+│   │   │   ├── ol_setup_btn0.asc,v
+│   │   │   ├── ol_setup_btn1.asc,v
+│   │   │   ├── ol_setup_btn2.asc,v
+│   │   │   ├── ol_setup_btn3.asc,v
+│   │   │   ├── ol_setup_btn_lock.acg,v
+│   │   │   ├── ol_setup_btn_lock.acl,v
+│   │   │   ├── ol_setup_btn_lock.aob,v
+│   │   │   ├── ol_setup_msg_bg.acg,v
+│   │   │   ├── ol_setup_msg_bg.acl,v
+│   │   │   ├── ol_setup_msg_bg.asc,v
+│   │   │   ├── ol_setup_msg_list_bg3.acg,v
+│   │   │   ├── ol_setup_msg_list_bg3.acl,v
+│   │   │   ├── ol_setup_msg_list_bg3.aob,v
+│   │   │   ├── ol_setup_msg_list_bg3.asc,v
+│   │   │   ├── ol_setup_msg_list_btn.acg,v
+│   │   │   └── ol_setup_msg_list_btn.acl,v
+│   │   ├── GNUmakefile,v
+│   │   ├── link_select.acg,v
+│   │   ├── link_select.acl,v
+│   │   ├── link_select.asc,v
+│   │   ├── lobby.cfg,v
+│   │   ├── ol_bg.acg,v
+│   │   ├── ol_bg.acl,v
+│   │   ├── ol_bg.asc,v
+│   │   ├── ol_btn.acg,v
+│   │   ├── ol_btn.acl,v
+│   │   ├── ol_buddylist_from.acg,v
+│   │   ├── ol_buddylist_from.acl,v
+│   │   ├── ol_buddylist_from.asc,v
+│   │   ├── ol_buddylist_invite.acg,v
+│   │   ├── ol_buddylist_invite.acl,v
+│   │   ├── ol_buddylist_invite.asc,v
+│   │   ├── ol_buddylist_to.acg,v
+│   │   ├── ol_buddylist_to.acl,v
+│   │   ├── ol_buddylist_to.asc,v
+│   │   ├── ol_chat_bg.acg,v
+│   │   ├── ol_chat_bg.acl,v
+│   │   ├── ol_chat_bg.asc,v
+│   │   ├── ol_chat_btn.acg,v
+│   │   ├── ol_chat_btn.acl,v
+│   │   ├── ol_chat_btn.aob,v
+│   │   ├── ol_chat_obj.acg,v
+│   │   ├── ol_chat_obj.acl,v
+│   │   ├── ol_chat_obj.aob,v
+│   │   ├── ol_link_bg.acg,v
+│   │   ├── ol_link_bg.acl,v
+│   │   ├── ol_link_bg.asc,v
+│   │   ├── ol_link_btn.acg,v
+│   │   ├── ol_link_btn.acl,v
+│   │   ├── ol_link_btn.aob,v
+│   │   ├── ol_link_game_bg.acg,v
+│   │   ├── ol_link_game_bg.acl,v
+│   │   ├── ol_link_game_bg.asc,v
+│   │   ├── ol_link_game_btn.acg,v
+│   │   ├── ol_link_game_btn.acl,v
+│   │   ├── ol_link_game_btn.aob,v
+│   │   ├── ol_link_mode_bg.acg,v
+│   │   ├── ol_link_mode_bg.acl,v
+│   │   ├── ol_link_mode_bg.asc,v
+│   │   ├── ol_link_mode_btn.acg,v
+│   │   ├── ol_link_mode_btn.acl,v
+│   │   ├── ol_link_mode_btn.aob,v
+│   │   ├── ol_link_mode_obj.acg,v
+│   │   ├── ol_link_mode_obj.acl,v
+│   │   ├── ol_link_mode_obj.aob,v
+│   │   ├── ol_link_mode_obj.asc,v
+│   │   ├── ol_link_room_bg.acg,v
+│   │   ├── ol_link_room_bg.acl,v
+│   │   ├── ol_link_room_bg.asc,v
+│   │   ├── ol_link_room_btn.acg,v
+│   │   ├── ol_link_room_btn.acl,v
+│   │   ├── ol_link_room_btn.aob,v
+│   │   ├── ol_link_room_obj.acg,v
+│   │   ├── ol_link_room_obj.acl,v
+│   │   ├── ol_link_room_obj.aob,v
+│   │   ├── ol_link_wait_bg.acg,v
+│   │   ├── ol_link_wait_bg.acl,v
+│   │   ├── ol_link_wait_bg.asc,v
+│   │   ├── ol_link_wait_obj.acg,v
+│   │   ├── ol_link_wait_obj.acl,v
+│   │   ├── ol_link_wait_obj.aob,v
+│   │   ├── ol_lobby_bg.acg,v
+│   │   ├── ol_lobby_bg.acl,v
+│   │   ├── ol_lobby_bg.asc,v
+│   │   ├── ol_lobby_btn.acg,v
+│   │   ├── ol_lobby_btn.acl,v
+│   │   ├── ol_lobby_btn.aob,v
+│   │   ├── ol_mail_bg.acg,v
+│   │   ├── ol_mail_bg.acl,v
+│   │   ├── ol_mail_bg.asc,v
+│   │   ├── ol_mail_btn.acg,v
+│   │   ├── ol_mail_btn.acl,v
+│   │   ├── ol_mail_btn.aob,v
+│   │   ├── ol_mail_new_bg.acg,v
+│   │   ├── ol_mail_new_bg.acl,v
+│   │   ├── ol_mail_new_bg.asc,v
+│   │   ├── ol_mail_new_btn.acg,v
+│   │   ├── ol_mail_new_btn.acl,v
+│   │   ├── ol_mail_new_btn.aob,v
+│   │   ├── ol_mail_new_edit.asc,v
+│   │   ├── ol_mail_read_bg.acg,v
+│   │   ├── ol_mail_read_bg.acl,v
+│   │   ├── ol_mail_read_bg.asc,v
+│   │   ├── ol_mail_read_btn.acg,v
+│   │   ├── ol_mail_read_btn.acl,v
+│   │   ├── ol_mail_read_btn.aob,v
+│   │   ├── ol_main_bg.acg,v
+│   │   ├── ol_main_bg.acl,v
+│   │   ├── ol_main_bg_game0.asc,v
+│   │   ├── ol_main_bg_game1.asc,v
+│   │   ├── ol_main_bg_lobby0.asc,v
+│   │   ├── ol_main_bg_lobby1.asc,v
+│   │   ├── ol_main_bg_mail0.asc,v
+│   │   ├── ol_main_bg_mail1.asc,v
+│   │   ├── ol_main_bg_setup0.asc,v
+│   │   ├── ol_main_bg_setup1.asc,v
+│   │   ├── ol_main_btn.acg,v
+│   │   ├── ol_main_btn.acl,v
+│   │   ├── ol_main_btn.aob,v
+│   │   ├── ol_main_btn.cfg,v
+│   │   ├── ol_main_btn0.asc,v
+│   │   ├── ol_main_btn1.asc,v
+│   │   ├── ol_main_btn2.asc,v
+│   │   ├── ol_main_btn3.asc,v
+│   │   ├── ol_main_game.cfg,v
+│   │   ├── ol_main_lobby.cfg,v
+│   │   ├── ol_main_mail.cfg,v
+│   │   ├── ol_main_setup.cfg,v
+│   │   ├── ol_new_mail_edit_bg.asc,v
+│   │   ├── ol_readmail_bg.acg,v
+│   │   ├── ol_readmail_bg.acl,v
+│   │   ├── ol_readmail_bg.asc,v
+│   │   ├── ol_setup_bg.acg,v
+│   │   ├── ol_setup_bg.acl,v
+│   │   ├── ol_setup_bg.asc,v
+│   │   ├── ol_setup_btn.acg,v
+│   │   ├── ol_setup_btn.acl,v
+│   │   ├── ol_setup_btn.aob,v
+│   │   ├── ol_setup_btn.cfg,v
+│   │   ├── ol_setup_btn0.asc,v
+│   │   ├── ol_setup_btn1.asc,v
+│   │   ├── ol_setup_btn2.asc,v
+│   │   ├── ol_setup_btn3.asc,v
+│   │   ├── ol_setup_btn_lock.acg,v
+│   │   ├── ol_setup_btn_lock.acl,v
+│   │   ├── ol_setup_btn_lock.aob,v
+│   │   ├── ol_setup_msg_bg.acg,v
+│   │   ├── ol_setup_msg_bg.acl,v
+│   │   ├── ol_setup_msg_bg.asc,v
+│   │   ├── ol_setup_msg_list_bg.acg,v
+│   │   ├── ol_setup_msg_list_bg.acl,v
+│   │   ├── ol_setup_msg_list_bg.asc,v
+│   │   ├── ol_setup_msg_list_bg3.acg,v
+│   │   ├── ol_setup_msg_list_bg3.acl,v
+│   │   ├── ol_setup_msg_list_bg3.aob,v
+│   │   ├── ol_setup_msg_list_bg3.asc,v
+│   │   ├── ol_setup_msg_list_btn.acg,v
+│   │   ├── ol_setup_msg_list_btn.acl,v
+│   │   ├── ol_setup_msg_list_obj.acg,v
+│   │   ├── ol_setup_msg_list_obj.acl,v
+│   │   ├── ol_setup_msg_list_obj.aob,v
+│   │   ├── ol_setup_obj.acg,v
+│   │   ├── ol_setup_obj.acl,v
+│   │   ├── ol_setup_obj.aob,v
+│   │   ├── ol_writemail_bg.acg,v
+│   │   ├── ol_writemail_bg.acl,v
+│   │   └── ol_writemail_bg.asc,v
+│   ├── MakeInclude,v
+│   ├── message/
+│   │   ├── GNUmakefile,v
+│   │   └── MessageList.xls,v
+│   └── subdirs.file,v
+├── sound/
+│   ├── click01.o,v
+│   ├── click02.o,v
+│   ├── click03.o,v
+│   ├── click04.o,v
+│   ├── click05.o,v
+│   ├── click06.o,v
+│   ├── click07.o,v
+│   ├── click08.o,v
+│   ├── click09.o,v
+│   ├── click10.o,v
+│   ├── click11.o,v
+│   ├── click12.o,v
+│   ├── click13.o,v
+│   ├── click14.o,v
+│   ├── click15.o,v
+│   ├── click16.o,v
+│   ├── click17.o,v
+│   ├── click18.o,v
+│   ├── click19.o,v
+│   ├── click20.o,v
+│   ├── click21.o,v
+│   ├── click22.o,v
+│   ├── click23.o,v
+│   ├── click24.o,v
+│   ├── click25.o,v
+│   ├── click26.o,v
+│   ├── click27.o,v
+│   ├── click28.o,v
+│   ├── click29.o,v
+│   ├── click30.o,v
+│   ├── click31.o,v
+│   ├── click32.o,v
+│   ├── click33.o,v
+│   ├── click34.o,v
+│   ├── click35.o,v
+│   ├── click36.o,v
+│   ├── click37.o,v
+│   ├── click38.o,v
+│   ├── click39.o,v
+│   ├── click40.o,v
+│   ├── click41.o,v
+│   ├── click42.o,v
+│   ├── click43.o,v
+│   ├── click44.o,v
+│   ├── click45.o,v
+│   ├── click46.o,v
+│   ├── click47.o,v
+│   ├── click48.o,v
+│   ├── click49.o,v
+│   ├── click50.o,v
+│   ├── click51.o,v
+│   ├── click52.o,v
+│   ├── click53.o,v
+│   ├── click54.o,v
+│   ├── click55.o,v
+│   ├── click56.o,v
+│   ├── click57.o,v
+│   ├── click58.o,v
+│   ├── click59.o,v
+│   ├── click60.o,v
+│   ├── GNUmakefile,v
+│   ├── housechh.o,v
+│   ├── houseohh.o,v
+│   ├── m4aLib.h,v
+│   ├── m4aLib.o,v
+│   ├── se5.o,v
+│   ├── se8.o,v
+│   ├── se_d01.o,v
+│   ├── se_d02.o,v
+│   ├── se_d03.o,v
+│   ├── se_d04.o,v
+│   ├── se_d05.o,v
+│   ├── se_d06.o,v
+│   ├── se_d07.o,v
+│   ├── se_d08.o,v
+│   ├── se_d09.o,v
+│   ├── se_d10.o,v
+│   ├── se_d11.o,v
+│   ├── se_d12.o,v
+│   ├── se_d13.o,v
+│   ├── se_d14.o,v
+│   ├── se_d15.o,v
+│   ├── se_d16.o,v
+│   ├── se_d17.o,v
+│   ├── se_d18.o,v
+│   ├── se_d19.o,v
+│   ├── se_d20.o,v
+│   ├── se_d21.o,v
+│   ├── se_d22.o,v
+│   ├── se_d23.o,v
+│   ├── se_d24.o,v
+│   ├── se_d25.o,v
+│   ├── se_d26.o,v
+│   ├── se_d27.o,v
+│   ├── se_d28.o,v
+│   ├── se_d29.o,v
+│   ├── se_d30.o,v
+│   ├── se_d31.o,v
+│   ├── se_d32.o,v
+│   ├── se_d33.o,v
+│   ├── se_d34.o,v
+│   ├── se_d35.o,v
+│   ├── se_d36.o,v
+│   ├── se_d37.o,v
+│   ├── se_d38.o,v
+│   ├── se_d39.o,v
+│   ├── se_d40.o,v
+│   ├── se_d41.o,v
+│   ├── se_d42.o,v
+│   ├── se_d43.o,v
+│   ├── se_d44.o,v
+│   ├── se_d45.o,v
+│   ├── se_d46.o,v
+│   ├── se_d47.o,v
+│   ├── se_d48.o,v
+│   ├── se_d49.o,v
+│   ├── se_d50.o,v
+│   ├── se_d51.o,v
+│   ├── se_d52.o,v
+│   ├── se_d53.o,v
+│   ├── se_d54.o,v
+│   ├── se_d55.o,v
+│   ├── se_d56.o,v
+│   ├── se_d57.o,v
+│   ├── se_d58.o,v
+│   ├── se_d59.o,v
+│   ├── se_d60.o,v
+│   ├── SoundDat.o,v
+│   └── Soundfiles,v
+├── system/
+│   ├── contswitch/
+│   │   ├── contswitch.c,v
+│   │   ├── contswitch.h,v
+│   │   └── Makefile,v
+│   ├── event.c,v
+│   ├── event.h,v
+│   ├── event_seq.c,v
+│   ├── event_seq.h,v
+│   ├── fade.c,v
+│   ├── fade.h,v
+│   ├── game/
+│   │   ├── anm.c,v
+│   │   ├── anm.h,v
+│   │   ├── GNUmakefile,v
+│   │   ├── type.h,v
+│   │   ├── vram.c,v
+│   │   └── vram.h,v
+│   ├── GNUmakefile,v
+│   ├── instsave/
+│   │   ├── context_def.s,v
+│   │   ├── FZero.gba,v
+│   │   ├── instsave.c,v
+│   │   ├── instsave.h,v
+│   │   ├── Makefile,v
+│   │   ├── os_context_load.s,v
+│   │   └── os_context_save.s,v
+│   ├── interrupt.c,v
+│   ├── interrupt.h,v
+│   ├── key.c,v
+│   ├── key.h,v
+│   ├── mem.c,v
+│   ├── mem.h,v
+│   ├── resmon.c,v
+│   ├── resmon.h,v
+│   ├── routine.c,v
+│   ├── routine.h,v
+│   └── system.h,v
+├── tools/
+│   ├── agbcomp.exe,v
+│   ├── res_converter.exe,v
+│   ├── res_mes_gen.exe,v
+│   ├── res_pack.exe,v
+│   └── res_scr_anim.exe,v
+└── window/
+    ├── cmn_msg_list.c,v
+    ├── cmn_msg_list.h,v
+    ├── edit.c,v
+    ├── edit.h,v
+    ├── edit_raster_buf.c,v
+    ├── edit_raster_buf.h,v
+    ├── GNUmakefile,v
+    ├── inputbox.c,v
+    ├── inputbox.h,v
+    ├── layout.c,v
+    ├── layout.h,v
+    ├── num_edit.c,v
+    ├── num_edit.h,v
+    ├── procedure.c,v
+    ├── procedure.h,v
+    ├── py.c,v
+    ├── py.h,v
+    ├── py_ch.c,v
+    ├── py_hanzi_unicode.c,v
+    ├── py_unicode.c,v
+    ├── scroll_edit.c,v
+    ├── scroll_edit.h,v
+    ├── window.c,v
+    ├── window.h,v
+    ├── window_factory.c,v
+    └── window_factory.h,v

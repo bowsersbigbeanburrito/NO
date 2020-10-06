@@ -1,0 +1,589 @@
+NSIS/
+├── .svn/
+│   ├── entries
+│   ├── format
+│   ├── pristine/
+│   │   ├── 00/
+│   │   │   └── 0012b3a29de399ff2f62a6da592e98d994c915d2.svn-base
+│   │   ├── 01/
+│   │   │   └── 01edbd9e19672e32f2064abcd44daa4caed80776.svn-base
+│   │   ├── 02/
+│   │   │   └── 0229b110db83f3ba953ac861fadc85765dd6d543.svn-base
+│   │   ├── 03/
+│   │   │   ├── 03140bfcab464a7c713144b3167bd75ef20887f1.svn-base
+│   │   │   └── 03a4ed9ee643734b8fda21a7b55b94703ede0dd6.svn-base
+│   │   ├── 08/
+│   │   │   └── 08b313d62e86b45a96de1b95fe84d5a06675b65d.svn-base
+│   │   ├── 0a/
+│   │   │   └── 0a9f74153112783e1ffe09ed3f7c1f59d825ff5e.svn-base
+│   │   ├── 0b/
+│   │   │   ├── 0ba4b193fcc895a3f5c3119b797d65d9d3432da4.svn-base
+│   │   │   └── 0bbfc26d58b3122a80fb9c1af7813b0880efa1f9.svn-base
+│   │   ├── 0d/
+│   │   │   └── 0d0b0e879d431d40e73eccae40b0a1f4b4800a5b.svn-base
+│   │   ├── 0e/
+│   │   │   └── 0eeb0fd2da65c9b19e4e4f3cfe72c556f37005b9.svn-base
+│   │   ├── 12/
+│   │   │   ├── 125da188e26bd119ce8cad7eeb1fc2dfa147ad47.svn-base
+│   │   │   └── 12c4f559533fef2d3f9652bfad8b641ea551f054.svn-base
+│   │   ├── 13/
+│   │   │   ├── 132615c0e2d980db65ca687c94b1995ae4096625.svn-base
+│   │   │   └── 13fb22e97154545a1cb7fa10619c94f9fa409b67.svn-base
+│   │   ├── 19/
+│   │   │   └── 19fd75dfec1b803344c7e0b374986b682921f3e0.svn-base
+│   │   ├── 1a/
+│   │   │   └── 1af2b6b149df8377684bba1e45219d588d819688.svn-base
+│   │   ├── 1b/
+│   │   │   ├── 1bbea14108f3813daf80197ebc4aaf96eb80a39f.svn-base
+│   │   │   └── 1bf6fe6d9ed7f581299405ea1356eb1f108d28ab.svn-base
+│   │   ├── 1d/
+│   │   │   └── 1dc9b0edfa8cf3fb8830fc2fa07ca58906be991e.svn-base
+│   │   ├── 20/
+│   │   │   └── 20befe6eeee6c0f9d49c366443dc6eb047a86172.svn-base
+│   │   ├── 21/
+│   │   │   └── 217bbd797ab823a13f00bca3e73999625221540c.svn-base
+│   │   ├── 23/
+│   │   │   └── 238e63cf6629b8537bee5babf773d78b5df6a6b5.svn-base
+│   │   ├── 26/
+│   │   │   ├── 267de284bfce654b2ed5a22b90ffb95f876e4b16.svn-base
+│   │   │   └── 26a701e986055d2e8a2a923ca2ceaaa9942503cd.svn-base
+│   │   ├── 2b/
+│   │   │   ├── 2b0844726325dab6fc08921cbfb253b3698095be.svn-base
+│   │   │   ├── 2b1efad0e3dd676e2203ed3d44b9f9aecab5ae0e.svn-base
+│   │   │   ├── 2b97e5f7949edf21197095132f192be8cd528869.svn-base
+│   │   │   └── 2bc91d187430f331a596e5d9f4362cbce17fe110.svn-base
+│   │   ├── 2d/
+│   │   │   └── 2d4de247081750819a94a3100a278e5fd3291f40.svn-base
+│   │   ├── 2e/
+│   │   │   ├── 2e69127cfdf086c611d49d6954506c8f41184d0e.svn-base
+│   │   │   ├── 2e9fb9c0993f56609ed893a5f266172f3ed8f8e2.svn-base
+│   │   │   └── 2efb9cc67af3e057fdd58396b7ba0916367fc9dc.svn-base
+│   │   ├── 2f/
+│   │   │   ├── 2f294b22db8427fbbd7b0fe12f5913497508d8a2.svn-base
+│   │   │   └── 2f6ab6cc7786df5d68e31da72791ae34519c9734.svn-base
+│   │   ├── 30/
+│   │   │   └── 30e1771cebbcda1f1f52bbdf1921c9c57f9a41db.svn-base
+│   │   ├── 31/
+│   │   │   └── 31a06adbf654e6d1af928ccc8960a3a785ced71f.svn-base
+│   │   ├── 34/
+│   │   │   └── 34ffe50df0932194712a090279cf9b46bcdb79cf.svn-base
+│   │   ├── 35/
+│   │   │   └── 35e0781c1c0d94ad2f23e34cd799907ed9b0100b.svn-base
+│   │   ├── 37/
+│   │   │   └── 37e9aef7a760e5dd5f3c0ad9bd11db6f450b8824.svn-base
+│   │   ├── 39/
+│   │   │   └── 39a5bb666b7bf6de796a5de3e4738e1fc4069b65.svn-base
+│   │   ├── 3d/
+│   │   │   └── 3d92cc9fce162dc3a6036c58cdc4a97346ce7f78.svn-base
+│   │   ├── 3e/
+│   │   │   ├── 3ec49b51e022e5ea0241b014780b874c5f2a2305.svn-base
+│   │   │   └── 3eed844a580880b99860b52a3a8d9df12402b019.svn-base
+│   │   ├── 3f/
+│   │   │   ├── 3f543b8fa7723b9456d549a4970f90ce8ccfe227.svn-base
+│   │   │   └── 3ff5adee82e3237136efdb60b3fc87b722b1e4cd.svn-base
+│   │   ├── 43/
+│   │   │   └── 43268c8ba6b614896963ea36ca21b3ee2539b06c.svn-base
+│   │   ├── 45/
+│   │   │   └── 4555be2b1127ed8bcc78e298eb1277c1d30c417b.svn-base
+│   │   ├── 47/
+│   │   │   └── 47f07aae7e9f19a4135390267f164f3b572b5917.svn-base
+│   │   ├── 49/
+│   │   │   └── 495ddc0b9dfee5f5111262952be11b20898ef9d5.svn-base
+│   │   ├── 4b/
+│   │   │   ├── 4b7b683deb34136e54ad7a352563dd165758df65.svn-base
+│   │   │   ├── 4ba8f4b16432f45dce6437fe6675592534bdfa9c.svn-base
+│   │   │   └── 4bb3c7cfaaec4c68fa099d8ef7b8b9c10cc2f527.svn-base
+│   │   ├── 4c/
+│   │   │   └── 4c8e2ea5c325bd01461e7a2db3df3a86efa54ecd.svn-base
+│   │   ├── 4d/
+│   │   │   └── 4daa7a45dbc0528aac4d9dcb9080c7db49b44e00.svn-base
+│   │   ├── 4e/
+│   │   │   ├── 4e2482fd8227e83ee1133aaeb395cba0291baf24.svn-base
+│   │   │   └── 4e7fea30c9207cacee812fd575dc1a545de0f5ca.svn-base
+│   │   ├── 4f/
+│   │   │   └── 4fa6e8f26f9838a86e24beff93a094923af3cc42.svn-base
+│   │   ├── 52/
+│   │   │   └── 52b4bb70c4d2d2ed8d99a5105cf9a6effecd4e2c.svn-base
+│   │   ├── 55/
+│   │   │   └── 5565381826595bd21558f63a04545e6587b7b23a.svn-base
+│   │   ├── 56/
+│   │   │   ├── 561b55140d68e8e9e081fb4242d25d820f35bc21.svn-base
+│   │   │   └── 56822f275800576b4687a341c0a4498c33521de9.svn-base
+│   │   ├── 57/
+│   │   │   ├── 57411677afdb5e0c6752a74a9af2cbe74e875ea7.svn-base
+│   │   │   └── 57aeac5297cb390563b0db6250b2adc7c67919c8.svn-base
+│   │   ├── 59/
+│   │   │   ├── 59147dc80725cebabc4b80f97ac1aa247cbe57b9.svn-base
+│   │   │   └── 591cfd38d0937484ff7917431968f77e4ce24ff3.svn-base
+│   │   ├── 5c/
+│   │   │   └── 5c491aa126b8cfbc3253a902a49dc5b2e5e3e65a.svn-base
+│   │   ├── 5d/
+│   │   │   ├── 5d4aaa6c29c54edd820c647353c614200476d4b5.svn-base
+│   │   │   └── 5def22b65a909e3d310920b2c358b44e0c742f0f.svn-base
+│   │   ├── 62/
+│   │   │   └── 6239e10d314fd1f629deaf55ebb8680a19c8d7ae.svn-base
+│   │   ├── 64/
+│   │   │   └── 645edeec0df586c171fe22ba5ad706bbccb9cef6.svn-base
+│   │   ├── 66/
+│   │   │   └── 66dfd423d6d5dd7d6195658187e5d42b2bd9b838.svn-base
+│   │   ├── 68/
+│   │   │   └── 68a6bc51f158666caffc21bd49f75013aeafea69.svn-base
+│   │   ├── 6c/
+│   │   │   └── 6cba368cf3d8e685f075b4f1e790943b52366eb4.svn-base
+│   │   ├── 70/
+│   │   │   └── 70e842061fe215c4919bf0936bd86a8ebfe93385.svn-base
+│   │   ├── 71/
+│   │   │   ├── 71171a60eb2773201bef4b7f6c84add757a5bcce.svn-base
+│   │   │   ├── 715cb00a17488716f994f7c21e146f987ed0df10.svn-base
+│   │   │   └── 71a38565bc27090cc6cbd21e278e26f49719e0b5.svn-base
+│   │   ├── 72/
+│   │   │   └── 72891749ce74239d24f92347bfee1253b883d837.svn-base
+│   │   ├── 75/
+│   │   │   └── 7569c0968f3207703f386a48a820fd417ec2ac53.svn-base
+│   │   ├── 79/
+│   │   │   ├── 798c370686cf6b9b59f43e3380834ab8c925e44f.svn-base
+│   │   │   └── 799356d89486511b3e31ebe3f27842664034fd52.svn-base
+│   │   ├── 7c/
+│   │   │   └── 7c0328e898aa3c8fb3adeba6d87052db7caea03b.svn-base
+│   │   ├── 7d/
+│   │   │   ├── 7d3efaca258709a3c2828c8d4ab968334d659fea.svn-base
+│   │   │   ├── 7d6502a5b284ce403ae311119bf1b6e56d48c7b3.svn-base
+│   │   │   └── 7de9b0f5a11cadb478bfee4dfa33c60c6a162de2.svn-base
+│   │   ├── 7e/
+│   │   │   └── 7e3dbf11f64dafbbb18c5a9ee78073268e54b8c2.svn-base
+│   │   ├── 7f/
+│   │   │   ├── 7f4a03630206f322a63f5b017259efaff0d5a501.svn-base
+│   │   │   └── 7fb5613f43bbd402d371f26351bc1737a9020033.svn-base
+│   │   ├── 80/
+│   │   │   └── 807e184a87d71451aee532dbe04cdfdac2e2e31e.svn-base
+│   │   ├── 82/
+│   │   │   ├── 827805b0c3933a4c7bda7f81b12a09d4778f23b8.svn-base
+│   │   │   └── 828c9d73c3b6dd06dfbfee0b21b08d3ca944d12e.svn-base
+│   │   ├── 84/
+│   │   │   └── 84d80ea3eb76b53fd4c2b24aba8ce45d91e6ec77.svn-base
+│   │   ├── 85/
+│   │   │   └── 856abccdacd3b0c78a57158505ae9b9efe2110ec.svn-base
+│   │   ├── 8b/
+│   │   │   └── 8b1aafa4e4a1397a3ca2451617eba93d4706f92f.svn-base
+│   │   ├── 8f/
+│   │   │   ├── 8f6021d3ddc9fb7d0456a1159eceffea9b791f95.svn-base
+│   │   │   ├── 8f7136d3d3943d4fa3f40dd50947ca6bb1bb53c3.svn-base
+│   │   │   └── 8fc6c9a35bcfac4659b432b9ac79b19525d776e3.svn-base
+│   │   ├── 90/
+│   │   │   └── 90bf59e04145d758be6daede7c5bb15bfed4b7ec.svn-base
+│   │   ├── 92/
+│   │   │   └── 92bca0c7554e8cd07bac7160fde7793eaedb6ece.svn-base
+│   │   ├── 93/
+│   │   │   └── 93b3fa42c2aabbe54c24c02bc0cb2ab64815aaf6.svn-base
+│   │   ├── 96/
+│   │   │   ├── 96c41010fae3958aa264c878c78fd1740bceafdf.svn-base
+│   │   │   ├── 96e413a335d1de71850a80473ee3dd32e61837ca.svn-base
+│   │   │   └── 96e45bd208c2b187af608a58abb040c0d2be670f.svn-base
+│   │   ├── 97/
+│   │   │   ├── 9775dcf771a5fc957ce6e5f98367de392bf49260.svn-base
+│   │   │   └── 97d30ea3b71663cf6674766ea2d1c6ed88d92199.svn-base
+│   │   ├── 9a/
+│   │   │   ├── 9a410b82e201b759b45144733bb4aba38e43bbf5.svn-base
+│   │   │   ├── 9a6ac242acd260243b38ca7a34447c1bc0b9d2bd.svn-base
+│   │   │   └── 9ad581962b21c73b4c159049d27effe7b4f218eb.svn-base
+│   │   ├── 9b/
+│   │   │   └── 9b53eb153f4f3557a2441088cdbea2df69cd7611.svn-base
+│   │   ├── 9c/
+│   │   │   └── 9c14109613d911e5e32af7fbbdc18ec18c5cb72c.svn-base
+│   │   ├── 9e/
+│   │   │   └── 9eecd8838d7cffead89666e97b684427d3b46feb.svn-base
+│   │   ├── 9f/
+│   │   │   ├── 9f24f5e80d560a820121dfe6707ebc874f874a4a.svn-base
+│   │   │   └── 9f37e6fa75dca796c1d6a6eaba7e04c245df92ac.svn-base
+│   │   ├── a3/
+│   │   │   ├── a3000773749ec4119787408f753fe1f3ca73be2c.svn-base
+│   │   │   ├── a363e2793ff29ac25c7912aa9e8e78e8dc0f3295.svn-base
+│   │   │   └── a3b32a37f242ee9cf32d3384409a04c708a7d231.svn-base
+│   │   ├── a6/
+│   │   │   ├── a61454131940799f01c26943f1594ee6e7409d11.svn-base
+│   │   │   └── a619c756493102c4f027379d26905e1b4788b9f1.svn-base
+│   │   ├── a9/
+│   │   │   └── a9031268b545fad7b4196678a53dff6dca0a644a.svn-base
+│   │   ├── aa/
+│   │   │   └── aaaca21f746d1ca944df1ba45e72b88656a455f5.svn-base
+│   │   ├── ae/
+│   │   │   └── aea63b64aebe7196ac35e0f60f26868e6da46cd6.svn-base
+│   │   ├── af/
+│   │   │   └── affcfb54664ce6032614b110c3334b32d48ba4ea.svn-base
+│   │   ├── b1/
+│   │   │   └── b18941c1d8c000f15c61682c0373b80ba097bf73.svn-base
+│   │   ├── b5/
+│   │   │   ├── b51c33e354a385abb72689459445f8faa08a00cf.svn-base
+│   │   │   ├── b541eb21299e5f212a76ece3a2e45561f583e53c.svn-base
+│   │   │   └── b5819a4254aad421395d28609ab37daf20e84650.svn-base
+│   │   ├── b9/
+│   │   │   └── b9aef79c90e557b9a0a5cacdbc3fcc41781aa323.svn-base
+│   │   ├── bb/
+│   │   │   └── bb6cf6085eea2d66e356460f02f56fd7c76baa3f.svn-base
+│   │   ├── bc/
+│   │   │   └── bce9db44c108e465e9b44e59633ce3f4c079ef29.svn-base
+│   │   ├── bd/
+│   │   │   └── bd5394e4df6bc3c7c536defd1ca91386f1b2b263.svn-base
+│   │   ├── c0/
+│   │   │   ├── c01472c4f458bb29bdbca044f2d5d580fabcbb56.svn-base
+│   │   │   └── c0ba720d910163169d2c929144e10ea436d08afd.svn-base
+│   │   ├── c1/
+│   │   │   ├── c1c8471089895e369105c0ab92f890e4cccc4722.svn-base
+│   │   │   └── c1cee00423e54462caa2a6b4caf6ac5093417e4b.svn-base
+│   │   ├── c4/
+│   │   │   └── c401f76ac5252c93670b3eec340b2c14b8ab081c.svn-base
+│   │   ├── c5/
+│   │   │   └── c5cded49578dc1e6e25e0a85a8c5bd50955bfb8f.svn-base
+│   │   ├── c7/
+│   │   │   └── c7ec9c9b93090a23de7d4e1bf04bcf8001d4c767.svn-base
+│   │   ├── c8/
+│   │   │   └── c8ccb04eedac821a13fae314a2435192860c72b8.svn-base
+│   │   ├── ca/
+│   │   │   └── ca4706897727669aa7ee5324f8bef8cd07da85e2.svn-base
+│   │   ├── cb/
+│   │   │   ├── cb1c53510555e2b56e806f4d7122d5e90874d8de.svn-base
+│   │   │   └── cb9cfd1a698fe78ca36244e52f1b9f345fc045ee.svn-base
+│   │   ├── cd/
+│   │   │   └── cdf1258b5c7c7eed97556d4424ed3860a26df4a9.svn-base
+│   │   ├── ce/
+│   │   │   ├── ce8526c1a1f433a74247e55067eab496bd577d89.svn-base
+│   │   │   ├── ce86eb56fec5519233ef5fe16f4b811d3523b9ca.svn-base
+│   │   │   ├── ce95c0fd6c0e89f904b1598b32cfae59f670fb91.svn-base
+│   │   │   └── cea0ff0047e3f5a2864cf473e67acf89324e1478.svn-base
+│   │   ├── d0/
+│   │   │   ├── d078e3f4726af3ed771cb05741fc94ed9d852f1e.svn-base
+│   │   │   └── d089857b559a1c2314388e149bbe792ab0a7a4e2.svn-base
+│   │   ├── d1/
+│   │   │   └── d1fadb94265c872ee889166224bdbfcc9f9a2769.svn-base
+│   │   ├── d3/
+│   │   │   ├── d33b776fb1b9a10eafb8ab7f92e966d297f17da5.svn-base
+│   │   │   └── d357da4f2c37b1bd54deb8c75b12c838303cf9a4.svn-base
+│   │   ├── d5/
+│   │   │   └── d5502a1d00787d68f548ddeebbde1eca5e2b38ca.svn-base
+│   │   ├── d6/
+│   │   │   └── d6b9d72226927249d6582956b54b92417fc148e9.svn-base
+│   │   ├── d7/
+│   │   │   └── d74e06c9d4f277148a2c0fd56d0be4e00450beae.svn-base
+│   │   ├── db/
+│   │   │   └── db0a20a7ea392e78fad1d59addcd8701351bd1b3.svn-base
+│   │   ├── dd/
+│   │   │   └── ddf8f9aab38f5ba8f7fb0a0eee0069b6b0d75f84.svn-base
+│   │   ├── de/
+│   │   │   └── de688f0444c5794fd9b17445b6c9a350949bafe3.svn-base
+│   │   ├── e0/
+│   │   │   └── e0154c514c222c099c6eade0a16d77460beb790c.svn-base
+│   │   ├── e2/
+│   │   │   ├── e2559718a63b360867d75f1187c25b95247328e9.svn-base
+│   │   │   └── e2bd81b474b32d4faf7ab41959bd68a09b50846b.svn-base
+│   │   ├── e3/
+│   │   │   ├── e33f90c0b5f1c80a9fa99794da1a8052a725f695.svn-base
+│   │   │   └── e3d72d722bcabb0ae92bb379dd1c515992f3c034.svn-base
+│   │   ├── e5/
+│   │   │   └── e56f372209341a6617bfdf3224f10f94c8ba86c9.svn-base
+│   │   ├── e7/
+│   │   │   └── e7124ccd203fc4c7c2bf928c4b7f488a3ffbabea.svn-base
+│   │   ├── eb/
+│   │   │   ├── eb1d070cd49d52ae6f622cf8a17eb31d54aaeb11.svn-base
+│   │   │   └── ebaf15550758ad5267ea6f0e8967216f66e25318.svn-base
+│   │   ├── ec/
+│   │   │   └── ec063526aa14bcadeeffa6d859b39a80680015b7.svn-base
+│   │   ├── ed/
+│   │   │   ├── ed2e96b3694cfb8697d39597dc90e4595b688eb8.svn-base
+│   │   │   └── ed722ca9fd7cd5702ac83517096995f8c0683773.svn-base
+│   │   ├── f0/
+│   │   │   └── f0d5d538b7168606b9eae6f75f6005127b158e1e.svn-base
+│   │   ├── f6/
+│   │   │   ├── f60e34f7d0ad1c03efb3b9e207e3d0062d32f98b.svn-base
+│   │   │   └── f61fb34f64fe609f2890af6ae6e895f401c208f4.svn-base
+│   │   ├── f9/
+│   │   │   ├── f95639034d144a47f952674367d5827b2b01ce2b.svn-base
+│   │   │   ├── f9b90812edeb29e51f62f64faddfdf25f1d23630.svn-base
+│   │   │   └── f9f670d0662cad05681326b23172ef6712fb7750.svn-base
+│   │   ├── fc/
+│   │   │   ├── fca6fa1bfdee73ec75058a0dd59868b1341038e0.svn-base
+│   │   │   └── fcd3ab2b95bf02c26eefd1897eb3fbf851086be5.svn-base
+│   │   └── fe/
+│   │       ├── fe288aa4220bcc2d637c3960fad88eebd6d8804d.svn-base
+│   │       └── fe9b5436c83acd66f8db879283dc2ffdf3099807.svn-base
+│   ├── tmp/
+│   ├── wc.db
+│   └── wc.db-journal
+├── iQueNC安装程序和update程序的管理.doc
+└── NetCard0524/
+    ├── bak/
+    │   ├── ChangeRegisterSecurity.exe
+    │   ├── ecp.cfg
+    │   ├── ecp.exe
+    │   ├── FreeImage.dll
+    │   ├── iQueService.exe
+    │   ├── iQueShell.exe
+    │   ├── iQueViewer.dll
+    │   ├── mfc80aaaaa.dll
+    │   ├── msvcp71.dll
+    │   ├── msvcr80.dll
+    │   ├── ncproxy.exe
+    │   ├── pthreadVC2.dll
+    │   ├── tomp3.exe
+    │   ├── upnpLib.dll
+    │   ├── usbproxy.exe
+    │   └── winprog.exe
+    ├── BeginUpdate.exe
+    ├── BMP/
+    │   ├── head1.BMP
+    │   ├── head2.BMP
+    │   ├── install.ico
+    │   ├── left1.BMP
+    │   ├── left2.BMP
+    │   ├── Thumbs.db
+    │   └── uninstall.ico
+    ├── ChangeRegisterSecurity.exe
+    ├── data/
+    │   ├── cache/
+    │   │   └── 00020001/
+    │   │       ├── 00080020/
+    │   │       │   └── met
+    │   │       ├── 00080021/
+    │   │       │   └── met
+    │   │       ├── 00080022/
+    │   │       │   └── met
+    │   │       ├── 00080023/
+    │   │       │   └── met
+    │   │       └── 00080024/
+    │   │           └── met
+    │   └── logs/
+    │       ├── error-060523.log
+    │       └── error-060524.log
+    ├── document/
+    │   ├── NetCard PC端软件升级程序打包说明.doc
+    │   └── NetCard PC端软件安装程序打包说明.doc
+    ├── ecp.cfg
+    ├── ecp.exe
+    ├── FreeImage.dll
+    ├── iQueService.exe
+    ├── iQueService.exeold
+    ├── iQueShell.exe
+    ├── iQueViewer.dll
+    ├── iQue聚乐部管理软件.exe
+    ├── libvng.dll
+    ├── license-en.txt
+    ├── license-zh.txt
+    ├── Microsoft.VC80.CRT.manifest
+    ├── Microsoft.VC80.DebugCRT.manifest
+    ├── msvcm80.dll
+    ├── msvcp71.dll
+    ├── msvcp80.dll
+    ├── msvcr71.dll
+    ├── msvcr80.dll
+    ├── ncproxy.exe
+    ├── ncskin/
+    │   ├── 0bk_part2.dat
+    │   ├── bk_part0.dat
+    │   ├── bk_part1.dat
+    │   ├── bk_part10.dat
+    │   ├── bk_part2.dat
+    │   ├── bk_part3.dat
+    │   ├── bk_part4.dat
+    │   ├── bk_part6.dat
+    │   ├── bk_part7.dat
+    │   ├── bk_part8.dat
+    │   ├── bk_part9.dat
+    │   ├── bk_part9.datblack
+    │   ├── red/
+    │   │   ├── bk_part0.bmp
+    │   │   ├── bk_part1.bmp
+    │   │   ├── bk_part10.bmp
+    │   │   ├── bk_part2.bmp
+    │   │   ├── bk_part3.bmp
+    │   │   ├── bk_part4.bmp
+    │   │   ├── bk_part6.bmp
+    │   │   ├── bk_part8.bmp
+    │   │   ├── bk_part9.bmp
+    │   │   ├── book_h.bmp
+    │   │   ├── book_n.bmp
+    │   │   ├── book_on.bmp
+    │   │   ├── bot_left.bmp
+    │   │   ├── btback_d.bmp
+    │   │   ├── btback_g.bmp
+    │   │   ├── btback_h.bmp
+    │   │   ├── btback_n.bmp
+    │   │   ├── btclose_d.bmp
+    │   │   ├── btclose_h.bmp
+    │   │   ├── btclose_n.bmp
+    │   │   ├── btdel_d.bmp
+    │   │   ├── btdel_h.bmp
+    │   │   ├── btdel_n.bmp
+    │   │   ├── btmin_d.bmp
+    │   │   ├── btmin_h.bmp
+    │   │   ├── btmin_n.bmp
+    │   │   ├── btmut_c.bmp
+    │   │   ├── btmut_o.bmp
+    │   │   ├── btnewdir_d.bmp
+    │   │   ├── btnewdir_h.bmp
+    │   │   ├── btnewdir_n.bmp
+    │   │   ├── btnext_d.bmp
+    │   │   ├── btnext_g.bmp
+    │   │   ├── btnext_h.bmp
+    │   │   ├── btnext_n.bmp
+    │   │   ├── btplay_d.bmp
+    │   │   ├── btplay_g.bmp
+    │   │   ├── btplay_h.bmp
+    │   │   ├── btplay_n.bmp
+    │   │   ├── btrefresh_d.bmp
+    │   │   ├── btrefresh_h.bmp
+    │   │   ├── btrefresh_n.bmp
+    │   │   ├── btstop_d.bmp
+    │   │   ├── btstop_h.bmp
+    │   │   ├── btstop_n.bmp
+    │   │   ├── freespace_bk.bmp
+    │   │   ├── header_split.bmp
+    │   │   ├── header_tt.bmp
+    │   │   ├── jlb.ico
+    │   │   ├── music_h.bmp
+    │   │   ├── music_n.bmp
+    │   │   ├── music_on.bmp
+    │   │   ├── nc.ico
+    │   │   ├── ncsys.ico
+    │   │   ├── new.bmp
+    │   │   ├── pgs_back.bmp
+    │   │   ├── pgs_fore.bmp
+    │   │   ├── pic_h.bmp
+    │   │   ├── pic_n.bmp
+    │   │   ├── pic_on.bmp
+    │   │   ├── skin.ini
+    │   │   ├── Thumbs.db
+    │   │   ├── top_mid2.bmp
+    │   │   ├── vol_sld.bmp
+    │   │   └── vol_tub.bmp
+    │   └── Thumbs.db
+    ├── Nsis脚本备份/
+    │   ├── finalNsiIquenc_NCInstall.nsi
+    │   ├── finalNsiIquenc_NCInstall060821.nsi
+    │   ├── finalNsiIquenc_NCInstall20071010.nsi
+    │   ├── header.bmp
+    │   ├── iqNcProxy-update.nsi
+    │   ├── iQueNetCardSetup071113.exe
+    │   ├── iQue聚乐部update.nsi
+    │   ├── Update.exe
+    │   ├── update48.ico
+    │   └── 安装程序往注册表写了什么？.doc
+    ├── pki_data/
+    │   ├── ca_bpki.cert
+    │   ├── ca_bpki.rsa
+    │   ├── cert_bpki.sys
+    │   ├── common_bpki.aesKey
+    │   ├── cp_bpki.cert
+    │   ├── cp_bpki.rsa
+    │   ├── dev_bpki.eccPvtKey
+    │   ├── dev_nc_bpki.cert
+    │   ├── ms_bpki.cert
+    │   ├── ms_bpki.eccPvtKey
+    │   ├── pccert_bpki.sys
+    │   ├── xs_bpki.cert
+    │   ├── xs_bpki.eccPubKey
+    │   ├── xs_bpki.eccPvtKey
+    │   └── xs_bpki.rsa
+    ├── root.pem
+    ├── rvkcmd.exe
+    ├── SERVER
+    ├── sktp.exe
+    ├── tomp3.exe
+    ├── Update.exe
+    ├── usb_driver/
+    │   ├── iquenc.inf
+    │   └── iquenc.sys
+    ├── usbproxy.exe
+    ├── VERSION
+    ├── VERSION.bak
+    ├── vnproxy.exe
+    ├── 升级压缩包/
+    │   ├── createZipPacket.bat
+    │   ├── createZipPacket.bat.bak
+    │   ├── dirlog.txt
+    │   ├── EC/
+    │   │   ├── root.pem
+    │   │   ├── sktp.exe
+    │   │   └── VERSION
+    │   ├── EC.zip
+    │   ├── iQueNetCardSetup.exe
+    │   ├── NCClient/
+    │   │   ├── iQue聚乐部管理软件.exe
+    │   │   ├── ncskin/
+    │   │   │   ├── 0bk_part2.dat
+    │   │   │   ├── bk_part0.dat
+    │   │   │   ├── bk_part1.dat
+    │   │   │   ├── bk_part10.dat
+    │   │   │   ├── bk_part2.dat
+    │   │   │   ├── bk_part3.dat
+    │   │   │   ├── bk_part4.dat
+    │   │   │   ├── bk_part6.dat
+    │   │   │   ├── bk_part7.dat
+    │   │   │   ├── bk_part8.dat
+    │   │   │   ├── bk_part9.dat
+    │   │   │   └── bk_part9.datblack
+    │   │   └── VERSION
+    │   ├── NCClient.zip
+    │   ├── NCDriver/
+    │   │   ├── iquenc.inf
+    │   │   ├── iquenc.sys
+    │   │   └── VERSION
+    │   ├── NCDriver.zip
+    │   ├── NCProxy/
+    │   │   ├── Microsoft.VC80.DebugCRT.manifest
+    │   │   ├── msvcm80d.dll
+    │   │   ├── msvcp71.dll
+    │   │   ├── msvcp80d.dll
+    │   │   ├── msvcr71.dll
+    │   │   ├── msvcr80d.dll
+    │   │   ├── VERSION
+    │   │   └── vnproxy.exe
+    │   ├── NCProxy.zip
+    │   ├── NCService/
+    │   │   ├── iQueService.exe
+    │   │   ├── iQueShell.exe
+    │   │   ├── rvkcmd.exe
+    │   │   ├── usbproxy.exe
+    │   │   └── VERSION
+    │   ├── NCService.zip
+    │   ├── NCShell/
+    │   │   ├── FreeImage.dll
+    │   │   ├── iQueViewer.dll
+    │   │   ├── license-en.txt
+    │   │   ├── license-zh.txt
+    │   │   ├── pki_data/
+    │   │   │   ├── ca_bpki.cert
+    │   │   │   ├── ca_bpki.rsa
+    │   │   │   ├── cert_bpki.sys
+    │   │   │   ├── common_bpki.aesKey
+    │   │   │   ├── cp_bpki.cert
+    │   │   │   ├── cp_bpki.rsa
+    │   │   │   ├── dev_bpki.eccPvtKey
+    │   │   │   ├── dev_nc_bpki.cert
+    │   │   │   ├── ms_bpki.cert
+    │   │   │   ├── ms_bpki.eccPvtKey
+    │   │   │   ├── pccert_bpki.sys
+    │   │   │   ├── xs_bpki.cert
+    │   │   │   ├── xs_bpki.eccPubKey
+    │   │   │   ├── xs_bpki.eccPvtKey
+    │   │   │   └── xs_bpki.rsa
+    │   │   ├── tomp3.exe
+    │   │   └── VERSION
+    │   ├── NCShell.zip
+    │   ├── NCUpdate/
+    │   │   ├── BeginUpdate.exe
+    │   │   ├── update.exe
+    │   │   └── VERSION
+    │   ├── NCUpdate.zip
+    │   ├── temp/
+    │   │   ├── EC.zip
+    │   │   ├── NCClient.zip
+    │   │   ├── NCDriver.zip
+    │   │   ├── NCProxy.zip
+    │   │   ├── NCService.zip
+    │   │   ├── NCShell.zip
+    │   │   └── NCUpdate.zip
+    │   └── 升级压缩包.rar
+    └── 可能没用的文件先放这里/
+        ├── msvcr80.dll
+        ├── pthreadVC2.dll
+        ├── SetEnvVar.bat
+        └── upnpLib.dll

@@ -1,0 +1,3620 @@
+NEWS/
+└── NEWS/
+    ├── FZERO/
+    │   ├── FZERO/
+    │   │   ├── Game/
+    │   │   │   ├── ALPHA
+    │   │   │   ├── ALPHA2
+    │   │   │   ├── ANK
+    │   │   │   ├── ANK8
+    │   │   │   ├── BUFFER
+    │   │   │   ├── calculate.asm
+    │   │   │   ├── calculate_usa.asm
+    │   │   │   ├── car_control.asm
+    │   │   │   ├── control_data.asm
+    │   │   │   ├── data-5.asm
+    │   │   │   ├── data-6.asm
+    │   │   │   ├── effect.asm
+    │   │   │   ├── en-check.asm
+    │   │   │   ├── en-data-1.asm
+    │   │   │   ├── en-data-2.asm
+    │   │   │   ├── en-drive.asm
+    │   │   │   ├── en-init-1.asm
+    │   │   │   ├── en-init-3.asm
+    │   │   │   ├── en-init-4.asm
+    │   │   │   ├── fzero_main.asm
+    │   │   │   ├── fzero_main_pal.asm
+    │   │   │   ├── fzero_main_usa2.asm
+    │   │   │   ├── fzero_pal.make
+    │   │   │   ├── game_over.asm
+    │   │   │   ├── game_over_usa.asm
+    │   │   │   ├── makefile
+    │   │   │   ├── play_main.asm
+    │   │   │   ├── play_main_pal.asm
+    │   │   │   ├── player.asm
+    │   │   │   ├── RP5A22_
+    │   │   │   ├── RP5C77_
+    │   │   │   ├── set-obj.asm
+    │   │   │   ├── set_back
+    │   │   │   ├── set_back.asm
+    │   │   │   ├── set_bg1.asm
+    │   │   │   ├── set_bg2.asm
+    │   │   │   ├── set_bg2_usa.asm
+    │   │   │   ├── sound.asm
+    │   │   │   ├── TITLE.DOC
+    │   │   │   ├── title_main.asm
+    │   │   │   ├── title_main_usa.asm
+    │   │   │   ├── VARIABLE
+    │   │   │   └── WORK
+    │   │   └── Tools/
+    │   │       ├── armap.c
+    │   │       ├── carmap.c
+    │   │       ├── chrar.c
+    │   │       ├── cmpbuf.s
+    │   │       ├── cmppnl.s
+    │   │       ├── enemy.c
+    │   │       ├── mkback.c
+    │   │       ├── mkbgchr.c
+    │   │       ├── mkenemy.c
+    │   │       ├── mkmap.c
+    │   │       ├── mkpanel.c
+    │   │       ├── mkpers.c
+    │   │       ├── mkrival.c
+    │   │       ├── mkselect.c
+    │   │       ├── mkspchr.c
+    │   │       ├── schpnl.s
+    │   │       ├── setbomb.c
+    │   │       └── slitpress.c
+    │   ├── Game/
+    │   │   ├── ALPHA
+    │   │   ├── ALPHA2
+    │   │   ├── ANK
+    │   │   ├── ANK8
+    │   │   ├── BUFFER
+    │   │   ├── calculate.asm
+    │   │   ├── calculate_usa.asm
+    │   │   ├── car_control.asm
+    │   │   ├── control_data.asm
+    │   │   ├── data-5.asm
+    │   │   ├── data-6.asm
+    │   │   ├── effect.asm
+    │   │   ├── en-check.asm
+    │   │   ├── en-data-1.asm
+    │   │   ├── en-data-2.asm
+    │   │   ├── en-drive.asm
+    │   │   ├── en-init-1.asm
+    │   │   ├── en-init-3.asm
+    │   │   ├── en-init-4.asm
+    │   │   ├── fzero_main.asm
+    │   │   ├── fzero_main_pal.asm
+    │   │   ├── fzero_main_usa2.asm
+    │   │   ├── fzero_pal.make
+    │   │   ├── game_over.asm
+    │   │   ├── game_over_usa.asm
+    │   │   ├── makefile
+    │   │   ├── play_main.asm
+    │   │   ├── play_main_pal.asm
+    │   │   ├── player.asm
+    │   │   ├── RP5A22_
+    │   │   ├── RP5C77_
+    │   │   ├── set-obj.asm
+    │   │   ├── set_back
+    │   │   ├── set_back.asm
+    │   │   ├── set_bg1.asm
+    │   │   ├── set_bg2.asm
+    │   │   ├── set_bg2_usa.asm
+    │   │   ├── sound.asm
+    │   │   ├── TITLE.DOC
+    │   │   ├── title_main.asm
+    │   │   ├── title_main_usa.asm
+    │   │   ├── VARIABLE
+    │   │   └── WORK
+    │   └── Tools/
+    │       ├── armap.c
+    │       ├── carmap.c
+    │       ├── chrar.c
+    │       ├── cmpbuf.s
+    │       ├── cmppnl.s
+    │       ├── enemy.c
+    │       ├── mkback.c
+    │       ├── mkbgchr.c
+    │       ├── mkenemy.c
+    │       ├── mkmap.c
+    │       ├── mkpanel.c
+    │       ├── mkpers.c
+    │       ├── mkrival.c
+    │       ├── mkselect.c
+    │       ├── mkspchr.c
+    │       ├── schpnl.s
+    │       ├── setbomb.c
+    │       └── slitpress.c
+    ├── srd13-SFCマリオコレクション/
+    │   └── export/
+    │       └── mario-z/
+    │           └── linkp/
+    │               ├── mario_n0/
+    │               │   ├── ff
+    │               │   ├── GAMESELECT-Ns.CGX
+    │               │   ├── GAMESELECT-Ns.COL
+    │               │   ├── GAMESELECT-Ns.SCR
+    │               │   ├── map.MAP
+    │               │   ├── mn_m1
+    │               │   ├── mn_mario1.make
+    │               │   ├── mn_mario_init.asm
+    │               │   ├── mn_mario_main.asm
+    │               │   ├── mn_mario_main.cnf
+    │               │   ├── mn_mario_main.hex
+    │               │   ├── mn_mario_main.lnk
+    │               │   ├── mn_mario_main.map
+    │               │   ├── mn_mario_main.map.CHK
+    │               │   ├── mn_mario_main.sym
+    │               │   ├── mn_mario_ram.asm
+    │               │   ├── mn_mccp
+    │               │   ├── mn_mmcp
+    │               │   ├── mn_mzchr
+    │               │   ├── mn_sfmr
+    │               │   ├── mz_map
+    │               │   ├── mzchr.map
+    │               │   └── sm123-title2-Ns.COL
+    │               ├── mario_n1/
+    │               │   ├── aa
+    │               │   ├── ff
+    │               │   ├── file_chk
+    │               │   ├── mn_cst.sdm
+    │               │   ├── mn_hp_smcros.asm
+    │               │   ├── mn_hp_smcset.asm
+    │               │   ├── mn_hp_smend1.asm
+    │               │   ├── mn_hp_smenmy.asm
+    │               │   ├── mn_hp_smfrdt.asm
+    │               │   ├── mn_hp_sminit.asm
+    │               │   ├── mn_hp_smmain.asm
+    │               │   ├── mn_hp_smmain.cnf
+    │               │   ├── mn_hp_smmain.hex
+    │               │   ├── mn_hp_smmain.lnk
+    │               │   ├── mn_hp_smmain.map
+    │               │   ├── mn_hp_smmain.map.CHK
+    │               │   ├── mn_hp_smmain.sym
+    │               │   ├── mn_hp_smplay.asm
+    │               │   ├── mn_hp_smram.asm
+    │               │   ├── mn_hp_smsnd.asm
+    │               │   ├── mn_hp_smsub0.asm
+    │               │   ├── mn_hp_smsub1.asm
+    │               │   ├── mn_hp_smsub2.asm
+    │               │   ├── mn_m1
+    │               │   ├── mn_mario_init.asm
+    │               │   ├── mn_mario_main.asm
+    │               │   ├── mn_mario_ram.asm
+    │               │   ├── mn_mrom.sdm
+    │               │   ├── mn_mzchr
+    │               │   ├── mn_sfm1
+    │               │   ├── mnm1make
+    │               │   └── mr_file_chk
+    │               ├── mario_n2/
+    │               │   ├── aa
+    │               │   ├── ff
+    │               │   ├── mn_hp_smcros.asm
+    │               │   ├── mn_hp_smcset.asm
+    │               │   ├── mn_hp_smend1.asm
+    │               │   ├── mn_hp_smending.asm
+    │               │   ├── mn_hp_smenmy.asm
+    │               │   ├── mn_hp_smfrdt.asm
+    │               │   ├── mn_hp_sminit.asm
+    │               │   ├── mn_hp_smmain.asm
+    │               │   ├── mn_hp_smmain.cnf
+    │               │   ├── mn_hp_smmain.hex
+    │               │   ├── mn_hp_smmain.lnk
+    │               │   ├── mn_hp_smmain.map
+    │               │   ├── mn_hp_smmain.map.CHK
+    │               │   ├── mn_hp_smmain.sym
+    │               │   ├── mn_hp_smplay.asm
+    │               │   ├── mn_hp_smram.asm
+    │               │   ├── mn_hp_smsnd.asm
+    │               │   ├── mn_hp_smsub.asm
+    │               │   ├── mn_hp_smsub0.asm
+    │               │   ├── mn_hp_smsub1.asm
+    │               │   ├── mn_hp_smsub2.asm
+    │               │   ├── mn_hp_smtitle.asm
+    │               │   ├── mn_m1
+    │               │   ├── mn_m1make
+    │               │   ├── mn_mario_init.asm
+    │               │   ├── mn_mario_main.asm
+    │               │   ├── mn_mario_ram.asm
+    │               │   ├── mn_mzchr
+    │               │   └── mn_sfm1
+    │               └── mario_n3/
+    │                   ├── aa
+    │                   ├── ff
+    │                   ├── ft
+    │                   ├── mn_hp_mr3ascr.asm
+    │                   ├── mn_hp_mr3battle.asm
+    │                   ├── mn_hp_mr3bg2st.asm
+    │                   ├── mn_hp_mr3bgd0.asm
+    │                   ├── mn_hp_mr3bgd1.asm
+    │                   ├── mn_hp_mr3bgd2.asm
+    │                   ├── mn_hp_mr3bgd3.asm
+    │                   ├── mn_hp_mr3bgd4.asm
+    │                   └── mn_hp_mr3bgd5.asm
+    ├── StarFox2/
+    │   ├── BIN/
+    │   │   ├── 1
+    │   │   ├── A.BAT
+    │   │   ├── ALCHEMY.EXE
+    │   │   ├── ALTER.EXE
+    │   │   ├── ARG.EXE
+    │   │   ├── ARGASM.DOC
+    │   │   ├── ARGBUG.EXE
+    │   │   ├── ARGBUG4.ROM
+    │   │   ├── ARGBUG5.ROM
+    │   │   ├── ARGBUG6.ROM
+    │   │   ├── ARGEXT.EXE
+    │   │   ├── ARGLINK.EXE
+    │   │   ├── ARGSF140.ZIP
+    │   │   ├── ARGSF144.ZIP
+    │   │   ├── ARGSF148.ZIP
+    │   │   ├── ARGSF149.ZIP
+    │   │   ├── ARGSF150.ZIP
+    │   │   ├── ARGSFX.DOC
+    │   │   ├── ARGSFX.EXE
+    │   │   ├── ARGSFXX.EXE
+    │   │   ├── ARGTOOLS.ZIP
+    │   │   ├── CHATSERV.EXE
+    │   │   ├── CHKLIST.MS
+    │   │   ├── CMP.EXE
+    │   │   ├── COMP16.EXE
+    │   │   ├── CP.BAT
+    │   │   ├── CRLF.BAT
+    │   │   ├── CRLF2.BAT
+    │   │   ├── DEBUG.DOC
+    │   │   ├── DL.EXE
+    │   │   ├── DOBLINK.BAT
+    │   │   ├── DUMP.COM
+    │   │   ├── EVAL.BAT
+    │   │   ├── EXPORT.BAT
+    │   │   ├── EXTEX.EXE
+    │   │   ├── FILELINK.CFG
+    │   │   ├── FILELINK.EXE
+    │   │   ├── GET.BAT
+    │   │   ├── GETMAIL.BAT
+    │   │   ├── GZIP.EXE
+    │   │   ├── HELLO
+    │   │   ├── HI
+    │   │   ├── IMPORT.BAT
+    │   │   ├── LHA.EXE
+    │   │   ├── LS.BAT
+    │   │   ├── MAKE.BTM
+    │   │   ├── MAKE.EXE
+    │   │   ├── MAKEDEB.BAT
+    │   │   ├── MAP.BAT
+    │   │   ├── MCLINK.EXE
+    │   │   ├── MEGACHAR.EXE
+    │   │   ├── MERGE.EXE
+    │   │   ├── MSCDEX.EXE
+    │   │   ├── NCFTP.EXE
+    │   │   ├── NETRC
+    │   │   ├── OLDNET
+    │   │   ├── PACKER.EXE
+    │   │   ├── PAX.EXE
+    │   │   ├── PAX.MAN
+    │   │   ├── PKUNPAK.EXE
+    │   │   ├── PKUNZIP.EXE
+    │   │   ├── PKZIP.EXE
+    │   │   ├── PKZIPFIX.EXE
+    │   │   ├── PUTMAIL.BAT
+    │   │   ├── PWD.BAT
+    │   │   ├── QFTP.EXE
+    │   │   ├── RAWRITE.EXE
+    │   │   ├── RBACK.BAT
+    │   │   ├── RBACK1.BAT
+    │   │   ├── RFM.EXE
+    │   │   ├── RFMLINK.BAT
+    │   │   ├── RFMLINK.QDK
+    │   │   ├── RM.BAT
+    │   │   ├── RREST.BAT
+    │   │   ├── RREST1.BAT
+    │   │   ├── RUNERR.BAT
+    │   │   ├── S3ATRAN.EXE
+    │   │   ├── SASMX.EXE
+    │   │   ├── SETUPFTP.BTM
+    │   │   ├── SGBAK.BTM
+    │   │   ├── SL.EXE
+    │   │   ├── STATE.RST
+    │   │   ├── TELIX.BAT
+    │   │   ├── TEST.ASM
+    │   │   ├── TEST.BAK
+    │   │   ├── TEST.EXE
+    │   │   ├── TOUCH.COM
+    │   │   ├── UNIVESA.DOC
+    │   │   ├── UNIVESA.EXE
+    │   │   ├── UUDECODE.DOC
+    │   │   ├── UUDECODE.EXE
+    │   │   ├── UUENCODE.EXE
+    │   │   ├── UUEXE521.ZIP
+    │   │   ├── VESA.BAT
+    │   │   ├── VGAMODE.EXE
+    │   │   ├── VM.BAT
+    │   │   ├── VMODE.COM
+    │   │   ├── WINMAIL.BAT
+    │   │   ├── XMK.BTM
+    │   │   ├── ZAP.EXE
+    │   │   ├── ZIP2EXE.EXE
+    │   │   └── ZPM.EXE
+    │   ├── BRIEF/
+    │   │   ├── 101KEY.DRV
+    │   │   ├── 8X8.FNT
+    │   │   ├── B.EXE
+    │   │   ├── B.INI
+    │   │   ├── BACKUP/
+    │   │   │   ├── 1
+    │   │   │   ├── 1.HTM
+    │   │   │   ├── ALCS.INC
+    │   │   │   ├── ALL.EXT
+    │   │   │   ├── ANNOTATE.C
+    │   │   │   ├── AQTIVATE.DAT
+    │   │   │   ├── AQTIVATE.RES
+    │   │   │   ├── ARCTAN.ASM
+    │   │   │   ├── ARGBUG.INI
+    │   │   │   ├── ASIN.C
+    │   │   │   ├── ASIN.DAT
+    │   │   │   ├── AUDAN.C
+    │   │   │   ├── AUTHOR.C
+    │   │   │   ├── AUTOEXEC.BAT
+    │   │   │   ├── AXECOMMA.C
+    │   │   │   ├── BACKUP.BAT
+    │   │   │   ├── BANK0.ASM
+    │   │   │   ├── BANK1.ASM
+    │   │   │   ├── BANK10.ASM
+    │   │   │   ├── BANK11.ASM
+    │   │   │   ├── BANK2.ASM
+    │   │   │   ├── BANK4.ASM
+    │   │   │   ├── BANK5.ASM
+    │   │   │   ├── BANK6.ASM
+    │   │   │   ├── BANK7.ASM
+    │   │   │   ├── BANK8.ASM
+    │   │   │   ├── BANK9.ASM
+    │   │   │   ├── BAT1.ASM
+    │   │   │   ├── BAT2.ASM
+    │   │   │   ├── BAT3.ASM
+    │   │   │   ├── BAT4.ASM
+    │   │   │   ├── BAT5.ASM
+    │   │   │   ├── BGMACS.INC
+    │   │   │   ├── BGS.ASM
+    │   │   │   ├── BK.BAT
+    │   │   │   ├── BKDISK.BAT
+    │   │   │   ├── BKFLOPPY.BAT
+    │   │   │   ├── BOOTNMI.ASM
+    │   │   │   ├── BPATHDAT.ASM
+    │   │   │   ├── BPATHDAT.ASV
+    │   │   │   ├── BPATHDAT.EXT
+    │   │   │   ├── BSHAPES.ASM
+    │   │   │   ├── CHART.ASM
+    │   │   │   ├── CHATDATA.C
+    │   │   │   ├── CHATFILE.C
+    │   │   │   ├── CHATHOST.C
+    │   │   │   ├── CHATHOST.DXS
+    │   │   │   ├── CHATMAIL.C
+    │   │   │   ├── CHATSERV.BAK
+    │   │   │   ├── CHATSERV.C
+    │   │   │   ├── CHATSOCK.C
+    │   │   │   ├── CHATTALK.C
+    │   │   │   ├── CHATVARS.H
+    │   │   │   ├── CHILD.C
+    │   │   │   ├── CHKLIST.MS
+    │   │   │   ├── CLEAR.ASM
+    │   │   │   ├── CMP.C
+    │   │   │   ├── COLBOXES.ASM
+    │   │   │   ├── COLBOXES.EXT
+    │   │   │   ├── COLDET.ASM
+    │   │   │   ├── COLTABS.ASM
+    │   │   │   ├── COLTABS.EXT
+    │   │   │   ├── COMPILE.C
+    │   │   │   ├── CONFIG.C
+    │   │   │   ├── CONFIG.PPP
+    │   │   │   ├── CONFIG.SYS
+    │   │   │   ├── CONN.C
+    │   │   │   ├── CONTINUE.ASM
+    │   │   │   ├── CONTINUE.EXT
+    │   │   │   ├── COPYALL.BAT
+    │   │   │   ├── COPYBACK.BAT
+    │   │   │   ├── COPYIT.BAT
+    │   │   │   ├── COPYMAIL.BAT
+    │   │   │   ├── CPK.BAT
+    │   │   │   ├── D2_0.ASM
+    │   │   │   ├── D2_1.ASM
+    │   │   │   ├── D2_2.ASM
+    │   │   │   ├── D2_3.ASM
+    │   │   │   ├── D2_4.ASM
+    │   │   │   ├── D2_5.ASM
+    │   │   │   ├── D2_6.ASM
+    │   │   │   ├── D2_7.ASM
+    │   │   │   ├── D4_0.ASM
+    │   │   │   ├── D4_1.ASM
+    │   │   │   ├── D_EXT.ASM
+    │   │   │   ├── DAEMON.C
+    │   │   │   ├── DALCS.INC
+    │   │   │   ├── DEBUG.ASM
+    │   │   │   ├── DEFSPR.ASM
+    │   │   │   ├── DEMO0.ASM
+    │   │   │   ├── DEMO1.ASM
+    │   │   │   ├── DEMO2.ASM
+    │   │   │   ├── DEMO3.ASM
+    │   │   │   ├── DEMO6.ASM
+    │   │   │   ├── DEU.OPT
+    │   │   │   ├── DEV2GIF.C
+    │   │   │   ├── DGIF_LIB.C
+    │   │   │   ├── DIRFORM.C
+    │   │   │   ├── DISK.BAT
+    │   │   │   ├── DISPLAY.ASM
+    │   │   │   ├── DOSAPP.INI
+    │   │   │   ├── DPATHDAT.ASM
+    │   │   │   ├── DPATHDAT.EXT
+    │   │   │   ├── DRAW.ASM
+    │   │   │   ├── DSC.CB
+    │   │   │   ├── DSTRATS.ASM
+    │   │   │   ├── E.BAT
+    │   │   │   ├── EGIF_LIB.C
+    │   │   │   ├── EMUL.C
+    │   │   │   ├── ENGLISH.MSG
+    │   │   │   ├── ESHAPES.ASM
+    │   │   │   ├── ESHAPES2.ASM
+    │   │   │   ├── EXP1.ASM
+    │   │   │   ├── EXT1.ASM
+    │   │   │   ├── EXT2.ASM
+    │   │   │   ├── EXT3-1.ASM
+    │   │   │   ├── EXT3-2.ASM
+    │   │   │   ├── EXT3.ASM
+    │   │   │   ├── EXT4.ASM
+    │   │   │   ├── EXTERNAL.H
+    │   │   │   ├── EXTERNS.LOG
+    │   │   │   ├── EXTRAS.CC
+    │   │   │   ├── F2.ASM
+    │   │   │   ├── FILE.C
+    │   │   │   ├── FILES.LOG
+    │   │   │   ├── FINGER.C
+    │   │   │   ├── FIREWALL.H
+    │   │   │   ├── FLEA.0
+    │   │   │   ├── FLEAMARK.C
+    │   │   │   ├── FLIST
+    │   │   │   ├── FONTDATA.ASM
+    │   │   │   ├── FONTDATA.EXT
+    │   │   │   ├── FONTS.ALI
+    │   │   │   ├── FONTS.CC
+    │   │   │   ├── FONTS.DIR
+    │   │   │   ├── FONTS.EXT
+    │   │   │   ├── FONTS.OLD
+    │   │   │   ├── FORP1.TXT
+    │   │   │   ├── FOX.DAT
+    │   │   │   ├── FOXOBJ.DAT
+    │   │   │   ├── FRIENDS.ASM
+    │   │   │   ├── FRIENDS.EXT
+    │   │   │   ├── FRMHNDLR.C
+    │   │   │   ├── FROG.TXT
+    │   │   │   ├── FTP.OPL
+    │   │   │   ├── FTP_D.OPL
+    │   │   │   ├── GADGETS.CC
+    │   │   │   ├── GAMELIST.INC
+    │   │   │   ├── GAMEOBJ.ASM
+    │   │   │   ├── GAMEOBJ.EXT
+    │   │   │   ├── GAMEOVER.ASM
+    │   │   │   ├── GAMEOVER.ASV
+    │   │   │   ├── GAMEOVER.EXT
+    │   │   │   ├── GAMETEXT.ASM
+    │   │   │   ├── GAMETEXT.MSG
+    │   │   │   ├── GETARG.C
+    │   │   │   ├── GIF2BGI.C
+    │   │   │   ├── GIF2EPSN.C
+    │   │   │   ├── GIF_HASH.C
+    │   │   │   ├── GIFREAD.C
+    │   │   │   ├── GUI-DIAL.C
+    │   │   │   ├── GUI-DOCU.C
+    │   │   │   ├── GUI-MENU.C
+    │   │   │   ├── GUI.C
+    │   │   │   ├── HDMATABS.ASM
+    │   │   │   ├── HDMATABS.EXT
+    │   │   │   ├── HEADER.INC
+    │   │   │   ├── HELL.ASM
+    │   │   │   ├── HELL.EXT
+    │   │   │   ├── HISTORY.C
+    │   │   │   ├── HNAM.C
+    │   │   │   ├── HOSTDATA.DAT
+    │   │   │   ├── HOSTS
+    │   │   │   ├── HOTFILE.C
+    │   │   │   ├── HOTLIST.C
+    │   │   │   ├── HTFILE.C
+    │   │   │   ├── HTFWRITE.C
+    │   │   │   ├── HTML.C
+    │   │   │   ├── HTMLP.H
+    │   │   │   ├── HTSEARCH.C
+    │   │   │   ├── HTTCP.C
+    │   │   │   ├── HTTPD.CON
+    │   │   │   ├── HVSCROLL.ASM
+    │   │   │   ├── IF1.C
+    │   │   │   ├── IMG.C
+    │   │   │   ├── INCBINS.ASM
+    │   │   │   ├── INCBINS.EXT
+    │   │   │   ├── INETD.CFG
+    │   │   │   ├── INSTALL.TXT
+    │   │   │   ├── INTRO.ASM
+    │   │   │   ├── IRQ.ASM
+    │   │   │   ├── IRQ.EXT
+    │   │   │   ├── JAPAN.H
+    │   │   │   ├── JAPANESE.MSG
+    │   │   │   ├── KALCS.INC
+    │   │   │   ├── KAWAGOE.ADD
+    │   │   │   ├── KMACS.INC
+    │   │   │   ├── KPATHDAT.ASM
+    │   │   │   ├── KPLAYER.ASM
+    │   │   │   ├── KSCREEN.ASM
+    │   │   │   ├── KVARS.INC
+    │   │   │   ├── LABFORM.HTM
+    │   │   │   ├── LANWP.BAT
+    │   │   │   ├── LIB.ASM
+    │   │   │   ├── LIB.EXT
+    │   │   │   ├── LIGHT.ASM
+    │   │   │   ├── LS.BAT
+    │   │   │   ├── MACROS.INC
+    │   │   │   ├── MAIL.ASV
+    │   │   │   ├── MAIL.OPL
+    │   │   │   ├── MAILCHEC.C
+    │   │   │   ├── MAILSEND.C
+    │   │   │   ├── MAILSERV.C
+    │   │   │   ├── MAIN.ASM
+    │   │   │   ├── MAIN.C
+    │   │   │   ├── MAIN.EXT
+    │   │   │   ├── MAKEFILE
+    │   │   │   ├── MAKEFILE.CON
+    │   │   │   ├── MAKEOBJ.C
+    │   │   │   ├── MAP.BAT
+    │   │   │   ├── MAPANIME.ASM
+    │   │   │   ├── MAPCODE.ASM
+    │   │   │   ├── MAPCODE.EXT
+    │   │   │   ├── MAPEXP.ASM
+    │   │   │   ├── MAPG.C
+    │   │   │   ├── MAPLIST.EXT
+    │   │   │   ├── MAPMACS.INC
+    │   │   │   ├── MAPP.ASM
+    │   │   │   ├── MAPSTRUC.INC
+    │   │   │   ├── MAPU.C
+    │   │   │   ├── MARIO.EXT
+    │   │   │   ├── MARIO.MC
+    │   │   │   ├── MBOXES.MC
+    │   │   │   ├── MCLIP.MC
+    │   │   │   ├── MCURSOR.MC
+    │   │   │   ├── MDATA.MC
+    │   │   │   ├── MDEBUG.MC
+    │   │   │   ├── MDRAWLIS.MC
+    │   │   │   ├── MDSPRITE.MC
+    │   │   │   ├── MEM.ASM
+    │   │   │   ├── MESSAGE.ASM
+    │   │   │   ├── MESSAGES.CC
+    │   │   │   ├── MGDOTS.MC
+    │   │   │   ├── MISMAP.ASM
+    │   │   │   ├── MISSOBJ.ASM
+    │   │   │   ├── MISSOBJ.EXT
+    │   │   │   ├── MKAWA.MC
+    │   │   │   ├── MMACS.MC
+    │   │   │   ├── MMATHS.MC
+    │   │   │   ├── MMESSAGE.MC
+    │   │   │   ├── MMTBL.ASM
+    │   │   │   ├── MMTBL.EXT
+    │   │   │   ├── MO-WWW.C
+    │   │   │   ├── MOBJ.MC
+    │   │   │   ├── MOSAIC.H
+    │   │   │   ├── MOSAIC.RES
+    │   │   │   ├── MOVER.MC
+    │   │   │   ├── MPART.MC
+    │   │   │   ├── MPLANET.MC
+    │   │   │   ├── MSLOPES.MC
+    │   │   │   ├── MTEST.MC
+    │   │   │   ├── MTVARS.INC
+    │   │   │   ├── MTVARS.MC
+    │   │   │   ├── MTXTCLP.MC
+    │   │   │   ├── MVARS.INC
+    │   │   │   ├── MVARS.MC
+    │   │   │   ├── MYTEST.MC
+    │   │   │   ├── MYVARS.INC
+    │   │   │   ├── NAMA.C
+    │   │   │   ├── NET.BAT
+    │   │   │   ├── NET.CFG
+    │   │   │   ├── NSTART.BAT
+    │   │   │   ├── OAMDATA.ASM
+    │   │   │   ├── OAMDATA.EXT
+    │   │   │   ├── OAMFACE.ASM
+    │   │   │   ├── OAMLIST.ASM
+    │   │   │   ├── OAMSET.ASM
+    │   │   │   ├── OBJ.ASM
+    │   │   │   ├── OUTMAIL.1
+    │   │   │   ├── PAN.C
+    │   │   │   ├── PATHDATA.ASM
+    │   │   │   ├── PATHDATA.EXT
+    │   │   │   ├── PATHKERN.ASM
+    │   │   │   ├── PATHKERN.EXT
+    │   │   │   ├── PATHKERN.NEW
+    │   │   │   ├── PATHMACS.INC
+    │   │   │   ├── PATHS.ASM
+    │   │   │   ├── PATHS.EXT
+    │   │   │   ├── PATHS2.ASM
+    │   │   │   ├── PAUSEMAP.ASM
+    │   │   │   ├── PICREAD.C
+    │   │   │   ├── PIXMAPS.H
+    │   │   │   ├── PLAYER.ASM
+    │   │   │   ├── PLAYER.ASV
+    │   │   │   ├── PLAYER.EXT
+    │   │   │   ├── PLAYER.INC
+    │   │   │   ├── PLAYER.SOS
+    │   │   │   ├── PNAME.C
+    │   │   │   ├── PPATHDAT.ASM
+    │   │   │   ├── PROGMAN.INI
+    │   │   │   ├── PROTOTYP.H
+    │   │   │   ├── PROXY.C
+    │   │   │   ├── PSELECT.ASM
+    │   │   │   ├── PSELECT.EXT
+    │   │   │   ├── PSELECT2.ASM
+    │   │   │   ├── PSELOBJ.DAT
+    │   │   │   ├── PSHAPES.ASM
+    │   │   │   ├── QFTP.C
+    │   │   │   ├── QUANTIZE.C
+    │   │   │   ├── RAMMES.ASM
+    │   │   │   ├── RAMMISMA.ASM
+    │   │   │   ├── RAMSPR.ASM
+    │   │   │   ├── RAMSROU.ASM
+    │   │   │   ├── RAMSROU.EXT
+    │   │   │   ├── RAMSTUFF.ASM
+    │   │   │   ├── RAMSTUFF.EXT
+    │   │   │   ├── RAMSTUFF.OLD
+    │   │   │   ├── RAMTITLE.ASM
+    │   │   │   ├── RASTER.ASM
+    │   │   │   ├── RAW2GIF.C
+    │   │   │   ├── RCOM.INI
+    │   │   │   ├── RDSTG1.ASM
+    │   │   │   ├── README.DVX
+    │   │   │   ├── RESET.ASM
+    │   │   │   ├── RESOURCE.C
+    │   │   │   ├── RFMLINK.BAT
+    │   │   │   ├── RM.BAT
+    │   │   │   ├── RP5A22.INC
+    │   │   │   ├── RP5C77.INC
+    │   │   │   ├── SCALEVAR.INC
+    │   │   │   ├── SCKSTDIO.C
+    │   │   │   ├── SCRATCHP
+    │   │   │   ├── SCREEN.ASM
+    │   │   │   ├── SERVCMDS.H
+    │   │   │   ├── SERVICES
+    │   │   │   ├── SFC.CC
+    │   │   │   ├── SGDATA.ASM
+    │   │   │   ├── SGDATA.EXT
+    │   │   │   ├── SHAPES.ASM
+    │   │   │   ├── SHAPES.EXT
+    │   │   │   ├── SHAPES2.ASM
+    │   │   │   ├── SHBANKS.ASM
+    │   │   │   ├── SHMACS.INC
+    │   │   │   ├── SHOMADO.C
+    │   │   │   ├── SHORTDOC.TXT
+    │   │   │   ├── SHOWVIEW.ASM
+    │   │   │   ├── SLOPEDEF.ASM
+    │   │   │   ├── SLOPEDEF.EXT
+    │   │   │   ├── SLOPES.ASM
+    │   │   │   ├── SLOPES.EXT
+    │   │   │   ├── SMTP.OPL
+    │   │   │   ├── SMTP_D.ASV
+    │   │   │   ├── SMTP_D.OPL
+    │   │   │   ├── SNDTBL.ASM
+    │   │   │   ├── SOCKVARS.H
+    │   │   │   ├── SOS
+    │   │   │   ├── SOS.ASM
+    │   │   │   ├── SOS.C
+    │   │   │   ├── SOS.DEF
+    │   │   │   ├── SOS.INC
+    │   │   │   ├── SOS.YJ
+    │   │   │   ├── SOS1.ASM
+    │   │   │   ├── SOS2.ASM
+    │   │   │   ├── SOS3.ASM
+    │   │   │   ├── SOSYJ1.ASM
+    │   │   │   ├── SOUND.ASM
+    │   │   │   ├── SOUND.INC
+    │   │   │   ├── SPRDATA.ASM
+    │   │   │   ├── SPRITES.ASM
+    │   │   │   ├── SSS.ASM
+    │   │   │   ├── STATS.C
+    │   │   │   ├── STG1.ASM
+    │   │   │   ├── STG2.ASM
+    │   │   │   ├── STG3.ASM
+    │   │   │   ├── STG4.ASM
+    │   │   │   ├── STG5.ASM
+    │   │   │   ├── STG6.ASM
+    │   │   │   ├── STRATEQU.INC
+    │   │   │   ├── STRATLIB.INC
+    │   │   │   ├── STRATMAC.INC
+    │   │   │   ├── STRATROU.ASM
+    │   │   │   ├── STRATROU.EXT
+    │   │   │   ├── STRUCTS.INC
+    │   │   │   ├── SYSLOG.H
+    │   │   │   ├── SYSSTRAT.ASM
+    │   │   │   ├── SYSSTRAT.EXT
+    │   │   │   ├── SYSTEM.INC
+    │   │   │   ├── SYSTEM.INI
+    │   │   │   ├── TAIL.INC
+    │   │   │   ├── TAKOFORM.C
+    │   │   │   ├── TALCS.INC
+    │   │   │   ├── TAN.C
+    │   │   │   ├── TCP.H
+    │   │   │   ├── TCPLIB.OPL
+    │   │   │   ├── TECHDATA.ASM
+    │   │   │   ├── TECHDATA.INC
+    │   │   │   ├── TEMP
+    │   │   │   ├── TEMP.TMP
+    │   │   │   ├── TEMPLATE.TST
+    │   │   │   ├── TEST.ASM
+    │   │   │   ├── TEST.BAT
+    │   │   │   ├── TEST.C
+    │   │   │   ├── TEST.HTM
+    │   │   │   ├── TEST.MSG
+    │   │   │   ├── TEST2
+    │   │   │   ├── TEST3
+    │   │   │   ├── TITLE.ASM
+    │   │   │   ├── TITLE.EXT
+    │   │   │   ├── TITLEMAP.ASM
+    │   │   │   ├── TITLEOBJ.ASM
+    │   │   │   ├── TMACROS.INC
+    │   │   │   ├── TMAIL.OPL
+    │   │   │   ├── TMAIL09B.UUE
+    │   │   │   ├── TOOLDLOG.C
+    │   │   │   ├── TOOLFILE.C
+    │   │   │   ├── TPATHDAT.ASM
+    │   │   │   ├── TPATHDAT.EXT
+    │   │   │   ├── TPLAYER.ASM
+    │   │   │   ├── TPLAYER.EXT
+    │   │   │   ├── TRA1.ASM
+    │   │   │   ├── TRA2.ASM
+    │   │   │   ├── TRA3.ASM
+    │   │   │   ├── TRANS.ASM
+    │   │   │   ├── UDPFTP.C
+    │   │   │   ├── UDPTEST.C
+    │   │   │   ├── URG.C
+    │   │   │   ├── USHAPES.ASM
+    │   │   │   ├── UTIL.C
+    │   │   │   ├── VARS.INC
+    │   │   │   ├── VIEWS.ASM
+    │   │   │   ├── VOFFSET.ASM
+    │   │   │   ├── WAVEFUNC.OPL
+    │   │   │   ├── WAVEMOD.DOC
+    │   │   │   ├── WAVEMOD.OPL
+    │   │   │   ├── WEAPONS.ASM
+    │   │   │   ├── WEAPONS.EXT
+    │   │   │   ├── WIN.INI
+    │   │   │   ├── WINDOW.C
+    │   │   │   ├── WINDOWS.ASM
+    │   │   │   ├── WINDOWS.CC
+    │   │   │   ├── WINDOWS.H
+    │   │   │   ├── WIPE.ASM
+    │   │   │   ├── WIPE.EXT
+    │   │   │   ├── WIPE.SOS
+    │   │   │   ├── WIPEBATT.ASM
+    │   │   │   ├── WIPEDOOR.DAT
+    │   │   │   ├── WIPEMAP.ASM
+    │   │   │   ├── WIPEPAUS.ASM
+    │   │   │   ├── WIPETEST.ASM
+    │   │   │   ├── WM.CFG
+    │   │   │   ├── WORLD.ASM
+    │   │   │   ├── WP1.DAT
+    │   │   │   ├── WP2.DAT
+    │   │   │   ├── WP3.DAT
+    │   │   │   ├── WSHAPES.ASM
+    │   │   │   ├── XMXP.H
+    │   │   │   ├── XPLAYER.ASM
+    │   │   │   ├── XPLAYER.EXT
+    │   │   │   ├── XRESOURC.H
+    │   │   │   ├── XZX.AD
+    │   │   │   ├── XZX.RES
+    │   │   │   ├── YAJIMA.DEF
+    │   │   │   ├── YAJIMA.INC
+    │   │   │   ├── YAJIMA.MC
+    │   │   │   ├── YALCS.INC
+    │   │   │   ├── YJMAP.ASM
+    │   │   │   ├── YJRADAR.ASM
+    │   │   │   ├── YMACROS.INC
+    │   │   │   ├── YMACS.INC
+    │   │   │   └── Z80.INI
+    │   │   ├── BC.EXE
+    │   │   ├── BD.COM
+    │   │   ├── BD.EXE
+    │   │   ├── BDEL.EXE
+    │   │   ├── BGREP.EXE
+    │   │   ├── BINI.OLD
+    │   │   ├── BRIEF
+    │   │   ├── BSETUP.COM
+    │   │   ├── BSETUP.EXE
+    │   │   ├── BSETUP.HLP
+    │   │   ├── CB.EXE
+    │   │   ├── CHKLIST.MS
+    │   │   ├── CM.EXE
+    │   │   ├── COMMANDS.MNU
+    │   │   ├── CTAGS.EXE
+    │   │   ├── DOSV.DRV
+    │   │   ├── EGA.DRV
+    │   │   ├── HELP/
+    │   │   │   ├── BASIC.MNU
+    │   │   │   ├── BLOCK.MNU
+    │   │   │   ├── BUFFERS.MNU
+    │   │   │   ├── COMMANDS.MNU
+    │   │   │   ├── CURSOR.MNU
+    │   │   │   ├── HELP.MNU
+    │   │   │   ├── HELP.TXT
+    │   │   │   ├── KEYS.MNU
+    │   │   │   ├── MACROS.MNU
+    │   │   │   ├── MARIO.HLP
+    │   │   │   ├── MISC.MNU
+    │   │   │   ├── MOUSE.MNU
+    │   │   │   ├── PACKAGES.MNU
+    │   │   │   ├── POPUP.MNU
+    │   │   │   ├── SEARCH.MNU
+    │   │   │   ├── TEMP.DIR
+    │   │   │   └── WINDOWS.MNU
+    │   │   ├── HELP.TXT
+    │   │   ├── HELPMAKE.TOP
+    │   │   ├── HELPMAKE.TXT
+    │   │   ├── HERCPLUS.DRV
+    │   │   ├── M.TXT
+    │   │   ├── MACROS/
+    │   │   │   ├── 01-04-93.DSC
+    │   │   │   ├── 65816R.CI
+    │   │   │   ├── ADA.CB
+    │   │   │   ├── ADA.CM
+    │   │   │   ├── AUTOSAVE.CB
+    │   │   │   ├── AUTOSAVE.CM
+    │   │   │   ├── BASIC.CB
+    │   │   │   ├── BASIC.CM
+    │   │   │   ├── BMAKEDIR.TXT
+    │   │   │   ├── BRACE.CB
+    │   │   │   ├── BRACE.CM
+    │   │   │   ├── BRACKET.CB
+    │   │   │   ├── BRACKET.CM
+    │   │   │   ├── BUFFERS.CB
+    │   │   │   ├── BUFFERS.CM
+    │   │   │   ├── BUFFERS.M
+    │   │   │   ├── CHKLIST.MS
+    │   │   │   ├── CNG.BAK
+    │   │   │   ├── CNG.CM
+    │   │   │   ├── CNG.M
+    │   │   │   ├── COBOL.CM
+    │   │   │   ├── COLUMN.CB
+    │   │   │   ├── COLUMN.CM
+    │   │   │   ├── COMMENT.CB
+    │   │   │   ├── COMMENT.CM
+    │   │   │   ├── COMPILE.CB
+    │   │   │   ├── COMPILE.CM
+    │   │   │   ├── COPYRITE.CB
+    │   │   │   ├── COPYRITE.CM
+    │   │   │   ├── DATE.CB
+    │   │   │   ├── DATE.CM
+    │   │   │   ├── DIALOG.CB
+    │   │   │   ├── DIALOG.CM
+    │   │   │   ├── DIALOG.H
+    │   │   │   ├── DIR.CB
+    │   │   │   ├── DIR.CM
+    │   │   │   ├── DIR.HLP
+    │   │   │   ├── DIR.M
+    │   │   │   ├── DLG.H
+    │   │   │   ├── DLG_BUTN.CB
+    │   │   │   ├── DLG_BUTN.CM
+    │   │   │   ├── DLG_FLD.CB
+    │   │   │   ├── DLG_FLD.CM
+    │   │   │   ├── DLG_LIST.CB
+    │   │   │   ├── DLG_LIST.CM
+    │   │   │   ├── DLG_MENU.CB
+    │   │   │   ├── DLG_MENU.CM
+    │   │   │   ├── DLG_MOUS.CB
+    │   │   │   ├── DLG_MOUS.CM
+    │   │   │   ├── DSC.BAK
+    │   │   │   ├── DSC.CB
+    │   │   │   ├── DSC.CM
+    │   │   │   ├── DSC.M
+    │   │   │   ├── DSC.NEW
+    │   │   │   ├── DSC.OLD
+    │   │   │   ├── EBOOK.CB
+    │   │   │   ├── ED_FILES.CM
+    │   │   │   ├── ED_FILES.M
+    │   │   │   ├── ENHANCE.DOC
+    │   │   │   ├── ERRORFIX.CB
+    │   │   │   ├── ERRORFIX.CM
+    │   │   │   ├── FINISHED.TMP
+    │   │   │   ├── FLEM2
+    │   │   │   ├── FORTRAN.CB
+    │   │   │   ├── FORTRAN.CM
+    │   │   │   ├── FRIT.ZIP
+    │   │   │   ├── GSG.BAK
+    │   │   │   ├── GSG.CM
+    │   │   │   ├── GSG.M
+    │   │   │   ├── HELP.CB
+    │   │   │   ├── HELP.CM
+    │   │   │   ├── HELPPC.CB
+    │   │   │   ├── HELPPC.CM
+    │   │   │   ├── INDENT.CB
+    │   │   │   ├── INDENT.CM
+    │   │   │   ├── INSERT.CM
+    │   │   │   ├── INSERT.M
+    │   │   │   ├── KEY.CB
+    │   │   │   ├── KEY.CM
+    │   │   │   ├── KEYBOARD.CM
+    │   │   │   ├── KEYBOARD.H
+    │   │   │   ├── KEYS.CB
+    │   │   │   ├── KEYS.CM
+    │   │   │   ├── KILLTASK.UU
+    │   │   │   ├── KW.BAK
+    │   │   │   ├── KW.CM
+    │   │   │   ├── KW.M
+    │   │   │   ├── LANGUAGE.CB
+    │   │   │   ├── LANGUAGE.CM
+    │   │   │   ├── LNDRENH.CB
+    │   │   │   ├── LNDRENH.CM
+    │   │   │   ├── LNDRENH.M
+    │   │   │   ├── LOCATE.CB
+    │   │   │   ├── LOCATE.CM
+    │   │   │   ├── MAKE.ERR
+    │   │   │   ├── MHELP.CB
+    │   │   │   ├── MHELP.CM
+    │   │   │   ├── MHELP.DOC
+    │   │   │   ├── MHELP.EXE
+    │   │   │   ├── MHELP.ZIP
+    │   │   │   ├── MISC.H
+    │   │   │   ├── MODULA2.CM
+    │   │   │   ├── MORRISON.DOC
+    │   │   │   ├── MOUSE.CB
+    │   │   │   ├── MOUSE.CM
+    │   │   │   ├── MYCOMP.CB
+    │   │   │   ├── MYCOMP.CM
+    │   │   │   ├── MYCOMP.DOC
+    │   │   │   ├── MYCOMP.EXE
+    │   │   │   ├── MYCOMP.UU
+    │   │   │   ├── MYCOMP.ZIP
+    │   │   │   ├── MYMACROS.CB
+    │   │   │   ├── NEXTEXT.CB
+    │   │   │   ├── NEXTEXT.CM
+    │   │   │   ├── NIL
+    │   │   │   ├── PACK.CB
+    │   │   │   ├── PACK.CM
+    │   │   │   ├── PASCAL.CM
+    │   │   │   ├── POPUP.CB
+    │   │   │   ├── POPUP.CM
+    │   │   │   ├── PROMPT.CB
+    │   │   │   ├── PROMPT.CM
+    │   │   │   ├── PVCS.CB
+    │   │   │   ├── PVCS.CM
+    │   │   │   ├── PWB.CB
+    │   │   │   ├── PWB.CM
+    │   │   │   ├── QH.CB
+    │   │   │   ├── QH.CM
+    │   │   │   ├── R65816.CB
+    │   │   │   ├── R65816.CM
+    │   │   │   ├── R65816.ERR
+    │   │   │   ├── README.DOC
+    │   │   │   ├── REGREP.CM
+    │   │   │   ├── REGREP.M
+    │   │   │   ├── REPEAT.CB
+    │   │   │   ├── REPEAT.CM
+    │   │   │   ├── RESTORE.CB
+    │   │   │   ├── RESTORE.CM
+    │   │   │   ├── ROUTINES.CB
+    │   │   │   ├── ROUTINES.CM
+    │   │   │   ├── RUNERR.BAK
+    │   │   │   ├── RUNERR.DVP
+    │   │   │   ├── RUNERR.UU
+    │   │   │   ├── SAFEDOS.CB
+    │   │   │   ├── SAFEDOS.CM
+    │   │   │   ├── SAVEHIST.CB
+    │   │   │   ├── SAVEHIST.CM
+    │   │   │   ├── SCHEDULE.CB
+    │   │   │   ├── SCHEDULE.CM
+    │   │   │   ├── SCRAPPER.CB
+    │   │   │   ├── SCRAPPER.CM
+    │   │   │   ├── SCRAPS.CM
+    │   │   │   ├── SCRAPS.M
+    │   │   │   ├── SEARCH.CB
+    │   │   │   ├── SEARCH.CM
+    │   │   │   ├── SFXBMACS.EXE
+    │   │   │   ├── SFXBMACS.ZIP
+    │   │   │   ├── STARTED.TMP
+    │   │   │   ├── STARTUP.CB
+    │   │   │   ├── STARTUP.CM
+    │   │   │   ├── STATE.RST
+    │   │   │   ├── SYSMON.TMP
+    │   │   │   ├── TAB2SPCS.CB
+    │   │   │   ├── TAB2SPCS.CM
+    │   │   │   ├── TEMP
+    │   │   │   ├── TEMP.ASM
+    │   │   │   ├── TEMP.TMP
+    │   │   │   ├── TEMPLATE
+    │   │   │   ├── TLIB.CB
+    │   │   │   ├── TLIB.CM
+    │   │   │   ├── VC_KEY.H
+    │   │   │   ├── VI.CI
+    │   │   │   ├── VI.CM
+    │   │   │   ├── VI.H
+    │   │   │   ├── VI.M
+    │   │   │   ├── VI.MNU
+    │   │   │   ├── VI.TXT
+    │   │   │   ├── VI2.CM
+    │   │   │   ├── VI2.M
+    │   │   │   ├── WIN_CTRL.H
+    │   │   │   ├── WINDOWS.CB
+    │   │   │   ├── WINDOWS.CM
+    │   │   │   ├── WP.CB
+    │   │   │   ├── WP.CM
+    │   │   │   ├── XX-XX-XX
+    │   │   │   └── XX-XX-XX.DSC
+    │   │   ├── MHELP.TXT
+    │   │   ├── OLDB.COM
+    │   │   ├── OLDB.EXE
+    │   │   ├── READ.ME
+    │   │   ├── SETUP.EXE
+    │   │   ├── SETUP.HLP
+    │   │   ├── STATE.RST
+    │   │   ├── TANDY.DRV
+    │   │   ├── VGA.DRV
+    │   │   ├── VGA414.DRV
+    │   │   ├── VGA414S.DRV
+    │   │   ├── VGA443.DRV
+    │   │   ├── VGA446.DRV
+    │   │   ├── VIEW.DRV
+    │   │   └── WYSE700.DRV
+    │   ├── EGUCHI/
+    │   │   └── SFC/
+    │   │       └── SFC.EXE
+    │   ├── KAWAGOE/
+    │   │   ├── AUTOEXEC.BAT
+    │   │   ├── CONFIG.SYS
+    │   │   └── SF.ROM
+    │   ├── KAWAGUCH/
+    │   │   └── SF2/
+    │   │       ├── #SELOBJ.INC
+    │   │       ├── #VARS.INC
+    │   │       ├── 1
+    │   │       ├── AAA
+    │   │       ├── AAA.AAA
+    │   │       ├── AAA.ASM
+    │   │       ├── AAA.INC
+    │   │       ├── ABC.ABC
+    │   │       ├── ALCS.INC
+    │   │       ├── ALVARS.TXT
+    │   │       ├── ARIMOTO.BAT
+    │   │       ├── ASMVARS.INC
+    │   │       ├── ATOZ.BIN
+    │   │       ├── BACKUP/
+    │   │       │   └── KMACS.INC
+    │   │       ├── BANK0.ASM
+    │   │       ├── BANK0.SOB
+    │   │       ├── BANK1.ASM
+    │   │       ├── BANK1.SOB
+    │   │       ├── BANK10.ASM
+    │   │       ├── BANK10.SOB
+    │   │       ├── BANK11.ASM
+    │   │       ├── BANK11.SOB
+    │   │       ├── BANK2.ASM
+    │   │       ├── BANK2.SOB
+    │   │       ├── BANK4.ASM
+    │   │       ├── BANK4.SOB
+    │   │       ├── BANK5.ASM
+    │   │       ├── BANK5.SOB
+    │   │       ├── BANK6.ASM
+    │   │       ├── BANK6.SOB
+    │   │       ├── BANK7.ASM
+    │   │       ├── BANK7.SOB
+    │   │       ├── BANK8.ASM
+    │   │       ├── BANK8.SOB
+    │   │       ├── BANK9.ASM
+    │   │       ├── BESTSCOR.ASM
+    │   │       ├── BGMACS.INC
+    │   │       ├── BGMACS2.INC
+    │   │       ├── BGS.ASM
+    │   │       ├── BLINK.ASM
+    │   │       ├── BOOTNMI.ASM
+    │   │       ├── BPATHDAT.ASM
+    │   │       ├── BR-80D9.DBN
+    │   │       ├── BR-8330V.SWP
+    │   │       ├── BSHAPES.ASM
+    │   │       ├── CHART.ASM
+    │   │       ├── CHARTDAT.ASM
+    │   │       ├── CHKLIST.MS
+    │   │       ├── CLEAR.ASM
+    │   │       ├── COLBOXES.ASM
+    │   │       ├── COLDET.ASM
+    │   │       ├── COLTAB.ASM
+    │   │       ├── COLTABS.ASM
+    │   │       ├── COMMENTS.DOC
+    │   │       ├── CONFIG.ASM
+    │   │       ├── CONTINUE.ASM
+    │   │       ├── CONTINUE.YJI
+    │   │       ├── CPALL.BAT
+    │   │       ├── CPK.BAT
+    │   │       ├── CPKW.BAT
+    │   │       ├── CURDAT.ASM
+    │   │       ├── D2_0.ASM
+    │   │       ├── D2_1.ASM
+    │   │       ├── D2_2.ASM
+    │   │       ├── D2_3.ASM
+    │   │       ├── D2_4.ASM
+    │   │       ├── D2_5.ASM
+    │   │       ├── D2_6.ASM
+    │   │       ├── D2_7.ASM
+    │   │       ├── D3_3.ASM
+    │   │       ├── D4_0.ASM
+    │   │       ├── D4_1.ASM
+    │   │       ├── DALCS.INC
+    │   │       ├── DATA/
+    │   │       │   ├── 0.COL
+    │   │       │   ├── 1
+    │   │       │   ├── 1.CGX
+    │   │       │   ├── 1.CHR
+    │   │       │   ├── 1.COL
+    │   │       │   ├── 1.PIC
+    │   │       │   ├── 1.SCR
+    │   │       │   ├── 2
+    │   │       │   ├── 2.CGX
+    │   │       │   ├── 2.CHR
+    │   │       │   ├── 2.COL
+    │   │       │   ├── 2.PIC
+    │   │       │   ├── 2.SCR
+    │   │       │   ├── 3
+    │   │       │   ├── 3D_TEST.COL
+    │   │       │   ├── 5澆@
+    │   │       │   ├── A0.CCR
+    │   │       │   ├── A0.CGX
+    │   │       │   ├── A0.CHR
+    │   │       │   ├── A0.COL
+    │   │       │   ├── A0.PCR
+    │   │       │   ├── A0.PIC
+    │   │       │   ├── A0.SCR
+    │   │       │   ├── A1.CCR
+    │   │       │   ├── A1.CGX
+    │   │       │   ├── A1.CHR
+    │   │       │   ├── A1.COL
+    │   │       │   ├── A1.PCR
+    │   │       │   ├── A1.PIC
+    │   │       │   ├── A1.SCR
+    │   │       │   ├── A10.CCR
+    │   │       │   ├── A10.CGX
+    │   │       │   ├── A10.CHR
+    │   │       │   ├── A10.COL
+    │   │       │   ├── A10.PCR
+    │   │       │   ├── A10.PIC
+    │   │       │   ├── A10.SCR
+    │   │       │   ├── A11.CCR
+    │   │       │   ├── A11.CGX
+    │   │       │   ├── A11.CHR
+    │   │       │   ├── A11.COL
+    │   │       │   ├── A11.PCR
+    │   │       │   ├── A11.PIC
+    │   │       │   ├── A11.SCR
+    │   │       │   ├── A12.CGX
+    │   │       │   ├── A12.CHR
+    │   │       │   ├── A12.COL
+    │   │       │   ├── A12.PCR
+    │   │       │   ├── A12.PIC
+    │   │       │   ├── A12.SCR
+    │   │       │   ├── A13.CCR
+    │   │       │   ├── A13.CGX
+    │   │       │   ├── A13.CHR
+    │   │       │   ├── A13.COL
+    │   │       │   ├── A13.PCR
+    │   │       │   ├── A13.PIC
+    │   │       │   ├── A13.SCR
+    │   │       │   ├── A14.CCR
+    │   │       │   ├── A14.CGX
+    │   │       │   ├── A14.CHR
+    │   │       │   ├── A14.COL
+    │   │       │   ├── A14.PCR
+    │   │       │   ├── A14.PIC
+    │   │       │   ├── A14.SCR
+    │   │       │   ├── A15.CCR
+    │   │       │   ├── A15.CGX
+    │   │       │   ├── A15.CHR
+    │   │       │   ├── A15.COL
+    │   │       │   ├── A15.PCR
+    │   │       │   ├── A15.PIC
+    │   │       │   ├── A15.SCR
+    │   │       │   ├── A16.CCR
+    │   │       │   ├── A16.CGX
+    │   │       │   ├── A16.CHR
+    │   │       │   ├── A16.COL
+    │   │       │   ├── A16.PCR
+    │   │       │   ├── A16.PIC
+    │   │       │   ├── A16.SCR
+    │   │       │   ├── A17.COL
+    │   │       │   ├── A17.PCR
+    │   │       │   ├── A17.PIC
+    │   │       │   ├── A17.SCR
+    │   │       │   ├── A18.COL
+    │   │       │   ├── A18.PCR
+    │   │       │   ├── A18.PIC
+    │   │       │   ├── A18.SCR
+    │   │       │   ├── A19.COL
+    │   │       │   ├── A19.PCR
+    │   │       │   ├── A19.PIC
+    │   │       │   ├── A19.SCR
+    │   │       │   ├── A1COL
+    │   │       │   ├── A2.CCR
+    │   │       │   ├── A2.CGX
+    │   │       │   ├── A2.CHR
+    │   │       │   ├── A2.COL
+    │   │       │   ├── A2.PCR
+    │   │       │   ├── A2.PIC
+    │   │       │   ├── A2.SCR
+    │   │       │   ├── A20.COL
+    │   │       │   ├── A20.PCR
+    │   │       │   ├── A20.PIC
+    │   │       │   ├── A20.SCR
+    │   │       │   ├── A21.COL
+    │   │       │   ├── A21.PCR
+    │   │       │   ├── A21.PIC
+    │   │       │   ├── A21.SCR
+    │   │       │   ├── A22.COL
+    │   │       │   ├── A22.PCR
+    │   │       │   ├── A22.PIC
+    │   │       │   ├── A22.SCR
+    │   │       │   ├── A23.COL
+    │   │       │   ├── A23.PCR
+    │   │       │   ├── A23.PIC
+    │   │       │   ├── A23.SCR
+    │   │       │   ├── A24.COL
+    │   │       │   ├── A24.PCR
+    │   │       │   ├── A24.PIC
+    │   │       │   ├── A24.SCR
+    │   │       │   ├── A25.COL
+    │   │       │   ├── A25.PCR
+    │   │       │   ├── A25.PIC
+    │   │       │   ├── A25.SCR
+    │   │       │   ├── A26.COL
+    │   │       │   ├── A27.COL
+    │   │       │   ├── A27.PCR
+    │   │       │   ├── A27.PIC
+    │   │       │   ├── A27.SCR
+    │   │       │   ├── A28.COL
+    │   │       │   ├── A28.PCR
+    │   │       │   ├── A28.PIC
+    │   │       │   ├── A28.SCR
+    │   │       │   ├── A29.COL
+    │   │       │   ├── A3.CCR
+    │   │       │   ├── A3.CGX
+    │   │       │   ├── A3.CHR
+    │   │       │   ├── A3.COL
+    │   │       │   ├── A3.PCR
+    │   │       │   ├── A3.PIC
+    │   │       │   ├── A3.SCR
+    │   │       │   ├── A30.COL
+    │   │       │   ├── A31.COL
+    │   │       │   ├── A3COL
+    │   │       │   ├── A4.CCR
+    │   │       │   ├── A4.CGX
+    │   │       │   ├── A4.CHR
+    │   │       │   ├── A4.COL
+    │   │       │   ├── A4.PCR
+    │   │       │   ├── A4.PIC
+    │   │       │   ├── A4.SCR
+    │   │       │   ├── A5.CCR
+    │   │       │   ├── A5.CGX
+    │   │       │   ├── A5.CHR
+    │   │       │   ├── A5.COL
+    │   │       │   ├── A5.PCR
+    │   │       │   ├── A5.PIC
+    │   │       │   ├── A5.SCR
+    │   │       │   ├── A5COL
+    │   │       │   ├── A6.CCR
+    │   │       │   ├── A6.CGX
+    │   │       │   ├── A6.CHR
+    │   │       │   ├── A6.COL
+    │   │       │   ├── A6.PCR
+    │   │       │   ├── A6.PIC
+    │   │       │   ├── A6.SCR
+    │   │       │   ├── A7.CCR
+    │   │       │   ├── A7.CGX
+    │   │       │   ├── A7.CHR
+    │   │       │   ├── A7.COL
+    │   │       │   ├── A7.PCR
+    │   │       │   ├── A7.PIC
+    │   │       │   ├── A7.SCR
+    │   │       │   ├── A8.CCR
+    │   │       │   ├── A8.CGX
+    │   │       │   ├── A8.CHR
+    │   │       │   ├── A8.COL
+    │   │       │   ├── A8.PCR
+    │   │       │   ├── A8.PIC
+    │   │       │   ├── A8.SCR
+    │   │       │   ├── A9.CCR
+    │   │       │   ├── A9.CGX
+    │   │       │   ├── A9.CHR
+    │   │       │   ├── A9.COL
+    │   │       │   ├── A9.PCR
+    │   │       │   ├── A9.PIC
+    │   │       │   ├── A9.SCR
+    │   │       │   ├── AAA
+    │   │       │   ├── ABC
+    │   │       │   ├── ALLCOLS.COL
+    │   │       │   ├── ALLCOLS.PAC
+    │   │       │   ├── ARCTAN.ASM
+    │   │       │   ├── B0-A.CGX
+    │   │       │   ├── B0-A.SCR
+    │   │       │   ├── B0.CCR
+    │   │       │   ├── B0.CGX
+    │   │       │   ├── B0.CHR
+    │   │       │   ├── B0.COL
+    │   │       │   ├── B0.PCR
+    │   │       │   ├── B0.PIC
+    │   │       │   ├── B0.SCR
+    │   │       │   ├── B0.ZIP
+    │   │       │   ├── B0_A.BAK
+    │   │       │   ├── B0_A.CCR
+    │   │       │   ├── B0_A.CGX
+    │   │       │   ├── B0_A.CHR
+    │   │       │   ├── B0_A.PCR
+    │   │       │   ├── B0_A.PIC
+    │   │       │   ├── B0_A.SCR
+    │   │       │   ├── B1-A.CGX
+    │   │       │   ├── B1-A.SCR
+    │   │       │   ├── B1.CCR
+    │   │       │   ├── B1.CGX
+    │   │       │   ├── B1.CHR
+    │   │       │   ├── B1.COL
+    │   │       │   ├── B1.PCR
+    │   │       │   ├── B1.PIC
+    │   │       │   ├── B1.SCR
+    │   │       │   ├── B10-A.SCR
+    │   │       │   ├── B10.CGX
+    │   │       │   ├── B10.CHR
+    │   │       │   ├── B10.COL
+    │   │       │   ├── B10.PCR
+    │   │       │   ├── B10.PIC
+    │   │       │   ├── B10.SCR
+    │   │       │   ├── B10_A.PCR
+    │   │       │   ├── B10_A.PIC
+    │   │       │   ├── B10_A.SCR
+    │   │       │   ├── B11-A.SCR
+    │   │       │   ├── B11.COL
+    │   │       │   ├── B11.PCR
+    │   │       │   ├── B11.PIC
+    │   │       │   ├── B11.SCR
+    │   │       │   ├── B11_A.PCR
+    │   │       │   ├── B11_A.PIC
+    │   │       │   ├── B11_A.SCR
+    │   │       │   ├── B12-A.CGX
+    │   │       │   ├── B12-A.SCR
+    │   │       │   ├── B12.CCR
+    │   │       │   ├── B12.CGX
+    │   │       │   ├── B12.CHR
+    │   │       │   ├── B12.PCR
+    │   │       │   ├── B12.PIC
+    │   │       │   ├── B12.SCR
+    │   │       │   ├── B12_A.CCR
+    │   │       │   ├── B12_A.CGX
+    │   │       │   ├── B12_A.CHR
+    │   │       │   ├── B12_A.PCR
+    │   │       │   ├── B12_A.PIC
+    │   │       │   ├── B12_A.SCR
+    │   │       │   ├── B13-A.SCR
+    │   │       │   ├── B13.CGX
+    │   │       │   ├── B13.CHR
+    │   │       │   ├── B13.PCR
+    │   │       │   ├── B13.PIC
+    │   │       │   ├── B13.SCR
+    │   │       │   ├── B13_A.PCR
+    │   │       │   ├── B13_A.PIC
+    │   │       │   ├── B13_A.SCR
+    │   │       │   ├── B14-A.CGX
+    │   │       │   ├── B14-A.SCR
+    │   │       │   ├── B14.CBA
+    │   │       │   ├── B14.CCR
+    │   │       │   ├── B14.CGX
+    │   │       │   ├── B14.CHR
+    │   │       │   ├── B14.COL
+    │   │       │   ├── B14.PCR
+    │   │       │   ├── B14.PIC
+    │   │       │   ├── B14.SBA
+    │   │       │   ├── B14.SCR
+    │   │       │   ├── B14_A.CCR
+    │   │       │   ├── B14_A.CGX
+    │   │       │   ├── B14_A.CHR
+    │   │       │   ├── B14_A.PCR
+    │   │       │   ├── B14_A.PIC
+    │   │       │   ├── B14_A.SCR
+    │   │       │   ├── B15-A.CGX
+    │   │       │   ├── B15-A.SCR
+    │   │       │   ├── B15.CCR
+    │   │       │   ├── B15.CGX
+    │   │       │   ├── B15.CHR
+    │   │       │   ├── B15.COL
+    │   │       │   ├── B15.PCR
+    │   │       │   ├── B15.PIC
+    │   │       │   ├── B15.SCR
+    │   │       │   ├── B15_A.CCR
+    │   │       │   ├── B15_A.CGX
+    │   │       │   ├── B15_A.CHR
+    │   │       │   ├── B15_A.PCR
+    │   │       │   ├── B15_A.PIC
+    │   │       │   ├── B15_A.SCR
+    │   │       │   ├── B16-A.CGX
+    │   │       │   ├── B16-A.SCR
+    │   │       │   ├── B16.CCR
+    │   │       │   ├── B16.CGX
+    │   │       │   ├── B16.CHR
+    │   │       │   ├── B16.COL
+    │   │       │   ├── B16.PCR
+    │   │       │   ├── B16.PIC
+    │   │       │   ├── B16.SCR
+    │   │       │   ├── B16_A.CCR
+    │   │       │   ├── B16_A.CGX
+    │   │       │   ├── B16_A.CHR
+    │   │       │   ├── B16_A.PCR
+    │   │       │   ├── B16_A.PIC
+    │   │       │   ├── B16_A.SCR
+    │   │       │   ├── B17.COL
+    │   │       │   ├── B1_A.CCR
+    │   │       │   ├── B1_A.CGX
+    │   │       │   ├── B1_A.CHR
+    │   │       │   ├── B1_A.PCR
+    │   │       │   ├── B1_A.PIC
+    │   │       │   ├── B1_A.SCR
+    │   │       │   ├── B2-A.SCR
+    │   │       │   ├── B2.CGX
+    │   │       │   ├── B2.CHR
+    │   │       │   ├── B2.COL
+    │   │       │   ├── B2.PCR
+    │   │       │   ├── B2.PIC
+    │   │       │   ├── B2.SCR
+    │   │       │   ├── B2_A.PCR
+    │   │       │   ├── B2_A.PIC
+    │   │       │   ├── B2_A.SCR
+    │   │       │   ├── B3-A.SCR
+    │   │       │   ├── B3.CGX
+    │   │       │   ├── B3.CHR
+    │   │       │   ├── B3.COL
+    │   │       │   ├── B3.PCR
+    │   │       │   ├── B3.PIC
+    │   │       │   ├── B3.SCR
+    │   │       │   ├── B3_A.PCR
+    │   │       │   ├── B3_A.PIC
+    │   │       │   ├── B3_A.SCR
+    │   │       │   ├── B4-A.CGX
+    │   │       │   ├── B4-A.SCR
+    │   │       │   ├── B4.CCR
+    │   │       │   ├── B4.CGX
+    │   │       │   ├── B4.CHR
+    │   │       │   ├── B4.PCR
+    │   │       │   ├── B4.PIC
+    │   │       │   ├── B4.SCR
+    │   │       │   ├── B4_A.CCR
+    │   │       │   ├── B4_A.CGX
+    │   │       │   ├── B4_A.CHR
+    │   │       │   ├── B4_A.PCR
+    │   │       │   ├── B4_A.PIC
+    │   │       │   ├── B4_A.SCR
+    │   │       │   ├── B5-A.SCR
+    │   │       │   ├── B5.CGX
+    │   │       │   ├── B5.CHR
+    │   │       │   ├── B5.COL
+    │   │       │   ├── B5.PCR
+    │   │       │   ├── B5.PIC
+    │   │       │   ├── B5.SCR
+    │   │       │   ├── B5_A.PCR
+    │   │       │   ├── B5_A.PIC
+    │   │       │   ├── B5_A.SCR
+    │   │       │   ├── B6-A.SCR
+    │   │       │   ├── B6.CGX
+    │   │       │   ├── B6.COL
+    │   │       │   ├── B6.PCR
+    │   │       │   ├── B6.PIC
+    │   │       │   ├── B6.SCR
+    │   │       │   ├── B6_A.PCR
+    │   │       │   ├── B6_A.PIC
+    │   │       │   ├── B6_A.SCR
+    │   │       │   ├── B7-A.CGX
+    │   │       │   ├── B7-A.SCR
+    │   │       │   ├── B7.CCR
+    │   │       │   ├── B7.CGX
+    │   │       │   ├── B7.CHR
+    │   │       │   ├── B7.COL
+    │   │       │   ├── B7.PCR
+    │   │       │   ├── B7.PIC
+    │   │       │   ├── B7.SCR
+    │   │       │   ├── B7_A.CCR
+    │   │       │   ├── B7_A.CGX
+    │   │       │   ├── B7_A.CHR
+    │   │       │   ├── B7_A.PCR
+    │   │       │   ├── B7_A.PIC
+    │   │       │   ├── B7_A.SCR
+    │   │       │   ├── B8-A.CGX
+    │   │       │   ├── B8-A.SCR
+    │   │       │   ├── B8.CCR
+    │   │       │   ├── B8.CGX
+    │   │       │   ├── B8.CHR
+    │   │       │   ├── B8.COL
+    │   │       │   ├── B8.PCR
+    │   │       │   ├── B8.PIC
+    │   │       │   ├── B8.SCR
+    │   │       │   ├── B8_A.CCR
+    │   │       │   ├── B8_A.CGX
+    │   │       │   ├── B8_A.CHR
+    │   │       │   ├── B8_A.PCR
+    │   │       │   ├── B8_A.PIC
+    │   │       │   ├── B8_A.SCR
+    │   │       │   ├── B9-A.CGX
+    │   │       │   ├── B9-A.SCR
+    │   │       │   ├── B9.CCR
+    │   │       │   ├── B9.CGX
+    │   │       │   ├── B9.CHR
+    │   │       │   ├── B9.COL
+    │   │       │   ├── B9.PIC
+    │   │       │   ├── B9.SCR
+    │   │       │   ├── B9_A.CCR
+    │   │       │   ├── B9_A.CGX
+    │   │       │   ├── B9_A.CHR
+    │   │       │   ├── B9_A.SCR
+    │   │       │   ├── BG-1-1.CGX
+    │   │       │   ├── BG-1.CGX
+    │   │       │   ├── BG-1.CHR
+    │   │       │   ├── BG-1.PIC
+    │   │       │   ├── BG-1.SCR
+    │   │       │   ├── BG-1P.CGX
+    │   │       │   ├── BG-1P.CHR
+    │   │       │   ├── BG-1P.PIC
+    │   │       │   ├── BG-1P.SCR
+    │   │       │   ├── BG-3.CGX
+    │   │       │   ├── BG-3.CHR
+    │   │       │   ├── BG-3.PIC
+    │   │       │   ├── BG-3.SCR
+    │   │       │   ├── C0.COL
+    │   │       │   ├── C1.COL
+    │   │       │   ├── C2.COL
+    │   │       │   ├── C3.COL
+    │   │       │   ├── C4.COL
+    │   │       │   ├── C5.COL
+    │   │       │   ├── CCC
+    │   │       │   ├── CHKLIST.MS
+    │   │       │   ├── CM.CGX
+    │   │       │   ├── CMP.EXE
+    │   │       │   ├── COL-1.BAK
+    │   │       │   ├── COL.TMP
+    │   │       │   ├── COL2.TMP
+    │   │       │   ├── COL_1.COL
+    │   │       │   ├── COL_2.COL
+    │   │       │   ├── E0-A.CGX
+    │   │       │   ├── E0.CCR
+    │   │       │   ├── E0.CGX
+    │   │       │   ├── E0.CHR
+    │   │       │   ├── E0_A.CCR
+    │   │       │   ├── E0_A.CGX
+    │   │       │   ├── E0_A.CHR
+    │   │       │   ├── E1-A.CGX
+    │   │       │   ├── E1.BAK
+    │   │       │   ├── E1.CCR
+    │   │       │   ├── E1.CGX
+    │   │       │   ├── E1.CHR
+    │   │       │   ├── E1_A.CCR
+    │   │       │   ├── E1_A.CGX
+    │   │       │   ├── E1_A.CHR
+    │   │       │   ├── E2-A.CGX
+    │   │       │   ├── E2.CCR
+    │   │       │   ├── E2.CGX
+    │   │       │   ├── E2.CHR
+    │   │       │   ├── E2_A.CCR
+    │   │       │   ├── E2_A.CGX
+    │   │       │   ├── E2_A.CHR
+    │   │       │   ├── E3-A.CGX
+    │   │       │   ├── E3.BAK
+    │   │       │   ├── E3.CCR
+    │   │       │   ├── E3.CGX
+    │   │       │   ├── E3.CHR
+    │   │       │   ├── E3.ZIP
+    │   │       │   ├── E3_A.CCR
+    │   │       │   ├── E3_A.CGX
+    │   │       │   ├── E3_A.CHR
+    │   │       │   ├── E4-A.CGX
+    │   │       │   ├── E4.CCR
+    │   │       │   ├── E4.CGX
+    │   │       │   ├── E4.CHR
+    │   │       │   ├── E4_A.CCR
+    │   │       │   ├── E4_A.CGX
+    │   │       │   ├── E4_A.CHR
+    │   │       │   ├── E5-A.CGX
+    │   │       │   ├── E5.CCR
+    │   │       │   ├── E5.CGX
+    │   │       │   ├── E5.CHR
+    │   │       │   ├── E5_A.CCR
+    │   │       │   ├── E5_A.CGX
+    │   │       │   ├── E5_A.CHR
+    │   │       │   ├── E6-A.CGX
+    │   │       │   ├── E6.CCR
+    │   │       │   ├── E6.CGX
+    │   │       │   ├── E6.CHR
+    │   │       │   ├── E6_A.CCR
+    │   │       │   ├── E6_A.CGX
+    │   │       │   ├── E6_A.CHR
+    │   │       │   ├── E7-A.CGX
+    │   │       │   ├── E7.CCR
+    │   │       │   ├── E7.CGX
+    │   │       │   ├── E7.CHR
+    │   │       │   ├── E7_A.CCR
+    │   │       │   ├── E7_A.CGX
+    │   │       │   ├── E7_A.CHR
+    │   │       │   ├── E8-A.CGX
+    │   │       │   ├── E8.CCR
+    │   │       │   ├── E8.CGX
+    │   │       │   ├── E8.CHR
+    │   │       │   ├── E8_A.CCR
+    │   │       │   ├── E8_A.CGX
+    │   │       │   ├── E8_A.CHR
+    │   │       │   ├── E9-A.CGX
+    │   │       │   ├── E9.CCR
+    │   │       │   ├── E9.CGX
+    │   │       │   ├── E9.CHR
+    │   │       │   ├── E9_96.CCR
+    │   │       │   ├── E9_96.CGX
+    │   │       │   ├── E9_96.CHR
+    │   │       │   ├── E9_97.CCR
+    │   │       │   ├── E9_97.CGX
+    │   │       │   ├── E9_97.CHR
+    │   │       │   ├── E9_A.CCR
+    │   │       │   ├── E9_A.CGX
+    │   │       │   ├── E9_A.CHR
+    │   │       │   ├── E9_A_96.CCR
+    │   │       │   ├── E9_A_96.CGX
+    │   │       │   ├── E9_A_96.CHR
+    │   │       │   ├── E9_A_97.CCR
+    │   │       │   ├── E9_A_97.CGX
+    │   │       │   ├── E9_A_97.CHR
+    │   │       │   ├── ETABS.DAT
+    │   │       │   ├── EX.CGX
+    │   │       │   ├── EX.CHR
+    │   │       │   ├── F0.OBJ
+    │   │       │   ├── F1.OBJ
+    │   │       │   ├── FINISHED.TMP
+    │   │       │   ├── HELP.TXT
+    │   │       │   ├── INFO.DOC
+    │   │       │   ├── KAWAGUTI.BAK
+    │   │       │   ├── KAWAGUTI.CGX
+    │   │       │   ├── KILLTASK.TMP
+    │   │       │   ├── M2.BAT
+    │   │       │   ├── M4.BAT
+    │   │       │   ├── MAKE.ASM
+    │   │       │   ├── MAKE.ERR
+    │   │       │   ├── MAKEFILE
+    │   │       │   ├── MAP-A.CGX
+    │   │       │   ├── MAP-A.CHR
+    │   │       │   ├── MAP-A.PIC
+    │   │       │   ├── MAP-A.SCR
+    │   │       │   ├── MAP-OBJ.CGX
+    │   │       │   ├── MAP-OBJ.CHR
+    │   │       │   ├── MAP.COL
+    │   │       │   ├── MC.BAT
+    │   │       │   ├── MM.CGX
+    │   │       │   ├── MOJI_0.FON
+    │   │       │   ├── MOJI_0.TRN
+    │   │       │   ├── MOJI_2.FON
+    │   │       │   ├── MOJI_D.FON
+    │   │       │   ├── MOJI_D.TRN
+    │   │       │   ├── MORE
+    │   │       │   ├── MS.BAT
+    │   │       │   ├── NIGHT.COL
+    │   │       │   ├── NIL
+    │   │       │   ├── NINTENDO.PAL
+    │   │       │   ├── P_COL.COL
+    │   │       │   ├── PC.BAT
+    │   │       │   ├── PC2.BAT
+    │   │       │   ├── PC3.BAT
+    │   │       │   ├── RADAR.COL
+    │   │       │   ├── RADAR_OB.CGX
+    │   │       │   ├── RADAR_OB.CHR
+    │   │       │   ├── RDFL.COL
+    │   │       │   ├── README.DOC
+    │   │       │   ├── SEN.CGX
+    │   │       │   ├── SEN.CHR
+    │   │       │   ├── SEN.PIC
+    │   │       │   ├── SEN.SCR
+    │   │       │   ├── SETENV.BAT
+    │   │       │   ├── SF2P.BAT
+    │   │       │   ├── SPACE_0.CGX
+    │   │       │   ├── SPACE_0.CHR
+    │   │       │   ├── SPACE_0.COL
+    │   │       │   ├── SPACE_0.PIC
+    │   │       │   ├── SPACE_0.SCR
+    │   │       │   ├── STARTED.TMP
+    │   │       │   ├── SYSMON.TMP
+    │   │       │   ├── T-M-3.COL
+    │   │       │   ├── T.BAT
+    │   │       │   ├── TCOL1.COL
+    │   │       │   ├── TCOL2.COL
+    │   │       │   ├── TCOL3.COL
+    │   │       │   ├── TEMP.TMP
+    │   │       │   ├── TEST
+    │   │       │   ├── TEST.CGX
+    │   │       │   ├── TEST.CHR
+    │   │       │   ├── TEST.COL
+    │   │       │   ├── TEST.LZH
+    │   │       │   ├── TEST.PIC
+    │   │       │   ├── TEST.SCR
+    │   │       │   ├── TEST.ZIP
+    │   │       │   ├── TEST3D.COL
+    │   │       │   ├── TITL_BG2.CGX
+    │   │       │   ├── TITL_BG2.CHR
+    │   │       │   ├── TITL_BG2.PIC
+    │   │       │   ├── TITL_BG2.SCR
+    │   │       │   ├── TITL_BG3.CGX
+    │   │       │   ├── TITL_BG3.CHR
+    │   │       │   ├── TITL_BG3.PIC
+    │   │       │   ├── TITL_BG3.SCR
+    │   │       │   ├── TITL_COL.COL
+    │   │       │   ├── TM/
+    │   │       │   │   ├── ALLCOLS.COL
+    │   │       │   │   ├── ALLCOLS.PAC
+    │   │       │   │   ├── ARCTAN.ASM
+    │   │       │   │   ├── BG-1.CCR
+    │   │       │   │   ├── BG-1.CGX
+    │   │       │   │   ├── BG-1.CHR
+    │   │       │   │   ├── BG-1.PCR
+    │   │       │   │   ├── BG-1.PIC
+    │   │       │   │   ├── BG-1.SCR
+    │   │       │   │   ├── CHKLIST.MS
+    │   │       │   │   ├── COL-1.COL
+    │   │       │   │   ├── COL.TMP
+    │   │       │   │   ├── ETABS.DAT
+    │   │       │   │   ├── HELP.TXT
+    │   │       │   │   ├── M2.BAT
+    │   │       │   │   ├── M4.BAT
+    │   │       │   │   ├── MAKE.ASM
+    │   │       │   │   ├── MAKEFILE
+    │   │       │   │   ├── MC.BAT
+    │   │       │   │   ├── MOJI_0.FON
+    │   │       │   │   ├── MOJI_0.TRN
+    │   │       │   │   ├── MOJI_2.FON
+    │   │       │   │   ├── MOJI_D.FON
+    │   │       │   │   ├── MOJI_D.TRN
+    │   │       │   │   ├── MS.BAT
+    │   │       │   │   ├── NIGHT.COL
+    │   │       │   │   ├── NINTENDO.PAL
+    │   │       │   │   ├── PC.BAT
+    │   │       │   │   ├── PC2.BAT
+    │   │       │   │   ├── PC3.BAT
+    │   │       │   │   ├── RADAR.COL
+    │   │       │   │   ├── RADAR_OB.CCR
+    │   │       │   │   ├── RADAR_OB.CGX
+    │   │       │   │   ├── RADAR_OB.CHR
+    │   │       │   │   ├── SEN.CCR
+    │   │       │   │   ├── SEN.PCR
+    │   │       │   │   ├── SF2P.BAT
+    │   │       │   │   ├── T.BAT
+    │   │       │   │   ├── TEST.CCR
+    │   │       │   │   ├── TEST.CGX
+    │   │       │   │   ├── TEST.CHR
+    │   │       │   │   ├── TEST.COL
+    │   │       │   │   ├── TEST.PCR
+    │   │       │   │   ├── TEST.PIC
+    │   │       │   │   ├── TEST.SCR
+    │   │       │   │   ├── TITL_BG2.CCR
+    │   │       │   │   ├── TITL_BG2.CGX
+    │   │       │   │   ├── TITL_BG2.CHR
+    │   │       │   │   ├── TITL_BG2.PCR
+    │   │       │   │   ├── TITL_BG2.PIC
+    │   │       │   │   ├── TITL_BG2.SCR
+    │   │       │   │   ├── TITL_BG3.CCR
+    │   │       │   │   ├── TITL_BG3.CGX
+    │   │       │   │   ├── TITL_BG3.CHR
+    │   │       │   │   ├── TITL_BG3.PCR
+    │   │       │   │   ├── TITL_BG3.PIC
+    │   │       │   │   ├── TITL_BG3.SCR
+    │   │       │   │   ├── TITL_COL.COL
+    │   │       │   │   ├── YAJI_0.CCR
+    │   │       │   │   ├── YAJI_0.CGX
+    │   │       │   │   ├── YAJI_0.CHR
+    │   │       │   │   ├── YAMA.CCR
+    │   │       │   │   ├── YAMA.CGX
+    │   │       │   │   ├── YAMA.CHR
+    │   │       │   │   ├── YAMA.PCR
+    │   │       │   │   ├── YAMA.PIC
+    │   │       │   │   └── YAMA.SCR
+    │   │       │   ├── TMP.CGX
+    │   │       │   ├── TMP.CHR
+    │   │       │   ├── W0-A.CGX
+    │   │       │   ├── W0.CCR
+    │   │       │   ├── W0.CGX
+    │   │       │   ├── W0.CHR
+    │   │       │   ├── W0.COL
+    │   │       │   ├── W0_A.CCR
+    │   │       │   ├── W0_A.CGX
+    │   │       │   ├── W0_A.CHR
+    │   │       │   ├── W1-A.CGX
+    │   │       │   ├── W1.CCR
+    │   │       │   ├── W1.CGX
+    │   │       │   ├── W1.CHR
+    │   │       │   ├── W1.COL
+    │   │       │   ├── W1_A.CCR
+    │   │       │   ├── W1_A.CGX
+    │   │       │   ├── W1_A.CHR
+    │   │       │   ├── W2.CGX
+    │   │       │   ├── W2.CHR
+    │   │       │   ├── W2.COL
+    │   │       │   ├── W3.CGX
+    │   │       │   ├── W3.CHR
+    │   │       │   ├── W4.CGX
+    │   │       │   ├── W5.CGX
+    │   │       │   ├── W_OBJ_0.BAK
+    │   │       │   ├── W_OBJ_0.CGX
+    │   │       │   ├── W_OBJ_0.CHR
+    │   │       │   ├── W_OBJ_0.COL
+    │   │       │   ├── W_OBJ_1.CGX
+    │   │       │   ├── W_OBJ_1.CHR
+    │   │       │   ├── YAJI_0.CGX
+    │   │       │   ├── YAJI_0.CHR
+    │   │       │   ├── YAJI_0.COL
+    │   │       │   ├── YAJI_1.CGX
+    │   │       │   ├── YAJI_1.CHR
+    │   │       │   ├── YAMA.CGX
+    │   │       │   ├── YAMA.CHR
+    │   │       │   ├── YAMA.COL
+    │   │       │   ├── YAMA.PIC
+    │   │       │   └── YAMA.SCR
+    │   │       ├── DEBUG.ASM
+    │   │       ├── DEBUGOBJ.ASM
+    │   │       ├── DEFSPR.ASM
+    │   │       ├── DISPLAY.ASM
+    │   │       ├── DPATHDAT.ASM
+    │   │       ├── DRAW.ASM
+    │   │       ├── DSTRATS.ASM
+    │   │       ├── E0_0.ASM
+    │   │       ├── E0_1.ASM
+    │   │       ├── E0_3.ASM
+    │   │       ├── E3_2.ASM
+    │   │       ├── E3_3.ASM
+    │   │       ├── E3_4.ASM
+    │   │       ├── E3_5.ASM
+    │   │       ├── E3_8.ASM
+    │   │       ├── E3_9.ASM
+    │   │       ├── E3_A.ASM
+    │   │       ├── E3_B.ASM
+    │   │       ├── E3_C.ASM
+    │   │       ├── E3_E.ASM
+    │   │       ├── E3_F.ASM
+    │   │       ├── E5.CGX
+    │   │       ├── E5_1.ASM
+    │   │       ├── EALCS.INC
+    │   │       ├── EGDATA.ASM
+    │   │       ├── ENGLISH.MSG
+    │   │       ├── ESHAPES.ASM
+    │   │       ├── ESHAPES2.ASM
+    │   │       ├── EXT/
+    │   │       │   ├── ALL.EXT
+    │   │       │   ├── ARCTAN.EXT
+    │   │       │   ├── BESTSCOR.EXT
+    │   │       │   ├── BGS.EXT
+    │   │       │   ├── BLINK.EXT
+    │   │       │   ├── BOOTNMI.EXT
+    │   │       │   ├── BPATHDAT.EXT
+    │   │       │   ├── CHART.EXT
+    │   │       │   ├── CHARTDAT.EXT
+    │   │       │   ├── CLEAR.EXT
+    │   │       │   ├── COLBOXES.EXT
+    │   │       │   ├── COLTABS.EXT
+    │   │       │   ├── CONFIG.EXT
+    │   │       │   ├── CONTINUE.EXT
+    │   │       │   ├── CURDAT.EXT
+    │   │       │   ├── D2STRATS.EXT
+    │   │       │   ├── D3STRATS.EXT
+    │   │       │   ├── DEBUG.EXT
+    │   │       │   ├── DISPLAY.EXT
+    │   │       │   ├── DPATHDAT.EXT
+    │   │       │   ├── DRAW.EXT
+    │   │       │   ├── DSTRATS.EXT
+    │   │       │   ├── EGDATA.EXT
+    │   │       │   ├── ENDSEQ.EXT
+    │   │       │   ├── FINISHED.TMP
+    │   │       │   ├── FONTDATA.EXT
+    │   │       │   ├── FONTS.EXT
+    │   │       │   ├── FRIENDS.EXT
+    │   │       │   ├── GAKKI.EXT
+    │   │       │   ├── GAME.EXT
+    │   │       │   ├── GAMEOBJ.EXT
+    │   │       │   ├── GAMEOVER.EXT
+    │   │       │   ├── GPATHDAT.EXT
+    │   │       │   ├── HDMATABS.EXT
+    │   │       │   ├── HELL.EXT
+    │   │       │   ├── HVSCROLL.EXT
+    │   │       │   ├── INCBINS.EXT
+    │   │       │   ├── INCBINS2.EXT
+    │   │       │   ├── INTRO.EXT
+    │   │       │   ├── IRQ.EXT
+    │   │       │   ├── KAWAGOE.ADD
+    │   │       │   ├── KCALC.EXT
+    │   │       │   ├── KGSUB.EXT
+    │   │       │   ├── KGTEST.EXT
+    │   │       │   ├── KPATHDAT.EXT
+    │   │       │   ├── KPLAYER.EXT
+    │   │       │   ├── KRAMCALC.EXT
+    │   │       │   ├── KSCREEN.EXT
+    │   │       │   ├── KSTRATS.EXT
+    │   │       │   ├── MAIN.EXT
+    │   │       │   ├── MAKE.ERR
+    │   │       │   ├── MAPANIME.EXT
+    │   │       │   ├── MAPCODE.EXT
+    │   │       │   ├── MAPLIST.EXT
+    │   │       │   ├── MAPMES.EXT
+    │   │       │   ├── MAPS.EXT
+    │   │       │   ├── MAPSCR.EXT
+    │   │       │   ├── MARIO.EXT
+    │   │       │   ├── MDATA.EXT
+    │   │       │   ├── MEM.EXT
+    │   │       │   ├── MHOFS.EXT
+    │   │       │   ├── MISMAP.EXT
+    │   │       │   ├── MISSOBJ.EXT
+    │   │       │   ├── MMESSAGE.EXT
+    │   │       │   ├── MMTBL.EXT
+    │   │       │   ├── MOTHER.EXT
+    │   │       │   ├── MSLOPES.EXT
+    │   │       │   ├── NAMESET.EXT
+    │   │       │   ├── OAMDATA.EXT
+    │   │       │   ├── OBJ.EXT
+    │   │       │   ├── PATHDATA.EXT
+    │   │       │   ├── PATHKERN.EXT
+    │   │       │   ├── PATHS.EXT
+    │   │       │   ├── PAUSEMAP.EXT
+    │   │       │   ├── PCSTRATS.EXT
+    │   │       │   ├── PISTRATS.EXT
+    │   │       │   ├── PLANETS.EXT
+    │   │       │   ├── PLAYER.EXT
+    │   │       │   ├── PPATHDAT.EXT
+    │   │       │   ├── PSELECT.EXT
+    │   │       │   ├── RAMMES.EXT
+    │   │       │   ├── RAMMISMA.EXT
+    │   │       │   ├── RAMSOUND.EXT
+    │   │       │   ├── RAMSPR.EXT
+    │   │       │   ├── RAMSROU.EXT
+    │   │       │   ├── RAMSTUFF.EXT
+    │   │       │   ├── RAMTITLE.EXT
+    │   │       │   ├── RASTER.EXT
+    │   │       │   ├── RESULT.EXT
+    │   │       │   ├── SCREEN.EXT
+    │   │       │   ├── SGDATA.EXT
+    │   │       │   ├── SGTABS.EXT
+    │   │       │   ├── SHAPES.EXT
+    │   │       │   ├── SHBANKS.EXT
+    │   │       │   ├── SHOWVIEW.EXT
+    │   │       │   ├── SLOPEDEF.EXT
+    │   │       │   ├── SLOPES.EXT
+    │   │       │   ├── SOS.EXT
+    │   │       │   ├── SOUND.EXT
+    │   │       │   ├── SPRDATA.EXT
+    │   │       │   ├── SPRITES.EXT
+    │   │       │   ├── STARTED.TMP
+    │   │       │   ├── STATE.RST
+    │   │       │   ├── STRATROU.EXT
+    │   │       │   ├── SYSSTRAT.EXT
+    │   │       │   ├── T-ST.CCR
+    │   │       │   ├── T-ST.PCR
+    │   │       │   ├── TEMP.TMP
+    │   │       │   ├── TEST.EXT
+    │   │       │   ├── TITLE.EXT
+    │   │       │   ├── TITLEOBJ.EXT
+    │   │       │   ├── TITLESUB.EXT
+    │   │       │   ├── TPATHDAT.EXT
+    │   │       │   ├── TPLAYER.EXT
+    │   │       │   ├── TRANS.EXT
+    │   │       │   ├── TSTRATS.EXT
+    │   │       │   ├── VIEWS.EXT
+    │   │       │   ├── VOFFSET.EXT
+    │   │       │   ├── WEAPONS.EXT
+    │   │       │   ├── WINDOWS.EXT
+    │   │       │   ├── WIPE.EXT
+    │   │       │   ├── WORLD.EXT
+    │   │       │   ├── XPLAYER.EXT
+    │   │       │   ├── YJMAP.EXT
+    │   │       │   ├── YJMARIO.EXT
+    │   │       │   └── YJRADAR.EXT
+    │   │       ├── EXTERNS.LOG
+    │   │       ├── FILES.LOG
+    │   │       ├── FINISHED.TMP
+    │   │       ├── FLIST
+    │   │       ├── FONT_0.BIN
+    │   │       ├── FONT_1.BIN
+    │   │       ├── FONTDATA.ASM
+    │   │       ├── FONTS.ASM
+    │   │       ├── FOXOBJ.INC
+    │   │       ├── FRIENDS.ASM
+    │   │       ├── GAKKI.ASM
+    │   │       ├── GAME.ASM
+    │   │       ├── GAMELIST.INC
+    │   │       ├── GAMEMSGS.INC
+    │   │       ├── GAMEOBJ.ASM
+    │   │       ├── GAMEOBJ.INC
+    │   │       ├── GAMEOVER.ASM
+    │   │       ├── GAMETEXT.ASM
+    │   │       ├── GAMSMSGS.INC
+    │   │       ├── GERMAN.INC
+    │   │       ├── GILESAL.INC
+    │   │       ├── GILESALC.INC
+    │   │       ├── GILESALX.INC
+    │   │       ├── GPATHDAT.ASM
+    │   │       ├── GRIDVARS.INC
+    │   │       ├── HDMATABS.ASM
+    │   │       ├── HEADER.INC
+    │   │       ├── HELL.ASM
+    │   │       ├── HVSCROLL.ASM
+    │   │       ├── IFCOLD.ASM
+    │   │       ├── IJNCBINS.ASM
+    │   │       ├── INCBINS.ASM
+    │   │       ├── INCBINS.SOB
+    │   │       ├── INCBINS2.ASM
+    │   │       ├── INCBINS2.SOB
+    │   │       ├── INCBNINS.ASM
+    │   │       ├── INTRO.ASM
+    │   │       ├── INTRO.BAK
+    │   │       ├── IRQ.ASM
+    │   │       ├── ISTRATS.ASM
+    │   │       ├── ISTRATS.INC
+    │   │       ├── JAPANESE.MSG
+    │   │       ├── KALCS.INC
+    │   │       ├── KCALC.ASM
+    │   │       ├── KEYSCR.ASM
+    │   │       ├── KILLTASK.TMP
+    │   │       ├── KMACROS.INC
+    │   │       ├── KMACS.INC
+    │   │       ├── KPATHDAT.ASM
+    │   │       ├── KPLAYER.ASM
+    │   │       ├── KRAMCALC.ASM
+    │   │       ├── KSCRDATA.ASM
+    │   │       ├── KSCREEN.ASM
+    │   │       ├── KSTRATS.ASM
+    │   │       ├── KVARS.INC
+    │   │       ├── LIGHT.ASM
+    │   │       ├── MACROS.INC
+    │   │       ├── MAIN.ASM
+    │   │       ├── MAKE.ERR
+    │   │       ├── MAKEFILE
+    │   │       ├── MAPANIME.ASM
+    │   │       ├── MAPCODE.ASM
+    │   │       ├── MAPEXP.ASM
+    │   │       ├── MAPMACS.INC
+    │   │       ├── MAPMES.ASM
+    │   │       ├── MAPS/
+    │   │       │   ├── BAT/
+    │   │       │   │   ├── BAT1.ASM
+    │   │       │   │   ├── BAT2.ASM
+    │   │       │   │   ├── BAT3.ASM
+    │   │       │   │   ├── BAT4.ASM
+    │   │       │   │   └── BAT5.ASM
+    │   │       │   ├── DMAP.ASM
+    │   │       │   ├── EMAP.ASM
+    │   │       │   ├── FINISHED.TMP
+    │   │       │   ├── KILLTASK.TMP
+    │   │       │   ├── KMAP.ASM
+    │   │       │   ├── LIBRARY/
+    │   │       │   │   ├── DESERT.ASM
+    │   │       │   │   ├── GAMEOVER.ASM
+    │   │       │   │   ├── GROUND.ASM
+    │   │       │   │   ├── INTRO.ASM
+    │   │       │   │   ├── MARINE.ASM
+    │   │       │   │   ├── MEGANE3D.ASM
+    │   │       │   │   ├── SPACE.ASM
+    │   │       │   │   ├── TITLE.ASM
+    │   │       │   │   └── TUNNEL.ASM
+    │   │       │   ├── MAKE.ERR
+    │   │       │   ├── MAPLIST.ASM
+    │   │       │   ├── MAPP.ASM
+    │   │       │   ├── MAPS.ASM
+    │   │       │   ├── MIS/
+    │   │       │   │   ├── DEMO0.ASM
+    │   │       │   │   ├── DEMO1.ASM
+    │   │       │   │   ├── DEMO2.ASM
+    │   │       │   │   ├── DEMO3.ASM
+    │   │       │   │   ├── DEMO4.ASM
+    │   │       │   │   ├── DEMO5.ASM
+    │   │       │   │   ├── DEMO6.ASM
+    │   │       │   │   ├── DEMO7.ASM
+    │   │       │   │   ├── DEMO8.ASM
+    │   │       │   │   ├── DEMO9.ASM
+    │   │       │   │   ├── EXP1.ASM
+    │   │       │   │   ├── EXT1.ASM
+    │   │       │   │   ├── EXT2.ASM
+    │   │       │   │   ├── EXT3.ASM
+    │   │       │   │   ├── EXT4.ASM
+    │   │       │   │   ├── FINISHED.TMP
+    │   │       │   │   ├── MAKE.ERR
+    │   │       │   │   ├── PLDOWN.ASM
+    │   │       │   │   ├── RDSTG1.ASM
+    │   │       │   │   ├── RDSTG1.BAK
+    │   │       │   │   ├── SOS1.ASM
+    │   │       │   │   ├── SOS1.BAK
+    │   │       │   │   ├── SOS2.ASM
+    │   │       │   │   ├── SOS3.ASM
+    │   │       │   │   ├── STARTED.TMP
+    │   │       │   │   ├── STATE.RST
+    │   │       │   │   ├── STG1.ASM
+    │   │       │   │   ├── STG1.BAK
+    │   │       │   │   ├── STG2.ASM
+    │   │       │   │   ├── STG3.ASM
+    │   │       │   │   ├── STG4.ASM
+    │   │       │   │   ├── STG5.ASM
+    │   │       │   │   ├── STG5.BAK
+    │   │       │   │   ├── STG6.ASM
+    │   │       │   │   ├── TEMP.TMP
+    │   │       │   │   ├── TEST.ASM
+    │   │       │   │   ├── TRA.ASM
+    │   │       │   │   ├── TRA1.ASM
+    │   │       │   │   ├── TRA1.BAK
+    │   │       │   │   ├── TRA2.ASM
+    │   │       │   │   ├── TRA3.ASM
+    │   │       │   │   └── TYPE.ASM
+    │   │       │   ├── STARTED.TMP
+    │   │       │   ├── SYSMON.TMP
+    │   │       │   ├── TEMP.TMP
+    │   │       │   ├── TEST.ASM
+    │   │       │   ├── TITLEMAP.ASM
+    │   │       │   ├── TMAP.ASM
+    │   │       │   └── YMAP.ASM
+    │   │       ├── MAPSCR.ASM
+    │   │       ├── MAPSTRUC.INC
+    │   │       ├── MARIOI.INC
+    │   │       ├── MBOXES.MC
+    │   │       ├── MBUMWIPE.MC
+    │   │       ├── MCIRCLE.MC
+    │   │       ├── MCLIP.MC
+    │   │       ├── MCURSOR.MC
+    │   │       ├── MDATA.INC
+    │   │       ├── MDATA.MC
+    │   │       ├── MDEBUG.MC
+    │   │       ├── MDECRU.MC
+    │   │       ├── MDRAWLIS.MC
+    │   │       ├── MDRAWP.MC
+    │   │       ├── MDSPRITE.MC
+    │   │       ├── MEM.ASM
+    │   │       ├── MEMLEN.DOC
+    │   │       ├── MES1.ASM
+    │   │       ├── MESDATA.ASM
+    │   │       ├── MF.BIN
+    │   │       ├── MGDOTS.MC
+    │   │       ├── MHOFS.MC
+    │   │       ├── MHUD.MC
+    │   │       ├── MISMAP.ASM
+    │   │       ├── MISMAP.BAK
+    │   │       ├── MISMAPSU.ASM
+    │   │       ├── MISSOBJ.ASM
+    │   │       ├── MKAWA.MC
+    │   │       ├── MKVARS.INC
+    │   │       ├── MM.BIN
+    │   │       ├── MMACS.MC
+    │   │       ├── MMATHS.MC
+    │   │       ├── MME.BIN
+    │   │       ├── MMESSAGE.INC
+    │   │       ├── MMESSAGE.MC
+    │   │       ├── MMJ.BIN
+    │   │       ├── MMTBL.ASM
+    │   │       ├── MMTBL.BAK
+    │   │       ├── MOBJ.MC
+    │   │       ├── MOVER.MC
+    │   │       ├── MPART.MC
+    │   │       ├── MPLANCLP.MC
+    │   │       ├── MPLANET.MC
+    │   │       ├── MRAIN.MC
+    │   │       ├── MSCREEN.MC
+    │   │       ├── MSGS.TXT
+    │   │       ├── MSGTABLE.TMP
+    │   │       ├── MSHTAB.MC
+    │   │       ├── MSLOPES.MC
+    │   │       ├── MSPRITE.MC
+    │   │       ├── MSPRITES/
+    │   │       │   ├── 1
+    │   │       │   ├── CHKLIST.MS
+    │   │       │   ├── FINISHED.TMP
+    │   │       │   ├── MAKE.ERR
+    │   │       │   ├── MAKEFILE
+    │   │       │   ├── SNES_3.CGX
+    │   │       │   ├── SPAL_3.CGX
+    │   │       │   ├── SPRITES3.DAT
+    │   │       │   ├── SPRITES4.DAT
+    │   │       │   ├── SPRITESG.DAT
+    │   │       │   ├── SPT_0.CGX
+    │   │       │   ├── SPT_0.SCR
+    │   │       │   ├── SPT_01.BIN
+    │   │       │   ├── SPT_1.CGX
+    │   │       │   ├── SPT_1_1.CGX
+    │   │       │   ├── SPT_2.CGX
+    │   │       │   ├── SPT_23.BIN
+    │   │       │   ├── SPT_23A.BIN
+    │   │       │   ├── SPT_23P.BIN
+    │   │       │   ├── SPT_3.BAK
+    │   │       │   ├── SPT_3.CGX
+    │   │       │   ├── SPT_4.CGX
+    │   │       │   ├── SPT_45.BIN
+    │   │       │   ├── SPT_45A.BIN
+    │   │       │   ├── SPT_45P.BIN
+    │   │       │   ├── SPT_4_A.CGX
+    │   │       │   ├── SPT_4_P.CGX
+    │   │       │   ├── SPT_5.CGX
+    │   │       │   ├── SPT_5_A.CGX
+    │   │       │   ├── SPT_5_P.CGX
+    │   │       │   ├── STARTED.TMP
+    │   │       │   ├── TEMP.TMP
+    │   │       │   └── TEXTURES.BAT
+    │   │       ├── MTITLE.MC
+    │   │       ├── MTVARS.INC
+    │   │       ├── MTXTCLP.MC
+    │   │       ├── MTXTPRT.MC
+    │   │       ├── MVARS.INC
+    │   │       ├── MVARS.MC
+    │   │       ├── MWCROT.MC
+    │   │       ├── MWROT.MC
+    │   │       ├── MYTEST.MC
+    │   │       ├── MYVARS.INC
+    │   │       ├── MYVARS.MC
+    │   │       ├── NAMESET.ASM
+    │   │       ├── NMI.ASM
+    │   │       ├── OAMDATA.ASM
+    │   │       ├── OAMFACE.ASM
+    │   │       ├── OAMLIST.ASM
+    │   │       ├── OAMPLANE.ASM
+    │   │       ├── OAMSET.ASM
+    │   │       ├── OBJ.ASM
+    │   │       ├── OLSMACS.INC
+    │   │       ├── P57F31.-B-
+    │   │       ├── PALETTES.INC
+    │   │       ├── PATHDATA.ASM
+    │   │       ├── PATHINFO.ASM
+    │   │       ├── PATHKERN.ASM
+    │   │       ├── PATHMACS.INC
+    │   │       ├── PATHS.ASM
+    │   │       ├── PATHS2.ASM
+    │   │       ├── PAUSEMAP.ASM
+    │   │       ├── PLANETS.ASM
+    │   │       ├── PLAYER.ASM
+    │   │       ├── PLAYER.INC
+    │   │       ├── PLAYERS.INC
+    │   │       ├── PLR.INC
+    │   │       ├── PPATHDAT.ASM
+    │   │       ├── PSELECT.ASM
+    │   │       ├── PSELECT2.ASM
+    │   │       ├── PSELOBJ.INC
+    │   │       ├── PSHAPES.ASM
+    │   │       ├── PSHAPES2.ASM
+    │   │       ├── PSHAPES3.ASM
+    │   │       ├── RAMMES.ASM
+    │   │       ├── RAMMISMA.ASM
+    │   │       ├── RAMSOUND.ASM
+    │   │       ├── RAMSPR.ASM
+    │   │       ├── RAMSROU.ASM
+    │   │       ├── RAMSTUFF.ASM
+    │   │       ├── RASTER.ASM
+    │   │       ├── RESULT.ASM
+    │   │       ├── SCALEVAR.INC
+    │   │       ├── SCREEN.ASM
+    │   │       ├── SFXREGS.INC
+    │   │       ├── SGDATA.ASM
+    │   │       ├── SGTABS.ASM
+    │   │       ├── SHAPES.ASM
+    │   │       ├── SHAPES.EXT
+    │   │       ├── SHAPES2.ASM
+    │   │       ├── SHBANKS.ASM
+    │   │       ├── SHBANKS.SOB
+    │   │       ├── SHMACS.INC
+    │   │       ├── SHOWVIEW.ASM
+    │   │       ├── SLOPEDEF.ASM
+    │   │       ├── SLOPES.ASM
+    │   │       ├── SNDTBL.ASM
+    │   │       ├── SNDTBL.BAK
+    │   │       ├── SOS
+    │   │       ├── SOS.ASM
+    │   │       ├── SOS.SOS
+    │   │       ├── SOS3.ASM
+    │   │       ├── SOSLIST.ASM
+    │   │       ├── SOSXX.ASM
+    │   │       ├── SOUND/
+    │   │       │   ├── BACKUP/
+    │   │       │   │   ├── CHKLIST.MS
+    │   │       │   │   ├── FFSET1.BIN
+    │   │       │   │   ├── FFSET2.BIN
+    │   │       │   │   ├── FOX2.BIN
+    │   │       │   │   ├── FOX2SND.BIN
+    │   │       │   │   ├── FROG
+    │   │       │   │   ├── GGSET1.BIN
+    │   │       │   │   ├── GGSET2.BIN
+    │   │       │   │   ├── MUSIC01.BIN
+    │   │       │   │   ├── MUSIC02.BIN
+    │   │       │   │   ├── MUSIC03.BIN
+    │   │       │   │   ├── MUSIC04.BIN
+    │   │       │   │   ├── MUSIC05.BIN
+    │   │       │   │   ├── MUSIC06.BIN
+    │   │       │   │   ├── MUSIC07.BIN
+    │   │       │   │   ├── MUSIC08.BIN
+    │   │       │   │   ├── MUSIC09.BIN
+    │   │       │   │   ├── MUSIC10.BIN
+    │   │       │   │   ├── MUSIC11.BIN
+    │   │       │   │   ├── MUSIC12.BIN
+    │   │       │   │   ├── MUSIC13.BIN
+    │   │       │   │   ├── MUSIC14.BIN
+    │   │       │   │   ├── MUSIC15.BIN
+    │   │       │   │   ├── MUSIC16.BIN
+    │   │       │   │   ├── MUSIC17.BIN
+    │   │       │   │   ├── MUSIC18.BIN
+    │   │       │   │   ├── MUSIC19.BIN
+    │   │       │   │   ├── MUSIC20.BIN
+    │   │       │   │   ├── MUSIC21.BIN
+    │   │       │   │   ├── MUSIC22.BIN
+    │   │       │   │   ├── MUSIC23.BIN
+    │   │       │   │   ├── MUSIC24.BIN
+    │   │       │   │   ├── MUSIC25.BIN
+    │   │       │   │   ├── MUSIC28.BIN
+    │   │       │   │   ├── MUSIC29.BIN
+    │   │       │   │   ├── MUSIC30.BIN
+    │   │       │   │   ├── MUSIC31.BIN
+    │   │       │   │   ├── MUSIC32.BIN
+    │   │       │   │   ├── SDEX1.BIN
+    │   │       │   │   ├── SDEX2.BIN
+    │   │       │   │   ├── SDEX3.BIN
+    │   │       │   │   ├── SDFF.BIN
+    │   │       │   │   ├── SDGG.BIN
+    │   │       │   │   ├── SDGRD1.BIN
+    │   │       │   │   ├── SDGRD2.BIN
+    │   │       │   │   ├── SDGRD3.BIN
+    │   │       │   │   ├── SDGRD4.BIN
+    │   │       │   │   ├── SDGRD5.BIN
+    │   │       │   │   ├── SDGRD6.BIN
+    │   │       │   │   ├── SDINF.BIN
+    │   │       │   │   ├── SDSE.BIN
+    │   │       │   │   ├── SDSEA1.BIN
+    │   │       │   │   ├── SDSEA2.BIN
+    │   │       │   │   ├── SDSEA3.BIN
+    │   │       │   │   ├── SDSP.BIN
+    │   │       │   │   ├── SDSPA1.BIN
+    │   │       │   │   ├── SDSPA2.BIN
+    │   │       │   │   ├── SDSPA3.BIN
+    │   │       │   │   ├── SDSPA4.BIN
+    │   │       │   │   ├── SDSSS1.BIN
+    │   │       │   │   ├── SDST1.BIN
+    │   │       │   │   ├── SDST2.BIN
+    │   │       │   │   ├── SDST3.BIN
+    │   │       │   │   ├── SDST4.BIN
+    │   │       │   │   ├── SDST5.BIN
+    │   │       │   │   ├── SDST6.BIN
+    │   │       │   │   ├── SDTIT1.BIN
+    │   │       │   │   ├── SOUND.BIN
+    │   │       │   │   ├── SPSET1.BIN
+    │   │       │   │   ├── SPSET2.BIN
+    │   │       │   │   ├── TEST
+    │   │       │   │   └── TEST.TST
+    │   │       │   ├── CHKLIST.MS
+    │   │       │   ├── FALVOX.BIN
+    │   │       │   ├── FFSET1.BIN
+    │   │       │   ├── FFSET2.BIN
+    │   │       │   ├── FOX2.BIN
+    │   │       │   ├── FOX2SND.BIN
+    │   │       │   ├── FOXVOX.BIN
+    │   │       │   ├── GA1VOX.BIN
+    │   │       │   ├── GA2VOX.BIN
+    │   │       │   ├── GGSET1.BIN
+    │   │       │   ├── GGSET2.BIN
+    │   │       │   ├── GRDWTR.BIN
+    │   │       │   ├── INCBINS.ASM
+    │   │       │   ├── MAPSE.BIN
+    │   │       │   ├── MUSIC01.BIN
+    │   │       │   ├── MUSIC02.BIN
+    │   │       │   ├── MUSIC03.BIN
+    │   │       │   ├── MUSIC04.BIN
+    │   │       │   ├── MUSIC05.BIN
+    │   │       │   ├── MUSIC06.BIN
+    │   │       │   ├── MUSIC07.BIN
+    │   │       │   ├── MUSIC08.BIN
+    │   │       │   ├── MUSIC09.BIN
+    │   │       │   ├── MUSIC10.BIN
+    │   │       │   ├── MUSIC11.BIN
+    │   │       │   ├── MUSIC12.BIN
+    │   │       │   ├── MUSIC13.BIN
+    │   │       │   ├── MUSIC14.BIN
+    │   │       │   ├── MUSIC15.BIN
+    │   │       │   ├── MUSIC16.BIN
+    │   │       │   ├── MUSIC17.BIN
+    │   │       │   ├── MUSIC18.BIN
+    │   │       │   ├── MUSIC18B.BIN
+    │   │       │   ├── MUSIC19.BIN
+    │   │       │   ├── MUSIC20.BIN
+    │   │       │   ├── MUSIC21.BIN
+    │   │       │   ├── MUSIC22.BIN
+    │   │       │   ├── MUSIC23.BIN
+    │   │       │   ├── MUSIC24.BIN
+    │   │       │   ├── MUSIC25.BIN
+    │   │       │   ├── MUSIC28.BIN
+    │   │       │   ├── MUSIC29.BIN
+    │   │       │   ├── MUSIC30.BIN
+    │   │       │   ├── MUSIC31.BIN
+    │   │       │   ├── MUSIC32.BIN
+    │   │       │   ├── MUSICXX.BIN
+    │   │       │   ├── PEPVOX.BIN
+    │   │       │   ├── SDAD1.BIN
+    │   │       │   ├── SDCNT.BIN
+    │   │       │   ├── SDDIS.BIN
+    │   │       │   ├── SDEND1.BIN
+    │   │       │   ├── SDEX1.BIN
+    │   │       │   ├── SDEX2.BIN
+    │   │       │   ├── SDEX3.BIN
+    │   │       │   ├── SDFF.BIN
+    │   │       │   ├── SDGG.BIN
+    │   │       │   ├── SDGRD1.BIN
+    │   │       │   ├── SDGRD2.BIN
+    │   │       │   ├── SDGRD3.BIN
+    │   │       │   ├── SDGRD4.BIN
+    │   │       │   ├── SDGRD5.BIN
+    │   │       │   ├── SDGRD6.BIN
+    │   │       │   ├── SDINF.BIN
+    │   │       │   ├── SDOPN.BIN
+    │   │       │   ├── SDOVR.BIN
+    │   │       │   ├── SDSE.BIN
+    │   │       │   ├── SDSE1.BIN
+    │   │       │   ├── SDSE2.BIN
+    │   │       │   ├── SDSEA1.BIN
+    │   │       │   ├── SDSEA2.BIN
+    │   │       │   ├── SDSEA3.BIN
+    │   │       │   ├── SDSP.BIN
+    │   │       │   ├── SDSPA1.BIN
+    │   │       │   ├── SDSPA2.BIN
+    │   │       │   ├── SDSPA3.BIN
+    │   │       │   ├── SDSPA4.BIN
+    │   │       │   ├── SDSPAC.BIN
+    │   │       │   ├── SDSSS1.BIN
+    │   │       │   ├── SDST1.BIN
+    │   │       │   ├── SDST2.BIN
+    │   │       │   ├── SDST3.BIN
+    │   │       │   ├── SDST4.BIN
+    │   │       │   ├── SDST5.BIN
+    │   │       │   ├── SDST6.BIN
+    │   │       │   ├── SDST7.BIN
+    │   │       │   ├── SDST8.BIN
+    │   │       │   ├── SDST9.BIN
+    │   │       │   ├── SDTIT1.BIN
+    │   │       │   ├── SDTLK.BIN
+    │   │       │   ├── SDTLK2.BIN
+    │   │       │   ├── SEAWTR.BIN
+    │   │       │   ├── SLPVOX.BIN
+    │   │       │   ├── SOUND.BIN
+    │   │       │   ├── SPSET1.BIN
+    │   │       │   ├── SPSET2.BIN
+    │   │       │   └── VLCWTR.BIN
+    │   │       ├── SOUND.ASM
+    │   │       ├── SOUND.INC
+    │   │       ├── SOUND2.INC
+    │   │       ├── SOUNDEQU.INC
+    │   │       ├── SPRDATA.ASM
+    │   │       ├── SPRITES.ASM
+    │   │       ├── SPRSUB.ASM
+    │   │       ├── SPT_5.CGX
+    │   │       ├── SSS.ASM
+    │   │       ├── STARTED.TMP
+    │   │       ├── STATE.RST
+    │   │       ├── STDFILES.LOG
+    │   │       ├── STRATEQU.INC
+    │   │       ├── STRATHDR.INC
+    │   │       ├── STRATLIB.INC
+    │   │       ├── STRATMAC.INC
+    │   │       ├── STRATROU.ASM
+    │   │       ├── STRATS.INC
+    │   │       ├── STRUCTS.INC
+    │   │       ├── SYMSON.MAK
+    │   │       ├── SYSMON.TMP
+    │   │       ├── SYSSTRAT.ASM
+    │   │       ├── TAIL.INC
+    │   │       ├── TALCS.INC
+    │   │       ├── TALVS.INC
+    │   │       ├── TECHDATA.ASM
+    │   │       ├── TECHDATA.INC
+    │   │       ├── TECHDATA.TXT
+    │   │       ├── TEMP.TMP
+    │   │       ├── TITLE.ASM
+    │   │       ├── TITLEOBJ.ASM
+    │   │       ├── TITLESUB.ASM
+    │   │       ├── TMACROS.INC
+    │   │       ├── TPATHDAT.ASM
+    │   │       ├── TPLAYER.ASM
+    │   │       ├── TRANS.ASM
+    │   │       ├── TSTRATS.ASM
+    │   │       ├── USHAPES.ASM
+    │   │       ├── VARS.INC
+    │   │       ├── VIEWS.ASM
+    │   │       ├── VOFFSET.ASM
+    │   │       ├── W0_1.ASM
+    │   │       ├── WEAPONS.ASM
+    │   │       ├── WEAPONS.INC
+    │   │       ├── WINDOWS.ASM
+    │   │       ├── WINDOWS.BAK
+    │   │       ├── WIPE.ASM
+    │   │       ├── WIPEBATT.ASM
+    │   │       ├── WIPEBEAM.ASM
+    │   │       ├── WIPEBSEL.ASM
+    │   │       ├── WIPECLEA.ASM
+    │   │       ├── WIPECONF.ASM
+    │   │       ├── WIPEDOOR.ASM
+    │   │       ├── WIPEDOOR.INC
+    │   │       ├── WIPEEXP.ASM
+    │   │       ├── WIPEGAME.ASM
+    │   │       ├── WIPEMAP.ASM
+    │   │       ├── WIPEOVER.ASM
+    │   │       ├── WIPEPAUS.ASM
+    │   │       ├── WIPEPSEL.ASM
+    │   │       ├── WIPETEST.ASM
+    │   │       ├── WIPETITL.ASM
+    │   │       ├── WOMBAT/
+    │   │       │   ├── MAPMACS.INC
+    │   │       │   └── PATHDATA.ASM
+    │   │       ├── WORLD.ASM
+    │   │       ├── WSHAPES.ASM
+    │   │       ├── XPLAYER.ASM
+    │   │       ├── YAJIMA.INC
+    │   │       ├── YALCS.H
+    │   │       ├── YALCS.INC
+    │   │       ├── YJCOPY.BAT
+    │   │       ├── YJDEBUG.ASM
+    │   │       ├── YJMAP.ASM
+    │   │       ├── YJRADAR.ASM
+    │   │       ├── YJTRANS.BAT
+    │   │       └── YMACROS.INC
+    │   ├── PENTIUM/
+    │   │   ├── AUTOEXEC.BAT
+    │   │   └── CONFIG.SYS
+    │   ├── ROM/
+    │   ├── SF2/
+    │   │   ├── #SELOBJ.INC
+    │   │   ├── #VARS.INC
+    │   │   ├── 1
+    │   │   ├── 2
+    │   │   ├── AAA.INC
+    │   │   ├── ALCS.INC
+    │   │   ├── ALVARS.TXT
+    │   │   ├── ARGBUG.INI
+    │   │   ├── ASMVARS.INC
+    │   │   ├── ATOZ.BIN
+    │   │   ├── BANK0.ASM
+    │   │   ├── BANK0.MAP
+    │   │   ├── BANK0.SOB
+    │   │   ├── BANK1.ASM
+    │   │   ├── BANK1.MAP
+    │   │   ├── BANK1.SOB
+    │   │   ├── BANK10.ASM
+    │   │   ├── BANK10.MAP
+    │   │   ├── BANK10.SOB
+    │   │   ├── BANK11.ASM
+    │   │   ├── BANK11.MAP
+    │   │   ├── BANK11.OLD
+    │   │   ├── BANK11.SOB
+    │   │   ├── BANK2.ASM
+    │   │   ├── BANK2.MAP
+    │   │   ├── BANK2.SOB
+    │   │   ├── BANK4.ASM
+    │   │   ├── BANK4.MAP
+    │   │   ├── BANK4.SOB
+    │   │   ├── BANK5.ASM
+    │   │   ├── BANK5.MAP
+    │   │   ├── BANK5.SOB
+    │   │   ├── BANK6.ASM
+    │   │   ├── BANK6.MAP
+    │   │   ├── BANK6.SOB
+    │   │   ├── BANK7.ASM
+    │   │   ├── BANK7.MAP
+    │   │   ├── BANK7.SOB
+    │   │   ├── BANK8.ASM
+    │   │   ├── BANK8.MAP
+    │   │   ├── BANK8.SOB
+    │   │   ├── BANK9.ASM
+    │   │   ├── BESTSCOR.ASM
+    │   │   ├── BGMACS.INC
+    │   │   ├── BGMACS2.INC
+    │   │   ├── BGS.ASM
+    │   │   ├── BLINK.ASM
+    │   │   ├── BOLOX
+    │   │   ├── BOOTNMI.ASM
+    │   │   ├── BPATHDAT.ASM
+    │   │   ├── BPATHDAT.NEW
+    │   │   ├── BR-71CEV.SWP
+    │   │   ├── BR-71E0V.SWP
+    │   │   ├── BR-753CV.SWP
+    │   │   ├── BR-7AFDV.SWP
+    │   │   ├── BR-7B1DV.SWP
+    │   │   ├── BSHAPES.AMS
+    │   │   ├── BSHAPES.ASM
+    │   │   ├── CHART.ASM
+    │   │   ├── CHARTDAT.ASM
+    │   │   ├── CHKLIST.MS
+    │   │   ├── CLEAR.ASM
+    │   │   ├── COLBOXES.ASM
+    │   │   ├── COLDET.ASM
+    │   │   ├── COLTAB.ASM
+    │   │   ├── COLTABS.ASM
+    │   │   ├── CONFIG.ASM
+    │   │   ├── CONTINUE.ASM
+    │   │   ├── CURDAT.ASM
+    │   │   ├── D2_0.ASM
+    │   │   ├── D2_1.ASM
+    │   │   ├── D2_2.ASM
+    │   │   ├── D2_3.ASM
+    │   │   ├── D2_4.ASM
+    │   │   ├── D2_5.ASM
+    │   │   ├── D2_6.ASM
+    │   │   ├── D2_7.ASM
+    │   │   ├── D3_3.ASM
+    │   │   ├── D4_0.ASM
+    │   │   ├── D4_1.ASM
+    │   │   ├── DALCS.INC
+    │   │   ├── DATA/
+    │   │   │   ├── A0.CCR
+    │   │   │   ├── A0.PCR
+    │   │   │   ├── A1.CCR
+    │   │   │   ├── A1.PCR
+    │   │   │   ├── A10.CCR
+    │   │   │   ├── A10.PCR
+    │   │   │   ├── A11.CCR
+    │   │   │   ├── A11.PCR
+    │   │   │   ├── A12.CCR
+    │   │   │   ├── A12.PCR
+    │   │   │   ├── A13.CCR
+    │   │   │   ├── A13.PCR
+    │   │   │   ├── A14.CCR
+    │   │   │   ├── A14.PCR
+    │   │   │   ├── A15.CCR
+    │   │   │   ├── A15.PCR
+    │   │   │   ├── A16.CCR
+    │   │   │   ├── A16.PCR
+    │   │   │   ├── A17.PCR
+    │   │   │   ├── A18.PCR
+    │   │   │   ├── A19.PCR
+    │   │   │   ├── A2.CCR
+    │   │   │   ├── A2.PCR
+    │   │   │   ├── A20.PCR
+    │   │   │   ├── A21.PCR
+    │   │   │   ├── A22.PCR
+    │   │   │   ├── A23.PCR
+    │   │   │   ├── A24.PCR
+    │   │   │   ├── A25.PCR
+    │   │   │   ├── A3.CCR
+    │   │   │   ├── A3.PCR
+    │   │   │   ├── A4.CCR
+    │   │   │   ├── A4.PCR
+    │   │   │   ├── A5.CCR
+    │   │   │   ├── A5.PCR
+    │   │   │   ├── A6.CCR
+    │   │   │   ├── A6.PCR
+    │   │   │   ├── A7.CCR
+    │   │   │   ├── A7.PCR
+    │   │   │   ├── A8.CCR
+    │   │   │   ├── A8.PCR
+    │   │   │   ├── A9.CCR
+    │   │   │   ├── A9.PCR
+    │   │   │   ├── ALLCOLS.PAC
+    │   │   │   ├── ARCTAN.ASM
+    │   │   │   ├── B0.CCR
+    │   │   │   ├── B0.PCR
+    │   │   │   ├── B0_A.CCR
+    │   │   │   ├── B0_A.PCR
+    │   │   │   ├── B1.CCR
+    │   │   │   ├── B1.PCR
+    │   │   │   ├── B10.CCR
+    │   │   │   ├── B10.PCR
+    │   │   │   ├── B10_A.PCR
+    │   │   │   ├── B11.PCR
+    │   │   │   ├── B11_A.PCR
+    │   │   │   ├── B12.CCR
+    │   │   │   ├── B12.PCR
+    │   │   │   ├── B12_A.CCR
+    │   │   │   ├── B12_A.PCR
+    │   │   │   ├── B13.CCR
+    │   │   │   ├── B13.PCR
+    │   │   │   ├── B13_A.PCR
+    │   │   │   ├── B14.CCR
+    │   │   │   ├── B14.PCR
+    │   │   │   ├── B14_A.CCR
+    │   │   │   ├── B14_A.PCR
+    │   │   │   ├── B15.CCR
+    │   │   │   ├── B15.PCR
+    │   │   │   ├── B15_A.CCR
+    │   │   │   ├── B15_A.PCR
+    │   │   │   ├── B16.CCR
+    │   │   │   ├── B16.PCR
+    │   │   │   ├── B16_A.CCR
+    │   │   │   ├── B16_A.PCR
+    │   │   │   ├── B1_A.CCR
+    │   │   │   ├── B1_A.PCR
+    │   │   │   ├── B2.CCR
+    │   │   │   ├── B2.PCR
+    │   │   │   ├── B2_A.PCR
+    │   │   │   ├── B3.CCR
+    │   │   │   ├── B3.PCR
+    │   │   │   ├── B3_A.PCR
+    │   │   │   ├── B4.CCR
+    │   │   │   ├── B4.PCR
+    │   │   │   ├── B4_A.CCR
+    │   │   │   ├── B4_A.PCR
+    │   │   │   ├── B5.PCR
+    │   │   │   ├── B5_A.PCR
+    │   │   │   ├── B6.PCR
+    │   │   │   ├── B6_A.PCR
+    │   │   │   ├── B7.CCR
+    │   │   │   ├── B7.PCR
+    │   │   │   ├── B7.SCR
+    │   │   │   ├── B7_A.CCR
+    │   │   │   ├── B7_A.PCR
+    │   │   │   ├── B8.CCR
+    │   │   │   ├── B8.PCR
+    │   │   │   ├── B8_A.CCR
+    │   │   │   ├── B8_A.PCR
+    │   │   │   ├── B9.CCR
+    │   │   │   ├── B9.PCR
+    │   │   │   ├── B9_A.CCR
+    │   │   │   ├── BG-1-1.CGX
+    │   │   │   ├── BG-1.CCR
+    │   │   │   ├── BG-1.PCR
+    │   │   │   ├── CHKLIST.MS
+    │   │   │   ├── E0.CCR
+    │   │   │   ├── E0_A.CCR
+    │   │   │   ├── E1.CCR
+    │   │   │   ├── E1_A.CCR
+    │   │   │   ├── E2.CCR
+    │   │   │   ├── E2_A.CCR
+    │   │   │   ├── E3.CCR
+    │   │   │   ├── E3_A.CCR
+    │   │   │   ├── E4.CCR
+    │   │   │   ├── E4_A.CCR
+    │   │   │   ├── E5.CCR
+    │   │   │   ├── E5_A.CCR
+    │   │   │   ├── E6.CCR
+    │   │   │   ├── E6_A.CCR
+    │   │   │   ├── E7.CCR
+    │   │   │   ├── E7_A.CCR
+    │   │   │   ├── E8_A.CCR
+    │   │   │   ├── E9_A_96.CCR
+    │   │   │   ├── ETABS.DAT
+    │   │   │   ├── KAWAGUTI.CGX
+    │   │   │   ├── MOJI_2.FON
+    │   │   │   ├── MOJI_D.FON
+    │   │   │   ├── MOJI_D.TRN
+    │   │   │   ├── NINTENDO.PAL
+    │   │   │   ├── P_COL.COL
+    │   │   │   ├── T-ST.CCR
+    │   │   │   ├── T-ST.PCR
+    │   │   │   ├── W0.CCR
+    │   │   │   ├── W0.CGX
+    │   │   │   ├── W0_A.CCR
+    │   │   │   ├── W1.CCR
+    │   │   │   ├── W1.CGX
+    │   │   │   ├── W1_A.CCR
+    │   │   │   ├── W2.CCR
+    │   │   │   ├── W2.CGX
+    │   │   │   ├── W3.CCR
+    │   │   │   ├── W3.CGX
+    │   │   │   ├── W4.CGX
+    │   │   │   ├── W5.CGX
+    │   │   │   ├── W_OBJ_0.CGX
+    │   │   │   └── W_OBJ_1.CGX
+    │   │   ├── DEBUG.ASM
+    │   │   ├── DEBUGOBJ.ASM
+    │   │   ├── DECIMAL.MC
+    │   │   ├── DEFSPR.ASM
+    │   │   ├── DISPLAY.ASM
+    │   │   ├── DPATHDAT.ASM
+    │   │   ├── DRAW.ASM
+    │   │   ├── DSTRATS.ASM
+    │   │   ├── EALCS.INC
+    │   │   ├── EGDATA.ASM
+    │   │   ├── ENGLISH.MSG
+    │   │   ├── ESHAPES.ASM
+    │   │   ├── ESHAPES2.ASM
+    │   │   ├── EXT/
+    │   │   │   ├── ALL.EXT
+    │   │   │   ├── ARCTAN.EXT
+    │   │   │   ├── BESTSCOR.EXT
+    │   │   │   ├── BGS.EXT
+    │   │   │   ├── BLINK.EXT
+    │   │   │   ├── BOOTNMI.EXT
+    │   │   │   ├── BPATHDAT.EXT
+    │   │   │   ├── CHART.EXT
+    │   │   │   ├── CHARTDAT.EXT
+    │   │   │   ├── CLEAR.EXT
+    │   │   │   ├── COLBOXES.EXT
+    │   │   │   ├── COLTABS.EXT
+    │   │   │   ├── CONFIG.EXT
+    │   │   │   ├── CONTINUE.EXT
+    │   │   │   ├── CURDAT.EXT
+    │   │   │   ├── D2STRATS.EXT
+    │   │   │   ├── D3STRATS.EXT
+    │   │   │   ├── DEBUG.EXT
+    │   │   │   ├── DISPLAY.EXT
+    │   │   │   ├── DPATHDAT.EXT
+    │   │   │   ├── DRAW.EXT
+    │   │   │   ├── DSTRATS.EXT
+    │   │   │   ├── EGDATA.EXT
+    │   │   │   ├── ENDSEQ.EXT
+    │   │   │   ├── FONTDATA.EXT
+    │   │   │   ├── FONTS.EXT
+    │   │   │   ├── FRIENDS.EXT
+    │   │   │   ├── GAKKI.EXT
+    │   │   │   ├── GAME.EXT
+    │   │   │   ├── GAMEOBJ.EXT
+    │   │   │   ├── GAMEOVER.EXT
+    │   │   │   ├── GPATHDAT.EXT
+    │   │   │   ├── HDMATABS.EXT
+    │   │   │   ├── HELL.EXT
+    │   │   │   ├── HVSCROLL.EXT
+    │   │   │   ├── INCBINS.EXT
+    │   │   │   ├── INCBINS2.EXT
+    │   │   │   ├── INTRO.EXT
+    │   │   │   ├── IRQ.EXT
+    │   │   │   ├── KCALC.EXT
+    │   │   │   ├── KGSUB.EXT
+    │   │   │   ├── KGTEST.EXT
+    │   │   │   ├── KPATHDAT.EXT
+    │   │   │   ├── KPLAYER.EXT
+    │   │   │   ├── KRAMCALC.EXT
+    │   │   │   ├── KSCREEN.EXT
+    │   │   │   ├── KSTRATS.EXT
+    │   │   │   ├── MAIN.EXT
+    │   │   │   ├── MAPCODE.EXT
+    │   │   │   ├── MAPLIST.EXT
+    │   │   │   ├── MAPMES.EXT
+    │   │   │   ├── MAPS.EXT
+    │   │   │   ├── MAPSCR.EXT
+    │   │   │   ├── MARIO.EXT
+    │   │   │   ├── MDATA.EXT
+    │   │   │   ├── MEM.EXT
+    │   │   │   ├── MHOFS.EXT
+    │   │   │   ├── MISMAP.EXT
+    │   │   │   ├── MISSOBJ.EXT
+    │   │   │   ├── MMESSAGE.EXT
+    │   │   │   ├── MMTBL.EXT
+    │   │   │   ├── MOTHER.EXT
+    │   │   │   ├── MSLOPES.EXT
+    │   │   │   ├── NAMESET.EXT
+    │   │   │   ├── OAMDATA.EXT
+    │   │   │   ├── OBJ.EXT
+    │   │   │   ├── PATHDATA.EXT
+    │   │   │   ├── PATHKERN.EXT
+    │   │   │   ├── PATHS.EXT
+    │   │   │   ├── PAUSEMAP.EXT
+    │   │   │   ├── PCSTRATS.EXT
+    │   │   │   ├── PISTRATS.EXT
+    │   │   │   ├── PLANETS.EXT
+    │   │   │   ├── PLAYER.EXT
+    │   │   │   ├── PPATHDAT.EXT
+    │   │   │   ├── PSELECT.EXT
+    │   │   │   ├── RAMMES.EXT
+    │   │   │   ├── RAMMISMA.EXT
+    │   │   │   ├── RAMSOUND.EXT
+    │   │   │   ├── RAMSPR.EXT
+    │   │   │   ├── RAMSROU.EXT
+    │   │   │   ├── RAMSTUFF.EXT
+    │   │   │   ├── RAMTITLE.EXT
+    │   │   │   ├── RASTER.EXT
+    │   │   │   ├── RESULT.EXT
+    │   │   │   ├── SCREEN.EXT
+    │   │   │   ├── SGDATA.EXT
+    │   │   │   ├── SGTABS.EXT
+    │   │   │   ├── SHAPES.EXT
+    │   │   │   ├── SHBANKS.EXT
+    │   │   │   ├── SHOWVIEW.EXT
+    │   │   │   ├── SLOPEDEF.EXT
+    │   │   │   ├── SLOPES.EXT
+    │   │   │   ├── SOS.EXT
+    │   │   │   ├── SOUND.EXT
+    │   │   │   ├── SPRDATA.EXT
+    │   │   │   ├── SPRITES.EXT
+    │   │   │   ├── STATE.RST
+    │   │   │   ├── STRATROU.EXT
+    │   │   │   ├── SYSSTRAT.EXT
+    │   │   │   ├── TEST.EXT
+    │   │   │   ├── TITLE.EXT
+    │   │   │   ├── TITLEOBJ.EXT
+    │   │   │   ├── TITLESUB.EXT
+    │   │   │   ├── TPATHDAT.EXT
+    │   │   │   ├── TPLAYER.EXT
+    │   │   │   ├── TRANS.EXT
+    │   │   │   ├── TSTRATS.EXT
+    │   │   │   ├── VIEWS.EXT
+    │   │   │   ├── VOFFSET.EXT
+    │   │   │   ├── WEAPONS.EXT
+    │   │   │   ├── WINDOWS.EXT
+    │   │   │   ├── WIPE.EXT
+    │   │   │   ├── WORLD.EXT
+    │   │   │   ├── XPLAYER.EXT
+    │   │   │   ├── YJMAP.EXT
+    │   │   │   ├── YJMARIO.EXT
+    │   │   │   └── YJRADAR.EXT
+    │   │   ├── EXTERNS.LOG
+    │   │   ├── FILES.LOG
+    │   │   ├── FINISHED.TMP
+    │   │   ├── FLIST
+    │   │   ├── FONT_0.BIN
+    │   │   ├── FONT_1.BIN
+    │   │   ├── FONTDATA.ASM
+    │   │   ├── FONTS.ASM
+    │   │   ├── FOXOBJ.INC
+    │   │   ├── FRIENDS.ASM
+    │   │   ├── GAKKI.ASM
+    │   │   ├── GAME.ASM
+    │   │   ├── GAMELIST.INC
+    │   │   ├── GAMEMSGS.INC
+    │   │   ├── GAMEOBJ.ASM
+    │   │   ├── GAMEOBJ.INC
+    │   │   ├── GAMEOVER.ASM
+    │   │   ├── GAMETEXT.ASM
+    │   │   ├── GAMSMSGS.INC
+    │   │   ├── GENWEAP.TXT
+    │   │   ├── GERMAN.INC
+    │   │   ├── GILESAL.INC
+    │   │   ├── GILESALC.INC
+    │   │   ├── GILESALX.INC
+    │   │   ├── GPATHDAT.ASM
+    │   │   ├── GRIDVARS.INC
+    │   │   ├── HDMATABS.ASM
+    │   │   ├── HEADER.INC
+    │   │   ├── HELL.ASM
+    │   │   ├── HVSCROLL.ASM
+    │   │   ├── IFCOLD.ASM
+    │   │   ├── INCBINS.ASM
+    │   │   ├── INCBINS.MAP
+    │   │   ├── INCBINS.SOB
+    │   │   ├── INCBINS2.ASM
+    │   │   ├── INCBINS2.SOB
+    │   │   ├── INTRO.ASM
+    │   │   ├── IRQ.ASM
+    │   │   ├── ISTRATS.ASM
+    │   │   ├── ISTRATS.INC
+    │   │   ├── JAPANESE.MSG
+    │   │   ├── JI23-6.LZH
+    │   │   ├── KALCS.INC
+    │   │   ├── KAWAGOE.ADD
+    │   │   ├── KCALC.ASM
+    │   │   ├── KEYSCR.ASM
+    │   │   ├── KILLTASK.TMP
+    │   │   ├── KMACROS.INC
+    │   │   ├── KMACS.INC
+    │   │   ├── KPATHDAT.ASM
+    │   │   ├── KPLAYER.ASM
+    │   │   ├── KRAMCALC.ASM
+    │   │   ├── KSCRDATA.ASM
+    │   │   ├── KSCREEN.ASM
+    │   │   ├── KSTRATS.ASM
+    │   │   ├── KVARS.INC
+    │   │   ├── LIGHT.ASM
+    │   │   ├── MACROS.INC
+    │   │   ├── MAIN.ASM
+    │   │   ├── MAKE.ERR
+    │   │   ├── MAKE.LST
+    │   │   ├── MAKEFILE
+    │   │   ├── MAPANIME.ASM
+    │   │   ├── MAPCODE.ASM
+    │   │   ├── MAPEXP.ASM
+    │   │   ├── MAPMACS.INC
+    │   │   ├── MAPMES.ASM
+    │   │   ├── MAPS/
+    │   │   │   ├── BAT/
+    │   │   │   │   ├── BAT1.ASM
+    │   │   │   │   ├── BAT2.ASM
+    │   │   │   │   ├── BAT3.ASM
+    │   │   │   │   ├── BAT4.ASM
+    │   │   │   │   └── BAT5.ASM
+    │   │   │   ├── MAPLIST.ASM
+    │   │   │   ├── MAPP.ASM
+    │   │   │   ├── MIS/
+    │   │   │   │   ├── DEMO0.ASM
+    │   │   │   │   ├── DEMO1.ASM
+    │   │   │   │   ├── DEMO2.ASM
+    │   │   │   │   ├── DEMO3.ASM
+    │   │   │   │   ├── DEMO4.ASM
+    │   │   │   │   ├── DEMO5.ASM
+    │   │   │   │   ├── DEMO6.ASM
+    │   │   │   │   ├── DEMO7.ASM
+    │   │   │   │   ├── DEMO8.ASM
+    │   │   │   │   ├── DEMO9.ASM
+    │   │   │   │   ├── EXP1.ASM
+    │   │   │   │   ├── EXT1.ASM
+    │   │   │   │   ├── EXT2.ASM
+    │   │   │   │   ├── EXT3-1.ASM
+    │   │   │   │   ├── EXT3-2.ASM
+    │   │   │   │   ├── EXT3.ASM
+    │   │   │   │   ├── EXT4.ASM
+    │   │   │   │   ├── FINISHED.TMP
+    │   │   │   │   ├── MAKE.ERR
+    │   │   │   │   ├── MISCONT.ASM
+    │   │   │   │   ├── MISEND.ASM
+    │   │   │   │   ├── MISGMOV.ASM
+    │   │   │   │   ├── PLDOWN.ASM
+    │   │   │   │   ├── RDSTG1.ASM
+    │   │   │   │   ├── SOS1.ASM
+    │   │   │   │   ├── SOS2.ASM
+    │   │   │   │   ├── SOS3.ASM
+    │   │   │   │   ├── STATE.RST
+    │   │   │   │   ├── STG1.ASM
+    │   │   │   │   ├── STG2.ASM
+    │   │   │   │   ├── STG3.ASM
+    │   │   │   │   ├── STG4.ASM
+    │   │   │   │   ├── STG5.ASM
+    │   │   │   │   ├── STG6.ASM
+    │   │   │   │   ├── TEMP.TMP
+    │   │   │   │   ├── TEST.ASM
+    │   │   │   │   ├── TRA1.ASM
+    │   │   │   │   ├── TRA2.ASM
+    │   │   │   │   └── TRA3.ASM
+    │   │   │   ├── RDSTG1.ASM
+    │   │   │   ├── STATE.RST
+    │   │   │   └── TITLEMAP.ASM
+    │   │   ├── MAPSCR.ASM
+    │   │   ├── MAPSTRUC.INC
+    │   │   ├── MARIOI.INC
+    │   │   ├── MBOXES.MC
+    │   │   ├── MBUMWIPE.MC
+    │   │   ├── MCIRCLE.MC
+    │   │   ├── MCLIP.M
+    │   │   ├── MCLIP.MC
+    │   │   ├── MCURSOR.MC
+    │   │   ├── MDATA.INC
+    │   │   ├── MDATA.MC
+    │   │   ├── MDEBUG.MC
+    │   │   ├── MDECRU.MC
+    │   │   ├── MDIV.MC
+    │   │   ├── MDRAWLIS.MC
+    │   │   ├── MDRAWP.MC
+    │   │   ├── MDRAWP.NEW
+    │   │   ├── MDRAWP.ZIP
+    │   │   ├── MDSPRITE.MC
+    │   │   ├── MEM.ASM
+    │   │   ├── MES1.ASM
+    │   │   ├── MESDATA.ASM
+    │   │   ├── MF.BIN
+    │   │   ├── MGDOTS.MC
+    │   │   ├── MHOFS.MC
+    │   │   ├── MHUD.MC
+    │   │   ├── MIKEOLD.TXT
+    │   │   ├── MISMAP.ASM
+    │   │   ├── MISMAPSU.ASM
+    │   │   ├── MISSOBJ.ASM
+    │   │   ├── MKAWA.MC
+    │   │   ├── MKVARS.INC
+    │   │   ├── MKVARS.MC
+    │   │   ├── MM.BIN
+    │   │   ├── MMACS.MC
+    │   │   ├── MMATHS.MC
+    │   │   ├── MME.BIN
+    │   │   ├── MMESSAGE.INC
+    │   │   ├── MMESSAGE.MC
+    │   │   ├── MMJ.BIN
+    │   │   ├── MMTBL.ASM
+    │   │   ├── MOBJ.MC
+    │   │   ├── MOVER.MC
+    │   │   ├── MPART.MC
+    │   │   ├── MPLANCLP.MC
+    │   │   ├── MPLANET.MC
+    │   │   ├── MRAIN.MC
+    │   │   ├── MSCREEN.MC
+    │   │   ├── MSGS.TXT
+    │   │   ├── MSGTABLE.TMP
+    │   │   ├── MSHTAB.MC
+    │   │   ├── MSLOPES.MC
+    │   │   ├── MSOS.MC
+    │   │   ├── MSPRITE.MC
+    │   │   ├── MSPRITES/
+    │   │   │   ├── CHKLIST.MS
+    │   │   │   ├── SPT_01.BIN
+    │   │   │   ├── SPT_23.BIN
+    │   │   │   ├── SPT_23A.BIN
+    │   │   │   ├── SPT_45.BIN
+    │   │   │   └── SPT_45A.BIN
+    │   │   ├── MTITLE.MC
+    │   │   ├── MTVARS.INC
+    │   │   ├── MTVARS.MC
+    │   │   ├── MTXTCLP.MC
+    │   │   ├── MTXTPRT.MC
+    │   │   ├── MVARS.INC
+    │   │   ├── MVARS.MC
+    │   │   ├── MWCROT.MC
+    │   │   ├── MWROT.MC
+    │   │   ├── MYDRAW.MC
+    │   │   ├── MYTEST.MC
+    │   │   ├── MYVARS.INC
+    │   │   ├── NAMESET.ASM
+    │   │   ├── NMI.ASM
+    │   │   ├── OAMDATA.ASM
+    │   │   ├── OAMFACE.ASM
+    │   │   ├── OAMLIST.ASM
+    │   │   ├── OAMPLANE.ASM
+    │   │   ├── OAMSET.ASM
+    │   │   ├── OBJ.ASM
+    │   │   ├── OLSMACS.INC
+    │   │   ├── OVER.ASM
+    │   │   ├── PALETTES.INC
+    │   │   ├── PATHDATA.ASM
+    │   │   ├── PATHDATA.EGU
+    │   │   ├── PATHINFO.ASM
+    │   │   ├── PATHKERN.ASM
+    │   │   ├── PATHKERN.NEW
+    │   │   ├── PATHKERN.TMP
+    │   │   ├── PATHMACS.INC
+    │   │   ├── PATHMACS.OLD
+    │   │   ├── PATHS.ASM
+    │   │   ├── PATHS2.ASM
+    │   │   ├── PAUSEMAP.ASM
+    │   │   ├── PLANETS.ASM
+    │   │   ├── PLAYER.ASM
+    │   │   ├── PLAYER.INC
+    │   │   ├── PLAYERS.INC
+    │   │   ├── PLR.INC
+    │   │   ├── PPATHDAT.ASM
+    │   │   ├── PSELECT.ASM
+    │   │   ├── PSELECT2.ASM
+    │   │   ├── PSELOBJ.INC
+    │   │   ├── PSHAPES.ASM
+    │   │   ├── PSHAPES2.ASM
+    │   │   ├── PSHAPES3.ASM
+    │   │   ├── PSX_SPEC.TXT
+    │   │   ├── RAMMES.ASM
+    │   │   ├── RAMMISMA.ASM
+    │   │   ├── RAMSOUND.ASM
+    │   │   ├── RAMSPR.ASM
+    │   │   ├── RAMSROU.ASM
+    │   │   ├── RAMSTUFF.ASM
+    │   │   ├── RAMSTUFF.OLD
+    │   │   ├── RASTER.ASM
+    │   │   ├── RESULT.ASM
+    │   │   ├── SCALEVAR.INC
+    │   │   ├── SCREEN.ASM
+    │   │   ├── SF.MAP
+    │   │   ├── SF.ROM
+    │   │   ├── SF2_CES.ZIP
+    │   │   ├── SFROM.ZIP
+    │   │   ├── SFXREGS.INC
+    │   │   ├── SGDATA.ASM
+    │   │   ├── SGTABS.ASM
+    │   │   ├── SHAPES.ASM
+    │   │   ├── SHAPES2.ASM
+    │   │   ├── SHBANKS.ASM
+    │   │   ├── SHBANKS.SOB
+    │   │   ├── SHMACS.INC
+    │   │   ├── SHOWVIEW.ASM
+    │   │   ├── SLOPEDEF.ASM
+    │   │   ├── SLOPEDEF.OLD
+    │   │   ├── SLOPES.ASM
+    │   │   ├── SNDTBL.ASM
+    │   │   ├── SOS
+    │   │   ├── SOS.MC
+    │   │   ├── SOSBANK1.ASM
+    │   │   ├── SOSLIST.ASM
+    │   │   ├── SOSYJ.EXT
+    │   │   ├── SOSYJ.MC
+    │   │   ├── SOSYJ1.ASM
+    │   │   ├── SOSYJ2.MC
+    │   │   ├── SOUND/
+    │   │   │   ├── AAA
+    │   │   │   ├── BACKUP/
+    │   │   │   │   ├── FFSET1.BAK
+    │   │   │   │   ├── FFSET2.BAK
+    │   │   │   │   ├── FOX2MSC1.BAK
+    │   │   │   │   ├── FOX2MSC2.BAK
+    │   │   │   │   ├── FOX2MSC3.BAK
+    │   │   │   │   ├── FOX2SND.BAK
+    │   │   │   │   ├── GGSET1.BAK
+    │   │   │   │   ├── GGSET2.BAK
+    │   │   │   │   ├── SDDST.BAK
+    │   │   │   │   ├── SDFF.BAK
+    │   │   │   │   ├── SDGG.BAK
+    │   │   │   │   ├── SDGRD0.BAK
+    │   │   │   │   ├── SDGRD1.BAK
+    │   │   │   │   ├── SDSEA.BAK
+    │   │   │   │   ├── SDSP.BAK
+    │   │   │   │   ├── SOUND0.BAK
+    │   │   │   │   ├── SOUND1.BAK
+    │   │   │   │   ├── SPSET1.BAK
+    │   │   │   │   └── SPSET2.BAK
+    │   │   │   ├── CHKLIST.MS
+    │   │   │   ├── FALVOX.BIN
+    │   │   │   ├── FFSET1.BIN
+    │   │   │   ├── FFSET2.BIN
+    │   │   │   ├── FINISHED.TMP
+    │   │   │   ├── FOX2.BIN
+    │   │   │   ├── FOX2SND.BAK
+    │   │   │   ├── FOX2SND.BIN
+    │   │   │   ├── FOXVOX.BIN
+    │   │   │   ├── FROG
+    │   │   │   ├── GA1VOX.BIN
+    │   │   │   ├── GA2VOX.BIN
+    │   │   │   ├── GGSET1.BIN
+    │   │   │   ├── GGSET2.BIN
+    │   │   │   ├── GRDWTR.BIN
+    │   │   │   ├── INCBINS.ASM
+    │   │   │   ├── INCBINS2.ASM
+    │   │   │   ├── MAKE.ERR
+    │   │   │   ├── MAPSE.BIN
+    │   │   │   ├── MUSIC01.BIN
+    │   │   │   ├── MUSIC02.BIN
+    │   │   │   ├── MUSIC03.BIN
+    │   │   │   ├── MUSIC04.BIN
+    │   │   │   ├── MUSIC05.BIN
+    │   │   │   ├── MUSIC06.BIN
+    │   │   │   ├── MUSIC07.BIN
+    │   │   │   ├── MUSIC08.BIN
+    │   │   │   ├── MUSIC09.BIN
+    │   │   │   ├── MUSIC10.BIN
+    │   │   │   ├── MUSIC11.BIN
+    │   │   │   ├── MUSIC12.BIN
+    │   │   │   ├── MUSIC13.BIN
+    │   │   │   ├── MUSIC14.BIN
+    │   │   │   ├── MUSIC15.BIN
+    │   │   │   ├── MUSIC16.BIN
+    │   │   │   ├── MUSIC17.BIN
+    │   │   │   ├── MUSIC18.BIN
+    │   │   │   ├── MUSIC18B.BIN
+    │   │   │   ├── MUSIC19.BIN
+    │   │   │   ├── MUSIC20.BIN
+    │   │   │   ├── MUSIC21.BIN
+    │   │   │   ├── MUSIC22.BIN
+    │   │   │   ├── MUSIC23.BIN
+    │   │   │   ├── MUSIC24.BIN
+    │   │   │   ├── MUSIC25.BIN
+    │   │   │   ├── MUSIC28.BIN
+    │   │   │   ├── MUSIC29.BIN
+    │   │   │   ├── MUSIC30.BIN
+    │   │   │   ├── MUSIC31.BIN
+    │   │   │   ├── MUSIC32.BIN
+    │   │   │   ├── MUSICXX.BIN
+    │   │   │   ├── PEPVOX.BIN
+    │   │   │   ├── SDAD1.BIN
+    │   │   │   ├── SDCNT.BIN
+    │   │   │   ├── SDDIS.BIN
+    │   │   │   ├── SDEND1.BIN
+    │   │   │   ├── SDEX1.BIN
+    │   │   │   ├── SDEX2.BIN
+    │   │   │   ├── SDEX3.BIN
+    │   │   │   ├── SDFF.BIN
+    │   │   │   ├── SDGG.BIN
+    │   │   │   ├── SDGRD1.BIN
+    │   │   │   ├── SDGRD2.BIN
+    │   │   │   ├── SDGRD3.BIN
+    │   │   │   ├── SDGRD4.BIN
+    │   │   │   ├── SDGRD5.BIN
+    │   │   │   ├── SDGRD6.BIN
+    │   │   │   ├── SDINF.BIN
+    │   │   │   ├── SDOPN.BIN
+    │   │   │   ├── SDOVR.BIN
+    │   │   │   ├── SDSE.BIN
+    │   │   │   ├── SDSE1.BIN
+    │   │   │   ├── SDSE2.BIN
+    │   │   │   ├── SDSEA1.BIN
+    │   │   │   ├── SDSEA2.BIN
+    │   │   │   ├── SDSEA3.BIN
+    │   │   │   ├── SDSP.BIN
+    │   │   │   ├── SDSPA1.BIN
+    │   │   │   ├── SDSPA2.BIN
+    │   │   │   ├── SDSPA3.BIN
+    │   │   │   ├── SDSPA4.BIN
+    │   │   │   ├── SDSPAC.BIN
+    │   │   │   ├── SDSSS1.BIN
+    │   │   │   ├── SDST1.BIN
+    │   │   │   ├── SDST2.BIN
+    │   │   │   ├── SDST3.BIN
+    │   │   │   ├── SDST4.BIN
+    │   │   │   ├── SDST5.BIN
+    │   │   │   ├── SDST6.BIN
+    │   │   │   ├── SDST7.BIN
+    │   │   │   ├── SDST8.BIN
+    │   │   │   ├── SDST9.BIN
+    │   │   │   ├── SDTIT1.BIN
+    │   │   │   ├── SDTLK.BIN
+    │   │   │   ├── SDTLK2.BIN
+    │   │   │   ├── SEAWTR.BIN
+    │   │   │   ├── SLPVOX.BIN
+    │   │   │   ├── SOUND.BIN
+    │   │   │   ├── SPSET1.BIN
+    │   │   │   ├── SPSET2.BIN
+    │   │   │   ├── STATE.RST
+    │   │   │   ├── TEMP.TMP
+    │   │   │   ├── TEST
+    │   │   │   ├── TEST.TST
+    │   │   │   └── VLCWTR.BIN
+    │   │   ├── SOUND.ASM
+    │   │   ├── SOUND.INC
+    │   │   ├── SOUND2.INC
+    │   │   ├── SOUNDEQU.INC
+    │   │   ├── SPRDATA.ASM
+    │   │   ├── SPRITES.ASM
+    │   │   ├── SPRSUB.ASM
+    │   │   ├── SSS.MC
+    │   │   ├── STATE.RST
+    │   │   ├── STDFILES.LOG
+    │   │   ├── STRATEQU.INC
+    │   │   ├── STRATHDR.INC
+    │   │   ├── STRATLIB.INC
+    │   │   ├── STRATMAC.INC
+    │   │   ├── STRATROU.ASM
+    │   │   ├── STRATS.INC
+    │   │   ├── STRUCTS.INC
+    │   │   ├── SYMSON.MAK
+    │   │   ├── SYSMON.TMP
+    │   │   ├── SYSSTRAT.ASM
+    │   │   ├── TAIL.INC
+    │   │   ├── TALCS.INC
+    │   │   ├── TALVS.INC
+    │   │   ├── TECHDATA.ASM
+    │   │   ├── TECHDATA.INC
+    │   │   ├── TECHDATA.TXT
+    │   │   ├── TEMP/
+    │   │   │   ├── CLIP.ZIP
+    │   │   │   ├── MCLIP.MC
+    │   │   │   └── MDRAWP.MC
+    │   │   ├── TEMP.TMP
+    │   │   ├── TEST.ASM
+    │   │   ├── TEST.BAT
+    │   │   ├── TITLE.ASM
+    │   │   ├── TITLEOBJ.ASM
+    │   │   ├── TITLESUB.ASM
+    │   │   ├── TMACROS.INC
+    │   │   ├── TPATHDAT.ASM
+    │   │   ├── TPLAYER.ASM
+    │   │   ├── TRANS.ASM
+    │   │   ├── TSTRATS.ASM
+    │   │   ├── USHAPES.ASM
+    │   │   ├── VARS.INC
+    │   │   ├── VIEWS.ASM
+    │   │   ├── VOFFSET.ASM
+    │   │   ├── W0_1.ASM
+    │   │   ├── WEAPONS.ASM
+    │   │   ├── WEAPONS.INC
+    │   │   ├── WINDOWS.ASM
+    │   │   ├── WIPE.ASM
+    │   │   ├── WIPEBATT.ASM
+    │   │   ├── WIPEBEAM.ASM
+    │   │   ├── WIPEBSEL.ASM
+    │   │   ├── WIPECLEA.ASM
+    │   │   ├── WIPECONF.ASM
+    │   │   ├── WIPEDOOR.ASM
+    │   │   ├── WIPEDOOR.INC
+    │   │   ├── WIPEEXP.ASM
+    │   │   ├── WIPEGAME.ASM
+    │   │   ├── WIPEMAP.ASM
+    │   │   ├── WIPEOVER.ASM
+    │   │   ├── WIPEPAUS.ASM
+    │   │   ├── WIPEPSEL.ASM
+    │   │   ├── WIPETEST.ASM
+    │   │   ├── WIPETITL.ASM
+    │   │   ├── WORLD.ASM
+    │   │   ├── WSHAPES.ASM
+    │   │   ├── XPLAYER.ASM
+    │   │   ├── YAJIMA.INC
+    │   │   ├── YAJIMA.MC
+    │   │   ├── YALCS.INC
+    │   │   ├── YJDEBUG.ASM
+    │   │   ├── YJMAP.ASM
+    │   │   ├── YJRADAR.ASM
+    │   │   └── YMACROS.INC
+    │   ├── SFCAD/
+    │   │   ├── 1
+    │   │   ├── 2
+    │   │   ├── ALL.EXT
+    │   │   ├── ARCH_2_2.ANM
+    │   │   ├── ATOZ.BIN
+    │   │   ├── ATOZ.CGX
+    │   │   ├── BUILD_1.TXT
+    │   │   ├── CHKLIST.MS
+    │   │   ├── CM.CGX
+    │   │   ├── COUR11.FNT
+    │   │   ├── COUR11B.FNT
+    │   │   ├── COUR11BI.FNT
+    │   │   ├── COUR11I.FNT
+    │   │   ├── COUR12.FNT
+    │   │   ├── COUR12B.FNT
+    │   │   ├── COUR12BI.FNT
+    │   │   ├── COUR12I.FNT
+    │   │   ├── COUR14.FNT
+    │   │   ├── COUR14B.FNT
+    │   │   ├── COUR14BI.FNT
+    │   │   ├── COUR14I.FNT
+    │   │   ├── COUR16.FNT
+    │   │   ├── COUR16B.FNT
+    │   │   ├── COUR16BI.FNT
+    │   │   ├── COUR16I.FNT
+    │   │   ├── COUR20.FNT
+    │   │   ├── COUR20B.FNT
+    │   │   ├── COUR20BI.FNT
+    │   │   ├── COUR20I.FNT
+    │   │   ├── COUR25.FNT
+    │   │   ├── COUR25B.FNT
+    │   │   ├── COUR25BI.FNT
+    │   │   ├── COUR25I.FNT
+    │   │   ├── COUR34.FNT
+    │   │   ├── COUR34B.FNT
+    │   │   ├── COUR34BI.FNT
+    │   │   ├── COUR34I.FNT
+    │   │   ├── ENGLISH.MSG
+    │   │   ├── EXTRAS.CC
+    │   │   ├── EXTRAS.EXT
+    │   │   ├── EXTRAS.O
+    │   │   ├── FINISHED.TMP
+    │   │   ├── FONT_0.BIN
+    │   │   ├── FONT_0.CGX
+    │   │   ├── FONT_1.BIN
+    │   │   ├── FONT_1.CGX
+    │   │   ├── FONTS.CC
+    │   │   ├── FONTS.DIR
+    │   │   ├── FONTS.EXT
+    │   │   ├── FONTS.H
+    │   │   ├── FONTS.O
+    │   │   ├── FROG.MSG
+    │   │   ├── GADGETS.CC
+    │   │   ├── GADGETS.EXT
+    │   │   ├── GADGETS.O
+    │   │   ├── HELV11.FNT
+    │   │   ├── HELV11B.FNT
+    │   │   ├── HELV11BI.FNT
+    │   │   ├── HELV11I.FNT
+    │   │   ├── HELV13.FNT
+    │   │   ├── HELV13B.FNT
+    │   │   ├── HELV13BI.FNT
+    │   │   ├── HELV13I.FNT
+    │   │   ├── HELV15.FNT
+    │   │   ├── HELV15B.FNT
+    │   │   ├── HELV15BI.FNT
+    │   │   ├── HELV15I.FNT
+    │   │   ├── HELV17.FNT
+    │   │   ├── HELV17B.FNT
+    │   │   ├── HELV17BI.FNT
+    │   │   ├── HELV17I.FNT
+    │   │   ├── HELV22.FNT
+    │   │   ├── HELV22B.FNT
+    │   │   ├── HELV22BI.FNT
+    │   │   ├── HELV22I.FNT
+    │   │   ├── HELV29.FNT
+    │   │   ├── HELV29B.FNT
+    │   │   ├── HELV29BI.FNT
+    │   │   ├── HELV29I.FNT
+    │   │   ├── HELV38.FNT
+    │   │   ├── HELV38B.FNT
+    │   │   ├── HELV38BI.FNT
+    │   │   ├── HELV38I.FNT
+    │   │   ├── JAPAN.H
+    │   │   ├── JAPANESE.MSG
+    │   │   ├── K_TORI_0.ANM
+    │   │   ├── K_TORI_0.SLO
+    │   │   ├── M_IWA_5.SLO
+    │   │   ├── M_IWA_5.TXT
+    │   │   ├── MAKE.ERR
+    │   │   ├── MAKEFILE
+    │   │   ├── MESSAGES.CC
+    │   │   ├── MESSAGES.EXT
+    │   │   ├── MESSAGES.O
+    │   │   ├── MF.BIN
+    │   │   ├── MF.CGX
+    │   │   ├── MM-A.CGX
+    │   │   ├── MM-J.CGX
+    │   │   ├── MM.BIN
+    │   │   ├── MM.CGX
+    │   │   ├── MME.BIN
+    │   │   ├── MMJ.BIN
+    │   │   ├── PC6X14.FNT
+    │   │   ├── PC6X8.FNT
+    │   │   ├── PC8X14.FNT
+    │   │   ├── PC8X14T.FNT
+    │   │   ├── PC8X16.FNT
+    │   │   ├── PC8X8.FNT
+    │   │   ├── PC8X8T.FNT
+    │   │   ├── SAKA_7.SLO
+    │   │   ├── SFC
+    │   │   ├── SFC.CC
+    │   │   ├── SFC.EXE
+    │   │   ├── SFC.EXT
+    │   │   ├── SFC.H
+    │   │   ├── SFC.O
+    │   │   ├── SFC2.EXE
+    │   │   ├── SFCORG.EXE
+    │   │   ├── SLOPES.CC
+    │   │   ├── SLOPES.EXT
+    │   │   ├── SLOPES.O
+    │   │   ├── SPT_0.CGX
+    │   │   ├── SPT_0.SCR
+    │   │   ├── SPT_1.CGX
+    │   │   ├── SPT_2.CGX
+    │   │   ├── SPT_3.CGX
+    │   │   ├── STATE.RST
+    │   │   ├── SYMB11.FNT
+    │   │   ├── SYMB14.FNT
+    │   │   ├── SYMB16.FNT
+    │   │   ├── SYMB20.FNT
+    │   │   ├── SYMB25.FNT
+    │   │   ├── SYMB32.FNT
+    │   │   ├── SYMB34.FNT
+    │   │   ├── TEMP
+    │   │   ├── TEMP.TMP
+    │   │   ├── TEST.MSG
+    │   │   ├── TEST.SLO
+    │   │   ├── TMS11.FNT
+    │   │   ├── TMS11B.FNT
+    │   │   ├── TMS11BI.FNT
+    │   │   ├── TMS11I.FNT
+    │   │   ├── TMS13.FNT
+    │   │   ├── TMS13B.FNT
+    │   │   ├── TMS13BI.FNT
+    │   │   ├── TMS13I.FNT
+    │   │   ├── TMS15.FNT
+    │   │   ├── TMS15B.FNT
+    │   │   ├── TMS15BI.FNT
+    │   │   ├── TMS15I.FNT
+    │   │   ├── TMS18.FNT
+    │   │   ├── TMS18B.FNT
+    │   │   ├── TMS18BI.FNT
+    │   │   ├── TMS18I.FNT
+    │   │   ├── TMS22.FNT
+    │   │   ├── TMS22B.FNT
+    │   │   ├── TMS22BI.FNT
+    │   │   ├── TMS22I.FNT
+    │   │   ├── TMS29.FNT
+    │   │   ├── TMS29B.FNT
+    │   │   ├── TMS29BI.FNT
+    │   │   ├── TMS29I.FNT
+    │   │   ├── TMS38.FNT
+    │   │   ├── TMS38B.FNT
+    │   │   ├── TMS38BI.FNT
+    │   │   ├── TMS38I.FNT
+    │   │   ├── WINDOWS.CC
+    │   │   ├── WINDOWS.EXT
+    │   │   ├── WINDOWS.H
+    │   │   ├── WINDOWS.O
+    │   │   ├── XM10X17.FNT
+    │   │   ├── XM10X17B.FNT
+    │   │   ├── XM10X20.FNT
+    │   │   ├── XM10X20B.FNT
+    │   │   ├── XM12X20.FNT
+    │   │   ├── XM12X20B.FNT
+    │   │   ├── XM16X25.FNT
+    │   │   ├── XM16X25B.FNT
+    │   │   ├── XM16X25I.FNT
+    │   │   ├── XM4X5.FNT
+    │   │   ├── XM4X6.FNT
+    │   │   ├── XM5X8.FNT
+    │   │   ├── XM6X10.FNT
+    │   │   ├── XM6X10B.FNT
+    │   │   ├── XM6X12.FNT
+    │   │   ├── XM6X12B.FNT
+    │   │   ├── XM6X12I.FNT
+    │   │   ├── XM7X13.FNT
+    │   │   ├── XM7X13B.FNT
+    │   │   ├── XM8X12.FNT
+    │   │   ├── XM8X12B.FNT
+    │   │   ├── XM8X16.FNT
+    │   │   ├── XM8X16B.FNT
+    │   │   ├── XM8X16I.FNT
+    │   │   ├── XM9X15.FNT
+    │   │   ├── XM9X15B.FNT
+    │   │   ├── YAMA_0_0.SLO
+    │   │   ├── YAMA_0_0.TXT
+    │   │   ├── YAMA_0_1.SLO
+    │   │   ├── YAMA_0_1.TXT
+    │   │   ├── YAMA_0_2.SLO
+    │   │   ├── YAMA_0_2.TXT
+    │   │   ├── YAMA_1_0.SLO
+    │   │   ├── YAMA_1_0.TXT
+    │   │   ├── YAMA_1_1.TXT
+    │   │   ├── YAMA_1_2.TXT
+    │   │   └── YAMA_DA.TXT
+    │   ├── STATE.RST
+    │   ├── YAJIMA/
+    │   ├── YAMADA/
+    │   │   └── SF2SLO/
+    │   │       ├── SFC.EXE
+    │   │       ├── SHAPED.EXE
+    │   │       └── SLOPE.EXE
+    │   └── ZIPS/
+    │       ├── ES18-9.LZH
+    │       ├── JI27-7.LZH
+    │       ├── JI30-6A.LZH
+    │       ├── JI31-8A.LZH
+    │       ├── JS18-9.LZH
+    │       ├── SF_E_FIN.LZH
+    │       └── SF_J_FIN.LZH
+    └── テープリストア/
+        ├── list.txt
+        ├── NEWS_02/
+        │   └── NEWS_02.tar
+        ├── NEWS_04/
+        │   └── NEWS_04.tar
+        ├── NEWS_05/
+        │   └── NEWS_05.tar
+        ├── NEWS_09/
+        │   └── NEWS_09.tar
+        ├── NEWS_11/
+        │   └── NEWS_11.tar
+        ├── NEWS_17/
+        │   └── NEWS_17.tar
+        └── NEWS_41/
+            └── NEWS_41.tar

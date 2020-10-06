@@ -1,0 +1,1384 @@
+ensata/
+├── CVSROOT/
+│   ├── .#checkoutlist
+│   ├── .#commitinfo
+│   ├── .#config
+│   ├── .#cvswrappers
+│   ├── .#editinfo
+│   ├── .#loginfo
+│   ├── .#modules
+│   ├── .#notify
+│   ├── .#rcsinfo
+│   ├── .#taginfo
+│   ├── .#verifymsg
+│   ├── checkoutlist
+│   ├── checkoutlist,v
+│   ├── commitinfo
+│   ├── commitinfo,v
+│   ├── config
+│   ├── config,v
+│   ├── cvswrappers
+│   ├── cvswrappers,v
+│   ├── editinfo
+│   ├── editinfo,v
+│   ├── Emptydir/
+│   ├── history
+│   ├── loginfo
+│   ├── loginfo,v
+│   ├── modules
+│   ├── modules,v
+│   ├── notify
+│   ├── notify,v
+│   ├── rcsinfo
+│   ├── rcsinfo,v
+│   ├── taginfo
+│   ├── taginfo,v
+│   ├── val-tags
+│   ├── verifymsg
+│   └── verifymsg,v
+└── gbe/
+    ├── @log/
+    │   ├── 001~002~~version-0-0-0-0~~version-0-0-0-1.txt,v
+    │   ├── 002~003~~version-0-0-0-1~~version-0-0-0-2.txt,v
+    │   ├── 003~004~~version-0-0-0-2~~version-0-0-0-3.txt,v
+    │   ├── 004~005~~version-0-0-0-3~~version-release-lic-0.txt,v
+    │   ├── 005~006~~version-release-lic-0~~version-0-0-20031208-0-0.txt,v
+    │   ├── 006~007~~version-0-0-20031208-0-0~~version-0-0-20031209-0-0-0.txt,v
+    │   ├── 007~008~~version-0-0-20031209-0-0-0~~version-release-lic-1.txt,v
+    │   ├── 008~009~~version-release-lic-1~~version-release-lic-2.txt,v
+    │   ├── 009~010~~version-release-lic-2~~clipping_coord_culling_ver.txt,v
+    │   ├── 010~011~~clipping_coord_culling_ver~~version-release-lic-3.txt,v
+    │   ├── 011~012~~version-release-lic-3~~version-release-lic-4.txt,v
+    │   ├── 012~013~~version-release-lic-4~~version-release-lic-5.txt,v
+    │   ├── 013~014~~version-release-lic-5~~version-release-lic-6.txt,v
+    │   ├── 014~015~~version-release-lic-6~~version-0-1-20040113-reserve-1-1.txt,v
+    │   ├── 015~016~~version-0-1-20040113-reserve-1-1~~version-0-2-20040119-reserve-1-1.txt,v
+    │   ├── 016~017~~version-0-2-20040119-reserve-1-1~~version-0-3-20040126-reserve-1-1.txt,v
+    │   ├── 017~018~~version-0-3-20040126-reserve-1-1~~version-external-control-for-is-chara-0-0.txt,v
+    │   ├── 018~019~~version-external-control-for-is-chara-0-0~~version-X0-3-20040130-reserve-1-1.txt,v
+    │   ├── 019~020~~version-X0-3-20040130-reserve-1-1~~version-external-control-for-cw-debugger-0-0.txt,v
+    │   ├── 020~021~~version-external-control-for-cw-debugger-0-0~~version-release-lic-7.txt,v
+    │   ├── 021~022~~version-release-lic-7~~version-external-control-for-is-chara-0-1.txt,v
+    │   ├── 022~023~~version-external-control-for-is-chara-0-1~~version-external-control-for-cw-debugger-0-1.txt,v
+    │   ├── 023~024~~version-external-control-for-cw-debugger-0-1~~version-0-4-20040202-reserve-2-2.txt,v
+    │   ├── 024~025~~version-0-4-20040202-reserve-2-2~~version-X0-4-20040205-reserve-2-2.txt,v
+    │   ├── 025~026~~version-X0-4-20040205-reserve-2-2~~version-0-5-20040209-reserve-2-2.txt,v
+    │   ├── 026~027~~version-0-5-20040209-reserve-2-2~~version-0-6-20040216-reserve-2-2.txt,v
+    │   ├── 027~028~~version-0-6-20040216-reserve-2-2~~root-of-version_thread.txt,v
+    │   ├── 028~029~~root-of-version_thread~~version-0-7-20040223-reserve-2-2.txt,v
+    │   ├── 028~053~~root-of-version_thread~~version-d-input-add.txt,v
+    │   ├── 029~030~~version-0-7-20040223-reserve-2-2~~version-0-7-20040223a-reserve-2-2.txt,v
+    │   ├── 030~031~~version-0-7-20040223a-reserve-2-2~~version-external-control-for-cw-debugger-0-3.txt,v
+    │   ├── 031~032~~version-external-control-for-cw-debugger-0-3~~version-0-8-20040301-reserve-2-2.txt,v
+    │   ├── 032~033~~version-0-8-20040301-reserve-2-2~~version-X0-8-20040309-reserve-2-2-1.txt,v
+    │   ├── 033~034~~version-X0-8-20040309-reserve-2-2-1~~version-external-control-for-cw-debugger-0-4.txt,v
+    │   ├── 034~035~~version-external-control-for-cw-debugger-0-4~~version-0-9-20040310-reserve-2-2-1.txt,v
+    │   ├── 035~036~~version-0-9-20040310-reserve-2-2-1~~version-0-10-20040315-reserve-2-2-1.txt,v
+    │   ├── 036~037~~version-0-10-20040315-reserve-2-2-1~~version-speed-up-test.txt,v
+    │   ├── 037~038~~version-speed-up-test~~merged_version-d-input.txt,v
+    │   ├── 038~039~~merged_version-d-input~~version-release-lic-8.txt,v
+    │   ├── 039~040~~version-release-lic-8~~version-modify-help.txt,v
+    │   ├── 040~041~~version-modify-help~~merged_version-clean-lcd.txt,v
+    │   ├── 041~042~~merged_version-clean-lcd~~version-0-11-20040322-reserve-2-2-1.txt,v
+    │   ├── 042~043~~version-0-11-20040322-reserve-2-2-1~~version-release-merge-point.txt,v
+    │   ├── 043~044~~version-release-merge-point~~merged_version-transfer-lcd-to-builder.txt,v
+    │   ├── 044~045~~merged_version-transfer-lcd-to-builder~~version-release-merge-point-2.txt,v
+    │   ├── 045~046~~version-release-merge-point-2~~version-release-merge-point-3.txt,v
+    │   ├── 046~047~~version-release-merge-point-3~~merged_version-thread-merge-point-3.txt,v
+    │   ├── 047~048~~merged_version-thread-merge-point-3~~version-0-12-20040330-reserve-3-3-1.txt,v
+    │   ├── 048~049~~version-0-12-20040330-reserve-3-3-1~~version-0-12-20040330a-reserve-3-3-1.txt,v
+    │   ├── 049~050~~version-0-12-20040330a-reserve-3-3-1~~version-0-13-20040413-reserve-3-3-1.txt,v
+    │   ├── 050~051~~version-0-13-20040413-reserve-3-3-1~~version-release-merge-point-4.txt,v
+    │   ├── 051~052~~version-release-merge-point-4~~version_thread-branch.txt,v
+    │   ├── 053~054~~version-d-input-add~~merged_version-0-10-20040315-reserve-2-2-1.txt,v
+    │   ├── 054~055~~merged_version-0-10-20040315-reserve-2-2-1~~version-d-input.txt,v
+    │   ├── 055~056~~version-d-input~~merged_version-speed-up-test.txt,v
+    │   ├── 056~057~~merged_version-speed-up-test~~version-clean-lcd.txt,v
+    │   ├── 057~058~~version-clean-lcd~~merged_version-release-lic-8.txt,v
+    │   ├── 058~059~~merged_version-release-lic-8~~merged_version-modify-help.txt,v
+    │   ├── 059~060~~merged_version-modify-help~~version-transfer-lcd-to-builder.txt,v
+    │   ├── 060~061~~version-transfer-lcd-to-builder~~merged_version-release-merge-point.txt,v
+    │   ├── 061~062~~merged_version-release-merge-point~~version-thread-merge-point-2.txt,v
+    │   ├── 062~063~~version-thread-merge-point-2~~merged_version-release-merge-point-2.txt,v
+    │   ├── 063~064~~merged_version-release-merge-point-2~~version-thread-merge-point-3.txt,v
+    │   ├── 064~065~~version-thread-merge-point-3~~version-thread-launch-control-with-mfc.txt,v
+    │   ├── 065~066~~version-thread-launch-control-with-mfc~~version-thread-engine-thread.txt,v
+    │   ├── 066~067~~version-thread-engine-thread~~merged_version-0-12-20040330a-reserve-3-3-1.txt,v
+    │   ├── 067~068~~merged_version-0-12-20040330a-reserve-3-3-1~~version-before-tune-biu-thread.txt,v
+    │   ├── 068~069~~version-before-tune-biu-thread~~version-before-remove-main-dialog_thread.txt,v
+    │   ├── 069~070~~version-before-remove-main-dialog_thread~~version-after-remove-main-dialog_thread.txt,v
+    │   ├── 070~071~~version-after-remove-main-dialog_thread~~version-ui-fix_thread.txt,v
+    │   ├── 071~072~~version-ui-fix_thread~~version-thread-merge-point-4.txt,v
+    │   ├── 072~073~~version-thread-merge-point-4~~merged_version-release-merge-point-4.txt,v
+    │   ├── 073~074~~merged_version-release-merge-point-4~~root_of_version-test-gdi.txt,v
+    │   ├── 074~075~~root_of_version-test-gdi~~version-test-gdi_branch.txt,v
+    │   ├── 074~076~~root_of_version-test-gdi~~version-X0-13-20040506-reserve-4-4-1.txt,v
+    │   ├── 076~077~~version-X0-13-20040506-reserve-4-4-1~~version-X0-13a-20040518-reserve-4-4-1.txt,v
+    │   ├── 077~078~~version-X0-13a-20040518-reserve-4-4-1~~version-X0-13b-20040520-reserve-4-4-1.txt,v
+    │   ├── 078~079~~version-X0-13b-20040520-reserve-4-4-1~~version-X0-13c-20040526-reserve-4-4-1.txt,v
+    │   ├── 079~080~~version-X0-13c-20040526-reserve-4-4-1~~version-quick-sort.txt,v
+    │   ├── 080~081~~version-quick-sort~~version-X0-13d-20040531-reserve-4-4-1.txt,v
+    │   ├── 081~082~~version-X0-13d-20040531-reserve-4-4-1~~version-1-0-20040602-reserve-4-4-1.txt,v
+    │   ├── 082~083~~version-1-0-20040602-reserve-4-4-1~~version-X1-0-20040609-reserve-4-4-1.txt,v
+    │   ├── 083~084~~version-X1-0-20040609-reserve-4-4-1~~root_of_version-multiple-engine-true.txt,v
+    │   ├── 084~085~~root_of_version-multiple-engine-true~~root_of_version-multiple-engine.txt,v
+    │   ├── 084~086~~root_of_version-multiple-engine-true~~version-multiple-engine-true-1-engine-run.txt,v
+    │   ├── 084~089~~root_of_version-multiple-engine-true~~root_of_version-work-0.txt,v
+    │   ├── 086~087~~version-multiple-engine-true-1-engine-run~~version-multiple-merge-point-1.txt,v
+    │   ├── 087~088~~version-multiple-merge-point-1~~version-multiple-engine-true_branch.txt,v
+    │   ├── 089~090~~root_of_version-work-0~~version-work-0-end.txt,v
+    │   ├── 089~092~~root_of_version-work-0~~version-1-1-20040622-reserve-5-5-1.txt,v
+    │   ├── 090~091~~version-work-0-end~~version-work-0_branch.txt,v
+    │   ├── 092~093~~version-1-1-20040622-reserve-5-5-1~~version-1-1a-20040624-reserve-5-5-1.txt,v
+    │   ├── 092~098~~version-1-1-20040622-reserve-5-5-1~~merged_version-work-0-end.txt,v
+    │   ├── 093~094~~version-1-1a-20040624-reserve-5-5-1~~version-1-1b-20040625-reserve-5-5-1.txt,v
+    │   ├── 094~095~~version-1-1b-20040625-reserve-5-5-1~~version-1-1b1-20040706-reserve-5-5-1.txt,v
+    │   ├── 095~096~~version-1-1b1-20040706-reserve-5-5-1~~version-1-1b2-20040708-reserve-5-5-1.txt,v
+    │   ├── 096~097~~version-1-1b2-20040708-reserve-5-5-1~~version-1-1_branch.txt,v
+    │   ├── 098~099~~merged_version-work-0-end~~version-single-merge-point-1.txt,v
+    │   ├── 099~100~~version-single-merge-point-1~~merged_version-multiple-merge-point-1.txt,v
+    │   ├── 100~101~~merged_version-multiple-merge-point-1~~version-good-bye-dot-net-2002.txt,v
+    │   ├── 101~102~~version-good-bye-dot-net-2002~~version-start-dot-net-2003.txt,v
+    │   ├── 102~103~~version-start-dot-net-2003~~version-X1-1-20040716-reserve-5-5-1-0.txt,v
+    │   ├── 103~104~~version-X1-1-20040716-reserve-5-5-1-0~~version-1-2-20040727-reserve-6-6-1-0.txt,v
+    │   ├── 104~105~~version-1-2-20040727-reserve-6-6-1-0~~version-1-2a-20040729-reserve-6-6-1-0.txt,v
+    │   ├── 104~116~~version-1-2-20040727-reserve-6-6-1-0~~version-1-3-20040915-reserve-7-7-1.txt,v
+    │   ├── 105~106~~version-1-2a-20040729-reserve-6-6-1-0~~version-1-2b-20040802-reserve-6-6-1-0.txt,v
+    │   ├── 106~107~~version-1-2b-20040802-reserve-6-6-1-0~~version-X1-2-20040809-reserve-6-6-1-0.txt,v
+    │   ├── 107~108~~version-X1-2-20040809-reserve-6-6-1-0~~version-X1-2a-20040809-reserve-6-6-1-0.txt,v
+    │   ├── 108~109~~version-X1-2a-20040809-reserve-6-6-1-0~~version-X1-2b-20040810-reserve-6-6-1-0.txt,v
+    │   ├── 109~110~~version-X1-2b-20040810-reserve-6-6-1-0~~version-1-2c-20040817-reserve-6-6-1-0.txt,v
+    │   ├── 110~111~~version-1-2c-20040817-reserve-6-6-1-0~~version-1-2d-20040818-reserve-6-6-1-0.txt,v
+    │   ├── 111~112~~version-1-2d-20040818-reserve-6-6-1-0~~version-1-2e-20040819-reserve-6-6-1-0.txt,v
+    │   ├── 112~113~~version-1-2e-20040819-reserve-6-6-1-0~~version-1-2f-20040906-reserve-6-6-1-0.txt,v
+    │   ├── 113~114~~version-1-2f-20040906-reserve-6-6-1-0~~version-1-2g-20040906-reserve-6-6-1-0.txt,v
+    │   ├── 114~115~~version-1-2g-20040906-reserve-6-6-1-0~~version-1-2_branch.txt,v
+    │   ├── 116~117~~version-1-3-20040915-reserve-7-7-1~~version-1-3a-20040916-reserve-7-7-1.txt,v
+    │   ├── 117~118~~version-1-3a-20040916-reserve-7-7-1~~version-1-3b-20041001-reserve-7-7-1-0.txt,v
+    │   ├── 117~125~~version-1-3a-20040916-reserve-7-7-1~~version-1-4-20050324-reserve-8-8-1-0.txt,v
+    │   ├── 118~119~~version-1-3b-20041001-reserve-7-7-1-0~~version-X1-3a-20041125-reserve-7-7-1-0.txt,v
+    │   ├── 118~121~~version-1-3b-20041001-reserve-7-7-1-0~~version-X1-3-20041101-reserve-7-7-1-0.txt,v
+    │   ├── 119~120~~version-X1-3a-20041125-reserve-7-7-1-0~~version-1-3b_branch.txt,v
+    │   ├── 121~122~~version-X1-3-20041101-reserve-7-7-1-0~~version-mark-tag.txt,v
+    │   ├── 122~123~~version-mark-tag~~version-1-3c-20041203-reserve-7-7-1-0.txt,v
+    │   ├── 123~124~~version-1-3c-20041203-reserve-7-7-1-0~~version-1-3a_branch.txt,v
+    │   ├── 125~126~~version-1-4-20050324-reserve-8-8-1-0~~version-1-4a-20050401-reserve-9-9-1-0.txt,v
+    │   ├── 126~127~~version-1-4a-20050401-reserve-9-9-1-0~~version-1-4a-base.txt,v
+    │   ├── 127~128~~version-1-4a-base~~version-1-4a-base-seminar-base.txt,v
+    │   ├── 128~129~~version-1-4a-base-seminar-base~~version-1-4b-20051003-reserve-9-9-1-0.txt,v
+    │   ├── 128~138~~version-1-4a-base-seminar-base~~version-X1-4-20050426-reserve-9-9-1-0.txt,v
+    │   ├── 128~140~~version-1-4a-base-seminar-base~~version-stream-feedback-control-base.txt,v
+    │   ├── 129~130~~version-1-4b-20051003-reserve-9-9-1-0~~version-1-4c-20060320-reserve-9-9-1-0.txt,v
+    │   ├── 130~131~~version-1-4c-20060320-reserve-9-9-1-0~~version-1-4d-20060711-reserve-10-10-1-0.txt,v
+    │   ├── 131~132~~version-1-4d-20060711-reserve-10-10-1-0~~version-1-4e-20070316-reserve-11-11-1-0.txt,v
+    │   ├── 132~133~~version-1-4e-20070316-reserve-11-11-1-0~~version-1-4e1-20070516-reserve-12-12-1-0.txt,v
+    │   ├── 133~134~~version-1-4e1-20070516-reserve-12-12-1-0~~version-1-4f-20080312-reserve-12-12-1-0.txt,v
+    │   ├── 134~135~~version-1-4f-20080312-reserve-12-12-1-0~~version-1-4f1-20080508-reserve-12-12-1-0.txt,v
+    │   ├── 135~136~~version-1-4f1-20080508-reserve-12-12-1-0~~version-1-4g-20080523-reserve-12-12-1-0.txt,v
+    │   ├── 136~137~~version-1-4g-20080523-reserve-12-12-1-0~~version-1-4a-base_branch.txt,v
+    │   ├── 138~139~~version-X1-4-20050426-reserve-9-9-1-0~~version-1-4a-base-seminar-base_branch.txt,v
+    │   ├── 140~141~~version-stream-feedback-control-base~~version-stream-feedback-control.txt,v
+    │   ├── 140~143~~version-stream-feedback-control-base~~yamamoto-tempo-prev-extract-sound.txt,v
+    │   ├── 141~142~~version-stream-feedback-control~~version-stream-feedback-control-base_branch.txt,v
+    │   ├── 143~144~~yamamoto-tempo-prev-extract-sound~~version_for_pokemon-root.txt,v
+    │   ├── 144~145~~version_for_pokemon-root~~version_for_pokemon.txt,v
+    │   ├── 144~146~~version_for_pokemon-root~~version_for_pokemon2-root.txt,v
+    │   ├── 146~147~~version_for_pokemon2-root~~version-X1-k1-20050517-reserve-9-9-1-0.txt,v
+    │   ├── 146~150~~version_for_pokemon2-root~~TRUNC_HEAD.txt,v
+    │   ├── 147~148~~version-X1-k1-20050517-reserve-9-9-1-0~~comp_context.txt,v
+    │   ├── 148~149~~comp_context~~version_for_pokemon2.txt,v
+    │   └── catalogue.txt,v
+    ├── Attic/
+    │   ├── make_nse.bat,v
+    │   └── このバージョンの現状.txt,v
+    ├── DOL/
+    │   ├── build/
+    │   │   └── Attic/
+    │   │       ├── makefile,v
+    │   │       └── makelib.bat,v
+    │   └── gbe_test/
+    │       └── Attic/
+    │           ├── _Langdef.h,v
+    │           ├── _Typedef.h,v
+    │           ├── agbemu.mcp,v
+    │           ├── gbe_test.c,v
+    │           ├── gbe_test.h,v
+    │           ├── gbelib.h,v
+    │           ├── main.cpp,v
+    │           ├── MemCard.cpp,v
+    │           └── MemCard.h,v
+    ├── ext_control/
+    │   ├── common/
+    │   │   └── Attic/
+    │   │       ├── ext_comm.cpp,v
+    │   │       └── ext_comm.h,v
+    │   ├── cw_debugger/
+    │   │   ├── cw_debugger.cpp,v
+    │   │   ├── cw_debugger.def,v
+    │   │   ├── cw_debugger.h,v
+    │   │   ├── cw_debugger.rc,v
+    │   │   ├── cw_debugger.sln,v
+    │   │   ├── cw_debugger.vcproj,v
+    │   │   ├── est_cw_debugger.h,v
+    │   │   ├── ReadMe.txt,v
+    │   │   ├── res/
+    │   │   │   └── cw_debugger.rc2,v
+    │   │   ├── Resource.h,v
+    │   │   ├── stdafx.cpp,v
+    │   │   └── stdafx.h,v
+    │   ├── is_chara/
+    │   │   ├── est_is_chara.h,v
+    │   │   ├── is_chara.cpp,v
+    │   │   ├── is_chara.def,v
+    │   │   ├── is_chara.h,v
+    │   │   ├── is_chara.rc,v
+    │   │   ├── is_chara.sln,v
+    │   │   ├── is_chara.vcproj,v
+    │   │   ├── ReadMe.txt,v
+    │   │   ├── res/
+    │   │   │   ├── Attic/
+    │   │   │   │   └── est_is_chara.rc2,v
+    │   │   │   └── is_chara.rc2,v
+    │   │   ├── Resource.h,v
+    │   │   ├── stdafx.cpp,v
+    │   │   └── stdafx.h,v
+    │   ├── nitro_viewer/
+    │   │   ├── Attic/
+    │   │   │   ├── nitro_viewer_nse.sln,v
+    │   │   │   ├── nitro_viewer_nse.vcproj,v
+    │   │   │   └── nse_est_nitro_viewer.h,v
+    │   │   ├── est_nitro_viewer.h,v
+    │   │   ├── nitro_viewer.cpp,v
+    │   │   ├── nitro_viewer.def,v
+    │   │   ├── nitro_viewer.h,v
+    │   │   ├── nitro_viewer.rc,v
+    │   │   ├── nitro_viewer.sln,v
+    │   │   ├── nitro_viewer.vcproj,v
+    │   │   ├── ReadMe.txt,v
+    │   │   ├── res/
+    │   │   │   ├── Attic/
+    │   │   │   └── nitro_viewer.rc2,v
+    │   │   ├── Resource.h,v
+    │   │   ├── stdafx.cpp,v
+    │   │   └── stdafx.h,v
+    │   ├── pro_dg/
+    │   │   ├── est_pro_dg.h,v
+    │   │   ├── pro_dg.cpp,v
+    │   │   ├── pro_dg.def,v
+    │   │   ├── pro_dg.h,v
+    │   │   ├── pro_dg.rc,v
+    │   │   ├── pro_dg.sln,v
+    │   │   ├── pro_dg.vcproj,v
+    │   │   ├── ReadMe.txt,v
+    │   │   ├── res/
+    │   │   │   └── pro_dg.rc2,v
+    │   │   ├── Resource.h,v
+    │   │   ├── stdafx.cpp,v
+    │   │   └── stdafx.h,v
+    │   └── sample/
+    │       ├── cw_debugger/
+    │       │   ├── cw_debugger.bpr,v
+    │       │   ├── cw_debugger.cpp,v
+    │       │   ├── cw_debugger.res,v
+    │       │   ├── disasm.cpp,v
+    │       │   ├── disasm.h,v
+    │       │   ├── FrmMain.cpp,v
+    │       │   ├── FrmMain.dfm,v
+    │       │   └── FrmMain.h,v
+    │       ├── is_chara/
+    │       │   ├── FrmMain.cpp,v
+    │       │   ├── FrmMain.dfm,v
+    │       │   ├── FrmMain.h,v
+    │       │   ├── is_chara.bpr,v
+    │       │   ├── is_chara.cpp,v
+    │       │   └── is_chara.res,v
+    │       ├── is_chara2/
+    │       │   ├── Attic/
+    │       │   │   ├── is_chara2.cpp,v
+    │       │   │   ├── is_chara2.h,v
+    │       │   │   ├── is_chara2.rc,v
+    │       │   │   ├── is_chara2.sln,v
+    │       │   │   ├── is_chara2.vcproj,v
+    │       │   │   ├── is_chara2Dlg.cpp,v
+    │       │   │   ├── is_chara2Dlg.h,v
+    │       │   │   ├── ReadMe.txt,v
+    │       │   │   ├── resource.h,v
+    │       │   │   ├── stdafx.cpp,v
+    │       │   │   ├── stdafx.h,v
+    │       │   │   └── test.bin,v
+    │       │   └── res/
+    │       │       └── Attic/
+    │       │           ├── is_chara2.ico,v
+    │       │           ├── is_chara2.manifest,v
+    │       │           └── is_chara2.rc2,v
+    │       └── nitro_viewer/
+    │           ├── Attic/
+    │           │   ├── nitro_viewer_nse.bpr,v
+    │           │   └── nitro_viewer_nse.res,v
+    │           ├── FrmMain.cpp,v
+    │           ├── FrmMain.dfm,v
+    │           ├── FrmMain.h,v
+    │           ├── nitro_viewer.bpr,v
+    │           ├── nitro_viewer.cpp,v
+    │           └── nitro_viewer.res,v
+    ├── HelpProject/
+    │   ├── jp/
+    │   │   ├── Attic/
+    │   │   │   ├── exception.html,v
+    │   │   │   ├── memorydump.html,v
+    │   │   │   ├── setupmainmem.html,v
+    │   │   │   └── toc.html,v
+    │   │   ├── backup.html,v
+    │   │   ├── changeskin.html,v
+    │   │   ├── compatiblity.html,v
+    │   │   ├── copyright.html,v
+    │   │   ├── debugprint.html,v
+    │   │   ├── ensata_jp.chm,v
+    │   │   ├── execute.html,v
+    │   │   ├── fileopen.html,v
+    │   │   ├── gbe.hhc,v
+    │   │   ├── gbe.hhp,v
+    │   │   ├── getstart.html,v
+    │   │   ├── images/
+    │   │   │   ├── activation.gif,v
+    │   │   │   ├── Attic/
+    │   │   │   ├── backupmenu.gif,v
+    │   │   │   ├── break_button.gif,v
+    │   │   │   ├── config_key_off.gif,v
+    │   │   │   ├── config_key_on.gif,v
+    │   │   │   ├── d3d_menu.gif,v
+    │   │   │   ├── DebugPrint.gif,v
+    │   │   │   ├── dirkey_down.gif,v
+    │   │   │   ├── dirkey_left.gif,v
+    │   │   │   ├── dirkey_right.gif,v
+    │   │   │   ├── dirkey_up.gif,v
+    │   │   │   ├── ensata_folder.gif,v
+    │   │   │   ├── frame_step_button.gif,v
+    │   │   │   ├── HideSkin.gif,v
+    │   │   │   ├── HistFiles.gif,v
+    │   │   │   ├── iris_logo.gif,v
+    │   │   │   ├── key_config.gif,v
+    │   │   │   ├── lcd_cap_button.gif,v
+    │   │   │   ├── lcd_target.gif,v
+    │   │   │   ├── MemoryDump.gif,v
+    │   │   │   ├── nitrosoft.gif,v
+    │   │   │   ├── popupmenu.gif,v
+    │   │   │   ├── realtimeclock.gif,v
+    │   │   │   ├── Reload.gif,v
+    │   │   │   ├── Reload_button.gif,v
+    │   │   │   ├── reset_button.gif,v
+    │   │   │   ├── run_button.gif,v
+    │   │   │   ├── step_button.gif,v
+    │   │   │   ├── stop_button.gif,v
+    │   │   │   ├── trace_button.gif,v
+    │   │   │   └── update_button.gif,v
+    │   │   ├── index.html,v
+    │   │   ├── lcd_capture.html,v
+    │   │   ├── limitation.html,v
+    │   │   ├── playgame.html,v
+    │   │   ├── Readme_jp.txt,v
+    │   │   ├── realtimeclock.html,v
+    │   │   ├── rendering.html,v
+    │   │   ├── requirement.html,v
+    │   │   ├── setupensata.html,v
+    │   │   ├── softsetting.html,v
+    │   │   └── welcome.html,v
+    │   └── us/
+    │       ├── Attic/
+    │       │   ├── exception.html,v
+    │       │   ├── memorydump.html,v
+    │       │   ├── setupmainmem.html,v
+    │       │   └── toc.html,v
+    │       ├── backup.html,v
+    │       ├── changeskin.html,v
+    │       ├── compatiblity.html,v
+    │       ├── copyright.html,v
+    │       ├── debugprint.html,v
+    │       ├── ensata.chm,v
+    │       ├── execute.html,v
+    │       ├── fileopen.html,v
+    │       ├── gbe.hhc,v
+    │       ├── gbe.hhp,v
+    │       ├── getstart.html,v
+    │       ├── images/
+    │       │   ├── activation.gif,v
+    │       │   ├── Attic/
+    │       │   ├── backupmenu.gif,v
+    │       │   ├── break_button.gif,v
+    │       │   ├── config_key_off.gif,v
+    │       │   ├── config_key_on.gif,v
+    │       │   ├── d3d_menu.gif,v
+    │       │   ├── DebugPrint.gif,v
+    │       │   ├── dirkey_down.gif,v
+    │       │   ├── dirkey_left.gif,v
+    │       │   ├── dirkey_right.gif,v
+    │       │   ├── dirkey_up.gif,v
+    │       │   ├── ensata_folder.gif,v
+    │       │   ├── frame_step_button.gif,v
+    │       │   ├── HideSkin.gif,v
+    │       │   ├── HistFiles.gif,v
+    │       │   ├── iris_logo.gif,v
+    │       │   ├── key_config.gif,v
+    │       │   ├── lcd_cap_button.gif,v
+    │       │   ├── lcd_target.gif,v
+    │       │   ├── MemoryDump.gif,v
+    │       │   ├── nitrosoft.gif,v
+    │       │   ├── popupmenu.gif,v
+    │       │   ├── realtimeclock.gif,v
+    │       │   ├── Reload.gif,v
+    │       │   ├── Reload_button.gif,v
+    │       │   ├── reset_button.gif,v
+    │       │   ├── run_button.gif,v
+    │       │   ├── step_button.gif,v
+    │       │   ├── stop_button.gif,v
+    │       │   ├── trace_button.gif,v
+    │       │   └── update_button.gif,v
+    │       ├── index.html,v
+    │       ├── lcd_capture.html,v
+    │       ├── limitation.html,v
+    │       ├── playgame.html,v
+    │       ├── Readme.txt,v
+    │       ├── realtimeclock.html,v
+    │       ├── rendering.html,v
+    │       ├── requirement.html,v
+    │       ├── setupensata.html,v
+    │       ├── softsetting.html,v
+    │       └── welcome.html,v
+    ├── ini_edit/
+    │   ├── ini_edit.cpp,v
+    │   ├── ini_edit.rc,v
+    │   ├── ini_edit.sln,v
+    │   ├── ini_edit.vcproj,v
+    │   └── ini_edit01.h,v
+    ├── make_release.bat,v
+    ├── materials/
+    │   ├── activation.bmp,v
+    │   ├── activation_jp.bmp,v
+    │   ├── Attic/
+    │   │   ├── DebugPrint.psd,v
+    │   │   ├── popupmenu.psd,v
+    │   │   ├── popupmenu_jp.psd,v
+    │   │   ├── rc_edit.exe,v
+    │   │   ├── text_resource.xls,v
+    │   │   └── Thumbs.db,v
+    │   ├── backup_jp.bmp,v
+    │   ├── backupmenu.bmp,v
+    │   ├── backupmenu_jp.bmp,v
+    │   ├── break_button.bmp,v
+    │   ├── buttons.psd,v
+    │   ├── config_key_off.bmp,v
+    │   ├── config_key_on.bmp,v
+    │   ├── ctrlwindow.bmp,v
+    │   ├── d3d_menu.bmp,v
+    │   ├── d3d_menu_jp.bmp,v
+    │   ├── DebugPrint.bmp,v
+    │   ├── DebugPrint_jp.psd,v
+    │   ├── default_skin.psd,v
+    │   ├── dirkey.bmp,v
+    │   ├── dirkey.psd,v
+    │   ├── ensata_folder.bmp,v
+    │   ├── filedrop.bmp,v
+    │   ├── HideSkin.bmp,v
+    │   ├── HideSkin_jp.bmp,v
+    │   ├── HistFiles.bmp,v
+    │   ├── HistFiles_jp.bmp,v
+    │   ├── iris_logo.psd,v
+    │   ├── key_config.bmp,v
+    │   ├── key_config_jp.bmp,v
+    │   ├── lcd_target.bmp,v
+    │   ├── lcd_target_jp.bmp,v
+    │   ├── MemoryDump.bmp,v
+    │   ├── mouse.bmp,v
+    │   ├── NintendoLogotype.bmp,v
+    │   ├── nitrosoft.bmp,v
+    │   ├── nitrosoft_jp.bmp,v
+    │   ├── popupmenu.bmp,v
+    │   ├── popupmenu_jp.bmp,v
+    │   ├── rc_edit_eng.bat,v
+    │   ├── rc_edit_jp.bat,v
+    │   ├── realtimeclock.bmp,v
+    │   ├── realtimeclock_jp.bmp,v
+    │   ├── Reload.bmp,v
+    │   ├── Reload_button.bmp,v
+    │   ├── Reload_jp.bmp,v
+    │   ├── reset_button.bmp,v
+    │   ├── run_button.bmp,v
+    │   ├── text_resource.csv,v
+    │   ├── toolbar1.bmp,v
+    │   └── toolbar2.bmp,v
+    ├── ObjectPath.txt,v
+    ├── PluginSDK/
+    │   ├── Attic/
+    │   │   └── PluginSDK.h,v
+    │   ├── doc/
+    │   │   ├── contents/
+    │   │   │   └── readme.html,v
+    │   │   ├── images/
+    │   │   │   ├── CreateProject01.gif,v
+    │   │   │   ├── CreateProject02.gif,v
+    │   │   │   ├── CreateProject03.gif,v
+    │   │   │   ├── image01_01.PNG,v
+    │   │   │   ├── image01_02.PNG,v
+    │   │   │   ├── image01_03.PNG,v
+    │   │   │   ├── image02_01.PNG,v
+    │   │   │   ├── image02_02.PNG,v
+    │   │   │   └── image03_01.PNG,v
+    │   │   └── index.html,v
+    │   ├── include/
+    │   │   ├── common.h,v
+    │   │   ├── ensata_interface.h,v
+    │   │   └── plugin_base.h,v
+    │   ├── lib/
+    │   │   ├── ensata_interface.cpp,v
+    │   │   ├── int_ensata_interface.h,v
+    │   │   └── lib_main.cpp,v
+    │   ├── nitro/
+    │   │   └── Attic/
+    │   │       ├── ensata_plugin_comm.c,v
+    │   │       ├── ensata_plugin_comm.h,v
+    │   │       └── Makefile,v
+    │   ├── plugin_sdk.h,v
+    │   ├── ReadArmElf/
+    │   │   ├── Attic/
+    │   │   │   ├── ArmElf.cpp,v
+    │   │   │   ├── ArmElf.h,v
+    │   │   │   ├── ArmElfDef.h,v
+    │   │   │   ├── DebugLog.cpp,v
+    │   │   │   ├── DebugLog.h,v
+    │   │   │   ├── ReadArmElf.cpp,v
+    │   │   │   ├── ReadArmElf.def,v
+    │   │   │   ├── ReadArmElf.h,v
+    │   │   │   ├── ReadArmElf.rc,v
+    │   │   │   ├── ReadArmElf.sln,v
+    │   │   │   ├── ReadArmElf.vcproj,v
+    │   │   │   ├── ReadMe.txt,v
+    │   │   │   ├── Resource.h,v
+    │   │   │   ├── stdafx.cpp,v
+    │   │   │   └── stdafx.h,v
+    │   │   └── res/
+    │   │       └── Attic/
+    │   │           └── ReadArmElf.rc2,v
+    │   ├── ReadSrl/
+    │   │   ├── Attic/
+    │   │   │   ├── ReadMe.txt,v
+    │   │   │   ├── ReadSrl.cpp,v
+    │   │   │   ├── ReadSrl.def,v
+    │   │   │   ├── ReadSrl.h,v
+    │   │   │   ├── ReadSrl.rc,v
+    │   │   │   ├── ReadSrl.sln,v
+    │   │   │   ├── ReadSrl.vcproj,v
+    │   │   │   ├── Resource.h,v
+    │   │   │   ├── stdafx.cpp,v
+    │   │   │   └── stdafx.h,v
+    │   │   └── res/
+    │   │       └── Attic/
+    │   │           └── ReadSrl.rc2,v
+    │   ├── sample/
+    │   │   ├── builder/
+    │   │   │   ├── builder.bpf,v
+    │   │   │   ├── builder.bpr,v
+    │   │   │   ├── builder.cpp,v
+    │   │   │   ├── builder.res,v
+    │   │   │   ├── FrmSample.cpp,v
+    │   │   │   ├── FrmSample.dfm,v
+    │   │   │   ├── FrmSample.h,v
+    │   │   │   ├── sample.cpp,v
+    │   │   │   └── sample.h,v
+    │   │   └── vc/
+    │   │       ├── ReadMe.txt,v
+    │   │       ├── res/
+    │   │       │   └── vc.rc2,v
+    │   │       ├── resource.h,v
+    │   │       ├── sample.cpp,v
+    │   │       ├── sample.h,v
+    │   │       ├── SampleView.cpp,v
+    │   │       ├── SampleView.h,v
+    │   │       ├── stdafx.cpp,v
+    │   │       ├── stdafx.h,v
+    │   │       ├── vc.cpp,v
+    │   │       ├── vc.def,v
+    │   │       ├── vc.h,v
+    │   │       ├── vc.rc,v
+    │   │       ├── vc.sln,v
+    │   │       └── vc.vcproj,v
+    │   ├── StrRes_eng/
+    │   │   ├── ReadMe.txt,v
+    │   │   ├── res/
+    │   │   │   └── StrRes_eng.rc2,v
+    │   │   ├── resource.h,v
+    │   │   ├── stdafx.cpp,v
+    │   │   ├── stdafx.h,v
+    │   │   ├── StrRes_eng.cpp,v
+    │   │   ├── StrRes_eng.def,v
+    │   │   ├── StrRes_eng.h,v
+    │   │   ├── StrRes_eng.rc,v
+    │   │   ├── StrRes_eng.sln,v
+    │   │   └── StrRes_eng.vcproj,v
+    │   └── VramAlloc/
+    │       └── Attic/
+    │           ├── VramAlloc.bpf,v
+    │           ├── VramAlloc.bpr,v
+    │           ├── VramAlloc.cpp,v
+    │           ├── VramAlloc.res,v
+    │           ├── VramAllocDialog.cpp,v
+    │           ├── VramAllocDialog.dfm,v
+    │           └── VramAllocDialog.h,v
+    ├── rc_edit/
+    │   ├── main.c,v
+    │   ├── rc_edit.sln,v
+    │   └── rc_edit.vcproj,v
+    ├── readme.txt,v
+    ├── tools/
+    │   ├── etc/
+    │   │   ├── chkdate.pl,v
+    │   │   └── date.txt,v
+    │   ├── to_edit_rc/
+    │   │   └── rc_edit.exe,v
+    │   └── to_release/
+    │       └── func_dir.pl,v
+    ├── unreg/
+    │   ├── Attic/
+    │   │   └── unreg.rc,v
+    │   ├── main.cpp,v
+    │   ├── resource.cpp,v
+    │   ├── resource.h,v
+    │   ├── unreg.bpf,v
+    │   ├── unreg.bpr,v
+    │   └── unreg.res,v
+    ├── WIN/
+    │   ├── activation/
+    │   │   ├── activation.cpp,v
+    │   │   ├── activation.def,v
+    │   │   ├── activation.h,v
+    │   │   ├── activation.rc,v
+    │   │   ├── activation.sln,v
+    │   │   ├── activation.vcproj,v
+    │   │   ├── Attic/
+    │   │   │   └── ntds_int.h,v
+    │   │   ├── ntds.cpp,v
+    │   │   ├── ntds.h,v
+    │   │   ├── ReadMe.txt,v
+    │   │   ├── res/
+    │   │   │   └── activation.rc2,v
+    │   │   ├── Resource.h,v
+    │   │   ├── sha1.cpp,v
+    │   │   ├── sha1.h,v
+    │   │   ├── stdafx.cpp,v
+    │   │   └── stdafx.h,v
+    │   ├── agbdeb/
+    │   │   ├── agb/
+    │   │   │   ├── Attic/
+    │   │   │   │   ├── _Langdef.h,v
+    │   │   │   │   ├── _Typedef.h,v
+    │   │   │   │   ├── agb.cpp,v
+    │   │   │   │   ├── agb.h,v
+    │   │   │   │   ├── agb_arm7_biu.cpp,v
+    │   │   │   │   ├── agb_arm7_biu.h,v
+    │   │   │   │   ├── agb_driver.cpp,v
+    │   │   │   │   ├── agb_driver.h,v
+    │   │   │   │   ├── agb_io_manager.cpp,v
+    │   │   │   │   ├── agb_io_manager.h,v
+    │   │   │   │   ├── arm.cpp,v
+    │   │   │   │   ├── arm.h,v
+    │   │   │   │   ├── arm_op.h,v
+    │   │   │   │   ├── boot_image.cpp,v
+    │   │   │   │   ├── boot_image.h,v
+    │   │   │   │   ├── cartridge.cpp,v
+    │   │   │   │   ├── cartridge.h,v
+    │   │   │   │   ├── cpp32.exe,v
+    │   │   │   │   ├── CpuLoop.cpp,v
+    │   │   │   │   ├── debug.cpp,v
+    │   │   │   │   ├── debug.h,v
+    │   │   │   │   ├── define.h,v
+    │   │   │   │   ├── dma.cpp,v
+    │   │   │   │   ├── dma.h,v
+    │   │   │   │   ├── dx_sound.cpp,v
+    │   │   │   │   ├── dx_sound.h,v
+    │   │   │   │   ├── eep.cpp,v
+    │   │   │   │   ├── eep.h,v
+    │   │   │   │   ├── flash.cpp,v
+    │   │   │   │   ├── flash.h,v
+    │   │   │   │   ├── gbelib.cpp,v
+    │   │   │   │   ├── gbelib.h,v
+    │   │   │   │   ├── gbs.cpp,v
+    │   │   │   │   ├── gbs.h,v
+    │   │   │   │   ├── gpio.c,v
+    │   │   │   │   ├── gpio.cpp,v
+    │   │   │   │   ├── gpio.h,v
+    │   │   │   │   ├── interrupt.cpp,v
+    │   │   │   │   ├── interrupt.h,v
+    │   │   │   │   ├── ipt.cpp,v
+    │   │   │   │   ├── ipt.h,v
+    │   │   │   │   ├── lcd.cpp,v
+    │   │   │   │   ├── lcd.h,v
+    │   │   │   │   ├── lcd_inline_bg.h,v
+    │   │   │   │   ├── lcd_inline_obj.h,v
+    │   │   │   │   ├── lcd_macro.h,v
+    │   │   │   │   ├── lcd_macro_bg.h,v
+    │   │   │   │   ├── lcd_macro_obj.h,v
+    │   │   │   │   ├── memory.cpp,v
+    │   │   │   │   ├── memory.h,v
+    │   │   │   │   ├── mkinl.bat,v
+    │   │   │   │   ├── op_a_cube.h,v
+    │   │   │   │   ├── op_a_win.h,v
+    │   │   │   │   ├── op_t.h,v
+    │   │   │   │   ├── platform.c,v
+    │   │   │   │   ├── platform.cpp,v
+    │   │   │   │   ├── platform.h,v
+    │   │   │   │   ├── program_break.cpp,v
+    │   │   │   │   ├── program_break.h,v
+    │   │   │   │   ├── reform.exe,v
+    │   │   │   │   ├── rtc.c,v
+    │   │   │   │   ├── rtc.cpp,v
+    │   │   │   │   ├── rtc.h,v
+    │   │   │   │   ├── sensor.cpp,v
+    │   │   │   │   ├── sensor.h,v
+    │   │   │   │   ├── sio.cpp,v
+    │   │   │   │   ├── sio.h,v
+    │   │   │   │   ├── sound.cpp,v
+    │   │   │   │   ├── Sound.h,v
+    │   │   │   │   ├── swi.cpp,v
+    │   │   │   │   ├── swi.h,v
+    │   │   │   │   ├── thumb_debug.h,v
+    │   │   │   │   ├── timer.cpp,v
+    │   │   │   │   └── timer.h,v
+    │   │   │   └── temp/
+    │   │   │       └── Attic/
+    │   │   │           └── readme.txt,v
+    │   │   ├── Attic/
+    │   │   │   ├── .cvsignore,v
+    │   │   │   ├── agbdeb.aps,v
+    │   │   │   ├── agbdeb.clw,v
+    │   │   │   ├── agbdeb.cpp,v
+    │   │   │   ├── agbdeb.h,v
+    │   │   │   ├── agbdeb.ncb,v
+    │   │   │   ├── agbdeb.opt,v
+    │   │   │   ├── agbdeb.rc,v
+    │   │   │   ├── agbdeb.sln,v
+    │   │   │   ├── agbdeb.suo,v
+    │   │   │   ├── agbdeb.vcproj,v
+    │   │   │   ├── agbdebDlg.cpp,v
+    │   │   │   ├── agbdebDlg.h,v
+    │   │   │   ├── BmpOutDialog.cpp,v
+    │   │   │   ├── BmpOutDialog.h,v
+    │   │   │   ├── debug.cpp,v
+    │   │   │   ├── debug.h,v
+    │   │   │   ├── DisasmDialog.cpp,v
+    │   │   │   ├── DisasmDialog.h,v
+    │   │   │   ├── draw_engine.cpp,v
+    │   │   │   ├── draw_engine.h,v
+    │   │   │   ├── DumpAddrDialog.cpp,v
+    │   │   │   ├── DumpAddrDialog.h,v
+    │   │   │   ├── DumpDialog.cpp,v
+    │   │   │   ├── DumpDialog.h,v
+    │   │   │   ├── IoDialog.cpp,v
+    │   │   │   ├── IoDialog.h,v
+    │   │   │   ├── KeySetDialog.cpp,v
+    │   │   │   ├── KeySetDialog.h,v
+    │   │   │   ├── LcdDialog.cpp,v
+    │   │   │   ├── LcdDialog.h,v
+    │   │   │   ├── LcdXFrame.cpp,v
+    │   │   │   ├── LcdXFrame.h,v
+    │   │   │   ├── PluginSDK.h,v
+    │   │   │   ├── PokeEditDialog.cpp,v
+    │   │   │   ├── PokeEditDialog.h,v
+    │   │   │   ├── PokeInfo.cpp,v
+    │   │   │   ├── PokeInfo.h,v
+    │   │   │   ├── PokeStackDialog.cpp,v
+    │   │   │   ├── PokeStackDialog.h,v
+    │   │   │   ├── resource.h,v
+    │   │   │   ├── StdAfx.h,v
+    │   │   │   ├── TraceList.h,v
+    │   │   │   └── UserResource.h,v
+    │   │   ├── plugins/
+    │   │   │   └── Attic/
+    │   │   │       ├── ReadElf.dll,v
+    │   │   │       └── ReadSrl.dll,v
+    │   │   └── res/
+    │   │       └── Attic/
+    │   │           ├── agbdeb.ico,v
+    │   │           ├── agbdeb.rc2,v
+    │   │           ├── debug_texture.dds,v
+    │   │           ├── debug_texture.psd,v
+    │   │           └── directx.ico,v
+    │   ├── common/
+    │   │   ├── arm.cpp,v
+    │   │   ├── arm.h,v
+    │   │   ├── arm7.cpp,v
+    │   │   ├── arm7.h,v
+    │   │   ├── arm9.cpp,v
+    │   │   ├── arm9.h,v
+    │   │   ├── arm_new.cpp,v
+    │   │   ├── Attic/
+    │   │   │   ├── op_a_win.h,v
+    │   │   │   └── op_a_win_define.h,v
+    │   │   └── thumb_decomp.h,v
+    │   ├── enlib/
+    │   │   └── Attic/
+    │   │       ├── _Langdef.h,v
+    │   │       ├── _Typedef.h,v
+    │   │       ├── All.h,v
+    │   │       ├── Base.cpp,v
+    │   │       ├── Base.h,v
+    │   │       ├── Bitmap.cpp,v
+    │   │       ├── Bitmap.h,v
+    │   │       ├── Buffer.cpp,v
+    │   │       ├── Buffer.h,v
+    │   │       ├── Chars.cpp,v
+    │   │       ├── Chars.h,v
+    │   │       ├── enlib.rc,v
+    │   │       ├── enlib.vcproj,v
+    │   │       ├── File.cpp,v
+    │   │       ├── File.h,v
+    │   │       ├── Lock.h,v
+    │   │       ├── Memory.cpp,v
+    │   │       ├── Memory.h,v
+    │   │       ├── Path.cpp,v
+    │   │       ├── Path.h,v
+    │   │       ├── Pool.cpp,v
+    │   │       ├── Pool.h,v
+    │   │       ├── resource.h,v
+    │   │       ├── Search.cpp,v
+    │   │       ├── Search.h,v
+    │   │       ├── Strings.h,v
+    │   │       └── usertype.dat,v
+    │   ├── iris/
+    │   │   ├── .cvsignore,v
+    │   │   ├── Activation.cpp,v
+    │   │   ├── Activation.h,v
+    │   │   ├── activation_test.cpp,v
+    │   │   ├── activation_test.h,v
+    │   │   ├── active_manager.cpp,v
+    │   │   ├── active_manager.h,v
+    │   │   ├── app_version.cpp,v
+    │   │   ├── app_version.h,v
+    │   │   ├── AppInterface.cpp,v
+    │   │   ├── AppInterface.h,v
+    │   │   ├── Attic/
+    │   │   │   ├── AboutDialog.cpp,v
+    │   │   │   ├── AboutDialog.h,v
+    │   │   │   ├── builder_plagin_common.h,v
+    │   │   │   ├── debug.cpp,v
+    │   │   │   ├── debug.h,v
+    │   │   │   ├── Dialog3DCtrl.cpp,v
+    │   │   │   ├── Dialog3DCtrl.h,v
+    │   │   │   ├── DumpDialog.cpp,v
+    │   │   │   ├── DumpDialog.h,v
+    │   │   │   ├── ext_debug_log.cpp,v
+    │   │   │   ├── ext_debug_log.h,v
+    │   │   │   ├── form_plagin_common.h,v
+    │   │   │   ├── form_plagin_debug_log.h,v
+    │   │   │   ├── irisDlg.cpp,v
+    │   │   │   ├── irisDlg.h,v
+    │   │   │   ├── LcdXFrame.cpp,v
+    │   │   │   ├── LcdXFrame.h,v
+    │   │   │   ├── LoadFile.cpp,v
+    │   │   │   ├── LoadFile.h,v
+    │   │   │   ├── lzw.cpp,v
+    │   │   │   ├── lzw.h,v
+    │   │   │   ├── nse.rc,v
+    │   │   │   ├── nse.sln,v
+    │   │   │   ├── nse.vcproj,v
+    │   │   │   ├── snapshot.cpp,v
+    │   │   │   ├── snapshot.h,v
+    │   │   │   └── TraceList.h,v
+    │   │   ├── builder_plugin/
+    │   │   │   ├── Attic/
+    │   │   │   │   ├── my_types.h,v
+    │   │   │   │   ├── nse.bpf,v
+    │   │   │   │   ├── nse.bpr,v
+    │   │   │   │   ├── nse.cpp,v
+    │   │   │   │   ├── nse.h,v
+    │   │   │   │   ├── preview.bpf,v
+    │   │   │   │   └── preview.bpr,v
+    │   │   │   ├── bit_btn_get_dlg_code/
+    │   │   │   │   └── Attic/
+    │   │   │   │       ├── BitBtnGetDlgCode.cpp,v
+    │   │   │   │       └── BitBtnGetDlgCode.h,v
+    │   │   │   ├── debug/
+    │   │   │   │   └── Attic/
+    │   │   │   │       ├── FrmDebug.cpp,v
+    │   │   │   │       ├── FrmDebug.dfm,v
+    │   │   │   │       └── FrmDebug.h,v
+    │   │   │   ├── debug_3d/
+    │   │   │   │   ├── FrmDebug3D.cpp,v
+    │   │   │   │   ├── FrmDebug3D.dfm,v
+    │   │   │   │   └── FrmDebug3D.h,v
+    │   │   │   ├── debug_log/
+    │   │   │   │   ├── Attic/
+    │   │   │   │   │   ├── debug_log.cpp,v
+    │   │   │   │   │   ├── debug_log.h,v
+    │   │   │   │   │   ├── FrmMain.cpp,v
+    │   │   │   │   │   ├── FrmMain.dfm,v
+    │   │   │   │   │   └── FrmMain.h,v
+    │   │   │   │   ├── FrmDebugLog.cpp,v
+    │   │   │   │   ├── FrmDebugLog.dfm,v
+    │   │   │   │   └── FrmDebugLog.h,v
+    │   │   │   ├── dll_interface.cpp,v
+    │   │   │   ├── dll_interface.h,v
+    │   │   │   ├── dummy/
+    │   │   │   │   └── Attic/
+    │   │   │   │       ├── FrmDummy.cpp,v
+    │   │   │   │       ├── FrmDummy.dfm,v
+    │   │   │   │       └── FrmDummy.h,v
+    │   │   │   ├── host/
+    │   │   │   │   ├── Attic/
+    │   │   │   │   │   ├── host.cpp,v
+    │   │   │   │   │   ├── host.h,v
+    │   │   │   │   │   ├── host.rc,v
+    │   │   │   │   │   ├── host.sln,v
+    │   │   │   │   │   ├── host.vcproj,v
+    │   │   │   │   │   ├── hostDlg.cpp,v
+    │   │   │   │   │   ├── hostDlg.h,v
+    │   │   │   │   │   ├── ReadMe.txt,v
+    │   │   │   │   │   ├── resource.h,v
+    │   │   │   │   │   ├── stdafx.cpp,v
+    │   │   │   │   │   └── stdafx.h,v
+    │   │   │   │   └── res/
+    │   │   │   │       └── Attic/
+    │   │   │   │           ├── host.ico,v
+    │   │   │   │           ├── host.manifest,v
+    │   │   │   │           └── host.rc2,v
+    │   │   │   ├── if_from_vc.cpp,v
+    │   │   │   ├── if_from_vc.h,v
+    │   │   │   ├── if_to_vc.cpp,v
+    │   │   │   ├── if_to_vc.h,v
+    │   │   │   ├── key_config/
+    │   │   │   │   ├── FrmKeyConfig.cpp,v
+    │   │   │   │   ├── FrmKeyConfig.dfm,v
+    │   │   │   │   └── FrmKeyConfig.h,v
+    │   │   │   ├── lcd_pos/
+    │   │   │   │   └── Attic/
+    │   │   │   │       ├── FrmLcdPos.cpp,v
+    │   │   │   │       ├── FrmLcdPos.dfm,v
+    │   │   │   │       └── FrmLcdPos.h,v
+    │   │   │   ├── main_form/
+    │   │   │   │   ├── Attic/
+    │   │   │   │   │   ├── plugin_export.cpp,v
+    │   │   │   │   │   └── plugin_export.h,v
+    │   │   │   │   ├── FrmMain.cpp,v
+    │   │   │   │   ├── FrmMain.dfm,v
+    │   │   │   │   ├── FrmMain.h,v
+    │   │   │   │   ├── plugin_interface.cpp,v
+    │   │   │   │   ├── plugin_interface.h,v
+    │   │   │   │   ├── tool_dock_site.cpp,v
+    │   │   │   │   └── tool_dock_site.h,v
+    │   │   │   ├── message/
+    │   │   │   │   ├── FrmMessage.cpp,v
+    │   │   │   │   ├── FrmMessage.dfm,v
+    │   │   │   │   └── FrmMessage.h,v
+    │   │   │   ├── panel_no_paint/
+    │   │   │   │   ├── Attic/
+    │   │   │   │   ├── PanelNoPaint.cpp,v
+    │   │   │   │   └── PanelNoPaint.h,v
+    │   │   │   ├── rtc/
+    │   │   │   │   ├── FrmRtc.cpp,v
+    │   │   │   │   ├── FrmRtc.dfm,v
+    │   │   │   │   └── FrmRtc.h,v
+    │   │   │   ├── soft_config/
+    │   │   │   │   ├── FrmSoftConfig.cpp,v
+    │   │   │   │   ├── FrmSoftConfig.dfm,v
+    │   │   │   │   └── FrmSoftConfig.h,v
+    │   │   │   ├── sound/
+    │   │   │   │   ├── FrmSound.cpp,v
+    │   │   │   │   ├── FrmSound.dfm,v
+    │   │   │   │   └── FrmSound.h,v
+    │   │   │   ├── uimain.bpf,v
+    │   │   │   ├── uimain.bpr,v
+    │   │   │   ├── uimain.cpp,v
+    │   │   │   ├── uimain.h,v
+    │   │   │   ├── uimain.res,v
+    │   │   │   └── version/
+    │   │   │       ├── FrmVersion.cpp,v
+    │   │   │       ├── FrmVersion.dfm,v
+    │   │   │       └── FrmVersion.h,v
+    │   │   ├── check_activation.cpp,v
+    │   │   ├── check_activation.h,v
+    │   │   ├── control/
+    │   │   │   ├── control.cpp,v
+    │   │   │   └── control.h,v
+    │   │   ├── debug_tools/
+    │   │   │   ├── cw_debugger.dll,v
+    │   │   │   ├── cw_debugger.exe,v
+    │   │   │   └── ini_edit.exe,v
+    │   │   ├── Dib.cpp,v
+    │   │   ├── Dib.h,v
+    │   │   ├── DInput.cpp,v
+    │   │   ├── DInput.h,v
+    │   │   ├── dlls/
+    │   │   │   ├── Attic/
+    │   │   │   │   └── ReadArmElf.dll,v
+    │   │   │   ├── StrRes_eng.dll,v
+    │   │   │   ├── subp/
+    │   │   │   │   ├── .cvsignore,v
+    │   │   │   │   └── Attic/
+    │   │   │   │       ├── est_subp.dll,v
+    │   │   │   │       └── est_subp_table.dll,v
+    │   │   │   └── uimain.dll,v
+    │   │   ├── engine/
+    │   │   │   ├── 2d_graphic.cpp,v
+    │   │   │   ├── 2d_graphic.h,v
+    │   │   │   ├── accelerator.cpp,v
+    │   │   │   ├── accelerator.h,v
+    │   │   │   ├── arm9_biu.cpp,v
+    │   │   │   ├── arm9_biu.h,v
+    │   │   │   ├── arm9_io_manager.cpp,v
+    │   │   │   ├── arm9_io_manager.h,v
+    │   │   │   ├── Attic/
+    │   │   │   │   ├── _Langdef.h,v
+    │   │   │   │   ├── _Typedef.h,v
+    │   │   │   │   ├── dx_sound.cpp,v
+    │   │   │   │   ├── dx_sound.h,v
+    │   │   │   │   ├── engine_context.h,v
+    │   │   │   │   ├── gbelib.cpp,v
+    │   │   │   │   ├── gbelib.h,v
+    │   │   │   │   ├── geo_info.cpp,v
+    │   │   │   │   ├── lcd.cpp,v
+    │   │   │   │   ├── lcd.h,v
+    │   │   │   │   ├── lcd_macro.h,v
+    │   │   │   │   ├── lcd_macro_bg.h,v
+    │   │   │   │   ├── lcd_macro_obj.h,v
+    │   │   │   │   ├── log_3d.h,v
+    │   │   │   │   ├── platform.cpp,v
+    │   │   │   │   ├── platform.h,v
+    │   │   │   │   ├── rendering.cpp,v
+    │   │   │   │   ├── sound.cpp,v
+    │   │   │   │   ├── sound.h,v
+    │   │   │   │   └── thumb_debug.h,v
+    │   │   │   ├── backup_ram.cpp,v
+    │   │   │   ├── backup_ram.h,v
+    │   │   │   ├── boot_image.cpp,v
+    │   │   │   ├── boot_image.h,v
+    │   │   │   ├── card.cpp,v
+    │   │   │   ├── card.h,v
+    │   │   │   ├── cartridge.cpp,v
+    │   │   │   ├── cartridge.h,v
+    │   │   │   ├── color_2d.h,v
+    │   │   │   ├── color_3d.cpp,v
+    │   │   │   ├── color_3d.h,v
+    │   │   │   ├── define.h,v
+    │   │   │   ├── dma.cpp,v
+    │   │   │   ├── dma.h,v
+    │   │   │   ├── emu_debug_port.cpp,v
+    │   │   │   ├── emu_debug_port.h,v
+    │   │   │   ├── engine_control.cpp,v
+    │   │   │   ├── engine_control.h,v
+    │   │   │   ├── ext_debug_log.cpp,v
+    │   │   │   ├── ext_debug_log.h,v
+    │   │   │   ├── ext_mem_if.cpp,v
+    │   │   │   ├── ext_mem_if.h,v
+    │   │   │   ├── geo_engine.cpp,v
+    │   │   │   ├── geometry.cpp,v
+    │   │   │   ├── geometry.h,v
+    │   │   │   ├── if_from_arm7.cpp,v
+    │   │   │   ├── interrupt.cpp,v
+    │   │   │   ├── interrupt.h,v
+    │   │   │   ├── iris.cpp,v
+    │   │   │   ├── iris.h,v
+    │   │   │   ├── iris_driver.cpp,v
+    │   │   │   ├── iris_driver.h,v
+    │   │   │   ├── key.cpp,v
+    │   │   │   ├── key.h,v
+    │   │   │   ├── key_control.cpp,v
+    │   │   │   ├── key_control.h,v
+    │   │   │   ├── mask_rom.cpp,v
+    │   │   │   ├── mask_rom.h,v
+    │   │   │   ├── memory.cpp,v
+    │   │   │   ├── memory.h,v
+    │   │   │   ├── memory_exception.h,v
+    │   │   │   ├── output_log_data.cpp,v
+    │   │   │   ├── output_log_data.h,v
+    │   │   │   ├── program_break.cpp,v
+    │   │   │   ├── program_break.h,v
+    │   │   │   ├── rendering.h,v
+    │   │   │   ├── rendering_cpu_calc.cpp,v
+    │   │   │   ├── rendering_cpu_calc.h,v
+    │   │   │   ├── rendering_d3d.cpp,v
+    │   │   │   ├── rendering_d3d.h,v
+    │   │   │   ├── rendering_d3d_wrapper.cpp,v
+    │   │   │   ├── rendering_d3d_wrapper.h,v
+    │   │   │   ├── run_scheduler.cpp,v
+    │   │   │   ├── run_scheduler.h,v
+    │   │   │   ├── sound_driver/
+    │   │   │   │   ├── sd_alarm.cpp,v
+    │   │   │   │   ├── sd_decoder.cpp,v
+    │   │   │   │   ├── sd_sec_buf.cpp,v
+    │   │   │   │   ├── sd_seq_play.cpp,v
+    │   │   │   │   ├── sd_strm_play.cpp,v
+    │   │   │   │   ├── sound_driver.cpp,v
+    │   │   │   │   ├── sound_driver.h,v
+    │   │   │   │   └── sound_driver_base.h,v
+    │   │   │   ├── subp.h,v
+    │   │   │   ├── subp_boot.cpp,v
+    │   │   │   ├── subp_boot.h,v
+    │   │   │   ├── subp_fifo.cpp,v
+    │   │   │   ├── subp_fifo.h,v
+    │   │   │   ├── subp_fifo_control_arm9.cpp,v
+    │   │   │   ├── subp_fifo_control_arm9.h,v
+    │   │   │   ├── subp_fifo_receiver.h,v
+    │   │   │   ├── subp_idle.cpp,v
+    │   │   │   ├── subp_idle.h,v
+    │   │   │   ├── subp_interface.h,v
+    │   │   │   ├── TexMgr.cpp,v
+    │   │   │   ├── TexMgr.h,v
+    │   │   │   ├── timer.cpp,v
+    │   │   │   └── timer.h,v
+    │   │   ├── engine_subp/
+    │   │   │   ├── Attic/
+    │   │   │   │   ├── main_mem_p.h,v
+    │   │   │   │   └── NitroComposer.h,v
+    │   │   │   ├── est_sub/
+    │   │   │   │   ├── arm7/
+    │   │   │   │   │   ├── main_mem_p.h,v
+    │   │   │   │   │   ├── sound/
+    │   │   │   │   │   │   ├── diff_prep.pl,v
+    │   │   │   │   │   │   ├── NitroComposer.cpp,v
+    │   │   │   │   │   │   ├── NitroComposer.h,v
+    │   │   │   │   │   │   ├── NitroComposerDef.h,v
+    │   │   │   │   │   │   ├── NitroComposerInterface.cpp,v
+    │   │   │   │   │   │   ├── snd_alarm.cpp,v
+    │   │   │   │   │   │   ├── snd_bank.cpp,v
+    │   │   │   │   │   │   ├── snd_channel.cpp,v
+    │   │   │   │   │   │   ├── snd_command.cpp,v
+    │   │   │   │   │   │   ├── snd_exchannel.cpp,v
+    │   │   │   │   │   │   ├── snd_main.cpp,v
+    │   │   │   │   │   │   ├── snd_seq.cpp,v
+    │   │   │   │   │   │   ├── snd_util.cpp,v
+    │   │   │   │   │   │   ├── sound_wrapper.cpp,v
+    │   │   │   │   │   │   └── sound_wrapper.h,v
+    │   │   │   │   │   └── subp.h,v
+    │   │   │   │   ├── arm9/
+    │   │   │   │   │   ├── engine_control.h,v
+    │   │   │   │   │   ├── if_helper.h,v
+    │   │   │   │   │   ├── memory.h,v
+    │   │   │   │   │   ├── sound_driver.h,v
+    │   │   │   │   │   └── subp_fifo_control_arm7.h,v
+    │   │   │   │   ├── est_subp.cpp,v
+    │   │   │   │   ├── est_subp.def,v
+    │   │   │   │   ├── est_subp.h,v
+    │   │   │   │   ├── est_subp.rc,v
+    │   │   │   │   ├── est_subp.sln,v
+    │   │   │   │   ├── est_subp.vcproj,v
+    │   │   │   │   ├── if_from_arm9.cpp,v
+    │   │   │   │   ├── if_to_arm9.h,v
+    │   │   │   │   ├── ReadMe.txt,v
+    │   │   │   │   ├── res/
+    │   │   │   │   │   └── est_subp.rc2,v
+    │   │   │   │   ├── Resource.h,v
+    │   │   │   │   ├── stdafx.cpp,v
+    │   │   │   │   └── stdafx.h,v
+    │   │   │   ├── est_sub_table/
+    │   │   │   │   ├── est_subp_table.cpp,v
+    │   │   │   │   ├── est_subp_table.def,v
+    │   │   │   │   ├── est_subp_table.h,v
+    │   │   │   │   ├── est_subp_table.rc,v
+    │   │   │   │   ├── est_subp_table.sln,v
+    │   │   │   │   ├── est_subp_table.vcproj,v
+    │   │   │   │   ├── ReadMe.txt,v
+    │   │   │   │   ├── res/
+    │   │   │   │   │   └── est_subp_table.rc2,v
+    │   │   │   │   ├── Resource.h,v
+    │   │   │   │   ├── stdafx.cpp,v
+    │   │   │   │   ├── stdafx.h,v
+    │   │   │   │   └── table.cpp,v
+    │   │   │   ├── if_helper.h,v
+    │   │   │   ├── if_to_arm7.cpp,v
+    │   │   │   ├── if_to_arm7.h,v
+    │   │   │   ├── NitroComposer/
+    │   │   │   │   └── Attic/
+    │   │   │   │       ├── DirectSoundWrapper.cpp,v
+    │   │   │   │       ├── DirectSoundWrapper.h,v
+    │   │   │   │       ├── NitroComposer.cpp,v
+    │   │   │   │       ├── NitroComposer.h,v
+    │   │   │   │       ├── NitroComposerDef.h,v
+    │   │   │   │       ├── NitroComposerException.cpp,v
+    │   │   │   │       ├── NitroComposerException.h,v
+    │   │   │   │       ├── NitroComposerInterface.cpp,v
+    │   │   │   │       ├── snd_alarm.cpp,v
+    │   │   │   │       ├── snd_bank.cpp,v
+    │   │   │   │       ├── snd_channel.cpp,v
+    │   │   │   │       ├── snd_command.cpp,v
+    │   │   │   │       ├── snd_exchannel.cpp,v
+    │   │   │   │       ├── snd_hwchannel.cpp,v
+    │   │   │   │       ├── snd_main.cpp,v
+    │   │   │   │       ├── snd_seq.cpp,v
+    │   │   │   │       └── snd_util.cpp,v
+    │   │   │   ├── pmic.cpp,v
+    │   │   │   ├── pmic.h,v
+    │   │   │   ├── rtc.cpp,v
+    │   │   │   ├── rtc.h,v
+    │   │   │   ├── sound_wrapper.cpp,v
+    │   │   │   ├── sound_wrapper.h,v
+    │   │   │   ├── subp_card.cpp,v
+    │   │   │   ├── subp_card.h,v
+    │   │   │   ├── subp_fifo_control_arm7.cpp,v
+    │   │   │   ├── subp_fifo_control_arm7.h,v
+    │   │   │   ├── subp_os.cpp,v
+    │   │   │   ├── subp_os.h,v
+    │   │   │   ├── subp_pull_ctrdg.cpp,v
+    │   │   │   ├── subp_pull_ctrdg.h,v
+    │   │   │   ├── subp_spi.cpp,v
+    │   │   │   ├── subp_spi.h,v
+    │   │   │   ├── touch_panel.cpp,v
+    │   │   │   └── touch_panel.h,v
+    │   │   ├── ext_comm.cpp,v
+    │   │   ├── ext_comm.h,v
+    │   │   ├── ext_comm_info.h,v
+    │   │   ├── Help/
+    │   │   │   ├── Attic/
+    │   │   │   │   ├── changeskin.html,v
+    │   │   │   │   ├── compatiblity.html,v
+    │   │   │   │   ├── copyright.html,v
+    │   │   │   │   ├── debugprint.html,v
+    │   │   │   │   ├── ensata.chm,v
+    │   │   │   │   ├── ensata_jp.chm,v
+    │   │   │   │   ├── execute.html,v
+    │   │   │   │   ├── fileopen.html,v
+    │   │   │   │   ├── gbe.chm,v
+    │   │   │   │   ├── gbe.hhc,v
+    │   │   │   │   ├── gbe.hhp,v
+    │   │   │   │   ├── getstart.html,v
+    │   │   │   │   ├── index.html,v
+    │   │   │   │   ├── limitation.html,v
+    │   │   │   │   ├── memorydump.html,v
+    │   │   │   │   ├── playgame.html,v
+    │   │   │   │   ├── Readme.txt,v
+    │   │   │   │   ├── Readme_jp.txt,v
+    │   │   │   │   ├── rendering.html,v
+    │   │   │   │   ├── requirement.html,v
+    │   │   │   │   ├── toc.html,v
+    │   │   │   │   └── welcome.html,v
+    │   │   │   └── images/
+    │   │   │       └── Attic/
+    │   │   │           ├── activation.gif,v
+    │   │   │           ├── DebugPrint.gif,v
+    │   │   │           ├── dirkey_down.gif,v
+    │   │   │           ├── dirkey_left.gif,v
+    │   │   │           ├── dirkey_right.gif,v
+    │   │   │           ├── dirkey_up.gif,v
+    │   │   │           ├── ensata_folder.gif,v
+    │   │   │           ├── frame_step_button.gif,v
+    │   │   │           ├── iris_logo.gif,v
+    │   │   │           ├── iris_logo.psd,v
+    │   │   │           ├── MemoryDump.gif,v
+    │   │   │           ├── popupmenu.gif,v
+    │   │   │           ├── reset_button.gif,v
+    │   │   │           ├── run_button.gif,v
+    │   │   │           ├── step_button.gif,v
+    │   │   │           ├── stop_button.gif,v
+    │   │   │           ├── trace_button.gif,v
+    │   │   │           └── update_button.gif,v
+    │   │   ├── HrefStatic.cpp,v
+    │   │   ├── HrefStatic.h,v
+    │   │   ├── IFFromBld.cpp,v
+    │   │   ├── IFFromBld.h,v
+    │   │   ├── IFToBld.cpp,v
+    │   │   ├── IFToBld.h,v
+    │   │   ├── InputData.cpp,v
+    │   │   ├── InputData.h,v
+    │   │   ├── iris.cpp,v
+    │   │   ├── iris.def,v
+    │   │   ├── iris.h,v
+    │   │   ├── iris.rc,v
+    │   │   ├── iris.sln,v
+    │   │   ├── iris.vcproj,v
+    │   │   ├── LcdD3DFrame.cpp,v
+    │   │   ├── LcdD3DFrame.h,v
+    │   │   ├── LcdData.h,v
+    │   │   ├── LcdFrame.cpp,v
+    │   │   ├── LcdFrame.h,v
+    │   │   ├── LcdGDIFrame.cpp,v
+    │   │   ├── LcdGDIFrame.h,v
+    │   │   ├── MMTimer.cpp,v
+    │   │   ├── MMTimer.h,v
+    │   │   ├── OutputLogFile.cpp,v
+    │   │   ├── OutputLogFile.h,v
+    │   │   ├── PerformanceCounter.cpp,v
+    │   │   ├── PerformanceCounter.h,v
+    │   │   ├── plugin_if.cpp,v
+    │   │   ├── plugin_if.h,v
+    │   │   ├── plugins/
+    │   │   │   ├── .cvsignore,v
+    │   │   │   └── Attic/
+    │   │   │       ├── ReadArmElf.dll,v
+    │   │   │       └── ReadSrl.dll,v
+    │   │   ├── PluginSDK.h,v
+    │   │   ├── ReadArmElf/
+    │   │   │   └── Attic/
+    │   │   │       ├── ArmElf.cpp,v
+    │   │   │       ├── ArmElf.h,v
+    │   │   │       ├── ArmElfDef.h,v
+    │   │   │       ├── DebugLog.cpp,v
+    │   │   │       ├── DebugLog.h,v
+    │   │   │       ├── ReadArmElf.cpp,v
+    │   │   │       └── ReadArmElf.h,v
+    │   │   ├── ReadMe.txt,v
+    │   │   ├── ReadNitroRom/
+    │   │   │   ├── Attic/
+    │   │   │   │   └── ReadNitroRm.cpp,v
+    │   │   │   ├── ReadNitroRom.cpp,v
+    │   │   │   └── ReadNitroRom.h,v
+    │   │   ├── Release/
+    │   │   │   └── .cvsignore,v
+    │   │   ├── res/
+    │   │   │   ├── Attic/
+    │   │   │   │   ├── debug.ico,v
+    │   │   │   │   ├── mode_replay.ico,v
+    │   │   │   │   ├── mode_save.ico,v
+    │   │   │   │   ├── nse.ico,v
+    │   │   │   │   ├── NSEditor_preview_icon_16dot.ico,v
+    │   │   │   │   ├── NSEditor_preview_icon_32dot.ico,v
+    │   │   │   │   ├── snapshot.ico,v
+    │   │   │   │   └── tentative.ico,v
+    │   │   │   ├── capture.ico,v
+    │   │   │   ├── debug_frame.ico,v
+    │   │   │   ├── debug_frame_1.ico,v
+    │   │   │   ├── debug_read_rom.ico,v
+    │   │   │   ├── debug_recent_file.ico,v
+    │   │   │   ├── debug_reload.ico,v
+    │   │   │   ├── debug_reset.ico,v
+    │   │   │   ├── debug_run.ico,v
+    │   │   │   ├── debug_step.ico,v
+    │   │   │   ├── debug_stop.ico,v
+    │   │   │   ├── debug_update.ico,v
+    │   │   │   ├── directx.ico,v
+    │   │   │   ├── iris.ico,v
+    │   │   │   ├── iris.manifest,v
+    │   │   │   ├── iris.rc2,v
+    │   │   │   ├── off.bmp,v
+    │   │   │   └── on.bmp,v
+    │   │   ├── resource.h,v
+    │   │   ├── RtcManager.cpp,v
+    │   │   ├── RtcManager.h,v
+    │   │   ├── sha1.cpp,v
+    │   │   ├── sha1.h,v
+    │   │   ├── simple_db/
+    │   │   │   └── Attic/
+    │   │   │       ├── cw_debugger.dll,v
+    │   │   │       └── cw_debugger.exe,v
+    │   │   ├── skins/
+    │   │   │   └── default_skin.bmp,v
+    │   │   ├── snap/
+    │   │   │   └── Attic/
+    │   │   │       └── .cvsignore,v
+    │   │   ├── stdafx.cpp,v
+    │   │   ├── stdafx.h,v
+    │   │   ├── TopWnd.cpp,v
+    │   │   ├── TopWnd.h,v
+    │   │   └── UserResource.h,v
+    │   └── mfclib/
+    │       ├── Attic/
+    │       │   ├── EditCtrl.cpp,v
+    │       │   ├── EditCtrl.h,v
+    │       │   ├── mfclib.rc,v
+    │       │   ├── mfclib.vcproj,v
+    │       │   ├── resource.h,v
+    │       │   └── StdAfx.h,v
+    │       └── res/
+    │           └── Attic/
+    │               ├── bitmap1.bmp,v
+    │               ├── cursor1.cur,v
+    │               ├── EN.ico,v
+    │               └── EN.rc2,v
+    ├── サウンドについて.txt,v
+    └── メジャーバージョン更新時に行う変更.txt,v

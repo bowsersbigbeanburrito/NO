@@ -1,0 +1,90 @@
+muratest/
+├── CVSROOT/
+│   ├── .#checkoutlist
+│   ├── .#commitinfo
+│   ├── .#config
+│   ├── .#cvswrappers
+│   ├── .#editinfo
+│   ├── .#loginfo
+│   ├── .#modules
+│   ├── .#notify
+│   ├── .#rcsinfo
+│   ├── .#taginfo
+│   ├── .#verifymsg
+│   ├── checkoutlist
+│   ├── checkoutlist,v
+│   ├── commitinfo
+│   ├── commitinfo,v
+│   ├── config
+│   ├── config,v
+│   ├── cvswrappers
+│   ├── cvswrappers,v
+│   ├── editinfo
+│   ├── editinfo,v
+│   ├── Emptydir/
+│   ├── history
+│   ├── loginfo
+│   ├── loginfo,v
+│   ├── modules
+│   ├── modules,v
+│   ├── notify
+│   ├── notify,v
+│   ├── rcsinfo
+│   ├── rcsinfo,v
+│   ├── taginfo
+│   ├── taginfo,v
+│   ├── val-tags
+│   ├── verifymsg
+│   └── verifymsg,v
+├── dlltest/
+│   ├── include/
+│   │   ├── a.h,v
+│   │   ├── b.h,v
+│   │   ├── inline.h,v
+│   │   ├── ipaddress.h,v
+│   │   └── osreport.h,v
+│   ├── makefile,v
+│   ├── readme.txt,v
+│   └── src/
+│       ├── a.cpp,v
+│       ├── b.cpp,v
+│       ├── demolib/
+│       │   ├── demo.h,v
+│       │   └── DEMOInit.c,v
+│       ├── osreport.c,v
+│       └── static.c,v
+├── test2/
+│   ├── include/
+│   │   ├── bmp.h,v
+│   │   ├── ipaddress.h,v
+│   │   ├── osreport.h,v
+│   │   └── selectfile2.h,v
+│   ├── makefile,v
+│   ├── readme.txt,v
+│   └── src/
+│       ├── osreport.c,v
+│       └── osreportdemo1.c,v
+├── test4/
+│   ├── include/
+│   │   ├── ipaddress.h,v
+│   │   └── osreport.h,v
+│   ├── makefile,v
+│   ├── readme.txt,v
+│   └── src/
+│       └── Simple/
+│           ├── osreport.c,v
+│           └── smp-light.c,v
+└── test5/
+    ├── dvdroot/
+    │   └── texts/
+    │       ├── test1.txt,v
+    │       └── test2.txt,v
+    ├── include/
+    │   ├── ipaddress.h,v
+    │   └── osreport.h,v
+    ├── makefile,v
+    ├── readme.txt,v
+    └── src/
+        └── Simple/
+            ├── osreport.c,v
+            └── smp-light.c,v

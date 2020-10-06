@@ -1,0 +1,2494 @@
+{
+    ".": {
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:10:06",
+            "size": "1.0KB",
+            "md5": "34bb741e080669bb56c7180b0cacd9ef",
+            "sha256": "30afc6b0ff0b2baa3a1e78b2d84942d63d7266c6c4ad82ad44390c40be8c2024"
+        },
+        "RELNOTES": {
+            "modified": "1997-04-27 16:10:06",
+            "size": "14.64KB",
+            "md5": "26eb7b01c4a239093abaecb195ccf0bf",
+            "sha256": "dde9a225bc1375108e3c301e3bf9a37ddf55ae8122ecb58cc6055aeb5a6fb993"
+        },
+        "RELNOTES.RSP_AUDIO": {
+            "modified": "1997-04-27 16:10:06",
+            "size": "0.42KB",
+            "md5": "32bd0073c167003878188e36ef61c239",
+            "sha256": "b20f218f8a07fcd89941d13d2c762d04dccd0b596bd4fd86ca55c4281553d86d"
+        },
+        "RELNOTES.RSP_DEV": {
+            "modified": "1997-04-27 16:10:06",
+            "size": "1.02KB",
+            "md5": "176eb6f6fdae6b292aa5a266533db51f",
+            "sha256": "18e05a260347dc96cc47c1acfa11ff319c01be2fa7e114b3b5f93970a7e36038"
+        },
+        "RELNOTES.RSP_GFX": {
+            "modified": "1997-04-27 16:10:06",
+            "size": "0.44KB",
+            "md5": "770b15fd36709b558dbed021d9591dcd",
+            "sha256": "f19233b66689921e960bef31daae9372e111618794dd5b000672e7b0746d6bff"
+        },
+        "STYLE_STRUCTURE.TXT": {
+            "modified": "1997-04-27 16:10:06",
+            "size": "0.77KB",
+            "md5": "af3ca7156966fce02e65440c6e6ea8f3",
+            "sha256": "db519fb4815f2e0841d0e6e7d3fcac25649d51f4cd0fdcbc1a71bb399b5db67d"
+        }
+    },
+    "ABI": {
+        "AADPCMDEC.3P": {
+            "modified": "1997-04-27 16:05:22",
+            "size": "1.83KB",
+            "md5": "d2fd7d589048854d5871a90d460764e6",
+            "sha256": "b8db29801894673893981dc5413d42112b0562cee50de1e309edb5bcab95d077"
+        },
+        "ACLEARBUFFER.3P": {
+            "modified": "1997-04-27 16:05:22",
+            "size": "0.49KB",
+            "md5": "118524582cc6171ee21f87281ea30372",
+            "sha256": "c5ca5cc8409e66de852bae3e7e57e41bee6871421d65528713f789db74a5d48d"
+        },
+        "AENVELOPE.3P": {
+            "modified": "1997-04-27 16:05:22",
+            "size": "1.71KB",
+            "md5": "3147cde0d4b6c2984653867f1a8c7e7b",
+            "sha256": "65a62555d6d4445b4965d4288f935b9723a564892711f3cdc1b4dea2ede037f7"
+        },
+        "ALOADBUFFER.3P": {
+            "modified": "1997-04-27 16:05:22",
+            "size": "0.54KB",
+            "md5": "aa1e859162928396f386cbd2b12116c7",
+            "sha256": "e164d57056c0ab5e26a0742864640f6291768685847b38b9cc5d894360bd3444"
+        },
+        "AMIX.3P": {
+            "modified": "1997-04-27 16:05:22",
+            "size": "1.19KB",
+            "md5": "34658de25f97c780ad8c40e0fd2488a9",
+            "sha256": "2d66f62f1f1452c242f281b766d265cb2416386bab29412b7a21d0cb760e008f"
+        },
+        "APAN.3P": {
+            "modified": "1997-04-27 16:05:22",
+            "size": "1.57KB",
+            "md5": "5b418e2d8034b3325de858c3ba37c6e7",
+            "sha256": "4f4130f69886547b1f082da9ead74411722f14c87a5260a3526e9168bc1b07d2"
+        },
+        "ARESAMPLE.3P": {
+            "modified": "1997-04-27 16:05:22",
+            "size": "1.54KB",
+            "md5": "394521ca5be9817297b7e714f3f299cf",
+            "sha256": "afca587e9e9868d83556397a7d9e45158338c04029665efefdc305fb6aedf3c9"
+        },
+        "AREVERB.3P": {
+            "modified": "1997-04-27 16:05:24",
+            "size": "0.84KB",
+            "md5": "3eaf517330a3cd268167a5cc0f26108d",
+            "sha256": "28eb5b71226fda4f64e8a4caedb2a6a400dceb2d8d76b9bc8665d051c7e27d77"
+        },
+        "ASAVEBUFFER.3P": {
+            "modified": "1997-04-27 16:05:24",
+            "size": "0.53KB",
+            "md5": "c96270a17c07cb893cf325274d49d236",
+            "sha256": "d2d7311918faff9f32f42546652708254343288d5fdb9867d73fce0693fcb24b"
+        },
+        "ASEGMENT.3P": {
+            "modified": "1997-04-27 16:05:24",
+            "size": "0.75KB",
+            "md5": "56014f7a4c8ac4873e4c1aae498ae25a",
+            "sha256": "31e36db60b600219d6ce066afe557cedc04be3ac7f755cb2e185549066ce7009"
+        },
+        "ASETBUFFER.3P": {
+            "modified": "1997-04-27 16:05:24",
+            "size": "0.57KB",
+            "md5": "85bb8e0b68fe6e9db52865b402fffe56",
+            "sha256": "e43523dfa52211981ff120dcfae2792f6e5f50cd018fdaa1bd50c623fd247f99"
+        },
+        "ASETVOLUME.3P": {
+            "modified": "1997-04-27 16:05:24",
+            "size": "0.52KB",
+            "md5": "1661b4c300cee096abc5e0b653532174",
+            "sha256": "10d696dc9ecd0a9762931159628fbb2bb6c1af77849523e1eecf4b4e905cdf7b"
+        },
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:05:24",
+            "size": "0.12KB",
+            "md5": "06517757763ca9937c8e25609a96f42c",
+            "sha256": "43bf9e3350a80567494e883c84fbadaad0806af3efb23d2f93e67ceb2276f886"
+        },
+        "t": {
+            "modified": "1997-04-27 16:05:22",
+            "size": "1.19KB",
+            "md5": "34658de25f97c780ad8c40e0fd2488a9",
+            "sha256": "2d66f62f1f1452c242f281b766d265cb2416386bab29412b7a21d0cb760e008f"
+        },
+        "T.TXT": {
+            "modified": "1999-05-22 19:45:14",
+            "size": "0.0KB",
+            "md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+    },
+    "AUDIO": {
+        "ALAUDIOFRAME.3P": {
+            "modified": "1997-04-27 16:06:02",
+            "size": "1.69KB",
+            "md5": "37ae7b25db107e90604b0c61b0f07f34",
+            "sha256": "e9158823f4686a6c6d3c66260ffc45ac9fea5a27fdfe7870a8d2c58a4972411c"
+        },
+        "ALBNKFNEW.3P": {
+            "modified": "1997-04-27 16:06:02",
+            "size": "1.11KB",
+            "md5": "87a1228f0aab50b9a8982c41b3734fae",
+            "sha256": "9ff6e94520f240ed98916b6212da7f1e7756faccb8ad2541b6d0063af2d5ff44"
+        },
+        "ALCENTS2RATIO.3P": {
+            "modified": "1997-04-27 16:06:04",
+            "size": "0.83KB",
+            "md5": "03d719918e0515e72141156e73c78fe3",
+            "sha256": "8eda6a0c629369e1fbb701b30561aa2272cf25653389a0a5669abe9c37698792"
+        },
+        "ALCLOSE.3P": {
+            "modified": "1997-04-27 16:06:04",
+            "size": "0.54KB",
+            "md5": "5327986731d7e9fe180bd4111007965a",
+            "sha256": "59de3229f5133de2dfaaf7aba51287bdd9b4b957f1f03323e29eb774ab13573c"
+        },
+        "ALCSEQ.3P": {
+            "modified": "1997-04-27 16:06:04",
+            "size": "2.26KB",
+            "md5": "ccf5e2393dea990307f9baf5c0acb899",
+            "sha256": "12ffb8c0aac069f02e57c809c529ed501120a2b8baf9efbe28d4f31c2cb03527"
+        },
+        "ALCSEQGETLOC.3P": {
+            "modified": "1997-04-27 16:06:04",
+            "size": "0.7KB",
+            "md5": "77494768e6c24cdfbc4b66ca401428e4",
+            "sha256": "fbc22eaed555e494483021e46c58d9e86d9868ae93f6184f5cd4897862defa55"
+        },
+        "ALCSEQGETTICKS.3P": {
+            "modified": "1997-04-27 16:06:04",
+            "size": "0.53KB",
+            "md5": "8f574439b0e459cfaf2d05f0c572e067",
+            "sha256": "f2e31d821e51b0c8a6f820a9c445bcc97adfe5b714ab65cf471786a3d810463c"
+        },
+        "ALCSEQNEW.3P": {
+            "modified": "1997-04-27 16:06:04",
+            "size": "0.76KB",
+            "md5": "7271eb30b472aac67125f854098ac8a0",
+            "sha256": "6eece7892ee5cb292d43452161f97913dac4a6298cdbf253e05b38a7253098ae"
+        },
+        "ALCSEQNEWMARKER.3P": {
+            "modified": "1997-04-27 16:06:04",
+            "size": "0.81KB",
+            "md5": "6a529ca1a9ad3437937f2aa6589d61cc",
+            "sha256": "8a2d084954bf24d503c7d88a70bdc69e771ce6bd65eea94345713616a16d210b"
+        },
+        "ALCSEQNEXTEVENT.3P": {
+            "modified": "1997-04-27 16:06:04",
+            "size": "0.76KB",
+            "md5": "d348fe03b29d90a195854596e2cbd74a",
+            "sha256": "f4a8a486b5fb5c105aaa552850ff2b49134e829d037bf606702298c8b08cddcd"
+        },
+        "ALCSEQPLAYER.3P": {
+            "modified": "1997-04-27 16:06:04",
+            "size": "4.7KB",
+            "md5": "397cef946c2510721d17dc4d5a4181a2",
+            "sha256": "007aab0944806056c2c0c02c400ced141232a25cf86f1afc0e3acd14a07dbcd9"
+        },
+        "ALCSEQSECTOTICKS.3P": {
+            "modified": "1997-04-27 16:06:04",
+            "size": "0.74KB",
+            "md5": "ca8f71561ed7800a9ee5ee5421a3fab4",
+            "sha256": "ddb4435e0214e5dc49650fe7e48e135c3d6a30feb1cf97cddffce543806821be"
+        },
+        "ALCSEQSETLOC.3P": {
+            "modified": "1997-04-27 16:06:06",
+            "size": "1.08KB",
+            "md5": "30609a0b3b2c0bc0e9ef15babcad90bc",
+            "sha256": "6c90d5b5cc5797daf5f8b8405a427f05ec7203700ae92cb38998667ce708795b"
+        },
+        "ALCSEQTICKSTOSEC.3P": {
+            "modified": "1997-04-27 16:06:06",
+            "size": "0.71KB",
+            "md5": "13b99d02baa613a1bfcb374c3cd93b8f",
+            "sha256": "182b851b75ef4de398265a068506baf058f1ba4ef798514b95e8a4e7687408f0"
+        },
+        "ALCSPDELETE.3P": {
+            "modified": "1997-04-27 16:06:06",
+            "size": "0.62KB",
+            "md5": "91e114a56384213580cdea42c48637f7",
+            "sha256": "e91b8aec8b06ccd4b9a692c3eb9ebc706c20fb2efd073f70601a271809faddfa"
+        },
+        "ALCSPGETCHANNELPRIORITY.3P": {
+            "modified": "1997-04-27 16:06:06",
+            "size": "0.19KB",
+            "md5": "212e1917ecc79e785898b8ba4d84b14c",
+            "sha256": "c952cbd44b823c143f0b041221ce4ea7afdefe1a08d1d95b7e51cbc06d61651c"
+        },
+        "ALCSPGETCHLFXMIX.3P": {
+            "modified": "1997-04-27 16:06:06",
+            "size": "0.85KB",
+            "md5": "da90612dde4512a26bf3518aeaaaf28c",
+            "sha256": "c5e1e400b5cd2ea78c35f48142fe6c073308ed5a9c87340d28a912e43f3f7e10"
+        },
+        "ALCSPGETCHLPAN.3P": {
+            "modified": "1997-04-27 16:06:06",
+            "size": "0.8KB",
+            "md5": "647c3e593b602b4b5968cbeea3d29df3",
+            "sha256": "134c5365d1c52f871e5524f88747fd4e099d7d1add4672f1552b038966b57ec0"
+        },
+        "ALCSPGETCHLPRIORITY.3P": {
+            "modified": "1997-04-27 16:06:06",
+            "size": "0.79KB",
+            "md5": "12d0302e354b98c41ce16cdc689e211d",
+            "sha256": "8eb4a6fdfb7f9f7c423661271b183fcc9809aaec9fb7642c5810dadd50d830e7"
+        },
+        "ALCSPGETCHLPROGRAM.3P": {
+            "modified": "1997-04-27 16:06:06",
+            "size": "0.87KB",
+            "md5": "e8ec32c40807bf502fd87ff1c8a30688",
+            "sha256": "da75c379c02213ab4424ec75bc0ce9e6517af5ee897a2a655d1d31b58610a5ce"
+        },
+        "ALCSPGETCHLVOL.3P": {
+            "modified": "1997-04-27 16:06:08",
+            "size": "1.02KB",
+            "md5": "9607354ef6ba4e60a878a597fcff6beb",
+            "sha256": "d88225910f7d9163a7b0187c08c209c1d4a8e538db787a35990d1714744f0c13"
+        },
+        "ALCSPGETFXMIX.3P": {
+            "modified": "1997-04-27 16:06:08",
+            "size": "0.16KB",
+            "md5": "aa9fbd9b59caff0e1f9d0f9928115a37",
+            "sha256": "a7a0e617ff5607de63dddf44d9dfc1b0fca62c4449537a6fa546d1e26f507595"
+        },
+        "ALCSPGETPAN.3P": {
+            "modified": "1997-04-27 16:06:08",
+            "size": "0.16KB",
+            "md5": "2d81f67b69d95e9a51e66bb26d8426b1",
+            "sha256": "7dc7c927fcf7033eaf6c7845580bf3241e0a3c37e5548b6824a08b8a9e54c549"
+        },
+        "ALCSPGETPROGRAM.3P": {
+            "modified": "1997-04-27 16:06:08",
+            "size": "0.17KB",
+            "md5": "30221631ea5fab5a86e6361dce091c2e",
+            "sha256": "63da6f73cd90a668f8876a0ea2b652250ff0481a5c43229a21abbb2914d9ecdc"
+        },
+        "ALCSPGETSEQ.3P": {
+            "modified": "1997-04-27 16:06:08",
+            "size": "0.51KB",
+            "md5": "5682338bdc37822bf439648f978cb6f6",
+            "sha256": "9e7486109117bbe673a68d8c63bcd331907da24b01aea9ccaaf91413c44cb289"
+        },
+        "ALCSPGETTEMPO.3P": {
+            "modified": "1997-04-27 16:06:08",
+            "size": "0.74KB",
+            "md5": "8f04219cb09f2fb4dfdf6e76a5790139",
+            "sha256": "618dd57afb79b8415a051320d78bdcfa4b855d82feebadbf63c917a2ca4ec80a"
+        },
+        "ALCSPGETTIME.3P": {
+            "modified": "1997-04-27 16:06:08",
+            "size": "0.15KB",
+            "md5": "cd6a4ce2de58e0e35091aaf016aeb0d3",
+            "sha256": "2541e520a53e45f67f5e3642cc6f75ce67ce1a637d938ca979397462e675ed24"
+        },
+        "ALCSPGETVOL.3P": {
+            "modified": "1997-04-27 16:06:08",
+            "size": "0.9KB",
+            "md5": "b28ab070d5aa492af7a3c3c1a9cbbe17",
+            "sha256": "e5d1423fee97c69f9c3993b3d1be3fc53ddd5c95edf4f31467b64c75c5678f9e"
+        },
+        "ALCSPNEW.3P": {
+            "modified": "1997-04-27 16:06:08",
+            "size": "2.58KB",
+            "md5": "f87a51cafbc7039072a7c6e1dc9e7fda",
+            "sha256": "acd3198d2955dd6f03fe712415d18fde87ddd12a8f4f3d261cd9d2914284d890"
+        },
+        "ALCSPPLAY.3P": {
+            "modified": "1997-04-27 16:06:10",
+            "size": "0.75KB",
+            "md5": "d3adee35fa8ec57ef7ba028cd92dd0b8",
+            "sha256": "e5f6859ea013cdd2d83715918bb51c5f6080c4f2f219ed43cfdbfb6dbc69f3fd"
+        },
+        "ALCSPSENDMIDI.3P": {
+            "modified": "1997-04-27 16:06:10",
+            "size": "1.44KB",
+            "md5": "ceb242dbaaf52d407953c247329e370c",
+            "sha256": "21d4eb5a9aedcaeb20b988dcc6395fc4b4dfbf0ea4b7ea248075ea0112547ade"
+        },
+        "ALCSPSETBANK.3P": {
+            "modified": "1997-04-27 16:06:10",
+            "size": "0.67KB",
+            "md5": "7c9f9fdd42783f6d52fc3838ccdbb3f3",
+            "sha256": "6b25853d2155b07e9878e3f3daaeae1c03e6d893606d743a7ddb901fadad6077"
+        },
+        "ALCSPSETCHANNELPRIORITY.3P": {
+            "modified": "1997-04-27 16:06:10",
+            "size": "0.19KB",
+            "md5": "2135a7cc55ce88ac204a9ac338e38b52",
+            "sha256": "8716929e2d71d0765edcbb02b873bcd7348da677a71cfbf94231061c0fffd1ec"
+        },
+        "ALCSPSETCHLFXMIX.3P": {
+            "modified": "1997-04-27 16:06:10",
+            "size": "0.77KB",
+            "md5": "4385a4d91c7dba42d67f7c0ea1f7ba93",
+            "sha256": "df2407edfe9d795c5b2e20dfc70fd4cca9db114cf1a5f2839d5873f505cd1a18"
+        },
+        "ALCSPSETCHLPAN.3P": {
+            "modified": "1997-04-27 16:06:10",
+            "size": "0.75KB",
+            "md5": "c7e2bf36ce5fe351bd9d1c5597dc4cb4",
+            "sha256": "a83597af2e9ecc3aeda5fa467022af6c9911afb5360acd446757f6d82c7c482e"
+        },
+        "ALCSPSETCHLPRIORITY.3P": {
+            "modified": "1997-04-27 16:06:10",
+            "size": "0.67KB",
+            "md5": "6f9d3ab8f9e8a982bf5caf90c3064cb1",
+            "sha256": "d00713711f7bb22a4c999e08427800b6d4d238dfb45afad9478dcf48a73debd6"
+        },
+        "ALCSPSETCHLPROGRAM.3P": {
+            "modified": "1997-04-27 16:06:10",
+            "size": "0.8KB",
+            "md5": "224c4ad8cbd7bee9a4e01dcc1b652e18",
+            "sha256": "f15a5107c0a7bab0c40913dd4e4584768cfce37fa384e53988f42be03e67cb80"
+        },
+        "ALCSPSETCHLVOL.3P": {
+            "modified": "1997-04-27 16:06:10",
+            "size": "0.89KB",
+            "md5": "f95f674317895fc85cb61e7592b42a4c",
+            "sha256": "71d57aab95e6e60ae6b763b4899ff235a65f47485415796c02848e3bb0080978"
+        },
+        "ALCSPSETFXMIX.3P": {
+            "modified": "1997-04-27 16:06:12",
+            "size": "0.16KB",
+            "md5": "a9e02b64dced671f87531170807671b0",
+            "sha256": "5268a7dae81e7554bb94a3231a8ecfbcaaf84eacfb31a80970fcbdd5ed71e0c7"
+        },
+        "ALCSPSETPAN.3P": {
+            "modified": "1997-04-27 16:06:12",
+            "size": "0.16KB",
+            "md5": "9614f34507f68e5c6ca850aaaf483234",
+            "sha256": "4b7e1cc90330f3d53103a68d0a279adbf21d4b3f9bc21bddc660457838dbe036"
+        },
+        "ALCSPSETPROGRAM.3P": {
+            "modified": "1997-04-27 16:06:12",
+            "size": "0.17KB",
+            "md5": "03ff5594fb4088dc8e5af89654aa9546",
+            "sha256": "b1db1d6448d08d0b6838164bdc3f7cc79a42f995ab53b2469503897c35723b19"
+        },
+        "ALCSPSETSEQ.3P": {
+            "modified": "1997-04-27 16:06:12",
+            "size": "1.13KB",
+            "md5": "29c647682267c1fd4309df71750f22e5",
+            "sha256": "d0196300a85bde484354e269299aa18084e60738225c8007f5a0a9f259f87368"
+        },
+        "ALCSPSETTEMPO.3P": {
+            "modified": "1997-04-27 16:06:12",
+            "size": "0.6KB",
+            "md5": "c34a325d7538141828ed4b864b106a40",
+            "sha256": "ab968aa37afdb5b602debcf4dbc764d0e9160319754d011b05c595fa0ae37be8"
+        },
+        "ALCSPSETTIME.3P": {
+            "modified": "1997-04-27 16:06:12",
+            "size": "0.15KB",
+            "md5": "75b16926718f34818b9537c40e725eb6",
+            "sha256": "d7181b7b1e8d800338e754e89e2729826b7e0b0a71376144b5e89559bca2f6fa"
+        },
+        "ALCSPSETVOL.3P": {
+            "modified": "1997-04-27 16:06:12",
+            "size": "0.63KB",
+            "md5": "ecacb8377109d3349398280d888a7246",
+            "sha256": "2cedc86a1979fb6ff8930df5e4e68f588f5fe7600a9112ad09177e003d9c6de1"
+        },
+        "ALCSPSTOP.3P": {
+            "modified": "1997-04-27 16:06:12",
+            "size": "0.54KB",
+            "md5": "e2188cb9aa96a1c73deff6bc9db25281",
+            "sha256": "0812bfd4a4e7ca5906ac430ec43b7f7b41cb79e810ae6fb532f6c1cee3eea3dd"
+        },
+        "ALHEAPALLOC.3P": {
+            "modified": "1997-04-27 16:06:12",
+            "size": "1.12KB",
+            "md5": "4fc6d76363105a3fe22d382d8a8dadf4",
+            "sha256": "e5d8e2265fb2d64a938588c37d41cf2b6507df8fe68a9c35bbaedf0d1175f4c7"
+        },
+        "ALHEAPCHECK.3P": {
+            "modified": "1997-04-27 16:06:14",
+            "size": "0.79KB",
+            "md5": "b0d9ebd3981751b74d11a34d2dd2cc2c",
+            "sha256": "de933975ff1c2e6340fd1e32705cd5421221f88c629774ff9c4cb6252064e018"
+        },
+        "ALHEAPINIT.3P": {
+            "modified": "1997-04-27 16:06:14",
+            "size": "1.59KB",
+            "md5": "c0dc10fac20675063c966fd1f2efc4d8",
+            "sha256": "ffee507620734e0141e4348f868132a82df26dff480ad0a81d862cd49c560fc6"
+        },
+        "ALINIT.3P": {
+            "modified": "1997-04-27 16:06:14",
+            "size": "1.43KB",
+            "md5": "633e0977c42d9e739c7f9eb5168fc835",
+            "sha256": "31399d22ea125390bc51a5d03bcaeeb1cfaaebcda77092250c84db154f7c2cc4"
+        },
+        "ALPARSEABICL.3P": {
+            "modified": "1997-04-27 16:06:14",
+            "size": "0.96KB",
+            "md5": "b5f79b702ba4629c2abbc9036bb83bcc",
+            "sha256": "5fa1e680aa7054f13c274489c6cbf333aadc568217df03cdaff63bd5903fa588"
+        },
+        "ALSEQ.3P": {
+            "modified": "1997-04-27 16:06:14",
+            "size": "1.74KB",
+            "md5": "402a4db5ebccccc9a3ad2052529e0ba2",
+            "sha256": "3d81f86b16e1e77e6f377602d8b6d3d390cfb942fab23c895cb784e6d919deda"
+        },
+        "ALSEQFILENEW.3P": {
+            "modified": "1997-04-27 16:06:14",
+            "size": "1.61KB",
+            "md5": "a146bdd09ecf37fdb5c58bbf76741753",
+            "sha256": "f4e17ce8c8e1df75d4f9edebb546979b05c3769c237ca6eb8a966fa97ef2c4a5"
+        },
+        "ALSEQGETLOC.3P": {
+            "modified": "1997-04-27 16:06:14",
+            "size": "0.6KB",
+            "md5": "ea5fd40b879985db34b305498f1020f5",
+            "sha256": "0f282f6eadb145f794d607c82096c59085a77a9cdbd933f48adbf0a50928493a"
+        },
+        "ALSEQGETTICKS.3P": {
+            "modified": "1997-04-27 16:06:16",
+            "size": "0.5KB",
+            "md5": "9c43e470e1a20fdba01d920b5bc5f22a",
+            "sha256": "a3495693ee486c54657953ea857501af70dc8b4d85ae912a76ce17cd21d6b6a4"
+        },
+        "ALSEQNEW.3P": {
+            "modified": "1997-04-27 16:06:16",
+            "size": "0.88KB",
+            "md5": "fc49cbdb89e13e4d2055cf8f01d1e787",
+            "sha256": "c0ffbadb87e40fe7088ba50b52c3493e60dc4d1b895cbdb80890d39f13d71766"
+        },
+        "ALSEQNEWMARKER.3P": {
+            "modified": "1997-04-27 16:06:16",
+            "size": "0.72KB",
+            "md5": "072c19e91853566aa4ae0619722c4f4c",
+            "sha256": "43d04be6046a8e8edf79c872b1ba75ab6c5c8131e68a7afb5c33aad54ab5f681"
+        },
+        "ALSEQNEXTEVENT.3P": {
+            "modified": "1997-04-27 16:06:16",
+            "size": "0.72KB",
+            "md5": "5a085546fd6c255a1685a8dd9273e75b",
+            "sha256": "a4b444044f8cd07fe419a04a47399039356392383b0142e739cc61c65b999af4"
+        },
+        "ALSEQPDELETE.3P": {
+            "modified": "1997-04-27 16:06:16",
+            "size": "0.6KB",
+            "md5": "b163a3617097cc5547ed2401d165b4f4",
+            "sha256": "8be4928ba4efd932a2f8144e67f4e20414598015e4302dd5eb2b8ef7b26610f0"
+        },
+        "ALSEQPGETCHANNELPRIORITY.3P": {
+            "modified": "1997-04-27 16:06:16",
+            "size": "0.19KB",
+            "md5": "f10ba391d6b02dd9b43d0e2b9ccfee76",
+            "sha256": "12b6f26615587b4bb81da412739c6ca1c6f26437b4b5086abec9a1d7255214d6"
+        },
+        "ALSEQPGETCHLFXMIX.3P": {
+            "modified": "1997-04-27 16:06:16",
+            "size": "0.87KB",
+            "md5": "4125c4fc5de6d4ad361fb2a9a44380f2",
+            "sha256": "5f17fc627811ac8184db1c0144320a56fce218b51ca0a620732304452cc805ae"
+        },
+        "ALSEQPGETCHLPAN.3P": {
+            "modified": "1997-04-27 16:06:16",
+            "size": "0.82KB",
+            "md5": "6b5be103abf8d27f87e6b90bf38470d4",
+            "sha256": "842be7e76190a92007bdc9b54c9fb7dfdb2d8bcbb3007cde35abde23af3c381f"
+        },
+        "ALSEQPGETCHLPRIORITY.3P": {
+            "modified": "1997-04-27 16:06:16",
+            "size": "0.81KB",
+            "md5": "7df00ac43b86d5cb66ed9844b8de95c7",
+            "sha256": "1f0f91a9cf1366e88ba18ab5b8bb623ec381dbd3d56da0ad44de1f6e78a3d9f9"
+        },
+        "ALSEQPGETCHLPROGRAM.3P": {
+            "modified": "1997-04-27 16:06:18",
+            "size": "0.88KB",
+            "md5": "fd31988e37651dd87024fae1d758b117",
+            "sha256": "afb5717ff87ee0fcf9d11828e4b444113d709835e18db8ee3d79fc7594f599eb"
+        },
+        "ALSEQPGETCHLVOL.3P": {
+            "modified": "1997-04-27 16:06:18",
+            "size": "1.03KB",
+            "md5": "897a7a39b8f6182c73552b873950ad14",
+            "sha256": "0e4b084570457faeb451e752ec4dd2190bcf757996f53277541526504e5e5c4b"
+        },
+        "ALSEQPGETFXMIX.3P": {
+            "modified": "1997-04-27 16:06:18",
+            "size": "0.17KB",
+            "md5": "e74941572c8bcdee67392011ebd9c20a",
+            "sha256": "8b9231e66ceaaaf890332b2365ff3bd2564a870dc9991772ae0383941cbc9062"
+        },
+        "ALSEQPGETPAN.3P": {
+            "modified": "1997-04-27 16:06:18",
+            "size": "0.16KB",
+            "md5": "957770b7e306245b60f33d1795732650",
+            "sha256": "6a5a5a2cecec47d54d74b226be5fb1b9fca907da207200c6e3896eaa1c8385bd"
+        },
+        "ALSEQPGETPROGRAM.3P": {
+            "modified": "1997-04-27 16:06:18",
+            "size": "0.18KB",
+            "md5": "7146562cd032471f67c095fa4d827d1e",
+            "sha256": "b2348de47c41a76d47b9060971a685712a2f65e0361abb14ddb7988bd58fce14"
+        },
+        "ALSEQPGETSEQ.3P": {
+            "modified": "1997-04-27 16:06:18",
+            "size": "0.49KB",
+            "md5": "a792a669909bbe5d7882e52dd967248e",
+            "sha256": "83f91f56903536d7f895d8a41a4f3caea64600c49be7a746dbb4379b88628707"
+        },
+        "ALSEQPGETTEMPO.3P": {
+            "modified": "1997-04-27 16:06:18",
+            "size": "0.75KB",
+            "md5": "33f0d0095e63aae17561e7bce8cff103",
+            "sha256": "640cd7a2ecd846277a0efc746d6aaefee794134d9afb1f25cf775184df18d746"
+        },
+        "ALSEQPGETTIME.3P": {
+            "modified": "1997-04-27 16:06:18",
+            "size": "0.15KB",
+            "md5": "3b3debfee50a5abedcb3afad36b950ba",
+            "sha256": "81b60c5b7cef256090e73cb41a40cb434457b6e66085d9944ed31903fcb1eaff"
+        },
+        "ALSEQPGETVOL.3P": {
+            "modified": "1997-04-27 16:06:18",
+            "size": "0.92KB",
+            "md5": "94e198b274085b6ac34bb25e2505febe",
+            "sha256": "172dd687c244f86135b429c049545f4cfbab284c55a87eb24c040a97e33ef0a3"
+        },
+        "ALSEQPLAYER.3P": {
+            "modified": "1997-04-27 16:06:20",
+            "size": "4.85KB",
+            "md5": "75a580ea9105965470b479bf6135e17f",
+            "sha256": "57e75dd8491bf200899525c8d9decfbe15d61489401d5835bdc585d6ae3fa047"
+        },
+        "ALSEQPLOOP.3P": {
+            "modified": "1997-04-27 16:06:20",
+            "size": "2.13KB",
+            "md5": "b4a54db0a38d488bca0762bf99c5c8a1",
+            "sha256": "97a6409cb5f95a104fe6a4f2808631e672ab3b1faeb9a4deac3e53230a798492"
+        },
+        "ALSEQPNEW.3P": {
+            "modified": "1997-04-27 16:06:20",
+            "size": "2.52KB",
+            "md5": "ad81af72e8b76ebeca9933c3a59b6916",
+            "sha256": "71528951f58c7bf8795c466b0a146c6f73b92572176ef9701d4f374ee8eb84d4"
+        },
+        "ALSEQPPLAY.3P": {
+            "modified": "1997-04-27 16:06:20",
+            "size": "0.55KB",
+            "md5": "ef39ca4c8c3cecd31625f2502296f95d",
+            "sha256": "87e5a5526d08340bb63bd77cdbbabed6ec0ae1d4cb0763c07a911aad88a0dbac"
+        },
+        "ALSEQPSENDMIDI.3P": {
+            "modified": "1997-04-27 16:06:20",
+            "size": "1.41KB",
+            "md5": "0719814ffd655d4c793ff0c7b13b92f8",
+            "sha256": "e4ab0e327cfda4f4372b50941b53853c4ec7f1869bc7b88857e0e31bc7f8c481"
+        },
+        "ALSEQPSETBANK.3P": {
+            "modified": "1997-04-27 16:06:20",
+            "size": "0.67KB",
+            "md5": "b8f512acdcd8a61ff773944dc0a26ca6",
+            "sha256": "4748701a2aa150126e151ae55b8034bf4dc13ecfb7b44846b37140e8b2c5b6da"
+        },
+        "ALSEQPSETCHANNELPRIORITY.3P": {
+            "modified": "1997-04-27 16:06:20",
+            "size": "0.2KB",
+            "md5": "3605a7f6f5f475b17d2f37f2e2e95c56",
+            "sha256": "1da81da1e3edf39ae37accf69b27ef42d2b07eace28db5d5a8ef8018e5592bb4"
+        },
+        "ALSEQPSETCHLFXMIX.3P": {
+            "modified": "1997-04-27 16:06:20",
+            "size": "0.78KB",
+            "md5": "77bf1e0c28a9d887e92d353816a0aa8d",
+            "sha256": "03099d25592903d4cdfc047a0c59bd7915ceda3f810e28cfb621e3e20b4c9a66"
+        },
+        "ALSEQPSETCHLPAN.3P": {
+            "modified": "1997-04-27 16:06:22",
+            "size": "0.76KB",
+            "md5": "83c8ee052b897f34f6ec79bd74d44635",
+            "sha256": "714e5a57f8088e21baff641ba50edda48b57f1f871e8cafb3a3336307b8f7137"
+        },
+        "ALSEQPSETCHLPRIORITY.3P": {
+            "modified": "1997-04-27 16:06:22",
+            "size": "0.65KB",
+            "md5": "523cdb48e0a775fb72321904fe4b13e5",
+            "sha256": "2e74ece3d7b6476fbe3da730908cbf7ddfb3117c7ad9333608dbdb4cb085698f"
+        },
+        "ALSEQPSETCHLPROGRAM.3P": {
+            "modified": "1997-04-27 16:06:22",
+            "size": "0.81KB",
+            "md5": "203440ffff54d2c5d75bcd3f5033e637",
+            "sha256": "fe85eafd50f5a3aa183dbea59a357e31936d157386091b39f22f1dd02d098950"
+        },
+        "ALSEQPSETCHLVOL.3P": {
+            "modified": "1997-04-27 16:06:22",
+            "size": "0.9KB",
+            "md5": "fa6dd83d36e452fd27d0b639854aeb94",
+            "sha256": "1690f9ac449574eadd7401cff440170f0411d484da81913b90169fdbab441847"
+        },
+        "ALSEQPSETFXMIX.3P": {
+            "modified": "1997-04-27 16:06:22",
+            "size": "0.17KB",
+            "md5": "1b91963de9022147cb6463bec442da22",
+            "sha256": "8b5aa194f731ac73e4b7670900efa6cfc17f692bcadd7cb6822d481b1fbd4bee"
+        },
+        "ALSEQPSETPAN.3P": {
+            "modified": "1997-04-27 16:06:22",
+            "size": "0.16KB",
+            "md5": "8a6536e15c45cb112a7b0d048651185d",
+            "sha256": "2d06de09862ec60c5a05c9c12f8c3a181ebd10483a94a727024d23fd1724fa15"
+        },
+        "ALSEQPSETPROGRAM.3P": {
+            "modified": "1997-04-27 16:06:22",
+            "size": "0.18KB",
+            "md5": "adfbeeaf75fead8dd96b03b946a1807b",
+            "sha256": "debbf7c1947403f08dfb3834dfab84b6654f5a4a9c78a8f420f8efb6f622058e"
+        },
+        "ALSEQPSETSEQ.3P": {
+            "modified": "1997-04-27 16:06:24",
+            "size": "1.07KB",
+            "md5": "2276d7047e2073ba0971f70babd88fbf",
+            "sha256": "b3cbb8c296dbf9a1094fa7a63257d41df4647ac236cdbed0d559020ea3dd9deb"
+        },
+        "ALSEQPSETTEMPO.3P": {
+            "modified": "1997-04-27 16:06:24",
+            "size": "0.6KB",
+            "md5": "6d5812b283b4fac1b3c75915db112a60",
+            "sha256": "b7185cdf86a16e18f088780a9fa54e026e49acaba9cb717814673c928b500899"
+        },
+        "ALSEQPSETTIME.3P": {
+            "modified": "1997-04-27 16:06:24",
+            "size": "0.16KB",
+            "md5": "4dcaf2ed66479aee9556cb3fb6cb6bbd",
+            "sha256": "68d9f8ad7ae6e5be44af8481c087e9dcd1596b5215fd096238b7aa6ae5d5933d"
+        },
+        "ALSEQPSETVOL.3P": {
+            "modified": "1997-04-27 16:06:24",
+            "size": "0.64KB",
+            "md5": "e4f1bbb5315b7bbc1b346bd3601cbd88",
+            "sha256": "0d5b90dae2aba939aa6cb6970112e5e27a565cd8927b1e5da2aa17ac560e6eb1"
+        },
+        "ALSEQPSTOP.3P": {
+            "modified": "1997-04-27 16:06:24",
+            "size": "0.51KB",
+            "md5": "f71b2452ceda7a2870ace60ed86f8089",
+            "sha256": "4fb44fe9a0ce1b65cee05bcd9b29f248c7f293802374fd2ace45a7e31f814c72"
+        },
+        "ALSEQSECTOTICKS.3P": {
+            "modified": "1997-04-27 16:06:24",
+            "size": "0.73KB",
+            "md5": "35d15e561fe8a36f0f3357c8f6161b09",
+            "sha256": "7b18fc1543764c14534dfba4748eb55b5f5d62d65973f14bc05ad29c92a306c6"
+        },
+        "ALSEQSETLOC.3P": {
+            "modified": "1997-04-27 16:06:24",
+            "size": "1.01KB",
+            "md5": "1631136b63d98ea32058269e0903c81b",
+            "sha256": "5c029b05f5cb798698f246e717ad34980a2d30c94ef3e790c8cb2e45c4cfd622"
+        },
+        "ALSEQTICKSTOSEC.3P": {
+            "modified": "1997-04-27 16:06:24",
+            "size": "0.7KB",
+            "md5": "72dcfb12b9c2a85f83534baaa074e61a",
+            "sha256": "dc7e092dd7a9a20d1b62f8e84c6d534e9920501ffde32c3d04702796964719c6"
+        },
+        "ALSNDPALLOCATE.3P": {
+            "modified": "1997-04-27 16:06:26",
+            "size": "0.67KB",
+            "md5": "c7cc578a2e9bca8477b0491ad268a49e",
+            "sha256": "3626252e4e9c28df426fdea1e20b8367a621ba04f95c7ef6192de0eb8b8fc94f"
+        },
+        "ALSNDPDEALLOCATE.3P": {
+            "modified": "1997-04-27 16:06:26",
+            "size": "0.87KB",
+            "md5": "0e84af8f120488510b7bddb213d1d922",
+            "sha256": "316f32609e94b34d26c9a1088274b7beb49af96b68a32d95c05bbe89bc3369d9"
+        },
+        "ALSNDPDELETE.3P": {
+            "modified": "1997-04-27 16:06:26",
+            "size": "0.46KB",
+            "md5": "1e40e044811b5b174f8b474bc6b632fd",
+            "sha256": "74d581406b8c8728368d2af0cfecd56a1b3707039f5b5d6aff2c5e27311eba71"
+        },
+        "ALSNDPGETSOUND.3P": {
+            "modified": "1997-04-27 16:06:26",
+            "size": "0.47KB",
+            "md5": "0a44e6a87ecf2d574a7c5416593b524e",
+            "sha256": "4e5b6e15f96d5a696db5b0bbfbdcb23ccb53feef082b73aad8caed3e32132615"
+        },
+        "ALSNDPGETSTATE.3P": {
+            "modified": "1997-04-27 16:06:26",
+            "size": "0.74KB",
+            "md5": "f5e7f67b88e0a2180249e58802581f61",
+            "sha256": "20f2974ae66b1bace7eb9860d964104d8e1d298a6d1ec7d3fbbad50945840c96"
+        },
+        "ALSNDPHEAPSIZE.3P": {
+            "modified": "1997-04-27 16:06:26",
+            "size": "0.15KB",
+            "md5": "d22867a986ad6bd5aa05c0d890829303",
+            "sha256": "88f20e2c9cfa87181c7cc2eae0d9820283be67b51d69b46039d579ae2106493d"
+        },
+        "ALSNDPNEW.3P": {
+            "modified": "1997-04-27 16:06:26",
+            "size": "0.99KB",
+            "md5": "372c93a0873a7d7a4f2a037f807afe23",
+            "sha256": "83c8d43807ad60f14d05ff963bf2508e4bb991f386c7321922f72bfc6c611aec"
+        },
+        "ALSNDPPLAY.3P": {
+            "modified": "1997-04-27 16:06:26",
+            "size": "0.55KB",
+            "md5": "78639888beed3b5ab0330ccc0bcce145",
+            "sha256": "f636e3c8b3ae4a31d8c0c362b4b9c0547f3571da5d9a4346ab9a63468cb3e775"
+        },
+        "ALSNDPPLAYAT.3P": {
+            "modified": "1997-04-27 16:06:28",
+            "size": "0.73KB",
+            "md5": "b27ff3c229389efedba97b24efc3ed8e",
+            "sha256": "5ff6d0df27593cacb46bd9b2f60ab2981b484412c046b7106ebd128bc08dc473"
+        },
+        "ALSNDPSETFXMIX.3P": {
+            "modified": "1997-04-27 16:06:28",
+            "size": "0.82KB",
+            "md5": "320930e0c97d3ea9128c0e2da17e1458",
+            "sha256": "0fe56ba567e829198bdce1c523f04fe534becabf650fa130f441d141d47c93ea"
+        },
+        "ALSNDPSETPAN.3P": {
+            "modified": "1997-04-27 16:06:28",
+            "size": "0.92KB",
+            "md5": "2899e1802f8df0e35a533523cf124433",
+            "sha256": "dbac3d5207226bbf460e5f6b0c38ff175de87bd80dc9fdfe96e632c4df942a9b"
+        },
+        "ALSNDPSETPITCH.3P": {
+            "modified": "1997-04-27 16:06:28",
+            "size": "1.18KB",
+            "md5": "75e04efb3f67c7f009277e8e885db657",
+            "sha256": "04c8f4f9e24ffc6d1072ebea2efde308f7cde134fdd1ae6e9f9994b30029647c"
+        },
+        "ALSNDPSETPRIORITY.3P": {
+            "modified": "1997-04-27 16:06:28",
+            "size": "0.78KB",
+            "md5": "bdb7a9ef9c36fc74d8491a6e95850513",
+            "sha256": "d6518b8b12a1140e043f8bbf1dce8bf31fbfdbb8e784f50b5284221992a71896"
+        },
+        "ALSNDPSETSOUND.3P": {
+            "modified": "1997-04-27 16:06:28",
+            "size": "0.67KB",
+            "md5": "a2a6c49e7989871cf3c1efd8ed6b142f",
+            "sha256": "69f9bfa8c90a97eed5f5cc992858805ac3d14464dbc74cc7c361870d87c4323b"
+        },
+        "ALSNDPSETVOL.3P": {
+            "modified": "1997-04-27 16:06:28",
+            "size": "0.73KB",
+            "md5": "89a9222e9451bb4967f8d1ef2bb0cc36",
+            "sha256": "f421373d29548a35a04110f1fc28c4224900c241b00b564711eb8d14df94e660"
+        },
+        "ALSNDPSTOP.3P": {
+            "modified": "1997-04-27 16:06:28",
+            "size": "0.58KB",
+            "md5": "12cf3fefbe4e340a1b2565bbf219d6f0",
+            "sha256": "d3cc9ac025c141c99403d1abe4c798407e4e423effb358833a34d242ee90ea5f"
+        },
+        "ALSYNADDPLAYER.3P": {
+            "modified": "1997-04-27 16:06:28",
+            "size": "1.11KB",
+            "md5": "c9f1d48838fcdfdcdf37a3ae42a0b57f",
+            "sha256": "4a311636b415a740a0e547e019cfac9b1d96011456e85ac9a207ecd17e676ef3"
+        },
+        "ALSYNALLOCFX.3P": {
+            "modified": "1997-04-27 16:06:30",
+            "size": "1.0KB",
+            "md5": "94b4e64e219d04985c7930c103e23832",
+            "sha256": "27bf5aa5f5472556373f59285647af116616d57d865d8e975e656729c96592fc"
+        },
+        "ALSYNALLOCVOICE.3P": {
+            "modified": "1997-04-27 16:06:30",
+            "size": "1.75KB",
+            "md5": "0acad85ee9433b8369654011ee363647",
+            "sha256": "c8ec29382617f1a927bf6acc4ffff1666036c4a8ea0dfc5d0068990e4a7ace3e"
+        },
+        "ALSYNDELETE.3P": {
+            "modified": "1997-04-27 16:06:30",
+            "size": "0.36KB",
+            "md5": "32eebe5e24e88d82b69ae559f240513d",
+            "sha256": "16cd3b5d81de5426fe34a47b43e5bed74d1b38d50b2861999acf9b235838ca34"
+        },
+        "ALSYNFREEFX.3P": {
+            "modified": "1997-04-27 16:06:30",
+            "size": "0.42KB",
+            "md5": "5226411fe1c0902f08c6852643ef9cd4",
+            "sha256": "6a0efd7c5394d18a880df8af035896263bd35a8df6ffe3e7fb0d16e6451db439"
+        },
+        "ALSYNFREEVOICE.3P": {
+            "modified": "1997-04-27 16:06:30",
+            "size": "0.77KB",
+            "md5": "84676c6b0036a14d395996f34f47e8ca",
+            "sha256": "b8472af77f79b8c4aa8438bca4b30b2763b951116361a7635eeb4a16efff60e8"
+        },
+        "ALSYNGETFXREF.3P": {
+            "modified": "1997-04-27 16:06:30",
+            "size": "0.49KB",
+            "md5": "3c09da54eebf7d2459aa91f8ccea0dbd",
+            "sha256": "e4d817ba8f74283725cc82d4aac6cc683ec55788ccea5397d68c371740166b50"
+        },
+        "ALSYNGETPRIORITY.3P": {
+            "modified": "1997-04-27 16:06:32",
+            "size": "0.44KB",
+            "md5": "a1165a0ac55226d67a6ceffd376d04ee",
+            "sha256": "7bd2844bcc9ee161f19a6b1e77e36284b8bee5da4e1795cf9adc9421eb7ac3e2"
+        },
+        "ALSYNHEAPSIZE.3P": {
+            "modified": "1997-04-27 16:06:32",
+            "size": "0.15KB",
+            "md5": "48bfe81e2590a83942c835388c6ac969",
+            "sha256": "9c98a6dc4740e5001ea6328be36b2172a6ac5d763f0c7c89406866f6f7bd3085"
+        },
+        "ALSYNNEW.3P": {
+            "modified": "1997-04-27 16:06:32",
+            "size": "1.58KB",
+            "md5": "ae6c3fe9ce043f86839a0443a3ba92e7",
+            "sha256": "3e3b93794f42e2cf5e32cee47753fdbac07f92c052e677c1f3e024f6ab064e58"
+        },
+        "ALSYNREMOVEPLAYER.3P": {
+            "modified": "1997-04-27 16:06:32",
+            "size": "0.86KB",
+            "md5": "621cee9f8d73b502ecb0acf3f6827443",
+            "sha256": "7eef9bb45316ced8a022e954736e5d6c88eaec12dcd2349b4aac5efa585f5669"
+        },
+        "ALSYNSETFXMIX.3P": {
+            "modified": "1997-04-27 16:06:32",
+            "size": "0.87KB",
+            "md5": "5afe454c5004641a9175efe99ac465de",
+            "sha256": "3bbc4b37c7ba8f86ce726b0879a40a1fa6f662d04f6a9c2e2918069e23f43fae"
+        },
+        "ALSYNSETFXPARAM.3P": {
+            "modified": "1997-04-27 16:06:32",
+            "size": "5.05KB",
+            "md5": "f071669fc6de672956b4fe873824a5f8",
+            "sha256": "ec7a9b4bcea910e9f62c17e737ec0018a85d0f3d14fb9c19147da59acb3117e1"
+        },
+        "ALSYNSETPAN.3P": {
+            "modified": "1997-04-27 16:06:32",
+            "size": "0.79KB",
+            "md5": "ee64f2d4f59c64ef4448fcda8ddbe8bb",
+            "sha256": "3518405d7426afd687cd4833e5e321439d9a6ee581fafa2576431a6f7df09612"
+        },
+        "ALSYNSETPITCH.3P": {
+            "modified": "1997-04-27 16:06:32",
+            "size": "1.2KB",
+            "md5": "f428b78c49e5cd33c5ce9468d0c04d8e",
+            "sha256": "9756eb515af2259dec3d46be89035692c1eaae583b95af91302199cbaeee4a0e"
+        },
+        "ALSYNSETPRIORITY.3P": {
+            "modified": "1997-04-27 16:06:34",
+            "size": "0.68KB",
+            "md5": "987d72b28b9089f0b09ef7ec0b7fe9ff",
+            "sha256": "1a9d371625564c0331de1061e38094d5d93af31a2fbfdda09c4c96c33f8e2913"
+        },
+        "ALSYNSETVOL.3P": {
+            "modified": "1997-04-27 16:06:34",
+            "size": "0.78KB",
+            "md5": "3571302bfee07ac84f2ac7744b536f15",
+            "sha256": "6cf64056b71755c48c4baf03bd48742d11d6199d4c9452372df194ba2526e64f"
+        },
+        "ALSYNSTARTVOICE.3P": {
+            "modified": "1997-04-27 16:06:34",
+            "size": "2.0KB",
+            "md5": "301843dcf617b6bd5fb667d7d86ceefe",
+            "sha256": "bab8520a0b256d1e59153527fb9201a8b30ffd1d069741a06c6f894dbe575c8b"
+        },
+        "ALSYNSTARTVOICEPARAM.3P": {
+            "modified": "1997-04-27 16:06:34",
+            "size": "2.44KB",
+            "md5": "99a16efb1ee2702a4b4a775f0dd11cd8",
+            "sha256": "b1624893c6175132a9a4442f07ad955bac4bb9a21bef6f97f5cb4a9d05ae5c5c"
+        },
+        "ALSYNSTOPVOICE.3P": {
+            "modified": "1997-04-27 16:06:34",
+            "size": "0.71KB",
+            "md5": "245bc76d6b28e9b201ebbcbd1a883d13",
+            "sha256": "94aa74ecbd3ad7de6f5b48aafba14a6fa2ef241bd495eb519942c7830940d62d"
+        },
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:06:34",
+            "size": "0.12KB",
+            "md5": "06517757763ca9937c8e25609a96f42c",
+            "sha256": "43bf9e3350a80567494e883c84fbadaad0806af3efb23d2f93e67ceb2276f886"
+        }
+    },
+    "DIAGS": {
+        "IDE.1": {
+            "modified": "1997-04-27 16:06:36",
+            "size": "11.36KB",
+            "md5": "ea6a974ee90e3ec9826738ca6d778f48",
+            "sha256": "a40a8947fd7cf36a65bd431d0eadaa2c0971e1ef7b1592915fd235b82886202c"
+        },
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:06:36",
+            "size": "0.12KB",
+            "md5": "06517757763ca9937c8e25609a96f42c",
+            "sha256": "43bf9e3350a80567494e883c84fbadaad0806af3efb23d2f93e67ceb2276f886"
+        },
+        "U64IDE.1": {
+            "modified": "1997-04-27 16:06:36",
+            "size": "11.39KB",
+            "md5": "9e2f83bb26de60ee20cd4d2f95b5994b",
+            "sha256": "63edd05a6ef0caad063092a3ab5e84fcecbf1c27a16005166ecbf628e1643e1c"
+        }
+    },
+    "EM": {
+        "EMDISPLAYBUFFER.3P": {
+            "modified": "1997-04-27 16:06:40",
+            "size": "0.55KB",
+            "md5": "27b00f9f52cf687e27586faef9dfb429",
+            "sha256": "ec5353f1495312c03a89f4da32a1596afeb6dca3d9aebe7f1880f4929752ab4f"
+        },
+        "EMGETCONTROLLER.3P": {
+            "modified": "1997-04-27 16:06:40",
+            "size": "1.22KB",
+            "md5": "f35776127b5930295b68fceaa57b746f",
+            "sha256": "aeb80d306ba3d805ffa87939b28d1c804524fd5be4a4306a5c7b82973e79d951"
+        },
+        "EMGETMOUSESTATE.3P": {
+            "modified": "1997-04-27 16:06:40",
+            "size": "0.94KB",
+            "md5": "f432025179fa0b6ab4cb77723fcc8372",
+            "sha256": "e43d1a9873cce0a7dd9115f8ec6be892cd56795f4346cb0f0b8a93c077040a61"
+        },
+        "EMINITCONTROLLER.3P": {
+            "modified": "1997-04-27 16:06:40",
+            "size": "0.64KB",
+            "md5": "f3b541bab796fcc07555b89bbfb428c6",
+            "sha256": "73200d6d787ed35b5c5b9626dbcb8212b4bb0a83d9407c1bb630a150a7577d6b"
+        },
+        "EMPRINTF.3P": {
+            "modified": "1997-04-27 16:06:40",
+            "size": "0.36KB",
+            "md5": "45dfdf8952eb0484206218f838e72a73",
+            "sha256": "e53b6cd653da1b0bf3d18d749d78f7825d55082013bae2748e225446d757734d"
+        },
+        "EMTASKSTART.3P": {
+            "modified": "1997-04-27 16:06:40",
+            "size": "0.64KB",
+            "md5": "1ad5d3ece7601c60dfceaf06f984a6fc",
+            "sha256": "ec51399db2cfea3088ade4660aa353def2c48f8c7b534c9d3ae31812f81cbbce"
+        },
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:06:40",
+            "size": "0.12KB",
+            "md5": "06517757763ca9937c8e25609a96f42c",
+            "sha256": "43bf9e3350a80567494e883c84fbadaad0806af3efb23d2f93e67ceb2276f886"
+        }
+    },
+    "GBI": {
+        "GDPCLEAROTHERMODE.3P": {
+            "modified": "1997-04-27 16:07:12",
+            "size": "0.53KB",
+            "md5": "e9dd9ab5933a5af973ca6e0ace334647",
+            "sha256": "835aab23682a7380e52d571458811abaaa8d6bafc9d85d72aaba0db0a93b9fa2"
+        },
+        "GDPENDDISPLAYLIST.3P": {
+            "modified": "1997-04-27 16:07:12",
+            "size": "0.54KB",
+            "md5": "a354ef85a59d516653a785e5a3729aac",
+            "sha256": "056f5a936370957edd895d91d24ac1267b0217541a2557de869bec2dd36081e7"
+        },
+        "GDPFILLRECTANGLE.3P": {
+            "modified": "1997-04-27 16:07:12",
+            "size": "4.71KB",
+            "md5": "5b33684501989d669c29ef3804bc5aef",
+            "sha256": "120030cd307ecfa8d8497a5b02a2fb03c8cb9af75d09c13bc1f5ec84b406724d"
+        },
+        "GDPLOADTEXTURE.3P": {
+            "modified": "1997-04-27 16:07:12",
+            "size": "6.44KB",
+            "md5": "43008af588637bd87e6de57aabf656ce",
+            "sha256": "acb50f79d499a6c3b497c49bae955729e3a9d08ab5dc8668bedef2406062ff60"
+        },
+        "GDPLOADTLUT_PAL.3P": {
+            "modified": "1997-04-27 16:07:14",
+            "size": "1.38KB",
+            "md5": "e6a61616552922f1711f876f02285dff",
+            "sha256": "6e2f01294c99f7e50b2726de3b79787b859c654411997d016a57e5b5a2c7ac10"
+        },
+        "GDPNOOPTAG.3P": {
+            "modified": "1997-04-27 16:07:14",
+            "size": "0.7KB",
+            "md5": "0ec0d8b517bacc2a140e7b2859b2e963",
+            "sha256": "f19d7689e5f51f157b02b151b07c3d9f3e82137cf55633a3af300c9fc6dd094e"
+        },
+        "GDPPIPELINEMODE.3P": {
+            "modified": "1997-04-27 16:07:14",
+            "size": "1.87KB",
+            "md5": "f95de2f50cdf78d5da84b833b068b7e0",
+            "sha256": "5093a47e640c9623fbd2b6264daa9e81c52f117f679fbdde64797e2e4e4d0c89"
+        },
+        "GDPSETALPHACOMPARE.3P": {
+            "modified": "1997-04-27 16:07:14",
+            "size": "1.99KB",
+            "md5": "c7327d1deaa35e5cb3b884e5ec452ad5",
+            "sha256": "380413aaca2bbe3b290efa9ebad36cfe3aa6d68fffd98bc548c8cf3385ce34ec"
+        },
+        "GDPSETALPHADITHER.3P": {
+            "modified": "1997-04-27 16:07:14",
+            "size": "1.78KB",
+            "md5": "eea079844d1bdb804d1974be7db96de6",
+            "sha256": "1d70979c8a523081252f2d480040047eb963d1fe65ec460ec8b2398f43519154"
+        },
+        "GDPSETCOLOR.3P": {
+            "modified": "1997-04-27 16:07:14",
+            "size": "5.4KB",
+            "md5": "e2170c192795b2956d2ad30fb12bd07f",
+            "sha256": "e3c9364052028c4c390d0e0d7adcc708f1669066816e8a1decee513429944e8a"
+        },
+        "GDPSETCOLORDITHER.3P": {
+            "modified": "1997-04-27 16:07:14",
+            "size": "1.94KB",
+            "md5": "3ea1d4d0f5bcf1eb8e731372f140ce3f",
+            "sha256": "780e87f60b30598f850480d11466ed1b06c9887eefd9e8bac662cf793ba1b949"
+        },
+        "GDPSETCOMBINEKEY.3P": {
+            "modified": "1997-04-27 16:07:14",
+            "size": "0.48KB",
+            "md5": "e0ab90a2ecd17e7f469a14ea8e6b11e5",
+            "sha256": "be296803bfdddf21710f6241705f59c3a7e976a8255820e534e18a5e856a9a84"
+        },
+        "GDPSETCOMBINEMODE.3P": {
+            "modified": "1997-04-27 16:07:16",
+            "size": "4.59KB",
+            "md5": "3c4c5e9ec8b5165e242b75de79c71d7f",
+            "sha256": "25ef44de902093ccb4e5e5beaa788aa0fa31fb509fd29b7ab8a456238cf87c77"
+        },
+        "GDPSETCONVERT.3P": {
+            "modified": "1997-04-27 16:07:16",
+            "size": "1.88KB",
+            "md5": "0ab0656b4a3641143fe2bb0ecbbac564",
+            "sha256": "afb45033662686fd0ef7dcc579f5ea95cc2df9d8935bbc3adc1efc27a51570a9"
+        },
+        "GDPSETCYCLETYPE.3P": {
+            "modified": "1997-04-27 16:07:16",
+            "size": "0.66KB",
+            "md5": "bfbc44269b44bdc236d83d4280b49000",
+            "sha256": "dc2718a71dd08712a27df07923744e9e6fce40c8f374dd41c3cb786f5bc0694a"
+        },
+        "GDPSETDEPTHSOURCE.3P": {
+            "modified": "1997-04-27 16:07:16",
+            "size": "0.79KB",
+            "md5": "25098d8b155c48bd8524d5c9af55e542",
+            "sha256": "4bbb6abfd713dd62df34475e5aadf3ee82965b998e6fe22a766870857c431f51"
+        },
+        "GDPSETHILITETILE.3P": {
+            "modified": "1997-04-27 16:07:16",
+            "size": "1.25KB",
+            "md5": "8312bd0e7879fb70f5b689da74d294f8",
+            "sha256": "2a112a2c8e76a15591513119cf52bf75b6f217c4a860e01a4f7bed74f9dfaf4f"
+        },
+        "GDPSETIMAGE.3P": {
+            "modified": "1997-04-27 16:07:16",
+            "size": "2.4KB",
+            "md5": "ee8e56e67272e978cdf23f75d7bad40a",
+            "sha256": "cc36e788d919b2176f5428e70c31d2bd26e29aee49cd2c2c09ee30697e69283f"
+        },
+        "GDPSETKEYR.3P": {
+            "modified": "1997-04-27 16:07:16",
+            "size": "1.17KB",
+            "md5": "fe49ccee3496f0d4e80b753ee7a9ef3a",
+            "sha256": "a6d0fa6570de04cafa29dfff5bb485a6857a19d9337b3a2564c2f458c84f9726"
+        },
+        "GDPSETPRIMDEPTH.3P": {
+            "modified": "1997-04-27 16:07:16",
+            "size": "1.19KB",
+            "md5": "0c53101fb71b230eda3841cb74ccf9dc",
+            "sha256": "02e32a58de0a25f34a3a56680720e945d5a1e6b719500f898e884d4327ed69d7"
+        },
+        "GDPSETRENDERMODE.3P": {
+            "modified": "1997-04-27 16:07:18",
+            "size": "5.77KB",
+            "md5": "2840a0e5f042af8a0864c2ebe674e44f",
+            "sha256": "8f9814e601bf913d14950dc599cb0cba22d8dc59255d25c720ddd9bb283a0644"
+        },
+        "GDPSETSCISSOR.3P": {
+            "modified": "1997-04-27 16:07:18",
+            "size": "1.88KB",
+            "md5": "f89a29c4e407349f6347955a585d9da5",
+            "sha256": "360ea13cd2c9b198ecd03765dbf7a4e093491232f7ed1877a64b652fa68fabd7"
+        },
+        "GDPSETTEXTURECONVERT.3P": {
+            "modified": "1997-04-27 16:07:18",
+            "size": "1.04KB",
+            "md5": "b134f3ab4005d6d7a477829f1f31b7a0",
+            "sha256": "f84b42f30ef4d113a88ae1eec24af95deb65b775672e451d8f619bc4aeebc64d"
+        },
+        "GDPSETTEXTUREDETAIL.3P": {
+            "modified": "1997-04-27 16:07:18",
+            "size": "1.01KB",
+            "md5": "4e95c626214294e5846a3735ef58ce15",
+            "sha256": "134e6568a1ade6d0c61e6c120379b4bf6ad6c78d7a22ee7c09469e7d834ceac2"
+        },
+        "GDPSETTEXTUREFILTER.3P": {
+            "modified": "1997-04-27 16:07:18",
+            "size": "0.99KB",
+            "md5": "c5453bd35c14c9e4813bf83fc8d07bb9",
+            "sha256": "b0ba7b18d74ef7e29722ebd8aec1f2e0bab138094f23ff333baa8043e4930947"
+        },
+        "GDPSETTEXTURELOD.3P": {
+            "modified": "1997-04-27 16:07:18",
+            "size": "1.08KB",
+            "md5": "437838032e6d1999df9c94a388b24869",
+            "sha256": "49a6ac9df150fe09442bf67502f02c08bbe47f3522ff1bef19e301ea33862a54"
+        },
+        "GDPSETTEXTURELUT.3P": {
+            "modified": "1997-04-27 16:07:18",
+            "size": "0.89KB",
+            "md5": "7fc176cdb072ff4f68c5d78d378cf19c",
+            "sha256": "4c90be426b788a885e6fa4b81e087ccca44071ff7f3c74eeb5141f784bc0f860"
+        },
+        "GDPSETTEXTUREPERSP.3P": {
+            "modified": "1997-04-27 16:07:18",
+            "size": "0.8KB",
+            "md5": "f06ae7f8382468c03382c7cadac0aba1",
+            "sha256": "ebd13cf97a3fd91660722de247ad5de033779179feb7885a385df1cf46d49f9a"
+        },
+        "GDPSETTILE.3P": {
+            "modified": "1997-04-27 16:07:18",
+            "size": "6.57KB",
+            "md5": "a747e8996df2442ffe7f3b18496efedc",
+            "sha256": "f944ce3a9616d2428bd801a548e45365cad4d3d86e0689963b836064a89a9706"
+        },
+        "GDPSYNC.3P": {
+            "modified": "1997-04-27 16:07:20",
+            "size": "1.88KB",
+            "md5": "bbacdebc335d66c00bed7c8f24c05e62",
+            "sha256": "07e9b5b0702db5b7cc0ae6ba0030f1a648c24e484d223bdb0b0bf66824a1588d"
+        },
+        "GDSPDEFLIGHTS.3P": {
+            "modified": "1997-04-27 16:07:20",
+            "size": "2.53KB",
+            "md5": "144790eda86a7210de129f67e5353c2a",
+            "sha256": "47d8e9885aaa2f00f702323103cb31f69ddab3df5bef162eb47e53462a22ea56"
+        },
+        "GDSPDEFLOOKAT.3P": {
+            "modified": "1997-04-27 16:07:20",
+            "size": "1.14KB",
+            "md5": "61754b3402264a8a7615d42a7e855259",
+            "sha256": "8c15053df23a4c31fb2ec9f9c6e046df5a4b37956d2c26c0f9f9a628f8fef51f"
+        },
+        "GSP1TRIANGLE.3P": {
+            "modified": "1997-04-27 16:07:20",
+            "size": "0.85KB",
+            "md5": "fe5f16ffdbf12acf564c43eec25330cb",
+            "sha256": "286c18a8c9a3c892dfa42e5a09d4dc20572d83ae1a25f1552a1c166709cda471"
+        },
+        "GSPBRANCHLIST.3P": {
+            "modified": "1997-04-27 16:07:20",
+            "size": "0.65KB",
+            "md5": "71ef32b43e70416f011099d60d4410ab",
+            "sha256": "bb00d9843c6814c1e386e0e5fb83608c1c05d48f14fdc3eb923bc82ab852ca43"
+        },
+        "GSPCLIPRATIO.3P": {
+            "modified": "1997-04-27 16:07:20",
+            "size": "2.43KB",
+            "md5": "391a2fc259c092b66778cc72256493c6",
+            "sha256": "945c4bb553c4cd786a2d8118ab08e3f2fa6efe7620a2fcbfa154d4856cee024f"
+        },
+        "GSPCULLDISPLAYLIST.3P": {
+            "modified": "1997-04-27 16:07:22",
+            "size": "3.02KB",
+            "md5": "225685e7599467e98fc61a64d6447322",
+            "sha256": "cf75d0897b0b06570e2b95d11ee39ada52fbbd6373b1093e1ab52431a361a7f9"
+        },
+        "GSPDISPLAYLIST.3P": {
+            "modified": "1997-04-27 16:07:22",
+            "size": "0.96KB",
+            "md5": "28193d00640b0dc21e46ed9bbc9b3616",
+            "sha256": "be93f766193d21088ea9676df2016e1493f96a89e534b9fe9c8a1063d6bf1f8e"
+        },
+        "GSPENDDISPLAYLIST.3P": {
+            "modified": "1997-04-27 16:07:22",
+            "size": "0.61KB",
+            "md5": "fa46de789fe6f1439bf7d1ef774b92c9",
+            "sha256": "3be96fac7e6015567848eb5340f99a9ed6eb44b499b870e266641c20a669efbb"
+        },
+        "GSPFOGPOSITION.3P": {
+            "modified": "1997-04-27 16:07:22",
+            "size": "1.76KB",
+            "md5": "be1f7b70d18b5c1acf2b790de1532f0a",
+            "sha256": "be82771392988eea917d4f176b05a049eb63430ddbd523ac52a17a8111121a35"
+        },
+        "GSPFORCEMATRIX.3P": {
+            "modified": "1997-04-27 16:07:24",
+            "size": "1.71KB",
+            "md5": "df6dd213e30887607a183ddbd309fb40",
+            "sha256": "d982294ce75e82645882736b8c7019aca30b657d8bc9673dd2937dd28f3f25ff"
+        },
+        "GSPGEOMETRYMODE.3P": {
+            "modified": "1997-04-27 16:07:26",
+            "size": "2.12KB",
+            "md5": "e6cf79f635745ec0dc01508f66bc352d",
+            "sha256": "5a62dae56e55ec1a0a70e56c8a69331dd7005938347371f25d1fd8d9a13348cd"
+        },
+        "GSPINSERTMATRIX.3P": {
+            "modified": "1997-04-27 16:07:26",
+            "size": "4.09KB",
+            "md5": "3cedccd3ef8ea018fb0502dd504c7846",
+            "sha256": "e7255337b21742d64f2e538cf1a0a3ed2eb5632390b90a6f38f5e728cb1e0598"
+        },
+        "GSPLIGHT.3P": {
+            "modified": "1997-04-27 16:07:26",
+            "size": "2.67KB",
+            "md5": "1d56ccf375f7a4227acd46c2e7a11dc1",
+            "sha256": "1e2e19677426d77443616b34dfa11a744a166d37dccc41c4c784053e2535c27c"
+        },
+        "GSPLIGHTCOLOR.3P": {
+            "modified": "1997-04-27 16:07:26",
+            "size": "0.88KB",
+            "md5": "0fc88f03deb22a34c22ff23c17b94b73",
+            "sha256": "52d2e1326bd94853d285151fb61ce77a02b0cffea3162bbce2cd81ccd9bf9177"
+        },
+        "GSPLINE3D.3P": {
+            "modified": "1997-04-27 16:07:26",
+            "size": "1.98KB",
+            "md5": "4e539a37884d25c1810fb7cfba9b5953",
+            "sha256": "d1eda60aad891cebf746eb5f4b38c96dcec1c6141ef1889b4adec05f0a9aa43c"
+        },
+        "GSPLOOKAT.3P": {
+            "modified": "1997-04-27 16:07:26",
+            "size": "1.14KB",
+            "md5": "358d0b1a0b3b32237db700885780c0b9",
+            "sha256": "33cea8df9105d43c52af5d5a990db097ee43ed8aa86f64c2daaacfe88e2777bf"
+        },
+        "GSPMATRIX.3P": {
+            "modified": "1997-04-27 16:07:26",
+            "size": "4.74KB",
+            "md5": "b375c0c1d0c23028931a7d422909f409",
+            "sha256": "7b8e72ad2f3880a26ad0d9972ed6fc104ce7d7e155748baef07a39fa6b3d28c9"
+        },
+        "GSPMODIFYVERTEX.3P": {
+            "modified": "1997-04-27 16:07:26",
+            "size": "4.56KB",
+            "md5": "5c6ac55193f5836950f382e4191d050e",
+            "sha256": "7bfa5c019dbab08382a0fac91a7a19aedb24005e1be07fe2b815093d7f71a354"
+        },
+        "GSPNEARCLIP.3P": {
+            "modified": "1997-04-27 16:07:28",
+            "size": "0.46KB",
+            "md5": "34e1f0d41c4b01d999c3d41db235ebb6",
+            "sha256": "e383301db0da23115abb7c39f0540b898919dc3246e3ed429a9e471b9780e166"
+        },
+        "GSPNUMLIGHTS.3P": {
+            "modified": "1997-04-27 16:07:28",
+            "size": "1.24KB",
+            "md5": "1a10756ec7003a370e1973383a434342",
+            "sha256": "95e8f6850b8360be9711b3646363f12811b050692edbaa1b02d59610443f28ee"
+        },
+        "GSPPERSPNORMALIZE.3P": {
+            "modified": "1997-04-27 16:07:28",
+            "size": "0.91KB",
+            "md5": "3a6a148bcb13d9a4206cfeac5e4fe5a9",
+            "sha256": "603f8370b38101ef537495316eb0c7a75a464abd493805682ee1d7e881a4ac56"
+        },
+        "GSPPOPMATRIX.3P": {
+            "modified": "1997-04-27 16:07:28",
+            "size": "0.8KB",
+            "md5": "3b4956dc84ea4ca70b07ed66470dda6d",
+            "sha256": "68bb5e73a9f3cdf8008ed5e6a7effcd3f0807b87bf969b92d10655a037cfcf7f"
+        },
+        "GSPSEGMENT.3P": {
+            "modified": "1997-04-27 16:07:28",
+            "size": "0.82KB",
+            "md5": "6292cba7fb6f293891249a5c30bbdb6e",
+            "sha256": "ff4cf848c3d13e2f16f469241e889530abce587a7ac0fff25fd199e1e4be179b"
+        },
+        "GSPSETLIGHTS.3P": {
+            "modified": "1997-04-27 16:07:28",
+            "size": "1.67KB",
+            "md5": "b1359e727f8107b93abaf2ef649f902b",
+            "sha256": "c9254594bb9bd07f43a8ae8409e52b18b444fbf0b1a7123f71fa3a5f7cd6eaac"
+        },
+        "GSPSETOTHERMODE.3P": {
+            "modified": "1997-04-27 16:07:28",
+            "size": "0.8KB",
+            "md5": "6a71901b63e105dcb304e89f56a271f7",
+            "sha256": "6c1257c5b58c6b8ba444da1b3a0264da925337fb55bf21d79bc99e66cbbf3d42"
+        },
+        "GSPSPRITE2DBASE.3P": {
+            "modified": "1997-04-27 16:07:28",
+            "size": "0.44KB",
+            "md5": "d692f1cb936232da8f8abf459330c679",
+            "sha256": "b36f887eeca0d17f3c0c89c50c5ff2e5ef09dac78b03c0cc5d56d7512a4a49ae"
+        },
+        "GSPSPRITE2DDRAW.3P": {
+            "modified": "1997-04-27 16:07:28",
+            "size": "0.49KB",
+            "md5": "86328acd296b44a728d4328340433410",
+            "sha256": "42f05434dd6789a91a3bb104706b46d2f90eb0cc9f7ad0382e38219a0e9a82dd"
+        },
+        "GSPSPRITE2DSCALEFLIP.3P": {
+            "modified": "1997-04-27 16:07:30",
+            "size": "0.66KB",
+            "md5": "e8a1373634bf69e276fd5d6277233908",
+            "sha256": "98800e514e71a4b451c2c492bfd51bd4260b803f262d5121025b674c90a2e4bb"
+        },
+        "GSPTEXTURE.3P": {
+            "modified": "1997-04-27 16:07:30",
+            "size": "1.96KB",
+            "md5": "4b6738abb67bc499c2c93aa7c2c90607",
+            "sha256": "c3acd95aad99372d41dc5054e455a4e68941de7d9dfe5685916aa291ac1887a8"
+        },
+        "GSPTEXTURERECTANGLE.3P": {
+            "modified": "1997-04-27 16:07:30",
+            "size": "5.98KB",
+            "md5": "8f88216734ca1bbaa260165491d63cd5",
+            "sha256": "d9cb3a7281a2e9c4782721fa858ec353d9b8c6fc6229fdad94de78af6904bf38"
+        },
+        "GSPVERTEX.3P": {
+            "modified": "1997-04-27 16:07:30",
+            "size": "3.82KB",
+            "md5": "88a909de5893f9cac381cf6bdb352536",
+            "sha256": "d5b2da1c1dd596357bd554536e7999eec9622e3d8d7f32515f1613eeb1677d89"
+        },
+        "GSPVIEWPORT.3P": {
+            "modified": "1997-04-27 16:07:30",
+            "size": "1.04KB",
+            "md5": "f35b1b3dfaa0d4358372c7384a06a4e3",
+            "sha256": "576d6b769f2d9fca447cdf71051bdff0af02a8e2334ec147a75b469f628770a7"
+        },
+        "INTRO.3P": {
+            "modified": "1997-04-27 16:07:30",
+            "size": "1.94KB",
+            "md5": "12bb04d8fbd1d04fae7ee97bcbb82a3a",
+            "sha256": "6f46ba9fee3bf01d126895e65331c6c6d0dcc9ce09fdc58c738489c4a3ef637f"
+        },
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:07:30",
+            "size": "0.12KB",
+            "md5": "06517757763ca9937c8e25609a96f42c",
+            "sha256": "43bf9e3350a80567494e883c84fbadaad0806af3efb23d2f93e67ceb2276f886"
+        }
+    },
+    "GSP": {
+        "GSPFAST3D.3P": {
+            "modified": "1997-04-27 16:07:36",
+            "size": "8.12KB",
+            "md5": "898c7435cb10ae46c84897d3c9ad7f84",
+            "sha256": "0fff30083a7ed80403657d3d128b0c4ed07cf4f4f66ca840743ae0820a0675b9"
+        },
+        "GSPLINE3D.3P": {
+            "modified": "1997-04-27 16:07:38",
+            "size": "1.24KB",
+            "md5": "e57756e362b15cc902cb6e22de1511af",
+            "sha256": "e399c29a29572371112942d2d7744c511c1601c71c86c05252f6202fd2f6b5ca"
+        },
+        "GSPSPRITE2D.3P": {
+            "modified": "1997-04-27 16:07:38",
+            "size": "8.42KB",
+            "md5": "12e336c99ce9bd26356bcd900b599c3f",
+            "sha256": "10870f8c2adc515591f56f8a0e71ae26c580b0d0e21df41b199d22d1b9d70e05"
+        },
+        "GSPSUPER3D.3P": {
+            "modified": "1997-04-27 16:07:38",
+            "size": "6.54KB",
+            "md5": "9149a19923e966f7569ae57805eed838",
+            "sha256": "fc9d8f769947a8576e6aa5ebc57311ecf462d31f6cbc77a0c5abbf7f1a96301b"
+        },
+        "GSPTURBO3D.3P": {
+            "modified": "1997-04-27 16:07:38",
+            "size": "10.73KB",
+            "md5": "8906cf31fae75eb4d58aefa0acd86829",
+            "sha256": "749017f4f2eda8200ddec23e9a02ca43d9eb22b5f22799626201efeed32467ca"
+        },
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:07:38",
+            "size": "0.12KB",
+            "md5": "06517757763ca9937c8e25609a96f42c",
+            "sha256": "43bf9e3350a80567494e883c84fbadaad0806af3efb23d2f93e67ceb2276f886"
+        },
+        "RSPBOOT.3P": {
+            "modified": "1997-04-27 16:07:38",
+            "size": "0.72KB",
+            "md5": "d79a6945130d61eac362ea96e4440afc",
+            "sha256": "324564ccb9c7e30db51df66b86d6a74663071a8676c29739a6dc487df8d6a86d"
+        }
+    },
+    "GT": {
+        "GTSTATESETOTHERMODE.3P": {
+            "modified": "1997-04-27 16:07:40",
+            "size": "1.95KB",
+            "md5": "ead8e280905aa4bc1ce8ce703a8db03b",
+            "sha256": "2bfefbbba6866780942ee70df233c6ff89458bf15f65afaf0b87e2b1efc0c23e"
+        },
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:07:40",
+            "size": "0.12KB",
+            "md5": "06517757763ca9937c8e25609a96f42c",
+            "sha256": "43bf9e3350a80567494e883c84fbadaad0806af3efb23d2f93e67ceb2276f886"
+        }
+    },
+    "GU": {
+        "COSF.3P": {
+            "modified": "1997-04-27 16:07:52",
+            "size": "0.61KB",
+            "md5": "6fce179f59264130697d74e562233c36",
+            "sha256": "d793d92a01f33e25f4d65b18df0b738eab009185b087c54f75eceb976ef095ea"
+        },
+        "GUALIGN.3P": {
+            "modified": "1997-04-27 16:07:52",
+            "size": "0.93KB",
+            "md5": "df3374af744838cf0c1688d08a16e0b5",
+            "sha256": "be4aa090f043fd8e3757fa5d505b940e020d0f438c91785ead8938e8fe781212"
+        },
+        "GUDUMPGBIDL.3P": {
+            "modified": "1997-04-27 16:07:52",
+            "size": "0.34KB",
+            "md5": "5d66636de3e612d0b25f8f0837754912",
+            "sha256": "6083051faf4235c2a07083e4dbb381025f8c25b2a60477a2aa5faee1548c8ecd"
+        },
+        "GUFRUSTUM.3P": {
+            "modified": "1997-04-27 16:07:52",
+            "size": "1.09KB",
+            "md5": "591cc8ba684d0cbad6f7269ff4cb4ff3",
+            "sha256": "c7392f07cba2f4fe1b46d9fe18a9350e2b1fa1298770be3cec9a211142ac64e0"
+        },
+        "GUGETDPLOADTEXTURETILESZ.3P": {
+            "modified": "1997-04-27 16:07:52",
+            "size": "1.09KB",
+            "md5": "8f99f023e2ed73bd63946cccdd8604d3",
+            "sha256": "95c6d5de35e87e9857381278a2cd7922e305d2414ca8c61c71a945ba796458bc"
+        },
+        "GULOADTEXTUREBLOCKMIPMAP.3P": {
+            "modified": "1997-04-27 16:07:52",
+            "size": "3.02KB",
+            "md5": "fc8e67220a63830055e3140bd75e53cc",
+            "sha256": "b9894895bdff618b0f81da969c41b54e4ee75c6d802e1683a7a5304ddacb6a06"
+        },
+        "GULOOKAT.3P": {
+            "modified": "1997-04-27 16:07:54",
+            "size": "0.9KB",
+            "md5": "fc7e3e4426319be8f94756570fc822ce",
+            "sha256": "dffb23b2dc83596c393cb65daa112e75a0b044f59109a45da4bb5ad4aee789b4"
+        },
+        "GULOOKATHILITE.3P": {
+            "modified": "1997-04-27 16:07:54",
+            "size": "2.4KB",
+            "md5": "e19885d7f644e85928c6a95fa2c9243b",
+            "sha256": "956387acd60f6262405c1a34e1733f036b69ef2f4513a7cdddb1a1e7f1f44594"
+        },
+        "GULOOKATREFLECT.3P": {
+            "modified": "1997-04-27 16:07:54",
+            "size": "1.47KB",
+            "md5": "dbc243a941eaf9ac9d78ae86bc8bc5ca",
+            "sha256": "75f2593f2dd07419fc2ee1cd2890322e55bbfbccb1a15169c7ccf8b585ee0c18"
+        },
+        "GULOOKATSTEREO.3P": {
+            "modified": "1997-04-27 16:07:54",
+            "size": "1.75KB",
+            "md5": "bd3d7f475c50ee14f4c70093ce561d54",
+            "sha256": "0866822a2a71230c28ab6a9469ba5a7eba6b52b7aba68f736ff17c554555000e"
+        },
+        "GUMTXCATF.3P": {
+            "modified": "1997-04-27 16:07:54",
+            "size": "0.57KB",
+            "md5": "23b6cf0540570b7176acf67532559794",
+            "sha256": "4c1749b63427afe4c2d5dd891120fbeaf425286f448cb43386af8f3e5fa233b9"
+        },
+        "GUMTXCATL.3P": {
+            "modified": "1997-04-27 16:07:54",
+            "size": "0.54KB",
+            "md5": "9ff8b16fdc47a2462f59dfa8c1a0d69e",
+            "sha256": "c5997bac49e73d3a17b2f918b8940b5fa705be2187fbd9f122119e295baaa1f8"
+        },
+        "GUMTXF2L.3P": {
+            "modified": "1997-04-27 16:07:54",
+            "size": "0.41KB",
+            "md5": "bbe2ce8a2c65a8ad51999e349c914502",
+            "sha256": "0c52d7c0b644ed00b97eb4e232e3f47eed576265197f9bec7976a8911c70e78e"
+        },
+        "GUMTXIDENT.3P": {
+            "modified": "1997-04-27 16:07:54",
+            "size": "0.56KB",
+            "md5": "444d2276f8e685dc8804af0e8cc3e443",
+            "sha256": "547512b512869225002c55d0500412a75f0bf13a6abeb65fd3dd80e3b224ada7"
+        },
+        "GUMTXL2F.3P": {
+            "modified": "1997-04-27 16:07:56",
+            "size": "0.41KB",
+            "md5": "f0a1c3da07530de144c4a97715c78420",
+            "sha256": "562b94a5b7274028b4e23a7632c88ed87f92cc4e35edccf73f3b667101f6f97f"
+        },
+        "GUMTXXFMF.3P": {
+            "modified": "1997-04-27 16:07:56",
+            "size": "0.57KB",
+            "md5": "bd2e9fb0d12a54b69e552da75dcfdb50",
+            "sha256": "71ec03e21c15b12b2716d3ab7f925c9361ee0c677113113e5a5634dcb05ee36a"
+        },
+        "GUMTXXFML.3P": {
+            "modified": "1997-04-27 16:07:56",
+            "size": "0.56KB",
+            "md5": "4d4d9d8c4185089059a25eb0a2bd0ed8",
+            "sha256": "6db3eb51f4dd9d25c131aaeff0be87f41059d14364d982bde375e59b5cb1d6d9"
+        },
+        "GUNORMALIZE.3P": {
+            "modified": "1997-04-27 16:07:56",
+            "size": "0.31KB",
+            "md5": "7e72c7c052583a9963b1c9c7cbc8a0b0",
+            "sha256": "f08e35edfb30f853399916f23103b4a97134232640868fc872e93900f6a300de"
+        },
+        "GUORTHO.3P": {
+            "modified": "1997-04-27 16:07:56",
+            "size": "1.71KB",
+            "md5": "6cccca4598d77af28c4c009ff0820092",
+            "sha256": "c36d8ea528a9b410c5a2b1382fbcf58eef01cbbf04e6b362fb61069f99798525"
+        },
+        "GUPARSEGBIDL.3P": {
+            "modified": "1997-04-27 16:07:56",
+            "size": "1.9KB",
+            "md5": "6197c4372146ad82ce2d5a196a9ce091",
+            "sha256": "4feb4dbece83414670aa35c6782695a5c7e7242f27dfa7c7dcda415de7fbbb72"
+        },
+        "GUPARSERDPDL.3P": {
+            "modified": "1997-04-27 16:07:56",
+            "size": "2.82KB",
+            "md5": "cd9bcde750435d105a5b0f52ef3b2ae6",
+            "sha256": "89f200bb260c437122addaf75c1bc30d834435b4ceb50477309608a316bd2f9d"
+        },
+        "GUPERSPECTIVE.3P": {
+            "modified": "1997-04-27 16:07:56",
+            "size": "1.35KB",
+            "md5": "4d3fd89f52e9aec73af706e072652642",
+            "sha256": "381e51078093e1db2d738301e8a563f3645be65a54d35071cc081e083500f311"
+        },
+        "GUPOSITION.3P": {
+            "modified": "1997-04-27 16:07:58",
+            "size": "0.99KB",
+            "md5": "81b3ab20d07620ce89be2cd39daa249b",
+            "sha256": "d660910f22c6aef795d3ac63fbf92d7af87003547de8160f3d796a0bffc19173"
+        },
+        "GUPOSLIGHT.3P": {
+            "modified": "1997-04-27 16:07:58",
+            "size": "2.82KB",
+            "md5": "ccc9dd9248497131bf3a83cdc3d34e2c",
+            "sha256": "31cb9ba1c4652420bcab8d78b50f952badad6bbbc5362c862cec88482adb8f0b"
+        },
+        "GURANDOM.3P": {
+            "modified": "1997-04-27 16:07:58",
+            "size": "0.41KB",
+            "md5": "bb330ebd8f91374163d30e73d406fbf3",
+            "sha256": "38a0386b7c456db9edb0055dcd162244f98d45bc75ea226ebbfc1e8ead7103e0"
+        },
+        "GUROTATE.3P": {
+            "modified": "1997-04-27 16:07:58",
+            "size": "1.02KB",
+            "md5": "3a77e6302002498bb01d141d9b75701c",
+            "sha256": "4b43a869a30e26d9b3b6a79af8732bbc7725da7a4a257cdc775f474a9121cc87"
+        },
+        "GUSCALE.3P": {
+            "modified": "1997-04-27 16:07:58",
+            "size": "0.71KB",
+            "md5": "0063f907db4deefe44e471387903df8f",
+            "sha256": "79b82b76de176d080ccf10932456f7fe8e8f050225b933df358af956f109d801"
+        },
+        "GUSPRITE2DINIT.3P": {
+            "modified": "1997-04-27 16:07:58",
+            "size": "1.04KB",
+            "md5": "de50002776d64e86aa5643db240cc9d7",
+            "sha256": "f25675caecb88b5d3c5e3fec55b6b2b4aa432db8dc1698d1ddd979b083385e71"
+        },
+        "GUTRANSLATE.3P": {
+            "modified": "1997-04-27 16:07:58",
+            "size": "0.75KB",
+            "md5": "6aa702246e9d53b66d31a65184c242a6",
+            "sha256": "d307fd81240927701e5adfd5a001be08d23a823c8f6e13479b6563b51ecaeb77"
+        },
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:07:58",
+            "size": "0.12KB",
+            "md5": "06517757763ca9937c8e25609a96f42c",
+            "sha256": "43bf9e3350a80567494e883c84fbadaad0806af3efb23d2f93e67ceb2276f886"
+        },
+        "SINF.3P": {
+            "modified": "1997-04-27 16:07:58",
+            "size": "0.61KB",
+            "md5": "d8ff80380e3b6918c3d70931ff96c566",
+            "sha256": "2f3e3453b23342fbd0b58ccf1bfa3113f16210f421bb4add22ca9fa7dd616e32"
+        },
+        "SQRTF.3P": {
+            "modified": "1997-04-27 16:08:00",
+            "size": "0.4KB",
+            "md5": "122ef8d90a8e4d5ebdc68b1f67146b0d",
+            "sha256": "f4f95aba26c7e7e162b660e3cda9095880c8356774118aa78572229970f9c2c9"
+        }
+    },
+    "NEWSLETTERS": {
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:08:02",
+            "size": "0.26KB",
+            "md5": "330d214113710133dd30212050ecf7fc",
+            "sha256": "881259af67739fd44bd9aeae612d0290595caae573c6da035bf0470ffd6e6cc9"
+        },
+        "ULTRA_1.0": {
+            "modified": "1997-04-27 16:08:02",
+            "size": "8.19KB",
+            "md5": "360f0001fdcd9e77923040bc49efb920",
+            "sha256": "55072d74ff58bd88c363cd2d1d3d4c17e61a8b2fc898c8cad0fd4514c5a38ef2"
+        },
+        "ULTRA_1.1": {
+            "modified": "1997-04-27 16:08:02",
+            "size": "5.54KB",
+            "md5": "8d8c1888095324823eebcd80a263d01b",
+            "sha256": "9e8cdcca37e985d21d761270b81a8e859644d60cfb88cbf98b93391dba3ab1db"
+        },
+        "ULTRA_1.2": {
+            "modified": "1997-04-27 16:08:02",
+            "size": "11.36KB",
+            "md5": "cab4772ac1fbdcd185bdfcbce78f13a7",
+            "sha256": "cad1ee287809ed1b261740182130467a82fd25b4ff9743dfc3b558158072e52c"
+        }
+    },
+    "OS": {
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:08:22",
+            "size": "0.12KB",
+            "md5": "06517757763ca9937c8e25609a96f42c",
+            "sha256": "43bf9e3350a80567494e883c84fbadaad0806af3efb23d2f93e67ceb2276f886"
+        },
+        "OSAIGETSTATUS.3P": {
+            "modified": "1997-04-27 16:08:22",
+            "size": "2.57KB",
+            "md5": "0e66a8f23f5459631578f19147a3e1cb",
+            "sha256": "7f1a846ce9247eba03d2755c0a64421d4f189d439f137216908fed68f1c681a5"
+        },
+        "OSCONTINIT.3P": {
+            "modified": "1997-04-27 16:08:24",
+            "size": "2.52KB",
+            "md5": "adc696bde63e9281aabbec4bcb7297e5",
+            "sha256": "4611a4cfc3d7e035cdd5eb39f824b97727712426c2243351baad5b2fc57a81d6"
+        },
+        "OSCONTRESET.3P": {
+            "modified": "1997-04-27 16:08:24",
+            "size": "0.62KB",
+            "md5": "f2f990392c17c50a10153fb05c4523ee",
+            "sha256": "c9f536eea3a956f6fd4a232ed5dbecea0638dba776ae00bdde211e648697f7d1"
+        },
+        "OSCONTSETCH.3P": {
+            "modified": "1997-04-27 16:08:24",
+            "size": "0.67KB",
+            "md5": "684f8e1bb56b79eb2a0bef2457024296",
+            "sha256": "6a17890bb5190e3de567d36cfbece09d4e72f3fc822b4ffd0c9f4e4e203909cf"
+        },
+        "OSCONTSTARTQUERY.3P": {
+            "modified": "1997-04-27 16:08:24",
+            "size": "2.67KB",
+            "md5": "487572c4f573150fdab437af32426747",
+            "sha256": "a5b5215b2187d855c46e61cca1a2cf6326a0c0a84e0c0477db5c0f2a1fc746ca"
+        },
+        "OSCONTSTARTREADDATA.3P": {
+            "modified": "1997-04-27 16:08:24",
+            "size": "2.37KB",
+            "md5": "3b57f80e8889c53b7c88a2f9ea3e3cc8",
+            "sha256": "e79ba053037d7ed2eba2134c5207b4aef2abdc3818e64cf6df31f568543a5253"
+        },
+        "OSCREATELOG.3P": {
+            "modified": "1997-04-27 16:08:24",
+            "size": "2.11KB",
+            "md5": "d7c5ff5c029d4463cb64dcbf4d9bee40",
+            "sha256": "5b0cc348d02f8af61890e383c963a73b467e45de7f6e64aa9ad6e0ef6a8013f4"
+        },
+        "OSCREATEMESGQUEUE.3P": {
+            "modified": "1997-04-27 16:08:24",
+            "size": "3.36KB",
+            "md5": "5153e305b6e39d173d5e247193fcf481",
+            "sha256": "593c6ec843a3e193abd6d6424d5f4c02e2dbb0d4152a3535063815c4b8e5970a"
+        },
+        "OSCREATEREGION.3P": {
+            "modified": "1997-04-27 16:08:26",
+            "size": "3.92KB",
+            "md5": "e725d2e884bfdcc3ba10911c5e8ca7b9",
+            "sha256": "babd7cfbf140aa062df88ed5850601b088aa2a0b57ef5176409a7a7db2358e8e"
+        },
+        "OSCREATESCHEDULER.3P": {
+            "modified": "1997-04-27 16:08:26",
+            "size": "1.83KB",
+            "md5": "26ebc1c5916d31d292ecf63e9570c42c",
+            "sha256": "b894a4db5ae3eaef320557ab73fce70b4e0631658decccbb317b46163d5f6bf1"
+        },
+        "OSCREATETHREAD.3P": {
+            "modified": "1997-04-27 16:08:26",
+            "size": "2.92KB",
+            "md5": "2f04a4fd2de9c71f6adb437188a1a453",
+            "sha256": "c17cad50fcfc621b6ef58ed8113671819f592439a8513af5dc2acf45f8b79699"
+        },
+        "OSDPGETCOUNTERS.3P": {
+            "modified": "1997-04-27 16:08:26",
+            "size": "1.47KB",
+            "md5": "232b26e6390170801a42a43543df3ac5",
+            "sha256": "598f0726d4068ebd743fead1647254fc4952777433844f7b8cece40ffe8a67f8"
+        },
+        "OSDPGETSTATUS.3P": {
+            "modified": "1997-04-27 16:08:26",
+            "size": "1.48KB",
+            "md5": "eeb8421231df0a424411940752a9218b",
+            "sha256": "d40413b196db739c36cfe6efadb7605c5cf4d71ac7fd3b4524d18dec8ceef470"
+        },
+        "OSEEPROMLONGREAD.3P": {
+            "modified": "1997-04-27 16:08:26",
+            "size": "1.51KB",
+            "md5": "29d38bf2fc78c2bd8151f1531b77ba0e",
+            "sha256": "e5a75d860f8cc8c02c1c7abba54f4c4fbc4a189616f5e2303dbfb799f7f9754f"
+        },
+        "OSEEPROMPROBE.3P": {
+            "modified": "1997-04-27 16:08:26",
+            "size": "0.78KB",
+            "md5": "a4688d12e13c4c2ae6fd8e66d5e0bbd6",
+            "sha256": "e324bb36e7502ed74d369238d57960f3b2c780eae6902d600a86c6b5aab146e5"
+        },
+        "OSEEPROMREAD.3P": {
+            "modified": "1997-04-27 16:08:28",
+            "size": "1.42KB",
+            "md5": "69e295819d6eb6a2ca9d11ff5714b3c3",
+            "sha256": "92119193dfcb3a79821bc65a3158ee2a25557dc5b6c563073c31cbf57e2a4481"
+        },
+        "OSGETCAUSE.3P": {
+            "modified": "1997-04-27 16:08:28",
+            "size": "2.99KB",
+            "md5": "f94704e246c7ba3b95b1f55a3b57e88e",
+            "sha256": "c6b6a2f35fa61f977b2f4b4e875119cecf767073dc0f9d8f419aac03ea76dc65"
+        },
+        "OSGETCOUNT.3P": {
+            "modified": "1997-04-27 16:08:28",
+            "size": "0.94KB",
+            "md5": "a30a2566e218df5dc92ed42763178ca0",
+            "sha256": "c2938f612c986142d705e2d8686c66d86e791e4cd1d37911e28fb56de8651d5a"
+        },
+        "OSGETCURRFAULTEDTHREAD.3P": {
+            "modified": "1997-04-27 16:08:28",
+            "size": "2.15KB",
+            "md5": "933acbd11bbd4500ab595ece0bfd8253",
+            "sha256": "f9580941b1abc5ee2f8ca3166a0fa6177b81c5009bd081999344ac9e277cbeb4"
+        },
+        "OSGETINTMASK.3P": {
+            "modified": "1997-04-27 16:08:28",
+            "size": "1.59KB",
+            "md5": "bac560011e6b5e148e193f558be878dc",
+            "sha256": "e6f6bc43030e736baf5c1368bbab1a3849676d8296ff858b385fabffc9d42dd3"
+        },
+        "OSGETMEMORYSIZE.3P": {
+            "modified": "1997-04-27 16:08:28",
+            "size": "0.31KB",
+            "md5": "281e4275399e57539bf6645f7bc0bd25",
+            "sha256": "bb1741f447ff34e54b37197039a5ddcb0112fbebd2fc182a3b25dac8145dba99"
+        },
+        "OSGETTHREADID.3P": {
+            "modified": "1997-04-27 16:08:28",
+            "size": "0.68KB",
+            "md5": "c66d986871bef8ce371a2e1abc9b3d64",
+            "sha256": "61b548e5cf7a0a013797f064039d58eb49582691c637b743c4cfa6f3cf561b96"
+        },
+        "OSGETTHREADPRI.3P": {
+            "modified": "1997-04-27 16:08:30",
+            "size": "1.24KB",
+            "md5": "d514f7593e319f8b5b94c1c00e1ea673",
+            "sha256": "b651c5088dfb048eece0f47fcf35906d263564758a259d0f507cfd0ac7bf4ce7"
+        },
+        "OSGETTIME.3P": {
+            "modified": "1997-04-27 16:08:30",
+            "size": "1.16KB",
+            "md5": "65125d63a9525111ecde67a03c408ac1",
+            "sha256": "3dd7be8545185172d66e8f675abc7bca5c0483e3cd640dd074d6e3d87e366f34"
+        },
+        "OSGETTLBASID.3P": {
+            "modified": "1997-04-27 16:08:30",
+            "size": "1.55KB",
+            "md5": "3a31aa5c3544fba7d91ef3f57bd44a38",
+            "sha256": "825d5f4e34fc04377bda2da36dcda75b1874d6dd252d136015d4b07f04a9bce5"
+        },
+        "OSGLOBALS.3P": {
+            "modified": "1997-04-27 16:08:30",
+            "size": "1.03KB",
+            "md5": "71823226420dbaf3113aa18dcbf043b6",
+            "sha256": "3411690ca4d62c75cd1dd62576c2978ce76f7c4cdcb3beb4b6ee965f84b000a2"
+        },
+        "OSINITIALIZE.3P": {
+            "modified": "1997-04-27 16:08:30",
+            "size": "0.77KB",
+            "md5": "db6b021ebdc99bc797f7bd96f4d1f9ba",
+            "sha256": "8d0706f659f983025c778b6ba1ddbf3bbe3a53ec2c447609e8bb98edff71dd2d"
+        },
+        "OSINITRDB.3P": {
+            "modified": "1997-04-27 16:08:30",
+            "size": "0.92KB",
+            "md5": "653bc5763a94d23c85df673d859c3ec0",
+            "sha256": "4d94eac159707eb72a8a1869a486a3f86bd6467d142a74b5bf70387f861b05ee"
+        },
+        "OSINVALDCACHE.3P": {
+            "modified": "1997-04-27 16:08:30",
+            "size": "1.42KB",
+            "md5": "aff43e3c17fb3b5dd3912c9c9eb78602",
+            "sha256": "b2f5d0686629dfdc1d36f2b5cbffc2c498ba1382acdf8c86083260594f5ff6b6"
+        },
+        "OSINVALICACHE.3P": {
+            "modified": "1997-04-27 16:08:30",
+            "size": "1.46KB",
+            "md5": "5f7fa57bf4b1256f7083fea9a1505e25",
+            "sha256": "5493ab5de9bcb9592f96c6d687b4e34db78fcf8eee48559608398605b9b24393"
+        },
+        "OSMAPTLB.3P": {
+            "modified": "1997-04-27 16:08:32",
+            "size": "2.87KB",
+            "md5": "5df1b93beee0a528a4a628e5790d57ab",
+            "sha256": "22efec19ba10d186784552b789d03dd946f2733ecac8f1e958e5df7bddbe0476"
+        },
+        "OSMEMSIZE.3P": {
+            "modified": "1997-04-27 16:08:32",
+            "size": "0.28KB",
+            "md5": "c7e5cbdec820128a6ed614123656a5d4",
+            "sha256": "bb461e5bf36b60794c464b4463b8e88a7109a596b1f2678529ef7ce07834bf6b"
+        },
+        "OSPFSALLOCATEFILE.3P": {
+            "modified": "1997-04-27 16:08:32",
+            "size": "3.17KB",
+            "md5": "de4e01c4bfe6047292070b4279c9d5d0",
+            "sha256": "e24db15646b6a9670d7ba724573c4d59064ed481ce07bfba8530458d92551e12"
+        },
+        "OSPFSCHECKER.3P": {
+            "modified": "1997-04-27 16:08:32",
+            "size": "1.4KB",
+            "md5": "574ca4bda451966d8602e6818e868677",
+            "sha256": "e8a6813284e3a45219dfb67d9d6e3fc56110ee2b93bfc7ecf9ec87c45f6f2595"
+        },
+        "OSPFSFILESTATE.3P": {
+            "modified": "1997-04-27 16:08:32",
+            "size": "1.85KB",
+            "md5": "74c3ad9a2e2fc4197027025ab25b9c41",
+            "sha256": "6d1290b10f788598bbc9fa316bd9f728a32f49f0ab291441bed1b2fcc648f599"
+        },
+        "OSPFSFREEBLOCKS.3P": {
+            "modified": "1997-04-27 16:08:32",
+            "size": "1.56KB",
+            "md5": "901a95b7958db878c117ebcf94c81daa",
+            "sha256": "8090eaad3bf87c140e47454d9dceb98855c2900c498567681e568e711a1165d1"
+        },
+        "OSPFSINIT.3P": {
+            "modified": "1997-04-27 16:08:32",
+            "size": "2.52KB",
+            "md5": "d1865951bdaa29578fc9a85ae5f27999",
+            "sha256": "fa92b3d3c46f60a5649859d84204744d561e6160e7fe0f06b72d4b57e7a9d802"
+        },
+        "OSPFSISPLUG.3P": {
+            "modified": "1997-04-27 16:08:32",
+            "size": "1.39KB",
+            "md5": "0c455b9058848f6232a360850848d4e9",
+            "sha256": "c003e2412d275db8220610d6b9e19dd2b0a62dc821d9a79d8d417c496668c997"
+        },
+        "OSPFSREADWRITEFILE.3P": {
+            "modified": "1997-04-27 16:08:32",
+            "size": "2.21KB",
+            "md5": "f9ef91dae057e5110b321ee1f06bd69b",
+            "sha256": "0bdf1745689db5c562584df4d7038caa5a39cb8b0861d48e2fb998d963170278"
+        },
+        "OSPFSRESIZEFILE.3P": {
+            "modified": "1997-04-27 16:08:34",
+            "size": "2.18KB",
+            "md5": "07630a4feecc17e9ae1bbde794502ceb",
+            "sha256": "33868bc791def98a1ee3c099e22048b386cc413547f2808ed08a6c72a4adec27"
+        },
+        "OSPFSSETLABEL.3P": {
+            "modified": "1997-04-27 16:08:34",
+            "size": "1.5KB",
+            "md5": "99f3ab9d2199617111cc7e71094b2bca",
+            "sha256": "6b8afabe298e5babadfb1a87bd5a33d8a5ebce78da7b3a788ccbe24ccf287d67"
+        },
+        "OSPIGETSTATUS.3P": {
+            "modified": "1997-04-27 16:08:34",
+            "size": "4.75KB",
+            "md5": "ee077cb4782611a60330e817158add5d",
+            "sha256": "b60be670690a076d636d2e6f65f5b905b806313bfe00266e74d1a17d9195dc4e"
+        },
+        "OSPIRAWSTARTDMA.3P": {
+            "modified": "1997-04-27 16:08:34",
+            "size": "2.81KB",
+            "md5": "7af222351a3ac217b6b77b43a280f627",
+            "sha256": "104c5544eaec264a6712bdfa0b8f6e2e68abf99c99450cb812d6f320de82930d"
+        },
+        "OSPISTARTDMA.3P": {
+            "modified": "1997-04-27 16:08:34",
+            "size": "3.59KB",
+            "md5": "481ed7c204d0f4c899197af88329b93f",
+            "sha256": "77e0e2f297d4cdc90f3f6053293f3948ef3d18e260f40ca3f13de09f70163016"
+        },
+        "OSPROFILE.3P": {
+            "modified": "1997-04-27 16:08:34",
+            "size": "4.78KB",
+            "md5": "45c8e7c9dd67ab822b1b02b81706bb52",
+            "sha256": "93e0135592844c1555dc8e93c27030940a4b6496b85a0b70f7b0c05fe653e122"
+        },
+        "OSREADHOST.3P": {
+            "modified": "1997-04-27 16:08:34",
+            "size": "2.24KB",
+            "md5": "22ab84e0661c55450a1bc91a4937eb80",
+            "sha256": "301944f05ce8e587d8d6c17d65466988b288ef04689262a1143474727df192b0"
+        },
+        "OSRESETTYPE.3P": {
+            "modified": "1997-04-27 16:08:34",
+            "size": "0.35KB",
+            "md5": "e8d27380e01d262b49de83eb216a0e86",
+            "sha256": "a83ff8402c93cf628435f7b14f3657b40de1a8235813ee84c47245d9983e0a70"
+        },
+        "OSSCADDCLIENT.3P": {
+            "modified": "1997-04-27 16:08:36",
+            "size": "1.01KB",
+            "md5": "bff837d9d0a501d915500e8d69cc648d",
+            "sha256": "c1bf59b7fa6ef939a97dbcc2d909a16704a950a3940d90602789a534d38ec74f"
+        },
+        "OSSCGETTASKQ.3P": {
+            "modified": "1997-04-27 16:08:36",
+            "size": "1.62KB",
+            "md5": "71edbe4f61dffd0e7950ff86f0516bab",
+            "sha256": "5302ec585a10ca14c5d97f381555141541618c27a02324532cfedec4460bedf0"
+        },
+        "OSSCREMOVECLIENT.3P": {
+            "modified": "1997-04-27 16:08:36",
+            "size": "0.56KB",
+            "md5": "fb211f27940a908d611a3addcfa80045",
+            "sha256": "0694c34920c92d611d288b699f554ec94d7ab0ec1febdc79a99b063edab512a6"
+        },
+        "OSSETERRORHANDLER.3P": {
+            "modified": "1997-04-27 16:08:36",
+            "size": "0.86KB",
+            "md5": "4fb85ffb7dca648c5f7e16f9657cc605",
+            "sha256": "63e4377fa8ca76ea93320383cf44ccd73428539e9662857db75dbe61f4cf3da6"
+        },
+        "OSSETEVENTMESG.3P": {
+            "modified": "1997-04-27 16:08:36",
+            "size": "2.48KB",
+            "md5": "12ed167e42cbed9762eab19ec0772f05",
+            "sha256": "108c6f081606ce50e991e23763b0fed1158435cc91018e462e545ce7918fe6ef"
+        },
+        "OSSETTIMER.3P": {
+            "modified": "1997-04-27 16:08:36",
+            "size": "1.44KB",
+            "md5": "a4df5e618cd93de82a67f6252ed25c84",
+            "sha256": "13a1177ea8e5e7766f808f613099ee860e7f635f3d02474235d441b3dccdabf3"
+        },
+        "OSSPTASKLOAD.3P": {
+            "modified": "1997-04-27 16:08:36",
+            "size": "6.52KB",
+            "md5": "6791402b5a62405c1395432ac1bbced1",
+            "sha256": "3797db370a003a0124309787dd174c6ef2681281115a5e022459ffe332a2112e"
+        },
+        "OSSTARTTHREAD.3P": {
+            "modified": "1997-04-27 16:08:36",
+            "size": "1.03KB",
+            "md5": "0462f260dc2cf66581442062f935bc34",
+            "sha256": "0f6ac3e994e951fabca625233f40aceb3673304152fd9767bf4bd1633e34513e"
+        },
+        "OSSTOPTHREAD.3P": {
+            "modified": "1997-04-27 16:08:38",
+            "size": "1.28KB",
+            "md5": "647f285d4af905a6f4f1f5c279b0a0bd",
+            "sha256": "98d75c2565db165d49d60f07567616a9404c244310c93ee4a3d92fb2af4d6ad5"
+        },
+        "OSTVTYPE.3P": {
+            "modified": "1997-04-27 16:08:38",
+            "size": "0.33KB",
+            "md5": "121b5ed0cc70d384f25ae04cfd895c9e",
+            "sha256": "a859d74193f4c804bee4a921a79ab39d7d2a92bf83f47d23b74ad70db0466ba1"
+        },
+        "OSVIGETSTATUS.3P": {
+            "modified": "1997-04-27 16:08:38",
+            "size": "11.52KB",
+            "md5": "508051dd53a98bab27afa5bf4bb92577",
+            "sha256": "5c249bb304a6b4d94f60b7a7275f41d8dbccf3a7dacc9dd121d1746c70944ca9"
+        },
+        "OSVIRTUALTOPHYSICAL.3P": {
+            "modified": "1997-04-27 16:08:38",
+            "size": "1.19KB",
+            "md5": "8a426c86ca36430d13c20eb0f4d016f2",
+            "sha256": "09913996619bba589f7ece56fb66311e27314806bee0c4e158531a9717f8be71"
+        },
+        "OSWRITEBACKDCACHE.3P": {
+            "modified": "1997-04-27 16:08:38",
+            "size": "1.8KB",
+            "md5": "4d22e4f223469f3c7d00228aadddba47",
+            "sha256": "67fe50da545259c3b5e3eee858bd9cb4fa5cabca40fab889130f7b5bfa9ca8ea"
+        },
+        "OSYIELDTHREAD.3P": {
+            "modified": "1997-04-27 16:08:38",
+            "size": "0.69KB",
+            "md5": "5ac99dada7cf163561cb70ce95638e5f",
+            "sha256": "3cfa347211a85a6ba73b6c37b204f328fdec519cd25ca80064d5405fff776da0"
+        },
+        "OS_CYCLES_TO_NSEC.3P": {
+            "modified": "1997-04-27 16:08:22",
+            "size": "1.17KB",
+            "md5": "69d8d116b705ef9b5149903acd5703c7",
+            "sha256": "dae7fe2b8cb5d7e370de4a20e584a4742bca96f0aa1119daef4eb25c4cf34227"
+        },
+        "OS_DCACHE_ROUNDUP_ADDR.3P": {
+            "modified": "1997-04-27 16:08:22",
+            "size": "1.17KB",
+            "md5": "9ad53e38711b645fbd4263c36d11dc9d",
+            "sha256": "a40dbbcd9b269f6a71c7fc9b5e4b9f20af5981c98f4ad4339c7499439f7b2803"
+        },
+        "OS_K0_TO_PHYSICAL.3P": {
+            "modified": "1997-04-27 16:08:22",
+            "size": "0.64KB",
+            "md5": "dba99dfb138687a20bd4bcea7c24a46e",
+            "sha256": "83f6f657048f61be7a44e8593f01b0fc8731c8f276a6945654af8d061f1572c5"
+        },
+        "OS_K1_TO_PHYSICAL.3P": {
+            "modified": "1997-04-27 16:08:22",
+            "size": "0.64KB",
+            "md5": "aa604eaed2dcff7a37ff1cce6f3cb630",
+            "sha256": "ea3f81b3689983fc1446aafc01c8928a87a118a4ff62bcc72de938d60bb9d165"
+        },
+        "OS_PHYSICAL_TO_K0.3P": {
+            "modified": "1997-04-27 16:08:22",
+            "size": "0.61KB",
+            "md5": "ec30995a4aa36a3214575989e3b900b1",
+            "sha256": "ac45273d3fe4f2802fc9caa06d06f6814bfdbf453965c45a9bf430e3bdef553d"
+        },
+        "OS_PHYSICAL_TO_K1.3P": {
+            "modified": "1997-04-27 16:08:22",
+            "size": "0.62KB",
+            "md5": "c6434b994a75eba2996d78ddf12b1e09",
+            "sha256": "400fc02df6bbd7f4f975ffbded106892a221ee27d7ae0ee76a3c4770015413c3"
+        },
+        "VIRTUALMAP.3P,V.DELETED": {
+            "modified": "1997-04-27 16:08:38",
+            "size": "1.28KB",
+            "md5": "9ff190c6917315e2c0d5bd7fc85d4a0a",
+            "sha256": "f9482d3cb2b8f3e89821f4715eee30148145c45cc585ac6c728fb30898574c2b"
+        }
+    },
+    "RELNOTES_OLD": {
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:08:48",
+            "size": "0.38KB",
+            "md5": "99acfe6bd15a88471aa17080f30cd475",
+            "sha256": "fd1f6cbd7ae81a673b83705208a1ebe61ee40e03e8bafc18eefcf0a986a57d63"
+        },
+        "RELNOTES.012696": {
+            "modified": "1997-04-27 16:08:48",
+            "size": "15.82KB",
+            "md5": "480952e930998f8642a72240e132e0b5",
+            "sha256": "e253c71d1399d0f2efc62846d54c8c7d537cc09317de9e8f65337ac76f830537"
+        },
+        "RELNOTES.041796": {
+            "modified": "1997-04-27 16:08:50",
+            "size": "12.88KB",
+            "md5": "49b0e9c2e1c52d7ddd3474032dcefc83",
+            "sha256": "d2b24761fe37e7596e457f0f0376eb4f34b2e763f584c77ef2345427487888eb"
+        },
+        "RELNOTES.081596": {
+            "modified": "1997-04-27 16:08:52",
+            "size": "22.3KB",
+            "md5": "c0be7ebab554724a09bee8dc5de70d68",
+            "sha256": "5c4bb964f01c46caea85064db28d724971457487eab4a0fb27864b54cd6a40f3"
+        },
+        "RELNOTES.090795": {
+            "modified": "1997-04-27 16:08:52",
+            "size": "13.75KB",
+            "md5": "4684cc7d3f27f15e63518b083fac62ab",
+            "sha256": "41a29999eca46b19ed65f92569aec8a63e9c413997ccbf1ff7594afecddaf3bf"
+        },
+        "RELNOTES.092995": {
+            "modified": "1997-04-27 16:08:54",
+            "size": "13.73KB",
+            "md5": "6e3e6cd6af14c56cd2a0b58dfd5d79af",
+            "sha256": "1f5e2a1784cf4c82150af3a3155c3ae343f5b607c993be14ce0e732655fd604d"
+        },
+        "RELNOTES.093096": {
+            "modified": "1997-04-27 16:08:54",
+            "size": "14.64KB",
+            "md5": "26eb7b01c4a239093abaecb195ccf0bf",
+            "sha256": "dde9a225bc1375108e3c301e3bf9a37ddf55ae8122ecb58cc6055aeb5a6fb993"
+        },
+        "RELNOTES.102695": {
+            "modified": "1997-04-27 16:08:56",
+            "size": "14.53KB",
+            "md5": "2c33c29e03d612a7b33e60f09655a150",
+            "sha256": "308ed5967a45b4b2291438ab1020240c3a8da5dc29132988286192896c226588"
+        },
+        "RELNOTES.112095": {
+            "modified": "1997-04-27 16:08:56",
+            "size": "13.08KB",
+            "md5": "0b3317cd79770e7d972b4aa3a6aff22d",
+            "sha256": "6a8ce3eae3065721df6c8dc032940bfe8f050001f79e0489964254477e285e2c"
+        }
+    },
+    "RMON": {
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:09:04",
+            "size": "0.12KB",
+            "md5": "684adf94523ceedf621211fca9fe6280",
+            "sha256": "84d0c218d83801d25c1aca52c0e7e23dbf7aa25e29b1bcda88f0705aaa70cfc0"
+        },
+        "OSSYNCPRINTF.3P": {
+            "modified": "1997-04-27 16:09:04",
+            "size": "1.95KB",
+            "md5": "605e3fefe915f5166148322f21e1d5d9",
+            "sha256": "7fa5aa611d69bb4e5f5ebc59712475bfefd8287f70df8552521a2e67653e9da3"
+        },
+        "RMONPRINTF.3P": {
+            "modified": "1997-04-27 16:09:04",
+            "size": "0.17KB",
+            "md5": "ebba68e10c842a88fed3c80a0c164e43",
+            "sha256": "6df3af83adebd0878394cad91ccdd269efb560f5306f4aaa5e2ba4beee2f06c6"
+        }
+    },
+    "SP": {
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:09:08",
+            "size": "0.12KB",
+            "md5": "06517757763ca9937c8e25609a96f42c",
+            "sha256": "43bf9e3350a80567494e883c84fbadaad0806af3efb23d2f93e67ceb2276f886"
+        },
+        "SPCOLOR.3P": {
+            "modified": "1997-04-27 16:09:08",
+            "size": "0.77KB",
+            "md5": "ceb8a6c575341571bb26317a125369be",
+            "sha256": "3f58c22b052646af24e244fe2af1fcb898edd097198829114269c29a9e844409"
+        },
+        "SPDRAW.3P": {
+            "modified": "1997-04-27 16:09:08",
+            "size": "0.76KB",
+            "md5": "6b911f65f40a7b2d4bb92a12b4e3a160",
+            "sha256": "cfb6d5584e65b0576c8d2bdf3e34a6b26a30e5527a13fb936f94a37dc80e4a15"
+        },
+        "SPFINISH.3P": {
+            "modified": "1997-04-27 16:09:08",
+            "size": "0.71KB",
+            "md5": "54d32420997c7d7d7b0ec14feb4db454",
+            "sha256": "23b46384d2c4c4b8d66e3b1dba78b2f4cdb879f1d9c94c4fdd86d8d966e58df4"
+        },
+        "SPINIT.3P": {
+            "modified": "1997-04-27 16:09:08",
+            "size": "0.61KB",
+            "md5": "9484b5983ccd07acd2706293c59d6e4b",
+            "sha256": "29e852fb77d6fd619ecf12e86bb8fc8a839c16c32f4dcfed4a11734419b255da"
+        },
+        "SPINTRO.3P": {
+            "modified": "1997-04-27 16:09:10",
+            "size": "3.02KB",
+            "md5": "4204d135b55f3ee8124dac460cab93a1",
+            "sha256": "2c20b5ab6308d15a9b006c3454bb7cb73c0b1635b342e05111fbaced910d88ac"
+        },
+        "SPMOVE.3P": {
+            "modified": "1997-04-27 16:09:10",
+            "size": "0.74KB",
+            "md5": "d64280260c8cb9478faed8af069e3b47",
+            "sha256": "eacc4ef17bcf5c52d179f767b29858681e71d83c84c04bdcd16701228ba0ce70"
+        },
+        "SPSCALE.3P": {
+            "modified": "1997-04-27 16:09:10",
+            "size": "0.8KB",
+            "md5": "e1005953711da13fd9b29094eb3e7541",
+            "sha256": "f85243bb311fd1e36262a69e6e98ca20029f1857ca815fb155221eb9fb5790a8"
+        },
+        "SPSCISSOR.3P": {
+            "modified": "1997-04-27 16:09:10",
+            "size": "1.1KB",
+            "md5": "a2d71f2d867cc412f533168dbc11d76f",
+            "sha256": "93e3f1f1ab39f318dc57c622da5fbeb6214ded27e8aaa16da3ff6090440cb7a7"
+        },
+        "SPSETATTRIBUTE.3P": {
+            "modified": "1997-04-27 16:09:10",
+            "size": "1.87KB",
+            "md5": "b762971b5d3b371e561ed2271c9cab7e",
+            "sha256": "a170e2a867d0463f4ab46a71103f6fb38bf208be4c5e71f2ec3280ce277c0da9"
+        },
+        "SPSETZ.3P": {
+            "modified": "1997-04-27 16:09:10",
+            "size": "0.36KB",
+            "md5": "d7cdf0b682f04135ef85e44ce24e9a85",
+            "sha256": "3b7d1985a339d4b035a2974d80a9b993ade930c6e5f90a2986968187659e62da"
+        }
+    },
+    "TOOLS": {
+        "BANKDUMP.1": {
+            "modified": "1997-04-27 16:09:26",
+            "size": "0.43KB",
+            "md5": "ca45a363c5cbc15151c12e737ea3e3a9",
+            "sha256": "9d7725f17eda0073c08ac579c7efd59c84472a528d9dbc7e1c776d8270a2c905"
+        },
+        "BKPT.1": {
+            "modified": "1997-04-27 16:09:26",
+            "size": "1.18KB",
+            "md5": "02302df147a306da7770fafa9b6b8e14",
+            "sha256": "fccbee8bbb3fc96dbbeebdf0a701d78f2a420ba930121ac8a1ddae5362384250"
+        },
+        "BUILDTASK.1": {
+            "modified": "1997-04-27 16:09:26",
+            "size": "2.33KB",
+            "md5": "962b973bc983b38e5c822a4a5c8ec121",
+            "sha256": "baa3f0403bcd4f1c1c28d6b0365b055ca800a34e6a608bccc2d96abfcbf59a9c"
+        },
+        "CONTROLLER.1": {
+            "modified": "1997-04-27 16:09:26",
+            "size": "0.39KB",
+            "md5": "4e156c477e0f59a39665730214e4a538",
+            "sha256": "f0bbb9f5248a8ae24e409986e85b5afae33277f36a0d81c341a04d39b204e65e"
+        },
+        "DBGIF.1": {
+            "modified": "1997-04-27 16:09:26",
+            "size": "0.89KB",
+            "md5": "9221e0012699361b254fb57a54c49081",
+            "sha256": "58e7337142fab6da2fd172ae5846044e8a77db5cb6bc6035f78ad559fe3f851a"
+        },
+        "DLPRINT.1": {
+            "modified": "1997-04-27 16:09:26",
+            "size": "0.84KB",
+            "md5": "274044a9a5f0b5712b7a1a85bffb2ac4",
+            "sha256": "cccec61bc199f51f62341407f26da74646e51bca493053ed7a1cb99af66ed579"
+        },
+        "EMULATE.1": {
+            "modified": "1997-04-27 16:09:28",
+            "size": "2.54KB",
+            "md5": "1f41ac22d04852eb5c8afdf33769dde0",
+            "sha256": "66ebad9e67acb6552230eca590d55767bda95eed4a865a2c721cbc99687a451f"
+        },
+        "FLT2C.1": {
+            "modified": "1997-04-27 16:09:28",
+            "size": "1.5KB",
+            "md5": "340432351b5e3609abaea8128713ebc5",
+            "sha256": "863fae1bd5faf42613effd75f6087c2d569e1b6c9e0aae9e9ad545653b476cbb"
+        },
+        "GBI2MEM.1": {
+            "modified": "1997-04-27 16:09:28",
+            "size": "0.77KB",
+            "md5": "1dd1b0943ad1392e022629cc8e25d5d7",
+            "sha256": "96ac7111c20a7889831723c37a7aa6fe5411206250f194f4b6a16e04ff619318"
+        },
+        "GDIS.1": {
+            "modified": "1997-04-27 16:09:28",
+            "size": "3.64KB",
+            "md5": "ec19582c9b6c33aca8410ef376cd1220",
+            "sha256": "cc6fceecf5d4f61a0a70c0f7121a581eb4b134ddbd7a40c6343c47d420c7f556"
+        },
+        "GETFPREGS.1": {
+            "modified": "1997-04-27 16:09:28",
+            "size": "1.27KB",
+            "md5": "01e9ab812db095ece8121f45324b2cdc",
+            "sha256": "bba42b516572d5ae0aeed22b6bb19745134369396ae986277a10036ad814343e"
+        },
+        "GETGREGS.1": {
+            "modified": "1997-04-27 16:09:28",
+            "size": "1.19KB",
+            "md5": "f5d4692969b11a81aaec62f8efd3bdf0",
+            "sha256": "12c29dcdd666f62d0ee31f1b9081864af52e4309a190b2a246be57a2c216d0bf"
+        },
+        "GETSREGS.1": {
+            "modified": "1997-04-27 16:09:28",
+            "size": "1.38KB",
+            "md5": "d0e14fb7e528a47cecec41040ef99e37",
+            "sha256": "82c152992ccbc9ca850c04d5dfb2b365e80664567614c9944a5e9aa33ebf39de"
+        },
+        "GETVREGS.1": {
+            "modified": "1997-04-27 16:09:30",
+            "size": "1.22KB",
+            "md5": "117ea24d3eea1e3788e330f0a4f32a35",
+            "sha256": "1278df67e01e1cda7e0e4dd249f77356f8cb359800f62e99f13862d9aa49ba10"
+        },
+        "GLOAD.1": {
+            "modified": "1997-04-27 16:09:30",
+            "size": "3.07KB",
+            "md5": "c9f040cb2b22f49afdb61608bf4e69c7",
+            "sha256": "2559e1afbe05de5d7a0da957a162d80cdf6470197e437a06ba9502f5e67c2e86"
+        },
+        "GPERF.1": {
+            "modified": "1997-04-27 16:09:30",
+            "size": "2.51KB",
+            "md5": "85077845da1e4e99cf90b36fecfcdf25",
+            "sha256": "9b7d6d534049000be5627c574e3c8a76af0345abf29e7900cd765c18610a58eb"
+        },
+        "GVD.1": {
+            "modified": "1997-04-27 16:09:30",
+            "size": "0.66KB",
+            "md5": "1e17f97b36f36c93eb7b3ca179c31af2",
+            "sha256": "4e6d96dd44c6133f8b53eb657e70c351ecf4e0e87bf909fb387c70a8bce68779"
+        },
+        "IC.1": {
+            "modified": "1997-04-27 16:09:30",
+            "size": "2.5KB",
+            "md5": "9ec30132752b39277ef129d6f9cb69d6",
+            "sha256": "6c7357974e445a7dd348b43689f401232ddaafe145d728e7a362148517471768"
+        },
+        "IE.1": {
+            "modified": "1997-04-27 16:09:30",
+            "size": "24.88KB",
+            "md5": "bf8083856d0ff72d761c8c0d1a642e83",
+            "sha256": "11384820df47aa002954e049b9540c7972c7521fa1cf1a1aedab0cce3e74c5cd"
+        },
+        "IMSCALE.1": {
+            "modified": "1997-04-27 16:09:30",
+            "size": "1.1KB",
+            "md5": "1f8e665a3c020af92642e62dab75c69c",
+            "sha256": "18c1b50222c5d821c34ba7faa05f2225ffc617b1632a7173eae63bc2d08c00c9"
+        },
+        "LISTTHREADS.1": {
+            "modified": "1997-04-27 16:09:30",
+            "size": "1.51KB",
+            "md5": "caeedf073e46307ff892a51f6a0d3bef",
+            "sha256": "ce5af4855d2d88356aad0dd9339b978d4699b1e386c9bf6eb17364333b0fb6f8"
+        },
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:09:32",
+            "size": "0.12KB",
+            "md5": "684adf94523ceedf621211fca9fe6280",
+            "sha256": "84d0c218d83801d25c1aca52c0e7e23dbf7aa25e29b1bcda88f0705aaa70cfc0"
+        },
+        "MAKEROM.1": {
+            "modified": "1997-04-27 16:09:32",
+            "size": "10.14KB",
+            "md5": "d0dcfc5e8e5c2f77c2bd83ab561e379f",
+            "sha256": "52d7956424d166ae8cb5619df35f1fd1fbe98882e7b2b74771b1bdec498f81ad"
+        },
+        "MIDICOMP.1": {
+            "modified": "1997-04-27 16:09:32",
+            "size": "0.56KB",
+            "md5": "b105696f4861366ba1d74217995e2e96",
+            "sha256": "500188983a94c0024a867a08dc7570ade36192b52b89f8566712189eab6846e8"
+        },
+        "MIDICVT.1": {
+            "modified": "1997-04-27 16:09:32",
+            "size": "0.75KB",
+            "md5": "f4aa3667777c1a1d92cefc5ad7bf9383",
+            "sha256": "4b95b63a91bcb47d3ce34b034d08129a1e5c7ad1ab68920d03cd583f91edc4ad"
+        },
+        "MIDIDMON.1": {
+            "modified": "1997-04-27 16:09:32",
+            "size": "1.1KB",
+            "md5": "4808ec9cdebe3b70f318d340aa077726",
+            "sha256": "52928405fc1294ffbc8598bfc4a0adc3d674de6846665d21fa3d52ce874607fe"
+        },
+        "MIDIPRINT.1": {
+            "modified": "1997-04-27 16:09:34",
+            "size": "0.51KB",
+            "md5": "1334aa0423ec29c22f307128f7f78b81",
+            "sha256": "06b97fe732f8493b092d35aa8150638664a9687edcdfa91eeb33935581d287cf"
+        },
+        "MIDISTAT.1": {
+            "modified": "1997-04-27 16:09:34",
+            "size": "0.47KB",
+            "md5": "be57d0b5f689f9d0f156f6bb8db2bc06",
+            "sha256": "f9a99e9e9a73cdfcf42adde89b9e31bdf0d09fde093b3fa09a5b51e98e3e461e"
+        },
+        "MKSPRITE.1": {
+            "modified": "1997-04-27 16:09:36",
+            "size": "2.42KB",
+            "md5": "859834debc4d1373693b7c6db78d4c96",
+            "sha256": "877f02aa714795043c737229c5495b81b34932c21db18325a8a2835d3bb7571d"
+        },
+        "PLAYRAW.1": {
+            "modified": "1997-04-27 16:09:36",
+            "size": "0.8KB",
+            "md5": "4ffeafd2c8eaece93438ffd9a86643f3",
+            "sha256": "3f663790576650a0f4e0455f503b4d134ab5b2c589ea15f0ca30cdf4ebb9d844"
+        },
+        "READMEM.1": {
+            "modified": "1997-04-27 16:09:42",
+            "size": "1.68KB",
+            "md5": "9c74399bac6899ee904b38d739459e67",
+            "sha256": "e61d94b7b92f720556ea2252aa8b387d5a8800c11817eeb0a77b3afdbe1ead67"
+        },
+        "RGB2C.1": {
+            "modified": "1997-04-27 16:09:44",
+            "size": "2.71KB",
+            "md5": "4e11dea6286fc4c63089630283f15ff6",
+            "sha256": "d1ed237e13426c1dcaa5b92bd2bfb10ec12dbee4555f98ba61edc2c4723aaa41"
+        },
+        "RSP.1": {
+            "modified": "1997-04-27 16:09:46",
+            "size": "10.44KB",
+            "md5": "6830ffc92a8cf3883f6f4a277fdfc88f",
+            "sha256": "7afe2bf0bd30160a4accc4944f922ab36f5672381e143cf02dd395ef5fbcfce8"
+        },
+        "RSP2ELF.1": {
+            "modified": "1997-04-27 16:09:46",
+            "size": "3.95KB",
+            "md5": "f3284ed235d7c9f83e6f97e5f0956199",
+            "sha256": "ac8ed9f9ec8fc937e535c7b3524816c7c904dfba942e437a72eac999653912a5"
+        },
+        "RSPASM.1": {
+            "modified": "1997-04-27 16:09:46",
+            "size": "12.5KB",
+            "md5": "aedc806da5f1c7a42533d4e7867e162c",
+            "sha256": "ca41817793be6dab05db37fb095ec3cb93c267d3f0f5bb752d8c062a370995e4"
+        },
+        "SBC.1": {
+            "modified": "1997-04-27 16:09:52",
+            "size": "0.5KB",
+            "md5": "466857dd7ac695ddf05f66e1ccc4550d",
+            "sha256": "85b3b452e9d47119efe686081ea753fb1a1b44ca8c87ddb2aebdc07831f5a181"
+        },
+        "STACKTOOL.1": {
+            "modified": "1997-04-27 16:09:52",
+            "size": "2.44KB",
+            "md5": "efe8a309bc4d988d6e5ed648d3cc7032",
+            "sha256": "6e86eb1285c260d1ed603e6f143b0f9f0273087c8476c80700428d1da64612a3"
+        },
+        "STEPTHREAD.1": {
+            "modified": "1997-04-27 16:09:56",
+            "size": "1.09KB",
+            "md5": "bdbd993f72d7ed6b8514f32f106d8750",
+            "sha256": "dd4e51503677e7396488a6c2174d3ac21ddb9278c61480e1ddb3356d555d84bb"
+        },
+        "STOPTHREAD.1": {
+            "modified": "1997-04-27 16:09:56",
+            "size": "0.99KB",
+            "md5": "970f7a07e297c51c921a16e8fc2867de",
+            "sha256": "e2753e21a848798bbd477dbfe2bb77d6a040f1051ac2deedc586fa52ae75d66e"
+        },
+        "TABLEDESIGN.1": {
+            "modified": "1997-04-27 16:09:58",
+            "size": "1.4KB",
+            "md5": "6ec90882ab2895d5df4011f8165f5d03",
+            "sha256": "25496e452bb91b798962f955d68d4b52286178bdd500e660b1762815343d4863"
+        },
+        "THREADSTATUS.1": {
+            "modified": "1997-04-27 16:09:58",
+            "size": "0.89KB",
+            "md5": "74d57e1e01b7c916214af5c53faacef1",
+            "sha256": "fdb0bfdfcd1881b4c7aa0b131babaf39860a39240bb841cc3ad7ff44e7367136"
+        },
+        "VADPCM_DEC.1": {
+            "modified": "1997-04-27 16:09:58",
+            "size": "0.52KB",
+            "md5": "32a104efa02bb84106d2ae581f96c56a",
+            "sha256": "60ea8082f8e248a5547f742ed0d306c8d170473c0f8525e410beb1eff9c88070"
+        },
+        "VADPCM_ENC.1": {
+            "modified": "1997-04-27 16:09:58",
+            "size": "1.95KB",
+            "md5": "b8ca7913379883b2c519875880708fba",
+            "sha256": "ef299a6430bd1c2bdb56546fba8cd8ca5cec6ec2d3aaa72f149b13c541b87180"
+        },
+        "WRITEWORD.1": {
+            "modified": "1997-04-27 16:09:58",
+            "size": "1.39KB",
+            "md5": "2514b75e1551a285fa6c906ffe51f761",
+            "sha256": "f101eddbe7d08952a4ac52babc1af094d6ddb0e258117d93c89ad3d9871bdd5d"
+        }
+    },
+    "UH": {
+        "MAKEFILE": {
+            "modified": "1997-04-27 16:10:04",
+            "size": "0.12KB",
+            "md5": "06517757763ca9937c8e25609a96f42c",
+            "sha256": "43bf9e3350a80567494e883c84fbadaad0806af3efb23d2f93e67ceb2276f886"
+        },
+        "UHOPENGAME.3P": {
+            "modified": "1997-04-27 16:10:04",
+            "size": "5.22KB",
+            "md5": "a969c600fb625e995d5ac22c8d83063e",
+            "sha256": "81255206b088c0a7ed226983f4cdadb560466e76ca956462dd52723e67c42965"
+        }
+    }
+}

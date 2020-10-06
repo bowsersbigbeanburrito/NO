@@ -1,0 +1,123 @@
+LIB/
+├── BRINGUPBOOT/
+│   ├── BOOT.S
+│   ├── DUMP
+│   ├── FONT
+│   ├── IPL4/
+│   │   ├── BOOT.C
+│   │   ├── BOOTSTRAP.S
+│   │   ├── DISK.C
+│   │   ├── DISKBUF.C
+│   │   ├── GFX.C
+│   │   ├── GFX.H
+│   │   ├── GFXCFB.C
+│   │   ├── GFXSTACK.C
+│   │   ├── GFXZBUFFER.C
+│   │   ├── IPL4.C
+│   │   ├── IPL4.H
+│   │   ├── MAKEFILE
+│   │   ├── README
+│   │   ├── SPEC
+│   │   └── TEXTURES/
+│   │       ├── DISK.H
+│   │       ├── ERROR.H
+│   │       ├── INSERT.H
+│   │       ├── INSERTDISK.H
+│   │       ├── N64A.H
+│   │       └── N64B.H
+│   ├── MAKEFILE
+│   ├── PIF2BOOT.S
+│   ├── ROMHEADER
+│   └── ROMHEADER.V1
+├── ERROR/
+│   ├── ERROR.FMT
+│   └── MAKEFILE
+├── LIBAUDIO.SKIP/
+│   ├── ASSETS/
+│   │   └── SEQUENCES/
+│   │       └── SCALE3.SEQ
+│   ├── BUILD/
+│   │   └── MAKEFILE
+│   ├── BUILDSS/
+│   │   └── MAKEFILE
+│   ├── MAKEFILE
+│   ├── SRC/
+│   │   ├── ADPCM.C
+│   │   ├── AUXBUS.C
+│   │   ├── BNKF.C
+│   │   ├── ENV.C
+│   │   ├── EVENT.C
+│   │   ├── FILTER.C
+│   │   ├── MAINBUS.C
+│   │   ├── RESAMPLE.C
+│   │   ├── REVERB.C
+│   │   ├── SAVE.C
+│   │   ├── SEQ.C
+│   │   ├── SEQPLAYER.C
+│   │   ├── SL.C
+│   │   ├── SND.C
+│   │   ├── SNDPLAYER.C
+│   │   ├── SYNTHESIZER.C
+│   │   └── SYNTHINTERNALS.H
+│   └── TESTS/
+│       ├── IRIX/
+│       │   ├── CHAINTEST.C
+│       │   ├── MAKEFILE
+│       │   ├── MONKEY.C
+│       │   ├── PITCHGEN.C
+│       │   ├── PLAYER.C
+│       │   ├── PLAYER.H
+│       │   ├── PORTTEST.C
+│       │   ├── SEQGEN.C
+│       │   ├── SEQPTEST.C
+│       │   ├── SEQTEST.C
+│       │   └── TEST.SEQ
+│       ├── MAKEFILE
+│       └── ONECHANNEL.DELETED/
+│           ├── DYNAMIC.C
+│           ├── MAKEFILE
+│           ├── ONECHANNEL.C
+│           ├── ONECHANNEL.H
+│           └── SPEC
+├── LIBIMAGE/
+│   └── MAKEFILE
+├── LIBMPAUDIO/
+│   ├── BITSTREAM.C
+│   ├── DECODE.C
+│   └── MAKEFILE
+├── LIBRCPPLI/
+│   ├── ACC_USER.H
+│   ├── MAKEFILE
+│   ├── MISC.C
+│   ├── PLUSARG.C
+│   ├── RCPPLI.TAB
+│   ├── RDRAM.C
+│   ├── SIMIPC.H
+│   ├── SOCKET.C
+│   ├── TRACE.H
+│   ├── VCSUSER.H
+│   └── VI.C
+├── LIBULTRAHOST/
+│   ├── CLOSEGAME.C
+│   ├── MAKEFILE
+│   ├── OPENGAME.C
+│   ├── READGAME.C
+│   ├── READRAMROM.C
+│   ├── WRITEGAME.C
+│   └── WRITERAMROM.C
+├── LIBVID/
+│   ├── BIKE.MPG
+│   ├── HUF.C
+│   ├── HUF.H
+│   ├── HUF_MPEG1_AC_TABS.H
+│   ├── HUF_MPEG1_MBH_TABS.H
+│   ├── HUF_PROTO.H
+│   ├── HUF_TABS.H
+│   ├── MAIN.C
+│   ├── MAKEFILE
+│   ├── MPEG.C
+│   ├── MPEG.H
+│   ├── MPEG_DEFS.H
+│   ├── MPEG_PROTO.H
+│   └── MPEG_TOK.H
+└── MAKEFILE

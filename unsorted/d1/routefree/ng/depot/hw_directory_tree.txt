@@ -1,0 +1,65 @@
+hw/
+├── chip/
+│   ├── lib/
+│   ├── sim/
+│   │   ├── aes/
+│   │   │   └── compile,v
+│   │   └── sha/
+│   │       └── compile,v
+│   ├── syn/
+│   │   ├── aes/
+│   │   │   └── syn.scr,v
+│   │   └── sha/
+│   │       └── syn.scr,v
+│   └── v/
+│       ├── aes/
+│       │   ├── aes_ahb.v,v
+│       │   ├── aes_eng.v,v
+│       │   ├── aes_kbuf.v,v
+│       │   ├── aes_main.v,v
+│       │   ├── aes_mgr.v,v
+│       │   ├── aes_mixd.v,v
+│       │   ├── aes_mixe.v,v
+│       │   ├── aes_top.v,v
+│       │   ├── ahb_fdl_defs.v,v
+│       │   ├── Attic/
+│       │   │   ├── aes.v,v
+│       │   │   ├── aes_inv_sbox.v,v
+│       │   │   ├── aes_sbox.v,v
+│       │   │   ├── aesmgr.v,v
+│       │   │   ├── ahbmgr.v,v
+│       │   │   ├── genmgr.v,v
+│       │   │   ├── gi_kbuf.v,v
+│       │   │   ├── gi_mixd.v,v
+│       │   │   └── gi_mixe.v,v
+│       │   ├── CVS/
+│       │   │   └── fileattr
+│       │   ├── Mem1R1W16x32.v,v
+│       │   └── Mem1R1W32x32.v,v
+│       ├── fla/
+│       │   ├── fla_buf4.v,v
+│       │   ├── fla_c2k.v,v
+│       │   ├── fla_hbm.v,v
+│       │   ├── fla_seq.v,v
+│       │   └── fla_top.v,v
+│       ├── sha/
+│       │   ├── ahb_fdl_defs.v,v
+│       │   ├── sha_eng.v,v
+│       │   └── sha_top.v,v
+│       └── srn/
+│           ├── srn_chs.v,v
+│           ├── srn_dhs.v,v
+│           ├── srn_rom.v,v
+│           ├── srn_sram.v,v
+│           ├── srn_src.v,v
+│           └── srn_top.v,v
+├── fdl/
+│   └── ahb_fdl_defs.fdl,v
+├── models/
+│   └── flash/
+│       └── samsung/
+│           ├── k9f4g08u0m.v,v
+│           ├── task.v,v
+│           ├── test_bench.v,v
+│           └── verilog.log,v
+└── system/

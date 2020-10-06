@@ -1,0 +1,2360 @@
+mk64/
+├── Attic/
+│   ├── code.out,v
+│   ├── excode.map,v
+│   ├── kart,v
+│   ├── KT10_files.o,v
+│   ├── KT10_files.s,v
+│   ├── KT10_files.szp,v
+│   ├── KT11_files.o,v
+│   ├── KT11_files.s,v
+│   ├── KT11_files.szp,v
+│   ├── KT12_files.o,v
+│   ├── KT12_files.s,v
+│   ├── KT12_files.szp,v
+│   ├── KT13_files.o,v
+│   ├── KT13_files.s,v
+│   ├── KT13_files.szp,v
+│   ├── KT14_files.o,v
+│   ├── KT14_files.s,v
+│   ├── KT14_files.szp,v
+│   ├── KT15_files.o,v
+│   ├── KT15_files.s,v
+│   ├── KT15_files.szp,v
+│   ├── KT16_files.o,v
+│   ├── KT16_files.s,v
+│   ├── KT16_files.szp,v
+│   ├── KT17_files.o,v
+│   ├── KT17_files.s,v
+│   ├── KT17_files.szp,v
+│   ├── KT18_files.o,v
+│   ├── KT18_files.s,v
+│   ├── KT18_files.szp,v
+│   ├── KT19_files.o,v
+│   ├── KT19_files.s,v
+│   ├── KT19_files.szp,v
+│   ├── KT1_files.o,v
+│   ├── KT1_files.s,v
+│   ├── KT1_files.szp,v
+│   ├── KT20_files.o,v
+│   ├── KT20_files.s,v
+│   ├── KT20_files.szp,v
+│   ├── KT2_files.o,v
+│   ├── KT2_files.s,v
+│   ├── KT2_files.szp,v
+│   ├── KT3_files.o,v
+│   ├── KT3_files.s,v
+│   ├── KT3_files.szp,v
+│   ├── KT4_files.o,v
+│   ├── KT4_files.s,v
+│   ├── KT4_files.szp,v
+│   ├── KT5_files.o,v
+│   ├── KT5_files.s,v
+│   ├── KT5_files.szp,v
+│   ├── KT6_files.o,v
+│   ├── KT6_files.s,v
+│   ├── KT6_files.szp,v
+│   ├── KT7_files.o,v
+│   ├── KT7_files.s,v
+│   ├── KT7_files.szp,v
+│   ├── KT8_files.o,v
+│   ├── KT8_files.s,v
+│   ├── KT8_files.szp,v
+│   ├── KT9_files.o,v
+│   ├── KT9_files.s,v
+│   ├── KT9_files.szp,v
+│   ├── kwgfx.o,v
+│   ├── kwprint.o,v
+│   ├── link.map,v
+│   ├── logo_files.o,v
+│   ├── logo_files.s,v
+│   ├── logo_files.szp,v
+│   ├── mario_test.o,v
+│   ├── mkcode.map,v
+│   ├── null,v
+│   ├── result_files.o,v
+│   ├── result_files.s,v
+│   ├── result_files.szp,v
+│   ├── rom,v
+│   ├── rom.map,v
+│   ├── staticdata.szp,v
+│   ├── statickawano.o,v
+│   └── symbol.out,v
+├── audio/
+│   ├── aspMain.o,v
+│   ├── audio.o,v
+│   ├── audioheap.o,v
+│   ├── audiotable.o,v
+│   ├── audiowork.o,v
+│   ├── kart_sou.banks,v
+│   ├── kart_sou.music,v
+│   ├── kart_sou.sbmap,v
+│   ├── kart_sou.table,v
+│   └── kart_sou_inc.h,v
+├── camdemo.o,v
+├── camera.o,v
+├── chmodall,v
+├── convszp,v
+├── convszp_linux,v
+├── course.o,v
+├── CVS/
+│   └── fileattr
+├── dataasm,v
+├── dataasm_linux,v
+├── democamera.o,v
+├── draw.o,v
+├── drive.o,v
+├── eeprom_kart.o,v
+├── ending.o,v
+├── endspexc.o,v
+├── enemy.o,v
+├── enemy_source/
+│   └── enemy_12_6.c,v
+├── eptvr.dat,v
+├── excode.out,v
+├── flagobj.o,v
+├── framebuffer.o,v
+├── ghost.o,v
+├── GNUmakefile,v
+├── harinezumi.idx,v
+├── harinezumi.pal,v
+├── headers.h,v
+├── i10n/
+│   ├── assets/
+│   │   ├── a1-font/
+│   │   │   ├── E_cc.ppm,v
+│   │   │   ├── E_dquotation.ppm,v
+│   │   │   ├── E_exclamation.ppm,v
+│   │   │   ├── E_minus.ppm,v
+│   │   │   ├── E_period.ppm,v
+│   │   │   ├── E_plus.ppm,v
+│   │   │   ├── E_question.ppm,v
+│   │   │   ├── E_quotation.ppm,v
+│   │   │   ├── E_s0.ppm,v
+│   │   │   ├── E_s1.ppm,v
+│   │   │   ├── E_s2.ppm,v
+│   │   │   ├── E_s3.ppm,v
+│   │   │   ├── E_s4.ppm,v
+│   │   │   ├── E_s5.ppm,v
+│   │   │   ├── E_s6.ppm,v
+│   │   │   ├── E_s7.ppm,v
+│   │   │   ├── E_s8.ppm,v
+│   │   │   ├── E_s9.ppm,v
+│   │   │   ├── E_sA.ppm,v
+│   │   │   ├── E_sB.ppm,v
+│   │   │   ├── E_sC.ppm,v
+│   │   │   ├── E_sD.ppm,v
+│   │   │   ├── E_sE.ppm,v
+│   │   │   ├── E_sF.ppm,v
+│   │   │   ├── E_sG.ppm,v
+│   │   │   ├── E_sH.ppm,v
+│   │   │   ├── E_sI.ppm,v
+│   │   │   ├── E_sJ.ppm,v
+│   │   │   ├── E_sK.ppm,v
+│   │   │   ├── E_sL.ppm,v
+│   │   │   ├── E_sM.ppm,v
+│   │   │   ├── E_sN.ppm,v
+│   │   │   ├── E_sO.ppm,v
+│   │   │   ├── E_sP.ppm,v
+│   │   │   ├── E_sQ.ppm,v
+│   │   │   ├── E_sR.ppm,v
+│   │   │   ├── E_sS.ppm,v
+│   │   │   ├── E_sT.ppm,v
+│   │   │   ├── E_sU.ppm,v
+│   │   │   ├── E_sV.ppm,v
+│   │   │   ├── E_sW.ppm,v
+│   │   │   ├── E_sX.ppm,v
+│   │   │   ├── E_sY.ppm,v
+│   │   │   ├── E_sZ.ppm,v
+│   │   │   └── E_TENTEN.ppm,v
+│   │   ├── focused-todo.txt,v
+│   │   ├── fontsample.rgb,v
+│   │   ├── gsel_100cc_S.raw,v
+│   │   ├── gsel_150cc_S.raw,v
+│   │   ├── gsel_1P_S.raw,v
+│   │   ├── gsel_2P_S.raw,v
+│   │   ├── gsel_3P_S.raw,v
+│   │   ├── gsel_4P_S.raw,v
+│   │   ├── gsel_50cc_S.raw,v
+│   │   ├── gsel_BATTLE_S.raw,v
+│   │   ├── gsel_data_S.raw,v
+│   │   ├── gsel_ghost_S.raw,v
+│   │   ├── gsel_GP_S.raw,v
+│   │   ├── gsel_itemOFF_S.raw,v
+│   │   ├── gsel_itemON_S.raw,v
+│   │   ├── gsel_LOGO_S.raw,v
+│   │   ├── gsel_option_S.raw,v
+│   │   ├── gsel_PRO_S.raw,v
+│   │   ├── gsel_records_S.raw,v
+│   │   ├── gsel_TIME_S.raw,v
+│   │   ├── gsel_try_S.raw,v
+│   │   ├── gsel_VS_S.raw,v
+│   │   ├── image-list.txt,v
+│   │   ├── lap88moji.rgba,v
+│   │   ├── lapmoji.rgba,v
+│   │   ├── more-focused-todo.txt,v
+│   │   ├── msel_fcup_S.raw,v
+│   │   ├── msel_kcup_S.raw,v
+│   │   ├── msel_KT10_S.raw,v
+│   │   ├── msel_KT11_S.raw,v
+│   │   ├── msel_KT12_S.raw,v
+│   │   ├── msel_KT13_S.raw,v
+│   │   ├── msel_KT14_S.raw,v
+│   │   ├── msel_KT15_S.raw,v
+│   │   ├── msel_KT16_S.raw,v
+│   │   ├── msel_KT17_S.raw,v
+│   │   ├── msel_KT18_S.raw,v
+│   │   ├── msel_KT19_S.raw,v
+│   │   ├── msel_KT1_S.raw,v
+│   │   ├── msel_KT21_S.raw,v
+│   │   ├── msel_KT2_S.raw,v
+│   │   ├── msel_KT3_S.raw,v
+│   │   ├── msel_KT4_S.raw,v
+│   │   ├── msel_KT5_S.raw,v
+│   │   ├── msel_KT6_S.raw,v
+│   │   ├── msel_KT7_S.raw,v
+│   │   ├── msel_KT8_S.raw,v
+│   │   ├── msel_KT9_S.raw,v
+│   │   ├── msel_LOGO_S.raw,v
+│   │   ├── msel_scup_S.raw,v
+│   │   ├── msel_spcup_S.raw,v
+│   │   ├── N_donkey.raw,v
+│   │   ├── N_kinopio.raw,v
+│   │   ├── N_koopa.raw,v
+│   │   ├── N_luigi.raw,v
+│   │   ├── N_mario.raw,v
+│   │   ├── N_peach.raw,v
+│   │   ├── N_wario.raw,v
+│   │   ├── N_yoshi.raw,v
+│   │   ├── nintendo_logo_texture.raw,v
+│   │   ├── ok_S.raw,v
+│   │   ├── optionLOGO_S.raw,v
+│   │   ├── psel_LOGO_S.raw,v
+│   │   ├── README,v
+│   │   ├── sel_alpha_S006.raw,v
+│   │   ├── sel_alpha_S007.raw,v
+│   │   ├── signsample.sgi,v
+│   │   ├── startBanner-sample.ppm,v
+│   │   ├── strings.txt,v
+│   │   ├── time.rgba,v
+│   │   ├── titleback2_S.raw,v
+│   │   ├── titleback_S.raw,v
+│   │   ├── titlelogo_kw.raw,v
+│   │   ├── total.rgba,v
+│   │   └── zh/
+│   │       ├── a1_font/
+│   │       │   ├── mk_font.rgb,v
+│   │       │   ├── strings.txt,v
+│   │       │   └── strings_chinese_ref.txt,v
+│   │       └── textures/
+│   │           └── raw/
+│   │               ├── Attic/
+│   │               │   └── msel_scup_S _zh.raw,v
+│   │               ├── gsel_1P_s_zh.raw,v
+│   │               ├── gsel_2P_s_zh.raw,v
+│   │               ├── gsel_3P_s_zh.raw,v
+│   │               ├── gsel_4P_s_zh.raw,v
+│   │               ├── gsel_4P_zh .raw,v
+│   │               ├── gsel_BATTLE_S_zh.raw,v
+│   │               ├── gsel_data_S_zh.raw,v
+│   │               ├── gsel_ghost_S_zh.raw,v
+│   │               ├── gsel_GP_S_zh.raw,v
+│   │               ├── gsel_itemOFF_S_zh.raw,v
+│   │               ├── gsel_itemON_S_zh.raw,v
+│   │               ├── gsel_LOGO_S_zh.raw,v
+│   │               ├── gsel_LOGO_S_zh.sgi,v
+│   │               ├── gsel_option_S_zh.raw,v
+│   │               ├── gsel_PRO_S_zh.raw,v
+│   │               ├── gsel_records_S_zh.raw,v
+│   │               ├── gsel_TIME_S_zh.raw,v
+│   │               ├── gsel_try_S_zh.raw,v
+│   │               ├── gsel_VS_S_zh.raw,v
+│   │               ├── msel_fcup_S_zh.raw,v
+│   │               ├── msel_kcup_S_zh.raw,v
+│   │               ├── msel_KT10_S_zh.raw,v
+│   │               ├── msel_KT11_S_zh.raw,v
+│   │               ├── msel_KT12_S_zh.raw,v
+│   │               ├── msel_KT13_S_zh.raw,v
+│   │               ├── msel_KT14_S_zh.raw,v
+│   │               ├── msel_KT15_S_zh.raw,v
+│   │               ├── msel_KT16_S_zh.raw,v
+│   │               ├── msel_KT17_S_zh.raw,v
+│   │               ├── msel_KT18_S_zh.raw,v
+│   │               ├── msel_KT19_S_zh.raw,v
+│   │               ├── msel_KT1_S_zh.raw,v
+│   │               ├── msel_KT21_S_zh.raw,v
+│   │               ├── msel_KT2_S_zh.raw,v
+│   │               ├── msel_KT3_S_zh.raw,v
+│   │               ├── msel_KT4_S_zh.raw,v
+│   │               ├── msel_KT5_S_zh.raw,v
+│   │               ├── msel_KT6_S_zh.raw,v
+│   │               ├── msel_KT7_S_zh.raw,v
+│   │               ├── msel_KT8_S_zh.raw,v
+│   │               ├── msel_KT9_S_zh.raw,v
+│   │               ├── msel_LOGO_S_zh.raw,v
+│   │               ├── msel_scup_S_zh.raw,v
+│   │               ├── msel_spcup_S_zh.raw,v
+│   │               ├── N_donkey_zh.raw,v
+│   │               ├── N_kinopio_zh.raw,v
+│   │               ├── N_koopa_zh.raw,v
+│   │               ├── N_luigi_zh.raw,v
+│   │               ├── N_mario_zh.raw,v
+│   │               ├── N_peach_zh.raw,v
+│   │               ├── N_wario_zh.raw,v
+│   │               ├── N_yoshi_zh.raw,v
+│   │               ├── ok_S_zh.raw,v
+│   │               ├── optionLOGO_S_zh.raw,v
+│   │               ├── psel_LOGO_S_zh.raw,v
+│   │               ├── pushstart_S.rgb,v
+│   │               ├── README.txt,v
+│   │               ├── sel_alpha_S006_zh.raw,v
+│   │               ├── sel_alpha_S006_zh.sgi,v
+│   │               ├── sel_alpha_S007_zh.sgi,v
+│   │               ├── startBanner_zh.sgi,v
+│   │               ├── startBanner_zh_fixed2.sgi,v
+│   │               ├── time_zh.sgi,v
+│   │               ├── titleLogo-modified.pnm,v
+│   │               ├── titleLogo-modified.sgi,v
+│   │               ├── titlelogo_kw_zh.raw,v
+│   │               ├── titlelogo_kw_zh.sgi,v
+│   │               └── total_zh.sgi,v
+│   └── tools/
+│       ├── convert-font-stuff.py,v
+│       ├── convertZH.py,v
+│       ├── doOtherThings.sh,v
+│       ├── font2raw.pl,v
+│       ├── font2raw.py,v
+│       ├── fontConverter.py,v
+│       ├── genPPMfrom1B.pl,v
+│       ├── genPPMfromI8.pl,v
+│       ├── genPPMfromRGB.pl,v
+│       ├── genPPMfromRGBA.pl,v
+│       ├── i82alpha.pl,v
+│       ├── i82red.pl,v
+│       ├── pnm2raw.pl,v
+│       ├── processFontsZH.py,v
+│       ├── ps4decode,v
+│       ├── ps4decode.c,v
+│       ├── pushstart.txt,v
+│       ├── raw2font.pl,v
+│       ├── raw2i8.pl,v
+│       ├── raw2tex.pl,v
+│       ├── rawToDotS.py,v
+│       ├── rawToDotS.txt,v
+│       ├── README,v
+│       ├── rgb2rgba.pl,v
+│       ├── rgba2red.pl,v
+│       └── sgitops4,v
+├── image/
+│   ├── a4_kumo_g1.c,v
+│   ├── a4_kumo_g2.c,v
+│   ├── a4_kumo_g3.c,v
+│   ├── a4_kumo_g4.c,v
+│   ├── a4_kumo_g5.c,v
+│   ├── a4_kumo_g6.c,v
+│   ├── a4_shadow.c,v
+│   ├── a4_snow.c,v
+│   ├── a8_smoke.c,v
+│   ├── add64_txt.c,v
+│   ├── akabox_txt.c,v
+│   ├── akamon_txt.c,v
+│   ├── aobox_txt.c,v
+│   ├── awa_txt.c,v
+│   ├── bat.c,v
+│   ├── bird.c,v
+│   ├── black_txt.c,v
+│   ├── bombkart.idx,v
+│   ├── bombkart.pal,v
+│   ├── bombtire.c,v
+│   ├── bou_txt.c,v
+│   ├── brank.c,v
+│   ├── bridge1_txt.c,v
+│   ├── bridge2_txt.c,v
+│   ├── bridgepole_txt.c,v
+│   ├── cha_txt.c,v
+│   ├── checker_txt.c,v
+│   ├── choropu.c,v
+│   ├── ci8_snowkakera.c,v
+│   ├── cliff_txt.c,v
+│   ├── con3_txt.c,v
+│   ├── con4_txt.c,v
+│   ├── con5_txt.c,v
+│   ├── con6_txt.c,v
+│   ├── con_txt.c,v
+│   ├── conline_txt.c,v
+│   ├── conNO1_txt.c,v
+│   ├── conNO2_txt.c,v
+│   ├── conNO3_txt.c,v
+│   ├── conNO4_txt.c,v
+│   ├── cy19_shape.c,v
+│   ├── cyl9_shape.c,v
+│   ├── dai.c,v
+│   ├── dai1_sq3.c,v
+│   ├── dai2_sq3.c,v
+│   ├── dai3_sq3.c,v
+│   ├── dart1Ah_txt.c,v
+│   ├── dart3_txt.c,v
+│   ├── dart3goalB_txt.c,v
+│   ├── dart3goalC_txt.c,v
+│   ├── dartgoal1_txt.c,v
+│   ├── dash_txt.c,v
+│   ├── dbmoji.c,v
+│   ├── dokan_txt.c,v
+│   ├── door14_txt.c,v
+│   ├── door_txt.c,v
+│   ├── dossn_face.idx,v
+│   ├── dossn_face.pal,v
+│   ├── dossn_skin.c,v
+│   ├── dosun.c,v
+│   ├── egg_txt.c,v
+│   ├── exit_txt.c,v
+│   ├── face10_shape.c,v
+│   ├── face11_shape.c,v
+│   ├── face7_shape.c,v
+│   ├── face8_shape.c,v
+│   ├── face9_shape.c,v
+│   ├── fagreen_txt.c,v
+│   ├── farmkanbanA_txt.c,v
+│   ├── farmkanbanB_txt.c,v
+│   ├── farmkanbantuno_txt.c,v
+│   ├── faroadC_txt.c,v
+│   ├── faroadgoal_txt.c,v
+│   ├── faroadgoalC_txt.c,v
+│   ├── faroadL_txt.c,v
+│   ├── fence2_txt.c,v
+│   ├── fence3_txt.c,v
+│   ├── fence_txt.c,v
+│   ├── fire.c,v
+│   ├── flag_a.c,v
+│   ├── floor2_txt.c,v
+│   ├── gake2_txt.c,v
+│   ├── gake3_txt.c,v
+│   ├── gake_txt.c,v
+│   ├── goalflag.c,v
+│   ├── goalflag_texture.h,v
+│   ├── gou_txt.c,v
+│   ├── green10_txt.c,v
+│   ├── green13_txt.c,v
+│   ├── green4_txt.c,v
+│   ├── green7_txt.c,v
+│   ├── green_txt.c,v
+│   ├── greenN1_txt.c,v
+│   ├── greenN2_txt.c,v
+│   ├── guard3_txt.c,v
+│   ├── guard_txt.c,v
+│   ├── guardrail_txt.c,v
+│   ├── guide_txt.c,v
+│   ├── hari.c,v
+│   ├── hari.o,v
+│   ├── harinezumi.idx,v
+│   ├── harinezumi.pal,v
+│   ├── hasi01_txt.c,v
+│   ├── hata_txt.c,v
+│   ├── hei1_txt.c,v
+│   ├── hei3_txt.c,v
+│   ├── hei4_txt.c,v
+│   ├── ia8_hole.c,v
+│   ├── ia8_kumo_g1.c,v
+│   ├── ia8_kumo_g2.c,v
+│   ├── ia8_kumo_g3.c,v
+│   ├── ia8_kumo_g4.c,v
+│   ├── ia8_kumo_g5.c,v
+│   ├── ia8_kumo_g6.c,v
+│   ├── ia8_shadow.c,v
+│   ├── ia8_smoke.c,v
+│   ├── ia8_snow.c,v
+│   ├── ib_banana.idx,v
+│   ├── ib_banana.pal,v
+│   ├── ib_bananas.idx,v
+│   ├── ib_bananas.pal,v
+│   ├── ib_egg.idx,v
+│   ├── ib_egg.pal,v
+│   ├── ib_g_marble.idx,v
+│   ├── ib_g_marble.pal,v
+│   ├── ib_imbox.idx,v
+│   ├── ib_imbox.pal,v
+│   ├── ib_msh1.idx,v
+│   ├── ib_msh1.pal,v
+│   ├── ib_msh2.idx,v
+│   ├── ib_msh2.pal,v
+│   ├── ib_msh3.idx,v
+│   ├── ib_msh3.pal,v
+│   ├── ib_mshc.idx,v
+│   ├── ib_mshc.pal,v
+│   ├── ib_mshs.idx,v
+│   ├── ib_mshs.pal,v
+│   ├── ib_mushroom.idx,v
+│   ├── ib_mushroom.pal,v
+│   ├── ib_nothing.idx,v
+│   ├── ib_nothing.pal,v
+│   ├── ib_s_cock.idx,v
+│   ├── ib_s_cock.pal,v
+│   ├── ib_shl_g.idx,v
+│   ├── ib_shl_g.pal,v
+│   ├── ib_shl_p.idx,v
+│   ├── ib_shl_p.pal,v
+│   ├── ib_shl_r.idx,v
+│   ├── ib_shl_r.pal,v
+│   ├── ib_shls_g.idx,v
+│   ├── ib_shls_g.pal,v
+│   ├── ib_shls_r.idx,v
+│   ├── ib_shls_r.pal,v
+│   ├── ib_sinker.idx,v
+│   ├── ib_sinker.pal,v
+│   ├── ib_star.idx,v
+│   ├── ib_star.pal,v
+│   ├── ib_tellesa.idx,v
+│   ├── ib_tellesa.pal,v
+│   ├── ib_thunder.idx,v
+│   ├── ib_thunder.pal,v
+│   ├── ice2_txt.c,v
+│   ├── ice_txt.c,v
+│   ├── iceblock.c,v
+│   ├── ironwall_txt.c,v
+│   ├── ishigaki2_txt.c,v
+│   ├── ishigaki_txt.c,v
+│   ├── ishikabe_txt.c,v
+│   ├── item.c,v
+│   ├── item.o,v
+│   ├── iwa2_txt.c,v
+│   ├── iwa3_txt.c,v
+│   ├── iwa4_txt.c,v
+│   ├── iwa_txt.c,v
+│   ├── j_gake_txt.c,v
+│   ├── j_jimen01_txt.c,v
+│   ├── j_jimen02_txt.c,v
+│   ├── j_kui_txt.c,v
+│   ├── j_mount_txt.c,v
+│   ├── j_newbg1a_txt.c,v
+│   ├── j_newbg1b_txt.c,v
+│   ├── j_newbg2a_txt.c,v
+│   ├── j_newbg2b_txt.c,v
+│   ├── j_newbg2c_txt.c,v
+│   ├── j_newbg3a_txt.c,v
+│   ├── j_newbg3b_txt.c,v
+│   ├── j_newbg4b_txt.c,v
+│   ├── j_rope_txt.c,v
+│   ├── j_saku04_txt.c,v
+│   ├── j_saku_txt.c,v
+│   ├── j_tarekusa_txt.c,v
+│   ├── j_tsurara_txt.c,v
+│   ├── j_water_txt.c,v
+│   ├── j_yaji3_txt.c,v
+│   ├── jewelBB_txt.c,v
+│   ├── jewelBG_txt.c,v
+│   ├── jewelPP_txt.c,v
+│   ├── jgm_g.idx,v
+│   ├── jgm_g.pal,v
+│   ├── jgm_l2.idx,v
+│   ├── jgm_l2.pal,v
+│   ├── jgm_lf.idx,v
+│   ├── jgm_lf.pal,v
+│   ├── jgm_r.idx,v
+│   ├── jgm_r.pal,v
+│   ├── jgm_s.idx,v
+│   ├── jgm_s.pal,v
+│   ├── jgm_s1.idx,v
+│   ├── jgm_s1.pal,v
+│   ├── jgm_t.idx,v
+│   ├── jgm_t.pal,v
+│   ├── jugemu.c,v
+│   ├── jugemu.o,v
+│   ├── jugemuidx.c,v
+│   ├── kabeW1_txt.c,v
+│   ├── kabeW9_txt.c,v
+│   ├── kaimen2_txt.c,v
+│   ├── kaimen_txt.c,v
+│   ├── kamome.c,v
+│   ├── kamome_body.c,v
+│   ├── kamome_wing1.c,v
+│   ├── kamome_wing2.c,v
+│   ├── kamome_wing3.c,v
+│   ├── kani.c,v
+│   ├── kanokefuta.c,v
+│   ├── kao.c,v
+│   ├── kao.o,v
+│   ├── kawara2_txt.c,v
+│   ├── kcwall_txt.c,v
+│   ├── kdeco_txt.c,v
+│   ├── kgrassA_txt.c,v
+│   ├── kgrassB_txt.c,v
+│   ├── ki2_txt.c,v
+│   ├── kiiro_txt.c,v
+│   ├── kiirobeta_txt.c,v
+│   ├── kino01_txt.c,v
+│   ├── kino02_txt.c,v
+│   ├── kino03_txt.c,v
+│   ├── kinoko_txt.c,v
+│   ├── kinokokasa2_txt.c,v
+│   ├── kinokokasa_txt.c,v
+│   ├── kmarble2_txt.c,v
+│   ├── kmarble_txt.c,v
+│   ├── koopaairA_txt.c,v
+│   ├── koopaairB_txt.c,v
+│   ├── krenga_txt.c,v
+│   ├── krooftile_txt.c,v
+│   ├── kstuccowall_txt.c,v
+│   ├── KT10_kwdata.c,v
+│   ├── KT10_kwdata.o,v
+│   ├── kt10road.c,v
+│   ├── KT11_kwdata.c,v
+│   ├── KT11_kwdata.o,v
+│   ├── kt11road.c,v
+│   ├── KT12_kwdata.c,v
+│   ├── KT12_kwdata.o,v
+│   ├── kt12road.c,v
+│   ├── KT13_kwdata.c,v
+│   ├── KT13_kwdata.o,v
+│   ├── kt13road.c,v
+│   ├── KT14_kwdata.c,v
+│   ├── KT14_kwdata.o,v
+│   ├── kt14road.c,v
+│   ├── KT15_kwdata.c,v
+│   ├── KT15_kwdata.o,v
+│   ├── kt15road.c,v
+│   ├── KT16_kwdata.c,v
+│   ├── KT16_kwdata.o,v
+│   ├── kt16road.c,v
+│   ├── KT17_kwdata.c,v
+│   ├── KT17_kwdata.o,v
+│   ├── kt17road.c,v
+│   ├── KT18_kwdata.c,v
+│   ├── KT18_kwdata.o,v
+│   ├── kt18road.c,v
+│   ├── KT19_kwdata.c,v
+│   ├── KT19_kwdata.o,v
+│   ├── kt19road.c,v
+│   ├── KT1_kwdata.c,v
+│   ├── KT1_kwdata.o,v
+│   ├── kt1road.c,v
+│   ├── KT20_kwdata.c,v
+│   ├── KT20_kwdata.o,v
+│   ├── kt20road.c,v
+│   ├── KT2_kwdata.c,v
+│   ├── KT2_kwdata.o,v
+│   ├── kt2road.c,v
+│   ├── KT3_kwdata.c,v
+│   ├── KT3_kwdata.o,v
+│   ├── kt3road.c,v
+│   ├── KT4_kwdata.c,v
+│   ├── KT4_kwdata.o,v
+│   ├── kt4road.c,v
+│   ├── KT5_kwdata.c,v
+│   ├── KT5_kwdata.o,v
+│   ├── kt5road.c,v
+│   ├── KT6_kwdata.c,v
+│   ├── KT6_kwdata.o,v
+│   ├── kt6road.c,v
+│   ├── KT7_kwdata.c,v
+│   ├── KT7_kwdata.o,v
+│   ├── kt7road.c,v
+│   ├── KT8_kwdata.c,v
+│   ├── KT8_kwdata.o,v
+│   ├── kt8road.c,v
+│   ├── KT9_kwdata.c,v
+│   ├── KT9_kwdata.o,v
+│   ├── kt9road.c,v
+│   ├── ktile_txt.c,v
+│   ├── kuppa1A_txt.c,v
+│   ├── kuppa1B_txt.c,v
+│   ├── kuribo.c,v
+│   ├── kusa2_txt.c,v
+│   ├── kusa_txt.c,v
+│   ├── kwfz.c,v
+│   ├── kwfz.o,v
+│   ├── kwindow_txt.c,v
+│   ├── kyaku2_txt.c,v
+│   ├── kyaku3_txt.c,v
+│   ├── kyaku_txt.c,v
+│   ├── ladder_txt.c,v
+│   ├── lamp_txt.c,v
+│   ├── land2_txt.c,v
+│   ├── land3_txt.c,v
+│   ├── land4_txt.c,v
+│   ├── land_txt.c,v
+│   ├── lava_txt.c,v
+│   ├── lightup_txt.c,v
+│   ├── LUIballoon.c,v
+│   ├── LUIballoon_sq3.c,v
+│   ├── luigi1_txt.c,v
+│   ├── luigi2_txt.c,v
+│   ├── luigipA_txt.c,v
+│   ├── luigipB_txt.c,v
+│   ├── marioroA_txt.c,v
+│   ├── marioroB_txt.c,v
+│   ├── mark1.c,v
+│   ├── mark1B.c,v
+│   ├── mark2.c,v
+│   ├── mark2B.c,v
+│   ├── mark3.c,v
+│   ├── mark3B.c,v
+│   ├── mark4.c,v
+│   ├── mark4B.c,v
+│   ├── mark_txt.c,v
+│   ├── markCOM.c,v
+│   ├── markdonkey.c,v
+│   ├── markkinopio.c,v
+│   ├── markkoopa.c,v
+│   ├── markL_txt.c,v
+│   ├── markluigi.c,v
+│   ├── markmario.c,v
+│   ├── markpeach.c,v
+│   ├── markwario.c,v
+│   ├── markyoshi.c,v
+│   ├── maruta_txt.c,v
+│   ├── marutagoal_txt.c,v
+│   ├── minimap.c,v
+│   ├── minimap.o,v
+│   ├── mizu_txt.c,v
+│   ├── mmflag_txt.c,v
+│   ├── moji.c,v
+│   ├── moji.o,v
+│   ├── mokume_txt.c,v
+│   ├── momobox_txt.c,v
+│   ├── msand_txt.c,v
+│   ├── namiato10_txt.c,v
+│   ├── neon_donkey.idx,v
+│   ├── neon_donkey.pal,v
+│   ├── neon_ki.idx,v
+│   ├── neon_ki.pal,v
+│   ├── neon_kinopio.idx,v
+│   ├── neon_kinopio.pal,v
+│   ├── neon_koopa.idx,v
+│   ├── neon_koopa.pal,v
+│   ├── neon_luigi.idx,v
+│   ├── neon_luigi.pal,v
+│   ├── neon_ma.idx,v
+│   ├── neon_ma.pal,v
+│   ├── neon_peach.idx,v
+│   ├── neon_peach.pal,v
+│   ├── neon_te.idx,v
+│   ├── neon_te.pal,v
+│   ├── neon_wario.idx,v
+│   ├── neon_wario.pal,v
+│   ├── neon_yoshi.idx,v
+│   ├── neon_yoshi.pal,v
+│   ├── NEONdk1A_txt.c,v
+│   ├── NEONdk1B_txt.c,v
+│   ├── NEONkino1A_txt.c,v
+│   ├── NEONkino1B_txt.c,v
+│   ├── NEONkoo1A_txt.c,v
+│   ├── NEONkoo1B_txt.c,v
+│   ├── NEONluigi1A_txt.c,v
+│   ├── NEONluigi1B_txt.c,v
+│   ├── NEONpea1A_txt.c,v
+│   ├── NEONpea1B_txt.c,v
+│   ├── NEONwario1A_txt.c,v
+│   ├── NEONwario1B_txt.c,v
+│   ├── NEONyoshi1A_txt.c,v
+│   ├── NEONyoshi1B_txt.c,v
+│   ├── nintendoA_txt.c,v
+│   ├── nintendoB_txt.c,v
+│   ├── NshellA_txt.c,v
+│   ├── NshellB_txt.c,v
+│   ├── num.idx,v
+│   ├── num.pal,v
+│   ├── num_s.idx,v
+│   ├── num_s.pal,v
+│   ├── oldrenga_txt.c,v
+│   ├── order.c,v
+│   ├── oreshima_txt.c,v
+│   ├── ori_txt.c,v
+│   ├── pbomb.idx,v
+│   ├── pbomb.pal,v
+│   ├── pdo.idx,v
+│   ├── pdo.pal,v
+│   ├── peachgls0_txt.c,v
+│   ├── peachgls1_txt.c,v
+│   ├── people_txt.c,v
+│   ├── pframe.c,v
+│   ├── ping.c,v
+│   ├── ping_base_data20.c,v
+│   ├── ping_base_data21.c,v
+│   ├── ping_base_data22.c,v
+│   ├── ping_base_data23.c,v
+│   ├── ping_base_data25.c,v
+│   ├── ping_head_0.c,v
+│   ├── ping_head_1.c,v
+│   ├── ping_head_2.c,v
+│   ├── pki.idx,v
+│   ├── pki.pal,v
+│   ├── pku.idx,v
+│   ├── pku.pal,v
+│   ├── plu.idx,v
+│   ├── plu.pal,v
+│   ├── pma.idx,v
+│   ├── pma.pal,v
+│   ├── pole_txt.c,v
+│   ├── ppe.idx,v
+│   ├── ppe.pal,v
+│   ├── pukupuku.c,v
+│   ├── pwa.idx,v
+│   ├── pwa.pal,v
+│   ├── pxx.idx,v
+│   ├── pxx.pal,v
+│   ├── pyo.idx,v
+│   ├── pyo.pal,v
+│   ├── rail_txt.c,v
+│   ├── railfumikiri_txt.c,v
+│   ├── railstone_txt.c,v
+│   ├── rainbow_txt.c,v
+│   ├── rank.c,v
+│   ├── rank.o,v
+│   ├── rantan_txt.c,v
+│   ├── rantanB_txt.c,v
+│   ├── renga10_txt.c,v
+│   ├── renga11_txt.c,v
+│   ├── renga12_txt.c,v
+│   ├── renga1_txt.c,v
+│   ├── renga2_txt.c,v
+│   ├── renga3_txt.c,v
+│   ├── renga4_txt.c,v
+│   ├── renga6_txt.c,v
+│   ├── renga7_txt.c,v
+│   ├── renga8_txt.c,v
+│   ├── renga9_txt.c,v
+│   ├── rgba_happa.c,v
+│   ├── rgba_leaf.c,v
+│   ├── rgba_tuchi.c,v
+│   ├── river_txt.c,v
+│   ├── road1A_txt.c,v
+│   ├── road1D_txt.c,v
+│   ├── road1E_txt.c,v
+│   ├── road1F_txt.c,v
+│   ├── road1G_txt.c,v
+│   ├── road1h_txt.c,v
+│   ├── roadgoal1A_txt.c,v
+│   ├── roadgoal1D_txt.c,v
+│   ├── roof1_txt.c,v
+│   ├── roof2_txt.c,v
+│   ├── roof3_txt.c,v
+│   ├── roof4_txt.c,v
+│   ├── rope_txt.c,v
+│   ├── saku04_txt.c,v
+│   ├── saku1_txt.c,v
+│   ├── saku5_txt.c,v
+│   ├── same.c,v
+│   ├── shoumei_txt.c,v
+│   ├── sign_txt.c,v
+│   ├── signal.c,v
+│   ├── signal.o,v
+│   ├── signback_txt.c,v
+│   ├── sline.c,v
+│   ├── snow1_txt.c,v
+│   ├── snow3_txt.c,v
+│   ├── snowcave2_txt.c,v
+│   ├── snowcave3_txt.c,v
+│   ├── snowcave_txt.c,v
+│   ├── snowgoal_txt.c,v
+│   ├── snowman.c,v
+│   ├── snowroad_txt.c,v
+│   ├── sou1_txt.c,v
+│   ├── spk.c,v
+│   ├── spmeter.c,v
+│   ├── spmeter.o,v
+│   ├── spot_txt.c,v
+│   ├── srank.c,v
+│   ├── star2_txt.c,v
+│   ├── starkao_txt.c,v
+│   ├── stone2_txt.c,v
+│   ├── stone2goal_txt.c,v
+│   ├── stonewal_txt.c,v
+│   ├── stoverenga_txt.c,v
+│   ├── stripe2_txt.c,v
+│   ├── stripe3_txt.c,v
+│   ├── suimen_txt.c,v
+│   ├── suna2_txt.c,v
+│   ├── suna3_txt.c,v
+│   ├── suna_txt.c,v
+│   ├── sunagoal_txt.c,v
+│   ├── taki01_txt.c,v
+│   ├── taki_txt.c,v
+│   ├── takitubo_txt.c,v
+│   ├── tateshima_txt.c,v
+│   ├── teibou2_txt.c,v
+│   ├── tellesa.idx,v
+│   ├── tellesa.pal,v
+│   ├── ten1_txt.c,v
+│   ├── ten2_txt.c,v
+│   ├── test.c,v
+│   ├── test.o,v
+│   ├── time.c,v
+│   ├── time.o,v
+│   ├── titlelogo_kw.c,v
+│   ├── titlelogo_kw_zh.c,v
+│   ├── totan_txt.c,v
+│   ├── tuchi1_txt.c,v
+│   ├── tuchi3_txt.c,v
+│   ├── tunnel4_txt.c,v
+│   ├── turibashi_txt.c,v
+│   ├── w_add_bou_txt.c,v
+│   ├── w_inout_txt.c,v
+│   ├── wan_eye.c,v
+│   ├── wanwan.c,v
+│   ├── wanwan_anim0.c,v
+│   ├── wanwan_anim2.c,v
+│   ├── wanwan_anim3.c,v
+│   ├── wanwan_anim4.c,v
+│   ├── wariowall_txt.c,v
+│   ├── water_tag_txt.c,v
+│   ├── watertag_txt.c,v
+│   ├── welcome2A_txt.c,v
+│   ├── welcome2B_txt.c,v
+│   ├── welcome2UA_txt.c,v
+│   ├── welcome2UB_txt.c,v
+│   ├── welcomeA_txt.c,v
+│   ├── welcomeB_txt.c,v
+│   ├── wetsand_txt.c,v
+│   ├── wheel2_txt.c,v
+│   ├── white1_txt.c,v
+│   ├── white2_txt.c,v
+│   ├── white3_txt.c,v
+│   ├── white4_txt.c,v
+│   ├── white5_txt.c,v
+│   ├── white6_txt.c,v
+│   ├── window11_txt.c,v
+│   ├── window13_txt.c,v
+│   ├── window14_txt.c,v
+│   ├── window15rg_txt.c,v
+│   ├── window16_txt.c,v
+│   ├── window17_txt.c,v
+│   ├── window18_txt.c,v
+│   ├── wood02_txt.c,v
+│   ├── woodguide_txt.c,v
+│   ├── y_exit_txt.c,v
+│   ├── y_maruta_txt.c,v
+│   ├── y_saku01_txt.c,v
+│   ├── y_welcomeA_txt.c,v
+│   ├── y_welcomeB_txt.c,v
+│   ├── y_zyari03_txt.c,v
+│   ├── yajirushi02_txt.c,v
+│   ├── yajirushi3_txt.c,v
+│   ├── yajirushi_txt.c,v
+│   ├── yakeiA1_txt.c,v
+│   ├── yakeiA2_txt.c,v
+│   ├── yakeiA3_txt.c,v
+│   ├── yakeiA4_txt.c,v
+│   ├── yakeiA_txt.c,v
+│   ├── yakeiB1_txt.c,v
+│   ├── yakeiB2_txt.c,v
+│   ├── yakeiB3_txt.c,v
+│   ├── yakeiB4_txt.c,v
+│   ├── yakeiB_txt.c,v
+│   ├── yakeiC1_txt.c,v
+│   ├── yakeiC2_txt.c,v
+│   ├── yakeiC_txt.c,v
+│   ├── yakeiD1_txt.c,v
+│   ├── yakeiD2_txt.c,v
+│   ├── yakeiD_txt.c,v
+│   ├── yakeiE1_txt.c,v
+│   ├── yakeiE3_txt.c,v
+│   ├── yakeiE4_txt.c,v
+│   ├── yakeiE5_txt.c,v
+│   ├── yakeiE6_txt.c,v
+│   ├── yakeiE_txt.c,v
+│   ├── yane1_txt.c,v
+│   ├── Ycolor2_txt.c,v
+│   ├── Ycolor3_txt.c,v
+│   ├── Ycolor4_txt.c,v
+│   ├── Ycolor_txt.c,v
+│   ├── yoshi1A_txt.c,v
+│   ├── yoshi1B_txt.c,v
+│   ├── yoshiA_txt.c,v
+│   ├── yoshiB_txt.c,v
+│   ├── yuka1_txt.c,v
+│   ├── yuka2_txt.c,v
+│   ├── Ywall_txt.c,v
+│   ├── zh/
+│   │   ├── time_zh.c,v
+│   │   └── total_zh.c,v
+│   ├── zyari2_txt.c,v
+│   ├── zyari2A_txt.c,v
+│   └── zyari_txt.c,v
+├── include/
+│   ├── camera.h,v
+│   ├── course.h,v
+│   ├── course1.h,v
+│   ├── course10.h,v
+│   ├── course11.h,v
+│   ├── course12.h,v
+│   ├── course13.h,v
+│   ├── course14.h,v
+│   ├── course15.h,v
+│   ├── course16.h,v
+│   ├── course17.h,v
+│   ├── course18.h,v
+│   ├── course19.h,v
+│   ├── course2.h,v
+│   ├── course20.h,v
+│   ├── course3.h,v
+│   ├── course4.h,v
+│   ├── course5.h,v
+│   ├── course6.h,v
+│   ├── course7.h,v
+│   ├── course8.h,v
+│   ├── course9.h,v
+│   ├── endspexc.h,v
+│   ├── enemy_static.h,v
+│   ├── external.h,v
+│   ├── gfx.h,v
+│   ├── kawaext.h,v
+│   ├── kawano.h,v
+│   ├── kawano2.h,v
+│   ├── kawastruct.h,v
+│   ├── kawatex.h,v
+│   ├── kenext.h,v
+│   ├── kenparms.h,v
+│   ├── kenprot.h,v
+│   ├── KT1.h,v
+│   ├── KT10.h,v
+│   ├── KT10old.h,v
+│   ├── KT11.h,v
+│   ├── KT12.h,v
+│   ├── KT13.h,v
+│   ├── KT14.h,v
+│   ├── KT15.h,v
+│   ├── KT16.h,v
+│   ├── KT17.h,v
+│   ├── KT18.h,v
+│   ├── KT19.h,v
+│   ├── KT2.h,v
+│   ├── KT20.h,v
+│   ├── KT3.h,v
+│   ├── KT4.h,v
+│   ├── KT5.h,v
+│   ├── KT6.h,v
+│   ├── KT7.h,v
+│   ├── KT8.h,v
+│   ├── KT9.h,v
+│   ├── kvars.h,v
+│   ├── kwdraw.c,v
+│   ├── macros.h,v
+│   ├── map.h,v
+│   ├── math.h,v
+│   ├── memory.h,v
+│   ├── mkcode.h,v
+│   ├── mkgfx.h,v
+│   ├── object.h,v
+│   ├── ogawa.h,v
+│   ├── player.h,v
+│   ├── project.h,v
+│   ├── result.h,v
+│   ├── struct.h,v
+│   ├── system.h,v
+│   ├── texture.h,v
+│   └── vars.h,v
+├── initial.o,v
+├── item.o,v
+├── kalcs.o,v
+├── keneffect.o,v
+├── keninit.o,v
+├── kenmap.o,v
+├── kenstick.o,v
+├── kenstrat.o,v
+├── kimura.lzh,v
+├── kobj.o,v
+├── KT10_files.c,v
+├── KT11_files.c,v
+├── KT12_files.c,v
+├── KT13_files.c,v
+├── KT14_files.c,v
+├── KT15_files.c,v
+├── KT16_files.c,v
+├── KT17_files.c,v
+├── KT18_files.c,v
+├── KT19_files.c,v
+├── KT1_files.c,v
+├── KT20_files.c,v
+├── KT2_files.c,v
+├── KT3_files.c,v
+├── KT4_files.c,v
+├── KT5_files.c,v
+├── KT6_files.c,v
+├── KT7_files.c,v
+├── KT8_files.c,v
+├── KT9_files.c,v
+├── KT_data/
+│   ├── KT10_cent.c,v
+│   ├── KT11_cent.c,v
+│   ├── KT12_cent.c,v
+│   ├── KT13_cent.c,v
+│   ├── KT14_cent.c,v
+│   ├── KT15_cent.c,v
+│   ├── KT16_cent.c,v
+│   ├── KT19_cent.c,v
+│   ├── KT1_cent.c,v
+│   ├── KT20_cent.c,v
+│   ├── KT2_cent.c,v
+│   ├── KT3_cent.c,v
+│   ├── KT4_cent.c,v
+│   ├── KT5_BP1cent.c,v
+│   ├── KT5_BP2cent.c,v
+│   ├── KT5_BP3cent.c,v
+│   ├── KT5_cent.c,v
+│   ├── KT6_cent.c,v
+│   ├── KT7_BP1cent.c,v
+│   ├── KT7_cent.c,v
+│   ├── KT8_cent.c,v
+│   ├── KT9_cent.c,v
+│   ├── RES_BP0cent.c,v
+│   ├── RES_BP1cent.c,v
+│   ├── RES_BP2cent.c,v
+│   ├── RES_BP3cent.c,v
+│   ├── rom_center_KT1.c,v
+│   ├── rom_center_KT10.c,v
+│   ├── rom_center_KT11.c,v
+│   ├── rom_center_KT12.c,v
+│   ├── rom_center_KT13.c,v
+│   ├── rom_center_KT14.c,v
+│   ├── rom_center_KT15.c,v
+│   ├── rom_center_KT19.c,v
+│   ├── rom_center_KT2.c,v
+│   ├── rom_center_KT3.c,v
+│   ├── rom_center_KT4.c,v
+│   ├── rom_center_KT5.c,v
+│   ├── rom_center_KT6.c,v
+│   ├── rom_center_KT7.c,v
+│   ├── rom_center_KT8.c,v
+│   ├── rom_center_KT9.c,v
+│   ├── SHIP_cent.c,v
+│   └── SL_cent.c,v
+├── ktex.o,v
+├── KTKT8_files.c,v
+├── KTKT9_files.c,v
+├── kvtx.o,v
+├── kwanime.o,v
+├── kwasm.o,v
+├── kwasm.s,v
+├── kwdebug.o,v
+├── kwdraw.o,v
+├── kwgfx.c,v
+├── kwgfx_zh.c,v
+├── kwgfx_zh.o,v
+├── kwinit.o,v
+├── kwmain.o,v
+├── kwmath.o,v
+├── kwmove.o,v
+├── kwprint.c,v
+├── kwtable.o,v
+├── lha,v
+├── logo_files.c,v
+├── main.o,v
+├── makefile,v
+├── map/
+│   ├── KT10_ext.c,v
+│   ├── KT10_ext.o,v
+│   ├── KT10_group.c,v
+│   ├── KT10_info.c,v
+│   ├── KT10_pk.c,v
+│   ├── KT10_pk.o,v
+│   ├── KT10_point.c,v
+│   ├── KT10DATA.c,v
+│   ├── KT11_ext.c,v
+│   ├── KT11_ext.o,v
+│   ├── KT11_group.c,v
+│   ├── KT11_info.c,v
+│   ├── KT11_pk.c,v
+│   ├── KT11_pk.o,v
+│   ├── KT11_point.c,v
+│   ├── KT11DATA.c,v
+│   ├── KT12_ext.c,v
+│   ├── KT12_ext.o,v
+│   ├── KT12_group.c,v
+│   ├── KT12_info.c,v
+│   ├── KT12_pk.c,v
+│   ├── KT12_pk.o,v
+│   ├── KT12_point.c,v
+│   ├── KT12DATA.c,v
+│   ├── KT13_ext.c,v
+│   ├── KT13_ext.o,v
+│   ├── KT13_group.c,v
+│   ├── KT13_info.c,v
+│   ├── KT13_pk.c,v
+│   ├── KT13_pk.o,v
+│   ├── KT13_point.c,v
+│   ├── KT13DATA.c,v
+│   ├── KT14.c,v
+│   ├── KT14_ext.c,v
+│   ├── KT14_ext.o,v
+│   ├── KT14_group.c,v
+│   ├── KT14_info.c,v
+│   ├── KT14_pk.c,v
+│   ├── KT14_pk.o,v
+│   ├── KT14_point.c,v
+│   ├── KT14DATA.c,v
+│   ├── KT15_ext.c,v
+│   ├── KT15_ext.o,v
+│   ├── KT15_group.c,v
+│   ├── KT15_info.c,v
+│   ├── KT15_pk.c,v
+│   ├── KT15_pk.o,v
+│   ├── KT15_point.c,v
+│   ├── KT15DATA.c,v
+│   ├── KT16_ext.c,v
+│   ├── KT16_ext.o,v
+│   ├── KT16_group.c,v
+│   ├── KT16_info.c,v
+│   ├── KT16_pk.c,v
+│   ├── KT16_pk.o,v
+│   ├── KT16_point.c,v
+│   ├── KT16DATA.c,v
+│   ├── KT17_ext.c,v
+│   ├── KT17_ext.o,v
+│   ├── KT17_group.c,v
+│   ├── KT17_info.c,v
+│   ├── KT17_pk.c,v
+│   ├── KT17_pk.o,v
+│   ├── KT17_point.c,v
+│   ├── KT17DATA.c,v
+│   ├── KT18_ext.c,v
+│   ├── KT18_ext.o,v
+│   ├── KT18_group.c,v
+│   ├── KT18_info.c,v
+│   ├── KT18_pk.c,v
+│   ├── KT18_pk.o,v
+│   ├── KT18_point.c,v
+│   ├── KT18DATA.c,v
+│   ├── KT19_ext.c,v
+│   ├── KT19_ext.o,v
+│   ├── KT19_group.c,v
+│   ├── KT19_info.c,v
+│   ├── KT19_pk.c,v
+│   ├── KT19_pk.o,v
+│   ├── KT19_point.c,v
+│   ├── KT19DATA.c,v
+│   ├── KT1_ext.c,v
+│   ├── KT1_ext.o,v
+│   ├── KT1_group.c,v
+│   ├── KT1_info.c,v
+│   ├── KT1_pk.c,v
+│   ├── KT1_pk.o,v
+│   ├── KT1_point.c,v
+│   ├── KT1DATA.c,v
+│   ├── KT20_ext.c,v
+│   ├── KT20_ext.o,v
+│   ├── KT20_group.c,v
+│   ├── KT20_info.c,v
+│   ├── KT20_pk.c,v
+│   ├── KT20_pk.o,v
+│   ├── KT20_point.c,v
+│   ├── KT20DATA.c,v
+│   ├── KT2_ext.c,v
+│   ├── KT2_ext.o,v
+│   ├── KT2_group.c,v
+│   ├── KT2_info.c,v
+│   ├── KT2_pk.c,v
+│   ├── KT2_pk.o,v
+│   ├── KT2_point.c,v
+│   ├── KT2DATA.c,v
+│   ├── KT3_ext.c,v
+│   ├── KT3_ext.o,v
+│   ├── KT3_group.c,v
+│   ├── KT3_info.c,v
+│   ├── KT3_pk.c,v
+│   ├── KT3_pk.o,v
+│   ├── KT3_point.c,v
+│   ├── KT3DATA.c,v
+│   ├── KT4_ext.c,v
+│   ├── KT4_ext.o,v
+│   ├── KT4_group.c,v
+│   ├── KT4_info.c,v
+│   ├── KT4_pk.c,v
+│   ├── KT4_pk.o,v
+│   ├── KT4_point.c,v
+│   ├── KT4DATA.c,v
+│   ├── KT5.c,v
+│   ├── KT5_ext.c,v
+│   ├── KT5_ext.o,v
+│   ├── KT5_group.c,v
+│   ├── KT5_info.c,v
+│   ├── KT5_pk.c,v
+│   ├── KT5_pk.o,v
+│   ├── KT5_point.c,v
+│   ├── KT5DATA.c,v
+│   ├── KT6_ext.c,v
+│   ├── KT6_ext.o,v
+│   ├── KT6_group.c,v
+│   ├── KT6_info.c,v
+│   ├── KT6_pk.c,v
+│   ├── KT6_pk.o,v
+│   ├── KT6_point.c,v
+│   ├── KT6DATA.c,v
+│   ├── KT7_ext.c,v
+│   ├── KT7_ext.o,v
+│   ├── KT7_group.c,v
+│   ├── KT7_info.c,v
+│   ├── KT7_pk.c,v
+│   ├── KT7_pk.o,v
+│   ├── KT7_point.c,v
+│   ├── KT7DATA.c,v
+│   ├── KT8_ext.c,v
+│   ├── KT8_ext.o,v
+│   ├── KT8_group.c,v
+│   ├── KT8_info.c,v
+│   ├── KT8_pk.c,v
+│   ├── KT8_pk.o,v
+│   ├── KT8_point.c,v
+│   ├── KT8DATA.c,v
+│   ├── KT9_ext.c,v
+│   ├── KT9_ext.o,v
+│   ├── KT9_group.c,v
+│   ├── KT9_info.c,v
+│   ├── KT9_pk.c,v
+│   ├── KT9_pk.o,v
+│   ├── KT9_point.c,v
+│   ├── KT9DATA.c,v
+│   ├── suimen.c,v
+│   └── TOWN_point.c,v
+├── map.o,v
+├── maptexture.o,v
+├── maptexture_zh.o,v
+├── mario_test.s,v
+├── math.o,v
+├── mathkawano.c,v
+├── mathtbl.o,v
+├── mathtbl.s,v
+├── melt.o,v
+├── memory.o,v
+├── metadata/
+│   ├── thumb.rgba,v
+│   ├── title.inta,v
+│   ├── title_e.txt,v
+│   └── title_z.txt,v
+├── mkartDiffSource/
+│   ├── jpn/
+│   │   ├── image/
+│   │   │   ├── add64_txt.c,v
+│   │   │   ├── farmkanbanA_txt.c,v
+│   │   │   ├── farmkanbanB_txt.c,v
+│   │   │   ├── koopaairA_txt.c,v
+│   │   │   ├── koopaairB_txt.c,v
+│   │   │   ├── luigipA_txt.c,v
+│   │   │   ├── luigipB_txt.c,v
+│   │   │   ├── marioroA_txt.c,v
+│   │   │   ├── marioroB_txt.c,v
+│   │   │   ├── nintendoA_txt.c,v
+│   │   │   ├── nintendoB_txt.c,v
+│   │   │   ├── yoshi1A_txt.c,v
+│   │   │   └── yoshi1B_txt.c,v
+│   │   ├── include/
+│   │   │   ├── kawano.h,v
+│   │   │   ├── kawano2.h,v
+│   │   │   ├── KT3.h,v
+│   │   │   ├── KT9.h,v
+│   │   │   ├── ogawa.h,v
+│   │   │   └── struct.h,v
+│   │   ├── KT3_files.s,v
+│   │   ├── KT3_files.szp,v
+│   │   ├── KT9_files.s,v
+│   │   ├── KT9_files.szp,v
+│   │   ├── kwgfx.c,v
+│   │   ├── map/
+│   │   │   ├── KT10_info.c,v
+│   │   │   ├── KT11_info.c,v
+│   │   │   ├── KT12_info.c,v
+│   │   │   ├── KT1_info.c,v
+│   │   │   ├── KT2_info.c,v
+│   │   │   ├── KT3_pk.c,v
+│   │   │   ├── KT8_info.c,v
+│   │   │   ├── KT9_info.c,v
+│   │   │   └── KT9_pk.c,v
+│   │   ├── Result/
+│   │   │   ├── ending_data.c,v
+│   │   │   └── ending_data_jp.c,v
+│   │   ├── select/
+│   │   │   ├── gsel_BATTLE_S.s,v
+│   │   │   ├── gsel_data_S.s,v
+│   │   │   ├── gsel_ghost_S.s,v
+│   │   │   ├── gsel_GP_S.s,v
+│   │   │   ├── gsel_option_S.s,v
+│   │   │   ├── gsel_PRO_S.s,v
+│   │   │   ├── gsel_records_S.s,v
+│   │   │   ├── gsel_TIME_S.s,v
+│   │   │   ├── gsel_try_S.s,v
+│   │   │   ├── gsel_VS_S.s,v
+│   │   │   ├── msel_kcup_S.s,v
+│   │   │   ├── msel_KT10_S.s,v
+│   │   │   ├── msel_KT11_S.s,v
+│   │   │   ├── msel_KT12_S.s,v
+│   │   │   ├── msel_KT13_S.s,v
+│   │   │   ├── msel_KT14_S.s,v
+│   │   │   ├── msel_KT15_S.s,v
+│   │   │   ├── msel_KT16_S.s,v
+│   │   │   ├── msel_KT17_S.s,v
+│   │   │   ├── msel_KT18_S.s,v
+│   │   │   ├── msel_KT19_S.s,v
+│   │   │   ├── msel_KT1_S.s,v
+│   │   │   ├── msel_KT21_S.s,v
+│   │   │   ├── msel_KT2_S.s,v
+│   │   │   ├── msel_KT3_S.s,v
+│   │   │   ├── msel_KT4_S.s,v
+│   │   │   ├── msel_KT5_S.s,v
+│   │   │   ├── msel_KT6_S.s,v
+│   │   │   ├── msel_KT7_S.s,v
+│   │   │   ├── msel_KT8_S.s,v
+│   │   │   ├── msel_KT9_S.s,v
+│   │   │   ├── N_donkey.s,v
+│   │   │   ├── N_kinopio.s,v
+│   │   │   ├── N_koopa.s,v
+│   │   │   ├── N_luigi.s,v
+│   │   │   ├── N_mario.s,v
+│   │   │   ├── N_peach.s,v
+│   │   │   ├── N_wario.s,v
+│   │   │   ├── N_yoshi.s,v
+│   │   │   └── sel_ia.c,v
+│   │   └── statickawano.c,v
+│   └── usa/
+│       ├── kwgfx.c,v
+│       ├── mathkawano.c,v
+│       ├── statickawano.c,v
+│       └── tex_list.c,v
+├── mkcode,v
+├── mkcode.out,v
+├── object/
+│   ├── banana.c,v
+│   ├── banana_txt.c,v
+│   ├── bus.c,v
+│   ├── busLOD1.c,v
+│   ├── busLOD1old.c,v
+│   ├── busLOD2.c,v
+│   ├── busLOD2old.c,v
+│   ├── busold.c,v
+│   ├── car_images.c,v
+│   ├── cow.c,v
+│   ├── cow1A_txt.c,v
+│   ├── cow1B_txt.c,v
+│   ├── cow2A_txt.c,v
+│   ├── cow2B_txt.c,v
+│   ├── cow3A_txt.c,v
+│   ├── cow3B_txt.c,v
+│   ├── cow4A_txt.c,v
+│   ├── cow4B_txt.c,v
+│   ├── cow5A_txt.c,v
+│   ├── cow5B_txt.c,v
+│   ├── cow_txt.c,v
+│   ├── cup.c,v
+│   ├── cup.old,v
+│   ├── cup_old.c,v
+│   ├── egg.c,v
+│   ├── egg2.c,v
+│   ├── fire30.c,v
+│   ├── fire31.c,v
+│   ├── fire32.c,v
+│   ├── fire33.c,v
+│   ├── fire34.c,v
+│   ├── fire35.c,v
+│   ├── fire36.c,v
+│   ├── fire37.c,v
+│   ├── fireG.c,v
+│   ├── firepillar.c,v
+│   ├── fireR.c,v
+│   ├── flag.c,v
+│   ├── flag.o,v
+│   ├── flag_txt.c,v
+│   ├── flagA_txt.c,v
+│   ├── flagB_txt.c,v
+│   ├── flagC_txt.c,v
+│   ├── flagD_txt.c,v
+│   ├── flagE_txt.c,v
+│   ├── flagF_txt.c,v
+│   ├── flagG_txt.c,v
+│   ├── flagH_txt.c,v
+│   ├── fumikiri.c,v
+│   ├── gshell.c,v
+│   ├── hatena_txt.c,v
+│   ├── itembox.c,v
+│   ├── itembox1_txt.c,v
+│   ├── itembox2.c,v
+│   ├── itembox2_txt.c,v
+│   ├── itembox2old.c,v
+│   ├── itembox3_txt.c,v
+│   ├── itembox_txt.c,v
+│   ├── iwa.c,v
+│   ├── iwa_txt.c,v
+│   ├── iwagao_txt.c,v
+│   ├── j_tree0.c,v
+│   ├── j_tree0old.c,v
+│   ├── j_tree1.c,v
+│   ├── j_tree1old.c,v
+│   ├── j_tree2.c,v
+│   ├── j_tree2old.c,v
+│   ├── j_tree3.c,v
+│   ├── j_tree3old.c,v
+│   ├── j_tree4.c,v
+│   ├── j_tree4old.c,v
+│   ├── j_tree5.c,v
+│   ├── j_tree5old.c,v
+│   ├── j_tree6.c,v
+│   ├── j_tree6old.c,v
+│   ├── j_tree7.c,v
+│   ├── jtree.c,v
+│   ├── Mkanban.c,v
+│   ├── mkanbanA_txt.c,v
+│   ├── mkanbanB_txt.c,v
+│   ├── nuts.c,v
+│   ├── nuts_txt.c,v
+│   ├── pakkun.c,v
+│   ├── pakkun2.c,v
+│   ├── pakkun2_txt.c,v
+│   ├── pakkun_txt.c,v
+│   ├── paku00_txt.c,v
+│   ├── paku1A_txt.c,v
+│   ├── paku1B_txt.c,v
+│   ├── paku2A_txt.c,v
+│   ├── paku2B_txt.c,v
+│   ├── paku3A_txt.c,v
+│   ├── paku3B_txt.c,v
+│   ├── paku4A_txt.c,v
+│   ├── paku4B_txt.c,v
+│   ├── paku5A_txt.c,v
+│   ├── paku5B_txt.c,v
+│   ├── paku6A_txt.c,v
+│   ├── paku6B_txt.c,v
+│   ├── paku7A_txt.c,v
+│   ├── paku7B_txt.c,v
+│   ├── paku8A_txt.c,v
+│   ├── paku8B_txt.c,v
+│   ├── paku9A_txt.c,v
+│   ├── paku9B_txt.c,v
+│   ├── palmtree.c,v
+│   ├── palmtree2.c,v
+│   ├── palmtree3.c,v
+│   ├── parm0_txt.c,v
+│   ├── pole_txt.c,v
+│   ├── pukupuku.c,v
+│   ├── rope_txt.c,v
+│   ├── rv.c,v
+│   ├── rvLOD1.c,v
+│   ├── rvLOD1old.c,v
+│   ├── rvLOD2.c,v
+│   ├── rvLOD2old.c,v
+│   ├── rvold.c,v
+│   ├── saboten.c,v
+│   ├── saboten1A_txt.c,v
+│   ├── saboten1B_txt.c,v
+│   ├── saboten2A_txt.c,v
+│   ├── saboten2B_txt.c,v
+│   ├── saboten3_txt.c,v
+│   ├── saboten_txt.c,v
+│   ├── sedan.c,v
+│   ├── sedanLOD1.c,v
+│   ├── sedanLOD1old.c,v
+│   ├── sedanLOD2.c,v
+│   ├── sedanLOD2old.c,v
+│   ├── sedanold.c,v
+│   ├── shell.c,v
+│   ├── ship.c,v
+│   ├── SHIP1bidy.c,v
+│   ├── SHIP1body.c,v
+│   ├── SHIP1bodyold.c,v
+│   ├── SHIP1wheel.c,v
+│   ├── SHIP1wheelold.c,v
+│   ├── sl.c,v
+│   ├── SL1body.c,v
+│   ├── SL1LOD1.c,v
+│   ├── SL1LOD2.c,v
+│   ├── SL2body.c,v
+│   ├── SL2LOD1.c,v
+│   ├── SL2LOD2.c,v
+│   ├── SL3body.c,v
+│   ├── SL3LOD1.c,v
+│   ├── SL3LOD2.c,v
+│   ├── SL_images.c,v
+│   ├── snowtree.c,v
+│   ├── snowtree2A_txt.c,v
+│   ├── snowtree2B_txt.c,v
+│   ├── snowtree_txt.c,v
+│   ├── sos,v
+│   ├── tancro.c,v
+│   ├── tankro.c,v
+│   ├── tankroLOD1.c,v
+│   ├── tankroLOD1old.c,v
+│   ├── tankroLOD2.c,v
+│   ├── tankroLOD2old.c,v
+│   ├── tankroold.c,v
+│   ├── testold.c,v
+│   ├── tree.c,v
+│   ├── tree1.c,v
+│   ├── tree1_txt.c,v
+│   ├── tree2.c,v
+│   ├── tree2_txt.c,v
+│   ├── tree3.c,v
+│   ├── tree3_txt.c,v
+│   ├── tree4.c,v
+│   ├── tree4A_txt.c,v
+│   ├── tree4B_txt.c,v
+│   ├── tree5.c,v
+│   ├── tree5A_txt.c,v
+│   ├── tree5B_txt.c,v
+│   ├── tree6_txt.c,v
+│   ├── tree7.c,v
+│   ├── tree8.c,v
+│   ├── tree8_txt.c,v
+│   ├── tree_txt.c,v
+│   ├── truck.c,v
+│   ├── truck1.c,v
+│   ├── truck1LOD1.c,v
+│   ├── truck1LOD1old.c,v
+│   ├── truck1LOD2.c,v
+│   ├── truck1LOD2old.c,v
+│   ├── truck1old.c,v
+│   ├── tshell.c,v
+│   ├── wariosign.c,v
+│   ├── wariosignold.c,v
+│   ├── yasimiki_txt.c,v
+│   └── yoshi_egg.c,v
+├── object.o,v
+├── object.vc,v
+├── objtexture.o,v
+├── objtexture_zh.o,v
+├── player/
+│   ├── dk.c,v
+│   ├── dk.o,v
+│   ├── kik.c,v
+│   ├── kik.o,v
+│   ├── kk.c,v
+│   ├── kk.o,v
+│   ├── lk.c,v
+│   ├── lk.o,v
+│   ├── mk.c,v
+│   ├── mk.o,v
+│   ├── pk.c,v
+│   ├── pk.o,v
+│   ├── romghost.c,v
+│   ├── romghost.o,v
+│   ├── wk.c,v
+│   ├── wk.o,v
+│   ├── yk.c,v
+│   └── yk.o,v
+├── press,v
+├── press_linux,v
+├── print.o,v
+├── ps4.o,v
+├── ps4.s,v
+├── RESULT/
+│   ├── Attic/
+│   │   └── ending_data.o,v
+│   ├── camdemo.h,v
+│   ├── camdemo.o,v
+│   ├── ending.o,v
+│   ├── ending_data.c,v
+│   ├── result.h,v
+│   ├── result.o,v
+│   ├── result00.sgi,v
+│   ├── result_camera.o,v
+│   ├── result_draw.o,v
+│   └── result_initial.o,v
+├── result.o,v
+├── result_camera.o,v
+├── result_draw.o,v
+├── result_files.c,v
+├── result_initial.o,v
+├── select/
+│   ├── a1_font/
+│   │   ├── E_cc.c,v
+│   │   ├── E_dquotation.c,v
+│   │   ├── E_exclamation.c,v
+│   │   ├── E_minus.c,v
+│   │   ├── E_period.c,v
+│   │   ├── E_plus.c,v
+│   │   ├── E_question.c,v
+│   │   ├── E_quotation.c,v
+│   │   ├── E_s0.c,v
+│   │   ├── E_s1.c,v
+│   │   ├── E_s2.c,v
+│   │   ├── E_s3.c,v
+│   │   ├── E_s4.c,v
+│   │   ├── E_s5.c,v
+│   │   ├── E_s6.c,v
+│   │   ├── E_s7.c,v
+│   │   ├── E_s8.c,v
+│   │   ├── E_s9.c,v
+│   │   ├── E_sA.c,v
+│   │   ├── E_sB.c,v
+│   │   ├── E_sC.c,v
+│   │   ├── E_sD.c,v
+│   │   ├── E_sE.c,v
+│   │   ├── E_sF.c,v
+│   │   ├── E_sG.c,v
+│   │   ├── E_sH.c,v
+│   │   ├── E_sI.c,v
+│   │   ├── E_sJ.c,v
+│   │   ├── E_sK.c,v
+│   │   ├── E_sL.c,v
+│   │   ├── E_sM.c,v
+│   │   ├── E_sN.c,v
+│   │   ├── E_sO.c,v
+│   │   ├── E_sP.c,v
+│   │   ├── E_sQ.c,v
+│   │   ├── E_sR.c,v
+│   │   ├── E_sS.c,v
+│   │   ├── E_sT.c,v
+│   │   ├── E_sU.c,v
+│   │   ├── E_sV.c,v
+│   │   ├── E_sW.c,v
+│   │   ├── E_sX.c,v
+│   │   ├── E_sY.c,v
+│   │   ├── E_sZ.c,v
+│   │   ├── E_TENTEN.c,v
+│   │   └── zh/
+│   │       ├── a1_externlist.c,v
+│   │       ├── a1_externlist_raw.c,v
+│   │       ├── a1_fontlist.c,v
+│   │       ├── a1_letterList.c,v
+│   │       ├── a1_texlist.c,v
+│   │       ├── a1_zh_000.c,v
+│   │       ├── a1_zh_001.c,v
+│   │       ├── a1_zh_002.c,v
+│   │       ├── a1_zh_003.c,v
+│   │       ├── a1_zh_004.c,v
+│   │       ├── a1_zh_005.c,v
+│   │       ├── a1_zh_006.c,v
+│   │       ├── a1_zh_007.c,v
+│   │       ├── a1_zh_008.c,v
+│   │       ├── a1_zh_009.c,v
+│   │       ├── a1_zh_010.c,v
+│   │       ├── a1_zh_011.c,v
+│   │       ├── a1_zh_012.c,v
+│   │       ├── a1_zh_013.c,v
+│   │       ├── a1_zh_014.c,v
+│   │       ├── a1_zh_015.c,v
+│   │       ├── a1_zh_016.c,v
+│   │       ├── a1_zh_017.c,v
+│   │       ├── a1_zh_018.c,v
+│   │       ├── a1_zh_019.c,v
+│   │       ├── a1_zh_020.c,v
+│   │       ├── a1_zh_021.c,v
+│   │       ├── a1_zh_022.c,v
+│   │       ├── a1_zh_023.c,v
+│   │       ├── a1_zh_024.c,v
+│   │       ├── a1_zh_025.c,v
+│   │       ├── a1_zh_026.c,v
+│   │       ├── a1_zh_027.c,v
+│   │       ├── a1_zh_028.c,v
+│   │       ├── a1_zh_029.c,v
+│   │       ├── a1_zh_030.c,v
+│   │       ├── a1_zh_031.c,v
+│   │       ├── a1_zh_032.c,v
+│   │       ├── a1_zh_033.c,v
+│   │       ├── a1_zh_034.c,v
+│   │       ├── a1_zh_035.c,v
+│   │       ├── a1_zh_036.c,v
+│   │       ├── a1_zh_037.c,v
+│   │       ├── a1_zh_038.c,v
+│   │       ├── a1_zh_039.c,v
+│   │       ├── a1_zh_040.c,v
+│   │       ├── a1_zh_041.c,v
+│   │       ├── a1_zh_042.c,v
+│   │       ├── a1_zh_043.c,v
+│   │       ├── a1_zh_044.c,v
+│   │       ├── a1_zh_045.c,v
+│   │       ├── a1_zh_046.c,v
+│   │       ├── a1_zh_047.c,v
+│   │       ├── a1_zh_048.c,v
+│   │       ├── a1_zh_049.c,v
+│   │       ├── a1_zh_050.c,v
+│   │       ├── a1_zh_051.c,v
+│   │       ├── a1_zh_052.c,v
+│   │       ├── a1_zh_053.c,v
+│   │       ├── a1_zh_054.c,v
+│   │       ├── a1_zh_055.c,v
+│   │       ├── a1_zh_056.c,v
+│   │       ├── a1_zh_057.c,v
+│   │       ├── a1_zh_058.c,v
+│   │       ├── a1_zh_059.c,v
+│   │       ├── a1_zh_060.c,v
+│   │       ├── a1_zh_061.c,v
+│   │       ├── a1_zh_062.c,v
+│   │       ├── a1_zh_063.c,v
+│   │       ├── a1_zh_064.c,v
+│   │       ├── a1_zh_065.c,v
+│   │       ├── a1_zh_066.c,v
+│   │       ├── a1_zh_067.c,v
+│   │       ├── a1_zh_068.c,v
+│   │       ├── a1_zh_069.c,v
+│   │       ├── a1_zh_070.c,v
+│   │       ├── a1_zh_071.c,v
+│   │       ├── a1_zh_072.c,v
+│   │       ├── a1_zh_073.c,v
+│   │       ├── a1_zh_074.c,v
+│   │       ├── a1_zh_075.c,v
+│   │       ├── a1_zh_076.c,v
+│   │       ├── a1_zh_077.c,v
+│   │       ├── a1_zh_078.c,v
+│   │       ├── a1_zh_079.c,v
+│   │       ├── a1_zh_080.c,v
+│   │       ├── a1_zh_081.c,v
+│   │       ├── a1_zh_082.c,v
+│   │       ├── a1_zh_083.c,v
+│   │       ├── a1_zh_084.c,v
+│   │       ├── a1_zh_085.c,v
+│   │       ├── a1_zh_086.c,v
+│   │       ├── a1_zh_087.c,v
+│   │       ├── a1_zh_088.c,v
+│   │       ├── a1_zh_089.c,v
+│   │       ├── a1_zh_090.c,v
+│   │       ├── a1_zh_091.c,v
+│   │       ├── a1_zh_092.c,v
+│   │       ├── a1_zh_093.c,v
+│   │       ├── a1_zh_094.c,v
+│   │       ├── a1_zh_095.c,v
+│   │       ├── a1_zh_096.c,v
+│   │       ├── a1_zh_097.c,v
+│   │       ├── a1_zh_098.c,v
+│   │       ├── a1_zh_099.c,v
+│   │       ├── a1_zh_100.c,v
+│   │       ├── a1_zh_101.c,v
+│   │       ├── a1_zh_102.c,v
+│   │       ├── a1_zh_103.c,v
+│   │       ├── a1_zh_104.c,v
+│   │       ├── a1_zh_105.c,v
+│   │       ├── a1_zh_106.c,v
+│   │       ├── a1_zh_107.c,v
+│   │       ├── a1_zh_108.c,v
+│   │       ├── a1_zh_109.c,v
+│   │       ├── a1_zh_110.c,v
+│   │       ├── a1_zh_111.c,v
+│   │       ├── a1_zh_112.c,v
+│   │       ├── a1_zh_113.c,v
+│   │       ├── a1_zh_114.c,v
+│   │       ├── a1_zh_115.c,v
+│   │       ├── a1_zh_116.c,v
+│   │       ├── a1_zh_117.c,v
+│   │       ├── a1_zh_118.c,v
+│   │       ├── a1_zh_119.c,v
+│   │       ├── a1_zh_120.c,v
+│   │       ├── a1_zh_121.c,v
+│   │       ├── a1_zh_122.c,v
+│   │       ├── a1_zh_123.c,v
+│   │       ├── a1_zh_124.c,v
+│   │       ├── a1_zh_125.c,v
+│   │       ├── a1_zh_126.c,v
+│   │       ├── a1_zh_127.c,v
+│   │       ├── a1_zh_128.c,v
+│   │       ├── a1_zh_129.c,v
+│   │       ├── a1_zh_130.c,v
+│   │       ├── a1_zh_131.c,v
+│   │       ├── a1_zh_132.c,v
+│   │       ├── a1_zh_133.c,v
+│   │       ├── a1_zh_134.c,v
+│   │       ├── a1_zh_135.c,v
+│   │       ├── a1_zh_136.c,v
+│   │       ├── a1_zh_137.c,v
+│   │       ├── a1_zh_138.c,v
+│   │       ├── a1_zh_139.c,v
+│   │       ├── a1_zh_140.c,v
+│   │       ├── a1_zh_141.c,v
+│   │       ├── a1_zh_142.c,v
+│   │       ├── a1_zh_143.c,v
+│   │       ├── a1_zh_144.c,v
+│   │       ├── a1_zh_145.c,v
+│   │       ├── a1_zh_146.c,v
+│   │       ├── a1_zh_147.c,v
+│   │       ├── a1_zh_148.c,v
+│   │       ├── a1_zh_149.c,v
+│   │       ├── a1_zh_150.c,v
+│   │       ├── a1_zh_151.c,v
+│   │       ├── a1_zh_152.c,v
+│   │       ├── a1_zh_153.c,v
+│   │       ├── a1_zh_154.c,v
+│   │       ├── a1_zh_155.c,v
+│   │       ├── a1_zh_156.c,v
+│   │       ├── a1_zh_157.c,v
+│   │       ├── a1_zh_158.c,v
+│   │       ├── a1_zh_159.c,v
+│   │       ├── a1_zh_160.c,v
+│   │       ├── a1_zh_161.c,v
+│   │       ├── a1_zh_162.c,v
+│   │       ├── a1_zh_163.c,v
+│   │       ├── a1_zh_164.c,v
+│   │       ├── a1_zh_165.c,v
+│   │       ├── a1_zh_166.c,v
+│   │       ├── a1_zh_167.c,v
+│   │       ├── a1_zh_168.c,v
+│   │       ├── a1_zh_169.c,v
+│   │       ├── a1_zh_170.c,v
+│   │       ├── a1_zh_171.c,v
+│   │       ├── a1_zh_172.c,v
+│   │       ├── a1_zh_173.c,v
+│   │       ├── a1_zh_174.c,v
+│   │       ├── a1_zh_175.c,v
+│   │       ├── a1_zh_176.c,v
+│   │       ├── a1_zh_177.c,v
+│   │       ├── a1_zh_178.c,v
+│   │       ├── a1_zh_179.c,v
+│   │       ├── a1_zh_180.c,v
+│   │       ├── a1_zh_181.c,v
+│   │       ├── a1_zh_182.c,v
+│   │       ├── a1_zh_183.c,v
+│   │       ├── a1_zh_184.c,v
+│   │       ├── a1_zh_185.c,v
+│   │       ├── a1_zh_186.c,v
+│   │       ├── a1_zh_187.c,v
+│   │       ├── a1_zh_188.c,v
+│   │       ├── a1_zh_189.c,v
+│   │       ├── a1_zh_190.c,v
+│   │       ├── a1_zh_191.c,v
+│   │       ├── a1_zh_192.c,v
+│   │       ├── a1_zh_193.c,v
+│   │       ├── a1_zh_194.c,v
+│   │       ├── a1_zh_195.c,v
+│   │       ├── a1_zh_196.c,v
+│   │       ├── a1_zh_197.c,v
+│   │       ├── a1_zh_198.c,v
+│   │       ├── a1_zh_199.c,v
+│   │       ├── a1_zh_200.c,v
+│   │       ├── a1_zh_201.c,v
+│   │       ├── a1_zh_202.c,v
+│   │       ├── a1_zh_203.c,v
+│   │       ├── a1_zh_204.c,v
+│   │       ├── a1_zh_205.c,v
+│   │       ├── a1_zh_206.c,v
+│   │       ├── a1_zh_207.c,v
+│   │       ├── a1_zh_208.c,v
+│   │       ├── a1_zh_209.c,v
+│   │       ├── a1_zh_210.c,v
+│   │       ├── a1_zh_211.c,v
+│   │       ├── a1_zh_212.c,v
+│   │       ├── a1_zh_213.c,v
+│   │       ├── a1_zh_214.c,v
+│   │       ├── a1_zh_215.c,v
+│   │       ├── a1_zh_216.c,v
+│   │       ├── a1_zh_217.c,v
+│   │       ├── a1_zh_218.c,v
+│   │       ├── a1_zh_219.c,v
+│   │       ├── a1_zh_220.c,v
+│   │       ├── a1_zh_221.c,v
+│   │       ├── a1_zh_222.c,v
+│   │       ├── a1_zh_223.c,v
+│   │       ├── a1_zh_224.c,v
+│   │       ├── a1_zh_225.c,v
+│   │       ├── a1_zh_226.c,v
+│   │       ├── a1_zh_227.c,v
+│   │       ├── a1_zh_228.c,v
+│   │       ├── a1_zh_229.c,v
+│   │       ├── a1_zh_230.c,v
+│   │       ├── a1_zh_231.c,v
+│   │       ├── a1_zh_232.c,v
+│   │       ├── a1_zh_233.c,v
+│   │       ├── a1_zh_234.c,v
+│   │       ├── a1_zh_235.c,v
+│   │       ├── a1_zh_236.c,v
+│   │       ├── a1_zh_237.c,v
+│   │       ├── a1_zh_238.c,v
+│   │       ├── a1_zh_239.c,v
+│   │       ├── a1_zh_240.c,v
+│   │       ├── a1_zh_241.c,v
+│   │       ├── a1_zh_242.c,v
+│   │       ├── a1_zh_243.c,v
+│   │       ├── a1_zh_244.c,v
+│   │       ├── a1_zh_245.c,v
+│   │       ├── a1_zh_246.c,v
+│   │       ├── a1_zh_247.c,v
+│   │       ├── a1_zh_248.c,v
+│   │       ├── a1_zh_249.c,v
+│   │       ├── a1_zh_250.c,v
+│   │       ├── a1_zh_251.c,v
+│   │       ├── a1_zh_252.c,v
+│   │       ├── a1_zh_253.c,v
+│   │       ├── a1_zh_254.c,v
+│   │       ├── a1_zh_255.c,v
+│   │       ├── a1_zh_256.c,v
+│   │       ├── a1_zh_257.c,v
+│   │       ├── a1_zh_258.c,v
+│   │       ├── a1_zh_259.c,v
+│   │       ├── a1_zh_260.c,v
+│   │       ├── a1_zh_261.c,v
+│   │       ├── a1_zh_262.c,v
+│   │       ├── a1_zh_263.c,v
+│   │       ├── a1_zh_264.c,v
+│   │       ├── a1_zh_265.c,v
+│   │       ├── a1_zh_266.c,v
+│   │       ├── a1_zh_267.c,v
+│   │       ├── a1_zh_268.c,v
+│   │       ├── a1_zh_269.c,v
+│   │       ├── a1_zh_270.c,v
+│   │       ├── a1_zh_271.c,v
+│   │       ├── a1_zh_272.c,v
+│   │       ├── a1_zh_273.c,v
+│   │       ├── a1_zh_274.c,v
+│   │       ├── a1_zh_275.c,v
+│   │       ├── a1_zh_276.c,v
+│   │       ├── a1_zh_277.c,v
+│   │       ├── a1_zh_278.c,v
+│   │       ├── a1_zh_279.c,v
+│   │       ├── a1_zh_280.c,v
+│   │       ├── a1_zh_281.c,v
+│   │       ├── a1_zh_282.c,v
+│   │       ├── a1_zh_283.c,v
+│   │       ├── a1_zh_284.c,v
+│   │       ├── a1_zh_285.c,v
+│   │       ├── a1_zh_286.c,v
+│   │       ├── a1_zh_287.c,v
+│   │       ├── a1_zh_288.c,v
+│   │       ├── a1_zh_289.c,v
+│   │       ├── CVS/
+│   │       │   └── fileattr
+│   │       └── zh_a1.c,v
+│   ├── a2_font/
+│   │   ├── ha16.c,v
+│   │   ├── ha16s.c,v
+│   │   ├── hba16.c,v
+│   │   ├── hbe16.c,v
+│   │   ├── hbi16.c,v
+│   │   ├── hbo16.c,v
+│   │   ├── hbu16.c,v
+│   │   ├── hda16.c,v
+│   │   ├── hde16.c,v
+│   │   ├── hdi16.c,v
+│   │   ├── hdo16.c,v
+│   │   ├── hdu16.c,v
+│   │   ├── he16.c,v
+│   │   ├── he16s.c,v
+│   │   ├── hga16.c,v
+│   │   ├── hge16.c,v
+│   │   ├── hgi16.c,v
+│   │   ├── hgo16.c,v
+│   │   ├── hgu16.c,v
+│   │   ├── hha16.c,v
+│   │   ├── hhe16.c,v
+│   │   ├── hhi16.c,v
+│   │   ├── hho16.c,v
+│   │   ├── hhu16.c,v
+│   │   ├── hi16.c,v
+│   │   ├── hi16s.c,v
+│   │   ├── hka16.c,v
+│   │   ├── hke16.c,v
+│   │   ├── hki16.c,v
+│   │   ├── hko16.c,v
+│   │   ├── hku16.c,v
+│   │   ├── hma16.c,v
+│   │   ├── hme16.c,v
+│   │   ├── hmi16.c,v
+│   │   ├── hmo16.c,v
+│   │   ├── hmu16.c,v
+│   │   ├── hna16.c,v
+│   │   ├── hne16.c,v
+│   │   ├── hni16.c,v
+│   │   ├── hnn16.c,v
+│   │   ├── hno16.c,v
+│   │   ├── hnu16.c,v
+│   │   ├── ho16.c,v
+│   │   ├── ho16s.c,v
+│   │   ├── hpa16.c,v
+│   │   ├── hpe16.c,v
+│   │   ├── hpi16.c,v
+│   │   ├── hpo16.c,v
+│   │   ├── hpu16.c,v
+│   │   ├── hra16.c,v
+│   │   ├── hre16.c,v
+│   │   ├── hri16.c,v
+│   │   ├── hro16.c,v
+│   │   ├── hru16.c,v
+│   │   ├── hsa16.c,v
+│   │   ├── hse16.c,v
+│   │   ├── hsi16.c,v
+│   │   ├── hso16.c,v
+│   │   ├── hsu16.c,v
+│   │   ├── hta16.c,v
+│   │   ├── hte16.c,v
+│   │   ├── hti16.c,v
+│   │   ├── hto16.c,v
+│   │   ├── htu16.c,v
+│   │   ├── htu16s.c,v
+│   │   ├── hu16.c,v
+│   │   ├── hu16s.c,v
+│   │   ├── hwa16.c,v
+│   │   ├── hwo16.c,v
+│   │   ├── hya16.c,v
+│   │   ├── hya16s.c,v
+│   │   ├── hyo16.c,v
+│   │   ├── hyo16s.c,v
+│   │   ├── hyu16.c,v
+│   │   ├── hyu16s.c,v
+│   │   ├── hza16.c,v
+│   │   ├── hze16.c,v
+│   │   ├── hzi16.c,v
+│   │   ├── hzo16.c,v
+│   │   └── hzu16.c,v
+│   ├── a3_font/
+│   │   ├── ka16.c,v
+│   │   ├── ka16s.c,v
+│   │   ├── kba16.c,v
+│   │   ├── kbe16.c,v
+│   │   ├── kbi16.c,v
+│   │   ├── kbo16.c,v
+│   │   ├── kbu16.c,v
+│   │   ├── kda16.c,v
+│   │   ├── kde16.c,v
+│   │   ├── kdi16.c,v
+│   │   ├── kdo16.c,v
+│   │   ├── kdu16.c,v
+│   │   ├── ke16.c,v
+│   │   ├── ke16s.c,v
+│   │   ├── kga16.c,v
+│   │   ├── kge16.c,v
+│   │   ├── kgi16.c,v
+│   │   ├── kgo16.c,v
+│   │   ├── kgu16.c,v
+│   │   ├── kha16.c,v
+│   │   ├── khe16.c,v
+│   │   ├── khi16.c,v
+│   │   ├── kho16.c,v
+│   │   ├── khu16.c,v
+│   │   ├── ki16.c,v
+│   │   ├── ki16s.c,v
+│   │   ├── kka16.c,v
+│   │   ├── kke16.c,v
+│   │   ├── kki16.c,v
+│   │   ├── kko16.c,v
+│   │   ├── kku16.c,v
+│   │   ├── kma16.c,v
+│   │   ├── kme16.c,v
+│   │   ├── kmi16.c,v
+│   │   ├── kmo16.c,v
+│   │   ├── kmu16.c,v
+│   │   ├── kna16.c,v
+│   │   ├── kne16.c,v
+│   │   ├── kni16.c,v
+│   │   ├── knn16.c,v
+│   │   ├── kno16.c,v
+│   │   ├── knu16.c,v
+│   │   ├── ko16.c,v
+│   │   ├── ko16s.c,v
+│   │   ├── kpa16.c,v
+│   │   ├── kpe16.c,v
+│   │   ├── kpi16.c,v
+│   │   ├── kpo16.c,v
+│   │   ├── kpu16.c,v
+│   │   ├── kra16.c,v
+│   │   ├── kre16.c,v
+│   │   ├── kri16.c,v
+│   │   ├── kro16.c,v
+│   │   ├── kru16.c,v
+│   │   ├── ksa16.c,v
+│   │   ├── kse16.c,v
+│   │   ├── ksi16.c,v
+│   │   ├── kso16.c,v
+│   │   ├── ksu16.c,v
+│   │   ├── kta16.c,v
+│   │   ├── kte16.c,v
+│   │   ├── kti16.c,v
+│   │   ├── kto16.c,v
+│   │   ├── ktu16.c,v
+│   │   ├── ktu16s.c,v
+│   │   ├── ku16.c,v
+│   │   ├── ku16s.c,v
+│   │   ├── kwa16.c,v
+│   │   ├── kwo16.c,v
+│   │   ├── kya16.c,v
+│   │   ├── kya16s.c,v
+│   │   ├── kyo16.c,v
+│   │   ├── kyo16s.c,v
+│   │   ├── kyu16.c,v
+│   │   ├── kyu16s.c,v
+│   │   ├── kza16.c,v
+│   │   ├── kze16.c,v
+│   │   ├── kzi16.c,v
+│   │   ├── kzo16.c,v
+│   │   └── kzu16.c,v
+│   ├── a4_font/
+│   │   ├── j_0.c,v
+│   │   ├── j_1.c,v
+│   │   ├── j_2.c,v
+│   │   ├── j_3.c,v
+│   │   ├── j_4.c,v
+│   │   ├── j_5.c,v
+│   │   ├── j_6.c,v
+│   │   ├── j_7.c,v
+│   │   ├── j_8.c,v
+│   │   ├── j_9.c,v
+│   │   ├── jcc.c,v
+│   │   ├── jD16.c,v
+│   │   ├── jdquotation.c,v
+│   │   ├── jexclamation.c,v
+│   │   ├── jkuten.c,v
+│   │   ├── jminus.c,v
+│   │   ├── jnamisen.c,v
+│   │   ├── jnd.c,v
+│   │   ├── jperiod.c,v
+│   │   ├── jplus.c,v
+│   │   ├── jpts.c,v
+│   │   ├── jquestion.c,v
+│   │   ├── jquotation.c,v
+│   │   ├── jrd.c,v
+│   │   ├── jS16.c,v
+│   │   ├── jst.c,v
+│   │   ├── jth.c,v
+│   │   ├── jtouten.c,v
+│   │   └── jV16.c,v
+│   ├── a_donkey.c,v
+│   ├── a_kinop.c,v
+│   ├── a_kuppa.c,v
+│   ├── a_luigi.c,v
+│   ├── a_mario.c,v
+│   ├── a_peach.c,v
+│   ├── a_snap.c,v
+│   ├── a_wario.c,v
+│   ├── a_yossy.c,v
+│   ├── Attic/
+│   │   └── gfx_gsel2.o,v
+│   ├── cp/
+│   │   ├── pack_1.s,v
+│   │   ├── pack_2.s,v
+│   │   ├── pack_3.s,v
+│   │   ├── pack_4.s,v
+│   │   └── pack_5.s,v
+│   ├── cpfont1.c,v
+│   ├── cpfont2.c,v
+│   ├── cpfont3.c,v
+│   ├── cup_rgba.c,v
+│   ├── CVS/
+│   │   └── fileattr
+│   ├── gfx_gsel2.c,v
+│   ├── gsel_100cc_S.s,v
+│   ├── gsel_150cc_S.s,v
+│   ├── gsel_1P_S.s,v
+│   ├── gsel_2P_S.s,v
+│   ├── gsel_3P_S.s,v
+│   ├── gsel_4P_S.s,v
+│   ├── gsel_50cc_S.s,v
+│   ├── gsel_BATTLE_S.s,v
+│   ├── gsel_data_S.s,v
+│   ├── gsel_ghost_S.s,v
+│   ├── gsel_GP_S.s,v
+│   ├── gsel_itemOFF_S.s,v
+│   ├── gsel_itemON_S.s,v
+│   ├── gsel_LOGO_S.s,v
+│   ├── gsel_option_S.s,v
+│   ├── gsel_PRO_S.s,v
+│   ├── gsel_records_S.s,v
+│   ├── gsel_TIME_S.s,v
+│   ├── gsel_try_S.s,v
+│   ├── gsel_VS_S.s,v
+│   ├── kart_logo.c,v
+│   ├── kart_logo.c.org,v
+│   ├── msel_fcup_S.s,v
+│   ├── msel_kcup_S.s,v
+│   ├── msel_KT10_S.s,v
+│   ├── msel_KT11_S.s,v
+│   ├── msel_KT12_S.s,v
+│   ├── msel_KT13_S.s,v
+│   ├── msel_KT14_S.s,v
+│   ├── msel_KT15_S.s,v
+│   ├── msel_KT16_S.s,v
+│   ├── msel_KT17_S.s,v
+│   ├── msel_KT18_S.s,v
+│   ├── msel_KT19_S.s,v
+│   ├── msel_KT1_S.s,v
+│   ├── msel_KT21_S.s,v
+│   ├── msel_KT2_S.s,v
+│   ├── msel_KT3_S.s,v
+│   ├── msel_KT4_S.s,v
+│   ├── msel_KT5_S.s,v
+│   ├── msel_KT6_S.s,v
+│   ├── msel_KT7_S.s,v
+│   ├── msel_KT8_S.s,v
+│   ├── msel_KT9_S.s,v
+│   ├── msel_LOGO_S.s,v
+│   ├── msel_scup_S.s,v
+│   ├── msel_spcup_S.s,v
+│   ├── N_donkey.s,v
+│   ├── N_kinopio.s,v
+│   ├── N_koopa.s,v
+│   ├── N_luigi.s,v
+│   ├── N_mario.s,v
+│   ├── N_peach.s,v
+│   ├── N_wario.s,v
+│   ├── N_yoshi.s,v
+│   ├── nintendo96_S.c,v
+│   ├── ok_S.s,v
+│   ├── optionLOGO_S.s,v
+│   ├── psel_1cs.c,v
+│   ├── psel_2cs.c,v
+│   ├── psel_3cs.c,v
+│   ├── psel_4cs.c,v
+│   ├── psel_LOGO_S.s,v
+│   ├── pushstart_S.c,v
+│   ├── sel_ia.c,v
+│   ├── sel_ia2.c,v
+│   ├── tex_tri.c,v
+│   ├── titleback2_S.s,v
+│   ├── titleback_S.s,v
+│   ├── titlelogo_S.c,v
+│   └── zh/
+│       ├── CVS/
+│       │   └── fileattr
+│       ├── gsel_BATTLE_S.s,v
+│       ├── gsel_data_S.s,v
+│       ├── gsel_ghost_S.s,v
+│       ├── gsel_GP_S.s,v
+│       ├── gsel_itemOFF_S.s,v
+│       ├── gsel_itemON_S.s,v
+│       ├── gsel_LOGO_S.s,v
+│       ├── gsel_option_S.s,v
+│       ├── gsel_PRO_S.s,v
+│       ├── gsel_records_S.s,v
+│       ├── gsel_TIME_S.s,v
+│       ├── gsel_try_S.s,v
+│       ├── gsel_VS_S.s,v
+│       ├── msel_fcup_S.s,v
+│       ├── msel_kcup_S.s,v
+│       ├── msel_KT10_S.s,v
+│       ├── msel_KT11_S.s,v
+│       ├── msel_KT12_S.s,v
+│       ├── msel_KT13_S.s,v
+│       ├── msel_KT14_S.s,v
+│       ├── msel_KT15_S.s,v
+│       ├── msel_KT16_S.s,v
+│       ├── msel_KT17_S.s,v
+│       ├── msel_KT18_S.s,v
+│       ├── msel_KT19_S.s,v
+│       ├── msel_KT1_S.s,v
+│       ├── msel_KT21_S.s,v
+│       ├── msel_KT2_S.s,v
+│       ├── msel_KT3_S.s,v
+│       ├── msel_KT4_S.s,v
+│       ├── msel_KT5_S.s,v
+│       ├── msel_KT6_S.s,v
+│       ├── msel_KT7_S.s,v
+│       ├── msel_KT8_S.s,v
+│       ├── msel_KT9_S.s,v
+│       ├── msel_LOGO_S.s,v
+│       ├── msel_scup_S.s,v
+│       ├── msel_spcup_S.s,v
+│       ├── N_donkey.s,v
+│       ├── N_kinopio.s,v
+│       ├── N_koopa.s,v
+│       ├── N_luigi.s,v
+│       ├── N_mario.s,v
+│       ├── N_peach.s,v
+│       ├── N_wario.s,v
+│       ├── N_yoshi.s,v
+│       ├── nintendo96_S_zh.c,v
+│       ├── ok_S.s,v
+│       ├── optionLOGO_S.s,v
+│       ├── psel_LOGO_S.s,v
+│       └── pushstart_S_zh.c,v
+├── select.o,v
+├── selectdiff,v
+├── skeleton_local.o,v
+├── slidec.o,v
+├── slidec.s,v
+├── slienc,v
+├── slienc_linux,v
+├── sliez.o,v
+├── sliez.s,v
+├── sos.h,v
+├── sos1,v
+├── spec,v
+├── spec_zh,v
+├── sprite.o,v
+├── staticdata.o,v
+├── staticdata.s,v
+├── staticdata_zh.o,v
+├── staticdata_zh.s,v
+├── statickawano.c,v
+├── tex_list.c,v
+├── time.o,v
+├── view.o,v
+└── zh_font_width.c,v

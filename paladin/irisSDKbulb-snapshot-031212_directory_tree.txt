@@ -1,0 +1,993 @@
+irisSDKbulb-snapshot-031212/
+└── irisSDK/
+    ├── build/
+    │   ├── buildsetup/
+    │   │   ├── fx/
+    │   │   │   ├── fx_const.csv
+    │   │   │   ├── fx_const.xls
+    │   │   │   ├── fx_const_generator.pl
+    │   │   │   └── Makefile
+    │   │   ├── ioreg/
+    │   │   │   ├── header_generator_ioreg.pl
+    │   │   │   ├── io_register_list.csv
+    │   │   │   ├── io_register_list.xls
+    │   │   │   └── Makefile
+    │   │   ├── ioreg_sp/
+    │   │   │   ├── io_register_list.csv
+    │   │   │   ├── io_register_list.xls
+    │   │   │   └── Makefile
+    │   │   ├── Makefile
+    │   │   └── trig/
+    │   │       ├── asinatan.pl
+    │   │       └── sincos.pl
+    │   ├── buildtools/
+    │   │   ├── commondefs
+    │   │   ├── commondefs.cctype.CW
+    │   │   ├── commondefs.emtype.ISD
+    │   │   ├── GX_APIChangeFrom031203.pl
+    │   │   ├── modulerules
+    │   │   ├── modulerules.cctype.CW
+    │   │   ├── sdk_indent.pl
+    │   │   └── template/
+    │   │       ├── Copyright.Header
+    │   │       ├── Function.Header
+    │   │       ├── Makefile.BuildSrc
+    │   │       ├── Makefile.BuildSrc.ARM7
+    │   │       └── Makefile.BuildSubdir
+    │   ├── demos/
+    │   │   └── Makefile
+    │   ├── libraries/
+    │   │   ├── fx/
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── fx_atan.c
+    │   │   │       ├── fx_cp.c
+    │   │   │       ├── fx_mtx33.c
+    │   │   │       ├── fx_mtx43.c
+    │   │   │       ├── fx_mtx44.c
+    │   │   │       ├── fx_sincos.c
+    │   │   │       ├── fx_trig.c
+    │   │   │       └── fx_vec.c
+    │   │   ├── gx/
+    │   │   │   ├── include/
+    │   │   │   │   └── gxstate.h
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── g2.c
+    │   │   │       ├── g2util.c
+    │   │   │       ├── g3.c
+    │   │   │       ├── g3b.c
+    │   │   │       ├── g3c.c
+    │   │   │       ├── g3imm.c
+    │   │   │       ├── g3util.c
+    │   │   │       ├── g3x.c
+    │   │   │       ├── g3x_status.c
+    │   │   │       ├── gx.c
+    │   │   │       ├── gx_bgcnt.c
+    │   │   │       ├── gx_vramcnt.c
+    │   │   │       └── gxstate.c
+    │   │   ├── init/
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       └── crt0.c
+    │   │   ├── Makefile
+    │   │   ├── os/
+    │   │   │   ├── libOS.mcp
+    │   │   │   ├── Makefile
+    │   │   │   └── src/
+    │   │   │       ├── os_context.c
+    │   │   │       ├── os_emulator.c
+    │   │   │       ├── os_interrupt.c
+    │   │   │       ├── os_irqHandler.c
+    │   │   │       ├── os_irqTable.c
+    │   │   │       ├── os_message.c
+    │   │   │       ├── os_mutex.c
+    │   │   │       ├── os_printf.c
+    │   │   │       ├── os_spinLock.c
+    │   │   │       └── os_thread.c
+    │   │   ├── stubs/
+    │   │   │   ├── isd/
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       └── stubs_isd.c
+    │   │   │   └── Makefile
+    │   │   └── template/
+    │   │       └── Makefile
+    │   ├── Makefile
+    │   ├── spcode/
+    │   │   ├── libraries/
+    │   │   │   ├── init/
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       └── crt0.s
+    │   │   │   ├── Makefile
+    │   │   │   └── os/
+    │   │   │       ├── Makefile
+    │   │   │       └── src/
+    │   │   │           ├── osInterruptBase.c
+    │   │   │           └── osInterruptTable.c
+    │   │   ├── Makefile
+    │   │   └── tests/
+    │   │       ├── Makefile
+    │   │       └── template/
+    │   │           ├── Makefile
+    │   │           └── src/
+    │   │               └── main.c
+    │   ├── tests/
+    │   │   ├── gx/
+    │   │   │   ├── Makefile
+    │   │   │   ├── ortho2D/
+    │   │   │   ├── primitive/
+    │   │   │   ├── simple2D/
+    │   │   │   ├── two_quads/
+    │   │   │   └── UnitTours/
+    │   │   │       ├── 2D_BmpBg_Vram/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── image.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── image.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_BmpBg_WorkRam/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── image.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── image.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_CharBg_1/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_CharBg_2/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_CharBg_3/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_CharBg_4/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_CharBg_5/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_CharBg_6/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_CharBg_7/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_CharBg_8/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_CharBg_9/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_Oam_1/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_Oam_2/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_Oam_3/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_Oam_4/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 2D_Oam_5/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Alpha_Test/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Command_Pack/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── commandList.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── commandList.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Edge_Marking/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Fog/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Pol_Color/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Pol_Env_Mapping/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── tex_4plett.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── main.c
+    │   │   │       │       └── tex_4plett.c
+    │   │   │       ├── 3D_Pol_High_Light/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Pol_Light/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Pol_LightColor/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Pol_OneTri/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Pol_Simple/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Pol_Simple2/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Pol_Simple3/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Pol_Tex16_Plett/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── tex_16plett.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── main.c
+    │   │   │       │       └── tex_16plett.c
+    │   │   │       ├── 3D_Pol_Tex256_Plett/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── tex_256plett.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── main.c
+    │   │   │       │       └── tex_256plett.c
+    │   │   │       ├── 3D_Pol_Tex32768/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── tex_32768.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── main.c
+    │   │   │       │       └── tex_32768.c
+    │   │   │       ├── 3D_Pol_Tex4_Plett/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── tex_4plett.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── main.c
+    │   │   │       │       └── tex_4plett.c
+    │   │   │       ├── 3D_Pol_Tex4x4/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── tex_4x4.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── main.c
+    │   │   │       │       └── tex_4x4.c
+    │   │   │       ├── 3D_Pol_Tex_Alpha/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── tex_alpha.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── main.c
+    │   │   │       │       └── tex_alpha.c
+    │   │   │       ├── 3D_Pol_Tex_Decal/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── tex_alpha.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── main.c
+    │   │   │       │       └── tex_alpha.c
+    │   │   │       ├── 3D_Pol_Toon/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   └── data.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── data.c
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Pol_Translucent/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Pol_Transparent/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── 3D_Shininess/
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       └── main.c
+    │   │   │       ├── DEMOLib/
+    │   │   │       │   ├── include/
+    │   │   │       │   │   ├── DEMO.h
+    │   │   │       │   │   ├── DEMODefine.h
+    │   │   │       │   │   ├── DEMOInit.h
+    │   │   │       │   │   └── DEMOKey.h
+    │   │   │       │   ├── Makefile
+    │   │   │       │   └── src/
+    │   │   │       │       ├── DEMOInit.c
+    │   │   │       │       └── DEMOKey.c
+    │   │   │       └── Makefile
+    │   │   ├── ide/
+    │   │   │   └── IDESample/
+    │   │   │       ├── IDESample.mcp
+    │   │   │       ├── IDESampleWithISD.mcp
+    │   │   │       ├── include/
+    │   │   │       │   └── data.h
+    │   │   │       ├── readme.txt
+    │   │   │       └── src/
+    │   │   │           ├── BGData.c
+    │   │   │           ├── main.c
+    │   │   │           └── OBJData.c
+    │   │   ├── Makefile
+    │   │   ├── os/
+    │   │   │   ├── interrupt-thread/
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       ├── data.c
+    │   │   │   │       └── main.c
+    │   │   │   ├── interruptTest/
+    │   │   │   │   ├── crt0.s
+    │   │   │   │   ├── data.c
+    │   │   │   │   ├── data.h
+    │   │   │   │   ├── define.h
+    │   │   │   │   ├── interruptTest.mcp
+    │   │   │   │   ├── ldcmd.lcf
+    │   │   │   │   ├── main.c
+    │   │   │   │   └── types.h
+    │   │   │   ├── Makefile
+    │   │   │   ├── mutex-1/
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       ├── data.c
+    │   │   │   │       └── main.c
+    │   │   │   ├── simple2D/
+    │   │   │   │   ├── crt0_mw.s
+    │   │   │   │   ├── data.c
+    │   │   │   │   ├── data.h
+    │   │   │   │   ├── define.h
+    │   │   │   │   ├── intr_main_mw.s
+    │   │   │   │   ├── ldcmd.lcf
+    │   │   │   │   ├── libirissyscall.a
+    │   │   │   │   ├── main.c
+    │   │   │   │   ├── simple2D.mcp
+    │   │   │   │   └── types.h
+    │   │   │   ├── thread-1/
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       └── main.c
+    │   │   │   ├── thread-2/
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       └── main.c
+    │   │   │   ├── thread-3/
+    │   │   │   │   ├── Makefile
+    │   │   │   │   └── src/
+    │   │   │   │       └── main.c
+    │   │   │   └── threadTest/
+    │   │   │       ├── include/
+    │   │   │       │   ├── a.h
+    │   │   │       │   ├── context.h
+    │   │   │       │   ├── data.h
+    │   │   │       │   └── thread.h
+    │   │   │       ├── Makefile
+    │   │   │       ├── src/
+    │   │   │       │   ├── a.c
+    │   │   │       │   ├── context.c
+    │   │   │       │   ├── data.c
+    │   │   │       │   ├── main.c
+    │   │   │       │   └── thread.c
+    │   │   │       └── threadTest.mcp
+    │   │   ├── pad/
+    │   │   │   ├── Makefile
+    │   │   │   └── padRead/
+    │   │   │       ├── include/
+    │   │   │       │   └── data.h
+    │   │   │       ├── Makefile
+    │   │   │       ├── padRead.mcp
+    │   │   │       └── src/
+    │   │   │           ├── data.c
+    │   │   │           └── main.c
+    │   │   └── template/
+    │   │       ├── Makefile
+    │   │       └── src/
+    │   │           └── main.c
+    │   └── tools/
+    │       └── Makefile
+    ├── docs/
+    │   ├── KnownIssues/
+    │   │   ├── 031203/
+    │   │   │   ├── 110.htm
+    │   │   │   ├── 69.htm
+    │   │   │   ├── 81.htm
+    │   │   │   └── kagemai.css
+    │   │   └── 031212/
+    │   │       ├── 126.htm
+    │   │       ├── 69.htm
+    │   │       └── kagemai.css
+    │   ├── READMEs-Snapshot/
+    │   │   ├── AboutChangelog.rtf
+    │   │   ├── ChangeLog.cvs
+    │   │   ├── QuickStartForIrisSDK.rtf
+    │   │   ├── ReleaseNotes-031203.rtf
+    │   │   └── ReleaseNotes-031212.rtf
+    │   ├── SDKHowTo/
+    │   ├── SDKRules/
+    │   │   ├── irisSDKstandard.css
+    │   │   ├── Rule-Defines.html
+    │   │   └── Rule-NameSpace.html
+    │   └── SDKTools/
+    │       ├── CVS-TagTable.rtf
+    │       └── WinCvsSetting.rtf
+    ├── include/
+    │   ├── iris/
+    │   │   ├── ARM7-BB.lcf
+    │   │   ├── ARM7-TEG.lcf
+    │   │   ├── ARM9-BB.lcf
+    │   │   ├── ARM9-TEG.lcf
+    │   │   ├── cp/
+    │   │   │   ├── divider.h
+    │   │   │   └── sqrt.h
+    │   │   ├── fx/
+    │   │   │   ├── fx.h
+    │   │   │   ├── fx_const.h
+    │   │   │   ├── fx_cp.h
+    │   │   │   ├── fx_mtx.h
+    │   │   │   ├── fx_mtx33.h
+    │   │   │   ├── fx_mtx43.h
+    │   │   │   ├── fx_mtx44.h
+    │   │   │   ├── fx_trig.h
+    │   │   │   └── fx_vec.h
+    │   │   ├── gx/
+    │   │   │   ├── g2.h
+    │   │   │   ├── g2oam.h
+    │   │   │   ├── g2util.h
+    │   │   │   ├── g3.h
+    │   │   │   ├── g3b.h
+    │   │   │   ├── g3c.h
+    │   │   │   ├── g3imm.h
+    │   │   │   ├── g3util.h
+    │   │   │   ├── g3x.h
+    │   │   │   ├── g3x_status.h
+    │   │   │   ├── gx.h
+    │   │   │   ├── gx_bgcnt.h
+    │   │   │   ├── gx_capture.h
+    │   │   │   ├── gx_vramcnt.h
+    │   │   │   └── gxcommon.h
+    │   │   ├── hw/
+    │   │   │   ├── armArch.h
+    │   │   │   ├── ioreg.h
+    │   │   │   ├── ioreg_CP.h
+    │   │   │   ├── ioreg_G2.h
+    │   │   │   ├── ioreg_G3.h
+    │   │   │   ├── ioreg_G3X.h
+    │   │   │   ├── ioreg_GX.h
+    │   │   │   ├── ioreg_MI.h
+    │   │   │   ├── ioreg_OS.h
+    │   │   │   ├── ioreg_PAD.h
+    │   │   │   ├── ioreg_SPI.h
+    │   │   │   ├── mmap_global.h
+    │   │   │   ├── mmap_main.h
+    │   │   │   ├── mmap_reserved.h
+    │   │   │   └── mmap_vram.h
+    │   │   ├── init/
+    │   │   │   └── crt0.h
+    │   │   ├── memorymap.h
+    │   │   ├── mi/
+    │   │   │   ├── dma.h
+    │   │   │   └── exMemory.h
+    │   │   ├── misc.h
+    │   │   ├── os/
+    │   │   │   ├── cache.h
+    │   │   │   ├── context.h
+    │   │   │   ├── emulator.h
+    │   │   │   ├── exception.h
+    │   │   │   ├── halt.h
+    │   │   │   ├── interrupt.h
+    │   │   │   ├── message.h
+    │   │   │   ├── mutex.h
+    │   │   │   ├── printf.h
+    │   │   │   ├── protectionRegion.h
+    │   │   │   ├── protectionUnit.h
+    │   │   │   ├── spinLock.h
+    │   │   │   ├── system.h
+    │   │   │   ├── systemCall.h
+    │   │   │   ├── tcm.h
+    │   │   │   ├── thread.h
+    │   │   │   ├── timer.h
+    │   │   │   ├── utility.h
+    │   │   │   └── writeBuffer.h
+    │   │   ├── os.h
+    │   │   ├── pad/
+    │   │   │   └── pad.h
+    │   │   ├── spcode/
+    │   │   │   ├── hw/
+    │   │   │   │   ├── ioreg.h
+    │   │   │   │   ├── ioreg_SPDISP.h
+    │   │   │   │   ├── ioreg_SPMI.h
+    │   │   │   │   ├── ioreg_SPMPI.h
+    │   │   │   │   ├── ioreg_SPOS.h
+    │   │   │   │   ├── ioreg_SPPAD.h
+    │   │   │   │   ├── ioreg_SPSND.h
+    │   │   │   │   └── mmap_global.h
+    │   │   │   └── init/
+    │   │   │       └── crt0.h
+    │   │   ├── types.h
+    │   │   └── types.s
+    │   ├── iris.h
+    │   └── iris_sp.h
+    ├── lib/
+    │   ├── ARM7-BB/
+    │   │   ├── Debug/
+    │   │   │   ├── libirissubpsyscall.a
+    │   │   │   └── libirissubpsyscall_arm.a
+    │   │   ├── Release/
+    │   │   │   ├── libirissubpsyscall.a
+    │   │   │   └── libirissubpsyscall_arm.a
+    │   │   └── Rom/
+    │   │       ├── libirissubpsyscall.a
+    │   │       └── libirissubpsyscall_arm.a
+    │   ├── ARM7-TEG/
+    │   │   ├── Debug/
+    │   │   │   ├── libirissubpsyscall.a
+    │   │   │   └── libirissubpsyscall_arm.a
+    │   │   ├── Release/
+    │   │   │   ├── libirissubpsyscall.a
+    │   │   │   └── libirissubpsyscall_arm.a
+    │   │   └── Rom/
+    │   │       ├── libirissubpsyscall.a
+    │   │       └── libirissubpsyscall_arm.a
+    │   ├── ARM9-BB/
+    │   │   ├── Debug/
+    │   │   │   ├── crt0.o
+    │   │   │   ├── libfx.a
+    │   │   │   ├── libgx.a
+    │   │   │   ├── libirissyscall.a
+    │   │   │   ├── libirissyscall_arm.a
+    │   │   │   ├── libos.a
+    │   │   │   └── libstubsisd.a
+    │   │   ├── Release/
+    │   │   │   ├── crt0.o
+    │   │   │   ├── libfx.a
+    │   │   │   ├── libgx.a
+    │   │   │   ├── libirissyscall.a
+    │   │   │   ├── libirissyscall_arm.a
+    │   │   │   ├── libos.a
+    │   │   │   └── libstubsisd.a
+    │   │   └── Rom/
+    │   │       ├── crt0.o
+    │   │       ├── libfx.a
+    │   │       ├── libgx.a
+    │   │       ├── libirissyscall.a
+    │   │       ├── libirissyscall_arm.a
+    │   │       ├── libos.a
+    │   │       └── libstubsisd.a
+    │   └── ARM9-TEG/
+    │       ├── Debug/
+    │       │   ├── crt0.o
+    │       │   ├── libfx.a
+    │       │   ├── libgx.a
+    │       │   ├── libirissyscall.a
+    │       │   ├── libirissyscall_arm.a
+    │       │   ├── libos.a
+    │       │   └── libstubsisd.a
+    │       ├── Release/
+    │       │   ├── crt0.o
+    │       │   ├── libfx.a
+    │       │   ├── libgx.a
+    │       │   ├── libirissyscall.a
+    │       │   ├── libirissyscall_arm.a
+    │       │   ├── libos.a
+    │       │   └── libstubsisd.a
+    │       └── Rom/
+    │           ├── crt0.o
+    │           ├── libfx.a
+    │           ├── libgx.a
+    │           ├── libirissyscall.a
+    │           ├── libirissyscall_arm.a
+    │           ├── libos.a
+    │           └── libstubsisd.a
+    ├── Makefile
+    ├── man/
+    │   └── ja_JP/
+    │       ├── a-z.html
+    │       ├── contents.html
+    │       ├── cp/
+    │       │   ├── cp.html
+    │       │   ├── div/
+    │       │   │   ├── CP_GetDivRemainder.html
+    │       │   │   ├── CP_GetDivResult.html
+    │       │   │   ├── CP_IsDivBusy.html
+    │       │   │   ├── CP_SetDiv.html
+    │       │   │   ├── CP_SetDivImm.html
+    │       │   │   └── CP_WaitDiv.html
+    │       │   ├── list_cp.html
+    │       │   └── sqrt/
+    │       │       ├── CP_GetSqrtResult.html
+    │       │       ├── CP_IsSqrtBusy.html
+    │       │       ├── CP_SetSqrt.html
+    │       │       ├── CP_SetSqrtImm.html
+    │       │       └── CP_WaitSqrt.html
+    │       ├── css/
+    │       │   ├── iris.css
+    │       │   └── titles.css
+    │       ├── fx/
+    │       │   ├── fx.html
+    │       │   ├── fx16.html
+    │       │   ├── fx32.html
+    │       │   ├── fx64.html
+    │       │   ├── fx64c.html
+    │       │   ├── FX_CosFx64c.html
+    │       │   ├── FX_CosIdx.html
+    │       │   ├── FX_Div.html
+    │       │   ├── FX_DivFx64c.html
+    │       │   ├── FX_Inv.html
+    │       │   ├── FX_InvFx64c.html
+    │       │   ├── FX_Mul.html
+    │       │   ├── FX_Mul32x64c.html
+    │       │   ├── FX_SinFx64c.html
+    │       │   ├── FX_SinIdx.html
+    │       │   ├── FX_Sqrt.html
+    │       │   ├── list_fx.html
+    │       │   ├── MTX_Copy33To43.html
+    │       │   ├── MTX_Copy33To44.html
+    │       │   ├── MTX_Identity33.html
+    │       │   ├── MTX_Identity43.html
+    │       │   ├── MTX_Identity44.html
+    │       │   ├── MTX_Transpose33.html
+    │       │   ├── MTX_Transpose43.html
+    │       │   ├── MTX_Transpose44.html
+    │       │   ├── MtxFx22.html
+    │       │   ├── MtxFx33.html
+    │       │   ├── MtxFx43.html
+    │       │   └── MtxFx44.html
+    │       ├── gx/
+    │       │   ├── G2_BG0Mosaic.html
+    │       │   ├── G2_BG0Priority.html
+    │       │   ├── G2_BG1Mosaic.html
+    │       │   ├── G2_BG1Priority.html
+    │       │   ├── G2_BG2Mosaic.html
+    │       │   ├── G2_BG2Priority.html
+    │       │   ├── G2_BG3Mosaic.html
+    │       │   ├── G2_BG3Priority.html
+    │       │   ├── G2_GetBG0CharPtr.html
+    │       │   ├── G2_GetBG0ScreenPtr.html
+    │       │   ├── G2_GetBG1CharPtr.html
+    │       │   ├── G2_GetBG1ScreenPtr.html
+    │       │   ├── G2_GetBG2CharPtr.html
+    │       │   ├── G2_GetBG2ScreenPtr.html
+    │       │   ├── G2_GetBG3CharPtr.html
+    │       │   ├── G2_GetBG3ScreenPtr.html
+    │       │   ├── G2_GetOBJCharPtr.html
+    │       │   ├── G2_SetBG0Control.html
+    │       │   ├── G2_SetBG0Offset.html
+    │       │   ├── G2_SetBG1Control.html
+    │       │   ├── G2_SetBG1Offset.html
+    │       │   ├── G2_SetBG2Affine.html
+    │       │   ├── G2_SetBG2Offset.html
+    │       │   ├── G2_SetBG3Affine.html
+    │       │   ├── G2_SetBG3Offset.html
+    │       │   ├── G2_SetBGMosaicSize.html
+    │       │   ├── G2_SetBlendAlpha.html
+    │       │   ├── G2_SetBlendAlphaOBJAnd3D.html
+    │       │   ├── G2_SetBlendAlphaParam.html
+    │       │   ├── G2_SetBlendBrightness.html
+    │       │   ├── G2_SetBlendBrightnessAndAlphaOBJAnd3D.html
+    │       │   ├── G2_SetBlendBrightnessParam.html
+    │       │   ├── G2_SetBlendNone.html
+    │       │   ├── G2_SetOBJAffine.html
+    │       │   ├── G2_SetOBJAttribute.html
+    │       │   ├── G2_SetOBJCharName.html
+    │       │   ├── G2_SetOBJEffect.html
+    │       │   ├── G2_SetOBJMode.html
+    │       │   ├── G2_SetOBJMosaicSize.html
+    │       │   ├── G2_SetOBJPriority.html
+    │       │   ├── G2_SetOBJShape.html
+    │       │   ├── G2_SetOBJWindowInsidePlane.html
+    │       │   ├── G2_SetOBJXY.html
+    │       │   ├── G2_SetWindow0InsidePlane.html
+    │       │   ├── G2_SetWindow0Position.html
+    │       │   ├── G2_SetWindow1InsidePlane.html
+    │       │   ├── G2_SetWindow1Position.html
+    │       │   ├── G2_SetWindowOutsidePlane.html
+    │       │   ├── G2Util_BeginLoadBGExtPltt.html
+    │       │   ├── G2Util_BeginLoadOBJExtPltt.html
+    │       │   ├── G2Util_EndLoadBGExtPltt.html
+    │       │   ├── G2Util_EndLoadOBJExtPltt.html
+    │       │   ├── G2Util_LoadBG0Char.html
+    │       │   ├── G2Util_LoadBG0Screen.html
+    │       │   ├── G2Util_LoadBG1Char.html
+    │       │   ├── G2Util_LoadBG1Screen.html
+    │       │   ├── G2Util_LoadBG2Char.html
+    │       │   ├── G2Util_LoadBG2Screen.html
+    │       │   ├── G2Util_LoadBG3Char.html
+    │       │   ├── G2Util_LoadBG3Screen.html
+    │       │   ├── G2Util_LoadBGExtPltt.html
+    │       │   ├── G2Util_LoadBGPltt.html
+    │       │   ├── G2Util_LoadOAM.html
+    │       │   ├── G2Util_LoadOBJ.html
+    │       │   ├── G2Util_LoadOBJExtPltt.html
+    │       │   ├── G2Util_LoadOBJPltt.html
+    │       │   ├── G3_Begin.html
+    │       │   ├── G3_BoxTest.html
+    │       │   ├── G3_Color.html
+    │       │   ├── G3_Direct0.html
+    │       │   ├── G3_Direct1.html
+    │       │   ├── G3_Direct2.html
+    │       │   ├── G3_Direct3.html
+    │       │   ├── G3_End.html
+    │       │   ├── G3_Identity.html
+    │       │   ├── G3_LightColor.html
+    │       │   ├── G3_LightVector.html
+    │       │   ├── G3_LoadMatrix43.html
+    │       │   ├── G3_LoadMatrix44.html
+    │       │   ├── G3_MaterialColor0.html
+    │       │   ├── G3_MaterialColor1.html
+    │       │   ├── G3_MatrixMode.html
+    │       │   ├── G3_MultMatrix33.html
+    │       │   ├── G3_MultMatrix43.html
+    │       │   ├── G3_MultMatrix44.html
+    │       │   ├── G3_Nop.html
+    │       │   ├── G3_Normal.html
+    │       │   ├── G3_PolygonAttr.html
+    │       │   ├── G3_PopMatrix.html
+    │       │   ├── G3_PositionTest.html
+    │       │   ├── G3_PushMatrix.html
+    │       │   ├── G3_RestoreMatrix.html
+    │       │   ├── G3_Scale.html
+    │       │   ├── G3_Shininess.html
+    │       │   ├── G3_StoreMatrix.html
+    │       │   ├── G3_SwapBuffers.html
+    │       │   ├── G3_TexCoord.html
+    │       │   ├── G3_TexCoordImm.html
+    │       │   ├── G3_TexImageParam.html
+    │       │   ├── G3_TexPlttBase.html
+    │       │   ├── G3_TexPlttBaseImm.html
+    │       │   ├── G3_Translate.html
+    │       │   ├── G3_VectorTest.html
+    │       │   ├── G3_Vertex.html
+    │       │   ├── G3_VertexDiff.html
+    │       │   ├── G3_VertexShort.html
+    │       │   ├── G3_VertexXY.html
+    │       │   ├── G3_VertexXZ.html
+    │       │   ├── G3_VertexYZ.html
+    │       │   ├── G3_ViewPort.html
+    │       │   ├── G3Util_BeginLoadClearImage.html
+    │       │   ├── G3Util_BeginLoadTexture.html
+    │       │   ├── G3Util_BeginLoadTexturePltt.html
+    │       │   ├── G3Util_EndLoadClearImage.html
+    │       │   ├── G3Util_EndLoadTexture.html
+    │       │   ├── G3Util_EndLoadTexturePltt.html
+    │       │   ├── G3Util_Frustum.html
+    │       │   ├── G3Util_LoadClearImageColor.html
+    │       │   ├── G3Util_LoadClearImageDepth.html
+    │       │   ├── G3Util_LoadTexture.html
+    │       │   ├── G3Util_LoadTextureMtx.html
+    │       │   ├── G3Util_LoadTexturePltt.html
+    │       │   ├── G3Util_LookAt.html
+    │       │   ├── G3Util_Ortho.html
+    │       │   ├── G3Util_Perspective.html
+    │       │   ├── G3Util_RotX.html
+    │       │   ├── G3Util_RotY.html
+    │       │   ├── G3Util_RotZ.html
+    │       │   ├── G3X_AlphaBlend.html
+    │       │   ├── G3X_AlphaTest.html
+    │       │   ├── G3X_AntiAlias.html
+    │       │   ├── G3X_EdgeMarking.html
+    │       │   ├── G3X_Fog.html
+    │       │   ├── G3X_GetBoxTestResult.html
+    │       │   ├── G3X_GetClipMtx.html
+    │       │   ├── G3X_GetPositionTestResult.html
+    │       │   ├── G3X_GetVectorMtx.html
+    │       │   ├── G3X_GetVectorTestResult.html
+    │       │   ├── G3X_InitMtxStack.html
+    │       │   ├── G3X_InitTables.html
+    │       │   ├── G3X_Reset.html
+    │       │   ├── G3X_ResetMtxStack.html
+    │       │   ├── G3X_SetClearColor.html
+    │       │   ├── G3X_SetClearDepth.html
+    │       │   ├── G3X_SetClearImageOffset.html
+    │       │   ├── G3X_SetEdgeColorTable.html
+    │       │   ├── G3X_SetFogColor.html
+    │       │   ├── G3X_SetFogTable.html
+    │       │   ├── G3X_SetHOffset.html
+    │       │   ├── G3X_SetToonTable.html
+    │       │   ├── G3X_Shading.html
+    │       │   ├── gx.html
+    │       │   ├── GX_BlankScreen.html
+    │       │   ├── GX_DisableBankForARM7.html
+    │       │   ├── GX_DisableBankForBG.html
+    │       │   ├── GX_DisableBankForBGEXTPLTT.html
+    │       │   ├── GX_DisableBankForCLRIMG.html
+    │       │   ├── GX_DisableBankForLCDC.html
+    │       │   ├── GX_DisableBankForOBJ.html
+    │       │   ├── GX_DisableBankForOBJEXTPLTT.html
+    │       │   ├── GX_DisableBankForTEX.html
+    │       │   ├── GX_DisableBankForTEXPLTT.html
+    │       │   ├── GX_Power.html
+    │       │   ├── GX_Power2D.html
+    │       │   ├── GX_PowerGeometry.html
+    │       │   ├── GX_PowerLCD.html
+    │       │   ├── GX_PowerRender.html
+    │       │   ├── GX_ResetBankForARM7.html
+    │       │   ├── GX_ResetBankForBG.html
+    │       │   ├── GX_ResetBankForBGEXTPLTT.html
+    │       │   ├── GX_ResetBankForCLRIMG.html
+    │       │   ├── GX_ResetBankForOBJ.html
+    │       │   ├── GX_ResetBankForOBJEXTPLTT.html
+    │       │   ├── GX_ResetBankForTEX.html
+    │       │   ├── GX_ResetBankForTEXPLTT.html
+    │       │   ├── GX_SetBankForARM7.html
+    │       │   ├── GX_SetBankForBG.html
+    │       │   ├── GX_SetBankForBGEXTPLTT.html
+    │       │   ├── GX_SetBankForCLRIMG.html
+    │       │   ├── GX_SetBankForLCDC.html
+    │       │   ├── GX_SetBankForOBJ.html
+    │       │   ├── GX_SetBankForOBJEXTPLTT.html
+    │       │   ├── GX_SetBankForTEX.html
+    │       │   ├── GX_SetBankForTEXPLTT.html
+    │       │   ├── GX_SetBGCharOffset.html
+    │       │   ├── GX_SetBGScreenOffset.html
+    │       │   ├── GX_SetBitmapOBJMemoryMode.html
+    │       │   ├── GX_SetCharOBJMemoryMode.html
+    │       │   ├── GX_SetGraphicsMode.html
+    │       │   ├── GX_SetVisiblePlane.html
+    │       │   ├── GX_SetVisibleWindow.html
+    │       │   ├── GX_SetWRAMBank.html
+    │       │   └── list_gx.html
+    │       ├── icons.html
+    │       ├── index.html
+    │       ├── main.html
+    │       ├── mi/
+    │       │   ├── list_mi.html
+    │       │   ├── mi.html
+    │       │   ├── MI_CpuClear.html
+    │       │   ├── MI_CpuCopy.html
+    │       │   ├── MI_CpuFill.html
+    │       │   ├── MI_DispMemDmaCopy.html
+    │       │   ├── MI_DmaClear.html
+    │       │   ├── MI_DmaCopy.html
+    │       │   ├── MI_DmaFill.html
+    │       │   ├── MI_HBlankDmaCopy.html
+    │       │   ├── MI_IsDmaBusy.html
+    │       │   ├── MI_SendGXCommand.html
+    │       │   ├── MI_StopDma.html
+    │       │   ├── MI_VBlankDmaCopy.html
+    │       │   └── MI_WaitDma.html
+    │       ├── os/
+    │       │   ├── context/
+    │       │   │   ├── OS_DumpContext.html
+    │       │   │   ├── OS_InitContext.html
+    │       │   │   ├── OS_LoadContext.html
+    │       │   │   └── OS_SaveContext.html
+    │       │   ├── debug/
+    │       │   │   ├── OS_Halt.html
+    │       │   │   ├── OS_Panic.html
+    │       │   │   ├── OS_Printf.html
+    │       │   │   ├── OS_PutString.html
+    │       │   │   └── OS_Warning.html
+    │       │   ├── irq/
+    │       │   │   ├── OS_DisableIRQ.html
+    │       │   │   ├── OS_DisableIRQMask.html
+    │       │   │   ├── OS_EnableIRQ.html
+    │       │   │   ├── OS_EnableIRQMask.html
+    │       │   │   ├── OS_GetIRQFunction.html
+    │       │   │   ├── OS_GetIRQMask.html
+    │       │   │   ├── OS_GetRequestIRQMask.html
+    │       │   │   ├── OS_InitIRQTable.html
+    │       │   │   ├── OS_ResetRequestIRQMask.html
+    │       │   │   ├── OS_RestoreIRQ.html
+    │       │   │   ├── OS_SetIRQFunction.html
+    │       │   │   └── OS_SetIRQMask.html
+    │       │   ├── list_os.html
+    │       │   ├── message/
+    │       │   │   ├── OS_InitMessageQueue.html
+    │       │   │   ├── OS_JamMessage.html
+    │       │   │   ├── OS_ReceiveMessage.html
+    │       │   │   └── OS_SendMessage.html
+    │       │   ├── mutex/
+    │       │   │   ├── OS_InitMutex.html
+    │       │   │   ├── OS_LockMutex.html
+    │       │   │   ├── OS_TryLockMutex.html
+    │       │   │   └── OS_UnlockMutex.html
+    │       │   ├── os.html
+    │       │   ├── system/
+    │       │   │   ├── OS_DisableInterrupts.html
+    │       │   │   ├── OS_EnableInterrupts.html
+    │       │   │   ├── OS_GetInterrupts.html
+    │       │   │   ├── OS_GetProcMode.html
+    │       │   │   └── OS_RestoreInterrupts.html
+    │       │   ├── thread/
+    │       │   │   ├── OS_CreateThread.html
+    │       │   │   ├── OS_CreateThreadQueue.html
+    │       │   │   ├── OS_DumpThreadList.html
+    │       │   │   ├── OS_ExitThread.html
+    │       │   │   ├── OS_InitThread.html
+    │       │   │   ├── OS_RescheduleThread.html
+    │       │   │   ├── OS_SelectThread.html
+    │       │   │   ├── OS_SleepThread.html
+    │       │   │   ├── OS_WakeupThread.html
+    │       │   │   └── OS_WakeupThreadDirect.html
+    │       │   └── timer/
+    │       │       └── OS_StartTimer.html
+    │       └── pad/
+    │           ├── list_pad.html
+    │           ├── pad.html
+    │           ├── PAD_ClearIRQ.html
+    │           ├── PAD_Read.html
+    │           └── PAD_SetIRQ.html
+    ├── release/
+    │   └── Makefile
+    ├── SrcTreeMap.txt
+    └── tools/
+        ├── bin/
+        │   └── dis
+        └── elftobin/
+            ├── IrisPostLinker.bat
+            ├── romHeader.bin
+            └── spIdle.elf

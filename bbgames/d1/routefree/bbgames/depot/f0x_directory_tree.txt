@@ -1,0 +1,4781 @@
+f0x/
+├── army-env.sh,v
+├── artmake.zh,v
+├── Attic/
+│   ├── caution1_size.inc,v
+│   ├── caution2_size.inc,v
+│   ├── caution3_size.inc,v
+│   ├── code.o,v
+│   ├── code1.o,v
+│   ├── code2a.o,v
+│   ├── code2b.o,v
+│   ├── code2c.o,v
+│   ├── code2g.o,v
+│   ├── code3e.o,v
+│   ├── code3i.o,v
+│   ├── code3r.o,v
+│   ├── code3w.o,v
+│   ├── CSEL_CUP_SIZES.inc,v
+│   ├── dai_letter.o,v
+│   ├── dai_ssletter.o,v
+│   ├── dai_ssletter2.o,v
+│   ├── dai_ssletter3.o,v
+│   ├── dai_traveling.o,v
+│   ├── GSEL_LEVELS_SIZES.inc,v
+│   ├── GSEL_SIZES.inc,v
+│   ├── kn_backup.o,v
+│   ├── kn_endgp.o,v
+│   ├── kn_option.o,v
+│   ├── kn_record.o,v
+│   ├── kn_ssrecord.o,v
+│   ├── ko_abc.o,v
+│   ├── ko_csel.o,v
+│   ├── ko_dtabc.o,v
+│   ├── ko_dtcsel.o,v
+│   ├── ko_dtgsel.o,v
+│   ├── ko_dtmsel2.o,v
+│   ├── ko_dttitle.o,v
+│   ├── ko_dtwin.o,v
+│   ├── ko_gsel.o,v
+│   ├── ko_msel.o,v
+│   ├── ko_select.o,v
+│   ├── ko_title.o,v
+│   ├── ko_win.o,v
+│   ├── link.map,v
+│   ├── link1.map,v
+│   ├── link2a.map,v
+│   ├── link2b.map,v
+│   ├── link2c.map,v
+│   ├── link2g.map,v
+│   ├── link3e.map,v
+│   ├── link3i.map,v
+│   ├── link3r.map,v
+│   ├── link3w.map,v
+│   ├── linkleo.map,v
+│   ├── linkmo.map,v
+│   ├── METER1_SIZE.inc,v
+│   ├── METER2_SIZE.inc,v
+│   ├── METER_2_SIZE.inc,v
+│   ├── METER_4P1_SIZE.inc,v
+│   ├── METER_4P2_SIZE.inc,v
+│   ├── METER_4P_SIZE.inc,v
+│   ├── METER_SIZE.inc,v
+│   ├── MINI_SIZES.inc,v
+│   ├── mo_commonprg.o,v
+│   ├── mo_disk.o,v
+│   ├── mo_drawkanji.o,v
+│   ├── mo_editor.o,v
+│   ├── mo_kbuffer.o,v
+│   ├── mo_message.o,v
+│   ├── mo_printerr.o,v
+│   ├── mo_rom.o,v
+│   ├── mo_romkbuf.o,v
+│   ├── mo_setupkanji.o,v
+│   ├── mo_sseditor.o,v
+│   ├── mo_ssmenutex.o,v
+│   ├── mo_sssetting.o,v
+│   ├── nintendo_size.inc,v
+│   ├── OK_SIZE.inc,v
+│   ├── ot_sseffect.o,v
+│   ├── ot_sseffect2.o,v
+│   ├── ot_sseffect2_zh.o,v
+│   ├── ot_sseffect_zh.o,v
+│   ├── rom.map,v
+│   ├── sot_disk.o,v
+│   ├── sot_disksys.o,v
+│   ├── sot_draw.o,v
+│   ├── sot_entry.o,v
+│   ├── sot_filelist.o,v
+│   ├── sot_help.o,v
+│   ├── sot_leo.o,v
+│   ├── sot_letter.o,v
+│   ├── sot_menu.o,v
+│   ├── sot_mesdata.o,v
+│   ├── sot_message.o,v
+│   ├── sot_sscrsedit.o,v
+│   ├── sot_sseditor.o,v
+│   ├── sot_ssletter.o,v
+│   ├── sot_ssletter2.o,v
+│   ├── sot_string.o,v
+│   ├── sotleo.o,v
+│   ├── start_size.inc,v
+│   ├── title_size.inc,v
+│   ├── VS_COM.inc,v
+│   ├── VS_END.inc,v
+│   ├── VS_PLAYER.inc,v
+│   └── VS_SELECT.inc,v
+├── audio/
+│   ├── aspMain.o,v
+│   ├── audio.o,v
+│   ├── audio_hb.o,v
+│   ├── audio_hm.o,v
+│   ├── audio_hs.o,v
+│   ├── audio_hw.o,v
+│   ├── audioheap.o,v
+│   ├── audiowork.o,v
+│   ├── game_sound.banks.cart,v
+│   ├── game_sound.music.cart,v
+│   ├── game_sound.table.cart,v
+│   └── sound.h,v
+├── CAD/
+│   ├── Attic/
+│   │   ├── CAUTION1.INT,v
+│   │   ├── caution2pack.int,v
+│   │   ├── caution3disk.int,v
+│   │   ├── champghost.int,v
+│   │   ├── easy.rgba,v
+│   │   ├── ghost_off.int,v
+│   │   ├── GHOST_ON.INT,v
+│   │   ├── GHOSTCUT.INT,v
+│   │   ├── ghostmark.int,v
+│   │   ├── hard.rgba,v
+│   │   ├── Japan.rgba,v
+│   │   ├── master.rgba,v
+│   │   ├── Meter.rgba,v
+│   │   ├── METER02.RGB,v
+│   │   ├── Meter4p.rgba,v
+│   │   ├── meter4p02.rgb,v
+│   │   ├── normal.rgba,v
+│   │   ├── normalattack.int,v
+│   │   ├── PROGHOST.INT,v
+│   │   ├── records.rgba,v
+│   │   ├── SINDO_A.RGB,v
+│   │   ├── sindo_b.inta,v
+│   │   ├── staffghost.int,v
+│   │   ├── time.rgba,v
+│   │   ├── title.rgba,v
+│   │   └── title_nusmark.rgb,v
+│   ├── casol.rgba,v
+│   ├── casol02.rgba,v
+│   ├── casol03.rgba,v
+│   ├── casol04.rgba,v
+│   ├── Cedit.rgba,v
+│   ├── class.rgba,v
+│   ├── CONGRA.RGB,v
+│   ├── COURSESELECT.int,v
+│   ├── CS.RGB,v
+│   ├── cs.rgba,v
+│   ├── cup01.rgba,v
+│   ├── cup02.rgba,v
+│   ├── cup03.rgba,v
+│   ├── cup04.rgba,v
+│   ├── cup05.rgba,v
+│   ├── cup201.rgba,v
+│   ├── cup202.rgba,v
+│   ├── cup203.rgba,v
+│   ├── cup204.rgba,v
+│   ├── cup205.rgba,v
+│   ├── cup301.rgba,v
+│   ├── cup302.rgba,v
+│   ├── cup303.rgba,v
+│   ├── cup304.rgba,v
+│   ├── cup305.rgba,v
+│   ├── cup401.rgba,v
+│   ├── cup402.rgba,v
+│   ├── cup403.rgba,v
+│   ├── cup404.rgba,v
+│   ├── cup405.rgba,v
+│   ├── cupDD_01.rgba,v
+│   ├── cupDD_201.rgba,v
+│   ├── cupDD_301.rgba,v
+│   ├── cupDD_401.rgba,v
+│   ├── cuppoint.rgba,v
+│   ├── CUPselect.rgb,v
+│   ├── DD1.rgba,v
+│   ├── DD2.rgba,v
+│   ├── E_caution1.int,v
+│   ├── E_caution2pack.int,v
+│   ├── E_caution3disk.int,v
+│   ├── E_champghost.int,v
+│   ├── E_ghost_off.int,v
+│   ├── E_ghost_on.int,v
+│   ├── E_ghostmark.int,v
+│   ├── E_proghost.int,v
+│   ├── E_staffghost.int,v
+│   ├── Ed.rgb,v
+│   ├── Ed.rgba,v
+│   ├── EE_COURSESELECT.int,v
+│   ├── EE_MACHINESELECT.int,v
+│   ├── EE_MODESELECT.int,v
+│   ├── EE_RECORDS.int,v
+│   ├── Estar.rgba,v
+│   ├── F-ZERO.rgba,v
+│   ├── GPrace.rgb,v
+│   ├── GPrace.rgba,v
+│   ├── Hatena.rgba,v
+│   ├── Hstar.rgba,v
+│   ├── Jcup.rgb,v
+│   ├── Jcup.rgba,v
+│   ├── Joker.rgb,v
+│   ├── JOKERcup.rgba,v
+│   ├── Kcup.rgb,v
+│   ├── Kcup.rgba,v
+│   ├── MACHINESELECT.int,v
+│   ├── Mcup.rgba,v
+│   ├── Medit.rgba,v
+│   ├── METER.RGB,v
+│   ├── METER4P.RGB,v
+│   ├── MINIBODY.RGB,v
+│   ├── miniboost.rgb,v
+│   ├── MINIGRIP.RGB,v
+│   ├── mode.rgba,v
+│   ├── MODESELECT.int,v
+│   ├── MS.RGB,v
+│   ├── ms.rgb.org,v
+│   ├── Mstar.rgba,v
+│   ├── N-arbin.rgba,v
+│   ├── N-arrow.rgba,v
+│   ├── N-baba.rgba,v
+│   ├── N-beast.rgba,v
+│   ├── N-billy.rgba,v
+│   ├── N-black.rgba,v
+│   ├── N-blood.rgba,v
+│   ├── N-buster.rgba,v
+│   ├── N-chain.rgba,v
+│   ├── N-Dr.rgba,v
+│   ├── N-draq.rgba,v
+│   ├── N-ead.rgba,v
+│   ├── N-falcon.rgba,v
+│   ├── N-goma.rgba,v
+│   ├── N-goroh.rgba,v
+│   ├── N-guster.rgba,v
+│   ├── N-jack.rgba,v
+│   ├── N-james.rgba,v
+│   ├── N-jody.rgba,v
+│   ├── N-KATE.rgba,v
+│   ├── N-leon.rgba,v
+│   ├── N-MM.rgba,v
+│   ├── N-Mrs.rgba,v
+│   ├── N-octman.rgba,v
+│   ├── N-pico.rgba,v
+│   ├── N-rex.rgba,v
+│   ├── N-silver.rgba,v
+│   ├── N-stewart.rgba,v
+│   ├── N-tanaka.rgba,v
+│   ├── N-zod.rgba,v
+│   ├── nintendo.rgba,v
+│   ├── nintendoDD.rgba,v
+│   ├── Nstar.rgba,v
+│   ├── OK.rgba,v
+│   ├── Option.rgb,v
+│   ├── OPTION.rgba,v
+│   ├── players2.rgba,v
+│   ├── players3.rgba,v
+│   ├── players4.rgba,v
+│   ├── Ptitle.rgba,v
+│   ├── Qcup.rgb,v
+│   ├── Qcup.rgba,v
+│   ├── RECORD.rgba,v
+│   ├── RECORDS.INT,v
+│   ├── RECORDS.RGB,v
+│   ├── See.rgb,v
+│   ├── Slot.rgb,v
+│   ├── SLOTrace.rgba,v
+│   ├── staff.rgba,v
+│   ├── start.rgba,v
+│   ├── tex_nusmark_dd.rgb,v
+│   ├── Ti2.rgb,v
+│   ├── TI2.rgba,v
+│   ├── TIMEat.rgb,v
+│   ├── TIMEat.rgba,v
+│   ├── TIS.RGB,v
+│   ├── tm.rgba,v
+│   ├── USexpert.rgba,v
+│   ├── USmaster.rgba,v
+│   ├── USMeter.rgba,v
+│   ├── USmeter02.rgb,v
+│   ├── USMeter4p.rgba,v
+│   ├── USmeter4p02.rgb,v
+│   ├── USN-arbin.rgba,v
+│   ├── USN-MM.rgba,v
+│   ├── USnovice.rgba,v
+│   ├── USrecords.rgba,v
+│   ├── USstandard.rgba,v
+│   ├── UStime.rgba,v
+│   ├── UStitle.rgba,v
+│   ├── VSrace.rgb,v
+│   ├── VSrace.rgba,v
+│   ├── vssel.rgba,v
+│   ├── VSselect.rgb,v
+│   ├── VSselect.rgba,v
+│   ├── winSFALCON.rgb,v
+│   ├── winSGORO.rgb,v
+│   ├── winSJODY.rgb,v
+│   └── X.rgba,v
+├── cheat/
+│   ├── ko_main.c,v
+│   ├── ko_msel.h,v
+│   ├── mo_main.h,v
+│   ├── ot_race.h,v
+│   └── sot_main.h,v
+├── cheat_code/
+│   ├── ko_main.c,v
+│   ├── ko_msel.h,v
+│   ├── mo_main.h,v
+│   ├── ot_race.h,v
+│   └── sot_main.h,v
+├── CVS/
+│   └── fileattr
+├── dai_autoline.h,v
+├── dai_autoline.o,v
+├── dai_camera.h,v
+├── dai_camera.o,v
+├── dai_e_steng.h,v
+├── dai_ending.h,v
+├── dai_engine.h,v
+├── dai_engine.o,v
+├── dai_firepos.o,v
+├── dai_fireworks.h,v
+├── dai_fireworks.o,v
+├── dai_letter.c,v
+├── dai_letter.h,v
+├── dai_m_size.h,v
+├── dai_machine.h,v
+├── dai_me_size.h,v
+├── dai_ssfireworks.o,v
+├── dai_ssletter.c,v
+├── dai_ssletter.h,v
+├── dai_ssletter2.c,v
+├── dai_ssletter2.h,v
+├── dai_ssletter3.c,v
+├── dai_ssletter3.h,v
+├── dai_steng.h,v
+├── dai_traveling.c,v
+├── dai_traveling.h,v
+├── debug.h,v
+├── debug.o,v
+├── disk,v
+├── dwrite,v
+├── files,v
+├── files_zh,v
+├── GNUmakefile,v
+├── gspF3DFLX2.Rej.fifo.o,v
+├── i10n/
+│   ├── assets/
+│   │   ├── alpha/
+│   │   │   ├── abc48s.pgm,v
+│   │   │   ├── abc48s.txt,v
+│   │   │   ├── abc4s.pgm,v
+│   │   │   ├── abc4s.txt,v
+│   │   │   ├── abc8s.ppm,v
+│   │   │   ├── abc8s.txt,v
+│   │   │   ├── abcmenus.pgm,v
+│   │   │   ├── abcmenus.txt,v
+│   │   │   ├── abcs.ppm,v
+│   │   │   ├── abcs.txt,v
+│   │   │   ├── fonts-revised-102003.txt,v
+│   │   │   └── zh/
+│   │   │       ├── abc48s.txt,v
+│   │   │       ├── abc48s_ref.txt,v
+│   │   │       ├── abc4s.RGB,v
+│   │   │       ├── abc4s.txt,v
+│   │   │       ├── abc4s_ref.txt,v
+│   │   │       ├── abc8s.txt,v
+│   │   │       ├── abc8s_ref.txt,v
+│   │   │       ├── abcmenus.RGB,v
+│   │   │       ├── abcmenus.txt,v
+│   │   │       ├── abcmenus_ref.txt,v
+│   │   │       ├── abcs.RGB,v
+│   │   │       ├── abcs.txt,v
+│   │   │       └── abcs_ref.txt,v
+│   │   ├── audio/
+│   │   │   ├── filelist.txt,v
+│   │   │   ├── jim01a.w.16.c4.aifc,v
+│   │   │   ├── jim01a.w.16.c4.aiff,v
+│   │   │   ├── jim02b.w.16.c4.aifc,v
+│   │   │   ├── jim02b.w.16.c4.aiff,v
+│   │   │   ├── jim03c.w.16.c4.aifc,v
+│   │   │   ├── jim03c.w.16.c4.aiff,v
+│   │   │   ├── jim05a.w.16.c4.aifc,v
+│   │   │   ├── jim05a.w.16.c4.aiff,v
+│   │   │   ├── jim06b.w.16.c4.aifc,v
+│   │   │   ├── jim06b.w.16.c4.aiff,v
+│   │   │   ├── jim07b.w.16.c4.aifc,v
+│   │   │   ├── jim07b.w.16.c4.aiff,v
+│   │   │   ├── jim08b.w.16.c4.aifc,v
+│   │   │   ├── jim08b.w.16.c4.aiff,v
+│   │   │   ├── jim09b.w.16.c4.aifc,v
+│   │   │   ├── jim09b.w.16.c4.aiff,v
+│   │   │   ├── jim12a.w.16.c4.aifc,v
+│   │   │   ├── jim12a.w.16.c4.aiff,v
+│   │   │   ├── jim13b.w.16.c4.aifc,v
+│   │   │   ├── jim13b.w.16.c4.aiff,v
+│   │   │   ├── jim13d.w.16.c4.aifc,v
+│   │   │   ├── jim13d.w.16.c4.aiff,v
+│   │   │   ├── jim14c.w.16.c4.aifc,v
+│   │   │   ├── jim14c.w.16.c4.aiff,v
+│   │   │   ├── jim15a.w.16.c4.aifc,v
+│   │   │   ├── jim15a.w.16.c4.aiff,v
+│   │   │   ├── jim16c.w.16.c4.aifc,v
+│   │   │   ├── jim16c.w.16.c4.aiff,v
+│   │   │   └── zh/
+│   │   │       ├── Attic/
+│   │   │       │   └── audio_ filelist.txt,v
+│   │   │       ├── audio_filelist.txt,v
+│   │   │       ├── jim01a.w.16.c4.aiff,v
+│   │   │       ├── jim02b.w.16.c4.aiff,v
+│   │   │       ├── jim03c.w.16.c4.aiff,v
+│   │   │       ├── jim05a.w.16.c4.aiff,v
+│   │   │       ├── jim06b.w.16.c4.aiff,v
+│   │   │       ├── jim07b.w.16.c4.aiff,v
+│   │   │       ├── jim08b.w.16.c4.aiff,v
+│   │   │       ├── jim09b.w.16.c4.aiff,v
+│   │   │       ├── jim12a.w.16.c4.aiff,v
+│   │   │       ├── jim13b.w.16.c4.aiff,v
+│   │   │       ├── jim13d.w.16.c4.aiff,v
+│   │   │       ├── jim14c.w.16.c4.aiff,v
+│   │   │       ├── jim15a.w.16.c4.aiff,v
+│   │   │       └── jim16c.w.16.c4.aiff,v
+│   │   ├── billboards/
+│   │   │   ├── f_mon04_txt.rgb,v
+│   │   │   ├── hi02_txt.rgb,v
+│   │   │   ├── kanban01_txt.rgb,v
+│   │   │   ├── kanban03_txt.rgb,v
+│   │   │   ├── yoko_blue_TX.rgb,v
+│   │   │   ├── yoko_end_TX.rgb,v
+│   │   │   ├── yoko_fire_TX.rgb,v
+│   │   │   ├── yoko_forest_TX.rgb,v
+│   │   │   ├── yoko_mute_TX.rgb,v
+│   │   │   ├── yoko_port_TX.rgb,v
+│   │   │   ├── yoko_red_TX.rgb,v
+│   │   │   ├── yoko_sand_TX.rgb,v
+│   │   │   ├── yoko_sec_TX.rgb,v
+│   │   │   ├── yoko_silen_TX.rgb,v
+│   │   │   ├── yoko_white_TX.rgb,v
+│   │   │   └── zh/
+│   │   │       ├── f_mon04_txt.rgb,v
+│   │   │       ├── hi02_txt.rgb,v
+│   │   │       ├── kanban01_txt.rgb,v
+│   │   │       ├── kanban03_txt.rgb,v
+│   │   │       ├── yoko_blue_TX.rgb,v
+│   │   │       ├── yoko_end_TX.rgb,v
+│   │   │       ├── yoko_fire_TX.rgb,v
+│   │   │       ├── yoko_forest_TX.rgb,v
+│   │   │       ├── yoko_mute_TX.rgb,v
+│   │   │       ├── yoko_port_TX.rgb,v
+│   │   │       ├── yoko_red_TX.rgb,v
+│   │   │       ├── yoko_sand_TX.rgb,v
+│   │   │       ├── yoko_sec_TX.rgb,v
+│   │   │       ├── yoko_silen_TX.rgb,v
+│   │   │       └── yoko_white_TX.rgb,v
+│   │   ├── characters/
+│   │   │   ├── character_names.txt,v
+│   │   │   ├── filelist.txt,v
+│   │   │   ├── N-arbin.rgba,v
+│   │   │   ├── N-arrow.rgba,v
+│   │   │   ├── N-baba.rgba,v
+│   │   │   ├── N-beast.rgba,v
+│   │   │   ├── N-billy.rgba,v
+│   │   │   ├── N-black.rgba,v
+│   │   │   ├── N-blood.rgba,v
+│   │   │   ├── N-buster.rgba,v
+│   │   │   ├── N-chain.rgba,v
+│   │   │   ├── N-Dr.rgba,v
+│   │   │   ├── N-draq.rgba,v
+│   │   │   ├── N-ead.rgba,v
+│   │   │   ├── N-falcon.rgba,v
+│   │   │   ├── N-goma.rgba,v
+│   │   │   ├── N-goroh.rgba,v
+│   │   │   ├── N-guster.rgba,v
+│   │   │   ├── N-jack.rgba,v
+│   │   │   ├── N-james.rgba,v
+│   │   │   ├── N-jody.rgba,v
+│   │   │   ├── N-KATE.rgba,v
+│   │   │   ├── N-leon.rgba,v
+│   │   │   ├── N-MM.rgba,v
+│   │   │   ├── N-Mrs.rgba,v
+│   │   │   ├── N-octman.rgba,v
+│   │   │   ├── N-pico.rgba,v
+│   │   │   ├── N-rex.rgba,v
+│   │   │   ├── N-silver.rgba,v
+│   │   │   ├── N-stewart.rgba,v
+│   │   │   ├── N-tanaka.rgba,v
+│   │   │   ├── N-zod.rgba,v
+│   │   │   └── zh/
+│   │   │       ├── character_names.txt,v
+│   │   │       ├── filelist_zh.txt,v
+│   │   │       ├── N-arbin.rgba,v
+│   │   │       ├── N-arrow.rgba,v
+│   │   │       ├── N-baba.rgba,v
+│   │   │       ├── N-beast.rgba,v
+│   │   │       ├── N-billy.rgba,v
+│   │   │       ├── N-black.rgba,v
+│   │   │       ├── N-blood.rgba,v
+│   │   │       ├── N-buster.rgba,v
+│   │   │       ├── N-chain.rgba,v
+│   │   │       ├── N-Dr.rgba,v
+│   │   │       ├── N-draq.rgba,v
+│   │   │       ├── N-ead.rgba,v
+│   │   │       ├── N-falcon.rgba,v
+│   │   │       ├── N-goma.rgba,v
+│   │   │       ├── N-goroh.rgba,v
+│   │   │       ├── N-guster.rgba,v
+│   │   │       ├── N-jack.rgba,v
+│   │   │       ├── N-james.rgba,v
+│   │   │       ├── N-jody.rgba,v
+│   │   │       ├── N-KATE.rgba,v
+│   │   │       ├── N-leon.rgba,v
+│   │   │       ├── N-MM.rgba,v
+│   │   │       ├── N-Mrs.rgba,v
+│   │   │       ├── N-octman.rgba,v
+│   │   │       ├── N-pico.rgba,v
+│   │   │       ├── N-rex.rgba,v
+│   │   │       ├── N-silver.rgba,v
+│   │   │       ├── N-stewart.rgba,v
+│   │   │       ├── N-tanaka.rgba,v
+│   │   │       └── N-zod.rgba,v
+│   │   ├── courses/
+│   │   │   ├── check.rgb,v
+│   │   │   ├── course_comments.txt,v
+│   │   │   ├── course_names.txt,v
+│   │   │   ├── E_champghost.int,v
+│   │   │   ├── E_ghost_off.int,v
+│   │   │   ├── E_ghost_on.int,v
+│   │   │   ├── E_ghostmark.int,v
+│   │   │   ├── E_proghost.int,v
+│   │   │   ├── E_staffghost.int,v
+│   │   │   ├── EE_COURSESELECT.int,v
+│   │   │   ├── filelist.txt,v
+│   │   │   ├── OK.rgba,v
+│   │   │   ├── powmeter.rgb,v
+│   │   │   ├── rival.rgb,v
+│   │   │   ├── rival.rgba,v
+│   │   │   ├── start_GO.rgb,v
+│   │   │   └── zh/
+│   │   │       ├── check.rgb,v
+│   │   │       ├── course_comments.txt,v
+│   │   │       ├── course_names.txt,v
+│   │   │       ├── E_champghost.int,v
+│   │   │       ├── E_ghost_off.int,v
+│   │   │       ├── E_ghost_on.int,v
+│   │   │       ├── E_ghostmark.int,v
+│   │   │       ├── E_proghost.int,v
+│   │   │       ├── E_staffghost.int,v
+│   │   │       ├── EE_COURSESELECT.int,v
+│   │   │       ├── filelist_zh.txt,v
+│   │   │       ├── OK.rgba,v
+│   │   │       ├── powmeter.rgb,v
+│   │   │       ├── rival.rgb,v
+│   │   │       └── start_GO.rgb,v
+│   │   ├── dai/
+│   │   │   ├── Attic/
+│   │   │   │   ├── boosterOK.rgb,v
+│   │   │   │   ├── retire.rgb,v
+│   │   │   │   └── winner.rgb,v
+│   │   │   ├── dai_booster.rgb,v
+│   │   │   ├── dai_finallap.rgb,v
+│   │   │   ├── dai_lost.rgb,v
+│   │   │   ├── dai_maxsp.rgb,v
+│   │   │   ├── dai_retire.rgb,v
+│   │   │   ├── dai_slot.rgb,v
+│   │   │   ├── dai_win.rgb,v
+│   │   │   ├── kn_sbest.rgb,v
+│   │   │   ├── nusmark_TX.rgb,v
+│   │   │   ├── sot_lapTitle.rgb,v
+│   │   │   ├── sot_left.rgb,v
+│   │   │   ├── sot_time.rgb,v
+│   │   │   └── zh/
+│   │   │       ├── dai_booster.rgb,v
+│   │   │       ├── dai_finallap.rgb,v
+│   │   │       ├── dai_lost.rgb,v
+│   │   │       ├── dai_maxsp.rgb,v
+│   │   │       ├── dai_retire.rgb,v
+│   │   │       ├── dai_slot.rgb,v
+│   │   │       ├── dai_win.rgb,v
+│   │   │       ├── kn_sbest.rgb,v
+│   │   │       ├── nusmark_TX.rgb,v
+│   │   │       ├── sot_lapTitle.rgb,v
+│   │   │       ├── sot_left.rgb,v
+│   │   │       └── sot_time.rgb,v
+│   │   ├── image-list.txt,v
+│   │   ├── machines/
+│   │   │   ├── Attic/
+│   │   │   │   ├── USMeter.rgba,v
+│   │   │   │   ├── USmeter02.rgb,v
+│   │   │   │   ├── USMeter4p.rgba,v
+│   │   │   │   └── USmeter4p02.rgb,v
+│   │   │   ├── EE_MACHINESELECT.int,v
+│   │   │   ├── filelist.txt,v
+│   │   │   ├── machine_names.txt,v
+│   │   │   ├── minibody.rgb,v
+│   │   │   ├── miniboost.rgb,v
+│   │   │   ├── minigrip.rgb,v
+│   │   │   ├── USmeter1.rgba,v
+│   │   │   ├── USmeter2.rgb,v
+│   │   │   ├── USmeter4p1.rgba,v
+│   │   │   ├── USmeter4p2.rgb,v
+│   │   │   └── zh/
+│   │   │       ├── Attic/
+│   │   │       │   ├── USMeter.rgba,v
+│   │   │       │   ├── USmeter02.rgb,v
+│   │   │       │   ├── USMeter4p.rgba,v
+│   │   │       │   └── USmeter4p02.rgb,v
+│   │   │       ├── EE_MACHINESELECT.int,v
+│   │   │       ├── filelist_zh.txt,v
+│   │   │       ├── machine_names.txt,v
+│   │   │       ├── minibody.rgb,v
+│   │   │       ├── miniboost.rgb,v
+│   │   │       ├── minigrip.rgb,v
+│   │   │       ├── USmeter1.rgba,v
+│   │   │       ├── USmeter2.rgb,v
+│   │   │       ├── USmeter4p1.rgba,v
+│   │   │       └── USmeter4p2.rgb,v
+│   │   ├── menu/
+│   │   │   ├── dai_me_alldataclear.rgb,v
+│   │   │   ├── dai_me_alldataclearOK.rgb,v
+│   │   │   ├── dai_me_cassette.rgb,v
+│   │   │   ├── dai_me_coursechange.rgb,v
+│   │   │   ├── dai_me_disk.rgb,v
+│   │   │   ├── dai_me_diskghostsave.rgb,v
+│   │   │   ├── dai_me_exitOP.rgb,v
+│   │   │   ├── dai_me_ghostchange.rgb,v
+│   │   │   ├── dai_me_ghostclear.rgb,v
+│   │   │   ├── dai_me_ghostclearOK.rgb,v
+│   │   │   ├── dai_me_ghostcopy.rgb,v
+│   │   │   ├── dai_me_ghostsave.rgb,v
+│   │   │   ├── dai_me_handi1.rgb,v
+│   │   │   ├── dai_me_handi2.rgb,v
+│   │   │   ├── dai_me_machinechange.rgb,v
+│   │   │   ├── dai_me_markL.rgb,v
+│   │   │   ├── dai_me_markR.rgb,v
+│   │   │   ├── dai_me_monoral.rgb,v
+│   │   │   ├── dai_me_newghost.rgb,v
+│   │   │   ├── dai_me_no.rgb,v
+│   │   │   ├── dai_me_OFF.rgb,v
+│   │   │   ├── dai_me_oldghost.rgb,v
+│   │   │   ├── dai_me_ON.rgb,v
+│   │   │   ├── dai_me_OPTION.rgb,v
+│   │   │   ├── dai_me_recordclear.rgb,v
+│   │   │   ├── dai_me_recordclearOK.rgb,v
+│   │   │   ├── dai_me_retry.rgb,v
+│   │   │   ├── dai_me_saved.rgb,v
+│   │   │   ├── dai_me_saving.rgb,v
+│   │   │   ├── dai_me_setting.rgb,v
+│   │   │   ├── dai_me_soundmode.rgb,v
+│   │   │   ├── dai_me_stereo.rgb,v
+│   │   │   ├── dai_me_timeover_ghost.rgb,v
+│   │   │   ├── dai_me_tudukeru.rgb,v
+│   │   │   ├── dai_me_VScpu.rgb,v
+│   │   │   ├── dai_me_VShandicap.rgb,v
+│   │   │   ├── dai_me_VSslot.rgb,v
+│   │   │   ├── dai_me_yameru.rgb,v
+│   │   │   ├── dai_me_yes.rgb,v
+│   │   │   ├── filelist.txt,v
+│   │   │   └── zh/
+│   │   │       ├── dai_me_alldataclear.rgb,v
+│   │   │       ├── dai_me_alldataclearOK.rgb,v
+│   │   │       ├── dai_me_cassette.rgb,v
+│   │   │       ├── dai_me_coursechange.rgb,v
+│   │   │       ├── dai_me_disk.rgb,v
+│   │   │       ├── dai_me_diskghostsave.rgb,v
+│   │   │       ├── dai_me_exitOP.rgb,v
+│   │   │       ├── dai_me_ghostchange.rgb,v
+│   │   │       ├── dai_me_ghostclear.rgb,v
+│   │   │       ├── dai_me_ghostclearOK.rgb,v
+│   │   │       ├── dai_me_ghostcopy.rgb,v
+│   │   │       ├── dai_me_ghostsave.rgb,v
+│   │   │       ├── dai_me_handi1.rgb,v
+│   │   │       ├── dai_me_handi2.rgb,v
+│   │   │       ├── dai_me_machinechange.rgb,v
+│   │   │       ├── dai_me_markL.rgb,v
+│   │   │       ├── dai_me_markR.rgb,v
+│   │   │       ├── dai_me_monoral.rgb,v
+│   │   │       ├── dai_me_newghost.rgb,v
+│   │   │       ├── dai_me_no.rgb,v
+│   │   │       ├── dai_me_OFF.rgb,v
+│   │   │       ├── dai_me_oldghost.rgb,v
+│   │   │       ├── dai_me_ON.rgb,v
+│   │   │       ├── dai_me_OPTION.rgb,v
+│   │   │       ├── dai_me_recordclear.rgb,v
+│   │   │       ├── dai_me_recordclearOK.rgb,v
+│   │   │       ├── dai_me_retry.rgb,v
+│   │   │       ├── dai_me_saved.rgb,v
+│   │   │       ├── dai_me_saving.rgb,v
+│   │   │       ├── dai_me_setting.rgb,v
+│   │   │       ├── dai_me_soundmode.rgb,v
+│   │   │       ├── dai_me_stereo.rgb,v
+│   │   │       ├── dai_me_timeover_ghost.rgb,v
+│   │   │       ├── dai_me_tudukeru.rgb,v
+│   │   │       ├── dai_me_VScpu.rgb,v
+│   │   │       ├── dai_me_VShandicap.rgb,v
+│   │   │       ├── dai_me_VSslot.rgb,v
+│   │   │       ├── dai_me_yameru.rgb,v
+│   │   │       ├── dai_me_yes.rgb,v
+│   │   │       └── filelist_zh.txt,v
+│   │   ├── modes/
+│   │   │   ├── EE_MODESELECT.int,v
+│   │   │   ├── EE_RECORDS.int,v
+│   │   │   ├── filelist.txt,v
+│   │   │   ├── GPrace.rgba,v
+│   │   │   ├── Jcup.rgba,v
+│   │   │   ├── JOKERcup.rgba,v
+│   │   │   ├── Kcup.rgba,v
+│   │   │   ├── Mcup.rgba,v
+│   │   │   ├── OPTION.rgba,v
+│   │   │   ├── players2.rgba,v
+│   │   │   ├── players3.rgba,v
+│   │   │   ├── players4.rgba,v
+│   │   │   ├── Qcup.rgba,v
+│   │   │   ├── RECORD.rgba,v
+│   │   │   ├── SLOTrace.rgba,v
+│   │   │   ├── TIMEat.rgba,v
+│   │   │   ├── USexpert.rgba,v
+│   │   │   ├── USmaster.rgba,v
+│   │   │   ├── USnovice.rgba,v
+│   │   │   ├── USrecords.rgba,v
+│   │   │   ├── USstandard.rgba,v
+│   │   │   ├── UStime.rgba,v
+│   │   │   ├── VSrace.rgba,v
+│   │   │   └── zh/
+│   │   │       ├── EE_MODESELECT.int,v
+│   │   │       ├── EE_RECORDS.int,v
+│   │   │       ├── filelist_zh.txt,v
+│   │   │       ├── GPrace.rgba,v
+│   │   │       ├── Jcup.rgba,v
+│   │   │       ├── JOKERcup.rgba,v
+│   │   │       ├── Kcup.rgba,v
+│   │   │       ├── Mcup.rgba,v
+│   │   │       ├── OPTION.rgba,v
+│   │   │       ├── players2.rgba,v
+│   │   │       ├── players3.rgba,v
+│   │   │       ├── players4.rgba,v
+│   │   │       ├── Qcup.rgba,v
+│   │   │       ├── RECORD.rgba,v
+│   │   │       ├── SLOTrace.rgba,v
+│   │   │       ├── TIMEat.rgba,v
+│   │   │       ├── USexpert.rgba,v
+│   │   │       ├── USmaster.rgba,v
+│   │   │       ├── USnovice.rgba,v
+│   │   │       ├── USrecords.rgba,v
+│   │   │       ├── USstandard.rgba,v
+│   │   │       ├── UStime.rgba,v
+│   │   │       └── VSrace.rgba,v
+│   │   ├── shape/
+│   │   │   ├── finish.c,v
+│   │   │   └── gameover.c,v
+│   │   ├── title/
+│   │   │   ├── E_caution1.int,v
+│   │   │   ├── E_caution2pack.int,v
+│   │   │   ├── E_caution3disk.int,v
+│   │   │   ├── nintendo.rgba,v
+│   │   │   ├── start.rgba,v
+│   │   │   ├── UStitle.rgba,v
+│   │   │   └── zh/
+│   │   │       ├── E_caution1.sgi,v
+│   │   │       ├── E_caution2pack.sgi,v
+│   │   │       ├── E_caution3disk.sgi,v
+│   │   │       ├── filelist.txt,v
+│   │   │       ├── nintendo.sgi,v
+│   │   │       ├── start.sgi,v
+│   │   │       └── UStitle.sgi,v
+│   │   ├── vs/
+│   │   │   ├── E_courseselect.int,v
+│   │   │   ├── E_VScom.int,v
+│   │   │   ├── E_VSend.int,v
+│   │   │   ├── E_VSplayer.int,v
+│   │   │   ├── E_VSselect.int,v
+│   │   │   ├── E_yameru.int,v
+│   │   │   ├── filelist.txt,v
+│   │   │   └── zh/
+│   │   │       ├── E_courseselect.int,v
+│   │   │       ├── E_VScom.int,v
+│   │   │       ├── E_VSend.int,v
+│   │   │       ├── E_VSplayer.int,v
+│   │   │       ├── E_VSselect.int,v
+│   │   │       ├── E_yameru.int,v
+│   │   │       └── filelist_zh.txt,v
+│   │   └── win/
+│   │       ├── filelist.txt,v
+│   │       ├── tarbin_usa.rgb,v
+│   │       ├── tarrow_usa.rgb,v
+│   │       ├── tbaba_usa.rgb,v
+│   │       ├── tbeast_usa.rgb,v
+│   │       ├── tbilly_usa.rgb,v
+│   │       ├── tblack_usa.rgb,v
+│   │       ├── tblood_usa.rgb,v
+│   │       ├── tdoraq_usa.rgb,v
+│   │       ├── tdr_usa.rgb,v
+│   │       ├── tead_usa.rgb,v
+│   │       ├── tfalcon2_usa.rgb,v
+│   │       ├── tfalcon_usa.rgb,v
+│   │       ├── tgazelle_usa.rgb,v
+│   │       ├── tgoma_usa.rgb,v
+│   │       ├── tgoro_usa.rgb,v
+│   │       ├── tguster_usa.rgb,v
+│   │       ├── tjack_usa.rgb,v
+│   │       ├── tjames_usa.rgb,v
+│   │       ├── tjody_usa.rgb,v
+│   │       ├── tkate_usa.rgb,v
+│   │       ├── tmichael_usa.rgb,v
+│   │       ├── tmrs_usa.rgb,v
+│   │       ├── toct_usa.rgb,v
+│   │       ├── tpico_usa.rgb,v
+│   │       ├── treon_usa.rgb,v
+│   │       ├── trex_usa.rgb,v
+│   │       ├── troger_usa.rgb,v
+│   │       ├── tsilver_usa.rgb,v
+│   │       ├── tstewart_usa.rgb,v
+│   │       ├── ttanaka_usa.rgb,v
+│   │       ├── tzod_usa.rgb,v
+│   │       └── zh/
+│   │           ├── filelist_zh.txt,v
+│   │           ├── tarbin_usa.rgb,v
+│   │           ├── tarrow_usa.rgb,v
+│   │           ├── tbaba_usa.rgb,v
+│   │           ├── tbeast_usa.rgb,v
+│   │           ├── tbilly_usa.rgb,v
+│   │           ├── tblack_usa.rgb,v
+│   │           ├── tblood_usa.rgb,v
+│   │           ├── tdoraq_usa.rgb,v
+│   │           ├── tdr_usa.rgb,v
+│   │           ├── tead_usa.rgb,v
+│   │           ├── tfalcon2_usa.rgb,v
+│   │           ├── tfalcon_usa.rgb,v
+│   │           ├── tgazelle_usa.rgb,v
+│   │           ├── tgoma_usa.rgb,v
+│   │           ├── tgoro_usa.rgb,v
+│   │           ├── tguster_usa.rgb,v
+│   │           ├── tjack_usa.rgb,v
+│   │           ├── tjames_usa.rgb,v
+│   │           ├── tjody_usa.rgb,v
+│   │           ├── tkate_usa.rgb,v
+│   │           ├── tmichael_usa.rgb,v
+│   │           ├── tmrs_usa.rgb,v
+│   │           ├── toct_usa.rgb,v
+│   │           ├── tpico_usa.rgb,v
+│   │           ├── treon_usa.rgb,v
+│   │           ├── trex_usa.rgb,v
+│   │           ├── troger_usa.rgb,v
+│   │           ├── tsilver_usa.rgb,v
+│   │           ├── tstewart_usa.rgb,v
+│   │           ├── ttanaka_usa.rgb,v
+│   │           └── tzod_usa.rgb,v
+│   ├── notes,v
+│   ├── shape/
+│   ├── tools/
+│   │   ├── ascii2raw.py,v
+│   │   ├── ascii2rgba.py,v
+│   │   ├── c2ppm.py,v
+│   │   ├── character-list.txt,v
+│   │   ├── ci_c2ppm.py,v
+│   │   ├── clean.sh,v
+│   │   ├── conglomerate.py,v
+│   │   ├── convertZH.py,v
+│   │   ├── course-texture-list.txt,v
+│   │   ├── doSound.py,v
+│   │   ├── generic-list.txt,v
+│   │   ├── i82rgba.pl,v
+│   │   ├── makeMenuColorTable.py,v
+│   │   ├── multiAscii2Raw.py,v
+│   │   ├── orecord-texture-list.txt,v
+│   │   ├── processFontsZH.py,v
+│   │   ├── raw2tex.pl,v
+│   │   ├── rawC2ppm.py,v
+│   │   ├── README,v
+│   │   ├── replaceTexture.py,v
+│   │   ├── rgba2i8.pl,v
+│   │   ├── testIt.txt,v
+│   │   ├── thing.py,v
+│   │   └── win-charlist.txt,v
+│   └── worksheet_ique.html,v
+├── IMAGES/
+│   ├── bom1.tex,v
+│   ├── bom2.tex,v
+│   ├── bom3.tex,v
+│   ├── bom4.tex,v
+│   ├── bom5.tex,v
+│   ├── bom6.tex,v
+│   ├── bom7.tex,v
+│   ├── bom8.tex,v
+│   ├── boost.tex,v
+│   ├── car_A.shp,v
+│   ├── car_A_S.shp,v
+│   ├── car_AA.shp,v
+│   ├── car_AA_S.shp,v
+│   ├── car_AAs.shp,v
+│   ├── car_ALL6.shp,v
+│   ├── car_As.shp,v
+│   ├── car_B.shp,v
+│   ├── car_B_S.shp,v
+│   ├── car_Bs.shp,v
+│   ├── car_C.shp,v
+│   ├── car_C_S.shp,v
+│   ├── car_Cs.shp,v
+│   ├── car_D.shp,v
+│   ├── car_D_S.shp,v
+│   ├── car_DD.shp,v
+│   ├── car_DD_S.shp,v
+│   ├── car_DDs.shp,v
+│   ├── car_Ds.shp,v
+│   ├── car_E.shp,v
+│   ├── car_E_S.shp,v
+│   ├── car_EE.shp,v
+│   ├── car_EE_S.shp,v
+│   ├── car_EEs.shp,v
+│   ├── car_Es.shp,v
+│   ├── car_F.shp,v
+│   ├── car_F_S.shp,v
+│   ├── car_Fs.shp,v
+│   ├── car_G.shp,v
+│   ├── car_G_S.shp,v
+│   ├── car_Gs.shp,v
+│   ├── car_H.shp,v
+│   ├── car_H_S.shp,v
+│   ├── car_Hs.shp,v
+│   ├── car_WWA.shp,v
+│   ├── car_WWA_S.shp,v
+│   ├── car_WWAs.shp,v
+│   ├── car_WWB.shp,v
+│   ├── car_WWB_S.shp,v
+│   ├── car_WWBs.shp,v
+│   ├── car_WWC.shp,v
+│   ├── car_WWC_S.shp,v
+│   ├── car_WWCs.shp,v
+│   ├── car_WWD.shp,v
+│   ├── car_WWD_S.shp,v
+│   ├── car_WWDs.shp,v
+│   ├── car_WWE.shp,v
+│   ├── car_WWE_S.shp,v
+│   ├── car_WWEs.shp,v
+│   ├── car_WWF.shp,v
+│   ├── car_WWF_S.shp,v
+│   ├── car_WWFs.shp,v
+│   ├── car_WWG.shp,v
+│   ├── car_WWG_S.shp,v
+│   ├── car_WWGs.shp,v
+│   ├── car_XXA.shp,v
+│   ├── car_XXA_S.shp,v
+│   ├── car_XXAs.shp,v
+│   ├── car_XXB.shp,v
+│   ├── car_XXB_S.shp,v
+│   ├── car_XXBs.shp,v
+│   ├── car_XXC.shp,v
+│   ├── car_XXC_S.shp,v
+│   ├── car_XXCs.shp,v
+│   ├── car_XXD.shp,v
+│   ├── car_XXD_S.shp,v
+│   ├── car_XXDs.shp,v
+│   ├── car_XXE.shp,v
+│   ├── car_XXE_S.shp,v
+│   ├── car_XXEs.shp,v
+│   ├── car_XXF.shp,v
+│   ├── car_XXF_S.shp,v
+│   ├── car_XXFs.shp,v
+│   ├── car_XXG.shp,v
+│   ├── car_XXG_S.shp,v
+│   ├── car_XXGs.shp,v
+│   ├── car_YYA.shp,v
+│   ├── car_YYA_S.shp,v
+│   ├── car_YYAs.shp,v
+│   ├── car_YYB.shp,v
+│   ├── car_YYB_S.shp,v
+│   ├── car_YYBs.shp,v
+│   ├── car_YYC.shp,v
+│   ├── car_YYC_S.shp,v
+│   ├── car_YYCs.shp,v
+│   ├── car_YYD.shp,v
+│   ├── car_YYD_S.shp,v
+│   ├── car_YYDs.shp,v
+│   ├── car_YYE.shp,v
+│   ├── car_YYE_S.shp,v
+│   ├── car_YYEs.shp,v
+│   ├── car_YYF.shp,v
+│   ├── car_YYF_S.shp,v
+│   ├── car_YYFs.shp,v
+│   ├── car_ZA.shp,v
+│   ├── car_ZA_S.shp,v
+│   ├── car_ZAs.shp,v
+│   ├── car_ZB.shp,v
+│   ├── car_ZB_S.shp,v
+│   ├── car_ZBs.shp,v
+│   ├── car_ZC.shp,v
+│   ├── car_ZC_S.shp,v
+│   ├── car_ZCs.shp,v
+│   ├── car_ZD.shp,v
+│   ├── car_ZD_S.shp,v
+│   ├── car_ZDs.shp,v
+│   ├── car_ZE.shp,v
+│   ├── car_ZE_S.shp,v
+│   ├── car_ZEs.shp,v
+│   ├── car_ZF.shp,v
+│   ├── car_ZF_S.shp,v
+│   ├── car_ZFs.shp,v
+│   ├── car_ZG.shp,v
+│   ├── car_ZG_S.shp,v
+│   ├── car_ZGs.shp,v
+│   ├── car_ZH.shp,v
+│   ├── car_ZH_S.shp,v
+│   ├── car_ZHs.shp,v
+│   ├── car_ZI.shp,v
+│   ├── car_ZI_S.shp,v
+│   ├── car_ZIs.shp,v
+│   ├── car_ZJ.shp,v
+│   ├── car_ZJ_S.shp,v
+│   ├── car_ZJs.shp,v
+│   ├── car_ZK.shp,v
+│   ├── car_ZK_S.shp,v
+│   ├── car_ZKs.shp,v
+│   ├── car_ZL.shp,v
+│   ├── car_ZL_S.shp,v
+│   ├── car_ZLs.shp,v
+│   ├── car_ZM.shp,v
+│   ├── car_ZM_S.shp,v
+│   ├── car_ZMs.shp,v
+│   ├── car_ZN.shp,v
+│   ├── car_ZN_S.shp,v
+│   ├── car_ZNs.shp,v
+│   ├── car_ZO.shp,v
+│   ├── car_ZO_S.shp,v
+│   ├── car_ZOs.shp,v
+│   ├── car_ZP.shp,v
+│   ├── car_ZP_S.shp,v
+│   ├── car_ZPs.shp,v
+│   ├── car_ZQ.shp,v
+│   ├── car_ZQ_S.shp,v
+│   ├── car_ZQs.shp,v
+│   ├── car_ZR.shp,v
+│   ├── car_ZR_S.shp,v
+│   ├── car_ZRs.shp,v
+│   ├── car_ZS.shp,v
+│   ├── car_ZS_S.shp,v
+│   ├── car_ZSs.shp,v
+│   ├── car_ZT.shp,v
+│   ├── car_ZT_S.shp,v
+│   ├── car_ZTs.shp,v
+│   ├── car_ZU.shp,v
+│   ├── car_ZU_S.shp,v
+│   ├── car_ZUs.shp,v
+│   ├── car_ZV.shp,v
+│   ├── car_ZV_S.shp,v
+│   ├── car_ZVs.shp,v
+│   ├── check.tex,v
+│   ├── checkVS.tex,v
+│   ├── CVS/
+│   │   └── fileattr
+│   ├── cyli_blue01.tex,v
+│   ├── cyli_blue02.tex,v
+│   ├── cyli_blue03.tex,v
+│   ├── cyli_blue04.tex,v
+│   ├── cyli_fire01.tex,v
+│   ├── cyli_fire02.tex,v
+│   ├── cyli_fire03.tex,v
+│   ├── cyli_fire04.tex,v
+│   ├── cyli_forest01.tex,v
+│   ├── cyli_forest02.tex,v
+│   ├── cyli_forest03.tex,v
+│   ├── cyli_forest04.tex,v
+│   ├── cyli_mute01.tex,v
+│   ├── cyli_mute02.tex,v
+│   ├── cyli_mute03.tex,v
+│   ├── cyli_mute04.tex,v
+│   ├── cyli_port01.tex,v
+│   ├── cyli_port02.tex,v
+│   ├── cyli_port03.tex,v
+│   ├── cyli_port04.tex,v
+│   ├── cyli_red01.tex,v
+│   ├── cyli_red02.tex,v
+│   ├── cyli_red03.tex,v
+│   ├── cyli_red04.tex,v
+│   ├── cyli_sand01.tex,v
+│   ├── cyli_sand02.tex,v
+│   ├── cyli_sand03.tex,v
+│   ├── cyli_sand04.tex,v
+│   ├── cyli_sec01.tex,v
+│   ├── cyli_sec02.tex,v
+│   ├── cyli_sec03.tex,v
+│   ├── cyli_sec04.tex,v
+│   ├── cyli_silen01.tex,v
+│   ├── cyli_silen02.tex,v
+│   ├── cyli_silen03.tex,v
+│   ├── cyli_silen04.tex,v
+│   ├── cyli_white01.tex,v
+│   ├── cyli_white02.tex,v
+│   ├── cyli_white03.tex,v
+│   ├── cyli_white04.tex,v
+│   ├── dai_ball.c,v
+│   ├── dai_booster.c,v
+│   ├── dai_driver.tex,v
+│   ├── dai_finallap.c,v
+│   ├── dai_fireball.c,v
+│   ├── dai_fireball2.c,v
+│   ├── dai_fireball3.c,v
+│   ├── dai_gameover.c,v
+│   ├── dai_goal.c,v
+│   ├── dai_goal2.c,v
+│   ├── dai_gold1.tex,v
+│   ├── dai_Harrow.c,v
+│   ├── dai_Hbaba.c,v
+│   ├── dai_Hbeast.c,v
+│   ├── dai_Hbilly.c,v
+│   ├── dai_Hblack.c,v
+│   ├── dai_Hblood.c,v
+│   ├── dai_Hbuster.c,v
+│   ├── dai_Hchane.c,v
+│   ├── dai_Hdoraku.c,v
+│   ├── dai_Hdr.c,v
+│   ├── dai_Head.c,v
+│   ├── dai_Hfalcon.c,v
+│   ├── dai_Hgoma.c,v
+│   ├── dai_Hgoro.c,v
+│   ├── dai_Hguster.c,v
+│   ├── dai_Hhone.c,v
+│   ├── dai_Hjack.c,v
+│   ├── dai_Hjames.c,v
+│   ├── dai_Hji.c,v
+│   ├── dai_Hjody.c,v
+│   ├── dai_Hkate.c,v
+│   ├── dai_Hoctman.c,v
+│   ├── dai_Hpico.c,v
+│   ├── dai_Hreon.c,v
+│   ├── dai_Hrex.c,v
+│   ├── dai_Hrobo.c,v
+│   ├── dai_Hsfalcon.c,v
+│   ├── dai_Hsgoro.c,v
+│   ├── dai_Hsjody.c,v
+│   ├── dai_Hstu.c,v
+│   ├── dai_Htanaka.c,v
+│   ├── dai_Htest01.c,v
+│   ├── dai_Htest02.c,v
+│   ├── dai_Htest03.c,v
+│   ├── dai_Htest04.c,v
+│   ├── dai_Htest05.c,v
+│   ├── dai_Hwoman.c,v
+│   ├── dai_Hzod.c,v
+│   ├── dai_lost.c,v
+│   ├── dai_m_alldataclear.tex,v
+│   ├── dai_m_alldataclearOK.tex,v
+│   ├── dai_m_cassette.tex,v
+│   ├── dai_m_color.c,v
+│   ├── dai_m_coursechange.tex,v
+│   ├── dai_m_disk.tex,v
+│   ├── dai_m_diskghostsave.tex,v
+│   ├── dai_m_exitOP.tex,v
+│   ├── dai_m_ghostchange.tex,v
+│   ├── dai_m_ghostclear.tex,v
+│   ├── dai_m_ghostclearOK.tex,v
+│   ├── dai_m_ghostcopy.tex,v
+│   ├── dai_m_ghostsave.tex,v
+│   ├── dai_m_handi1.tex,v
+│   ├── dai_m_handi2.tex,v
+│   ├── dai_m_machinechange.tex,v
+│   ├── dai_m_markL.tex,v
+│   ├── dai_m_markR.tex,v
+│   ├── dai_m_monoral.tex,v
+│   ├── dai_m_newghost.tex,v
+│   ├── dai_m_no.tex,v
+│   ├── dai_m_OFF.tex,v
+│   ├── dai_m_oldghost.tex,v
+│   ├── dai_m_ON.tex,v
+│   ├── dai_m_OPTION.tex,v
+│   ├── dai_m_recordclear.tex,v
+│   ├── dai_m_recordclearOK.tex,v
+│   ├── dai_m_retry.tex,v
+│   ├── dai_m_saved.tex,v
+│   ├── dai_m_savefile.tex,v
+│   ├── dai_m_saving.tex,v
+│   ├── dai_m_setting.tex,v
+│   ├── dai_m_soundmode.tex,v
+│   ├── dai_m_stereo.tex,v
+│   ├── dai_m_timeover_ghost.tex,v
+│   ├── dai_m_tudukeru.tex,v
+│   ├── dai_m_VScpu.tex,v
+│   ├── dai_m_VShandicap.tex,v
+│   ├── dai_m_VSslot.tex,v
+│   ├── dai_m_yameru.tex,v
+│   ├── dai_m_yes.tex,v
+│   ├── dai_maxsp.c,v
+│   ├── dai_me_alldataclear.tex,v
+│   ├── dai_me_alldataclearOK.tex,v
+│   ├── dai_me_cassette.tex,v
+│   ├── dai_me_color.c,v
+│   ├── dai_me_color_zh.c,v
+│   ├── dai_me_coursechange.tex,v
+│   ├── dai_me_disk.tex,v
+│   ├── dai_me_diskghostsave.tex,v
+│   ├── dai_me_exitOP.tex,v
+│   ├── dai_me_ghostchange.tex,v
+│   ├── dai_me_ghostclear.tex,v
+│   ├── dai_me_ghostclearOK.tex,v
+│   ├── dai_me_ghostcopy.tex,v
+│   ├── dai_me_ghostsave.tex,v
+│   ├── dai_me_handi1.tex,v
+│   ├── dai_me_handi2.tex,v
+│   ├── dai_me_machinechange.tex,v
+│   ├── dai_me_markL.tex,v
+│   ├── dai_me_markR.tex,v
+│   ├── dai_me_monoral.tex,v
+│   ├── dai_me_newghost.tex,v
+│   ├── dai_me_no.tex,v
+│   ├── dai_me_OFF.tex,v
+│   ├── dai_me_oldghost.tex,v
+│   ├── dai_me_ON.tex,v
+│   ├── dai_me_OPTION.tex,v
+│   ├── dai_me_recordclear.tex,v
+│   ├── dai_me_recordclearOK.tex,v
+│   ├── dai_me_retry.tex,v
+│   ├── dai_me_saved.tex,v
+│   ├── dai_me_savefile.tex,v
+│   ├── dai_me_saving.tex,v
+│   ├── dai_me_setting.tex,v
+│   ├── dai_me_soundmode.tex,v
+│   ├── dai_me_stereo.tex,v
+│   ├── dai_me_timeover_ghost.tex,v
+│   ├── dai_me_tudukeru.tex,v
+│   ├── dai_me_VScpu.tex,v
+│   ├── dai_me_VShandicap.tex,v
+│   ├── dai_me_VSslot.tex,v
+│   ├── dai_me_yameru.tex,v
+│   ├── dai_me_yes.tex,v
+│   ├── dai_retire.c,v
+│   ├── dai_slot.c,v
+│   ├── dai_slot1.c,v
+│   ├── dai_slot2.c,v
+│   ├── dai_slot3.c,v
+│   ├── dai_win.c,v
+│   ├── editmarkA.tex,v
+│   ├── editmarkB.tex,v
+│   ├── editmarkC.tex,v
+│   ├── editmarkD.tex,v
+│   ├── editmarkE.tex,v
+│   ├── editmarkF.tex,v
+│   ├── editmarkG.tex,v
+│   ├── editmarkH.tex,v
+│   ├── f_bouon01.c,v
+│   ├── f_bouon02.c,v
+│   ├── f_city01.tex,v
+│   ├── f_city02.tex,v
+│   ├── f_city03.tex,v
+│   ├── f_city04.tex,v
+│   ├── f_city08.tex,v
+│   ├── f_city09.tex,v
+│   ├── f_city10.tex,v
+│   ├── f_gate02.tex,v
+│   ├── f_gate03.c,v
+│   ├── f_joint01.tex,v
+│   ├── f_joint04.tex,v
+│   ├── f_joint05.tex,v
+│   ├── f_kanban01.c,v
+│   ├── f_kanban02.c,v
+│   ├── f_kanban03.c,v
+│   ├── f_machi02.tex,v
+│   ├── f_machi06.tex,v
+│   ├── f_michi01.tex,v
+│   ├── f_michi01x.tex,v
+│   ├── f_michi02.tex,v
+│   ├── f_michi03.tex,v
+│   ├── f_michi04.tex,v
+│   ├── f_michi05.tex,v
+│   ├── f_michi06.tex,v
+│   ├── f_michi08.tex,v
+│   ├── f_michi10.tex,v
+│   ├── f_michi11.tex,v
+│   ├── f_michi12.tex,v
+│   ├── f_michi13.tex,v
+│   ├── f_michi14.tex,v
+│   ├── f_michi15.tex,v
+│   ├── f_michi16.tex,v
+│   ├── f_michi17.tex,v
+│   ├── f_michi18.tex,v
+│   ├── f_michi19.tex,v
+│   ├── f_michi20.tex,v
+│   ├── f_michi21.tex,v
+│   ├── f_michi22.tex,v
+│   ├── f_michi23.tex,v
+│   ├── f_michi24.tex,v
+│   ├── f_michi25.tex,v
+│   ├── f_michi26.tex,v
+│   ├── f_michi27.tex,v
+│   ├── f_michi28.tex,v
+│   ├── f_michi29.tex,v
+│   ├── f_michi30.tex,v
+│   ├── f_michi31.tex,v
+│   ├── f_michi31x.tex,v
+│   ├── f_michi32.tex,v
+│   ├── f_michi32x.tex,v
+│   ├── f_michi33.tex,v
+│   ├── f_michi33x.tex,v
+│   ├── f_michi34.tex,v
+│   ├── f_michi35.tex,v
+│   ├── f_michi36.tex,v
+│   ├── f_michi37.tex,v
+│   ├── f_michi38.tex,v
+│   ├── f_michi39.tex,v
+│   ├── f_michi40.tex,v
+│   ├── f_michi42.tex,v
+│   ├── f_michi45.tex,v
+│   ├── f_michi46.tex,v
+│   ├── f_pit01.c,v
+│   ├── f_wire01.tex,v
+│   ├── f_wire02.tex,v
+│   ├── f_yuka01.tex,v
+│   ├── f_yuka02.tex,v
+│   ├── f_yuka03.tex,v
+│   ├── f_yuka04.tex,v
+│   ├── f_yuka05.tex,v
+│   ├── f_yuka06.tex,v
+│   ├── f_yuka07.tex,v
+│   ├── f_yuka10.tex,v
+│   ├── f_yuka11.tex,v
+│   ├── f_yuka12.tex,v
+│   ├── f_yuka13.tex,v
+│   ├── face1.tex,v
+│   ├── face2.tex,v
+│   ├── face3.tex,v
+│   ├── falcon.tex,v
+│   ├── falcon128.tex,v
+│   ├── falcon152.tex,v
+│   ├── fire.tex,v
+│   ├── H_blue01.tex,v
+│   ├── H_blue02.tex,v
+│   ├── H_blue03.tex,v
+│   ├── H_end.tex,v
+│   ├── H_fire01.tex,v
+│   ├── H_fire02.tex,v
+│   ├── H_fire03.tex,v
+│   ├── H_forest01.tex,v
+│   ├── H_forest02.tex,v
+│   ├── H_forest03.tex,v
+│   ├── H_mute01.tex,v
+│   ├── H_mute02.tex,v
+│   ├── H_mute03.tex,v
+│   ├── H_port01.tex,v
+│   ├── H_port02.tex,v
+│   ├── H_port03.tex,v
+│   ├── H_red01.tex,v
+│   ├── H_red02.tex,v
+│   ├── H_red03.tex,v
+│   ├── H_sand01.tex,v
+│   ├── H_sand02.tex,v
+│   ├── H_sand03.tex,v
+│   ├── H_sec01.tex,v
+│   ├── H_sec02.tex,v
+│   ├── H_sec03.tex,v
+│   ├── H_silen01.tex,v
+│   ├── H_silen02.tex,v
+│   ├── H_silen03.tex,v
+│   ├── H_white01.tex,v
+│   ├── H_white02.tex,v
+│   ├── H_white03.tex,v
+│   ├── hikari.tex,v
+│   ├── hikari2.tex,v
+│   ├── hikari3.tex,v
+│   ├── Hpipe_blue01.tex,v
+│   ├── Hpipe_blue02.tex,v
+│   ├── Hpipe_blue03.tex,v
+│   ├── Hpipe_blue04.tex,v
+│   ├── Hpipe_fire01.tex,v
+│   ├── Hpipe_fire02.tex,v
+│   ├── Hpipe_fire03.tex,v
+│   ├── Hpipe_fire04.tex,v
+│   ├── Hpipe_forest01.tex,v
+│   ├── Hpipe_forest02.tex,v
+│   ├── Hpipe_forest03.tex,v
+│   ├── Hpipe_forest04.tex,v
+│   ├── Hpipe_mute01.tex,v
+│   ├── Hpipe_mute02.tex,v
+│   ├── Hpipe_mute03.tex,v
+│   ├── Hpipe_mute04.tex,v
+│   ├── Hpipe_port01.tex,v
+│   ├── Hpipe_port02.tex,v
+│   ├── Hpipe_port03.tex,v
+│   ├── Hpipe_port04.tex,v
+│   ├── Hpipe_red01.tex,v
+│   ├── Hpipe_red02.tex,v
+│   ├── Hpipe_red03.tex,v
+│   ├── Hpipe_red04.tex,v
+│   ├── Hpipe_sand01.tex,v
+│   ├── Hpipe_sand02.tex,v
+│   ├── Hpipe_sand03.tex,v
+│   ├── Hpipe_sand04.tex,v
+│   ├── Hpipe_sec01.tex,v
+│   ├── Hpipe_sec02.tex,v
+│   ├── Hpipe_sec03.tex,v
+│   ├── Hpipe_sec04.tex,v
+│   ├── Hpipe_silen01.tex,v
+│   ├── Hpipe_silen02.tex,v
+│   ├── Hpipe_silen03.tex,v
+│   ├── Hpipe_silen04.tex,v
+│   ├── Hpipe_white01.tex,v
+│   ├── Hpipe_white02.tex,v
+│   ├── Hpipe_white03.tex,v
+│   ├── Hpipe_white04.tex,v
+│   ├── kage_WA1.shp,v
+│   ├── kage_WA2.shp,v
+│   ├── kage_WA3.shp,v
+│   ├── kage_WA4.shp,v
+│   ├── kage_WA5.shp,v
+│   ├── kage_WA6.shp,v
+│   ├── kage_WA7.shp,v
+│   ├── kage_WB1.shp,v
+│   ├── kage_WB2.shp,v
+│   ├── kage_WB3.shp,v
+│   ├── kage_WB4.shp,v
+│   ├── kage_WB5.shp,v
+│   ├── kage_WB6.shp,v
+│   ├── kage_WB7.shp,v
+│   ├── kazu0.tex,v
+│   ├── kazu1.tex,v
+│   ├── kazu2.tex,v
+│   ├── kazu3.tex,v
+│   ├── kazu4.tex,v
+│   ├── kazu5.tex,v
+│   ├── kazu6.tex,v
+│   ├── kazu7.tex,v
+│   ├── kazu8.tex,v
+│   ├── kazu9.tex,v
+│   ├── kn_back_fine01.tex,v
+│   ├── kn_back_fine02.tex,v
+│   ├── kn_back_fine03.tex,v
+│   ├── kn_back_fine04.tex,v
+│   ├── kn_back_fine05.tex,v
+│   ├── kn_back_fine06.tex,v
+│   ├── kn_back_fine07.tex,v
+│   ├── kn_back_fine08.tex,v
+│   ├── kn_back_fine09.tex,v
+│   ├── kn_bg_star2.tex,v
+│   ├── kn_big01.tex,v
+│   ├── kn_big02.tex,v
+│   ├── kn_big03.tex,v
+│   ├── kn_big04.tex,v
+│   ├── kn_clo_fine1.tex,v
+│   ├── kn_cong.tex,v
+│   ├── kn_dai.tex,v
+│   ├── kn_demo01.tex,v
+│   ├── kn_demo02.tex,v
+│   ├── kn_demo03.tex,v
+│   ├── kn_demo04.tex,v
+│   ├── kn_demo201.tex,v
+│   ├── kn_demo301.tex,v
+│   ├── kn_demo401.tex,v
+│   ├── kn_demo501.tex,v
+│   ├── kn_demo601.tex,v
+│   ├── kn_devil01.tex,v
+│   ├── kn_devil02.tex,v
+│   ├── kn_devil03.tex,v
+│   ├── kn_devil04.tex,v
+│   ├── kn_G0.tex,v
+│   ├── kn_G1.tex,v
+│   ├── kn_G1st.tex,v
+│   ├── kn_G2.tex,v
+│   ├── kn_G2nd.tex,v
+│   ├── kn_G3.tex,v
+│   ├── kn_G3rd.tex,v
+│   ├── kn_G4.tex,v
+│   ├── kn_G4th.tex,v
+│   ├── kn_G5.tex,v
+│   ├── kn_G5th.tex,v
+│   ├── kn_G6.tex,v
+│   ├── kn_G6th.tex,v
+│   ├── kn_G7.tex,v
+│   ├── kn_G8.tex,v
+│   ├── kn_G9.tex,v
+│   ├── kn_glfalcon.tex,v
+│   ├── kn_Gnd.tex,v
+│   ├── kn_Grd.tex,v
+│   ├── kn_Gst.tex,v
+│   ├── kn_Gth.tex,v
+│   ├── kn_hand01.tex,v
+│   ├── kn_hand02.tex,v
+│   ├── kn_hand03.tex,v
+│   ├── kn_hand04.tex,v
+│   ├── kn_minibar.tex,v
+│   ├── kn_miniya.tex,v
+│   ├── kn_mute01.tex,v
+│   ├── kn_mute02.tex,v
+│   ├── kn_mute03.tex,v
+│   ├── kn_mute04.tex,v
+│   ├── kn_mute201.tex,v
+│   ├── kn_mute202.tex,v
+│   ├── kn_mute203.tex,v
+│   ├── kn_mute204.tex,v
+│   ├── kn_port01.tex,v
+│   ├── kn_port02.tex,v
+│   ├── kn_port03.tex,v
+│   ├── kn_port04.tex,v
+│   ├── kn_port201.tex,v
+│   ├── kn_port202.tex,v
+│   ├── kn_port203.tex,v
+│   ├── kn_port204.tex,v
+│   ├── kn_rain01.tex,v
+│   ├── kn_red01.tex,v
+│   ├── kn_red02.tex,v
+│   ├── kn_red03.tex,v
+│   ├── kn_red04.tex,v
+│   ├── kn_red201.tex,v
+│   ├── kn_red202.tex,v
+│   ├── kn_red203.tex,v
+│   ├── kn_red204.tex,v
+│   ├── kn_sand01.tex,v
+│   ├── kn_sand02.tex,v
+│   ├── kn_sand03.tex,v
+│   ├── kn_sand04.tex,v
+│   ├── kn_sbest.tex,v
+│   ├── kn_sector01.tex,v
+│   ├── kn_sector02.tex,v
+│   ├── kn_sector03.tex,v
+│   ├── kn_sector04.tex,v
+│   ├── kn_silence01.tex,v
+│   ├── kn_silence02.tex,v
+│   ├── kn_silence201.tex,v
+│   ├── kn_silence202.tex,v
+│   ├── kn_stage01.shp,v
+│   ├── kn_stage02.shp,v
+│   ├── kn_stage03.shp,v
+│   ├── kn_tarbin.tex,v
+│   ├── kn_tarbin_usa.tex,v
+│   ├── kn_tarrow.tex,v
+│   ├── kn_tarrow_usa.tex,v
+│   ├── kn_tbaba.tex,v
+│   ├── kn_tbaba_usa.tex,v
+│   ├── kn_tbeast.tex,v
+│   ├── kn_tbeast_usa.tex,v
+│   ├── kn_tbilly.tex,v
+│   ├── kn_tbilly_usa.tex,v
+│   ├── kn_tblack.tex,v
+│   ├── kn_tblack_usa.tex,v
+│   ├── kn_tblood.tex,v
+│   ├── kn_tblood_usa.tex,v
+│   ├── kn_tdoraq.tex,v
+│   ├── kn_tdoraq_usa.tex,v
+│   ├── kn_tdr.tex,v
+│   ├── kn_tdr_usa.tex,v
+│   ├── kn_tead.tex,v
+│   ├── kn_tead_usa.tex,v
+│   ├── kn_tfalcon.tex,v
+│   ├── kn_tfalcon2.tex,v
+│   ├── kn_tfalcon2_usa.tex,v
+│   ├── kn_tfalcon_usa.tex,v
+│   ├── kn_tgazelle.tex,v
+│   ├── kn_tgazelle_usa.tex,v
+│   ├── kn_tgoma.tex,v
+│   ├── kn_tgoma_usa.tex,v
+│   ├── kn_tgoro.tex,v
+│   ├── kn_tgoro_usa.tex,v
+│   ├── kn_tguster.tex,v
+│   ├── kn_tguster_usa.tex,v
+│   ├── kn_tjack.tex,v
+│   ├── kn_tjack_usa.tex,v
+│   ├── kn_tjames.tex,v
+│   ├── kn_tjames_usa.tex,v
+│   ├── kn_tjody.tex,v
+│   ├── kn_tjody_usa.tex,v
+│   ├── kn_tkate.tex,v
+│   ├── kn_tkate_usa.tex,v
+│   ├── kn_tmichael.tex,v
+│   ├── kn_tmichael_usa.tex,v
+│   ├── kn_tmrs.tex,v
+│   ├── kn_tmrs_usa.tex,v
+│   ├── kn_toct.tex,v
+│   ├── kn_toct_usa.tex,v
+│   ├── kn_tpico.tex,v
+│   ├── kn_tpico_usa.tex,v
+│   ├── kn_treon.tex,v
+│   ├── kn_treon_usa.tex,v
+│   ├── kn_trex.tex,v
+│   ├── kn_trex_usa.tex,v
+│   ├── kn_troger.tex,v
+│   ├── kn_troger_usa.tex,v
+│   ├── kn_tsilver.tex,v
+│   ├── kn_tsilver_usa.tex,v
+│   ├── kn_tstewart.tex,v
+│   ├── kn_tstewart_usa.tex,v
+│   ├── kn_ttanaka.tex,v
+│   ├── kn_ttanaka_usa.tex,v
+│   ├── kn_tzod.tex,v
+│   ├── kn_tzod_usa.tex,v
+│   ├── kn_x01.tex,v
+│   ├── kn_yuka01.tex,v
+│   ├── kn_yuka02.tex,v
+│   ├── kn_yuka03.tex,v
+│   ├── kn_yuka04.tex,v
+│   ├── kn_yuka05.tex,v
+│   ├── kn_yuka06.tex,v
+│   ├── kn_yuka07.tex,v
+│   ├── kn_yuka08.tex,v
+│   ├── kn_yuka09.tex,v
+│   ├── kn_yuka10.tex,v
+│   ├── ko_csel_bg.tex,v
+│   ├── ko_csel_bg2.tex,v
+│   ├── ko_csel_edit.tex,v
+│   ├── ko_csel_estar.tex,v
+│   ├── ko_csel_ghost.tex,v
+│   ├── ko_csel_hatena.tex,v
+│   ├── ko_csel_hstar.tex,v
+│   ├── ko_csel_jcup.tex,v
+│   ├── ko_csel_joker.tex,v
+│   ├── ko_csel_kcup.tex,v
+│   ├── ko_csel_logo.tex,v
+│   ├── ko_csel_logo2.tex,v
+│   ├── ko_csel_mcup.tex,v
+│   ├── ko_csel_mstar.tex,v
+│   ├── ko_csel_nstar.tex,v
+│   ├── ko_csel_qcup.tex,v
+│   ├── ko_csel_staff.tex,v
+│   ├── ko_csel_ta_type0.tex,v
+│   ├── ko_csel_ta_type1.tex,v
+│   ├── ko_csel_ta_type2.tex,v
+│   ├── ko_csel_ta_type3.tex,v
+│   ├── ko_csel_ta_type4.tex,v
+│   ├── ko_csel_ya.tex,v
+│   ├── ko_d_ant.tex,v
+│   ├── ko_d_ant2.tex,v
+│   ├── ko_d_arrow.tex,v
+│   ├── ko_d_arrow2.tex,v
+│   ├── ko_d_b_falcon.tex,v
+│   ├── ko_d_b_falcon2.tex,v
+│   ├── ko_d_back.tex,v
+│   ├── ko_d_beast.tex,v
+│   ├── ko_d_beast2.tex,v
+│   ├── ko_d_billy.tex,v
+│   ├── ko_d_billy2.tex,v
+│   ├── ko_d_black.tex,v
+│   ├── ko_d_black2.tex,v
+│   ├── ko_d_buster.tex,v
+│   ├── ko_d_buster2.tex,v
+│   ├── ko_d_doraku.tex,v
+│   ├── ko_d_doraku2.tex,v
+│   ├── ko_d_dr_c.tex,v
+│   ├── ko_d_dr_c2.tex,v
+│   ├── ko_d_ead.tex,v
+│   ├── ko_d_ead2.tex,v
+│   ├── ko_d_falcon.tex,v
+│   ├── ko_d_falcon2.tex,v
+│   ├── ko_d_goma.tex,v
+│   ├── ko_d_goma2.tex,v
+│   ├── ko_d_goro.tex,v
+│   ├── ko_d_goro2.tex,v
+│   ├── ko_d_jack.tex,v
+│   ├── ko_d_jack2.tex,v
+│   ├── ko_d_james.tex,v
+│   ├── ko_d_james2.tex,v
+│   ├── ko_d_jisan.tex,v
+│   ├── ko_d_jisan2.tex,v
+│   ├── ko_d_keito.tex,v
+│   ├── ko_d_keito2.tex,v
+│   ├── ko_d_michael.tex,v
+│   ├── ko_d_michael2.tex,v
+│   ├── ko_d_octman.tex,v
+│   ├── ko_d_octman2.tex,v
+│   ├── ko_d_pico.tex,v
+│   ├── ko_d_pico2.tex,v
+│   ├── ko_d_reon.tex,v
+│   ├── ko_d_reon2.tex,v
+│   ├── ko_d_rex.tex,v
+│   ├── ko_d_rex2.tex,v
+│   ├── ko_d_robo.tex,v
+│   ├── ko_d_robo2.tex,v
+│   ├── ko_d_sfalcon.tex,v
+│   ├── ko_d_sfalcon2.tex,v
+│   ├── ko_d_sgoro.tex,v
+│   ├── ko_d_sgoro2.tex,v
+│   ├── ko_d_sjody.tex,v
+│   ├── ko_d_sjody2.tex,v
+│   ├── ko_d_stewart.tex,v
+│   ├── ko_d_stewart2.tex,v
+│   ├── ko_d_tanaka.tex,v
+│   ├── ko_d_tanaka2.tex,v
+│   ├── ko_d_tiger.tex,v
+│   ├── ko_d_tiger2.tex,v
+│   ├── ko_d_wife.tex,v
+│   ├── ko_d_wife2.tex,v
+│   ├── ko_d_woman.tex,v
+│   ├── ko_d_woman2.tex,v
+│   ├── ko_d_zod.tex,v
+│   ├── ko_d_zod2.tex,v
+│   ├── ko_d_zombi.tex,v
+│   ├── ko_d_zombi2.tex,v
+│   ├── ko_gsel_2p.tex,v
+│   ├── ko_gsel_3p.tex,v
+│   ├── ko_gsel_4p.tex,v
+│   ├── ko_gsel_back.tex,v
+│   ├── ko_gsel_batu.tex,v
+│   ├── ko_gsel_cedit.tex,v
+│   ├── ko_gsel_class.tex,v
+│   ├── ko_gsel_easy.tex,v
+│   ├── ko_gsel_gp.tex,v
+│   ├── ko_gsel_hard.tex,v
+│   ├── ko_gsel_logo.tex,v
+│   ├── ko_gsel_lv_select.tex,v
+│   ├── ko_gsel_master.tex,v
+│   ├── ko_gsel_medit.tex,v
+│   ├── ko_gsel_normal.tex,v
+│   ├── ko_gsel_option.tex,v
+│   ├── ko_gsel_point.tex,v
+│   ├── ko_gsel_rec.tex,v
+│   ├── ko_gsel_records.tex,v
+│   ├── ko_gsel_slot.tex,v
+│   ├── ko_gsel_ta.tex,v
+│   ├── ko_gsel_time.tex,v
+│   ├── ko_gsel_vs.tex,v
+│   ├── ko_gsel_vssel.tex,v
+│   ├── ko_msel_bg.tex,v
+│   ├── ko_msel_body.tex,v
+│   ├── ko_msel_boost.tex,v
+│   ├── ko_msel_cup1_1.tex,v
+│   ├── ko_msel_cup1_2.tex,v
+│   ├── ko_msel_cup1_3.tex,v
+│   ├── ko_msel_cup1_4.tex,v
+│   ├── ko_msel_cup1_5.tex,v
+│   ├── ko_msel_cup2_1.tex,v
+│   ├── ko_msel_cup2_2.tex,v
+│   ├── ko_msel_cup2_3.tex,v
+│   ├── ko_msel_cup2_4.tex,v
+│   ├── ko_msel_cup2_5.tex,v
+│   ├── ko_msel_cup3_1.tex,v
+│   ├── ko_msel_cup3_2.tex,v
+│   ├── ko_msel_cup3_3.tex,v
+│   ├── ko_msel_cup3_4.tex,v
+│   ├── ko_msel_cup3_5.tex,v
+│   ├── ko_msel_cup4_1.tex,v
+│   ├── ko_msel_cup4_2.tex,v
+│   ├── ko_msel_cup4_3.tex,v
+│   ├── ko_msel_cup4_4.tex,v
+│   ├── ko_msel_cup4_5.tex,v
+│   ├── ko_msel_cuppoint.tex,v
+│   ├── ko_msel_cursor1.tex,v
+│   ├── ko_msel_cursor2.tex,v
+│   ├── ko_msel_cursor3.tex,v
+│   ├── ko_msel_cursor4.tex,v
+│   ├── ko_msel_cursor_back.tex,v
+│   ├── ko_msel_grip.tex,v
+│   ├── ko_msel_logo.tex,v
+│   ├── ko_msel_meter.tex,v
+│   ├── ko_msel_meter1.tex,v
+│   ├── ko_msel_meter2.tex,v
+│   ├── ko_msel_meter4p.tex,v
+│   ├── ko_msel_meter4p1.tex,v
+│   ├── ko_msel_meter4p2.tex,v
+│   ├── ko_msel_ya.tex,v
+│   ├── ko_name_arbin.tex,v
+│   ├── ko_name_arrow.tex,v
+│   ├── ko_name_baba.tex,v
+│   ├── ko_name_beast.tex,v
+│   ├── ko_name_billy.tex,v
+│   ├── ko_name_black.tex,v
+│   ├── ko_name_blood.tex,v
+│   ├── ko_name_buster.tex,v
+│   ├── ko_name_chain.tex,v
+│   ├── ko_name_Dr.tex,v
+│   ├── ko_name_draq.tex,v
+│   ├── ko_name_ead.tex,v
+│   ├── ko_name_falcon.tex,v
+│   ├── ko_name_goma.tex,v
+│   ├── ko_name_goroh.tex,v
+│   ├── ko_name_guster.tex,v
+│   ├── ko_name_jack.tex,v
+│   ├── ko_name_james.tex,v
+│   ├── ko_name_jody.tex,v
+│   ├── ko_name_KATE.tex,v
+│   ├── ko_name_leon.tex,v
+│   ├── ko_name_MM.tex,v
+│   ├── ko_name_Mrs.tex,v
+│   ├── ko_name_octman.tex,v
+│   ├── ko_name_pico.tex,v
+│   ├── ko_name_rex.tex,v
+│   ├── ko_name_silver.tex,v
+│   ├── ko_name_stewart.tex,v
+│   ├── ko_name_tanaka.tex,v
+│   ├── ko_name_zod.tex,v
+│   ├── ko_select_ok.tex,v
+│   ├── ko_sindo_a.tex,v
+│   ├── ko_sindo_b.tex,v
+│   ├── ko_title_caution.tex,v
+│   ├── ko_title_caution2.tex,v
+│   ├── ko_title_caution3.tex,v
+│   ├── ko_title_logo.tex,v
+│   ├── ko_title_logo2a.tex,v
+│   ├── ko_title_logo2b.tex,v
+│   ├── ko_title_logo_tm.tex,v
+│   ├── ko_title_nintendo.tex,v
+│   ├── ko_title_ruby.tex,v
+│   ├── ko_title_start.tex,v
+│   ├── ko_title_TIS.tex,v
+│   ├── ko_title_TIS2.tex,v
+│   ├── ko_title_TIS3.tex,v
+│   ├── ko_win2_ant.tex,v
+│   ├── ko_win2_ar.tex,v
+│   ├── ko_win2_baba.tex,v
+│   ├── ko_win2_bea.tex,v
+│   ├── ko_win2_bl.tex,v
+│   ├── ko_win2_bone.tex,v
+│   ├── ko_win2_bull.tex,v
+│   ├── ko_win2_dr.tex,v
+│   ├── ko_win2_draku.tex,v
+│   ├── ko_win2_ead.tex,v
+│   ├── ko_win2_f.tex,v
+│   ├── ko_win2_falcon.tex,v
+│   ├── ko_win2_fs.tex,v
+│   ├── ko_win2_g.tex,v
+│   ├── ko_win2_goma.tex,v
+│   ├── ko_win2_hone.tex,v
+│   ├── ko_win2_ja.tex,v
+│   ├── ko_win2_jack.tex,v
+│   ├── ko_win2_ji.tex,v
+│   ├── ko_win2_kate.tex,v
+│   ├── ko_win2_leon.tex,v
+│   ├── ko_win2_q.tex,v
+│   ├── ko_win2_r.tex,v
+│   ├── ko_win2_rex.tex,v
+│   ├── ko_win2_ro.tex,v
+│   ├── ko_win2_saru.tex,v
+│   ├── ko_win2_tako.tex,v
+│   ├── ko_win2_tanaka.tex,v
+│   ├── ko_win2_w.tex,v
+│   ├── ko_win2_wc.tex,v
+│   ├── ko_win2_wild.tex,v
+│   ├── ko_win2_zod.tex,v
+│   ├── ko_win_ant.tex,v
+│   ├── ko_win_arrow.tex,v
+│   ├── ko_win_baba.tex,v
+│   ├── ko_win_beast.tex,v
+│   ├── ko_win_billy.tex,v
+│   ├── ko_win_black.tex,v
+│   ├── ko_win_blood.tex,v
+│   ├── ko_win_clash.tex,v
+│   ├── ko_win_congra.tex,v
+│   ├── ko_win_dr.tex,v
+│   ├── ko_win_draq.tex,v
+│   ├── ko_win_ead.tex,v
+│   ├── ko_win_falcon.tex,v
+│   ├── ko_win_falcon2.tex,v
+│   ├── ko_win_girl.tex,v
+│   ├── ko_win_goma.tex,v
+│   ├── ko_win_goro.tex,v
+│   ├── ko_win_hone.tex,v
+│   ├── ko_win_jack.tex,v
+│   ├── ko_win_james.tex,v
+│   ├── ko_win_jody.tex,v
+│   ├── ko_win_john.tex,v
+│   ├── ko_win_kate.tex,v
+│   ├── ko_win_leon.tex,v
+│   ├── ko_win_michael.tex,v
+│   ├── ko_win_mm.tex,v
+│   ├── ko_win_mrs.tex,v
+│   ├── ko_win_mrx.tex,v
+│   ├── ko_win_oct.tex,v
+│   ├── ko_win_pico.tex,v
+│   ├── ko_win_rex.tex,v
+│   ├── ko_win_roger.tex,v
+│   ├── ko_win_see.tex,v
+│   ├── ko_win_sfalcon.tex,v
+│   ├── ko_win_sgoro.tex,v
+│   ├── ko_win_silver.tex,v
+│   ├── ko_win_sjody.tex,v
+│   ├── ko_win_zod.tex,v
+│   ├── kous_csel_ghost.tex,v
+│   ├── kous_csel_logo.tex,v
+│   ├── kous_csel_ta_type0.tex,v
+│   ├── kous_csel_ta_type1.tex,v
+│   ├── kous_csel_ta_type2.tex,v
+│   ├── kous_csel_ta_type3.tex,v
+│   ├── kous_csel_ta_type4.tex,v
+│   ├── kous_gsel_easy.tex,v
+│   ├── kous_gsel_hard.tex,v
+│   ├── kous_gsel_logo.tex,v
+│   ├── kous_gsel_master.tex,v
+│   ├── kous_gsel_normal.tex,v
+│   ├── kous_gsel_rec.tex,v
+│   ├── kous_gsel_time.tex,v
+│   ├── kous_msel_logo.tex,v
+│   ├── kous_msel_meter1.tex,v
+│   ├── kous_msel_meter2.tex,v
+│   ├── kous_msel_meter4p1.tex,v
+│   ├── kous_msel_meter4p2.tex,v
+│   ├── kous_name_arbin.tex,v
+│   ├── kous_name_MM.tex,v
+│   ├── kous_name_octman.tex,v
+│   ├── kous_title_caution.tex,v
+│   ├── kous_title_caution2.tex,v
+│   ├── kous_title_caution3.tex,v
+│   ├── kous_title_logo.tex,v
+│   ├── lineA.tex,v
+│   ├── lineB.tex,v
+│   ├── lineC.tex,v
+│   ├── lineD.tex,v
+│   ├── lineE.tex,v
+│   ├── mk1st.tex,v
+│   ├── mk2nd.tex,v
+│   ├── mk3rd.tex,v
+│   ├── mo_car_AA.c,v
+│   ├── mo_car_AA_S.c,v
+│   ├── mo_car_DD.c,v
+│   ├── mo_car_DD_S.c,v
+│   ├── mo_car_EE.c,v
+│   ├── mo_car_EE_S.c,v
+│   ├── mo_car_WWA.c,v
+│   ├── mo_car_WWB.c,v
+│   ├── mo_car_WWB_S.c,v
+│   ├── mo_car_WWC.c,v
+│   ├── mo_car_WWD.c,v
+│   ├── mo_car_WWD_S.c,v
+│   ├── mo_car_WWE.c,v
+│   ├── mo_car_WWF.c,v
+│   ├── mo_car_WWF_S.c,v
+│   ├── mo_car_WWG.c,v
+│   ├── mo_car_XXA.c,v
+│   ├── mo_car_XXA_S.c,v
+│   ├── mo_car_XXB.c,v
+│   ├── mo_car_XXB_S.c,v
+│   ├── mo_car_XXC.c,v
+│   ├── mo_car_XXC_S.c,v
+│   ├── mo_car_XXD.c,v
+│   ├── mo_car_XXD_S.c,v
+│   ├── mo_car_XXE.c,v
+│   ├── mo_car_XXE_S.c,v
+│   ├── mo_car_XXF.c,v
+│   ├── mo_car_XXF_S.c,v
+│   ├── mo_car_XXG.c,v
+│   ├── mo_car_XXG_S.c,v
+│   ├── mo_car_YYA.c,v
+│   ├── mo_car_YYB.c,v
+│   ├── mo_car_YYC.c,v
+│   ├── mo_car_YYD.c,v
+│   ├── mo_car_YYD_S.c,v
+│   ├── mo_car_YYE.c,v
+│   ├── mo_car_YYF.c,v
+│   ├── mo_car_YYF_S.c,v
+│   ├── mo_car_YYG.c,v
+│   ├── mo_ed_color.c,v
+│   ├── mo_ed_design.c,v
+│   ├── mo_ed_entry.c,v
+│   ├── mo_ed_machineparts.c,v
+│   ├── mo_ed_ok.c,v
+│   ├── mo_editor.c,v
+│   ├── mo_edm_clear.c,v
+│   ├── mo_edm_front.c,v
+│   ├── mo_edm_kg.c,v
+│   ├── mo_edm_line1.c,v
+│   ├── mo_edm_line2.c,v
+│   ├── mo_edm_line3.c,v
+│   ├── mo_edm_line4.c,v
+│   ├── mo_edm_line5.c,v
+│   ├── mo_edm_mark1.c,v
+│   ├── mo_edm_mark2.c,v
+│   ├── mo_edm_mark3.c,v
+│   ├── mo_edm_mark4.c,v
+│   ├── mo_edm_mark5.c,v
+│   ├── mo_edm_mark6.c,v
+│   ├── mo_edm_mark7.c,v
+│   ├── mo_edm_mark8.c,v
+│   ├── mo_edm_mload.c,v
+│   ├── mo_edm_rear.c,v
+│   ├── mo_edm_scrap.c,v
+│   ├── mo_edm_t0.c,v
+│   ├── mo_edm_t1.c,v
+│   ├── mo_edm_t2.c,v
+│   ├── mo_edm_t3.c,v
+│   ├── mo_edm_t4.c,v
+│   ├── mo_edm_t5.c,v
+│   ├── mo_edm_t6.c,v
+│   ├── mo_edm_t7.c,v
+│   ├── mo_edm_t8.c,v
+│   ├── mo_edm_t9.c,v
+│   ├── mo_edm_touroku.c,v
+│   ├── mo_edm_uketsuke.c,v
+│   ├── mo_edm_weight.c,v
+│   ├── mo_edm_wings.c,v
+│   ├── mo_eds_body.c,v
+│   ├── mo_eds_cockpit.c,v
+│   ├── mo_eds_line.c,v
+│   ├── mo_eds_mark.c,v
+│   ├── mo_eds_mname.c,v
+│   ├── mo_eds_number.c,v
+│   ├── mo_eds_setting.c,v
+│   ├── mo_load_textures.c,v
+│   ├── mo_mname.c,v
+│   ├── mo_Mwing.c,v
+│   ├── mo_nameframe.c,v
+│   ├── mo_nameframe2.c,v
+│   ├── mo_para_A1.c,v
+│   ├── mo_para_A2.c,v
+│   ├── mo_para_A3.c,v
+│   ├── mo_para_B1.c,v
+│   ├── mo_para_B2.c,v
+│   ├── mo_para_B3.c,v
+│   ├── mo_para_body.c,v
+│   ├── mo_para_boost.c,v
+│   ├── mo_para_C1.c,v
+│   ├── mo_para_C2.c,v
+│   ├── mo_para_C3.c,v
+│   ├── mo_para_D1.c,v
+│   ├── mo_para_D2.c,v
+│   ├── mo_para_D3.c,v
+│   ├── mo_para_E1.c,v
+│   ├── mo_para_E2.c,v
+│   ├── mo_para_E3.c,v
+│   ├── mo_para_grip.c,v
+│   ├── mo_redframe.c,v
+│   ├── mo_setting.c,v
+│   ├── mo_US_body.c,v
+│   ├── mo_US_clear.c,v
+│   ├── mo_US_cockpit.c,v
+│   ├── mo_US_color.c,v
+│   ├── mo_US_design.c,v
+│   ├── mo_US_edm_set.c,v
+│   ├── mo_US_edm_weight.c,v
+│   ├── mo_US_line.c,v
+│   ├── mo_US_mark.c,v
+│   ├── mo_US_menu_set.c,v
+│   ├── mo_US_mname.c,v
+│   ├── mo_US_number.c,v
+│   ├── mo_US_para_body.c,v
+│   ├── mo_US_para_boost.c,v
+│   ├── mo_US_para_grip.c,v
+│   ├── mo_US_parts.c,v
+│   ├── mo_US_saveas.c,v
+│   ├── mo_US_use.c,v
+│   ├── mo_US_wmback.c,v
+│   ├── mo_wmback.c,v
+│   ├── moji48_A.tex,v
+│   ├── moji48_and.tex,v
+│   ├── moji48_B.tex,v
+│   ├── moji48_C.tex,v
+│   ├── moji48_cs.tex,v
+│   ├── moji48_D.tex,v
+│   ├── moji48_E.tex,v
+│   ├── moji48_F.tex,v
+│   ├── moji48_G.tex,v
+│   ├── moji48_H.tex,v
+│   ├── moji48_I.tex,v
+│   ├── moji48_J.tex,v
+│   ├── moji48_K.tex,v
+│   ├── moji48_L.tex,v
+│   ├── moji48_M.tex,v
+│   ├── moji48_N.tex,v
+│   ├── moji48_O.tex,v
+│   ├── moji48_P.tex,v
+│   ├── moji48_period.tex,v
+│   ├── moji48_Q.tex,v
+│   ├── moji48_R.tex,v
+│   ├── moji48_rs.tex,v
+│   ├── moji48_S.tex,v
+│   ├── moji48_ss.tex,v
+│   ├── moji48_T.tex,v
+│   ├── moji48_U.tex,v
+│   ├── moji48_V.tex,v
+│   ├── moji48_W.tex,v
+│   ├── moji48_X.tex,v
+│   ├── moji48_Y.tex,v
+│   ├── moji48_Z.tex,v
+│   ├── moji48k_a.tex,v
+│   ├── moji48k_ba.tex,v
+│   ├── moji48k_be.tex,v
+│   ├── moji48k_bi.tex,v
+│   ├── moji48k_bo.tex,v
+│   ├── moji48k_bu.tex,v
+│   ├── moji48k_da.tex,v
+│   ├── moji48k_de.tex,v
+│   ├── moji48k_di.tex,v
+│   ├── moji48k_do.tex,v
+│   ├── moji48k_du.tex,v
+│   ├── moji48k_e.tex,v
+│   ├── moji48k_ga.tex,v
+│   ├── moji48k_ge.tex,v
+│   ├── moji48k_gi.tex,v
+│   ├── moji48k_go.tex,v
+│   ├── moji48k_gu.tex,v
+│   ├── moji48k_ha.tex,v
+│   ├── moji48k_he.tex,v
+│   ├── moji48k_hi.tex,v
+│   ├── moji48k_ho.tex,v
+│   ├── moji48k_hu.tex,v
+│   ├── moji48k_i.tex,v
+│   ├── moji48k_ka.tex,v
+│   ├── moji48k_ke.tex,v
+│   ├── moji48k_ki.tex,v
+│   ├── moji48k_ko.tex,v
+│   ├── moji48k_ku.tex,v
+│   ├── moji48k_ma.tex,v
+│   ├── moji48k_me.tex,v
+│   ├── moji48k_mi.tex,v
+│   ├── moji48k_mo.tex,v
+│   ├── moji48k_mu.tex,v
+│   ├── moji48k_na.tex,v
+│   ├── moji48k_ne.tex,v
+│   ├── moji48k_ni.tex,v
+│   ├── moji48k_nn.tex,v
+│   ├── moji48k_no.tex,v
+│   ├── moji48k_nobashibou.tex,v
+│   ├── moji48k_nu.tex,v
+│   ├── moji48k_o.tex,v
+│   ├── moji48k_pa.tex,v
+│   ├── moji48k_pe.tex,v
+│   ├── moji48k_pi.tex,v
+│   ├── moji48k_po.tex,v
+│   ├── moji48k_pu.tex,v
+│   ├── moji48k_ra.tex,v
+│   ├── moji48k_re.tex,v
+│   ├── moji48k_ri.tex,v
+│   ├── moji48k_ro.tex,v
+│   ├── moji48k_ru.tex,v
+│   ├── moji48k_sa.tex,v
+│   ├── moji48k_se.tex,v
+│   ├── moji48k_si.tex,v
+│   ├── moji48k_so.tex,v
+│   ├── moji48k_su.tex,v
+│   ├── moji48k_ta.tex,v
+│   ├── moji48k_te.tex,v
+│   ├── moji48k_ti.tex,v
+│   ├── moji48k_to.tex,v
+│   ├── moji48k_tu.tex,v
+│   ├── moji48k_u.tex,v
+│   ├── moji48k_wa.tex,v
+│   ├── moji48k_wo.tex,v
+│   ├── moji48k_xa.tex,v
+│   ├── moji48k_xe.tex,v
+│   ├── moji48k_xi.tex,v
+│   ├── moji48k_xtu.tex,v
+│   ├── moji48k_xya.tex,v
+│   ├── moji48k_xyo.tex,v
+│   ├── moji48k_xyu.tex,v
+│   ├── moji48k_ya.tex,v
+│   ├── moji48k_yo.tex,v
+│   ├── moji48k_yu.tex,v
+│   ├── moji48k_za.tex,v
+│   ├── moji48k_ze.tex,v
+│   ├── moji48k_zi.tex,v
+│   ├── moji48k_zo.tex,v
+│   ├── moji48k_zu.tex,v
+│   ├── moji48n_0.tex,v
+│   ├── moji48n_1.tex,v
+│   ├── moji48n_2.tex,v
+│   ├── moji48n_3.tex,v
+│   ├── moji48n_4.tex,v
+│   ├── moji48n_5.tex,v
+│   ├── moji48n_6.tex,v
+│   ├── moji48n_7.tex,v
+│   ├── moji48n_8.tex,v
+│   ├── moji48n_9.tex,v
+│   ├── moji48n_minus.tex,v
+│   ├── moji48n_nd.tex,v
+│   ├── moji48n_plus.tex,v
+│   ├── moji48n_point.tex,v
+│   ├── moji48n_pointL.tex,v
+│   ├── moji48n_pointR.tex,v
+│   ├── moji48n_quotation1.tex,v
+│   ├── moji48n_quotation2.tex,v
+│   ├── moji48n_rd.tex,v
+│   ├── moji48n_st.tex,v
+│   ├── moji48n_th.tex,v
+│   ├── moji4_A.tex,v
+│   ├── moji4_alpha.tex,v
+│   ├── moji4_and.tex,v
+│   ├── moji4_apostrophe.tex,v
+│   ├── moji4_B.tex,v
+│   ├── moji4_beta.tex,v
+│   ├── moji4_C.tex,v
+│   ├── moji4_colon.tex,v
+│   ├── moji4_comma.tex,v
+│   ├── moji4_D.tex,v
+│   ├── moji4_dot.tex,v
+│   ├── moji4_E.tex,v
+│   ├── moji4_F.tex,v
+│   ├── moji4_G.tex,v
+│   ├── moji4_gamma.tex,v
+│   ├── moji4_H.tex,v
+│   ├── moji4_hyphen.tex,v
+│   ├── moji4_I.tex,v
+│   ├── moji4_J.tex,v
+│   ├── moji4_K.tex,v
+│   ├── moji4_L.tex,v
+│   ├── moji4_M.tex,v
+│   ├── moji4_N.tex,v
+│   ├── moji4_O.tex,v
+│   ├── moji4_P.tex,v
+│   ├── moji4_period.tex,v
+│   ├── moji4_Q.tex,v
+│   ├── moji4_R.tex,v
+│   ├── moji4_S.tex,v
+│   ├── moji4_T.tex,v
+│   ├── moji4_U.tex,v
+│   ├── moji4_V.tex,v
+│   ├── moji4_W.tex,v
+│   ├── moji4_X.tex,v
+│   ├── moji4_Y.tex,v
+│   ├── moji4_Z.tex,v
+│   ├── moji4i8s,v
+│   ├── moji4ik8s,v
+│   ├── moji4in8s,v
+│   ├── moji4ins,v
+│   ├── moji4is,v
+│   ├── moji4n_0.tex,v
+│   ├── moji4n_1.tex,v
+│   ├── moji4n_2.tex,v
+│   ├── moji4n_3.tex,v
+│   ├── moji4n_4.tex,v
+│   ├── moji4n_5.tex,v
+│   ├── moji4n_6.tex,v
+│   ├── moji4n_7.tex,v
+│   ├── moji4n_8.tex,v
+│   ├── moji4n_9.tex,v
+│   ├── moji8_0.tex,v
+│   ├── moji8_1.tex,v
+│   ├── moji8_2.tex,v
+│   ├── moji8_3.tex,v
+│   ├── moji8_4.tex,v
+│   ├── moji8_5.tex,v
+│   ├── moji8_6.tex,v
+│   ├── moji8_7.tex,v
+│   ├── moji8_8.tex,v
+│   ├── moji8_9.tex,v
+│   ├── moji8_A.tex,v
+│   ├── moji8_and.tex,v
+│   ├── moji8_B.tex,v
+│   ├── moji8_bo.tex,v
+│   ├── moji8_C.tex,v
+│   ├── moji8_comma.tex,v
+│   ├── moji8_D.tex,v
+│   ├── moji8_E.tex,v
+│   ├── moji8_F.tex,v
+│   ├── moji8_G.tex,v
+│   ├── moji8_H.tex,v
+│   ├── moji8_I.tex,v
+│   ├── moji8_J.tex,v
+│   ├── moji8_K.tex,v
+│   ├── moji8_kg.tex,v
+│   ├── moji8_L.tex,v
+│   ├── moji8_M.tex,v
+│   ├── moji8_N.tex,v
+│   ├── moji8_O.tex,v
+│   ├── moji8_P.tex,v
+│   ├── moji8_period.tex,v
+│   ├── moji8_Q.tex,v
+│   ├── moji8_quotation.tex,v
+│   ├── moji8_R.tex,v
+│   ├── moji8_S.tex,v
+│   ├── moji8_T.tex,v
+│   ├── moji8_U.tex,v
+│   ├── moji8_V.tex,v
+│   ├── moji8_W.tex,v
+│   ├── moji8_X.tex,v
+│   ├── moji8_Y.tex,v
+│   ├── moji8_Z.tex,v
+│   ├── moji8s,v
+│   ├── moji_0.tex,v
+│   ├── moji_1.tex,v
+│   ├── moji_2.tex,v
+│   ├── moji_3.tex,v
+│   ├── moji_4.tex,v
+│   ├── moji_5.tex,v
+│   ├── moji_6.tex,v
+│   ├── moji_7.tex,v
+│   ├── moji_8.tex,v
+│   ├── moji_9.tex,v
+│   ├── moji_A.tex,v
+│   ├── moji_and.tex,v
+│   ├── moji_B.tex,v
+│   ├── moji_C.tex,v
+│   ├── moji_comma.tex,v
+│   ├── moji_D.tex,v
+│   ├── moji_E.tex,v
+│   ├── moji_end.tex,v
+│   ├── moji_exclamation.tex,v
+│   ├── moji_F.tex,v
+│   ├── moji_G.tex,v
+│   ├── moji_H.tex,v
+│   ├── moji_I.tex,v
+│   ├── moji_J.tex,v
+│   ├── moji_K.tex,v
+│   ├── moji_L.tex,v
+│   ├── moji_line.tex,v
+│   ├── moji_M.tex,v
+│   ├── moji_N.tex,v
+│   ├── moji_O.tex,v
+│   ├── moji_P.tex,v
+│   ├── moji_period.tex,v
+│   ├── moji_Q.tex,v
+│   ├── moji_quotation.tex,v
+│   ├── moji_R.tex,v
+│   ├── moji_S.tex,v
+│   ├── moji_space.tex,v
+│   ├── moji_T.tex,v
+│   ├── moji_U.tex,v
+│   ├── moji_under.tex,v
+│   ├── moji_V.tex,v
+│   ├── moji_W.tex,v
+│   ├── moji_X.tex,v
+│   ├── moji_Y.tex,v
+│   ├── moji_Z.tex,v
+│   ├── mojimenu_0.tex,v
+│   ├── mojimenu_1.tex,v
+│   ├── mojimenu_2.tex,v
+│   ├── mojimenu_3.tex,v
+│   ├── mojimenu_4.tex,v
+│   ├── mojimenu_5.tex,v
+│   ├── mojimenu_6.tex,v
+│   ├── mojimenu_7.tex,v
+│   ├── mojimenu_8.tex,v
+│   ├── mojimenu_9.tex,v
+│   ├── mojimenu_A.tex,v
+│   ├── mojimenu_alpha.tex,v
+│   ├── mojimenu_and.tex,v
+│   ├── mojimenu_B.tex,v
+│   ├── mojimenu_beta.tex,v
+│   ├── mojimenu_C.tex,v
+│   ├── mojimenu_comma.tex,v
+│   ├── mojimenu_D.tex,v
+│   ├── mojimenu_dquotation.tex,v
+│   ├── mojimenu_E.tex,v
+│   ├── mojimenu_F.tex,v
+│   ├── mojimenu_G.tex,v
+│   ├── mojimenu_H.tex,v
+│   ├── mojimenu_hyphen.tex,v
+│   ├── mojimenu_I.tex,v
+│   ├── mojimenu_J.tex,v
+│   ├── mojimenu_K.tex,v
+│   ├── mojimenu_L.tex,v
+│   ├── mojimenu_M.tex,v
+│   ├── mojimenu_N.tex,v
+│   ├── mojimenu_ni.tex,v
+│   ├── mojimenu_O.tex,v
+│   ├── mojimenu_P.tex,v
+│   ├── mojimenu_period.tex,v
+│   ├── mojimenu_Q.tex,v
+│   ├── mojimenu_R.tex,v
+│   ├── mojimenu_S.tex,v
+│   ├── mojimenu_squotation.tex,v
+│   ├── mojimenu_T.tex,v
+│   ├── mojimenu_U.tex,v
+│   ├── mojimenu_underbar.tex,v
+│   ├── mojimenu_V.tex,v
+│   ├── mojimenu_W.tex,v
+│   ├── mojimenu_X.tex,v
+│   ├── mojimenu_Y.tex,v
+│   ├── mojimenu_Z.tex,v
+│   ├── mojimoji,v
+│   ├── mojivs_0.tex,v
+│   ├── mojivs_1.tex,v
+│   ├── mojivs_2.tex,v
+│   ├── mojivs_3.tex,v
+│   ├── mojivs_4.tex,v
+│   ├── mojivs_5.tex,v
+│   ├── mojivs_6.tex,v
+│   ├── mojivs_7.tex,v
+│   ├── mojivs_8.tex,v
+│   ├── mojivs_9.tex,v
+│   ├── mojivs_com.tex,v
+│   ├── mojivs_down.tex,v
+│   ├── mojivs_end.tex,v
+│   ├── mojivs_kakkoL.tex,v
+│   ├── mojivs_kakkoR.tex,v
+│   ├── mojivs_mark.tex,v
+│   ├── mojivs_nd.tex,v
+│   ├── mojivs_player.tex,v
+│   ├── mojivs_plus.tex,v
+│   ├── mojivs_pts.tex,v
+│   ├── mojivs_rd.tex,v
+│   ├── mojivs_select.tex,v
+│   ├── mojivs_st.tex,v
+│   ├── mojivs_th.tex,v
+│   ├── mojivs_up.tex,v
+│   ├── mojivs_uscom.tex,v
+│   ├── mojivs_usend.tex,v
+│   ├── mojivs_usplayer.tex,v
+│   ├── mojivs_usselect.tex,v
+│   ├── mojivs_V.tex,v
+│   ├── mojivss,v
+│   ├── mono.tex,v
+│   ├── moon01.tex,v
+│   ├── moon02.tex,v
+│   ├── moon03.tex,v
+│   ├── moon04.tex,v
+│   ├── moon05.tex,v
+│   ├── nusmark.tex,v
+│   ├── pika_01.tex,v
+│   ├── pika_02.tex,v
+│   ├── pika_03.tex,v
+│   ├── pika_04.tex,v
+│   ├── pika_05.tex,v
+│   ├── pika_06.tex,v
+│   ├── pika_07.tex,v
+│   ├── pipe.tex,v
+│   ├── pipe_blue01.tex,v
+│   ├── pipe_blue02.tex,v
+│   ├── pipe_blue03.tex,v
+│   ├── pipe_blue04.tex,v
+│   ├── pipe_fire01.tex,v
+│   ├── pipe_fire02.tex,v
+│   ├── pipe_fire03.tex,v
+│   ├── pipe_fire04.tex,v
+│   ├── pipe_forest01.tex,v
+│   ├── pipe_forest02.tex,v
+│   ├── pipe_forest03.tex,v
+│   ├── pipe_forest04.tex,v
+│   ├── pipe_mute01.tex,v
+│   ├── pipe_mute02.tex,v
+│   ├── pipe_mute03.tex,v
+│   ├── pipe_mute04.tex,v
+│   ├── pipe_port01.tex,v
+│   ├── pipe_port02.tex,v
+│   ├── pipe_port03.tex,v
+│   ├── pipe_port04.tex,v
+│   ├── pipe_red01.tex,v
+│   ├── pipe_red02.tex,v
+│   ├── pipe_red03.tex,v
+│   ├── pipe_red04.tex,v
+│   ├── pipe_sand01.tex,v
+│   ├── pipe_sand02.tex,v
+│   ├── pipe_sand03.tex,v
+│   ├── pipe_sand04.tex,v
+│   ├── pipe_sec01.tex,v
+│   ├── pipe_sec02.tex,v
+│   ├── pipe_sec03.tex,v
+│   ├── pipe_sec04.tex,v
+│   ├── pipe_silen01.tex,v
+│   ├── pipe_silen02.tex,v
+│   ├── pipe_silen03.tex,v
+│   ├── pipe_silen04.tex,v
+│   ├── pipe_white01.tex,v
+│   ├── pipe_white02.tex,v
+│   ├── pipe_white03.tex,v
+│   ├── pipe_white04.tex,v
+│   ├── pit_effect.tex,v
+│   ├── power.tex,v
+│   ├── r2g.tex,v
+│   ├── r2h.tex,v
+│   ├── r2r.tex,v
+│   ├── r2t.tex,v
+│   ├── r2w.tex,v
+│   ├── rank_a.tex,v
+│   ├── rank_b.tex,v
+│   ├── rank_c.tex,v
+│   ├── rank_d.tex,v
+│   ├── rank_e.tex,v
+│   ├── rgb2c.c,v
+│   ├── ribbon_01.tex,v
+│   ├── ribbon_02.tex,v
+│   ├── ribbon_03.tex,v
+│   ├── ring.tex,v
+│   ├── ring.tex.ot,v
+│   ├── rival.tex,v
+│   ├── road_03ss.tex,v
+│   ├── road_blue01.tex,v
+│   ├── road_blue02.tex,v
+│   ├── road_blue03.tex,v
+│   ├── road_blue04.tex,v
+│   ├── road_blue05.tex,v
+│   ├── road_end01.tex,v
+│   ├── road_end02.tex,v
+│   ├── road_end03.tex,v
+│   ├── road_end04.tex,v
+│   ├── road_end05.tex,v
+│   ├── road_fire01.tex,v
+│   ├── road_fire02.tex,v
+│   ├── road_fire03.tex,v
+│   ├── road_fire04.tex,v
+│   ├── road_fire05.tex,v
+│   ├── road_forest01.tex,v
+│   ├── road_forest02.tex,v
+│   ├── road_forest03.tex,v
+│   ├── road_forest04.tex,v
+│   ├── road_forest05.tex,v
+│   ├── road_mute01.tex,v
+│   ├── road_mute02.tex,v
+│   ├── road_mute03.tex,v
+│   ├── road_mute04.tex,v
+│   ├── road_mute05.tex,v
+│   ├── road_port01.tex,v
+│   ├── road_port02.tex,v
+│   ├── road_port03.tex,v
+│   ├── road_port04.tex,v
+│   ├── road_port05.tex,v
+│   ├── road_red01.tex,v
+│   ├── road_red02.tex,v
+│   ├── road_red03.tex,v
+│   ├── road_red04.tex,v
+│   ├── road_red05.tex,v
+│   ├── road_sand01.tex,v
+│   ├── road_sand02.tex,v
+│   ├── road_sand03.tex,v
+│   ├── road_sand04.tex,v
+│   ├── road_sand05.tex,v
+│   ├── road_sec01.tex,v
+│   ├── road_sec02.tex,v
+│   ├── road_sec03.tex,v
+│   ├── road_sec04.tex,v
+│   ├── road_sec05.tex,v
+│   ├── road_silen01.tex,v
+│   ├── road_silen02.tex,v
+│   ├── road_silen03.tex,v
+│   ├── road_silen04.tex,v
+│   ├── road_silen05.tex,v
+│   ├── road_T3ss.tex,v
+│   ├── road_white01.tex,v
+│   ├── road_white02.tex,v
+│   ├── road_white03.tex,v
+│   ├── road_white04.tex,v
+│   ├── road_white05.tex,v
+│   ├── roadgate.txt,v
+│   ├── roadhalf.txt,v
+│   ├── roadless.txt,v
+│   ├── roadtube.txt,v
+│   ├── roadwire.txt,v
+│   ├── rocket.tex,v
+│   ├── s_number.tex,v
+│   ├── sky01.tex,v
+│   ├── smoke.tex,v
+│   ├── sot_0123.tex,v
+│   ├── sot_a01.tex,v
+│   ├── sot_a01_cr.tex,v
+│   ├── sot_a_01.I4,v
+│   ├── sot_a_02.I4,v
+│   ├── sot_a_03.I4,v
+│   ├── sot_a_04.I4,v
+│   ├── sot_a_05.I4,v
+│   ├── sot_a_06.I4,v
+│   ├── sot_a_07.I4,v
+│   ├── sot_a_08.I4,v
+│   ├── sot_a_09.I4,v
+│   ├── sot_a_10.I4,v
+│   ├── sot_a_11.I4,v
+│   ├── sot_a_12.I4,v
+│   ├── sot_a_13.I4,v
+│   ├── sot_a_14.I4,v
+│   ├── sot_a_15.I4,v
+│   ├── sot_a_all.I4,v
+│   ├── sot_a_bi.I4,v
+│   ├── sot_a_bo.I4,v
+│   ├── sot_a_bu.I4,v
+│   ├── sot_a_ce.I4,v
+│   ├── sot_a_ceing.I4,v
+│   ├── sot_a_co.I4,v
+│   ├── sot_a_coc.I4,v
+│   ├── sot_a_da.I4,v
+│   ├── sot_a_de.I4,v
+│   ├── sot_a_do.I4,v
+│   ├── sot_a_du.I4,v
+│   ├── sot_a_ge.I4,v
+│   ├── sot_a_H.I4,v
+│   ├── sot_a_ha.I4,v
+│   ├── sot_a_haba.I4,v
+│   ├── sot_a_hai.I4,v
+│   ├── sot_a_ju.I4,v
+│   ├── sot_a_ka.I4,v
+│   ├── sot_a_kan.I4,v
+│   ├── sot_a_li.I4,v
+│   ├── sot_a_ma.I4,v
+│   ├── sot_a_mna.I4,v
+│   ├── sot_a_no.I4,v
+│   ├── sot_a_pa.I4,v
+│   ├── sot_a_pi.I4,v
+│   ├── sot_a_pit.I4,v
+│   ├── sot_a_po.I4,v
+│   ├── sot_a_ro.I4,v
+│   ├── sot_a_se.I4,v
+│   ├── sot_a_si.I4,v
+│   ├── sot_a_sl.I4,v
+│   ├── sot_a_sp.I4,v
+│   ├── sot_a_st.I4,v
+│   ├── sot_a_T.I4,v
+│   ├── sot_a_to.I4,v
+│   ├── sot_a_tr.I4,v
+│   ├── sot_a_ya+.I4,v
+│   ├── sot_a_ya-.I4,v
+│   ├── sot_a_Ｔ.I4,v
+│   ├── sot_aa.tex,v
+│   ├── sot_ab.tex,v
+│   ├── sot_ac.tex,v
+│   ├── sot_ac_cr.I4,v
+│   ├── sot_ad.tex,v
+│   ├── sot_ant32.tex,v
+│   ├── sot_arrow.tex,v
+│   ├── sot_arrow32.tex,v
+│   ├── sot_b.falcon32.tex,v
+│   ├── sot_b01.tex,v
+│   ├── sot_b_kesu.I4,v
+│   ├── sot_b_kesu.tex,v
+│   ├── sot_b_mro.I4,v
+│   ├── sot_b_na.I4,v
+│   ├── sot_b_na.tex,v
+│   ├── sot_b_pr.I4,v
+│   ├── sot_b_pr.tex,v
+│   ├── sot_b_ro.I4,v
+│   ├── sot_b_ro.tex,v
+│   ├── sot_b_sa.I4,v
+│   ├── sot_b_sa.tex,v
+│   ├── sot_b_sc.I4,v
+│   ├── sot_ba.tex,v
+│   ├── sot_bango.tex,v
+│   ├── sot_banme.tex,v
+│   ├── sot_base01.tex,v
+│   ├── sot_bb.tex,v
+│   ├── sot_beast32.tex,v
+│   ├── sot_bigblue.tex,v
+│   ├── sot_bill01.tex,v
+│   ├── sot_bill01a.tex,v
+│   ├── sot_bill01b.tex,v
+│   ├── sot_bill01c.tex,v
+│   ├── sot_bill01d.tex,v
+│   ├── sot_bill01z.tex,v
+│   ├── sot_bill02.tex,v
+│   ├── sot_bill03.tex,v
+│   ├── sot_billy32.tex,v
+│   ├── sot_black32.tex,v
+│   ├── sot_blue_jap.I4,v
+│   ├── sot_blue_us.I4,v
+│   ├── sot_boost.I4,v
+│   ├── sot_buster32.tex,v
+│   ├── sot_c01.tex,v
+│   ├── sot_c_uke.I4,v
+│   ├── sot_ca.tex,v
+│   ├── sot_carview.tex,v
+│   ├── sot_cb.tex,v
+│   ├── sot_d_cr.I4,v
+│   ├── sot_d_de.I4,v
+│   ├── sot_d_mo.I4,v
+│   ├── sot_d_pa.I4,v
+│   ├── sot_d_po.I4,v
+│   ├── sot_d_se.I4,v
+│   ├── sot_d_set.I4,v
+│   ├── sot_d_so.I4,v
+│   ├── sot_d_st.I4,v
+│   ├── sot_d_ty.I4,v
+│   ├── sot_dart.tex,v
+│   ├── sot_dash.tex,v
+│   ├── sot_dd_nameinput.tex,v
+│   ├── sot_destroy.tex,v
+│   ├── sot_doraku32.tex,v
+│   ├── sot_dr.c32.tex,v
+│   ├── sot_ead32.tex,v
+│   ├── sot_ed_exit.tex,v
+│   ├── sot_ed_help.tex,v
+│   ├── sot_eds_back1.tex,v
+│   ├── sot_eds_back2.tex,v
+│   ├── sot_eds_back3.tex,v
+│   ├── sot_eds_back4.tex,v
+│   ├── sot_eds_back5.tex,v
+│   ├── sot_eds_back6.tex,v
+│   ├── sot_eds_back7.tex,v
+│   ├── sot_eds_back8.tex,v
+│   ├── sot_eds_buil1.tex,v
+│   ├── sot_eds_buil10.tex,v
+│   ├── sot_eds_buil11.tex,v
+│   ├── sot_eds_buil12.tex,v
+│   ├── sot_eds_buil2.tex,v
+│   ├── sot_eds_buil3.tex,v
+│   ├── sot_eds_buil4.tex,v
+│   ├── sot_eds_buil5.tex,v
+│   ├── sot_eds_buil6.tex,v
+│   ├── sot_eds_buil7.tex,v
+│   ├── sot_eds_buil8.tex,v
+│   ├── sot_eds_buil9.tex,v
+│   ├── sot_eds_cylinder1.tex,v
+│   ├── sot_eds_cylinder2.tex,v
+│   ├── sot_eds_cylinder3.tex,v
+│   ├── sot_eds_cylinder4.tex,v
+│   ├── sot_eds_dart1.tex,v
+│   ├── sot_eds_dart2.tex,v
+│   ├── sot_eds_dart3.tex,v
+│   ├── sot_eds_dart4.tex,v
+│   ├── sot_eds_dash1.tex,v
+│   ├── sot_eds_dash2.tex,v
+│   ├── sot_eds_dash3.tex,v
+│   ├── sot_eds_douro2.tex,v
+│   ├── sot_eds_douro3.tex,v
+│   ├── sot_eds_frame.tex,v
+│   ├── sot_eds_gate1.tex,v
+│   ├── sot_eds_gate2.tex,v
+│   ├── sot_eds_gate3.tex,v
+│   ├── sot_eds_half1.tex,v
+│   ├── sot_eds_half2.tex,v
+│   ├── sot_eds_half3.tex,v
+│   ├── sot_eds_half4.tex,v
+│   ├── sot_eds_Hroad1.tex,v
+│   ├── sot_eds_Hroad2.tex,v
+│   ├── sot_eds_Hroad3.tex,v
+│   ├── sot_eds_Hroad_blue.tex,v
+│   ├── sot_eds_Hroad_end.tex,v
+│   ├── sot_eds_Hroad_fire.tex,v
+│   ├── sot_eds_Hroad_forest.tex,v
+│   ├── sot_eds_Hroad_mute.tex,v
+│   ├── sot_eds_Hroad_port.tex,v
+│   ├── sot_eds_Hroad_red.tex,v
+│   ├── sot_eds_Hroad_sand.tex,v
+│   ├── sot_eds_Hroad_sec.tex,v
+│   ├── sot_eds_Hroad_silen.tex,v
+│   ├── sot_eds_Hroad_white.tex,v
+│   ├── sot_eds_iwa1.tex,v
+│   ├── sot_eds_iwa2.tex,v
+│   ├── sot_eds_iwa3.tex,v
+│   ├── sot_eds_iwa4.tex,v
+│   ├── sot_eds_iwa5.tex,v
+│   ├── sot_eds_iwa6.tex,v
+│   ├── sot_eds_jump1.tex,v
+│   ├── sot_eds_jump2.tex,v
+│   ├── sot_eds_jump3.tex,v
+│   ├── sot_eds_kanban1.tex,v
+│   ├── sot_eds_kanban2.tex,v
+│   ├── sot_eds_kanban3.tex,v
+│   ├── sot_eds_mine1.tex,v
+│   ├── sot_eds_mine2.tex,v
+│   ├── sot_eds_mine3.tex,v
+│   ├── sot_eds_pit1.tex,v
+│   ├── sot_eds_pit2.tex,v
+│   ├── sot_eds_pit3.tex,v
+│   ├── sot_eds_road_blue1.tex,v
+│   ├── sot_eds_road_blue2.tex,v
+│   ├── sot_eds_road_blue3.tex,v
+│   ├── sot_eds_road_blue4.tex,v
+│   ├── sot_eds_road_blue5.tex,v
+│   ├── sot_eds_road_end1.tex,v
+│   ├── sot_eds_road_end2.tex,v
+│   ├── sot_eds_road_end3.tex,v
+│   ├── sot_eds_road_end4.tex,v
+│   ├── sot_eds_road_end5.tex,v
+│   ├── sot_eds_road_fire1.tex,v
+│   ├── sot_eds_road_fire2.tex,v
+│   ├── sot_eds_road_fire3.tex,v
+│   ├── sot_eds_road_fire4.tex,v
+│   ├── sot_eds_road_fire5.tex,v
+│   ├── sot_eds_road_forest1.tex,v
+│   ├── sot_eds_road_forest2.tex,v
+│   ├── sot_eds_road_forest3.tex,v
+│   ├── sot_eds_road_forest4.tex,v
+│   ├── sot_eds_road_forest5.tex,v
+│   ├── sot_eds_road_mute1.tex,v
+│   ├── sot_eds_road_mute2.tex,v
+│   ├── sot_eds_road_mute3.tex,v
+│   ├── sot_eds_road_mute4.tex,v
+│   ├── sot_eds_road_mute5.tex,v
+│   ├── sot_eds_road_port1.tex,v
+│   ├── sot_eds_road_port2.tex,v
+│   ├── sot_eds_road_port3.tex,v
+│   ├── sot_eds_road_port4.tex,v
+│   ├── sot_eds_road_port5.tex,v
+│   ├── sot_eds_road_red1.tex,v
+│   ├── sot_eds_road_red2.tex,v
+│   ├── sot_eds_road_red3.tex,v
+│   ├── sot_eds_road_red4.tex,v
+│   ├── sot_eds_road_red5.tex,v
+│   ├── sot_eds_road_sand1.tex,v
+│   ├── sot_eds_road_sand2.tex,v
+│   ├── sot_eds_road_sand3.tex,v
+│   ├── sot_eds_road_sand4.tex,v
+│   ├── sot_eds_road_sand5.tex,v
+│   ├── sot_eds_road_sec1.tex,v
+│   ├── sot_eds_road_sec2.tex,v
+│   ├── sot_eds_road_sec3.tex,v
+│   ├── sot_eds_road_sec4.tex,v
+│   ├── sot_eds_road_sec5.tex,v
+│   ├── sot_eds_road_silen1.tex,v
+│   ├── sot_eds_road_silen2.tex,v
+│   ├── sot_eds_road_silen3.tex,v
+│   ├── sot_eds_road_silen4.tex,v
+│   ├── sot_eds_road_silen5.tex,v
+│   ├── sot_eds_road_white1.tex,v
+│   ├── sot_eds_road_white2.tex,v
+│   ├── sot_eds_road_white3.tex,v
+│   ├── sot_eds_road_white4.tex,v
+│   ├── sot_eds_road_white5.tex,v
+│   ├── sot_eds_slip1.tex,v
+│   ├── sot_eds_slip2.tex,v
+│   ├── sot_eds_slip3.tex,v
+│   ├── sot_eds_slip4.tex,v
+│   ├── sot_eds_tate01.tex,v
+│   ├── sot_eds_tate1.tex,v
+│   ├── sot_eds_tate2.tex,v
+│   ├── sot_eds_Troad1.tex,v
+│   ├── sot_eds_troad1.tex,v
+│   ├── sot_eds_Troad2.tex,v
+│   ├── sot_eds_troad2.tex,v
+│   ├── sot_eds_Troad3.tex,v
+│   ├── sot_eds_troad3.tex,v
+│   ├── sot_eds_Troad_blue.tex,v
+│   ├── sot_eds_Troad_end.tex,v
+│   ├── sot_eds_Troad_fire.tex,v
+│   ├── sot_eds_Troad_forest.tex,v
+│   ├── sot_eds_Troad_mute.tex,v
+│   ├── sot_eds_Troad_port.tex,v
+│   ├── sot_eds_Troad_red.tex,v
+│   ├── sot_eds_Troad_sand.tex,v
+│   ├── sot_eds_Troad_sec.tex,v
+│   ├── sot_eds_Troad_silen.tex,v
+│   ├── sot_eds_Troad_white.tex,v
+│   ├── sot_eds_tube1.tex,v
+│   ├── sot_eds_tube2.tex,v
+│   ├── sot_eds_tube3.tex,v
+│   ├── sot_eds_tube4.tex,v
+│   ├── sot_eds_tunnel1.tex,v
+│   ├── sot_eds_tunnel2.tex,v
+│   ├── sot_eds_tunnel3.tex,v
+│   ├── sot_eds_tunnel4.tex,v
+│   ├── sot_eds_tunnel5.tex,v
+│   ├── sot_eds_yoko1.tex,v
+│   ├── sot_eds_yoko2.tex,v
+│   ├── sot_eds_yoko3.tex,v
+│   ├── sot_eye01.tex,v
+│   ├── sot_f_jump01.tex,v
+│   ├── sot_f_pit02.tex,v
+│   ├── sot_facewaku.tex,v
+│   ├── sot_falcon32.tex,v
+│   ├── sot_filename.tex,v
+│   ├── sot_filename2.tex,v
+│   ├── sot_fire.tex,v
+│   ├── sot_fire_jap.I4,v
+│   ├── sot_fire_us.I4,v
+│   ├── sot_font01.I4,v
+│   ├── sot_font02.I4,v
+│   ├── sot_font03.I4,v
+│   ├── sot_forest.tex,v
+│   ├── sot_forest_jap.I4,v
+│   ├── sot_forest_us.I4,v
+│   ├── sot_gate01.tex,v
+│   ├── sot_gate02.tex,v
+│   ├── sot_gate03.tex,v
+│   ├── sot_gate04.tex,v
+│   ├── sot_goma32.tex,v
+│   ├── sot_goro32.tex,v
+│   ├── sot_haiiie.I4,v
+│   ├── sot_hand.tex,v
+│   ├── sot_help.tex,v
+│   ├── sot_jack32.tex,v
+│   ├── sot_james32.tex,v
+│   ├── sot_jirai_01.tex,v
+│   ├── sot_jirai_02.tex,v
+│   ├── sot_jisan32.tex,v
+│   ├── sot_jump01.tex,v
+│   ├── sot_kanban01.shp,v
+│   ├── sot_kanban02.shp,v
+│   ├── sot_kanban03.shp,v
+│   ├── sot_kanban04.shp,v
+│   ├── sot_keito32.tex,v
+│   ├── sot_km_h.tex,v
+│   ├── sot_lap.tex,v
+│   ├── sot_laptime.tex,v
+│   ├── sot_lapTitle.tex,v
+│   ├── sot_left.tex,v
+│   ├── sot_mega01.tex,v
+│   ├── sot_michael32.tex,v
+│   ├── sot_mine.tex,v
+│   ├── sot_moji.I4,v
+│   ├── sot_movestart.I4,v
+│   ├── sot_mute.tex,v
+│   ├── sot_mute_jap.I4,v
+│   ├── sot_mute_us.I4,v
+│   ├── sot_octman32.tex,v
+│   ├── sot_pad_ab.tex,v
+│   ├── sot_pico32.tex,v
+│   ├── sot_pit.tex,v
+│   ├── sot_point.tex,v
+│   ├── sot_point01.tex,v
+│   ├── sot_point02.tex,v
+│   ├── sot_port.tex,v
+│   ├── sot_port_jap.I4,v
+│   ├── sot_port_us.I4,v
+│   ├── sot_powmeter.tex,v
+│   ├── sot_R1st.tex,v
+│   ├── sot_R2dn.tex,v
+│   ├── sot_R2nd.tex,v
+│   ├── sot_R3rd.tex,v
+│   ├── sot_R4th.tex,v
+│   ├── sot_R5th.tex,v
+│   ├── sot_R6th.tex,v
+│   ├── sot_rank.tex,v
+│   ├── sot_red.tex,v
+│   ├── sot_red_jap.I4,v
+│   ├── sot_red_us.I4,v
+│   ├── sot_reon32.tex,v
+│   ├── sot_reverse.tex,v
+│   ├── sot_rex32.tex,v
+│   ├── sot_Rnd.tex,v
+│   ├── sot_robo32.tex,v
+│   ├── sot_rock01.tex,v
+│   ├── sot_rock02.tex,v
+│   ├── sot_Rrd.tex,v
+│   ├── sot_Rst.tex,v
+│   ├── sot_Rth.tex,v
+│   ├── sot_s.I4,v
+│   ├── sot_sand.tex,v
+│   ├── sot_sand_jap.I4,v
+│   ├── sot_sand_us.I4,v
+│   ├── sot_sec_jap.I4,v
+│   ├── sot_sec_us.I4,v
+│   ├── sot_secter.tex,v
+│   ├── sot_sfalcon32.tex,v
+│   ├── sot_sgoro32.tex,v
+│   ├── sot_silen_jap.I4,v
+│   ├── sot_silen_us.I4,v
+│   ├── sot_silence.tex,v
+│   ├── sot_sjody32.tex,v
+│   ├── sot_slip.tex,v
+│   ├── sot_spare.tex,v
+│   ├── sot_speed.tex,v
+│   ├── sot_srank.tex,v
+│   ├── sot_start.tex,v
+│   ├── sot_start_G.tex,v
+│   ├── sot_stewart32.tex,v
+│   ├── sot_tanaka32.tex,v
+│   ├── sot_tate.shp,v
+│   ├── sot_tate01.tex,v
+│   ├── sot_tate_blue.tex,v
+│   ├── sot_tate_end.tex,v
+│   ├── sot_tate_fire.tex,v
+│   ├── sot_tate_forest.tex,v
+│   ├── sot_tate_mute.tex,v
+│   ├── sot_tate_port.tex,v
+│   ├── sot_tate_red.tex,v
+│   ├── sot_tate_sand.tex,v
+│   ├── sot_tate_sec.tex,v
+│   ├── sot_tate_silen.tex,v
+│   ├── sot_tate_white.tex,v
+│   ├── sot_tiger32.tex,v
+│   ├── sot_time.tex,v
+│   ├── sot_tjiku.shp,v
+│   ├── sot_trap.tex,v
+│   ├── sot_trymark.tex,v
+│   ├── sot_tx_letter.tex,v
+│   ├── sot_tyushin.c,v
+│   ├── sot_US_a_all.I4,v
+│   ├── sot_US_a_bi.I4,v
+│   ├── sot_US_a_bu.I4,v
+│   ├── sot_US_a_ce.I4,v
+│   ├── sot_US_a_ceing.I4,v
+│   ├── sot_US_a_co.I4,v
+│   ├── sot_US_a_da.I4,v
+│   ├── sot_US_a_de.I4,v
+│   ├── sot_US_a_do.I4,v
+│   ├── sot_US_a_du.I4,v
+│   ├── sot_US_a_ge.I4,v
+│   ├── sot_US_a_H.I4,v
+│   ├── sot_US_a_ha.I4,v
+│   ├── sot_US_a_haba.I4,v
+│   ├── sot_US_a_hai.I4,v
+│   ├── sot_US_a_ju.I4,v
+│   ├── sot_US_a_kan.I4,v
+│   ├── sot_US_a_pa.I4,v
+│   ├── sot_US_a_pi.I4,v
+│   ├── sot_US_a_pit.I4,v
+│   ├── sot_US_a_po.I4,v
+│   ├── sot_US_a_ro.I4,v
+│   ├── sot_US_a_se.I4,v
+│   ├── sot_US_a_si.I4,v
+│   ├── sot_US_a_sl.I4,v
+│   ├── sot_US_a_sp.I4,v
+│   ├── sot_US_a_st.I4,v
+│   ├── sot_US_a_T.I4,v
+│   ├── sot_US_a_to.I4,v
+│   ├── sot_US_a_tr.I4,v
+│   ├── sot_US_ac_cr.I4,v
+│   ├── sot_US_b01.tex,v
+│   ├── sot_US_b_kesu.I4,v
+│   ├── sot_US_b_na.I4,v
+│   ├── sot_US_b_pr.I4,v
+│   ├── sot_US_b_ro.I4,v
+│   ├── sot_US_b_sa.I4,v
+│   ├── sot_US_c01.tex,v
+│   ├── sot_US_d_cr.I4,v
+│   ├── sot_US_d_mo.I4,v
+│   ├── sot_US_d_po.I4,v
+│   ├── sot_US_d_se.I4,v
+│   ├── sot_US_d_so.I4,v
+│   ├── sot_US_d_st.I4,v
+│   ├── sot_US_d_ty.I4,v
+│   ├── sot_US_moji.I4,v
+│   ├── sot_US_movestart.I4,v
+│   ├── sot_US_offset.I4,v
+│   ├── sot_waku.tex,v
+│   ├── sot_waku02.tex,v
+│   ├── sot_white.tex,v
+│   ├── sot_white_jap.I4,v
+│   ├── sot_white_us.I4,v
+│   ├── sot_wife32.tex,v
+│   ├── sot_woman32.tex,v
+│   ├── sot_ya.shp,v
+│   ├── sot_ya.tex,v
+│   ├── sot_yesno.I4,v
+│   ├── sot_yjiku.shp,v
+│   ├── sot_yoko.shp,v
+│   ├── sot_yoko01.tex,v
+│   ├── sot_yoko_blue.tex,v
+│   ├── sot_yoko_end.tex,v
+│   ├── sot_yoko_fire.tex,v
+│   ├── sot_yoko_forest.tex,v
+│   ├── sot_yoko_mute.tex,v
+│   ├── sot_yoko_port.tex,v
+│   ├── sot_yoko_red.tex,v
+│   ├── sot_yoko_sand.tex,v
+│   ├── sot_yoko_sec.tex,v
+│   ├── sot_yoko_silen.tex,v
+│   ├── sot_yoko_white.tex,v
+│   ├── sot_zod32.tex,v
+│   ├── sot_zombi32.tex,v
+│   ├── spark.tex,v
+│   ├── spark.tex.ot,v
+│   ├── spark1.tex,v
+│   ├── spark10.tex,v
+│   ├── spark11.tex,v
+│   ├── spark12.tex,v
+│   ├── spark13.tex,v
+│   ├── spark14.tex,v
+│   ├── spark15.tex,v
+│   ├── spark2.tex,v
+│   ├── spark3.tex,v
+│   ├── spark4.tex,v
+│   ├── spark5.tex,v
+│   ├── spark6.tex,v
+│   ├── spark7.tex,v
+│   ├── spark8.tex,v
+│   ├── spark9.tex,v
+│   ├── stage01.c,v
+│   ├── stage02.c,v
+│   ├── stage03.c,v
+│   ├── start_G_blue.tex,v
+│   ├── start_G_end.tex,v
+│   ├── start_G_fire.tex,v
+│   ├── start_G_forest.tex,v
+│   ├── start_G_mute.tex,v
+│   ├── start_G_port.tex,v
+│   ├── start_G_red.tex,v
+│   ├── start_G_sand.tex,v
+│   ├── start_G_sec.tex,v
+│   ├── start_G_silen.tex,v
+│   ├── start_G_white.tex,v
+│   ├── start_GO.c,v
+│   ├── start_GO.tex,v
+│   ├── start_line_blue.tex,v
+│   ├── start_line_end.tex,v
+│   ├── start_line_fire.tex,v
+│   ├── start_line_forest.tex,v
+│   ├── start_line_mute.tex,v
+│   ├── start_line_port.tex,v
+│   ├── start_line_red.tex,v
+│   ├── start_line_sand.tex,v
+│   ├── start_line_sec.tex,v
+│   ├── start_line_silen.tex,v
+│   ├── start_line_white.tex,v
+│   ├── start_N1.tex,v
+│   ├── start_N2.tex,v
+│   ├── start_N3.tex,v
+│   ├── T_blue01.tex,v
+│   ├── T_blue02.tex,v
+│   ├── T_blue03.tex,v
+│   ├── T_end.tex,v
+│   ├── T_fire01.tex,v
+│   ├── T_fire02.tex,v
+│   ├── T_fire03.tex,v
+│   ├── T_forest01.tex,v
+│   ├── T_forest02.tex,v
+│   ├── T_forest03.tex,v
+│   ├── T_mute01.tex,v
+│   ├── T_mute02.tex,v
+│   ├── T_mute03.tex,v
+│   ├── T_port01.tex,v
+│   ├── T_port02.tex,v
+│   ├── T_port03.tex,v
+│   ├── T_red01.tex,v
+│   ├── T_red02.tex,v
+│   ├── T_red03.tex,v
+│   ├── T_sand01.tex,v
+│   ├── T_sand02.tex,v
+│   ├── T_sand03.tex,v
+│   ├── T_sec01.tex,v
+│   ├── T_sec02.tex,v
+│   ├── T_sec03.tex,v
+│   ├── T_silen01.tex,v
+│   ├── T_silen02.tex,v
+│   ├── T_silen03.tex,v
+│   ├── T_white01.tex,v
+│   ├── T_white02.tex,v
+│   ├── T_white03.tex,v
+│   ├── tun_blue01.tex,v
+│   ├── tun_blue02.tex,v
+│   ├── tun_blue03.tex,v
+│   ├── tun_blue04.tex,v
+│   ├── tun_fire01.tex,v
+│   ├── tun_fire02.tex,v
+│   ├── tun_fire03.tex,v
+│   ├── tun_fire04.tex,v
+│   ├── tun_forest01.tex,v
+│   ├── tun_forest02.tex,v
+│   ├── tun_forest03.tex,v
+│   ├── tun_forest04.tex,v
+│   ├── tun_mute01.tex,v
+│   ├── tun_mute02.tex,v
+│   ├── tun_mute03.tex,v
+│   ├── tun_mute04.tex,v
+│   ├── tun_port01.tex,v
+│   ├── tun_port02.tex,v
+│   ├── tun_port03.tex,v
+│   ├── tun_port04.tex,v
+│   ├── tun_red01.tex,v
+│   ├── tun_red02.tex,v
+│   ├── tun_red03.tex,v
+│   ├── tun_red04.tex,v
+│   ├── tun_sand01.tex,v
+│   ├── tun_sand02.tex,v
+│   ├── tun_sand03.tex,v
+│   ├── tun_sand04.tex,v
+│   ├── tun_sec01.tex,v
+│   ├── tun_sec02.tex,v
+│   ├── tun_sec03.tex,v
+│   ├── tun_sec04.tex,v
+│   ├── tun_silen01.tex,v
+│   ├── tun_silen02.tex,v
+│   ├── tun_silen03.tex,v
+│   ├── tun_silen04.tex,v
+│   ├── tun_white01.tex,v
+│   ├── tun_white02.tex,v
+│   ├── tun_white03.tex,v
+│   ├── tun_white04.tex,v
+│   ├── Vs1st.tex,v
+│   ├── Vs2nd.tex,v
+│   ├── Vs3rd.tex,v
+│   ├── wreck_A.shp,v
+│   ├── Z26.tex,v
+│   ├── Z31.tex,v
+│   ├── zh/
+│   │   ├── Attic/
+│   │   │   ├── #ko_gsel_records.tex#,v
+│   │   │   ├── abc4_externlist.c,v
+│   │   │   ├── abc4_fontlist.c,v
+│   │   │   ├── abc4_letterList.c,v
+│   │   │   ├── abc4_texlist.c,v
+│   │   │   ├── abc4_width.c,v
+│   │   │   ├── abcs_externlist.c,v
+│   │   │   ├── abcs_fontlist.c,v
+│   │   │   ├── abcs_letterList.c,v
+│   │   │   ├── abcs_texlist.c,v
+│   │   │   ├── abcs_width.c,v
+│   │   │   ├── check.c,v
+│   │   │   ├── check.tex,v
+│   │   │   ├── dai_me_alldataclear.tex,v
+│   │   │   ├── dai_me_alldataclearOK.tex,v
+│   │   │   ├── dai_me_cassette.tex,v
+│   │   │   ├── dai_me_coursechange.tex,v
+│   │   │   ├── dai_me_disk.tex,v
+│   │   │   ├── dai_me_diskghostsave.tex,v
+│   │   │   ├── dai_me_exitOP.tex,v
+│   │   │   ├── dai_me_ghostchange.tex,v
+│   │   │   ├── dai_me_ghostclear.tex,v
+│   │   │   ├── dai_me_ghostclearOK.tex,v
+│   │   │   ├── dai_me_ghostcopy.tex,v
+│   │   │   ├── dai_me_ghostsave.tex,v
+│   │   │   ├── dai_me_handi1.tex,v
+│   │   │   ├── dai_me_handi2.tex,v
+│   │   │   ├── dai_me_machinechange.tex,v
+│   │   │   ├── dai_me_markL.tex,v
+│   │   │   ├── dai_me_markR.tex,v
+│   │   │   ├── dai_me_monoral.tex,v
+│   │   │   ├── dai_me_newghost.tex,v
+│   │   │   ├── dai_me_no.tex,v
+│   │   │   ├── dai_me_OFF.tex,v
+│   │   │   ├── dai_me_oldghost.tex,v
+│   │   │   ├── dai_me_ON.tex,v
+│   │   │   ├── dai_me_OPTION.tex,v
+│   │   │   ├── dai_me_recordclear.tex,v
+│   │   │   ├── dai_me_recordclearOK.tex,v
+│   │   │   ├── dai_me_retry.tex,v
+│   │   │   ├── dai_me_saved.tex,v
+│   │   │   ├── dai_me_saving.tex,v
+│   │   │   ├── dai_me_setting.tex,v
+│   │   │   ├── dai_me_soundmode.tex,v
+│   │   │   ├── dai_me_stereo.tex,v
+│   │   │   ├── dai_me_timeover_ghost.tex,v
+│   │   │   ├── dai_me_tudukeru.tex,v
+│   │   │   ├── dai_me_VScpu.tex,v
+│   │   │   ├── dai_me_VShandicap.tex,v
+│   │   │   ├── dai_me_VSslot.tex,v
+│   │   │   ├── dai_me_yameru.tex,v
+│   │   │   ├── dai_me_yes.tex,v
+│   │   │   ├── kn_tarbin.tex,v
+│   │   │   ├── kn_tarrow.tex,v
+│   │   │   ├── kn_tbaba.tex,v
+│   │   │   ├── kn_tbeast.tex,v
+│   │   │   ├── kn_tbilly.tex,v
+│   │   │   ├── kn_tblack.tex,v
+│   │   │   ├── kn_tblood.tex,v
+│   │   │   ├── kn_tbuster.tex,v
+│   │   │   ├── kn_tchain.tex,v
+│   │   │   ├── kn_tdoraq.tex,v
+│   │   │   ├── kn_tdr.tex,v
+│   │   │   ├── kn_tdraq.tex,v
+│   │   │   ├── kn_tead.tex,v
+│   │   │   ├── kn_tfalcon.tex,v
+│   │   │   ├── kn_tfalcon2.tex,v
+│   │   │   ├── kn_tgazelle.tex,v
+│   │   │   ├── kn_tgoma.tex,v
+│   │   │   ├── kn_tgoro.tex,v
+│   │   │   ├── kn_tgoroh.tex,v
+│   │   │   ├── kn_tguster.tex,v
+│   │   │   ├── kn_tjack.tex,v
+│   │   │   ├── kn_tjames.tex,v
+│   │   │   ├── kn_tjody.tex,v
+│   │   │   ├── kn_tkate.tex,v
+│   │   │   ├── kn_tmichael.tex,v
+│   │   │   ├── kn_tmrs.tex,v
+│   │   │   ├── kn_toct.tex,v
+│   │   │   ├── kn_tpico.tex,v
+│   │   │   ├── kn_treon.tex,v
+│   │   │   ├── kn_trex.tex,v
+│   │   │   ├── kn_troger.tex,v
+│   │   │   ├── kn_tsilver.tex,v
+│   │   │   ├── kn_tstewart.tex,v
+│   │   │   ├── kn_ttanaka.tex,v
+│   │   │   ├── kn_tzod.tex,v
+│   │   │   ├── ko_csel_jcup.tex,v
+│   │   │   ├── ko_csel_joker.tex,v
+│   │   │   ├── ko_csel_kcup.tex,v
+│   │   │   ├── ko_csel_mcup.tex,v
+│   │   │   ├── ko_csel_qcup.tex,v
+│   │   │   ├── ko_gsel_2p.tex,v
+│   │   │   ├── ko_gsel_3p.tex,v
+│   │   │   ├── ko_gsel_4p.tex,v
+│   │   │   ├── ko_gsel_gp.tex,v
+│   │   │   ├── ko_gsel_option.tex,v
+│   │   │   ├── ko_gsel_rec.tex,v
+│   │   │   ├── ko_gsel_records.tex,v
+│   │   │   ├── ko_gsel_slot.tex,v
+│   │   │   ├── ko_gsel_ta.tex,v
+│   │   │   ├── ko_gsel_vs.tex,v
+│   │   │   ├── ko_msel_body.tex,v
+│   │   │   ├── ko_msel_boost.tex,v
+│   │   │   ├── ko_msel_grip.tex,v
+│   │   │   ├── ko_name_arbin.tex,v
+│   │   │   ├── ko_name_arrow.tex,v
+│   │   │   ├── ko_name_baba.tex,v
+│   │   │   ├── ko_name_beast.tex,v
+│   │   │   ├── ko_name_billy.tex,v
+│   │   │   ├── ko_name_black.tex,v
+│   │   │   ├── ko_name_blood.tex,v
+│   │   │   ├── ko_name_buster.tex,v
+│   │   │   ├── ko_name_chain.tex,v
+│   │   │   ├── ko_name_Dr.tex,v
+│   │   │   ├── ko_name_draq.tex,v
+│   │   │   ├── ko_name_ead.tex,v
+│   │   │   ├── ko_name_falcon.tex,v
+│   │   │   ├── ko_name_goma.tex,v
+│   │   │   ├── ko_name_goroh.tex,v
+│   │   │   ├── ko_name_guster.tex,v
+│   │   │   ├── ko_name_jack.tex,v
+│   │   │   ├── ko_name_james.tex,v
+│   │   │   ├── ko_name_jody.tex,v
+│   │   │   ├── ko_name_KATE.tex,v
+│   │   │   ├── ko_name_leon.tex,v
+│   │   │   ├── ko_name_MM.tex,v
+│   │   │   ├── ko_name_Mrs.tex,v
+│   │   │   ├── ko_name_octman.tex,v
+│   │   │   ├── ko_name_pico.tex,v
+│   │   │   ├── ko_name_rex.tex,v
+│   │   │   ├── ko_name_silver.tex,v
+│   │   │   ├── ko_name_stewart.tex,v
+│   │   │   ├── ko_name_tanaka.tex,v
+│   │   │   ├── ko_name_zod.tex,v
+│   │   │   ├── ko_select_ok.tex,v
+│   │   │   ├── ko_select_ok.tex.tex,v
+│   │   │   ├── ko_title_nintendo.tex,v
+│   │   │   ├── ko_title_start.tex,v
+│   │   │   ├── kous_csel_ghost.tex,v
+│   │   │   ├── kous_csel_logo.tex,v
+│   │   │   ├── kous_csel_logo2.tex,v
+│   │   │   ├── kous_csel_ta_type0.tex,v
+│   │   │   ├── kous_csel_ta_type1.tex,v
+│   │   │   ├── kous_csel_ta_type2.tex,v
+│   │   │   ├── kous_csel_ta_type3.tex,v
+│   │   │   ├── kous_csel_ta_type4.tex,v
+│   │   │   ├── kous_gsel_easy.tex,v
+│   │   │   ├── kous_gsel_hard.tex,v
+│   │   │   ├── kous_gsel_logo.tex,v
+│   │   │   ├── kous_gsel_master.tex,v
+│   │   │   ├── kous_gsel_normal.tex,v
+│   │   │   ├── kous_gsel_rec.tex,v
+│   │   │   ├── kous_gsel_records.tex,v
+│   │   │   ├── kous_gsel_time.tex,v
+│   │   │   ├── kous_msel_logo.tex,v
+│   │   │   ├── kous_msel_meter.tex,v
+│   │   │   ├── kous_msel_meter1.tex,v
+│   │   │   ├── kous_msel_meter2.tex,v
+│   │   │   ├── kous_msel_meter4p1.tex,v
+│   │   │   ├── kous_msel_meter4p1.tex~,v
+│   │   │   ├── kous_msel_meter4p2.tex,v
+│   │   │   ├── kous_title_caution.tex,v
+│   │   │   ├── kous_title_caution2.tex,v
+│   │   │   ├── kous_title_caution3.tex,v
+│   │   │   ├── kous_title_logo.tex,v
+│   │   │   ├── menu_externlist.c,v
+│   │   │   ├── menu_fontlist.c,v
+│   │   │   ├── menu_letterList.c,v
+│   │   │   ├── menu_texlist.c,v
+│   │   │   ├── menu_width.c,v
+│   │   │   ├── menus_fontlist.c,v
+│   │   │   ├── mojivs_com.tex,v
+│   │   │   ├── mojivs_end.tex,v
+│   │   │   ├── mojivs_player.tex,v
+│   │   │   ├── mojivs_select.tex,v
+│   │   │   ├── pilot_name_sizes.inc,v
+│   │   │   ├── rival.c,v
+│   │   │   ├── rival.tex,v
+│   │   │   ├── sot_powmeter.tex,v
+│   │   │   ├── start_GO.c,v
+│   │   │   ├── start_GO.tex,v
+│   │   │   ├── zh_moji4_000.tex,v
+│   │   │   ├── zh_moji4_001.tex,v
+│   │   │   ├── zh_moji4_002.tex,v
+│   │   │   ├── zh_moji4_003.tex,v
+│   │   │   ├── zh_moji4_004.tex,v
+│   │   │   ├── zh_moji4_005.tex,v
+│   │   │   ├── zh_moji4_006.tex,v
+│   │   │   ├── zh_moji4_007.tex,v
+│   │   │   ├── zh_moji4_008.tex,v
+│   │   │   ├── zh_moji4_009.tex,v
+│   │   │   ├── zh_moji4_010.tex,v
+│   │   │   ├── zh_moji4_011.tex,v
+│   │   │   ├── zh_moji4_012.tex,v
+│   │   │   ├── zh_moji4_013.tex,v
+│   │   │   ├── zh_moji4_014.tex,v
+│   │   │   ├── zh_moji4_015.tex,v
+│   │   │   ├── zh_moji4_016.tex,v
+│   │   │   ├── zh_moji4_017.tex,v
+│   │   │   ├── zh_moji4_018.tex,v
+│   │   │   ├── zh_moji4_019.tex,v
+│   │   │   ├── zh_moji4_020.tex,v
+│   │   │   ├── zh_moji4_021.tex,v
+│   │   │   ├── zh_moji4_022.tex,v
+│   │   │   ├── zh_moji4_023.tex,v
+│   │   │   ├── zh_moji4_024.tex,v
+│   │   │   ├── zh_moji4_025.tex,v
+│   │   │   ├── zh_moji4_026.tex,v
+│   │   │   ├── zh_moji4_027.tex,v
+│   │   │   ├── zh_moji4_028.tex,v
+│   │   │   ├── zh_moji4_029.tex,v
+│   │   │   ├── zh_moji4_030.tex,v
+│   │   │   ├── zh_moji4_031.tex,v
+│   │   │   ├── zh_moji4_032.tex,v
+│   │   │   ├── zh_moji4_033.tex,v
+│   │   │   ├── zh_moji4_034.tex,v
+│   │   │   ├── zh_moji4_035.tex,v
+│   │   │   ├── zh_moji4_036.tex,v
+│   │   │   ├── zh_moji4_037.tex,v
+│   │   │   ├── zh_moji4_038.tex,v
+│   │   │   ├── zh_moji4_039.tex,v
+│   │   │   ├── zh_moji4_040.tex,v
+│   │   │   ├── zh_moji4_041.tex,v
+│   │   │   ├── zh_moji4_042.tex,v
+│   │   │   ├── zh_moji4_043.tex,v
+│   │   │   ├── zh_moji4_044.tex,v
+│   │   │   ├── zh_moji4_045.tex,v
+│   │   │   ├── zh_moji4_046.tex,v
+│   │   │   ├── zh_moji4_047.tex,v
+│   │   │   ├── zh_moji4_048.tex,v
+│   │   │   ├── zh_moji4_049.tex,v
+│   │   │   ├── zh_moji4_050.tex,v
+│   │   │   ├── zh_moji4_051.tex,v
+│   │   │   ├── zh_moji4_052.tex,v
+│   │   │   ├── zh_moji4_053.tex,v
+│   │   │   ├── zh_moji4_054.tex,v
+│   │   │   ├── zh_moji4_055.tex,v
+│   │   │   ├── zh_moji4_056.tex,v
+│   │   │   ├── zh_moji4_057.tex,v
+│   │   │   ├── zh_moji4_058.tex,v
+│   │   │   ├── zh_moji4_059.tex,v
+│   │   │   ├── zh_moji4_060.tex,v
+│   │   │   ├── zh_moji4_061.tex,v
+│   │   │   ├── zh_moji4_062.tex,v
+│   │   │   ├── zh_moji4_063.tex,v
+│   │   │   ├── zh_moji4_064.tex,v
+│   │   │   ├── zh_moji4_065.tex,v
+│   │   │   ├── zh_moji4_066.tex,v
+│   │   │   ├── zh_moji4_067.tex,v
+│   │   │   ├── zh_moji4_068.tex,v
+│   │   │   ├── zh_moji4_069.tex,v
+│   │   │   ├── zh_moji4_070.tex,v
+│   │   │   ├── zh_moji4_071.tex,v
+│   │   │   ├── zh_moji4_072.tex,v
+│   │   │   ├── zh_moji4_073.tex,v
+│   │   │   ├── zh_moji4_074.tex,v
+│   │   │   ├── zh_moji4_075.tex,v
+│   │   │   ├── zh_moji4_076.tex,v
+│   │   │   ├── zh_moji4_077.tex,v
+│   │   │   ├── zh_moji4_078.tex,v
+│   │   │   ├── zh_moji4_079.tex,v
+│   │   │   ├── zh_moji4_080.tex,v
+│   │   │   ├── zh_moji4_081.tex,v
+│   │   │   ├── zh_moji_000.tex,v
+│   │   │   ├── zh_moji_001.tex,v
+│   │   │   ├── zh_moji_002.tex,v
+│   │   │   ├── zh_moji_003.tex,v
+│   │   │   ├── zh_moji_004.tex,v
+│   │   │   ├── zh_moji_005.tex,v
+│   │   │   ├── zh_moji_006.tex,v
+│   │   │   ├── zh_moji_007.tex,v
+│   │   │   ├── zh_moji_008.tex,v
+│   │   │   ├── zh_moji_009.tex,v
+│   │   │   ├── zh_moji_010.tex,v
+│   │   │   ├── zh_moji_011.tex,v
+│   │   │   ├── zh_moji_012.tex,v
+│   │   │   ├── zh_moji_013.tex,v
+│   │   │   ├── zh_moji_014.tex,v
+│   │   │   ├── zh_moji_015.tex,v
+│   │   │   ├── zh_moji_016.tex,v
+│   │   │   ├── zh_moji_017.tex,v
+│   │   │   ├── zh_moji_018.tex,v
+│   │   │   ├── zh_moji_019.tex,v
+│   │   │   ├── zh_moji_020.tex,v
+│   │   │   ├── zh_moji_021.tex,v
+│   │   │   ├── zh_moji_022.tex,v
+│   │   │   ├── zh_moji_023.tex,v
+│   │   │   ├── zh_moji_024.tex,v
+│   │   │   ├── zh_moji_025.tex,v
+│   │   │   ├── zh_moji_026.tex,v
+│   │   │   ├── zh_moji_027.tex,v
+│   │   │   ├── zh_moji_028.tex,v
+│   │   │   ├── zh_moji_029.tex,v
+│   │   │   ├── zh_moji_030.tex,v
+│   │   │   ├── zh_moji_031.tex,v
+│   │   │   ├── zh_moji_032.tex,v
+│   │   │   ├── zh_moji_033.tex,v
+│   │   │   ├── zh_moji_034.tex,v
+│   │   │   ├── zh_moji_035.tex,v
+│   │   │   ├── zh_moji_036.tex,v
+│   │   │   ├── zh_moji_037.tex,v
+│   │   │   ├── zh_moji_038.tex,v
+│   │   │   ├── zh_moji_039.tex,v
+│   │   │   ├── zh_moji_040.tex,v
+│   │   │   ├── zh_moji_041.tex,v
+│   │   │   ├── zh_moji_042.tex,v
+│   │   │   ├── zh_moji_043.tex,v
+│   │   │   ├── zh_moji_044.tex,v
+│   │   │   ├── zh_moji_045.tex,v
+│   │   │   ├── zh_moji_046.tex,v
+│   │   │   ├── zh_moji_047.tex,v
+│   │   │   ├── zh_moji_048.tex,v
+│   │   │   ├── zh_moji_049.tex,v
+│   │   │   ├── zh_moji_050.tex,v
+│   │   │   ├── zh_moji_051.tex,v
+│   │   │   ├── zh_moji_052.tex,v
+│   │   │   ├── zh_moji_053.tex,v
+│   │   │   ├── zh_moji_054.tex,v
+│   │   │   ├── zh_moji_055.tex,v
+│   │   │   ├── zh_moji_056.tex,v
+│   │   │   ├── zh_moji_057.tex,v
+│   │   │   ├── zh_moji_058.tex,v
+│   │   │   ├── zh_moji_059.tex,v
+│   │   │   ├── zh_moji_060.tex,v
+│   │   │   ├── zh_moji_061.tex,v
+│   │   │   ├── zh_moji_062.tex,v
+│   │   │   ├── zh_moji_063.tex,v
+│   │   │   ├── zh_moji_064.tex,v
+│   │   │   ├── zh_moji_065.tex,v
+│   │   │   ├── zh_moji_066.tex,v
+│   │   │   ├── zh_moji_067.tex,v
+│   │   │   ├── zh_moji_068.tex,v
+│   │   │   ├── zh_moji_069.tex,v
+│   │   │   ├── zh_moji_070.tex,v
+│   │   │   ├── zh_moji_071.tex,v
+│   │   │   ├── zh_moji_072.tex,v
+│   │   │   ├── zh_moji_073.tex,v
+│   │   │   ├── zh_moji_074.tex,v
+│   │   │   ├── zh_moji_075.tex,v
+│   │   │   ├── zh_moji_076.tex,v
+│   │   │   ├── zh_moji_077.tex,v
+│   │   │   ├── zh_moji_078.tex,v
+│   │   │   ├── zh_moji_079.tex,v
+│   │   │   ├── zh_moji_080.tex,v
+│   │   │   ├── zh_moji_081.tex,v
+│   │   │   ├── zh_moji_082.tex,v
+│   │   │   ├── zh_moji_083.tex,v
+│   │   │   ├── zh_moji_084.tex,v
+│   │   │   ├── zh_moji_085.tex,v
+│   │   │   ├── zh_moji_086.tex,v
+│   │   │   ├── zh_moji_087.tex,v
+│   │   │   ├── zh_moji_088.tex,v
+│   │   │   ├── zh_moji_089.tex,v
+│   │   │   ├── zh_mojimenu_000.tex,v
+│   │   │   ├── zh_mojimenu_001.tex,v
+│   │   │   ├── zh_mojimenu_002.tex,v
+│   │   │   ├── zh_mojimenu_003.tex,v
+│   │   │   ├── zh_mojimenu_004.tex,v
+│   │   │   ├── zh_mojimenu_005.tex,v
+│   │   │   ├── zh_mojimenu_006.tex,v
+│   │   │   ├── zh_mojimenu_007.tex,v
+│   │   │   ├── zh_mojimenu_008.tex,v
+│   │   │   ├── zh_mojimenu_009.tex,v
+│   │   │   ├── zh_mojimenu_010.tex,v
+│   │   │   ├── zh_mojimenu_011.tex,v
+│   │   │   ├── zh_mojimenu_012.tex,v
+│   │   │   ├── zh_mojimenu_013.tex,v
+│   │   │   ├── zh_mojimenu_014.tex,v
+│   │   │   ├── zh_mojimenu_015.tex,v
+│   │   │   ├── zh_mojimenu_016.tex,v
+│   │   │   ├── zh_mojimenu_017.tex,v
+│   │   │   ├── zh_mojimenu_018.tex,v
+│   │   │   ├── zh_mojimenu_019.tex,v
+│   │   │   ├── zh_mojimenu_020.tex,v
+│   │   │   ├── zh_mojimenu_021.tex,v
+│   │   │   ├── zh_mojimenu_022.tex,v
+│   │   │   ├── zh_mojimenu_023.tex,v
+│   │   │   ├── zh_mojimenu_024.tex,v
+│   │   │   ├── zh_mojimenu_025.tex,v
+│   │   │   ├── zh_mojimenu_026.tex,v
+│   │   │   ├── zh_mojimenu_027.tex,v
+│   │   │   ├── zh_mojimenu_028.tex,v
+│   │   │   ├── zh_mojimenu_029.tex,v
+│   │   │   ├── zh_mojimenu_030.tex,v
+│   │   │   ├── zh_mojimenu_031.tex,v
+│   │   │   ├── zh_mojimenu_032.tex,v
+│   │   │   ├── zh_mojimenu_033.tex,v
+│   │   │   ├── zh_mojimenu_034.tex,v
+│   │   │   ├── zh_mojimenu_035.tex,v
+│   │   │   ├── zh_mojimenu_036.tex,v
+│   │   │   ├── zh_mojimenu_037.tex,v
+│   │   │   ├── zh_mojimenu_038.tex,v
+│   │   │   ├── zh_mojimenu_039.tex,v
+│   │   │   ├── zh_mojimenu_040.tex,v
+│   │   │   ├── zh_mojimenu_041.tex,v
+│   │   │   ├── zh_mojimenu_042.tex,v
+│   │   │   ├── zh_mojimenu_043.tex,v
+│   │   │   ├── zh_mojimenu_044.tex,v
+│   │   │   ├── zh_mojimenu_045.tex,v
+│   │   │   ├── zh_mojimenu_046.tex,v
+│   │   │   ├── zh_mojimenu_047.tex,v
+│   │   │   ├── zh_mojimenu_048.tex,v
+│   │   │   ├── zh_mojimenu_049.tex,v
+│   │   │   ├── zh_mojimenu_050.tex,v
+│   │   │   └── zh_mojimenu_051.tex,v
+│   │   ├── CVS/
+│   │   │   └── fileattr
+│   │   └── placeholder.txt,v
+│   ├── ZZ1.tex,v
+│   ├── ZZ2.tex,v
+│   ├── ZZ3.tex,v
+│   ├── ZZ4.tex,v
+│   ├── ZZ5.tex,v
+│   ├── ZZ6.tex,v
+│   ├── ZZ7.tex,v
+│   ├── ZZ8.tex,v
+│   └── ZZ9.tex,v
+├── is_debug.o,v
+├── kn_backdata.o,v
+├── kn_backdata_opt.o,v
+├── kn_backedit.h,v
+├── kn_backedit.o,v
+├── kn_backinit.c,v
+├── kn_backinit.o,v
+├── kn_backup.c,v
+├── kn_backup.h,v
+├── kn_camdemo_endgp.o,v
+├── kn_camdemo_endgp2.o,v
+├── kn_camdemo_endgp3.o,v
+├── kn_camdemo_stage1.o,v
+├── kn_camdemo_stage2.o,v
+├── kn_camdemo_stage3.o,v
+├── kn_camera.h,v
+├── kn_camera.o,v
+├── kn_cameraedit.h,v
+├── kn_cameraedit.o,v
+├── kn_cameramem.o,v
+├── kn_common.h,v
+├── kn_common.o,v
+├── kn_disk.h,v
+├── kn_dlsub.h,v
+├── kn_dlsub.o,v
+├── kn_endgp.c,v
+├── kn_endgp.h,v
+├── kn_endgp_d.o,v
+├── kn_font.h,v
+├── kn_option.c,v
+├── kn_option.h,v
+├── kn_record.c,v
+├── kn_record.h,v
+├── kn_recordsub.c,v
+├── kn_recordsub.o,v
+├── kn_romghost0.o,v
+├── kn_romghost1.o,v
+├── kn_romghost10.o,v
+├── kn_romghost11.o,v
+├── kn_romghost12.o,v
+├── kn_romghost13.o,v
+├── kn_romghost14.o,v
+├── kn_romghost15.o,v
+├── kn_romghost16.o,v
+├── kn_romghost17.o,v
+├── kn_romghost18.o,v
+├── kn_romghost19.o,v
+├── kn_romghost2.o,v
+├── kn_romghost20.o,v
+├── kn_romghost21.o,v
+├── kn_romghost22.o,v
+├── kn_romghost23.o,v
+├── kn_romghost3.o,v
+├── kn_romghost4.o,v
+├── kn_romghost5.o,v
+├── kn_romghost6.o,v
+├── kn_romghost7.o,v
+├── kn_romghost8.o,v
+├── kn_romghost9.o,v
+├── kn_ssoption.o,v
+├── kn_ssrecord.c,v
+├── kn_sswipe.o,v
+├── kn_ssworld.o,v
+├── kn_ssworld_bg1.o,v
+├── kn_ssworld_bg2.o,v
+├── kn_ssworld_bg3.o,v
+├── kn_ssworld_bg4.o,v
+├── kn_ssworld_bg5.o,v
+├── kn_ssworld_bg6.o,v
+├── kn_ssworld_bg7.o,v
+├── kn_ssworld_bg9.o,v
+├── kn_ssworld_cl1.o,v
+├── kn_ssworld_gd1.o,v
+├── kn_ssworld_gd10.o,v
+├── kn_ssworld_gd2.o,v
+├── kn_ssworld_gd3.o,v
+├── kn_ssworld_gd4.o,v
+├── kn_ssworld_gd5.o,v
+├── kn_ssworld_gd6.o,v
+├── kn_ssworld_gd7.o,v
+├── kn_ssworld_gd8.o,v
+├── kn_ssworld_gd9.o,v
+├── kn_ssworld_st1.o,v
+├── kn_stage.o,v
+├── kn_suidashi.h,v
+├── kn_window.h,v
+├── kn_window.o,v
+├── kn_wipe.h,v
+├── kn_wipe.o,v
+├── kn_world.h,v
+├── kn_world.o,v
+├── kn_worldobj.h,v
+├── ko_abc.c,v
+├── ko_abc.h,v
+├── ko_block.h,v
+├── ko_block.o,v
+├── ko_csel.c,v
+├── ko_csel.h,v
+├── ko_define.h,v
+├── ko_dtabc.c,v
+├── ko_dtcsel.c,v
+├── ko_dtgsel.c,v
+├── ko_dtmsel.h,v
+├── ko_dtmsel1.o,v
+├── ko_dtmsel2.c,v
+├── ko_dttitle.c,v
+├── ko_dtwin.c,v
+├── ko_gsel.c,v
+├── ko_gsel.h,v
+├── ko_gsub.h,v
+├── ko_gsub.o,v
+├── ko_language.h,v
+├── ko_main.h,v
+├── ko_main.o,v
+├── ko_memory.h,v
+├── ko_msel.c,v
+├── ko_msel.h,v
+├── ko_pcgraph.h,v
+├── ko_pcgraph.o,v
+├── ko_pctask.h,v
+├── ko_pctask.o,v
+├── ko_protect.h,v
+├── ko_protect.o,v
+├── ko_ramman.h,v
+├── ko_ramman.o,v
+├── ko_select.c,v
+├── ko_select.h,v
+├── ko_ssgsub.o,v
+├── ko_title.c,v
+├── ko_title.h,v
+├── ko_win.c,v
+├── ko_win.h,v
+├── l_math.h,v
+├── l_math.o,v
+├── l_static.h,v
+├── l_static.o,v
+├── libboot.a,v
+├── libleo.a,v
+├── makediskFZ,v
+├── makefile,v
+├── metadata/
+│   ├── Attic/
+│   │   └── thumb.rgb,v
+│   ├── thumb.rgba,v
+│   ├── title.inta,v
+│   ├── title_e.txt,v
+│   └── title_z.txt,v
+├── mo_color.h,v
+├── mo_color.o,v
+├── mo_commonprg.c,v
+├── mo_commonstatic.h,v
+├── mo_commonstatic.o,v
+├── mo_controller.h,v
+├── mo_controller.o,v
+├── mo_declare.h,v
+├── mo_diskproc.h,v
+├── mo_diskproc.o,v
+├── mo_drawkanji.c,v
+├── mo_drawkanji.h,v
+├── mo_editor.c,v
+├── mo_editor.h,v
+├── mo_entry.o,v
+├── mo_filelist.o,v
+├── mo_holder.o,v
+├── mo_init.o,v
+├── mo_kbuffer.c,v
+├── mo_kbuffer.h,v
+├── mo_machinemenu.c,v
+├── mo_macro.h,v
+├── mo_macro2.h,v
+├── mo_main.h,v
+├── mo_main.o,v
+├── mo_message.c,v
+├── mo_printerr.c,v
+├── mo_printerr.h,v
+├── mo_reaction.h,v
+├── mo_reaction.o,v
+├── mo_rom.c,v
+├── mo_rom.h,v
+├── mo_romkbuf.c,v
+├── mo_setting.h,v
+├── mo_setting.o,v
+├── mo_setupkanji.c,v
+├── mo_sseditor.c,v
+├── mo_sseditor.h,v
+├── mo_ssmachine.h,v
+├── mo_ssmachine.o,v
+├── mo_ssmenutex.c,v
+├── mo_ssmenutex.h,v
+├── mo_sssetting.c,v
+├── mo_static.h,v
+├── mo_static.o,v
+├── mo_sub.o,v
+├── MOJI/
+│   ├── A8.RGB,v
+│   ├── A8.rgba,v
+│   ├── Alphabet/
+│   │   ├── abc_A.int,v
+│   │   ├── abc_alpha.int,v
+│   │   ├── ABC_AND.INT,v
+│   │   ├── abc_apostrophe.int,v
+│   │   ├── abc_B.int,v
+│   │   ├── ABC_BETA.INT,v
+│   │   ├── abc_C.int,v
+│   │   ├── abc_colon.int,v
+│   │   ├── abc_comma.int,v
+│   │   ├── abc_D.int,v
+│   │   ├── ABC_DOT.INT,v
+│   │   ├── abc_E.int,v
+│   │   ├── abc_exclamation.int,v
+│   │   ├── abc_F.int,v
+│   │   ├── abc_G.int,v
+│   │   ├── abc_gamma.int,v
+│   │   ├── abc_H.int,v
+│   │   ├── abc_hyphen.int,v
+│   │   ├── abc_I.int,v
+│   │   ├── abc_J.int,v
+│   │   ├── abc_K.int,v
+│   │   ├── abc_L.int,v
+│   │   ├── abc_M.int,v
+│   │   ├── abc_N.int,v
+│   │   ├── abc_O.int,v
+│   │   ├── abc_P.int,v
+│   │   ├── abc_period.int,v
+│   │   ├── abc_point.int,v
+│   │   ├── abc_Q.int,v
+│   │   ├── abc_question.int,v
+│   │   ├── abc_R.int,v
+│   │   ├── abc_S.int,v
+│   │   ├── abc_T.int,v
+│   │   ├── abc_U.int,v
+│   │   ├── abc_V.int,v
+│   │   ├── abc_W.int,v
+│   │   ├── abc_X.int,v
+│   │   ├── abc_Y.int,v
+│   │   ├── abc_Z.int,v
+│   │   ├── AND.INT,v
+│   │   ├── e8_A.int,v
+│   │   ├── E8_AND.INT,v
+│   │   ├── e8_B.int,v
+│   │   ├── e8_C.int,v
+│   │   ├── E8_CS.INT,v
+│   │   ├── e8_D.int,v
+│   │   ├── e8_E.int,v
+│   │   ├── e8_F.int,v
+│   │   ├── e8_G.int,v
+│   │   ├── e8_H.int,v
+│   │   ├── e8_I.int,v
+│   │   ├── e8_J.int,v
+│   │   ├── e8_K.int,v
+│   │   ├── e8_L.int,v
+│   │   ├── e8_M.int,v
+│   │   ├── e8_N.int,v
+│   │   ├── e8_O.int,v
+│   │   ├── e8_P.int,v
+│   │   ├── e8_period.int,v
+│   │   ├── e8_Q.int,v
+│   │   ├── e8_R.int,v
+│   │   ├── E8_RS.INT,v
+│   │   ├── e8_S.int,v
+│   │   ├── E8_SS.INT,v
+│   │   ├── e8_T.int,v
+│   │   ├── e8_U.int,v
+│   │   ├── e8_V.int,v
+│   │   ├── e8_W.int,v
+│   │   ├── e8_X.int,v
+│   │   ├── e8_Y.int,v
+│   │   ├── e8_Z.int,v
+│   │   ├── Gettexture,v
+│   │   ├── Gettexture8,v
+│   │   └── Gettexture8.bak,v
+│   ├── AND8.rgba,v
+│   ├── B8.RGB,v
+│   ├── B8.rgba,v
+│   ├── BO.RGB,v
+│   ├── bo.rgba,v
+│   ├── C8.RGB,v
+│   ├── C8.rgba,v
+│   ├── D8.RGB,v
+│   ├── D8.rgba,v
+│   ├── E8.RGB,v
+│   ├── E8.rgba,v
+│   ├── F8.RGB,v
+│   ├── F8.rgba,v
+│   ├── G8.RGB,v
+│   ├── g8.rgba,v
+│   ├── H8.RGB,v
+│   ├── H8.rgba,v
+│   ├── Hiragana/
+│   │   ├── Gettexture,v
+│   │   ├── HIRA_A.INT,v
+│   │   ├── HIRA_BA.INT,v
+│   │   ├── HIRA_BE.INT,v
+│   │   ├── HIRA_BI.INT,v
+│   │   ├── HIRA_BO.INT,v
+│   │   ├── HIRA_BU.INT,v
+│   │   ├── HIRA_DA.INT,v
+│   │   ├── HIRA_DE.INT,v
+│   │   ├── HIRA_DI.INT,v
+│   │   ├── HIRA_DO.INT,v
+│   │   ├── HIRA_DU.INT,v
+│   │   ├── HIRA_E.INT,v
+│   │   ├── HIRA_FU.INT,v
+│   │   ├── HIRA_GA.INT,v
+│   │   ├── HIRA_GE.INT,v
+│   │   ├── HIRA_GI.INT,v
+│   │   ├── HIRA_GO.INT,v
+│   │   ├── HIRA_GU.INT,v
+│   │   ├── HIRA_HA.INT,v
+│   │   ├── HIRA_HE.INT,v
+│   │   ├── HIRA_HI.INT,v
+│   │   ├── HIRA_HO.INT,v
+│   │   ├── HIRA_I.INT,v
+│   │   ├── HIRA_KA.INT,v
+│   │   ├── HIRA_KE.INT,v
+│   │   ├── HIRA_KI.INT,v
+│   │   ├── HIRA_KO.INT,v
+│   │   ├── HIRA_KU.INT,v
+│   │   ├── HIRA_MA.INT,v
+│   │   ├── HIRA_ME.INT,v
+│   │   ├── HIRA_MI.INT,v
+│   │   ├── HIRA_MO.INT,v
+│   │   ├── HIRA_MU.INT,v
+│   │   ├── HIRA_NA.INT,v
+│   │   ├── HIRA_NE.INT,v
+│   │   ├── HIRA_NI.INT,v
+│   │   ├── HIRA_NN.INT,v
+│   │   ├── HIRA_NO.INT,v
+│   │   ├── HIRA_NU.INT,v
+│   │   ├── HIRA_O.INT,v
+│   │   ├── HIRA_PA.INT,v
+│   │   ├── HIRA_PE.INT,v
+│   │   ├── HIRA_PI.INT,v
+│   │   ├── HIRA_PO.INT,v
+│   │   ├── HIRA_PU.INT,v
+│   │   ├── HIRA_RA.INT,v
+│   │   ├── HIRA_RE.INT,v
+│   │   ├── HIRA_RI.INT,v
+│   │   ├── HIRA_RO.INT,v
+│   │   ├── HIRA_RU.INT,v
+│   │   ├── HIRA_SA.INT,v
+│   │   ├── HIRA_SE.INT,v
+│   │   ├── HIRA_SI.INT,v
+│   │   ├── HIRA_SO.INT,v
+│   │   ├── HIRA_SU.INT,v
+│   │   ├── HIRA_TA.INT,v
+│   │   ├── HIRA_TE.INT,v
+│   │   ├── HIRA_TI.INT,v
+│   │   ├── HIRA_TO.INT,v
+│   │   ├── HIRA_TU.INT,v
+│   │   ├── HIRA_U.INT,v
+│   │   ├── HIRA_WA.INT,v
+│   │   ├── HIRA_XTU.INT,v
+│   │   ├── HIRA_XYA.INT,v
+│   │   ├── HIRA_XYO.INT,v
+│   │   ├── HIRA_XYU.INT,v
+│   │   ├── HIRA_YA.INT,v
+│   │   ├── HIRA_YO.INT,v
+│   │   ├── HIRA_YU.INT,v
+│   │   ├── HIRA_ZA.INT,v
+│   │   ├── HIRA_ZE.INT,v
+│   │   ├── HIRA_ZI.INT,v
+│   │   ├── HIRA_ZO.INT,v
+│   │   └── HIRA_ZU.INT,v
+│   ├── I8.RGB,v
+│   ├── I8.rgba,v
+│   ├── J8.RGB,v
+│   ├── J8.rgba,v
+│   ├── K8.RGB,v
+│   ├── K8.rgba,v
+│   ├── Katakana/
+│   │   ├── Gettexture,v
+│   │   ├── Gettexture8,v
+│   │   ├── K8_A.INT,v
+│   │   ├── K8_BA.INT,v
+│   │   ├── K8_BE.INT,v
+│   │   ├── K8_BI.INT,v
+│   │   ├── K8_BO.INT,v
+│   │   ├── K8_BU.INT,v
+│   │   ├── K8_DA.INT,v
+│   │   ├── K8_DE.INT,v
+│   │   ├── K8_DI.INT,v
+│   │   ├── K8_DO.INT,v
+│   │   ├── K8_DU.INT,v
+│   │   ├── K8_E.INT,v
+│   │   ├── K8_GA.INT,v
+│   │   ├── K8_GE.INT,v
+│   │   ├── K8_GI.INT,v
+│   │   ├── K8_GO.INT,v
+│   │   ├── K8_GU.INT,v
+│   │   ├── K8_HA.INT,v
+│   │   ├── K8_HE.INT,v
+│   │   ├── K8_HI.INT,v
+│   │   ├── K8_HO.INT,v
+│   │   ├── K8_HU.INT,v
+│   │   ├── K8_I.INT,v
+│   │   ├── K8_KA.INT,v
+│   │   ├── K8_KE.INT,v
+│   │   ├── K8_KI.INT,v
+│   │   ├── K8_KO.INT,v
+│   │   ├── K8_KU.INT,v
+│   │   ├── K8_MA.INT,v
+│   │   ├── K8_ME.INT,v
+│   │   ├── K8_MI.INT,v
+│   │   ├── K8_MO.INT,v
+│   │   ├── K8_MU.INT,v
+│   │   ├── K8_NA.INT,v
+│   │   ├── K8_NE.INT,v
+│   │   ├── K8_NI.INT,v
+│   │   ├── K8_NN.INT,v
+│   │   ├── K8_NO.INT,v
+│   │   ├── k8_nobashibou.int,v
+│   │   ├── K8_NU.INT,v
+│   │   ├── K8_O.INT,v
+│   │   ├── K8_PA.INT,v
+│   │   ├── K8_PE.INT,v
+│   │   ├── K8_PI.INT,v
+│   │   ├── K8_PO.INT,v
+│   │   ├── K8_PU.INT,v
+│   │   ├── K8_RA.INT,v
+│   │   ├── K8_RE.INT,v
+│   │   ├── K8_RI.INT,v
+│   │   ├── K8_RO.INT,v
+│   │   ├── K8_RU.INT,v
+│   │   ├── K8_SA.INT,v
+│   │   ├── K8_SE.INT,v
+│   │   ├── K8_SI.INT,v
+│   │   ├── K8_SO.INT,v
+│   │   ├── K8_SU.INT,v
+│   │   ├── K8_TA.INT,v
+│   │   ├── K8_TE.INT,v
+│   │   ├── K8_TI.INT,v
+│   │   ├── K8_TO.INT,v
+│   │   ├── K8_TU.INT,v
+│   │   ├── K8_U.INT,v
+│   │   ├── K8_WA.INT,v
+│   │   ├── K8_WO.INT,v
+│   │   ├── K8_XA.INT,v
+│   │   ├── K8_XE.INT,v
+│   │   ├── K8_XI.INT,v
+│   │   ├── K8_XTU.INT,v
+│   │   ├── K8_XYA.INT,v
+│   │   ├── K8_XYO.INT,v
+│   │   ├── K8_XYU.INT,v
+│   │   ├── K8_YA.INT,v
+│   │   ├── K8_YO.INT,v
+│   │   ├── K8_YU.INT,v
+│   │   ├── K8_ZA.INT,v
+│   │   ├── K8_ZE.INT,v
+│   │   ├── K8_ZI.INT,v
+│   │   ├── K8_ZO.INT,v
+│   │   ├── K8_ZU.INT,v
+│   │   ├── KATA_A.INT,v
+│   │   ├── KATA_BA.INT,v
+│   │   ├── KATA_BE.INT,v
+│   │   ├── KATA_BI.INT,v
+│   │   ├── KATA_BO.INT,v
+│   │   ├── KATA_BU.INT,v
+│   │   ├── KATA_DA.INT,v
+│   │   ├── kata_dash.int,v
+│   │   ├── KATA_DE.INT,v
+│   │   ├── KATA_DI.INT,v
+│   │   ├── KATA_DO.INT,v
+│   │   ├── KATA_DU.INT,v
+│   │   ├── KATA_E.INT,v
+│   │   ├── KATA_FU.INT,v
+│   │   ├── KATA_GA.INT,v
+│   │   ├── KATA_GE.INT,v
+│   │   ├── KATA_GI.INT,v
+│   │   ├── KATA_GO.INT,v
+│   │   ├── KATA_GU.INT,v
+│   │   ├── KATA_HA.INT,v
+│   │   ├── KATA_HE.INT,v
+│   │   ├── KATA_HI.INT,v
+│   │   ├── KATA_HO.INT,v
+│   │   ├── KATA_I.INT,v
+│   │   ├── KATA_KA.INT,v
+│   │   ├── KATA_KE.INT,v
+│   │   ├── KATA_KI.INT,v
+│   │   ├── KATA_KO.INT,v
+│   │   ├── KATA_KU.INT,v
+│   │   ├── KATA_MA.INT,v
+│   │   ├── KATA_ME.INT,v
+│   │   ├── KATA_MI.INT,v
+│   │   ├── KATA_MO.INT,v
+│   │   ├── KATA_MU.INT,v
+│   │   ├── KATA_NA.INT,v
+│   │   ├── KATA_NE.INT,v
+│   │   ├── KATA_NI.INT,v
+│   │   ├── KATA_NN.INT,v
+│   │   ├── KATA_NO.INT,v
+│   │   ├── KATA_NU.INT,v
+│   │   ├── KATA_O.INT,v
+│   │   ├── KATA_PA.INT,v
+│   │   ├── KATA_PE.INT,v
+│   │   ├── KATA_PI.INT,v
+│   │   ├── KATA_PO.INT,v
+│   │   ├── KATA_PU.INT,v
+│   │   ├── KATA_RA.INT,v
+│   │   ├── KATA_RE.INT,v
+│   │   ├── KATA_RI.INT,v
+│   │   ├── KATA_RO.INT,v
+│   │   ├── KATA_RU.INT,v
+│   │   ├── KATA_SA.INT,v
+│   │   ├── KATA_SE.INT,v
+│   │   ├── KATA_SI.INT,v
+│   │   ├── KATA_SO.INT,v
+│   │   ├── KATA_SU.INT,v
+│   │   ├── KATA_TA.INT,v
+│   │   ├── KATA_TE.INT,v
+│   │   ├── KATA_TI.INT,v
+│   │   ├── KATA_TO.INT,v
+│   │   ├── KATA_TU.INT,v
+│   │   ├── KATA_U.INT,v
+│   │   ├── KATA_WA.INT,v
+│   │   ├── KATA_XA.INT,v
+│   │   ├── KATA_XE.INT,v
+│   │   ├── KATA_XI.INT,v
+│   │   ├── KATA_XO.INT,v
+│   │   ├── KATA_XTU.INT,v
+│   │   ├── KATA_XU.INT,v
+│   │   ├── KATA_XYA.INT,v
+│   │   ├── KATA_XYO.INT,v
+│   │   ├── KATA_XYU.INT,v
+│   │   ├── KATA_YA.INT,v
+│   │   ├── KATA_YO.INT,v
+│   │   ├── KATA_YU.INT,v
+│   │   ├── KATA_ZA.INT,v
+│   │   ├── KATA_ZE.INT,v
+│   │   ├── KATA_ZI.INT,v
+│   │   ├── KATA_ZO.INT,v
+│   │   └── KATA_ZU.INT,v
+│   ├── KAZU0.RGB,v
+│   ├── KAZU1.RGB,v
+│   ├── KAZU2.RGB,v
+│   ├── KAZU3.RGB,v
+│   ├── KAZU4.RGB,v
+│   ├── KAZU5.RGB,v
+│   ├── KAZU6.RGB,v
+│   ├── KAZU7.RGB,v
+│   ├── KAZU8.RGB,v
+│   ├── KAZU9.RGB,v
+│   ├── KG8.RGB,v
+│   ├── KG8.rgba,v
+│   ├── L8.RGB,v
+│   ├── L8.rgba,v
+│   ├── M8.RGB,v
+│   ├── M8.rgba,v
+│   ├── MENUmoji/
+│   │   ├── CAUTION1.INT,v
+│   │   ├── Gettexture,v
+│   │   ├── Gettexture.bak,v
+│   │   ├── SS0.I,v
+│   │   ├── SS1.I,v
+│   │   ├── SS2.I,v
+│   │   ├── SS3.I,v
+│   │   ├── SS4.I,v
+│   │   ├── SS5.I,v
+│   │   ├── SS6.I,v
+│   │   ├── SS7.I,v
+│   │   ├── SS8.I,v
+│   │   ├── SS9.I,v
+│   │   ├── SS_AND,v
+│   │   ├── SS_COMMA,v
+│   │   ├── ss_dquotation.i,v
+│   │   ├── ss_hyphen.i,v
+│   │   ├── ss_period,v
+│   │   ├── ss_squotation.i,v
+│   │   ├── ss_underbar.i,v
+│   │   ├── ssA.i,v
+│   │   ├── ssALFA.i,v
+│   │   ├── ssB.i,v
+│   │   ├── ssBETA.i,v
+│   │   ├── ssC.i,v
+│   │   ├── ssD.i,v
+│   │   ├── ssE.i,v
+│   │   ├── ssF.i,v
+│   │   ├── ssG.i,v
+│   │   ├── ssH.i,v
+│   │   ├── ssI.i,v
+│   │   ├── ssJ.i,v
+│   │   ├── ssK.i,v
+│   │   ├── ssL.i,v
+│   │   ├── ssM.i,v
+│   │   ├── ssN.i,v
+│   │   ├── ssNI.i,v
+│   │   ├── ssO.i,v
+│   │   ├── ssP.i,v
+│   │   ├── ssQ.i,v
+│   │   ├── ssR.i,v
+│   │   ├── ssS.i,v
+│   │   ├── ssT.i,v
+│   │   ├── ssU.i,v
+│   │   ├── ssV.i,v
+│   │   ├── ssW.i,v
+│   │   ├── ssX.i,v
+│   │   ├── ssY.i,v
+│   │   └── ssZ.i,v
+│   ├── MINI0.RGB,v
+│   ├── mini0.rgba,v
+│   ├── MINI1.RGB,v
+│   ├── mini1.rgba,v
+│   ├── MINI2.RGB,v
+│   ├── mini2.rgba,v
+│   ├── MINI3.RGB,v
+│   ├── mini3.rgba,v
+│   ├── MINI4.RGB,v
+│   ├── mini4.rgba,v
+│   ├── MINI5.RGB,v
+│   ├── mini5.rgba,v
+│   ├── MINI6.RGB,v
+│   ├── mini6.rgba,v
+│   ├── MINI7.RGB,v
+│   ├── mini7.rgba,v
+│   ├── MINI8.RGB,v
+│   ├── mini8.rgba,v
+│   ├── MINI9.RGB,v
+│   ├── mini9.rgba,v
+│   ├── miniCON.rgb,v
+│   ├── miniCON.rgba,v
+│   ├── miniPIRI.rgb,v
+│   ├── miniPIRI.rgba,v
+│   ├── miniQUO.rgb,v
+│   ├── miniQUO.rgba,v
+│   ├── MOJI-0.RGB,v
+│   ├── moji-0.rgba,v
+│   ├── MOJI-1.RGB,v
+│   ├── moji-1.rgba,v
+│   ├── MOJI-2.RGB,v
+│   ├── moji-2.rgba,v
+│   ├── MOJI-3.RGB,v
+│   ├── moji-3.rgba,v
+│   ├── MOJI-4.RGB,v
+│   ├── moji-4.rgba,v
+│   ├── MOJI-5.RGB,v
+│   ├── moji-5.rgba,v
+│   ├── MOJI-6.RGB,v
+│   ├── moji-6.rgba,v
+│   ├── MOJI-7.RGB,v
+│   ├── moji-7.rgba,v
+│   ├── MOJI-8.RGB,v
+│   ├── moji-8.rgba,v
+│   ├── MOJI-9.RGB,v
+│   ├── moji-9.rgba,v
+│   ├── moji-A.rgb,v
+│   ├── moji-A.rgba,v
+│   ├── moji-AND.rgb,v
+│   ├── moji-AND.rgba,v
+│   ├── moji-B.rgb,v
+│   ├── moji-B.rgba,v
+│   ├── moji-bi.rgba,v
+│   ├── moji-C.rgb,v
+│   ├── moji-C.rgba,v
+│   ├── moji-CON.rgb,v
+│   ├── moji-CON.rgba,v
+│   ├── moji-D.rgb,v
+│   ├── moji-D.rgba,v
+│   ├── moji-E.rgb,v
+│   ├── moji-E.rgba,v
+│   ├── moji-end.rgba,v
+│   ├── moji-F.rgb,v
+│   ├── moji-F.rgba,v
+│   ├── moji-G.rgb,v
+│   ├── moji-G.rgba,v
+│   ├── moji-H.rgb,v
+│   ├── moji-H.rgba,v
+│   ├── moji-I.rgb,v
+│   ├── moji-I.rgba,v
+│   ├── moji-J.rgb,v
+│   ├── moji-J.rgba,v
+│   ├── moji-K.rgb,v
+│   ├── moji-K.rgba,v
+│   ├── moji-L.rgb,v
+│   ├── moji-L.rgba,v
+│   ├── moji-line.rgba,v
+│   ├── moji-M.rgb,v
+│   ├── moji-M.rgba,v
+│   ├── moji-N.rgb,v
+│   ├── moji-N.rgba,v
+│   ├── moji-O.rgb,v
+│   ├── moji-O.rgba,v
+│   ├── moji-P.rgb,v
+│   ├── moji-P.rgba,v
+│   ├── moji-PIRI.rgb,v
+│   ├── moji-PIRI.rgba,v
+│   ├── moji-Q.rgb,v
+│   ├── moji-Q.rgba,v
+│   ├── moji-QUO.rgb,v
+│   ├── moji-QUO.rgba,v
+│   ├── moji-R.rgb,v
+│   ├── moji-R.rgba,v
+│   ├── moji-S.rgb,v
+│   ├── moji-S.rgba,v
+│   ├── moji-space.rgba,v
+│   ├── moji-T.rgb,v
+│   ├── moji-T.rgba,v
+│   ├── moji-U.rgb,v
+│   ├── moji-U.rgba,v
+│   ├── moji-under.rgba,v
+│   ├── moji-V.rgb,v
+│   ├── moji-V.rgba,v
+│   ├── moji-W.rgb,v
+│   ├── moji-W.rgba,v
+│   ├── moji-X.rgb,v
+│   ├── moji-X.rgba,v
+│   ├── moji-Y.rgb,v
+│   ├── moji-Y.rgba,v
+│   ├── moji-Z.rgb,v
+│   ├── moji-Z.rgba,v
+│   ├── N8.RGB,v
+│   ├── N8.rgba,v
+│   ├── Numeral/
+│   │   ├── DOT.INT,v
+│   │   ├── Gettexture,v
+│   │   ├── Gettexture8,v
+│   │   ├── Gettexture8.bak,v
+│   │   ├── MINUS.INT,v
+│   │   ├── No0.int,v
+│   │   ├── No1.int,v
+│   │   ├── No2.int,v
+│   │   ├── No3.int,v
+│   │   ├── No4.int,v
+│   │   ├── No5.int,v
+│   │   ├── No6.int,v
+│   │   ├── No7.int,v
+│   │   ├── No8.int,v
+│   │   ├── No9.int,v
+│   │   ├── No_0.int,v
+│   │   ├── No_1.int,v
+│   │   ├── No_2.int,v
+│   │   ├── No_3.int,v
+│   │   ├── No_4.int,v
+│   │   ├── No_5.int,v
+│   │   ├── No_6.int,v
+│   │   ├── No_7.int,v
+│   │   ├── No_8.int,v
+│   │   ├── No_9.int,v
+│   │   ├── No_nd.int,v
+│   │   ├── No_rd.int,v
+│   │   ├── No_st.int,v
+│   │   ├── No_th.int,v
+│   │   ├── PLUS.INT,v
+│   │   ├── POINT.INT,v
+│   │   ├── point_L.int,v
+│   │   ├── point_R.int,v
+│   │   ├── quotation1.int,v
+│   │   └── quotation2.int,v
+│   ├── O8.RGB,v
+│   ├── O8.rgba,v
+│   ├── P8.RGB,v
+│   ├── P8.rgba,v
+│   ├── Q8.RGB,v
+│   ├── Q8.rgba,v
+│   ├── R8.RGB,v
+│   ├── R8.rgba,v
+│   ├── rankA.rgb,v
+│   ├── rankB.rgb,v
+│   ├── rankC.rgb,v
+│   ├── rankD.rgb,v
+│   ├── rankE.rgb,v
+│   ├── S8.RGB,v
+│   ├── S8.rgba,v
+│   ├── T8.RGB,v
+│   ├── T8.rgba,v
+│   ├── U8.RGB,v
+│   ├── U8.rgba,v
+│   ├── V8.RGB,v
+│   ├── V8.rgba,v
+│   ├── VSmoji/
+│   │   ├── E_courseselect.int,v
+│   │   ├── E_VScom.int,v
+│   │   ├── E_VSend.int,v
+│   │   ├── E_VSplayer.int,v
+│   │   ├── E_VSselect.int,v
+│   │   ├── E_yameru.int,v
+│   │   ├── Gettexture,v
+│   │   ├── VS_down.int,v
+│   │   ├── VS_kakkoL.int,v
+│   │   ├── VS_kakkoR.int,v
+│   │   ├── VS_mar.intk,v
+│   │   ├── VS_nd.int,v
+│   │   ├── VS_plus.int,v
+│   │   ├── VS_pts.int,v
+│   │   ├── VS_rd.int,v
+│   │   ├── VS_st.int,v
+│   │   ├── VS_th.int,v
+│   │   ├── VS_up.int,v
+│   │   ├── VS_V.INT,v
+│   │   ├── VScom.int,v
+│   │   ├── VSend.int,v
+│   │   ├── VSp0.int,v
+│   │   ├── VSp1.int,v
+│   │   ├── VSp2.int,v
+│   │   ├── VSp3.int,v
+│   │   ├── VSp4.int,v
+│   │   ├── VSp5.int,v
+│   │   ├── VSp6.int,v
+│   │   ├── VSp7.int,v
+│   │   ├── VSp8.int,v
+│   │   ├── VSp9.int,v
+│   │   ├── VSplayer.int,v
+│   │   └── VSselect.int,v
+│   ├── W8.RGB,v
+│   ├── W8.rgba,v
+│   ├── X8.RGB,v
+│   ├── X8.rgba,v
+│   ├── Y8.RGB,v
+│   ├── Y8.rgba,v
+│   ├── Z8.RGB,v
+│   └── Z8.rgba,v
+├── n64dd.h,v
+├── n64dd_segment.o,v
+├── ot_asegment.o,v
+├── ot_course.h,v
+├── ot_course.o,v
+├── ot_cpumemory.o,v
+├── ot_dsegment.o,v
+├── ot_dtnusmark.o,v
+├── ot_editcar.h,v
+├── ot_editcar.o,v
+├── ot_effect.h,v
+├── ot_effect.o,v
+├── ot_fbuffer0.o,v
+├── ot_fbuffer1.o,v
+├── ot_fbuffer2.o,v
+├── ot_header.h,v
+├── ot_letter.h,v
+├── ot_letter.o,v
+├── ot_machine.h,v
+├── ot_machine.o,v
+├── ot_menu.h,v
+├── ot_menu.o,v
+├── ot_pcaudio.h,v
+├── ot_pcaudio.o,v
+├── ot_race.h,v
+├── ot_race.o,v
+├── ot_rspmemory.o,v
+├── ot_sscourse.o,v
+├── ot_sscourse01.o,v
+├── ot_sscourse02.o,v
+├── ot_sscourse03.o,v
+├── ot_sscourse04.o,v
+├── ot_sscourse05.o,v
+├── ot_sscourse06.o,v
+├── ot_sscourse07.o,v
+├── ot_sscourse08.o,v
+├── ot_sscourse09.o,v
+├── ot_sscourse10.o,v
+├── ot_sscourse11.o,v
+├── ot_sseffect.c,v
+├── ot_sseffect2.c,v
+├── ot_ssegment.o,v
+├── ot_ssenvmap.o,v
+├── ot_ssletter.o,v
+├── ot_ssmachine.o,v
+├── ot_ssmachine2.o,v
+├── ot_stack.o,v
+├── ot_sub.h,v
+├── ot_sub.o,v
+├── ot_system.h,v
+├── ot_zbuffer.o,v
+├── person.h,v
+├── slid12.o,v
+├── sot_buffer.h,v
+├── sot_buffer.o,v
+├── sot_buffer8m.h,v
+├── sot_buffer8m.o,v
+├── sot_camera.h,v
+├── sot_camera.o,v
+├── sot_code.h,v
+├── sot_code.o,v
+├── sot_course.h,v
+├── sot_course8m.o,v
+├── sot_cpuletter.h,v
+├── sot_cpumemory.o,v
+├── sot_crsdat.o,v
+├── sot_crsobj.h,v
+├── sot_crsobj.o,v
+├── sot_define.h,v
+├── sot_disk.c,v
+├── sot_disk.h,v
+├── sot_disk4m.o,v
+├── sot_diskinfo.o,v
+├── sot_diskproc.h,v
+├── sot_disksys.c,v
+├── sot_disksys.h,v
+├── sot_draw.c,v
+├── sot_draw.h,v
+├── sot_dsegment.o,v
+├── sot_dynamic.h,v
+├── sot_editbuf.h,v
+├── sot_editbuf.o,v
+├── sot_efect.h,v
+├── sot_efect.o,v
+├── sot_entry.c,v
+├── sot_entry.h,v
+├── sot_error.h,v
+├── sot_error.o,v
+├── sot_excrsdat0.o,v
+├── sot_excrsdat1.o,v
+├── sot_excrsdat2.o,v
+├── sot_excrsdat3.o,v
+├── sot_excrsdat4.o,v
+├── sot_excrsdat5.o,v
+├── sot_filelist.c,v
+├── sot_filelist.h,v
+├── sot_ghost.h,v
+├── sot_ghost.o,v
+├── sot_help.c,v
+├── sot_help.h,v
+├── sot_kanji.h,v
+├── sot_kanji.o,v
+├── sot_leo.c,v
+├── sot_letter.c,v
+├── sot_letter.h,v
+├── sot_main.h,v
+├── sot_main.o,v
+├── sot_mapbuf.o,v
+├── sot_mapselect.h,v
+├── sot_mapselect.o,v
+├── sot_math.h,v
+├── sot_math.o,v
+├── sot_matrix.h,v
+├── sot_matrix.o,v
+├── sot_menu.c,v
+├── sot_menu.h,v
+├── sot_menudata.c,v
+├── sot_mesdata.c,v
+├── sot_message.c,v
+├── sot_message.h,v
+├── sot_minimap.h,v
+├── sot_minimap.o,v
+├── sot_nameinput.h,v
+├── sot_nameinput.o,v
+├── sot_pack.h,v
+├── sot_pack.o,v
+├── sot_pad.h,v
+├── sot_pad.o,v
+├── sot_reset.o,v
+├── sot_rominfo.h,v
+├── sot_rominfo.o,v
+├── sot_sscrsedit.c,v
+├── sot_sscrsobj.o,v
+├── sot_sscrsobj2.o,v
+├── sot_sseditor.c,v
+├── sot_ssletter.c,v
+├── sot_ssletter.h,v
+├── sot_ssletter2.c,v
+├── sot_sstexbuf.o,v
+├── sot_static.h,v
+├── sot_static.o,v
+├── sot_string.c,v
+├── sot_string.h,v
+├── sot_sub.h,v
+├── sot_sub.o,v
+├── sot_sub8m.o,v
+├── sot_syspad.o,v
+├── sot_system.h,v
+├── sot_system.o,v
+├── sotleo.c,v
+├── sound/
+│   ├── allmake,v
+│   ├── Audio/
+│   │   └── Include/
+│   │       └── neos64.def,v
+│   ├── audio_hb.o,v
+│   ├── audio_hm.o,v
+│   ├── audio_hs.o,v
+│   ├── audio_hw.o,v
+│   ├── game_sound.banks.cart,v
+│   ├── game_sound.music.cart,v
+│   ├── game_sound.sbmap,v
+│   ├── game_sound.table.cart,v
+│   ├── scp.u_sym,v
+│   ├── SeBanks/
+│   │   ├── SE.bank,v
+│   │   ├── SE.bcc,v
+│   │   ├── SE.waveA,v
+│   │   ├── SE.waveB,v
+│   │   ├── SE_SUB.bank,v
+│   │   ├── SE_SUB.bcc,v
+│   │   └── SE_SUB.waveA,v
+│   ├── SeSeqs/
+│   │   ├── mml64.def,v
+│   │   ├── neos64.def,v
+│   │   ├── se_main.com,v
+│   │   ├── se_main.mus,v
+│   │   ├── se_main.u_sym,v
+│   │   ├── se_sub.com,v
+│   │   ├── se_sub.mus,v
+│   │   └── se_sub.u_sym,v
+│   ├── SeWave/
+│   │   ├── accelloff.b.32.c4.aifc,v
+│   │   ├── accelloff.b.32.c4.aiff,v
+│   │   ├── accellon.b.12.c4.aifc,v
+│   │   ├── accellon.b.12.c4.aiff,v
+│   │   ├── accellon.b.32.c4.aifc,v
+│   │   ├── accellon.b.32.c4.aiff,v
+│   │   ├── bakuhatu.b.22.c4.aifc,v
+│   │   ├── bakuhatu.b.22.c4.aiff,v
+│   │   ├── behind.b.16.c4.aifc,v
+│   │   ├── behind.b.16.c4.aiff,v
+│   │   ├── bestlap.b.16.c4.aifc,v
+│   │   ├── bestlap.b.16.c4.aiff,v
+│   │   ├── bigblue_mix.b.22.c4.aifc,v
+│   │   ├── bigblue_mix.b.22.c4.aiff,v
+│   │   ├── bingo.b.16.c4.aifc,v
+│   │   ├── bingo.b.16.c4.aiff,v
+│   │   ├── BOOST.b.16.c4.aifc,v
+│   │   ├── BOOST.b.16.c4.aiff,v
+│   │   ├── brake.b.11.c4.aifc,v
+│   │   ├── brake.b.11.c4.aiff,v
+│   │   ├── brake.b.16.c4.aifc,v
+│   │   ├── brake.b.16.c4.aiff,v
+│   │   ├── brake.b.22.c4.aifc,v
+│   │   ├── brake.b.22.c4.aiff,v
+│   │   ├── brake.b.8.c4.aifc,v
+│   │   ├── brake.b.8.c4.aiff,v
+│   │   ├── bubu.b.22.c4.aifc,v
+│   │   ├── bubu.b.22.c4.aiff,v
+│   │   ├── chakuchi.b.16.c4.aifc,v
+│   │   ├── chakuchi.b.16.c4.aiff,v
+│   │   ├── chakuchi.b.22.c4.aifc,v
+│   │   ├── chakuchi.b.22.c4.aiff,v
+│   │   ├── charge.b.16.c4.aifc,v
+│   │   ├── charge.b.16.c4.aiff,v
+│   │   ├── click.b.16.c4.aifc,v
+│   │   ├── click.b.16.c4.aiff,v
+│   │   ├── crazy.b.16.c4.aifc,v
+│   │   ├── crazy.b.16.c4.aiff,v
+│   │   ├── crush1.b.32.c4.aifc,v
+│   │   ├── crush1.b.32.c4.aiff,v
+│   │   ├── crush2.b.22.c4.aifc,v
+│   │   ├── crush2.b.22.c4.aiff,v
+│   │   ├── danger.b.16.c4.aifc,v
+│   │   ├── danger.b.16.c4.aiff,v
+│   │   ├── deathrace.w.22.c4.aifc,v
+│   │   ├── deathrace.w.22.c4.aiff,v
+│   │   ├── decide.b.26.c4.aifc,v
+│   │   ├── decide.b.26.c4.aiff,v
+│   │   ├── devilsforest_mix.b.22.c4.aifc,v
+│   │   ├── devilsforest_mix.b.22.c4.aiff,v
+│   │   ├── dirt.b.32.c4.aifc,v
+│   │   ├── dirt.b.32.c4.aiff,v
+│   │   ├── door.b.22.c4.aifc,v
+│   │   ├── door.b.22.c4.aiff,v
+│   │   ├── door.b.8.c4.aifc,v
+│   │   ├── door.b.8.c4.aiff,v
+│   │   ├── drift.b.16.c4.aifc,v
+│   │   ├── drift.b.16.c4.aiff,v
+│   │   ├── dummy.b.8.c4.aifc,v
+│   │   ├── dummy.b.8.c4.aiff,v
+│   │   ├── eng_01.b.10.c4.aifc,v
+│   │   ├── eng_01.b.10.c4.aiff,v
+│   │   ├── eng_01.b.16.c4.aifc,v
+│   │   ├── eng_01.b.16.c4.aiff,v
+│   │   ├── ep_small.b.32.c4.aifc,v
+│   │   ├── ep_small.b.32.c4.aiff,v
+│   │   ├── extend.b.16.c4.aifc,v
+│   │   ├── extend.b.16.c4.aiff,v
+│   │   ├── fall_girl.b.16.c4.aifc,v
+│   │   ├── fall_girl.b.16.c4.aiff,v
+│   │   ├── fall_man.b.16.c4.aifc,v
+│   │   ├── fall_man.b.16.c4.aiff,v
+│   │   ├── FINAL.b.16.c4.aifc,v
+│   │   ├── FINAL.b.16.c4.aiff,v
+│   │   ├── finish.b.16.c4.aifc,v
+│   │   ├── finish.b.16.c4.aiff,v
+│   │   ├── flute.b.16.g4.aifc,v
+│   │   ├── flute.b.16.g4.aiff,v
+│   │   ├── flute.b.32.g4.aifc,v
+│   │   ├── flute.b.32.g4.aiff,v
+│   │   ├── funsha1.b.22.c4.aifc,v
+│   │   ├── funsha1.b.22.c4.aiff,v
+│   │   ├── gameover_mix.b.22.c4.aifc,v
+│   │   ├── gameover_mix.b.22.c4.aiff,v
+│   │   ├── go.b.16.c4.aifc,v
+│   │   ├── go.b.16.c4.aiff,v
+│   │   ├── goal_fan_mix.b.22.c4.aifc,v
+│   │   ├── goal_fan_mix.b.22.c4.aiff,v
+│   │   ├── goal_mix.b.22.c4.aifc,v
+│   │   ├── goal_mix.b.22.c4.aiff,v
+│   │   ├── goal_se.b.22.c4.aifc,v
+│   │   ├── goal_se.b.22.c4.aiff,v
+│   │   ├── gp_end_demo_mix.b.22.c4.aifc,v
+│   │   ├── gp_end_demo_mix.b.22.c4.aiff,v
+│   │   ├── gp_gameover.b.22.c4.aifc,v
+│   │   ├── gp_gameover.b.22.c4.aiff,v
+│   │   ├── gp_gameover_mix.b.22.c4.aifc,v
+│   │   ├── gp_gameover_mix.b.22.c4.aiff,v
+│   │   ├── GuitorSE.b.22.c4.aifc,v
+│   │   ├── GuitorSE.b.22.c4.aiff,v
+│   │   ├── hanabi.b.22.c4.aifc,v
+│   │   ├── hanabi.b.22.c4.aiff,v
+│   │   ├── hibana.b.22.c4.aifc,v
+│   │   ├── hibana.b.22.c4.aiff,v
+│   │   ├── hurryup.b.16.c4.aifc,v
+│   │   ├── hurryup.b.16.c4.aiff,v
+│   │   ├── jim01a.w.16.c4.aifc,v
+│   │   ├── jim01a.w.16.c4.aiff,v
+│   │   ├── jim02b.w.16.c4.aifc,v
+│   │   ├── jim02b.w.16.c4.aiff,v
+│   │   ├── jim03c.w.16.c4.aifc,v
+│   │   ├── jim03c.w.16.c4.aiff,v
+│   │   ├── jim05a.w.16.c4.aifc,v
+│   │   ├── jim05a.w.16.c4.aiff,v
+│   │   ├── jim06b.w.16.c4.aifc,v
+│   │   ├── jim06b.w.16.c4.aiff,v
+│   │   ├── jim07b.w.16.c4.aifc,v
+│   │   ├── jim07b.w.16.c4.aiff,v
+│   │   ├── jim08b.w.16.c4.aifc,v
+│   │   ├── jim08b.w.16.c4.aiff,v
+│   │   ├── jim09b.w.16.c4.aifc,v
+│   │   ├── jim09b.w.16.c4.aiff,v
+│   │   ├── jim12a.w.16.c4.aifc,v
+│   │   ├── jim12a.w.16.c4.aiff,v
+│   │   ├── jim13b.w.16.c4.aifc,v
+│   │   ├── jim13b.w.16.c4.aiff,v
+│   │   ├── jim13d.w.16.c4.aifc,v
+│   │   ├── jim13d.w.16.c4.aiff,v
+│   │   ├── jim14c.w.16.c4.aifc,v
+│   │   ├── jim14c.w.16.c4.aiff,v
+│   │   ├── jim15a.w.16.c4.aifc,v
+│   │   ├── jim15a.w.16.c4.aiff,v
+│   │   ├── jim16c.w.16.c4.aifc,v
+│   │   ├── jim16c.w.16.c4.aiff,v
+│   │   ├── jump.b.22.c4.aifc,v
+│   │   ├── jump.b.22.c4.aiff,v
+│   │   ├── kaiten.b.16.c4.aifc,v
+│   │   ├── kaiten.b.16.c4.aiff,v
+│   │   ├── kaze.b.16.c4.aifc,v
+│   │   ├── kaze.b.16.c4.aiff,v
+│   │   ├── kettei.b.22.c4.aifc,v
+│   │   ├── kettei.b.22.c4.aiff,v
+│   │   ├── lost.b.16.c4.aifc,v
+│   │   ├── lost.b.16.c4.aiff,v
+│   │   ├── marimbasmall.b.22.c5.aifc,v
+│   │   ├── marimbasmall.b.22.c5.aiff,v
+│   │   ├── mutecity_mix.b.22.c4.aifc,v
+│   │   ├── mutecity_mix.b.22.c4.aiff,v
+│   │   ├── newrecord.b.16.c4.aifc,v
+│   │   ├── newrecord.b.16.c4.aiff,v
+│   │   ├── nobody.b.16.c4.aifc,v
+│   │   ├── nobody.b.16.c4.aiff,v
+│   │   ├── number_one.b.16.c4.aifc,v
+│   │   ├── number_one.b.16.c4.aiff,v
+│   │   ├── one.b.16.c4.aifc,v
+│   │   ├── one.b.16.c4.aiff,v
+│   │   ├── option_mix.b.22.c4.aifc,v
+│   │   ├── option_mix.b.22.c4.aiff,v
+│   │   ├── OrganSmallAna.b.16.c4.aifc,v
+│   │   ├── OrganSmallAna.b.16.c4.aiff,v
+│   │   ├── pause.b.32.c4.aifc,v
+│   │   ├── pause.b.32.c4.aiff,v
+│   │   ├── pause_out.b.22.c4.aifc,v
+│   │   ├── pause_out.b.22.c4.aiff,v
+│   │   ├── pianose.b.32.C4.aifc,v
+│   │   ├── pianose.b.32.C4.aiff,v
+│   │   ├── porttown_mix.b.22.c4.aifc,v
+│   │   ├── porttown_mix.b.22.c4.aiff,v
+│   │   ├── powerdown.b.16.c4.aifc,v
+│   │   ├── powerdown.b.16.c4.aiff,v
+│   │   ├── rankdowngirl.b.16.c4.aifc,v
+│   │   ├── rankdowngirl.b.16.c4.aiff,v
+│   │   ├── rankdownman.b.16.c4.aifc,v
+│   │   ├── rankdownman.b.16.c4.aiff,v
+│   │   ├── rankupgirl.b.16.c4.aifc,v
+│   │   ├── rankupgirl.b.16.c4.aiff,v
+│   │   ├── rankupman.b.16.c4.aifc,v
+│   │   ├── rankupman.b.16.c4.aiff,v
+│   │   ├── redcanyon_mix.b.22.c4.aifc,v
+│   │   ├── redcanyon_mix.b.22.c4.aiff,v
+│   │   ├── sandocian_mix.b.22.c4.aifc,v
+│   │   ├── sandocian_mix.b.22.c4.aiff,v
+│   │   ├── sector_mix.b.22.c4.aifc,v
+│   │   ├── sector_mix.b.22.c4.aiff,v
+│   │   ├── seeyou.b.16.c4.aifc,v
+│   │   ├── seeyou.b.16.c4.aiff,v
+│   │   ├── select_mix.b.22.c4.aifc,v
+│   │   ├── select_mix.b.22.c4.aiff,v
+│   │   ├── shot1.b.22.c4.aifc,v
+│   │   ├── shot1.b.22.c4.aiff,v
+│   │   ├── silence_mix.b.22.c4.aifc,v
+│   │   ├── silence_mix.b.22.c4.aiff,v
+│   │   ├── slide.b.22.c4.aifc,v
+│   │   ├── slide.b.22.c4.aiff,v
+│   │   ├── slot_push.b.22.c4.aifc,v
+│   │   ├── slot_push.b.22.c4.aiff,v
+│   │   ├── staff.w.22.c4.aifc,v
+│   │   ├── staff.w.22.c4.aiff,v
+│   │   ├── start_demo_mix.b.22.c4.aifc,v
+│   │   ├── start_demo_mix.b.22.c4.aiff,v
+│   │   ├── start_demo_mix_jpn.b.22.c4.aifc,v
+│   │   ├── start_demo_mix_jpn.b.22.c4.aiff,v
+│   │   ├── start_demo_mix_new.b.22.c4.aifc,v
+│   │   ├── start_demo_mix_new.b.22.c4.aiff,v
+│   │   ├── three.b.16.c4.aifc,v
+│   │   ├── three.b.16.c4.aiff,v
+│   │   ├── title_l.b.22.c4.aifc,v
+│   │   ├── title_l.b.22.c4.aiff,v
+│   │   ├── title_mix.b.22.c4.aifc,v
+│   │   ├── title_mix.b.22.c4.aiff,v
+│   │   ├── title_r.b.22.c4.aifc,v
+│   │   ├── title_r.b.22.c4.aiff,v
+│   │   ├── two.b.16.c4.aifc,v
+│   │   ├── two.b.16.c4.aiff,v
+│   │   ├── water.b.16.c4.aifc,v
+│   │   ├── water.b.16.c4.aiff,v
+│   │   ├── whiteland_mix.b.22.c4.aifc,v
+│   │   └── whiteland_mix.b.22.c4.aiff,v
+│   ├── sound.map,v
+│   └── Tool/
+│       ├── aifcup,v
+│       ├── aiffinfo,v
+│       ├── barc,v
+│       ├── bcc,v
+│       ├── bicon,v
+│       ├── d2elf,v
+│       └── scp,v
+├── spec,v
+├── static0.o,v
+├── static4.o,v
+├── staticc1.o,v
+├── staticc10.o,v
+├── staticc11.o,v
+├── staticc2.o,v
+├── staticc3.o,v
+├── staticc4.o,v
+├── staticc5.o,v
+├── staticc6.o,v
+├── staticc7.o,v
+├── staticc8.o,v
+├── staticc9.o,v
+├── statice.o,v
+├── swiss-army-knife.sh,v
+└── ucode_f.h,v
