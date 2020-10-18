@@ -1,0 +1,97 @@
+GFHIOHost/
+├── GFHIOHost/
+│   ├── App.config
+│   ├── Form1.cs
+│   ├── Form1.Designer.cs
+│   ├── Form1.resx
+│   ├── GFHIOHost.csproj
+│   ├── GFMdlConvert.bat
+│   ├── GFMotConvert.bat
+│   ├── MainForm/
+│   │   ├── MainForm_CamController.cs
+│   │   ├── MainForm_Menu.cs
+│   │   ├── MainForm_SendData.cs
+│   │   └── MainForm_TreeView_Model.cs
+│   ├── Program.cs
+│   ├── Properties/
+│   │   ├── AssemblyInfo.cs
+│   │   ├── Resources.Designer.cs
+│   │   ├── Resources.resx
+│   │   ├── Settings.Designer.cs
+│   │   └── Settings.settings
+│   └── Utility/
+│       ├── GFModel.cs
+│       ├── GFMotion.cs
+│       └── GFTreeNode.cs
+├── GFHIOHost.sln
+├── GFHIOHostDll/
+│   ├── app.ico
+│   ├── app.rc
+│   ├── AssemblyInfo.cpp
+│   ├── GFHIOHostDll.cpp
+│   ├── GFHIOHostDll.h
+│   ├── GFHIOHostDll.vcxproj
+│   ├── GFHIOHostDll.vcxproj.filters
+│   ├── ReadMe.txt
+│   ├── resource.h
+│   ├── Stdafx.cpp
+│   └── Stdafx.h
+├── GFHIOHostFormControl/
+│   ├── Forms/
+│   │   ├── Form_Log.cs
+│   │   ├── Form_Log.Designer.cs
+│   │   ├── Form_Log.resx
+│   │   ├── UCtr_HIODevice.cs
+│   │   ├── UCtr_HIODevice.Designer.cs
+│   │   └── UCtr_HIODevice.resx
+│   ├── GFHIOHostFormControl.csproj
+│   ├── Properties/
+│   │   └── AssemblyInfo.cs
+│   └── Uility/
+│       └── HIOSendData.cs
+└── PokeViewerHost/
+    ├── App.config
+    ├── Forms/
+    │   ├── Form_BluePrint.cs
+    │   ├── Form_BluePrint.Designer.cs
+    │   ├── Form_BluePrint.resx
+    │   ├── Form_Config.cs
+    │   ├── Form_Config.Designer.cs
+    │   ├── Form_Config.resx
+    │   ├── UCtr_BluePrint.cs
+    │   ├── UCtr_BluePrint.Designer.cs
+    │   ├── UCtr_BluePrint.resx
+    │   ├── UCtr_PokeDexCapture.cs
+    │   ├── UCtr_PokeDexCapture.Designer.cs
+    │   ├── UCtr_PokeDexCapture.resx
+    │   ├── UCtr_PokeDexCapture_Image.cs
+    │   ├── UCtr_PokeDexCapture_Image.Designer.cs
+    │   └── UCtr_PokeDexCapture_Image.resx
+    ├── Images/
+    │   └── Background.bmp
+    ├── MainForm.cs
+    ├── MainForm.Designer.cs
+    ├── MainForm.resx
+    ├── MainForm_Method.cs
+    ├── PokeViewerHost.csproj
+    ├── Program.cs
+    ├── Properties/
+    │   ├── AssemblyInfo.cs
+    │   ├── Resources.Designer.cs
+    │   ├── Resources.resx
+    │   ├── Settings.Designer.cs
+    │   └── Settings.settings
+    ├── Resources/
+    │   └── Image_Background.bmp
+    ├── Utility/
+    │   ├── BluePrint.cs
+    │   ├── Config.cs
+    │   ├── DXGrid.cs
+    │   ├── DXLight.cs
+    │   ├── PersonalConfig.cs
+    │   ├── PokeDexImageTool.cs
+    │   └── PokeInfo.cs
+    └── workspace/
+        └── _env/
+            ├── PokeInfoDef.xml
+            └── PokeNameList.xml

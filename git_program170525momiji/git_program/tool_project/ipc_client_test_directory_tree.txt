@@ -1,0 +1,31 @@
+ipc_client_test/
+├── include/
+│   ├── chara_define.h
+│   ├── client_main.h
+│   ├── common.h
+│   ├── debugprint.h
+│   ├── heap_define.h
+│   ├── heap_size.h
+│   ├── main.h
+│   ├── output_listener.h
+│   ├── resource.h
+│   ├── start_listener.h
+│   ├── stdafx.h
+│   ├── targetver.h
+│   └── util.h
+├── project/
+│   ├── ipc2.ico
+│   ├── ipc_client_test.vcxproj
+│   ├── ipc_client_test.vcxproj.filters
+│   ├── Resource.aps
+│   ├── Resource.rc
+│   └── resource1.h
+├── source/
+│   ├── client_main.cpp
+│   ├── debugprint.cpp
+│   ├── main.cpp
+│   ├── stdafx.cpp
+│   ├── window.cpp
+│   └── window.h
+└── tool/
+    └── run_qtc.bat

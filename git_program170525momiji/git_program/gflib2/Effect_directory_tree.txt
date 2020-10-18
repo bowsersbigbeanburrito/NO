@@ -1,0 +1,44 @@
+Effect/
+├── include/
+│   ├── gfl2_EffectConfig.h
+│   ├── gfl2_EffectEmitterSet.h
+│   ├── gfl2_EffectHandle.h
+│   ├── gfl2_EffectHeap.h
+│   ├── gfl2_EffectRenderPath.h
+│   ├── gfl2_EffectResource.h
+│   └── gfl2_EffectSystem.h
+├── project/
+│   ├── __EffectIcon.ico
+│   ├── Effect.vcxproj
+│   ├── Effect.vcxproj.filters
+│   └── Effect.vstemplate
+├── sample/
+│   ├── data/
+│   │   ├── convert.bat
+│   │   ├── EmitterSetDrawDemo.xml
+│   │   ├── OMakefile
+│   │   ├── OMakeroot
+│   │   ├── out_ctr_/
+│   │   │   └── sample.ctr.ptcl
+│   │   ├── out_win32_/
+│   │   │   └── sample.wingl.ptcl
+│   │   └── SampleData/
+│   │       ├── Sample_Fall.eset
+│   │       ├── Sample_Fire_02.eset
+│   │       └── Textures/
+│   │           ├── Fire_01.tga
+│   │           └── Fire_02.tga
+│   ├── EffectSample.sln
+│   └── project/
+│       ├── EffectSample.link.props
+│       ├── EffectSample.props
+│       ├── EffectSample.rsf
+│       ├── EffectSample.vcxproj
+│       ├── EffectSample.vcxproj.filters
+│       ├── main.cpp
+│       └── romfiles/
+│           └── .gitkeep
+└── source/
+    ├── gfl2_EffectHandle.cpp
+    ├── gfl2_EffectRenderPath.cpp
+    └── gfl2_EffectSystem.cpp

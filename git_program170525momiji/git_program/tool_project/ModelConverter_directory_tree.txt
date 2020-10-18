@@ -1,0 +1,132 @@
+ModelConverter/
+├── DummyTex.3ds.tga
+├── DummyTex.tga
+├── EffectNodeConverter/
+│   ├── EffectNodeConverter.cpp
+│   ├── EffectNodeConverter.vcxproj
+│   ├── EffectNodeConverter.vcxproj.filters
+│   ├── EffectNodeData.cpp
+│   ├── EffectNodeData.h
+│   ├── stdafx.cpp
+│   ├── stdafx.h
+│   └── targetver.h
+├── gles2/
+│   ├── gl2.h
+│   ├── gl2ext.h
+│   └── gl2platform.h
+├── LocConverter/
+│   ├── LocConverter.cpp
+│   ├── LocConverter.vcxproj
+│   ├── LocConverter.vcxproj.filters
+│   ├── stdafx.cpp
+│   ├── stdafx.h
+│   └── targetver.h
+├── ModelConverter/
+│   ├── CommandBuilder.cpp
+│   ├── CommandBuilder.h
+│   ├── GfMdlData.cpp
+│   ├── GfMdlData.h
+│   ├── gr_BindSymbol.h
+│   ├── gr_Combiner.cpp
+│   ├── gr_Combiner.h
+│   ├── gr_gl.h
+│   ├── gr_LookUpTable.cpp
+│   ├── gr_LookUpTable.h
+│   ├── gr_Prefix.h
+│   ├── gr_RenderState.cpp
+│   ├── gr_RenderState.h
+│   ├── gr_Texture.cpp
+│   ├── gr_Texture.h
+│   ├── gr_Utility.h
+│   ├── gr_Vertex.cpp
+│   ├── gr_Vertex.h
+│   ├── main.cpp
+│   ├── ModelConverter.vcxproj
+│   ├── ModelConverter.vcxproj.filters
+│   ├── pm0025_00.gfmdl
+│   ├── types.h
+│   ├── util_Float24.h
+│   └── util_SizedEnum.h
+├── ModelConverter.bat
+├── ModelConverter.sln
+├── nn/
+│   ├── gr/
+│   │   └── CTR/
+│   │       ├── gr_BindSymbol.h
+│   │       ├── gr_Combiner.h
+│   │       ├── gr_Fog.h
+│   │       ├── gr_FragmentLight.h
+│   │       ├── gr_FrameBuffer.h
+│   │       ├── gr_LookUpTable.h
+│   │       ├── gr_Prefix.h
+│   │       ├── gr_ProcedureTexture.h
+│   │       ├── gr_RenderState.h
+│   │       ├── gr_Scissor.h
+│   │       ├── gr_Shader.h
+│   │       ├── gr_ShaderLite.h
+│   │       ├── gr_Texture.h
+│   │       ├── gr_Utility.h
+│   │       ├── gr_Vertex.h
+│   │       └── gr_Viewport.h
+│   ├── gr.h
+│   ├── gx/
+│   │   └── CTR/
+│   │       ├── gx_CommandAccess.h
+│   │       ├── gx_CTR.h
+│   │       ├── gx_CTRRaw.h
+│   │       ├── gx_Lcd.h
+│   │       ├── gx_MacroCommon.h
+│   │       ├── gx_MacroFragment.h
+│   │       ├── gx_MacroMisc.h
+│   │       ├── gx_MacroOld.h
+│   │       ├── gx_MacroReg.h
+│   │       ├── gx_MacroShader.h
+│   │       ├── gx_MacroTexture.h
+│   │       ├── gx_Misc.h
+│   │       ├── gx_UniformLocationForFragmentShader.h
+│   │       └── gx_Vram.h
+│   ├── gx.h
+│   └── types.h
+├── pm0025_00_BodyA1.3ds.tga
+├── pm0025_00_BodyA1.tga
+├── pm0025_00_BodyANor.3ds.tga
+├── pm0025_00_BodyANor.tga
+├── Release/
+│   ├── PDC_Body_Shadow.ctr.gfbvsh
+│   ├── PDC_Body_Shadow.gffsh
+│   ├── PDC_Body_Shadow.gfvsh
+│   └── test.bat
+├── ShaderCompiler/
+│   ├── ctr_VertexShaderAssembler32.exe
+│   ├── ctr_VertexShaderLinker32.exe
+│   ├── gd_System.h
+│   ├── gr_Combiner.cpp
+│   ├── gr_Combiner.h
+│   ├── gr_gl.h
+│   ├── gr_Prefix.h
+│   ├── gr_ShaderLite.cpp
+│   ├── gr_ShaderLite.h
+│   ├── gr_Utility.h
+│   ├── main.cpp
+│   ├── ShaderCompiler.cpp
+│   ├── ShaderCompiler.h
+│   ├── ShaderCompiler.vcxproj
+│   ├── ShaderCompiler.vcxproj.filters
+│   ├── stdafx.cpp
+│   ├── stdafx.h
+│   ├── targetver.h
+│   ├── types.h
+│   └── util_SizedEnum.h
+└── TextureConverter/
+    ├── NW4C_TextureConverter.exe
+    ├── Nw4cImageData.cpp
+    ├── Nw4cImageData.h
+    ├── ReadMe.txt
+    ├── stdafx.cpp
+    ├── stdafx.h
+    ├── targetver.h
+    ├── TextureConverter.cpp
+    ├── TextureConverter.vcxproj
+    ├── TextureConverter.vcxproj.filters
+    ├── TextureData.cpp
+    └── TextureData.h

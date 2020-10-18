@@ -1,0 +1,77 @@
+DLLProjects/
+├── DLLFiles/
+│   ├── Debug/
+│   │   ├── GFExcelSerializer.dll
+│   │   ├── GFExcelSerializer.XML
+│   │   ├── GFFileIO.dll
+│   │   ├── GFFileIO.XML
+│   │   ├── GFMsgPack.dll
+│   │   ├── GFMsgPack.XML
+│   │   ├── GFPokemonFile.dll
+│   │   ├── GFPokemonFile.XML
+│   │   ├── GFTarga.dll
+│   │   └── GFTarga.XML
+│   ├── MsgPack/
+│   │   ├── MsgPack.dll
+│   │   └── MsgPack.xml
+│   └── Release/
+│       ├── GFExcelSerializer.dll
+│       ├── GFExcelSerializer.XML
+│       ├── GFFileIO.dll
+│       ├── GFFileIO.XML
+│       ├── GFMsgPack.dll
+│       ├── GFMsgPack.XML
+│       ├── GFPokemonFile.dll
+│       ├── GFPokemonFile.XML
+│       ├── GFTarga.dll
+│       └── GFTarga.XML
+├── GFExcelSerializer/
+│   ├── ExcelXml.cs
+│   ├── GFExcelSerializer.csproj
+│   ├── GFExcelSerializer.sln
+│   ├── IExcelXmlSerializer.cs
+│   ├── Properties/
+│   │   └── AssemblyInfo.cs
+│   ├── RareSettingXmlSerializer.cs
+│   ├── SettingXmlSerializer.cs
+│   └── 更新履歴.txt
+├── GFFileIO/
+│   ├── GFFile.cs
+│   ├── GFFileIO.csproj
+│   ├── GFFileIO.sln
+│   ├── Properties/
+│   │   └── AssemblyInfo.cs
+│   └── 更新履歴.txt
+├── GFMsgPack/
+│   ├── GFMsgPack.cs
+│   ├── GFMsgPack.csproj
+│   ├── GFMsgPack.sln
+│   ├── Properties/
+│   │   └── AssemblyInfo.cs
+│   └── 更新履歴.txt
+├── GFPokemonFile/
+│   ├── GfmotFaceData.cs
+│   ├── GfmotFaceDataReader.cs
+│   ├── GFPokemonFile.csproj
+│   ├── GFPokemonFile.sln
+│   ├── PokemonDirectoryData.cs
+│   ├── PokemonDirectoryNameSplitter.cs
+│   ├── PokemonRegularExpression.cs
+│   ├── PokemonUniqueNo.cs
+│   ├── Properties/
+│   │   └── AssemblyInfo.cs
+│   ├── SeriesDirectoryCollector.cs
+│   └── 更新履歴.txt
+└── GFTarga/
+    ├── GFTarga.csproj
+    ├── GFTarga.sln
+    ├── ITargaDecoder.cs
+    ├── PixelDataArray.cs
+    ├── Properties/
+    │   └── AssemblyInfo.cs
+    ├── RunLengthTargaDecoder.cs
+    ├── TargaData.cs
+    ├── TargaFileReader.cs
+    ├── TargaHeader.cs
+    ├── UmcompressedTargaDecoder.cs
+    └── 更新履歴.txt

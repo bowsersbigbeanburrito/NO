@@ -1,0 +1,173 @@
+CTRViewer/
+├── CTRViewer/
+│   ├── CTRViewer.rsf
+│   ├── CTRViewer.vcxproj
+│   ├── CTRViewer.vcxproj.filters
+│   ├── main.cpp
+│   ├── MyRenderingPipeLine.cpp
+│   ├── MyRenderingPipeLine.h
+│   └── romfiles/
+│       ├── cbf_std_kujira.bffnt
+│       ├── ColorShaderGfmdl/
+│       │   ├── colorshaderplane.ctr.gfbmdl
+│       │   ├── colorshaderplane.gfmdl
+│       │   ├── Shaders/
+│       │   │   ├── Comb1_Manual.ctr.gfbfsh
+│       │   │   ├── Comb1_Manual.gffsh
+│       │   │   ├── FillScrean.ctr.gfbvsh
+│       │   │   ├── FillScrean.gfvsh
+│       │   │   └── test.bat
+│       │   ├── test.bat
+│       │   └── Textures/
+│       │       ├── colorshadertexture.ctr.btex
+│       │       ├── colorshadertexture.tga
+│       │       └── comb_all.bat
+│       ├── data/
+│       │   └── app/
+│       │       └── test/
+│       │           └── fukushima_test/
+│       │               └── layout_sample_data/
+│       │                   └── shaders/
+│       │                       └── nwfont2_RectDrawerShader.shbin
+│       ├── Dof/
+│       │   ├── CombBack_Manual.ctr.gfbfsh
+│       │   ├── CombFront_Manual.ctr.gfbfsh
+│       │   ├── Default.ctr.gfbvsh
+│       │   ├── DofShader_ctr.ctr.gfbmdl
+│       │   └── EdgeMapImage.ctr.btex
+│       ├── DummyTex.3ds.tga
+│       ├── EdgeMap/
+│       │   └── exports/
+│       │       ├── EdgeMapShader.ctr.gfbmdl
+│       │       ├── EdgeMapShader.wingl.gfbmdl
+│       │       ├── Shader/
+│       │       │   ├── Comb3_Manual.ctr.gfbvsh
+│       │       │   ├── Comb3_Manual.gffsh
+│       │       │   ├── Comb3_Manual.gfvsh
+│       │       │   └── test.bat
+│       │       └── Texture/
+│       │           └── EdgeMapImage.ctr.btex
+│       ├── EdgeMapVColAShader/
+│       │   ├── EdgeMapVColA.3ds.gfbmdl
+│       │   ├── EdgeMapVColA.ctr.gfbmdl
+│       │   ├── EdgeMapVColA.gfmdl
+│       │   ├── Shader/
+│       │   │   ├── Comb2_Manual.3ds.gfvsh
+│       │   │   ├── Comb2_Manual.ctr.gfbvsh
+│       │   │   ├── Comb2_Manual.gffsh
+│       │   │   ├── Comb2_Manual.gfvsh
+│       │   │   ├── Comb2_Manual.wingl.gfbvsh
+│       │   │   └── comb_all.bat
+│       │   ├── Shaders/
+│       │   │   ├── Comb2_Manual.ctr.gfbfsh
+│       │   │   ├── Comb2_Manual.gffsh
+│       │   │   ├── comb_all.bat
+│       │   │   ├── Default.ctr.gfbvsh
+│       │   │   ├── Default.gfvsh
+│       │   │   ├── NormalToUv.ctr.gfbvsh
+│       │   │   └── NormalToUv.gfvsh
+│       │   ├── test.bat
+│       │   ├── Texture/
+│       │   │   └── NormalTexture.3ds.tga
+│       │   └── Textures/
+│       │       ├── comb_all.bat
+│       │       ├── NormalTexture.ctr.btex
+│       │       ├── NormalTexture.tga
+│       │       ├── ZInvNormalTexture.ctr.btex
+│       │       └── ZInvNormalTexture.tga
+│       ├── IDEdgeMap/
+│       │   ├── exports/
+│       │   │   ├── IDEdgeMap.ctr.gfbmdl
+│       │   │   ├── IDEdgeMap.gfmdl
+│       │   │   ├── Shaders/
+│       │   │   │   ├── Comb2_Manual.ctr.gfbfsh
+│       │   │   │   ├── Comb2_Manual.gffsh
+│       │   │   │   ├── Comb3_Manual.ctr.gfbfsh
+│       │   │   │   ├── Comb3_Manual.gffsh
+│       │   │   │   ├── FillScrean.ctr.gfbvsh
+│       │   │   │   ├── FillScrean.gfvsh
+│       │   │   │   └── test.bat
+│       │   │   ├── test.bat
+│       │   │   └── Textures/
+│       │   │       ├── MapImage.ctr.btex
+│       │   │       └── MapImage.tga
+│       │   ├── IDEdgeMap.gfmdl
+│       │   ├── Shader/
+│       │   │   ├── Comb2_Manual.gffsh
+│       │   │   ├── Comb2_Manual.gfvsh
+│       │   │   ├── Comb3_Manual.gffsh
+│       │   │   └── Comb3_Manual.gfvsh
+│       │   └── Texture/
+│       │       └── MapImage.tga
+│       ├── kusa/
+│       │   ├── btl_F/
+│       │   │   └── converted_data/
+│       │   │       ├── btl_F_kusa.ctr.gfbmdl
+│       │   │       ├── Shaders/
+│       │   │       │   ├── BATTLE_bg_default01GRE.ctr.gfbfsh
+│       │   │       │   ├── BattleFieldShader.ctr.gfbvsh
+│       │   │       │   └── btl_A_sea_iro01_Manual.ctr.gfbfsh
+│       │   │       └── Textures/
+│       │   │           ├── btl_A_sea_iro01.ctr.btex
+│       │   │           ├── btl_A_sea_iro02.ctr.btex
+│       │   │           ├── btl_F_kusa_jime01.ctr.btex
+│       │   │           └── btl_F_kusa_yama01.ctr.btex
+│       │   ├── btl_G/
+│       │   │   └── converted_data/
+│       │   │       ├── btl_G_kusa.ctr.gfbmdl
+│       │   │       ├── Shaders/
+│       │   │       │   ├── BATTLE_bg_blend01GRE.ctr.gfbfsh
+│       │   │       │   ├── BATTLE_bg_default01GRE.ctr.gfbfsh
+│       │   │       │   ├── BattleFieldShader.ctr.gfbvsh
+│       │   │       │   └── btl_G_kusa_kusa01_Manual.ctr.gfbfsh
+│       │   │       └── Textures/
+│       │   │           ├── btl_G_all_rain.ctr.btex
+│       │   │           ├── btl_G_all_rain0m.ctr.btex
+│       │   │           ├── btl_G_all_snow0m.ctr.btex
+│       │   │           ├── btl_G_kusa_iwa01.ctr.btex
+│       │   │           ├── btl_G_kusa_jime01.ctr.btex
+│       │   │           ├── btl_G_kusa_jime02.ctr.btex
+│       │   │           ├── btl_G_kusa_kusa01.ctr.btex
+│       │   │           ├── btl_G_kusa_mori01.ctr.btex
+│       │   │           ├── btl_G_kusa_ueki01.ctr.btex
+│       │   │           └── btl_G_kusa_yasi01.ctr.btex
+│       │   └── btl_N/
+│       │       └── converted_data/
+│       │           ├── btl_N_kusa.ctr.gfbmdl
+│       │           ├── Shaders/
+│       │           │   ├── BATTLE_bg_default01GRE.ctr.gfbfsh
+│       │           │   └── BattleFieldShader.ctr.gfbvsh
+│       │           └── Textures/
+│       │               ├── btl_N_kusa_jime01.ctr.btex
+│       │               ├── btl_N_kusa_mori01.ctr.btex
+│       │               ├── btl_N_kusa_oka01.ctr.btex
+│       │               └── btl_N_kusa_yasi01.ctr.btex
+│       ├── rgba8.ctpk
+│       ├── shader.shbin
+│       └── test_skybox/
+│           └── sky_sunny/
+│               ├── converted_data/
+│               │   ├── ModelHash.fnv
+│               │   ├── Shaders/
+│               │   │   ├── Default.ctr.gfbvsh
+│               │   │   └── Map04_sky01.ctr.gfbfsh
+│               │   ├── sky_sunny.ctr.gfbmdl
+│               │   ├── sky_sunny.gfmdl
+│               │   ├── sky_sunny.wingl.gfbmdl
+│               │   └── Textures/
+│               │       ├── sky_colorbar01.ctr.btex
+│               │       └── sky_star01.ctr.btex
+│               ├── Shaders/
+│               │   ├── Default.gfvsh
+│               │   └── Map04_sky01.gffsh
+│               ├── sky_sunny.gfmdl
+│               └── Textures/
+│                   ├── sky_colorbar01.tga
+│                   └── sky_star01.tga
+├── CTRViewer.bat
+├── CTRViewer.sln
+└── FrameWork/
+    ├── FrameWork.vcxproj
+    ├── FrameWork.vcxproj.filters
+    ├── IApplication.h
+    └── main.cpp

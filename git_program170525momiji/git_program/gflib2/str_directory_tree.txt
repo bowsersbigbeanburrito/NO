@@ -1,0 +1,21 @@
+str/
+├── include/
+│   ├── gfl2_Font.h
+│   ├── gfl2_MsgData.h
+│   ├── gfl2_Str.h
+│   ├── gfl2_StrBuf.h
+│   ├── gfl2_StrBufReader.h
+│   ├── gfl2_StrSys.h
+│   ├── gfl2_StrWin.h
+│   └── gfl2_TagProc.h
+├── project/
+│   ├── gf_template_gflib2.rsf
+│   ├── str.vcxproj
+│   └── str.vcxproj.filters
+└── source/
+    ├── gfl2_Font.cpp
+    ├── gfl2_MsgData.cpp
+    ├── gfl2_StrBuf.cpp
+    ├── gfl2_StrBufReader.cpp
+    ├── gfl2_StrSys.cpp
+    └── gfl2_StrWin.cpp

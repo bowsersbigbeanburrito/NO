@@ -1,0 +1,95 @@
+AnimationConverter/
+├── AnimationConverter/
+│   ├── AnimationConverter.csproj
+│   ├── App.config
+│   ├── Common.cs
+│   ├── ConvMode/
+│   │   ├── ConvDivideTexAnim.cs
+│   │   ├── ConvGfmot.cs
+│   │   ├── ConvLog.cs
+│   │   ├── ConvMcnf.cs
+│   │   ├── ConvMlst.cs
+│   │   ├── GfmotBinaryExporter.cs
+│   │   └── McnfBinaryExporter.cs
+│   ├── Cskla/
+│   │   └── Cskla.cs
+│   ├── DivideTexAnim.cs
+│   ├── ExcelXml/
+│   │   └── ExcelXml.cs
+│   ├── FunctionCurve.cs
+│   ├── FunctionCurveCompress.cs
+│   ├── GfMotion/
+│   │   ├── AttributeKeyAnimation.cs
+│   │   ├── BlendShapeAnimation.cs
+│   │   ├── Common.cs
+│   │   ├── EnvAnimation.cs
+│   │   ├── Gfmot.cs
+│   │   ├── JointAnimation.cs
+│   │   ├── ShaderAnimation.cs
+│   │   ├── Skelton.cs
+│   │   ├── TexturePatternAnimation.cs
+│   │   ├── UvAnimation.cs
+│   │   └── VisibilityAnimation.cs
+│   ├── KeyCompress.cs
+│   ├── Matrix.cs
+│   ├── Mcnf/
+│   │   ├── BlendList.cs
+│   │   ├── EachDae.cs
+│   │   └── Mcnf.cs
+│   ├── Mot/
+│   │   └── Mot.cs
+│   ├── OldFormatChecker.cs
+│   ├── Program.cs
+│   ├── Properties/
+│   │   └── AssemblyInfo.cs
+│   ├── Quaternion.cs
+│   └── Test.cs
+├── AnimationConverter.sln
+└── test_file/
+    ├── new_format/
+    │   ├── chip_sea_opt.mb.bgfmot
+    │   ├── chip_sea_opt.mb.gfmot
+    │   ├── mot.txt
+    │   ├── mot_default.txt
+    │   ├── mot_noerror.txt
+    │   ├── new.txt
+    │   ├── new_k.txt
+    │   ├── new_n.txt
+    │   ├── pm0025_00_ba20_buturi01.bcskla
+    │   ├── pm0025_00_ba20_buturi01.bgfmot
+    │   ├── pm0025_00_ba20_buturi01.cskla
+    │   ├── pm0025_00_ba20_buturi01.gfmot
+    │   ├── pm0025_00_ba20_buturi01.mot
+    │   ├── pm0025_00_ba20_buturi01_k.bgfmot
+    │   ├── pm0025_00_ba20_buturi01_n.bgfmot
+    │   ├── pm0025_00_ba20_buturi01_noerror.mot
+    │   ├── pm0025_00_ba20_buturi02.bgfmot
+    │   ├── pm0025_00_ba20_buturi02.gfmot
+    │   ├── pm0025_00_kw32_happyC01.bgfmot
+    │   ├── pm0025_00_kw32_happyC01.gfmot
+    │   ├── pm0501_00_ba20_buturi01.bgfmot
+    │   ├── pm0501_00_ba20_buturi01.gfmot
+    │   ├── pm0722_00_ba21_tokusyu02.bgfmot
+    │   ├── pm0722_00_ba21_tokusyu02.gfmot
+    │   ├── test.txt
+    │   ├── test0.txt
+    │   └── test1.txt
+    └── old_format/
+        ├── anim_joint_01.bgfmot
+        ├── anim_joint_01.gfmot
+        ├── anim_morph_01.bgfmot
+        ├── anim_morph_01.gfmot
+        ├── DrawEnvTest.bgfmot
+        ├── DrawEnvTest.gfmot
+        ├── pm0025_00_ba20_buturi01.cskla
+        ├── pm0501_00_ba20_buturi01.bgfmot
+        ├── pm0501_00_ba20_buturi01.gfmot
+        ├── pm0593/
+        │   ├── pm0593.mlst
+        │   ├── pm0593_00_fi01_wait01.gfmot
+        │   ├── pm0593_00_fi20_walk01.gfmot
+        │   └── pm0593_00_fi21_run01.gfmot
+        ├── pm0722_00_ba21_tokusyu02.bgfmot
+        ├── pm0722_00_ba21_tokusyu02.gfmot
+        ├── sea_opt.bgfmot
+        └── sea_opt.gfmot

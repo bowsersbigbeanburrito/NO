@@ -1,0 +1,27 @@
+template/
+├── app_template/
+│   ├── gf_template_gflib2_app.sln
+│   └── project/
+│       ├── gf_template_gflib2_app.link.props
+│       ├── gf_template_gflib2_app.props
+│       ├── gf_template_gflib2_app.rsf
+│       ├── gf_template_gflib2_app.vcxproj
+│       ├── gf_template_gflib2_app.vcxproj.filters
+│       ├── main.cpp
+│       └── romfiles/
+│           └── .gitkeep
+├── gf_template_gflib2.sln
+├── gf_template_gflib2.vcxproj
+├── gf_template_gflib2.vcxproj.filters
+├── include/
+│   └── gfl2_template.h
+├── lib_template/
+│   ├── gf_template_gflib2.sln
+│   ├── gf_template_gflib2.vcxproj
+│   ├── gf_template_gflib2.vcxproj.filters
+│   ├── include/
+│   │   └── gfl2_template.h
+│   └── source/
+│       └── gfl2_template.cpp
+└── source/
+    └── gfl2_template.cpp

@@ -1,0 +1,38 @@
+qr/
+├── include/
+│   ├── gfl2_IQRDecoder.h
+│   ├── gfl2_IQREncoder.h
+│   ├── gfl2_IQREventListener.h
+│   ├── gfl2_QRDecodeData.h
+│   ├── gfl2_QREncodeData.h
+│   ├── gfl2_QRRGBImageInfo.h
+│   └── gfl2_QRYUVImageInfo.h
+├── qr.vcxproj
+├── qr.vcxproj.filters
+└── source/
+    ├── ctr/
+    │   ├── gfl2_CTR_QRDecodeExecutor.cpp
+    │   ├── gfl2_CTR_QRDecodeExecutor.h
+    │   ├── gfl2_CTR_QRDecoder.cpp
+    │   ├── gfl2_CTR_QRDecoder.h
+    │   ├── gfl2_CTR_QRDecodeThread.cpp
+    │   ├── gfl2_CTR_QRDecodeThread.h
+    │   ├── gfl2_CTR_QREncodeExecutor.cpp
+    │   ├── gfl2_CTR_QREncodeExecutor.h
+    │   ├── gfl2_CTR_QREncoder.cpp
+    │   ├── gfl2_CTR_QREncoder.h
+    │   ├── gfl2_CTR_QREncodeThread.cpp
+    │   ├── gfl2_CTR_QREncodeThread.h
+    │   ├── gfl2_CTR_TextureConverter.cpp
+    │   └── gfl2_CTR_TextureConverter.h
+    ├── gfl2_IQRDecoder.cpp
+    ├── gfl2_IQREncoder.cpp
+    ├── gfl2_QRDecodeData.cpp
+    ├── gfl2_QREncodeData.cpp
+    ├── gfl2_QRRGBImageInfo.cpp
+    ├── gfl2_QRYUVImageInfo.cpp
+    └── win32/
+        ├── gfl2_WIN32_QRDecoder.cpp
+        ├── gfl2_WIN32_QRDecoder.h
+        ├── gfl2_WIN32_QREncoder.cpp
+        └── gfl2_WIN32_QREncoder.h

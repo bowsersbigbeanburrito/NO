@@ -1,0 +1,946 @@
+Animation/
+├── include/
+│   ├── gfl2_AnimationController.h
+│   ├── gfl2_AnimationEnumDefine.h
+│   ├── gfl2_AnimationEnums.h
+│   ├── gfl2_AnimationId.h
+│   ├── gfl2_AnimationPack.h
+│   ├── gfl2_AnimationPackList.h
+│   ├── gfl2_AnimationSlotBase.h
+│   ├── gfl2_AnimationSlotSet.h
+│   ├── gfl2_AnimationSlotSetInterp.h
+│   ├── gfl2_BlendShapeAnimationSlot.h
+│   ├── gfl2_CameraAnimationSlot.h
+│   ├── gfl2_CurvePlayer.h
+│   ├── gfl2_DrawEnvAnimationController.h
+│   ├── gfl2_FogAnimationSlot.h
+│   ├── gfl2_GlareAnimationSlot.h
+│   ├── gfl2_IKController.h
+│   ├── gfl2_IKJointFunction.h
+│   ├── gfl2_InterestController.h
+│   ├── gfl2_InterestJointFunction.h
+│   ├── gfl2_JointAnimationSlot.h
+│   ├── gfl2_JointController.h
+│   ├── gfl2_JointFunctionBase.h
+│   ├── gfl2_KeyAnimationSlot.h
+│   ├── gfl2_LightAnimationSlot.h
+│   ├── gfl2_MaterialAnimationSlot.h
+│   ├── gfl2_SpringController.h
+│   ├── gfl2_SpringJointFunction.h
+│   └── gfl2_VisibilityAnimationSlot.h
+├── project/
+│   ├── Animation.vcxproj
+│   ├── Animation.vcxproj.filters
+│   └── gf_template_gflib2.rsf
+├── Sample/
+│   ├── Animation.bat
+│   ├── data/
+│   │   ├── anim_sample/
+│   │   │   ├── chip_sea_opt.mb.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── Manual.gffsh
+│   │   │   │   └── Manual.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── bm_w_wave.1.tga
+│   │   │       └── bm_w_wave.2.tga
+│   │   ├── DivertMotion/
+│   │   │   ├── testpreset_Dm_peace.gfmot
+│   │   │   ├── testpreset_Dm_run.gfmot
+│   │   │   ├── testpreset_Dm_scale01.gfmot
+│   │   │   ├── testpreset_Dm_sit.gfmot
+│   │   │   ├── testpreset_Dm_wait01.gfmot
+│   │   │   └── testpreset_Dm_wait02.gfmot
+│   │   ├── EnvTestMap/
+│   │   │   ├── DrawEnvTest.gfbenv
+│   │   │   ├── DrawEnvTest.gfenv
+│   │   │   ├── DrawEnvTest.gfmdl
+│   │   │   ├── DrawEnvTest.gfmot
+│   │   │   ├── DrawEnvTest2.gfmot
+│   │   │   ├── Shaders/
+│   │   │   │   ├── kokage4_Manual.gffsh
+│   │   │   │   ├── kokage4_Manual.gfvsh
+│   │   │   │   ├── MAPデフォルト01.gffsh
+│   │   │   │   ├── MAPデフォルト01.gfvsh
+│   │   │   │   ├── MAPデフォルト01＋カラースペキュラー.gffsh
+│   │   │   │   ├── MAPデフォルト01＋カラースペキュラー.gfvsh
+│   │   │   │   ├── MAPデフォルト01＋フレネル.gffsh
+│   │   │   │   ├── MAPデフォルト01＋フレネル.gfvsh
+│   │   │   │   ├── MAP影.gffsh
+│   │   │   │   └── MAP影.gfvsh
+│   │   │   └── Textures/
+│   │   │       ├── com_kusa.tga
+│   │   │       ├── com_kusa_table2_t.tga
+│   │   │       ├── grass3_s.tga
+│   │   │       ├── han_grass_v01.tga
+│   │   │       ├── han_grass_v01_s.tga
+│   │   │       ├── han_treea_b.tga
+│   │   │       ├── han_treea_b_s.tga
+│   │   │       ├── itosugi_01b.tga
+│   │   │       ├── iwa00.tga
+│   │   │       ├── iwa00_s.tga
+│   │   │       ├── iwa01.tga
+│   │   │       ├── kinoha00.tga
+│   │   │       ├── kokage1.tga
+│   │   │       ├── kokage3.tga
+│   │   │       ├── kusa01.tga
+│   │   │       ├── kusa01_s.tga
+│   │   │       ├── lag_t.tga
+│   │   │       ├── ohanas2.tga
+│   │   │       ├── platan_bk.tga
+│   │   │       ├── r02_sigemi.tga
+│   │   │       ├── suna01a_b.tga
+│   │   │       ├── t01_f.tga
+│   │   │       ├── t01_hana05.tga
+│   │   │       ├── t01_kadan00.tga
+│   │   │       ├── t01_kusa.tga
+│   │   │       ├── t01_road_a.tga
+│   │   │       ├── t01_road_b.tga
+│   │   │       ├── t01_road_e.tga
+│   │   │       ├── t01_road_g.tga
+│   │   │       ├── t01_yaneaji00.tga
+│   │   │       ├── ts_kabe01.tga
+│   │   │       └── ts_kabe02.tga
+│   │   ├── IdMap.gffsh
+│   │   ├── plane/
+│   │   │   ├── plane.gfmdl
+│   │   │   └── Shader/
+│   │   │       ├── Comb1.gffsh
+│   │   │       └── Comb1.gfvsh
+│   │   ├── pm0016_00_poppo/
+│   │   │   ├── pm0016_00_ba50_movewait01.gfmot
+│   │   │   ├── pm0016_00_ba51_walk01.gfmot
+│   │   │   ├── pm0016_00_ba52_run01.gfmot
+│   │   │   ├── pm0016_00_poppo.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── Body00PTS_Body_Shadow.gffsh
+│   │   │   │   ├── Body00PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── Body01PTS_Body_Shadow.gffsh
+│   │   │   │   ├── Body01PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── Body02PTS_Body_Shadow.gffsh
+│   │   │   │   ├── Body02PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── EyePTS_Body_Shadow.gffsh
+│   │   │   │   ├── EyePTS_Body_Shadow.gfvsh
+│   │   │   │   └── Skining.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_10D.tga
+│   │   │       ├── Default_Lta_7D.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0016_00_Body1.tga
+│   │   │       ├── pm0016_00_Body2.tga
+│   │   │       ├── pm0016_00_BodyHlm.tga
+│   │   │       ├── pm0016_00_BodyNor.tga
+│   │   │       ├── pm0016_00_Eye1.tga
+│   │   │       ├── pm0016_00_Eye2.tga
+│   │   │       ├── pm0016_00_EyeHlm.tga
+│   │   │       ├── pm0016_00_EyeNor.tga
+│   │   │       ├── pm0016_00_Hta.tga
+│   │   │       └── pm0016_00_Lta.tga
+│   │   ├── pm0025_00/
+│   │   │   ├── pm0025_00.gfmdl
+│   │   │   ├── pm0025_00_ba20_buturi01.gfmot
+│   │   │   ├── pm0025_00_ba20_buturi02.gfmot
+│   │   │   ├── Shaders/
+│   │   │   │   ├── PDC_Body_Shadow.gffsh
+│   │   │   │   ├── PDC_Body_ShadowALW.gffsh
+│   │   │   │   ├── PDC_pm_keikouo_Neon.gffsh
+│   │   │   │   ├── PDC_pm_keikouo_NeonALW.gffsh
+│   │   │   │   ├── PokeNormal.gfvsh
+│   │   │   │   ├── PressShadow.gfvsh
+│   │   │   │   └── PressShadowGRE.gffsh
+│   │   │   └── Textures/
+│   │   │       ├── Default_Lta_10D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── DummyTexId.ctex
+│   │   │       ├── DummyTexId.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0025_00_BodyA1.tga
+│   │   │       ├── pm0025_00_BodyA1Id.ctex
+│   │   │       ├── pm0025_00_BodyA1Id.tga
+│   │   │       ├── pm0025_00_BodyAHlm.tga
+│   │   │       ├── pm0025_00_BodyALta.tga
+│   │   │       ├── pm0025_00_BodyANor.tga
+│   │   │       ├── pm0025_00_BodyB1.tga
+│   │   │       ├── pm0025_00_BodyB1Id.ctex
+│   │   │       ├── pm0025_00_BodyB1Id.tga
+│   │   │       ├── pm0025_00_BodyBHlm.tga
+│   │   │       ├── pm0025_00_BodyBInc.tga
+│   │   │       ├── pm0025_00_BodyBNor.tga
+│   │   │       ├── pm0025_00_Eye1.tga
+│   │   │       ├── pm0025_00_Eye1Id.ctex
+│   │   │       ├── pm0025_00_Eye1Id.tga
+│   │   │       ├── pm0025_00_EyeHlm.tga
+│   │   │       ├── pm0025_00_EyeNor.tga
+│   │   │       ├── pm0025_00_Hta.tga
+│   │   │       ├── pm0025_00_Mouth1.tga
+│   │   │       ├── pm0025_00_Mouth1Id.ctex
+│   │   │       ├── pm0025_00_Mouth1Id.tga
+│   │   │       ├── pm0025_00_MouthHlm.tga
+│   │   │       └── pm0025_00_MouthNor.tga
+│   │   ├── pm0033_00_nidorino/
+│   │   │   ├── pm0033_00.gfmdl
+│   │   │   ├── pm0033_00_kw01_wait01.gfmot
+│   │   │   ├── pm0033_00_motion_kw.mcnf
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyPTS_Def_Body.gffsh
+│   │   │   │   ├── BodyPTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyVcoPTS_Def_Body.gffsh
+│   │   │   │   ├── BodyVcoPTS_Def_Body.gfvsh
+│   │   │   │   ├── EyePTS_Def_Body.gffsh
+│   │   │   │   └── EyePTS_Def_Body.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_8D.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0033_00_Body1.tga
+│   │   │       ├── pm0033_00_Body2.tga
+│   │   │       ├── pm0033_00_BodyHlm.tga
+│   │   │       ├── pm0033_00_BodyNor.tga
+│   │   │       ├── pm0033_00_Eye1.tga
+│   │   │       ├── pm0033_00_Eye2.tga
+│   │   │       ├── pm0033_00_EyeHlm.tga
+│   │   │       ├── pm0033_00_EyeNor.tga
+│   │   │       └── pm0033_00_Hta.tga
+│   │   ├── pm0039_00_purin/
+│   │   │   ├── pm0039_00_ba20_buturi01.gfmot
+│   │   │   ├── pm0039_00_purin.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyPTS_Body_Shadow.gffsh
+│   │   │   │   ├── BodyPTS_Body_Shadow.gfvsh
+│   │   │   │   ├── LEyePTS_Def_Body.gffsh
+│   │   │   │   ├── LEyePTS_Def_Body.gfvsh
+│   │   │   │   ├── LIrisPDC_Def_Iris_Tra.gffsh
+│   │   │   │   ├── LIrisPDC_Def_Iris_Tra.gfvsh
+│   │   │   │   ├── MouthPTS_Def_Body.gffsh
+│   │   │   │   ├── MouthPTS_Def_Body.gfvsh
+│   │   │   │   ├── REyePTS_Def_Body.gffsh
+│   │   │   │   ├── REyePTS_Def_Body.gfvsh
+│   │   │   │   ├── RIrisPDC_Def_Iris_Tra.gffsh
+│   │   │   │   └── RIrisPDC_Def_Iris_Tra.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_8D.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0039_00_Body1.tga
+│   │   │       ├── pm0039_00_Body2.tga
+│   │   │       ├── pm0039_00_BodyHlm.tga
+│   │   │       ├── pm0039_00_BodyNor.tga
+│   │   │       ├── pm0039_00_Eye1.tga
+│   │   │       ├── pm0039_00_Eye2.tga
+│   │   │       ├── pm0039_00_EyeHlm.tga
+│   │   │       ├── pm0039_00_EyeNor.tga
+│   │   │       ├── pm0039_00_Hta.tga
+│   │   │       ├── pm0039_00_Iris1.tga
+│   │   │       ├── pm0039_00_Iris2.tga
+│   │   │       ├── pm0039_00_Mouth1.tga
+│   │   │       ├── pm0039_00_Mouth2.tga
+│   │   │       ├── pm0039_00_MouthHlm.tga
+│   │   │       └── pm0039_00_MouthNor.tga
+│   │   ├── pm0079_00_yadon/
+│   │   │   ├── pm0079_00.gfmdl
+│   │   │   ├── pm0079_00_ba10_waitA01.gfmot
+│   │   │   ├── pm0079_00_motion_kw.mcnf
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyPTS_Def_Body.gffsh
+│   │   │   │   ├── BodyPTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyVcoPTS_Def_Body.gffsh
+│   │   │   │   ├── BodyVcoPTS_Def_Body.gfvsh
+│   │   │   │   ├── EyePTS_Def_Body.gffsh
+│   │   │   │   └── EyePTS_Def_Body.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_8D.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0079_00_Body1.tga
+│   │   │       ├── pm0079_00_Body2.tga
+│   │   │       ├── pm0079_00_BodyHlm.tga
+│   │   │       ├── pm0079_00_BodyNor.tga
+│   │   │       ├── pm0079_00_Eye1.tga
+│   │   │       ├── pm0079_00_Eye2.tga
+│   │   │       ├── pm0079_00_EyeHlm.tga
+│   │   │       ├── pm0079_00_EyeNor.tga
+│   │   │       └── pm0079_00_Hta.tga
+│   │   ├── pm0094_00_gangar/
+│   │   │   ├── pm0094_00.gfmdl
+│   │   │   ├── pm0094_00_kw01_wait01.gfmot
+│   │   │   ├── pm0094_00_motion_kw.mcnf
+│   │   │   ├── Shader/
+│   │   │   │   ├── Body2PDC_pm_ghost_Body.gffsh
+│   │   │   │   ├── Body2PDC_pm_ghost_Body.gfvsh
+│   │   │   │   ├── Body_MASKPDC_pm_gangar_Body.gffsh
+│   │   │   │   ├── Body_MASKPDC_pm_gangar_Body.gfvsh
+│   │   │   │   ├── BodyPDC_pm_gangar_Body.gffsh
+│   │   │   │   ├── BodyPDC_pm_gangar_Body.gfvsh
+│   │   │   │   ├── EyePDC_pm_gangar_Body.gffsh
+│   │   │   │   └── EyePDC_pm_gangar_Body.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Black.tga
+│   │   │       ├── Default_Lta_12D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0094_00_Body1.tga
+│   │   │       ├── pm0094_00_BodyHlm.tga
+│   │   │       ├── pm0094_00_BodyHta.tga
+│   │   │       ├── pm0094_00_BodyNor.tga
+│   │   │       ├── pm0094_00_Eye1.tga
+│   │   │       ├── pm0094_00_EyeHlm.tga
+│   │   │       └── pm0094_00_EyeNor.tga
+│   │   ├── pm0121_00_starmie/
+│   │   │   ├── pm0121_00.gfmdl
+│   │   │   ├── pm0121_00_ba10_waitA01.gfmot
+│   │   │   ├── pm0121_00_motion_kw.mcnf
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyA00PTS_Body_Shadow.gffsh
+│   │   │   │   ├── BodyA00PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyA01PTS_Body_Shadow.gffsh
+│   │   │   │   ├── BodyA01PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyANutreyVcoPDC_pm_nutrey_Env.gffsh
+│   │   │   │   ├── BodyANutreyVcoPDC_pm_nutrey_Env.gfvsh
+│   │   │   │   ├── BodyB00PTS_Body_Shadow.gffsh
+│   │   │   │   ├── BodyB00PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyB01PTS_Body_Shadow.gffsh
+│   │   │   │   ├── BodyB01PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyBHitodemanPDC_pm_hitodeman_Env.gffsh
+│   │   │   │   ├── BodyBHitodemanPDC_pm_hitodeman_Env.gfvsh
+│   │   │   │   ├── BodyBNutreyVcoPDC_pm_nutrey_Env.gffsh
+│   │   │   │   └── BodyBNutreyVcoPDC_pm_nutrey_Env.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_15D.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0121_00_Body1Lta.tga
+│   │   │       ├── pm0121_00_Body2Lta.tga
+│   │   │       ├── pm0121_00_BodyA1.tga
+│   │   │       ├── pm0121_00_BodyA2.tga
+│   │   │       ├── pm0121_00_BodyAHlm.tga
+│   │   │       ├── pm0121_00_BodyANor.tga
+│   │   │       ├── pm0121_00_BodyANutreyHta.tga
+│   │   │       ├── pm0121_00_BodyB1.tga
+│   │   │       ├── pm0121_00_BodyB2.tga
+│   │   │       ├── pm0121_00_BodyBHitodemanHta.tga
+│   │   │       ├── pm0121_00_BodyBHlm.tga
+│   │   │       ├── pm0121_00_BodyBNor.tga
+│   │   │       ├── pm0121_00_BodyEnv00.tga
+│   │   │       ├── pm0121_00_BodyEnv01.tga
+│   │   │       └── pm0121_00_BodyHta.tga
+│   │   ├── pm0129_00_koiking/
+│   │   │   ├── pm0129_00.gfmdl
+│   │   │   ├── pm0129_00_kw01_wait01.gfmot
+│   │   │   ├── pm0129_00_motion_kw.mcnf
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyPDC_Body.gffsh
+│   │   │   │   ├── BodyPDC_Body.gfvsh
+│   │   │   │   ├── BodyTattu00PDC_pm_tattu_BodyAdd.gffsh
+│   │   │   │   ├── BodyTattu00PDC_pm_tattu_BodyAdd.gfvsh
+│   │   │   │   ├── BodyTattu01PDC_pm_tattu_BodyAdd.gffsh
+│   │   │   │   ├── BodyTattu01PDC_pm_tattu_BodyAdd.gfvsh
+│   │   │   │   ├── EyePDC_pm_tattu_BodyAdd.gffsh
+│   │   │   │   └── EyePDC_pm_tattu_BodyAdd.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_12D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0129_00_Body1.tga
+│   │   │       ├── pm0129_00_BodyHlm.tga
+│   │   │       ├── pm0129_00_BodyHta.tga
+│   │   │       ├── pm0129_00_BodyNor.tga
+│   │   │       ├── pm0129_00_Eye1.tga
+│   │   │       ├── pm0129_00_EyeHlm.tga
+│   │   │       ├── pm0129_00_EyeNor.tga
+│   │   │       ├── pm0129_00_Lta.tga
+│   │   │       └── pm0129_00_TattuHta.tga
+│   │   ├── pm0135_00_thunders/
+│   │   │   ├── pm0135_00.gfmdl
+│   │   │   ├── pm0135_00_kw01_wait01.gfmot
+│   │   │   ├── pm0135_00_motion_kw.mcnf
+│   │   │   ├── Shader/
+│   │   │   │   ├── Body00PTS_Body_Shadow.gffsh
+│   │   │   │   ├── Body00PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── Body01PTS_Body_Shadow.gffsh
+│   │   │   │   ├── Body01PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyDodoVcoPDC_pm_dodo_Hair.gffsh
+│   │   │   │   ├── BodyDodoVcoPDC_pm_dodo_Hair.gfvsh
+│   │   │   │   ├── EyePTS_Def_Body.gffsh
+│   │   │   │   └── EyePTS_Def_Body.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_12D.tga
+│   │   │       ├── Default_Lta_8D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0135_00_Body01Hta.tga
+│   │   │       ├── pm0135_00_Body1.tga
+│   │   │       ├── pm0135_00_Body1Id.tga
+│   │   │       ├── pm0135_00_Body2.tga
+│   │   │       ├── pm0135_00_BodyDodoHta.tga
+│   │   │       ├── pm0135_00_BodyHlm.tga
+│   │   │       ├── pm0135_00_BodyNor.tga
+│   │   │       ├── pm0135_00_Eye1.tga
+│   │   │       ├── pm0135_00_Eye1Id.tga
+│   │   │       ├── pm0135_00_Eye2.tga
+│   │   │       ├── pm0135_00_EyeHlm.tga
+│   │   │       ├── pm0135_00_EyeNor.tga
+│   │   │       └── pm0135_00_Hta.tga
+│   │   ├── pm0262_00_graena/
+│   │   │   ├── pm0262_00.gfmdl
+│   │   │   ├── pm0262_00_kw01_wait01.gfmot
+│   │   │   ├── pm0262_00_motion_kw.mcnf
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyAPTS_Body_Shadow.gffsh
+│   │   │   │   ├── BodyAPTS_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyAVcoPTS_Def_Body.gffsh
+│   │   │   │   ├── BodyAVcoPTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyBPTS_Def_Body.gffsh
+│   │   │   │   ├── BodyBPTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyBVcoPTS_Def_Body.gffsh
+│   │   │   │   ├── BodyBVcoPTS_Def_Body.gfvsh
+│   │   │   │   ├── EyePTS_Def_Body.gffsh
+│   │   │   │   └── EyePTS_Def_Body.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_10D.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0262_00_BodyA1.tga
+│   │   │       ├── pm0262_00_BodyA1Id.tga
+│   │   │       ├── pm0262_00_BodyA2.tga
+│   │   │       ├── pm0262_00_BodyAHlm.tga
+│   │   │       ├── pm0262_00_BodyANor.tga
+│   │   │       ├── pm0262_00_BodyB1.tga
+│   │   │       ├── pm0262_00_BodyB1Id.tga
+│   │   │       ├── pm0262_00_BodyB2.tga
+│   │   │       ├── pm0262_00_BodyBHlm.tga
+│   │   │       ├── pm0262_00_BodyBNor.tga
+│   │   │       ├── pm0262_00_Eye1.tga
+│   │   │       ├── pm0262_00_Eye1Id.tga
+│   │   │       ├── pm0262_00_Eye2.tga
+│   │   │       ├── pm0262_00_EyeHlm.tga
+│   │   │       ├── pm0262_00_EyeNor.tga
+│   │   │       └── pm0262_00_Hta.tga
+│   │   ├── pm0380_00_latias/
+│   │   │   ├── pm0380_00.gfmdl
+│   │   │   ├── pm0380_00_kw01_wait01.gfmot
+│   │   │   ├── pm0380_00_motion_kw.mcnf
+│   │   │   ├── Shader/
+│   │   │   │   ├── Body00PDC_Body_Shadow.gffsh
+│   │   │   │   ├── Body00PDC_Body_Shadow.gfvsh
+│   │   │   │   ├── Body01PDC_Body_Shadow.gffsh
+│   │   │   │   ├── Body01PDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── EyePDC_Body.gffsh
+│   │   │   │   ├── EyePDC_Body.gfvsh
+│   │   │   │   ├── MouthPDC_Body.gffsh
+│   │   │   │   └── MouthPDC_Body.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_10D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0380_00_Body1.tga
+│   │   │       ├── pm0380_00_BodyHlm.tga
+│   │   │       ├── pm0380_00_BodyLta.tga
+│   │   │       ├── pm0380_00_BodyNor.tga
+│   │   │       ├── pm0380_00_Eye1.tga
+│   │   │       ├── pm0380_00_EyeHlm.tga
+│   │   │       ├── pm0380_00_EyeNor.tga
+│   │   │       ├── pm0380_00_Hta.tga
+│   │   │       ├── pm0380_00_Mouth1.tga
+│   │   │       ├── pm0380_00_MouthHlm.tga
+│   │   │       └── pm0380_00_MouthNor.tga
+│   │   ├── pm0501_00_mijumaru/
+│   │   │   ├── pm0501_00.gfmdl
+│   │   │   ├── pm0501_00_ba20_buturi01.gfmot
+│   │   │   ├── Shader/
+│   │   │   │   ├── PTS_Def_Body.gffsh
+│   │   │   │   └── PTS_Def_Body.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_13D.tga
+│   │   │       ├── Default_Lta_6D.tga
+│   │   │       ├── Default_SpcLta_13D.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0501_00_Body01Hta.tga
+│   │   │       ├── pm0501_00_Body1.tga
+│   │   │       ├── pm0501_00_Body2.tga
+│   │   │       ├── pm0501_00_BodyHlm.tga
+│   │   │       ├── pm0501_00_BodyNor.tga
+│   │   │       ├── pm0501_00_BodySpcHta.tga
+│   │   │       ├── pm0501_00_Eye1.tga
+│   │   │       ├── pm0501_00_Eye2.tga
+│   │   │       ├── pm0501_00_EyeHlm.tga
+│   │   │       ├── pm0501_00_EyeNor.tga
+│   │   │       ├── pm0501_00_Hta.tga
+│   │   │       ├── pm0501_00_Mouth1.tga
+│   │   │       ├── pm0501_00_Mouth2.tga
+│   │   │       ├── pm0501_00_MouthHlm.tga
+│   │   │       └── pm0501_00_MouthNor.tga
+│   │   ├── pm0618_00_maggyo/
+│   │   │   ├── pm0618_00.gfmdl
+│   │   │   ├── pm0618_00_kw01_wait01.gfmot
+│   │   │   ├── pm0618_00_motion_kw.mcnf
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyTattu00PDC_pm_tattu_BodyAdd.gffsh
+│   │   │   │   ├── BodyTattu00PDC_pm_tattu_BodyAdd.gfvsh
+│   │   │   │   ├── BodyTattu01PDC_pm_tattu_BodyAdd.gffsh
+│   │   │   │   ├── BodyTattu01PDC_pm_tattu_BodyAdd.gfvsh
+│   │   │   │   ├── BodyVcoPDC_Body.gffsh
+│   │   │   │   ├── BodyVcoPDC_Body.gfvsh
+│   │   │   │   ├── EyePDC_pm_tattu_BodyAdd.gffsh
+│   │   │   │   └── EyePDC_pm_tattu_BodyAdd.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_15D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0618_00_Body1.tga
+│   │   │       ├── pm0618_00_BodyHlm.tga
+│   │   │       ├── pm0618_00_BodyNor.tga
+│   │   │       ├── pm0618_00_BodyTattu00Hta.tga
+│   │   │       ├── pm0618_00_Eye1.tga
+│   │   │       ├── pm0618_00_EyeHlm.tga
+│   │   │       ├── pm0618_00_EyeNor.tga
+│   │   │       └── pm0618_00_GraLta.tga
+│   │   ├── pm0641_12_tornelos/
+│   │   │   ├── pm0641_12.gfmdl
+│   │   │   ├── pm0641_12_kw01_wait01.gfmot
+│   │   │   ├── pm0641_12_motion_kw.mcnf
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyA00PDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyA00PDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyA01PDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyA01PDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyA02PDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyA02PDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyAVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyAVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyB00PDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyB00PDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyB01PDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyB01PDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyBBuffronVcoPDC_pm_buffron_Hair.gffsh
+│   │   │   │   ├── BodyBBuffronVcoPDC_pm_buffron_Hair.gfvsh
+│   │   │   │   ├── EyePDC_Body_Shadow.gffsh
+│   │   │   │   └── EyePDC_Body_Shadow.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_15D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0641_12_BodyA03Hta.tga
+│   │   │       ├── pm0641_12_BodyA1.tga
+│   │   │       ├── pm0641_12_BodyAHlm.tga
+│   │   │       ├── pm0641_12_BodyANor.tga
+│   │   │       ├── pm0641_12_BodyB1.tga
+│   │   │       ├── pm0641_12_BodyBHlm.tga
+│   │   │       ├── pm0641_12_BodyBNor.tga
+│   │   │       ├── pm0641_12_Eye1.tga
+│   │   │       ├── pm0641_12_EyeHlm.tga
+│   │   │       ├── pm0641_12_EyeNor.tga
+│   │   │       ├── pm0641_12_Hta.tga
+│   │   │       └── pm0641_12_Lta.tga
+│   │   ├── pm0708_11_butterfly/
+│   │   │   ├── pm0708_11.gfmdl
+│   │   │   ├── pm0708_11_ba20_buturi01.gfmot
+│   │   │   ├── pm0708_11_ba30_damageS01.gfmot
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyA00PDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyA00PDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyA01PDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyA01PDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyASpcPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyASpcPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyAVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyAVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyBKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyBKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyBVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyBVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyCKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyCKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyCVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyCVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyDKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyDKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyDVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyDVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyEKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyEKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyEVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyEVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyFKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyFKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyFVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyFVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyGKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyGKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyGVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyGVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyHKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyHKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyHVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyHVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyIKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyIKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyIVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyIVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyJKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyJKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyJVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyJVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyKKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyKKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyKVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyKVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyLKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyLKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyLVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyLVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyMKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyMKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyMVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyMVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyNKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyNKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyNVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyNVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyOKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyOKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyOVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyOVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyPKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyPKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyPVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyPVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyQKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyQKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyQVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyQVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyRKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyRKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyRVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyRVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodySKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodySKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodySVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodySVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyTKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyTKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyTVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyTVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyUKurumiruPDC_pm_kurumiru_Leaf.gffsh
+│   │   │   │   ├── BodyUKurumiruPDC_pm_kurumiru_Leaf.gfvsh
+│   │   │   │   ├── BodyUVcoPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyUVcoPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── EyePDC_Body_Shadow.gffsh
+│   │   │   │   ├── EyePDC_Body_Shadow.gfvsh
+│   │   │   │   ├── MouthPDC_Body_Shadow.gffsh
+│   │   │   │   └── MouthPDC_Body_Shadow.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_15D.tga
+│   │   │       ├── Default_Lta_6D.tga
+│   │   │       ├── Default_SpcLta_15D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0708_11_BodyA1.tga
+│   │   │       ├── pm0708_11_BodyAHlm.tga
+│   │   │       ├── pm0708_11_BodyANor.tga
+│   │   │       ├── pm0708_11_BodyB1.tga
+│   │   │       ├── pm0708_11_BodyBHlm.tga
+│   │   │       ├── pm0708_11_BodyBMask.tga
+│   │   │       ├── pm0708_11_BodyBNor.tga
+│   │   │       ├── pm0708_11_BodyLta.tga
+│   │   │       ├── pm0708_11_Eye1.tga
+│   │   │       ├── pm0708_11_EyeHlm.tga
+│   │   │       ├── pm0708_11_EyeNor.tga
+│   │   │       ├── pm0708_11_Hta.tga
+│   │   │       ├── pm0708_11_Mouth1.tga
+│   │   │       ├── pm0708_11_MouthHlm.tga
+│   │   │       ├── pm0708_11_MouthNor.tga
+│   │   │       ├── pm0708_11_SpcHta.tga
+│   │   │       ├── pm0708_12_BodyB1.tga
+│   │   │       ├── pm0708_13_BodyB1.tga
+│   │   │       ├── pm0708_14_BodyB1.tga
+│   │   │       ├── pm0708_15_BodyB1.tga
+│   │   │       ├── pm0708_16_BodyB1.tga
+│   │   │       ├── pm0708_17_BodyB1.tga
+│   │   │       ├── pm0708_18_BodyB1.tga
+│   │   │       ├── pm0708_19_BodyB1.tga
+│   │   │       ├── pm0708_20_BodyB1.tga
+│   │   │       ├── pm0708_21_BodyB1.tga
+│   │   │       ├── pm0708_22_BodyB1.tga
+│   │   │       ├── pm0708_23_BodyB1.tga
+│   │   │       ├── pm0708_24_BodyB1.tga
+│   │   │       ├── pm0708_25_BodyB1.tga
+│   │   │       ├── pm0708_26_BodyB1.tga
+│   │   │       ├── pm0708_27_BodyB1.tga
+│   │   │       ├── pm0708_28_BodyB1.tga
+│   │   │       ├── pm0708_29_BodyB1.tga
+│   │   │       └── pm0708_30_BodyB1.tga
+│   │   ├── pm0722_00_hedgehog3/
+│   │   │   ├── pm0722_00.mb.gfmdl
+│   │   │   ├── pm0722_00_ba21_tokusyu02.gfmot
+│   │   │   ├── Shader/
+│   │   │   │   ├── PDC_pm_balkie_Iris.gffsh
+│   │   │   │   ├── PDC_pm_balkie_Iris.gfvsh
+│   │   │   │   ├── PTS_Def_Body.gffsh
+│   │   │   │   └── PTS_Def_Body.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_12D.tga
+│   │   │       ├── Default_Lta_7D.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0722_00_BodyA1.tga
+│   │   │       ├── pm0722_00_BodyA2.tga
+│   │   │       ├── pm0722_00_BodyAHlm.tga
+│   │   │       ├── pm0722_00_BodyANor.tga
+│   │   │       ├── pm0722_00_BodyB1.tga
+│   │   │       ├── pm0722_00_BodyB2.tga
+│   │   │       ├── pm0722_00_BodyBHlm.tga
+│   │   │       ├── pm0722_00_BodyBNor.tga
+│   │   │       ├── pm0722_00_Eye1.tga
+│   │   │       ├── pm0722_00_Eye2.tga
+│   │   │       ├── pm0722_00_EyeHlm.tga
+│   │   │       ├── pm0722_00_EyeNor.tga
+│   │   │       ├── pm0722_00_Hta.tga
+│   │   │       ├── pm0722_00_Iris1.tga
+│   │   │       └── pm0722_00_Iris2.tga
+│   │   ├── testpreset_B/
+│   │   │   ├── Shader/
+│   │   │   │   ├── b5_00_body1CHARA_人物01.gffsh
+│   │   │   │   ├── b5_00_body1CHARA_人物01.gfvsh
+│   │   │   │   ├── b5_00_bodyCHARA_人物01.gffsh
+│   │   │   │   ├── b5_00_bodyCHARA_人物01.gfvsh
+│   │   │   │   ├── b5_00_hairCHARA_人物01.gffsh
+│   │   │   │   ├── b5_00_hairCHARA_人物01.gfvsh
+│   │   │   │   ├── b5_face01_on_0CHARA_人物01.gffsh
+│   │   │   │   ├── b5_face01_on_0CHARA_人物01.gfvsh
+│   │   │   │   ├── b5_face01_on_1CHARA_人物01.gffsh
+│   │   │   │   └── b5_face01_on_1CHARA_人物01.gfvsh
+│   │   │   ├── testpreset_B.gfmdl
+│   │   │   ├── Texture/
+│   │   │   │   ├── b5_00_body.tga
+│   │   │   │   ├── b5_00_hair.tga
+│   │   │   │   ├── b5_face01_on_0.tga
+│   │   │   │   ├── b5_face01_on_1.tga
+│   │   │   │   ├── chara_Hta1D.tga
+│   │   │   │   ├── Default_Lta_13D.tga
+│   │   │   │   └── LinerTable.tga
+│   │   │   └── wait.gfmot
+│   │   ├── testpreset_Dm/
+│   │   │   ├── Shader/
+│   │   │   │   ├── b6_body01CHARA_人物01.gffsh
+│   │   │   │   ├── b6_body01CHARA_人物01.gfvsh
+│   │   │   │   ├── b6_face_on_0CHARA_人物01.gffsh
+│   │   │   │   ├── b6_face_on_0CHARA_人物01.gfvsh
+│   │   │   │   ├── b6_face_on_1CHARA_人物01.gffsh
+│   │   │   │   ├── b6_face_on_1CHARA_人物01.gfvsh
+│   │   │   │   ├── b6_hair01CHARA_人物01.gffsh
+│   │   │   │   ├── b6_hair01CHARA_人物01.gfvsh
+│   │   │   │   ├── sample_matCHARA_人物01.gffsh
+│   │   │   │   └── sample_matCHARA_人物01.gfvsh
+│   │   │   ├── testpreset_Dm.gfmdl
+│   │   │   ├── testpreset_Dm_peace.gfmot
+│   │   │   ├── testpreset_Dm_run.gfmot
+│   │   │   ├── testpreset_Dm_scale01.gfmot
+│   │   │   ├── testpreset_Dm_sit.gfmot
+│   │   │   ├── testpreset_Dm_wait01.gfmot
+│   │   │   ├── testpreset_Dm_wait02.gfmot
+│   │   │   ├── Texture/
+│   │   │   │   ├── b6_body01.tga
+│   │   │   │   ├── b6_face_on_0.tga
+│   │   │   │   ├── b6_face_on_1.tga
+│   │   │   │   ├── b6_hair01.tga
+│   │   │   │   ├── chara_Hta1D.tga
+│   │   │   │   ├── Default_Lta_13D.tga
+│   │   │   │   └── LinerTable.tga
+│   │   │   └── wait.gfmot
+│   │   ├── testpreset_E/
+│   │   │   ├── Shader/
+│   │   │   │   ├── b25_face01_on_0CHARA_人物01.gffsh
+│   │   │   │   ├── b25_face01_on_0CHARA_人物01.gfvsh
+│   │   │   │   ├── b25_face01_on_1CHARA_人物01.gffsh
+│   │   │   │   ├── b25_face01_on_1CHARA_人物01.gfvsh
+│   │   │   │   ├── bt0025_00_bodyCHARA_人物01.gffsh
+│   │   │   │   └── bt0025_00_bodyCHARA_人物01.gfvsh
+│   │   │   ├── testpreset_E.gfmdl
+│   │   │   ├── Texture/
+│   │   │   │   ├── b25_face01_on_0.tga
+│   │   │   │   ├── b25_face01_on_1.tga
+│   │   │   │   ├── bt0025_00_body.tga
+│   │   │   │   ├── chara_Hta1D.tga
+│   │   │   │   ├── Default_Lta_13D.tga
+│   │   │   │   └── LinerTable.tga
+│   │   │   └── wait.gfmot
+│   │   └── tr0001old/
+│   │       ├── anim_joint_01.gfmot
+│   │       ├── anim_morph_01.gfmot
+│   │       ├── run.gfmot
+│   │       ├── Shader/
+│   │       │   ├── Bchara_hlight02バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight02バトルキャラシェーダー.gfvsh
+│   │       │   ├── Bchara_hlight03バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight03バトルキャラシェーダー.gfvsh
+│   │       │   ├── Bchara_hlight04バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight04バトルキャラシェーダー.gfvsh
+│   │       │   ├── Bchara_hlight05バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight05バトルキャラシェーダー.gfvsh
+│   │       │   ├── Bchara_hlight06バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight06バトルキャラシェーダー.gfvsh
+│   │       │   ├── Bchara_hlight07バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight07バトルキャラシェーダー.gfvsh
+│   │       │   ├── ob0204_00CHARA_人物01.gffsh
+│   │       │   ├── ob0204_00CHARA_人物01.gfvsh
+│   │       │   ├── ob0204_00FireCore_FireWing.gffsh
+│   │       │   ├── ob0204_00FireCore_FireWing.gfvsh
+│   │       │   ├── ob0204_01CHARA_着せ替え01.gffsh
+│   │       │   ├── ob0204_01CHARA_着せ替え01.gfvsh
+│   │       │   ├── ob0204_01FireCore_ghos.gffsh
+│   │       │   ├── ob0204_01FireCore_ghos.gfvsh
+│   │       │   ├── tr0001_eyeバトルキャラシェーダー.gffsh
+│   │       │   ├── tr0001_eyeバトルキャラシェーダー.gfvsh
+│   │       │   ├── tr0001_faceバトルキャラシェーダー.gffsh
+│   │       │   └── tr0001_faceバトルキャラシェーダー.gfvsh
+│   │       ├── Shader_/
+│   │       │   ├── Bchara_hlight02バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight02バトルキャラシェーダー.gfvsh
+│   │       │   ├── Bchara_hlight03バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight03バトルキャラシェーダー.gfvsh
+│   │       │   ├── Bchara_hlight04バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight04バトルキャラシェーダー.gfvsh
+│   │       │   ├── Bchara_hlight05バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight05バトルキャラシェーダー.gfvsh
+│   │       │   ├── Bchara_hlight06バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight06バトルキャラシェーダー.gfvsh
+│   │       │   ├── Bchara_hlight07バトルキャラシェーダー.gffsh
+│   │       │   ├── Bchara_hlight07バトルキャラシェーダー.gfvsh
+│   │       │   ├── ob0204_00バトルモンスターボールシェーダー.gffsh
+│   │       │   ├── ob0204_00バトルモンスターボールシェーダー.gfvsh
+│   │       │   ├── ob0204_01バトルモンスターボールシェーダー.gffsh
+│   │       │   ├── ob0204_01バトルモンスターボールシェーダー.gfvsh
+│   │       │   ├── skiningTest.gfvsh
+│   │       │   ├── tr0001_eyeバトルキャラシェーダー.gffsh
+│   │       │   ├── tr0001_eyeバトルキャラシェーダー.gfvsh
+│   │       │   ├── tr0001_faceバトルキャラシェーダー.gffsh
+│   │       │   └── tr0001_faceバトルキャラシェーダー.gfvsh
+│   │       ├── Texture/
+│   │       │   ├── Bchara_hlight00.tga
+│   │       │   ├── Bchara_hlight02.tga
+│   │       │   ├── Bchara_hlight03.tga
+│   │       │   ├── Bchara_Hta00.tga
+│   │       │   ├── Bchara_Hta01.tga
+│   │       │   ├── Bchara_Hta03.tga
+│   │       │   ├── Bchara_Tta01.tga
+│   │       │   ├── Bchara_Tta02.tga
+│   │       │   ├── Bchara_Tta05.tga
+│   │       │   ├── Bmball_shade01.tga
+│   │       │   ├── linearTable.tga
+│   │       │   ├── ob0204_00.tga
+│   │       │   ├── tr0001_bag.tga
+│   │       │   ├── tr0001_boots.tga
+│   │       │   ├── tr0001_btms.tga
+│   │       │   ├── tr0001_eye.tga
+│   │       │   ├── tr0001_face.tga
+│   │       │   ├── tr0001_hair.tga
+│   │       │   ├── tr0001_hat.tga
+│   │       │   └── tr0001_tops.tga
+│   │       ├── Textures_/
+│   │       │   ├── Bchara_hlight00.dds
+│   │       │   ├── Bchara_hlight00.tga
+│   │       │   ├── Bchara_hlight02.dds
+│   │       │   ├── Bchara_hlight02.tga
+│   │       │   ├── Bchara_hlight03.dds
+│   │       │   ├── Bchara_hlight03.tga
+│   │       │   ├── Bmball_shade01.dds
+│   │       │   ├── Bmball_shade01.tga
+│   │       │   ├── ob0204_00.dds
+│   │       │   ├── ob0204_00.tga
+│   │       │   ├── tr0001_bag.dds
+│   │       │   ├── tr0001_bag.tga
+│   │       │   ├── tr0001_boots.dds
+│   │       │   ├── tr0001_boots.tga
+│   │       │   ├── tr0001_btms.dds
+│   │       │   ├── tr0001_btms.tga
+│   │       │   ├── tr0001_eye.dds
+│   │       │   ├── tr0001_eye.tga
+│   │       │   ├── tr0001_face.dds
+│   │       │   ├── tr0001_face.tga
+│   │       │   ├── tr0001_hair.dds
+│   │       │   ├── tr0001_hair.tga
+│   │       │   ├── tr0001_hat.dds
+│   │       │   ├── tr0001_hat.tga
+│   │       │   ├── tr0001_tops.dds
+│   │       │   ├── tr0001_tops.tga
+│   │       │   ├── tr0001_Ttops.dds
+│   │       │   └── tr0001_Ttops.tga
+│   │       ├── tr0001_00_fi01_wait01.gfmot
+│   │       ├── tr0001_00_fi20_walk01.gfmot
+│   │       ├── tr0001morph.gfmdl
+│   │       ├── tr0001old.gfmdl
+│   │       └── tr0001old.mcnf
+│   ├── DivertMotion/
+│   │   ├── DivertMotion.vcxproj
+│   │   ├── DivertMotion.vcxproj.filters
+│   │   └── main.cpp
+│   ├── DrawEnvAnimation/
+│   │   ├── DrawEnvAnimation.vcxproj
+│   │   ├── DrawEnvAnimation.vcxproj.filters
+│   │   └── main.cpp
+│   ├── Framework/
+│   │   ├── Framework.vcxproj
+│   │   ├── Framework.vcxproj.filters
+│   │   ├── IApplication.h
+│   │   └── main.cpp
+│   ├── JointIK/
+│   │   ├── JointIK.vcxproj
+│   │   ├── JointIK.vcxproj.filters
+│   │   └── main.cpp
+│   ├── JointInterest/
+│   │   ├── JointInterest.vcxproj
+│   │   ├── JointInterest.vcxproj.filters
+│   │   └── main.cpp
+│   ├── JointSpring/
+│   │   ├── JointSpring.vcxproj
+│   │   ├── JointSpring.vcxproj.filters
+│   │   └── main.cpp
+│   ├── KawaigariTest/
+│   │   ├── KawaigariTest.vcxproj
+│   │   ├── KawaigariTest.vcxproj.filters
+│   │   ├── main.cpp
+│   │   ├── rendering_pipeline.cpp
+│   │   └── rendering_pipeline.h
+│   ├── KeyAnimation/
+│   │   ├── KeyAnimation.vcxproj
+│   │   ├── KeyAnimation.vcxproj.filters
+│   │   └── main.cpp
+│   ├── MorphingSample/
+│   │   ├── main.cpp
+│   │   ├── MorphingSample.vcxproj
+│   │   └── MorphingSample.vcxproj.filters
+│   ├── Sample.sln
+│   ├── SimpleAnimation/
+│   │   ├── main.cpp
+│   │   ├── SimpleAnimation.vcxproj
+│   │   └── SimpleAnimation.vcxproj.filters
+│   ├── TexturePatternAnimation/
+│   │   ├── main.cpp
+│   │   ├── TexturePatternAnimation.vcxproj
+│   │   └── TexturePatternAnimation.vcxproj.filters
+│   ├── UVAnimation/
+│   │   ├── main.cpp
+│   │   ├── UVAnimation.vcxproj
+│   │   └── UVAnimation.vcxproj.filters
+│   └── VisibilityAnimation/
+│       ├── main.cpp
+│       ├── VisibilityAnimation.vcxproj
+│       └── VisibilityAnimation.vcxproj.filters
+└── source/
+    ├── gfl2_AnimationController.cpp
+    ├── gfl2_AnimationPack.cpp
+    ├── gfl2_AnimationPackList.cpp
+    ├── gfl2_AnimationSlotBase.cpp
+    ├── gfl2_BlendShapeAnimationSlot.cpp
+    ├── gfl2_CameraAnimationSlot.cpp
+    ├── gfl2_DrawEnvAnimationController.cpp
+    ├── gfl2_FogAnimationSlot.cpp
+    ├── gfl2_GlareAnimationSlot.cpp
+    ├── gfl2_IKController.cpp
+    ├── gfl2_IKJointFunction.cpp
+    ├── gfl2_InterestController.cpp
+    ├── gfl2_InterestJointFunction.cpp
+    ├── gfl2_JointAnimationSlot.cpp
+    ├── gfl2_JointController.cpp
+    ├── gfl2_JointFunctionBase.cpp
+    ├── gfl2_KeyAnimationSlot.cpp
+    ├── gfl2_LightAnimationSlot.cpp
+    ├── gfl2_MaterialAnimationSlot.cpp
+    ├── gfl2_SpringController.cpp
+    ├── gfl2_SpringJointFunction.cpp
+    └── gfl2_VisibilityAnimationSlot.cpp

@@ -1,0 +1,317 @@
+gflnet2/
+├── include/
+│   ├── base/
+│   │   ├── gflnet2_AccessPointHistoryBase.h
+│   │   ├── gflnet2_AccessPointScannerBase.h
+│   │   ├── gflnet2_Base.h
+│   │   ├── gflnet2_BaseProcess.h
+│   │   ├── gflnet2_GlobalAccess.h
+│   │   ├── gflnet2_InitParam.h
+│   │   ├── gflnet2_NetAdapter.h
+│   │   ├── gflnet2_NetConfig.h
+│   │   ├── gflnet2_NetMain.h
+│   │   ├── gflnet2_NetStateListener.h
+│   │   ├── gflnet2_NetThread.h
+│   │   ├── gflnet2_ProcBase.h
+│   │   ├── gflnet2_ProcManager.h
+│   │   ├── gflnet2_TransferedIDReceiver.h
+│   │   └── gflnet2_Yield.h
+│   ├── beacon/
+│   │   ├── gflnet2_Beacon.h
+│   │   ├── gflnet2_BeaconCommand.h
+│   │   ├── gflnet2_BeaconCommandIterator.h
+│   │   ├── gflnet2_BeaconListener.h
+│   │   ├── gflnet2_BeaconManager.h
+│   │   ├── gflnet2_BeaconSender.h
+│   │   ├── gflnet2_IrBeaconSender.h
+│   │   ├── gflnet2_PiaBeaconSender.h
+│   │   └── gflnet2_WirelessBeaconSender.h
+│   ├── boss/
+│   │   ├── gflnet2_BossEventListener.h
+│   │   └── gflnet2_BossManager.h
+│   ├── cec/
+│   │   ├── gflnet2_CecMessageBoxCreateParam.h
+│   │   ├── gflnet2_CecPacketInfo.h
+│   │   ├── gflnet2_CecResultCode.h
+│   │   ├── gflnet2_CecTypes.h
+│   │   ├── gflnet2_ICecCoreMessageBox.h
+│   │   ├── gflnet2_ICecMessageBoxEventListener.h
+│   │   ├── gflnet2_ICecRecvMessageBox.h
+│   │   ├── gflnet2_ICecSendMessageBox.h
+│   │   └── gflnet2_ICecSystem.h
+│   ├── connect/
+│   │   └── gflnet2_AutoIrConnect.h
+│   ├── debug/
+│   │   └── gflnet2_Debug.h
+│   ├── dev/
+│   │   ├── gflnet2_IrAdapterErrorListener.h
+│   │   └── gflnet2_NetZAdapter.h
+│   ├── friends/
+│   │   ├── gflnet2_FriendAddListener.h
+│   │   ├── gflnet2_FriendLoginListener.h
+│   │   └── gflnet2_FriendManager.h
+│   ├── gflnet2.h
+│   ├── gflnet2_NetworkDefine.h
+│   ├── gflnet2_P2p.h
+│   ├── http/
+│   │   ├── gflnet2_HttpConnectionListener.h
+│   │   ├── gflnet2_HttpConnectionSetting.h
+│   │   ├── gflnet2_HttpConnector.h
+│   │   ├── gflnet2_HttpResponse.h
+│   │   └── gflnet2_HttpSystem.h
+│   ├── ndm/
+│   │   ├── gflnet2_NdmEventListener.h
+│   │   └── gflnet2_NdmManager.h
+│   ├── nex/
+│   │   ├── gflnet2_NexCommunityListener.h
+│   │   ├── gflnet2_NexDataStoreClient.h
+│   │   ├── gflnet2_NexDataStoreClientListener.h
+│   │   ├── gflnet2_NexDebugClient.h
+│   │   ├── gflnet2_NexDebugClientListener.h
+│   │   ├── gflnet2_NexDispatchThreadListener.h
+│   │   ├── gflnet2_NexError.h
+│   │   ├── gflnet2_NexErrorListener.h
+│   │   ├── gflnet2_NexGameServerListener.h
+│   │   ├── gflnet2_NexManager.h
+│   │   ├── gflnet2_NexMatchmakeListener.h
+│   │   ├── gflnet2_NexMatchMakingClient.h
+│   │   ├── gflnet2_NexMatchMakingRule.h
+│   │   ├── gflnet2_NexMessageClient.h
+│   │   ├── gflnet2_NexMessageClientListener.h
+│   │   ├── gflnet2_NexP2pStationManager.h
+│   │   ├── gflnet2_NexRankingClient.h
+│   │   ├── gflnet2_NexRankingClientListener.h
+│   │   ├── gflnet2_NexSessionEventListener.h
+│   │   ├── gflnet2_NexTemplate.h
+│   │   └── gflnet2_NexUtilityListener.h
+│   ├── p2p/
+│   │   ├── gflnet2_NetGame.h
+│   │   ├── gflnet2_NetGameErrorListener.h
+│   │   ├── gflnet2_NetGameMigrationListener.h
+│   │   ├── gflnet2_NetPlayer.h
+│   │   ├── gflnet2_P2pConfig.h
+│   │   ├── gflnet2_P2pConnectionInterface.h
+│   │   ├── gflnet2_P2pDefine.h
+│   │   ├── gflnet2_P2pDisconnectionInterface.h
+│   │   ├── gflnet2_P2pManager.h
+│   │   ├── gflnet2_P2pManagerEventListener.h
+│   │   ├── gflnet2_P2pProcBaseProcess.h
+│   │   ├── gflnet2_RecvBuffer.h
+│   │   └── gflnet2_RecvDataListener.h
+│   ├── scan/
+│   │   ├── gflnet2_Ir.h
+│   │   ├── gflnet2_Manager.h
+│   │   └── gflnet2_Wireless.h
+│   ├── ServerClient/
+│   │   ├── gflnet2_RequestHandle.h
+│   │   ├── gflnet2_RequestSequenceBase.h
+│   │   └── gflnet2_ServerClientRequestManager.h
+│   ├── Session/
+│   │   ├── gflnet2_SessionMessageListener.h
+│   │   ├── gflnet2_SessionMessageManagerBase.h
+│   │   ├── gflnet2_SessionPacketInitParam.h
+│   │   └── gflnet2_SessionPacketManager.h
+│   ├── socket/
+│   │   └── gflnet2_SocketSystem.h
+│   ├── util/
+│   │   ├── gflnet2_Base64Utility.h
+│   │   └── gflnet2_UrlCoderUtility.h
+│   └── wifi/
+│       ├── gflnet2_WifiConnectListener.h
+│       ├── gflnet2_WifiDisconnectListener.h
+│       └── gflnet2_WifiSystem.h
+├── project/
+│   ├── gflnet2.sln
+│   ├── gflnet2.vcxproj
+│   └── gflnet2.vcxproj.filters
+└── source/
+    ├── base/
+    │   ├── gflnet2_Base.cpp
+    │   ├── gflnet2_BaseProcess.cpp
+    │   ├── gflnet2_GlobalAccess.cpp
+    │   ├── gflnet2_InitParam.cpp
+    │   ├── gflnet2_ProcManager.cpp
+    │   └── gflnet2_Yield.cpp
+    ├── beacon/
+    │   ├── gflnet2_Beacon.cpp
+    │   ├── gflnet2_BeaconCommandIterator.cpp
+    │   ├── gflnet2_BeaconManager.cpp
+    │   ├── gflnet2_IrBeaconSender.cpp
+    │   ├── gflnet2_PiaBeaconSender.cpp
+    │   └── gflnet2_WirelessBeaconSender.cpp
+    ├── boss/
+    │   ├── gflnet2_BossCheckNewArrivalDataThread.cpp
+    │   ├── gflnet2_BossCheckNewArrivalDataThread.h
+    │   ├── gflnet2_BossFilelistDownloadThread.cpp
+    │   ├── gflnet2_BossFilelistDownloadThread.h
+    │   ├── gflnet2_BossFileReadThread.cpp
+    │   ├── gflnet2_BossFileReadThread.h
+    │   ├── gflnet2_BossImmediateTaskThread.cpp
+    │   ├── gflnet2_BossImmediateTaskThread.h
+    │   ├── gflnet2_BossManager.cpp
+    │   ├── gflnet2_BossTaskRegisterThread.cpp
+    │   └── gflnet2_BossTaskRegisterThread.h
+    ├── cec/
+    │   ├── ctr/
+    │   │   ├── gflnet2_CTR_CecAllocator.cpp
+    │   │   ├── gflnet2_CTR_CecAllocator.h
+    │   │   ├── gflnet2_CTR_CecController.cpp
+    │   │   ├── gflnet2_CTR_CecController.h
+    │   │   ├── gflnet2_CTR_CecControlObject.cpp
+    │   │   ├── gflnet2_CTR_CecControlObject.h
+    │   │   ├── gflnet2_CTR_CecCoreMessageBox.cpp
+    │   │   ├── gflnet2_CTR_CecCoreMessageBox.h
+    │   │   ├── gflnet2_CTR_CecMessageBoxAccessor.cpp
+    │   │   ├── gflnet2_CTR_CecMessageBoxAccessor.h
+    │   │   ├── gflnet2_CTR_CecMessageBoxAccessThread.cpp
+    │   │   ├── gflnet2_CTR_CecMessageBoxAccessThread.h
+    │   │   ├── gflnet2_CTR_CecMessageBoxEventListener.h
+    │   │   ├── gflnet2_CTR_CecRecvMessageBox.cpp
+    │   │   ├── gflnet2_CTR_CecRecvMessageBox.h
+    │   │   ├── gflnet2_CTR_CecSendMessageBox.cpp
+    │   │   ├── gflnet2_CTR_CecSendMessageBox.h
+    │   │   ├── gflnet2_CTR_CecSystem.cpp
+    │   │   ├── gflnet2_CTR_CecSystem.h
+    │   │   └── gflnet2_CTR_ICecControlObjectRegister.h
+    │   ├── gflnet2_CecCommandID.h
+    │   ├── gflnet2_ICecSystem.cpp
+    │   └── win32/
+    │       ├── gflnet2_WIN32_CecCoreMessageBox.cpp
+    │       ├── gflnet2_WIN32_CecCoreMessageBox.h
+    │       ├── gflnet2_WIN32_CecRecvMessageBox.cpp
+    │       ├── gflnet2_WIN32_CecRecvMessageBox.h
+    │       ├── gflnet2_WIN32_CecSendMessageBox.cpp
+    │       ├── gflnet2_WIN32_CecSendMessageBox.h
+    │       ├── gflnet2_WIN32_CecSystem.cpp
+    │       └── gflnet2_WIN32_CecSystem.h
+    ├── connect/
+    │   ├── proc/
+    │   │   └── gflnet2_AutoIrConnect.cpp
+    │   └── thread/
+    │       ├── gflnet2_WirelessInitThread.cpp
+    │       └── gflnet2_WirelessInitThread.h
+    ├── debug/
+    │   └── gflnet2_Debug.cpp
+    ├── dev/
+    │   ├── gflnet2_IrAdapter.cpp
+    │   ├── gflnet2_IrAdapter.h
+    │   ├── gflnet2_NetZAdapter.cpp
+    │   ├── gflnet2_PiaAdapter.cpp
+    │   └── gflnet2_PiaAdapter.h
+    ├── friends/
+    │   ├── gflnet2_FriendAddThread.cpp
+    │   ├── gflnet2_FriendAddThread.h
+    │   ├── gflnet2_FriendLoginThread.cpp
+    │   ├── gflnet2_FriendLoginThread.h
+    │   └── gflnet2_FriendManager.cpp
+    ├── http/
+    │   ├── gflnet2_HttpConnection.cpp
+    │   ├── gflnet2_HttpConnection.h
+    │   ├── gflnet2_HttpConnectionThread.cpp
+    │   ├── gflnet2_HttpConnectionThread.h
+    │   ├── gflnet2_HttpConnector.cpp
+    │   ├── gflnet2_HttpResponse.cpp
+    │   └── gflnet2_HttpSystem.cpp
+    ├── ndm/
+    │   ├── gflnet2_NdmManager.cpp
+    │   ├── gflnet2_NdmSuspendThread.cpp
+    │   └── gflnet2_NdmSuspendThread.h
+    ├── nex/
+    │   ├── AutoMatchmakeDDF.cpp
+    │   ├── AutoMatchmakeDDF.h
+    │   ├── gflnet2_NexDataStoreClient.cpp
+    │   ├── gflnet2_NexDebugClient.cpp
+    │   ├── gflnet2_NexDispatchThread.cpp
+    │   ├── gflnet2_NexDispatchThread.h
+    │   ├── gflnet2_NexError.cpp
+    │   ├── gflnet2_NexManager.cpp
+    │   ├── gflnet2_NexMatchMakingClient.cpp
+    │   ├── gflnet2_NexMatchMakingNotificationListener.cpp
+    │   ├── gflnet2_NexMatchMakingNotificationListener.h
+    │   ├── gflnet2_NexMatchMakingRule.cpp
+    │   ├── gflnet2_NexMessageClient.cpp
+    │   ├── gflnet2_NexP2pStationManager.cpp
+    │   └── gflnet2_NexRankingClient.cpp
+    ├── p2p/
+    │   ├── gflnet2_NetGame.cpp
+    │   ├── gflnet2_NetGameBase.cpp
+    │   ├── gflnet2_NetGameBase.h
+    │   ├── gflnet2_NetPlayer.cpp
+    │   ├── gflnet2_P2pConnectionInterface.cpp
+    │   ├── gflnet2_P2pDisconnectionInterface.cpp
+    │   ├── gflnet2_P2pManager.cpp
+    │   ├── gflnet2_P2pStaticManager.cpp
+    │   ├── gflnet2_P2pStaticManager.h
+    │   ├── proc/
+    │   │   ├── ir/
+    │   │   │   ├── gflnet2_P2pConnectionIr.cpp
+    │   │   │   ├── gflnet2_P2pConnectionIr.h
+    │   │   │   ├── gflnet2_P2pConnectionWifi.cpp
+    │   │   │   ├── gflnet2_P2pConnectionWifi.h
+    │   │   │   ├── gflnet2_P2pDisconnectionIr.cpp
+    │   │   │   ├── gflnet2_P2pDisconnectionIr.h
+    │   │   │   ├── gflnet2_P2pMainIr.cpp
+    │   │   │   └── gflnet2_P2pMainIr.h
+    │   │   ├── wifi/
+    │   │   │   ├── gflnet2_P2pConnectionWifi.cpp
+    │   │   │   ├── gflnet2_P2pConnectionWifi.h
+    │   │   │   ├── gflnet2_P2pDisconnectionWifi.cpp
+    │   │   │   ├── gflnet2_P2pDisconnectionWifi.h
+    │   │   │   ├── gflnet2_P2pMainWifi.cpp
+    │   │   │   ├── gflnet2_P2pMainWifi.h
+    │   │   │   ├── gflnet2_P2pSimpleConnectionWifi.cpp
+    │   │   │   ├── gflnet2_P2pSimpleConnectionWifi.h
+    │   │   │   ├── gflnet2_P2pSimpleDisconnectionWifi.cpp
+    │   │   │   └── gflnet2_P2pSimpleDisconnectionWifi.h
+    │   │   └── wireless/
+    │   │       ├── gflnet2_P2pConnectionWireless.cpp
+    │   │       ├── gflnet2_P2pConnectionWireless.h
+    │   │       ├── gflnet2_P2pDisconnectionWireless.cpp
+    │   │       ├── gflnet2_P2pDisconnectionWireless.h
+    │   │       ├── gflnet2_P2pMainWireless.cpp
+    │   │       └── gflnet2_P2pMainWireless.h
+    │   └── thread/
+    │       ├── gflnet2_IrP2pThread.cpp
+    │       ├── gflnet2_IrP2pThread.h
+    │       ├── gflnet2_LocalAutoMatchingThread.cpp
+    │       ├── gflnet2_LocalAutoMatchingThread.h
+    │       ├── gflnet2_P2pAutoScanThread.cpp
+    │       └── gflnet2_P2pAutoScanThread.h
+    ├── proc/
+    │   ├── gflnet2_IrAutoMatchThread.cpp
+    │   └── gflnet2_IrAutoMatchThread.h
+    ├── scan/
+    │   ├── gflnet2_Ir.cpp
+    │   ├── gflnet2_Manager.cpp
+    │   ├── gflnet2_Wireless.cpp
+    │   ├── proc/
+    │   │   ├── gflnet2_IrScanProc.cpp
+    │   │   ├── gflnet2_IrScanProc.h
+    │   │   ├── gflnet2_WirelessScanProc.cpp
+    │   │   └── gflnet2_WirelessScanProc.h
+    │   └── thread/
+    │       ├── gflnet2_WirelessCycleThread.cpp
+    │       └── gflnet2_WirelessCycleThread.h
+    ├── ServerClient/
+    │   ├── gflnet2_ServerClientRequestManager.cpp
+    │   └── gflnet2_ServerClientRequestManagerPrivate.h
+    ├── Session/
+    │   ├── CTR/
+    │   │   ├── gflnet2_CTR_TCPPacketIO.cpp
+    │   │   ├── gflnet2_CTR_TCPPacketIO.h
+    │   │   ├── gflnet2_CTR_UDPPacketIO.cpp
+    │   │   └── gflnet2_CTR_UDPPacketIO.h
+    │   ├── gflnet2_SessionMessageManagerBase.cpp
+    │   ├── gflnet2_SessionPacketDatagram.cpp
+    │   ├── gflnet2_SessionPacketDatagram.h
+    │   ├── gflnet2_SessionPacketIOBase.h
+    │   └── gflnet2_SessionPacketManager.cpp
+    ├── socket/
+    │   └── gflnet2_SocketSystem.cpp
+    ├── util/
+    │   ├── gflnet2_Base64Utility.cpp
+    │   └── gflnet2_UrlCoderUtility.cpp
+    └── wifi/
+        ├── gflnet2_WifiConnectThread.cpp
+        ├── gflnet2_WifiConnectThread.h
+        └── gflnet2_WifiSystem.cpp

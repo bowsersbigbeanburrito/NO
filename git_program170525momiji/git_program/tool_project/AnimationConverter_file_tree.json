@@ -1,0 +1,518 @@
+{
+    ".": {
+        "AnimationConverter.sln": {
+            "modified": "2017-05-31 21:54:45.300718",
+            "size": "0.92KB",
+            "md5": "7fdc09cd6e737913ae330ebb7cb4be47",
+            "sha256": "4d7fc5947c9d4d6b55d204ebef57aa789f5ce442d43647d0875e2313843496eb"
+        }
+    },
+    "AnimationConverter": {
+        "AnimationConverter.csproj": {
+            "modified": "2017-05-31 21:54:45.326720",
+            "size": "5.59KB",
+            "md5": "b08f1635a8c5c8013abe9853f3898048",
+            "sha256": "3bb4c7c9256443745fa301e3db13a62645ba347281932a7a343574bfd92cd30a"
+        },
+        "App.config": {
+            "modified": "2017-05-31 21:54:45.342722",
+            "size": "0.18KB",
+            "md5": "3f9b7c50015ca8be5ec84127bb37e2cb",
+            "sha256": "c66e1ba36e874342cd570cf5bdd3d8b73864a4c9e9d802398be7f46fe39a8532"
+        },
+        "Common.cs": {
+            "modified": "2017-05-31 21:54:45.347722",
+            "size": "9.87KB",
+            "md5": "f6cb804844034f74888c46068172fe4f",
+            "sha256": "400dbb59df0799fc079c0a3db73e8c12b3dc3c6b246b8c1de22b34256290c5cf"
+        },
+        "DivideTexAnim.cs": {
+            "modified": "2017-05-31 21:54:45.461734",
+            "size": "0.51KB",
+            "md5": "275db227a13870789b03240196fb4c85",
+            "sha256": "a0752216ad8de9818de1c684a0211cecfe15523f214f77d1d177ea004f18e605"
+        },
+        "FunctionCurve.cs": {
+            "modified": "2017-05-31 21:54:45.473735",
+            "size": "3.74KB",
+            "md5": "66d5081e36fcca4da133795e77052d74",
+            "sha256": "29c6358b6dbdb67735d2a3f296a5feb213b1ae16c7c0c2e27a35ac94bd5f5985"
+        },
+        "FunctionCurveCompress.cs": {
+            "modified": "2017-05-31 21:54:45.478735",
+            "size": "6.26KB",
+            "md5": "d762d9aabc6dcdaa60aaa98a44f99724",
+            "sha256": "09119317e8e57e0adbb0aa795395728a663825e6ff9dd4529233d9e321980769"
+        },
+        "KeyCompress.cs": {
+            "modified": "2017-05-31 21:54:45.679756",
+            "size": "19.48KB",
+            "md5": "51af5299ab864f29a10f6f3075f16d79",
+            "sha256": "9cbe5d909e9b2bdc1c19c752dd0524c256ef7d0c6442c366315bc8aa51ec5c86"
+        },
+        "Matrix.cs": {
+            "modified": "2017-05-31 21:54:45.685756",
+            "size": "2.78KB",
+            "md5": "b4cb33dbf51ab65d59a26693ea5d99d7",
+            "sha256": "38dfaa65e9e10128dc787fee881b42e17af9399fee3ed050ad7f9b8c068a53fc"
+        },
+        "OldFormatChecker.cs": {
+            "modified": "2017-05-31 21:54:45.728760",
+            "size": "17.26KB",
+            "md5": "03cb298b587a172c8e739ae203862460",
+            "sha256": "943ccd063823a81afce0af813e41de7e8f9bcca443e2af9177511159825378d0"
+        },
+        "Program.cs": {
+            "modified": "2017-05-31 21:54:45.734761",
+            "size": "9.44KB",
+            "md5": "b84d156cf09ee17fdce5a204db278217",
+            "sha256": "5362b4891c19e1e24d08a873fce3e504de4140ab27389f1233d8cdcaf56d53be"
+        },
+        "Quaternion.cs": {
+            "modified": "2017-05-31 21:54:45.795767",
+            "size": "9.91KB",
+            "md5": "544ba63d99dc2c3c18c276723e7a216b",
+            "sha256": "069f25d5008a7caf211b3022f83787924a311c822f420a913457c6fcc84842cf"
+        },
+        "Test.cs": {
+            "modified": "2017-05-31 21:54:45.801768",
+            "size": "11.2KB",
+            "md5": "1d6e3ce212fb4ca5432bdddc77e8a8d1",
+            "sha256": "0f1500763e0034c52a3e39c7697d5275c6097568dd7f5bc6c199b1ca1e97a412"
+        }
+    },
+    "AnimationConverter\\ConvMode": {
+        "ConvDivideTexAnim.cs": {
+            "modified": "2017-05-31 21:54:45.354723",
+            "size": "24.38KB",
+            "md5": "2b2cff0cf717e1f8749ef2c84c46d4fc",
+            "sha256": "39a97d2a7e38cd1b7722937116644a1a2560a485471e8b85bed37e0183a1d69a"
+        },
+        "ConvGfmot.cs": {
+            "modified": "2017-05-31 21:54:45.360724",
+            "size": "4.85KB",
+            "md5": "f9d556d995109e4506c81951a98baa94",
+            "sha256": "188e81d3e0d1f3378fdd61fe658e44403f2ae9d0c4deff04969999f0a49df9ee"
+        },
+        "ConvLog.cs": {
+            "modified": "2017-05-31 21:54:45.366724",
+            "size": "2.2KB",
+            "md5": "4076e57e9fb09b9562a58d394a9c8133",
+            "sha256": "2d63583612e90457982ada5d3191fe7704563b7d43b2e7a022d4aea97fd3f594"
+        },
+        "ConvMcnf.cs": {
+            "modified": "2017-05-31 21:54:45.372725",
+            "size": "2.82KB",
+            "md5": "18654a39ef425d207dbd498a2bb71b3c",
+            "sha256": "63c82726412063bf270a5fc84e8c6f2fb464d27130337a3334e64b1bd615564a"
+        },
+        "ConvMlst.cs": {
+            "modified": "2017-05-31 21:54:45.414729",
+            "size": "6.36KB",
+            "md5": "b3fd950f93fe59e5edd4a379b279f450",
+            "sha256": "ea0a62d37eecfe54bcbf1f9313a781ec0147186c5c2c8e2eec9e112dab0105ba"
+        },
+        "GfmotBinaryExporter.cs": {
+            "modified": "2017-05-31 21:54:45.420730",
+            "size": "57.11KB",
+            "md5": "175d1bbbc38f5ce1c3d923620a1e3043",
+            "sha256": "3305e65a3fdb01f6aa793310a0826aa0a29295b0001b1d9b021f18e1b39858ec"
+        },
+        "McnfBinaryExporter.cs": {
+            "modified": "2017-05-31 21:54:45.449733",
+            "size": "14.03KB",
+            "md5": "949b1e4028eeea4cebe094e2858d6b87",
+            "sha256": "e6c53b5d3db46c062069b7e30d9b8ab03d4a08d1d1a575968440faa78c2ebfea"
+        }
+    },
+    "AnimationConverter\\Cskla": {
+        "Cskla.cs": {
+            "modified": "2017-05-31 21:54:45.456733",
+            "size": "2.73KB",
+            "md5": "c3c346a3e243eb565017ec14a52e4bad",
+            "sha256": "9ca3e32b74c674dd76d0852d8634252b56d3610f59f5908a23d2fc4207c8c78c"
+        }
+    },
+    "AnimationConverter\\ExcelXml": {
+        "ExcelXml.cs": {
+            "modified": "2017-05-31 21:54:45.467734",
+            "size": "5.61KB",
+            "md5": "0f3139f4c3513b7a4f39deb38b4dff52",
+            "sha256": "124ae0e09b91623bb417d374b5d5562fe2ea546f06326b3c42bfcdc9d12a35c1"
+        }
+    },
+    "AnimationConverter\\GfMotion": {
+        "AttributeKeyAnimation.cs": {
+            "modified": "2017-05-31 21:54:45.485736",
+            "size": "0.52KB",
+            "md5": "1d787733c69618cc1315becc94005a48",
+            "sha256": "89107b0c8861c05db0ada415f498960f56cfb4b81f8db44615cd3eaaaa0b5485"
+        },
+        "BlendShapeAnimation.cs": {
+            "modified": "2017-05-31 21:54:45.520740",
+            "size": "0.84KB",
+            "md5": "27d6f21a1f752b2fd8192b6f2957254a",
+            "sha256": "a87d38465272cfa099f1c404566526efa8474668bb3d0f2d435b7f75e6c1f68f"
+        },
+        "Common.cs": {
+            "modified": "2017-05-31 21:54:45.525740",
+            "size": "1.84KB",
+            "md5": "e9de6eed0192456d0e46cf334a4a4d13",
+            "sha256": "7803cb35a92c2a7f4e5275c23bbb3a35dbf05031eedb2084480fd05c858720f4"
+        },
+        "EnvAnimation.cs": {
+            "modified": "2017-05-31 21:54:45.531741",
+            "size": "2.72KB",
+            "md5": "659280169f1143a27b92b46451f520f4",
+            "sha256": "0ba8f9b36123a882218a5edd5ba93f4e4145c2768991c1ace61af402da09ff62"
+        },
+        "Gfmot.cs": {
+            "modified": "2017-05-31 21:54:45.535741",
+            "size": "1.18KB",
+            "md5": "64474b82703219c53020fb9a911c1b96",
+            "sha256": "4472d20e85353771c8a0d9d28bb8c5b6bda63573c9049be3470769b76f35f057"
+        },
+        "JointAnimation.cs": {
+            "modified": "2017-05-31 21:54:45.563744",
+            "size": "0.7KB",
+            "md5": "998bc908bab302184a773c9cb355b6f7",
+            "sha256": "61f93a0dbb32a98ca8cfe25b1e654dc1d5daa300da9e2473bcad2c251f797c53"
+        },
+        "ShaderAnimation.cs": {
+            "modified": "2017-05-31 21:54:45.568744",
+            "size": "0.73KB",
+            "md5": "5f546b55eff88503aca885c8121c56b6",
+            "sha256": "7f3df0da5c4f6d696196b0aebe531622c7135f24fe0a5341e1e031a0e3dddf64"
+        },
+        "Skelton.cs": {
+            "modified": "2017-05-31 21:54:45.642752",
+            "size": "2.14KB",
+            "md5": "921da209c87d0274b5e53d3d64ad5cdc",
+            "sha256": "e9d437fb14c5e7af43a20c1805d9f3d15de1f0bf9a6a4a5cad4af7a9fdc26b19"
+        },
+        "TexturePatternAnimation.cs": {
+            "modified": "2017-05-31 21:54:45.647752",
+            "size": "0.89KB",
+            "md5": "a14ea6e6ccf8c1572e6fe3b3afad4eba",
+            "sha256": "8e3bb9d44a2811a0c926ccb850fff2e60cc769f866b9b47a69cd6f79ab8f9db8"
+        },
+        "UvAnimation.cs": {
+            "modified": "2017-05-31 21:54:45.652753",
+            "size": "0.74KB",
+            "md5": "71848842287ea3a9c85a16e692eb9a69",
+            "sha256": "cc4c83afe72535063586c2b7623c729bde74f623d8d555d2ef975df96769b9a5"
+        },
+        "VisibilityAnimation.cs": {
+            "modified": "2017-05-31 21:54:45.664754",
+            "size": "0.48KB",
+            "md5": "cccb683a50e71381e328a230c5b65a41",
+            "sha256": "02a652486c32ea7487d002f4e8fb294d6b17ca0e101dcc5276a0303fde98a2e8"
+        }
+    },
+    "AnimationConverter\\Mcnf": {
+        "BlendList.cs": {
+            "modified": "2017-05-31 21:54:45.691757",
+            "size": "1.82KB",
+            "md5": "a796361226a2cf2c2e01dc0c8711dc1a",
+            "sha256": "a1e0c9ec1d6b6b9ee721c608e3b4511df7fccadb61587a11b2effe7d8334da96"
+        },
+        "EachDae.cs": {
+            "modified": "2017-05-31 21:54:45.696757",
+            "size": "3.49KB",
+            "md5": "5bf754e8269d35dc84097b731455ad86",
+            "sha256": "cdf684722488c7a2d989b96fdf93141186c1a44e46f9b8355973da796c918ed5"
+        },
+        "Mcnf.cs": {
+            "modified": "2017-05-31 21:54:45.702758",
+            "size": "7.68KB",
+            "md5": "cfc8be1a50e496387114f59246d1f930",
+            "sha256": "5672daadb68799d86fc03535eee7442dee11b328d6d3ef7b80083fcd280a0af5"
+        }
+    },
+    "AnimationConverter\\Mot": {
+        "Mot.cs": {
+            "modified": "2017-05-31 21:54:45.722760",
+            "size": "10.79KB",
+            "md5": "ba8ab3c8c468e7ef75f80aa7c99c0edf",
+            "sha256": "4cef0a5e73dd179ec44d6069e34568d13796574a743ec6e94b8b6a2a3fe79807"
+        }
+    },
+    "AnimationConverter\\Properties": {
+        "AssemblyInfo.cs": {
+            "modified": "2017-05-31 21:54:45.740762",
+            "size": "1.63KB",
+            "md5": "06bfe7da66429e0e1599741bea407646",
+            "sha256": "00ed75e7b54c0514eaeb511520893a01c459c72e62cb4436109b39231eef104c"
+        }
+    },
+    "test_file\\new_format": {
+        "chip_sea_opt.mb.bgfmot": {
+            "modified": "2017-05-31 21:54:45.808769",
+            "size": "0.0KB",
+            "md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "chip_sea_opt.mb.gfmot": {
+            "modified": "2017-05-31 21:54:45.809769",
+            "size": "8.05KB",
+            "md5": "65af26272193b3ee31fc8af0834ef9ce",
+            "sha256": "6884b7214779b94234930475132f56ee716f1b6ef9e37104cfea5794fd28954d"
+        },
+        "mot.txt": {
+            "modified": "2017-05-31 21:54:45.837771",
+            "size": "131.48KB",
+            "md5": "fc5f6b6dcc0d5c71e03ed9d537b48af1",
+            "sha256": "9a89ccb674e38d86263baa83759c603e7bb7b144bebb1b244d5e625c56eede5b"
+        },
+        "mot_default.txt": {
+            "modified": "2017-05-31 21:54:45.838772",
+            "size": "74.14KB",
+            "md5": "06497d2f983c39c082d8969d0a12c416",
+            "sha256": "e4a058b8d0117c299d2be943ab58d3c82e12ff64f618946ca4e65dc3282638de"
+        },
+        "mot_noerror.txt": {
+            "modified": "2017-05-31 21:54:45.839772",
+            "size": "131.48KB",
+            "md5": "9ab10bd888664c55e98c2b0e570bbbd1",
+            "sha256": "104b7579fa9da66dbd4dbded1cf741d5e00f4d8050eba40dece38ba02c476c86"
+        },
+        "new.txt": {
+            "modified": "2017-05-31 21:54:45.841772",
+            "size": "77.13KB",
+            "md5": "f83bb0b0329436b782d0f5f7974f2b45",
+            "sha256": "fa17e6a5f4c9c5101035ff626e432a85ee63d10a814fb71632c7de66e41d8149"
+        },
+        "new_k.txt": {
+            "modified": "2017-05-31 21:54:45.842772",
+            "size": "125.71KB",
+            "md5": "d9534785b8975cf7eb0eccc1a35b7f14",
+            "sha256": "6129ce58540677b2d679bd0921b324ed300d0b058d14645c3745d0e7bf5963ad"
+        },
+        "new_n.txt": {
+            "modified": "2017-05-31 21:54:45.843772",
+            "size": "77.13KB",
+            "md5": "e6a9356b42f47294bba795de5a43d083",
+            "sha256": "6aa54c675110763aaa3c9094e2f2fff139933808df898cab0af3e447993d1fa9"
+        },
+        "pm0025_00_ba20_buturi01.bcskla": {
+            "modified": "2017-05-31 21:54:45.843772",
+            "size": "28.0KB",
+            "md5": "8ed9174be43fb49e3a28f4bda17150e9",
+            "sha256": "cfa602d4ca6e718831aad250edc613fbf6f0f4bd01eaea51da0138a38d3d5b8e"
+        },
+        "pm0025_00_ba20_buturi01.bgfmot": {
+            "modified": "2017-05-31 21:54:45.879776",
+            "size": "11.36KB",
+            "md5": "82cded470224c57df4294b1db2f164c8",
+            "sha256": "8b009bab79d9ac6e5c570b67fffd6b46d9953ff1ef3478fd5e83a161ec9cba98"
+        },
+        "pm0025_00_ba20_buturi01.cskla": {
+            "modified": "2017-05-31 21:54:45.886776",
+            "size": "449.55KB",
+            "md5": "cf38213d7ebb558a9f0b3b9975a608a1",
+            "sha256": "43e08f740671a414a65c6cbfbf295d2e316642855b9245e96915afb785033385"
+        },
+        "pm0025_00_ba20_buturi01.gfmot": {
+            "modified": "2017-05-31 21:54:45.921780",
+            "size": "280.85KB",
+            "md5": "ca0941359bb74be5f4628e9f066b1365",
+            "sha256": "28eb0ec67b069c13e98634eb489b352cb10a73890ce3352491d63f3e90095d60"
+        },
+        "pm0025_00_ba20_buturi01.mot": {
+            "modified": "2017-05-31 21:54:45.932781",
+            "size": "20.44KB",
+            "md5": "b449711a7c43d72fb1747e22e452cdab",
+            "sha256": "85f88d44c321321a389538ea274b0cb70fe78e74044b01ac03e3de69a48a45ec"
+        },
+        "pm0025_00_ba20_buturi01_k.bgfmot": {
+            "modified": "2017-05-31 21:54:45.936781",
+            "size": "22.45KB",
+            "md5": "b8ded95d7593955b7ade84f63c5c43be",
+            "sha256": "fe08189e0ab0df9e1b30386133fd775cb5f465dcfaf79f15ec345b9b42e94a29"
+        },
+        "pm0025_00_ba20_buturi01_n.bgfmot": {
+            "modified": "2017-05-31 21:54:45.939782",
+            "size": "16.29KB",
+            "md5": "017cd0f9eeff24bedbb6679b89c889c3",
+            "sha256": "880b7766d1c0a244863fd785f710d5a6ada493aed0a4d553c7da396d8ca702cb"
+        },
+        "pm0025_00_ba20_buturi01_noerror.mot": {
+            "modified": "2017-05-31 21:54:45.958783",
+            "size": "38.63KB",
+            "md5": "2169918372397889a8b7714982fd9793",
+            "sha256": "ce70ed0d817f209a45dc27736230fdbb8114e732f396e506137fbfa860b2397a"
+        },
+        "pm0025_00_ba20_buturi02.bgfmot": {
+            "modified": "2017-05-31 21:54:45.962784",
+            "size": "14.91KB",
+            "md5": "3209af612979f5eddb64318b8ec406fb",
+            "sha256": "24b5c03a229d353e2e6eb9ed91807aba99ef79c2cf2d9dd742e010d84e1721f5"
+        },
+        "pm0025_00_ba20_buturi02.gfmot": {
+            "modified": "2017-05-31 21:54:45.968785",
+            "size": "304.34KB",
+            "md5": "29ae02f87bef43a81c4a2d3f7bb92b19",
+            "sha256": "b467929c86019eb4f0a68a1faa153f78ed341e7fdccd6e066717f179d2348097"
+        },
+        "pm0025_00_kw32_happyC01.bgfmot": {
+            "modified": "2017-05-31 21:54:45.993787",
+            "size": "11.0KB",
+            "md5": "653a342489fd5ce7c39a340bdb53e2df",
+            "sha256": "693628407ca7c09b8743146536878027a1fb765dec254e7a6996002bf2489817"
+        },
+        "pm0025_00_kw32_happyC01.gfmot": {
+            "modified": "2017-05-31 21:54:46.102798",
+            "size": "278.13KB",
+            "md5": "37686480937bfa4448214373071a37c2",
+            "sha256": "d865a151807ed82d771ecb37629878aaec7f830b7bec1cf8e3c7c3d6c7027ed3"
+        },
+        "pm0501_00_ba20_buturi01.bgfmot": {
+            "modified": "2017-05-31 21:54:46.129801",
+            "size": "8.69KB",
+            "md5": "05b96f36498a75ea9b5b15f6ba5787a7",
+            "sha256": "37b582a9e8533224e3062bbb8d717d914044efe80377d803b46e0d1af898cbf1"
+        },
+        "pm0501_00_ba20_buturi01.gfmot": {
+            "modified": "2017-05-31 21:54:46.134801",
+            "size": "176.72KB",
+            "md5": "e5954a9a639f4a993edfd2e8b9fac30d",
+            "sha256": "4c204567322da542d602b1beac5eeccab5225ce6324fd6aa51c540fc37c5e31a"
+        },
+        "pm0722_00_ba21_tokusyu02.bgfmot": {
+            "modified": "2017-05-31 21:54:46.143802",
+            "size": "15.85KB",
+            "md5": "f0cbfacf00bbb5a82d142a8aa1ee160e",
+            "sha256": "817d98310d10a6d6607fb10ef40efd68ade5956c7fe13cc8fd03ee4b0d038581"
+        },
+        "pm0722_00_ba21_tokusyu02.gfmot": {
+            "modified": "2017-05-31 21:54:46.149803",
+            "size": "366.6KB",
+            "md5": "ea27fc3c28a00a91de9564c58a9edce9",
+            "sha256": "c3150e60d29fe823718bb96a0a4bf91ccec25ff4fbed1915ff59b0e47eb175a6"
+        },
+        "test.txt": {
+            "modified": "2017-05-31 21:54:46.160804",
+            "size": "104.24KB",
+            "md5": "2b82c568563c1120d505221cd7bf5c34",
+            "sha256": "e3f0d0df58fcfbd59f641b97aa4325656fefcf3ca5ae3be050cef34fce9dd2f1"
+        },
+        "test0.txt": {
+            "modified": "2017-05-31 21:54:46.162804",
+            "size": "82.71KB",
+            "md5": "932820d90393fc8298583c7104db10f6",
+            "sha256": "848a073c88930df504bd03477d18fb4267c3629eeeb9878253173c0647203d80"
+        },
+        "test1.txt": {
+            "modified": "2017-05-31 21:54:46.163804",
+            "size": "52.62KB",
+            "md5": "ebbc3b7959f256a82ffd3b08412126d9",
+            "sha256": "8eb629a31c2c233971a70c876db477ebdd642bd2370dff77119a8c4e008c3850"
+        }
+    },
+    "test_file\\old_format": {
+        "anim_joint_01.bgfmot": {
+            "modified": "2017-05-31 21:54:46.182806",
+            "size": "523.86KB",
+            "md5": "1ae366eae54581e0bcd99aa128866815",
+            "sha256": "7ce6ff8902f3571d091577f2d09eef428881c0c6cdcc901630c06400cc603e3a"
+        },
+        "anim_joint_01.gfmot": {
+            "modified": "2017-05-31 21:54:46.304818",
+            "size": "8094.61KB",
+            "md5": "6210c5114a3f7ee6c1674813cc77d151",
+            "sha256": "bbd3ef580eeb4ea01d7529e07805f4d19fc46a277ed085e0fa97e9a7b4163244"
+        },
+        "anim_morph_01.bgfmot": {
+            "modified": "2017-05-31 21:54:46.366824",
+            "size": "443.13KB",
+            "md5": "4c7893e8f57d38541132d80b638c0421",
+            "sha256": "fbc32312850dac973ce7ca5fa69d8d73f8e807f160008eacd25ef5872402cb93"
+        },
+        "anim_morph_01.gfmot": {
+            "modified": "2017-05-31 21:54:46.420830",
+            "size": "6716.72KB",
+            "md5": "2ee24c1cbc27885cf7c02af4623bc72d",
+            "sha256": "137394c9206e587cec9d1c6fd0a496382372c923ef6f76c6d6d1e065f3f1dc00"
+        },
+        "DrawEnvTest.bgfmot": {
+            "modified": "2017-05-31 21:54:46.164804",
+            "size": "28.82KB",
+            "md5": "5f033f233597da3a8657d42cb2d6e06b",
+            "sha256": "a931493191ea8f57ea2e5b07ad23132f1e8a4b798da9b9cb6008cc9d44c7f43f"
+        },
+        "DrawEnvTest.gfmot": {
+            "modified": "2017-05-31 21:54:46.168804",
+            "size": "113.37KB",
+            "md5": "f6a96f56c5383fad73597fcbb9b436de",
+            "sha256": "9662028289284bde29aee6622b1ae04aee5ad0289e2dc116433e482ea97b5782"
+        },
+        "pm0025_00_ba20_buturi01.cskla": {
+            "modified": "2017-05-31 21:54:46.473835",
+            "size": "449.55KB",
+            "md5": "c9f17333dbb3a58e6c9f258c81d88278",
+            "sha256": "2258f5c3a0f63bf76972a21f1963ba62d4e53196fb86719ae79bd82fd1d8ad96"
+        },
+        "pm0501_00_ba20_buturi01.bgfmot": {
+            "modified": "2017-05-31 21:54:46.482836",
+            "size": "37.08KB",
+            "md5": "26972e43dd0d8b3ae3de9e90732c278f",
+            "sha256": "5e9c722696e3604013160d5203f7980bcd8c1ac47d6ca6a3fd8dd3352c7d06f7"
+        },
+        "pm0501_00_ba20_buturi01.gfmot": {
+            "modified": "2017-05-31 21:54:46.629851",
+            "size": "4429.04KB",
+            "md5": "07445921821db100a4f548ab354afdb8",
+            "sha256": "2dea0cb01083253b6502272e31f964a098a20a172f0429ddee461e8fb0a5bc58"
+        },
+        "pm0722_00_ba21_tokusyu02.bgfmot": {
+            "modified": "2017-05-31 21:54:47.308918",
+            "size": "74.29KB",
+            "md5": "f9365ecabb249183b089a2b3711b07f5",
+            "sha256": "6979e28791c752339d750c8bca4eedcfaae29379e5e56a9ea0f39c59c0776bb0"
+        },
+        "pm0722_00_ba21_tokusyu02.gfmot": {
+            "modified": "2017-05-31 21:54:47.577945",
+            "size": "9587.07KB",
+            "md5": "efc3cf90e50651de1f2d5d79b4abd0d5",
+            "sha256": "23ce09e949370fdfdd3ab2817630c87280d68998eac9a74e5754330db3e54755"
+        },
+        "sea_opt.bgfmot": {
+            "modified": "2017-05-31 21:54:47.643952",
+            "size": "2.04KB",
+            "md5": "6611aeb4e30f88cc63dac4bd0e191a31",
+            "sha256": "c1e2536a671bead034026cc330080b616d7236dd4165f386c78d371362cad1f9"
+        },
+        "sea_opt.gfmot": {
+            "modified": "2017-05-31 21:54:47.648952",
+            "size": "186.61KB",
+            "md5": "d89a3f338c2a9c6adb8a1a370daff2e8",
+            "sha256": "60ebc2d2ef3117d33e7726dfbcf4e03bd04b68f74b57da15456735fa4d26a8ab"
+        }
+    },
+    "test_file\\old_format\\pm0593": {
+        "pm0593.mlst": {
+            "modified": "2017-05-31 21:54:46.668854",
+            "size": "0.09KB",
+            "md5": "ac7f2c4c68246755fa38c7191284c875",
+            "sha256": "73aea5c9215348844640dc996ea3cbc1dcc46561870e53af0b4a6f655c5a10d0"
+        },
+        "pm0593_00_fi01_wait01.gfmot": {
+            "modified": "2017-05-31 21:54:46.950883",
+            "size": "9337.92KB",
+            "md5": "372b8d5ba21178ded1bb6baa04d23c75",
+            "sha256": "b080b3fb35dd8125276327e96be93378646e12c4d3bc45422b9c5ddd7cdef5aa"
+        },
+        "pm0593_00_fi20_walk01.gfmot": {
+            "modified": "2017-05-31 21:54:47.160904",
+            "size": "9353.04KB",
+            "md5": "73d1a3b7c092fb3557c370bd3474d95d",
+            "sha256": "ac372336cecd87747dd54c5a6b205a1208456e1cd4b8e4778a327bb5dbb75446"
+        },
+        "pm0593_00_fi21_run01.gfmot": {
+            "modified": "2017-05-31 21:54:47.269915",
+            "size": "4795.95KB",
+            "md5": "f266694f354838d4ddc09574c021c528",
+            "sha256": "56dd551f05ccf0d4e62ae7261f0164752f07c106aee21bcf9792c9af0c461029"
+        }
+    }
+}

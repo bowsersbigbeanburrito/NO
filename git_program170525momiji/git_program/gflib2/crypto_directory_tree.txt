@@ -1,0 +1,47 @@
+crypto/
+├── crypto.vcxproj
+├── crypto.vcxproj.filters
+├── include/
+│   ├── gfl2_CryptoTypedef.h
+│   ├── gfl2_IAESCrypto.h
+│   ├── gfl2_IAESCryptoEventListener.h
+│   ├── gfl2_IRSACrypto.h
+│   ├── gfl2_IRSACryptoEventListener.h
+│   ├── gfl2_ISHA256CalcEventListener.h
+│   ├── gfl2_ISHA256Calculator.h
+│   ├── gfl2_RandomKeyGenerator.h
+│   └── gfl2_TemporaryBuffer.h
+└── source/
+    ├── ctr/
+    │   ├── gfl2_CTR_AESCrypto.cpp
+    │   ├── gfl2_CTR_AESCrypto.h
+    │   ├── gfl2_CTR_AESCryptoExecutor.cpp
+    │   ├── gfl2_CTR_AESCryptoExecutor.h
+    │   ├── gfl2_CTR_AESCryptoThread.cpp
+    │   ├── gfl2_CTR_AESCryptoThread.h
+    │   ├── gfl2_CTR_RSACrypto.cpp
+    │   ├── gfl2_CTR_RSACrypto.h
+    │   ├── gfl2_CTR_RSACryptoExecutor.cpp
+    │   ├── gfl2_CTR_RSACryptoExecutor.h
+    │   ├── gfl2_CTR_RSACryptoThread.cpp
+    │   ├── gfl2_CTR_RSACryptoThread.h
+    │   ├── gfl2_CTR_SHA256CalcExecutor.cpp
+    │   ├── gfl2_CTR_SHA256CalcExecutor.h
+    │   ├── gfl2_CTR_SHA256CalcThread.cpp
+    │   ├── gfl2_CTR_SHA256CalcThread.h
+    │   ├── gfl2_CTR_SHA256Calculator.cpp
+    │   └── gfl2_CTR_SHA256Calculator.h
+    ├── gfl2_CryptoThreadController.cpp
+    ├── gfl2_CryptoThreadController.h
+    ├── gfl2_IAESCrypto.cpp
+    ├── gfl2_IRSACrypto.cpp
+    ├── gfl2_ISHA256Calculator.cpp
+    ├── gfl2_RandomKeyGenerator.cpp
+    ├── gfl2_TemporaryBuffer.cpp
+    └── win32/
+        ├── gfl2_WIN32_AESCrypto.cpp
+        ├── gfl2_WIN32_AESCrypto.h
+        ├── gfl2_WIN32_RSACrypto.cpp
+        ├── gfl2_WIN32_RSACrypto.h
+        ├── gfl2_WIN32_SHA256Calculator.cpp
+        └── gfl2_WIN32_SHA256Calculator.h

@@ -1,0 +1,132 @@
+clr/
+├── clr.vcxproj
+├── clr.vcxproj.filters
+├── include/
+│   ├── Animation/
+│   │   ├── gfl2_AnimationEnums_CLR.h
+│   │   ├── gfl2_JointAnimationResourceNode_CLR.h
+│   │   └── gfl2_JointController_CLR.h
+│   ├── debug/
+│   │   └── gfl2_assert_CLR.h
+│   ├── gfx/
+│   │   ├── gfl2_Buffer_CLR.h
+│   │   ├── gfl2_Color_CLR.h
+│   │   ├── gfl2_DrawUtil_CLR.h
+│   │   ├── gfl2_enums_CLR.h
+│   │   ├── gfl2_GFGL_CLR.h
+│   │   ├── gfl2_ImageData_CLR.h
+│   │   ├── gfl2_PCDebugUtil_CLR.h
+│   │   ├── gfl2_Shader_CLR.h
+│   │   ├── gfl2_StateObject_CLR.h
+│   │   ├── gfl2_Surface_CLR.h
+│   │   ├── gfl2_Texture_CLR.h
+│   │   └── gfl2_types_CLR.h
+│   ├── math/
+│   │   ├── gfl2_MathAABB_CLR.h
+│   │   ├── gfl2_MathUtil_CLR.h
+│   │   ├── gfl2_Matrix_CLR.h
+│   │   ├── gfl2_Quaternion_CLR.h
+│   │   └── gfl2_Vector_CLR.h
+│   ├── poke_3d_lib/
+│   │   └── gfl2_PokemonModel_CLR.h
+│   ├── RenderingEngine/
+│   │   ├── gfl2_RenderingEngineEnums_CLR.h
+│   │   ├── Renderer/
+│   │   │   ├── gfl2_DrawManager_CLR.h
+│   │   │   └── Util/
+│   │   │       ├── gfl2_ViewerEnumDefine.h
+│   │   │       ├── gfl2_ViewerEnums_CLR.h
+│   │   │       ├── gfl2_ViewerEnumsNative_CLR.h
+│   │   │       ├── gfl2_ViewerRenderingPipeLine_CLR.h
+│   │   │       └── gfl2_ViewerRenderingPipeLineNative_CLR.h
+│   │   └── SceneGraph/
+│   │       ├── gfl2_SceneGraphManager_CLR.h
+│   │       ├── Instance/
+│   │       │   ├── gfl2_DrawableNode_CLR.h
+│   │       │   ├── gfl2_DrawEnvNode_CLR.h
+│   │       │   ├── gfl2_InstanceCreator_CLR.h
+│   │       │   ├── gfl2_JointInstanceNode_CLR.h
+│   │       │   ├── gfl2_LightNode_CLR.h
+│   │       │   ├── gfl2_LightSetNode_CLR.h
+│   │       │   ├── gfl2_LocatorInstanceNode_CLR.h
+│   │       │   ├── gfl2_MaterialInstanceNode_CLR.h
+│   │       │   ├── gfl2_ModelInstanceNode_CLR.h
+│   │       │   ├── gfl2_MotionConfigInstanceNode_CLR.h
+│   │       │   └── gfl2_ViewerLocatorInstanceNode_CLR.h
+│   │       └── Resource/
+│   │           ├── gfl2_GfBinaryMdlData_CLR.h
+│   │           ├── gfl2_GfBinaryMotData_CLR.h
+│   │           ├── gfl2_GfEnvData_CLR.h
+│   │           ├── gfl2_IResourceData_CLR.h
+│   │           ├── gfl2_JointAnimationResourceNodeFactory_CLR.h
+│   │           ├── gfl2_MaterialResourceNode_CLR.h
+│   │           ├── gfl2_McnfData_CLR.h
+│   │           ├── gfl2_ResourceManager_CLR.h
+│   │           └── gfl2_ResourceNode_CLR.h
+│   ├── system/
+│   │   └── Timer/
+│   │       └── gfl2_PerformanceCounter_CLR.h
+│   └── util/
+│       ├── gfl2_String_CLR.h
+│       └── gfl2_Util_CLR.h
+├── resource/
+│   ├── wirecolor.gffsh
+│   └── wirecolor.gffsh.ascii
+└── source/
+    ├── Animation/
+    │   ├── gfl2_JointAnimationResourceNode_CLR.cpp
+    │   └── gfl2_JointController_CLR.cpp
+    ├── debug/
+    │   └── gfl2_assert_CLR.cpp
+    ├── gfx/
+    │   ├── gfl2_Buffer_CLR.cpp
+    │   ├── gfl2_Color_CLR.cpp
+    │   ├── gfl2_DrawUtil_CLR.cpp
+    │   ├── gfl2_GFGL_CLR.cpp
+    │   ├── gfl2_ImageData_CLR.cpp
+    │   ├── gfl2_PCDebugUtil_CLR.cpp
+    │   ├── gfl2_Shader_CLR.cpp
+    │   ├── gfl2_StateObject_CLR.cpp
+    │   ├── gfl2_Surface_CLR.cpp
+    │   ├── gfl2_Texture_CLR.cpp
+    │   └── gfl2_types_CLR.cpp
+    ├── math/
+    │   ├── gfl2_MathAABB_CLR.cpp
+    │   ├── gfl2_MathUtil_CLR.cpp
+    │   ├── gfl2_Matrix_CLR.cpp
+    │   ├── gfl2_Quaternion_CLR.cpp
+    │   └── gfl2_Vector_CLR.cpp
+    ├── poke_3d_lib/
+    │   └── gfl2_PokemonModel_CLR.cpp
+    ├── RenderingEngine/
+    │   ├── Renderer/
+    │   │   ├── gfl2_DrawManager_CLR.cpp
+    │   │   └── Util/
+    │   │       ├── gfl2_ViewerRenderingPipeLine_CLR.cpp
+    │   │       └── gfl2_ViewerRenderingPipeLineNative_CLR.cpp
+    │   └── SceneGraph/
+    │       ├── gfl2_SceneGraphManager_CLR.cpp
+    │       ├── Instance/
+    │       │   ├── gfl2_DrawableNode_CLR.cpp
+    │       │   ├── gfl2_DrawEnvNode_CLR.cpp
+    │       │   ├── gfl2_InstanceCreator_CLR.cpp
+    │       │   ├── gfl2_JointInstanceNode_CLR.cpp
+    │       │   ├── gfl2_LightNode_CLR.cpp
+    │       │   ├── gfl2_LightSetNode_CLR.cpp
+    │       │   ├── gfl2_LocatorInstanceNode_CLR.cpp
+    │       │   ├── gfl2_MaterialInstanceNode_CLR.cpp
+    │       │   ├── gfl2_ModelInstanceNode_CLR.cpp
+    │       │   ├── gfl2_MotionConfigInstanceNode_CLR.cpp
+    │       │   └── gfl2_ViewerLocatorInstanceNode_CLR.cpp
+    │       └── Resource/
+    │           ├── gfl2_GfBinaryMdlData_CLR.cpp
+    │           ├── gfl2_GfBinaryMotData_CLR.cpp
+    │           ├── gfl2_GfEnvData_CLR.cpp
+    │           ├── gfl2_JointAnimationResourceNodeFactory_CLR.cpp
+    │           ├── gfl2_MaterialResourceNode_CLR.cpp
+    │           ├── gfl2_McnfData_CLR.cpp
+    │           ├── gfl2_ResourceManager_CLR.cpp
+    │           └── gfl2_ResourceNode_CLR.cpp
+    └── system/
+        └── Timer/
+            └── gfl2_PerformanceCounter_CLR.cpp

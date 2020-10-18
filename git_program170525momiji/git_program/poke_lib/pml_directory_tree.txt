@@ -1,0 +1,120 @@
+pml/
+├── include/
+│   ├── battle/
+│   │   └── pml_battle_TypeAffinity.h
+│   ├── bugfix_pokelib.h
+│   ├── item/
+│   │   ├── btl_item.h
+│   │   ├── item.h
+│   │   ├── item_manager.h
+│   │   ├── item_util.h
+│   │   ├── itemsort_abc_def.h
+│   │   └── itemuse_def.h
+│   ├── local/
+│   │   └── pml_Random.h
+│   ├── personal/
+│   │   ├── pml_EvolutionTable.h
+│   │   ├── pml_GrowTable.h
+│   │   ├── pml_MegaEvolveTable.h
+│   │   ├── pml_PersonalConst.h
+│   │   ├── pml_PersonalData.h
+│   │   ├── pml_PersonalSystem.h
+│   │   ├── pml_PersonalUtil.h
+│   │   └── pml_WazaOboeData.h
+│   ├── pml_Battle.h
+│   ├── pml_Const.h
+│   ├── pml_Item.h
+│   ├── pml_Local.h
+│   ├── pml_Personal.h
+│   ├── pml_PokePara.h
+│   ├── pml_PokeParty.h
+│   ├── pml_System.h
+│   ├── pml_Type.h
+│   ├── pml_Waza.h
+│   ├── pmlib.h
+│   ├── pmlib_debug.h
+│   ├── pokepara/
+│   │   ├── pml_EggGenerator.h
+│   │   ├── pml_EggWazaData.h
+│   │   ├── pml_EvolveManager.h
+│   │   ├── pml_PokemonCoreParam.h
+│   │   ├── pml_PokemonParam.h
+│   │   ├── pml_PokemonParamFactory.h
+│   │   ├── pml_PokemonParamSpec.h
+│   │   └── pml_PokemonParamType.h
+│   ├── poketype_def.h
+│   ├── system/
+│   │   └── pml_Library.h
+│   ├── time_zone.h
+│   ├── waza/
+│   │   ├── pml_WazaData.h
+│   │   ├── pml_WazaDataConst.h
+│   │   ├── pml_WazaDataSystem.h
+│   │   ├── pml_WazaTarget.h
+│   │   └── pml_ZenryokuWazaSystem.h
+│   └── wazasick_def.h
+├── project/
+│   ├── pml.vcxproj
+│   └── pml.vcxproj.filters
+└── src/
+    ├── battle/
+    │   └── pml_battle_TypeAffinity.cpp
+    ├── item/
+    │   ├── btl_item.cpp
+    │   ├── item.cpp
+    │   ├── item_manager.cpp
+    │   └── item_util.cpp
+    ├── local/
+    │   └── pml_Random.cpp
+    ├── personal/
+    │   ├── pml_EvolutionTable.cpp
+    │   ├── pml_EvolutionTableCache.cpp
+    │   ├── pml_EvolutionTableCache.h
+    │   ├── pml_EvolutionTableLocal.h
+    │   ├── pml_GrowTable.cpp
+    │   ├── pml_GrowTableCache.cpp
+    │   ├── pml_GrowTableCache.h
+    │   ├── pml_MegaEvolveTable.cpp
+    │   ├── pml_MegaEvolveTableCache.cpp
+    │   ├── pml_MegaEvolveTableCache.h
+    │   ├── pml_MegaEvolveTableLocal.h
+    │   ├── pml_PersonalData.cpp
+    │   ├── pml_PersonalDataCache.cpp
+    │   ├── pml_PersonalDataCache.h
+    │   ├── pml_PersonalLocal.h
+    │   ├── pml_PersonalSystem.cpp
+    │   ├── pml_PersonalUtil.cpp
+    │   ├── pml_WazaOboeData.cpp
+    │   ├── pml_WazaOboeDataCache.cpp
+    │   ├── pml_WazaOboeDataCache.h
+    │   └── pml_WazaOboeLocal.h
+    ├── pml_PokeParty.cpp
+    ├── pokepara/
+    │   ├── pml_EggGenerator.cpp
+    │   ├── pml_EggWazaData.cpp
+    │   ├── pml_EvolveManager.cpp
+    │   ├── pml_PokemonCoreParam.cpp
+    │   ├── pml_PokemonParam.cpp
+    │   ├── pml_PokemonParam_BoxMarkController.cpp
+    │   ├── pml_PokemonParam_BoxMarkController.h
+    │   ├── pml_PokemonParam_MultiPurposeWorkController.cpp
+    │   ├── pml_PokemonParam_MultiPurposeWorkController.h
+    │   ├── pml_PokemonParamAccessor.cpp
+    │   ├── pml_PokemonParamAccessor.h
+    │   ├── pml_PokemonParamCalcTool.cpp
+    │   ├── pml_PokemonParamCalcTool.h
+    │   ├── pml_PokemonParamEncoder.cpp
+    │   ├── pml_PokemonParamEncoder.h
+    │   ├── pml_PokemonParamFactory.cpp
+    │   ├── pml_PokemonParamLocal.h
+    │   ├── rotom_waza.cdat
+    │   └── taste.cdat
+    ├── system/
+    │   └── pml_Library.cpp
+    └── waza/
+        ├── pml_WazaData.cpp
+        ├── pml_WazaDataCache.cpp
+        ├── pml_WazaDataCache.h
+        ├── pml_WazaDataLocal.h
+        ├── pml_WazaDataSystem.cpp
+        └── pml_ZenryokuWazaSystem.cpp

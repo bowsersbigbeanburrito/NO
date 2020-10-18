@@ -1,0 +1,216 @@
+{
+    "include": {
+        "gfl2_EffectConfig.h": {
+            "modified": "2017-05-31 21:52:13.162505",
+            "size": "1.92KB",
+            "md5": "8a350e26a0f5fa782619d592e71fd68f",
+            "sha256": "5d4652fd3f6be7c0e4134111ff2f8b398c37969f83cc003aa146d77cc53594f2"
+        },
+        "gfl2_EffectEmitterSet.h": {
+            "modified": "2017-05-31 21:52:13.167506",
+            "size": "14.48KB",
+            "md5": "373254e6d0549be7215a6a327c0151f4",
+            "sha256": "3cf9c160bae3e340469bab3fb7010213210b9481c16033b75dbeee579159d99e"
+        },
+        "gfl2_EffectHandle.h": {
+            "modified": "2017-05-31 21:52:13.172506",
+            "size": "2.25KB",
+            "md5": "94c8dafe2bfc3a6db4dc039ef11f70fd",
+            "sha256": "573b2f3106be66927fe87ec0bd371c157d508400efa7427847fb3f871af703cb"
+        },
+        "gfl2_EffectHeap.h": {
+            "modified": "2017-05-31 21:52:13.177507",
+            "size": "3.41KB",
+            "md5": "6b3bff03d4dc81e7baf4829632225464",
+            "sha256": "d2799e030ce097fa18fdc61dbd48d9f7ff4d1d49b228bc4b408595772b275708"
+        },
+        "gfl2_EffectRenderPath.h": {
+            "modified": "2017-05-31 21:52:13.205510",
+            "size": "3.49KB",
+            "md5": "018b20c2c7fa19d747e336816a944d66",
+            "sha256": "1e1b25138dacf44698881eb70dc4d6fd41bd8d52a8ef5340b1498817bb50a5c9"
+        },
+        "gfl2_EffectResource.h": {
+            "modified": "2017-05-31 21:52:13.241513",
+            "size": "1.35KB",
+            "md5": "c8b882b1ebeaa521f939b22d27c733c2",
+            "sha256": "7cc91d4dfa6fc6ede2503f59495a4967bd92ea0e4ec93f5f315c45cf7ef8a2c0"
+        },
+        "gfl2_EffectSystem.h": {
+            "modified": "2017-05-31 21:52:13.246514",
+            "size": "15.98KB",
+            "md5": "6daabea4b417f542cd6a0b628ef01617",
+            "sha256": "992aa224a19ba0ec8a46a902ec4a2c14acc26f57ac0fd01131f9f0f8f78c3e39"
+        }
+    },
+    "project": {
+        "Effect.vcxproj": {
+            "modified": "2017-05-31 23:56:19.485082",
+            "size": "14.49KB",
+            "md5": "78d269fc410561baa928dd62d360ed9d",
+            "sha256": "204bd40764f77e47a34de95cd01fbf0b259b1edeb02d11bb7cf06a95dae0781e"
+        },
+        "Effect.vcxproj.filters": {
+            "modified": "2017-05-31 21:52:13.258515",
+            "size": "1.97KB",
+            "md5": "d029fccdb2ab5cf00a4b44847f894819",
+            "sha256": "cd26fffd58769f5bdc00f0cfe2750f26e0d9521dc53a1c6b97346b68e45ec76b"
+        },
+        "Effect.vstemplate": {
+            "modified": "2017-05-31 21:52:13.264516",
+            "size": "1.23KB",
+            "md5": "513c9878898e55b6abd7fddcbe8ff15e",
+            "sha256": "97b35bb111649d8863659ccebc7de40cb1dc7eb88bad203ddd918d0bb6365729"
+        },
+        "__EffectIcon.ico": {
+            "modified": "2017-05-31 21:52:13.349524",
+            "size": "9.9KB",
+            "md5": "7ccecd969b81e64e186870a2178984b9",
+            "sha256": "2782825da856ca81c8cfa383589a74cf43e2be5640590c1b48ed91b21e805ae6"
+        }
+    },
+    "sample": {
+        "EffectSample.sln": {
+            "modified": "2017-05-31 21:52:13.352525",
+            "size": "27.98KB",
+            "md5": "14e63cdc6f451c2fd06a8901a2b2d65c",
+            "sha256": "36ea1779aeacaf2f359fd4ef32c9f5d8b9fca9fe1eaf6d0ce191d79813e4e777"
+        }
+    },
+    "sample\\data": {
+        "convert.bat": {
+            "modified": "2017-05-31 21:52:13.463536",
+            "size": "0.08KB",
+            "md5": "848e465ab2af23db19ff4180d9233412",
+            "sha256": "30f9274fb6722877b3bd82ed8f653bacc416a00211872a24934fb7c2841c8968"
+        },
+        "EmitterSetDrawDemo.xml": {
+            "modified": "2017-05-31 21:52:13.359525",
+            "size": "0.33KB",
+            "md5": "b939a1b44ed55774847eb29f12d6522a",
+            "sha256": "82ec8d60ee0c8b6e77fd321dfc4afb1816d51228bd34a1878800f528319bc6f4"
+        },
+        "OMakefile": {
+            "modified": "2017-05-31 21:52:13.384528",
+            "size": "0.19KB",
+            "md5": "539dbce70a82f2d6a0a3f8c25c1253dd",
+            "sha256": "70c2a134b2f4ca1d5e5c5dbf63285904e7a5cca9f55996effa42e6860bd4cf23"
+        },
+        "OMakeroot": {
+            "modified": "2017-05-31 21:52:13.389528",
+            "size": "0.19KB",
+            "md5": "6d66e37cc8afd9e793e9d1941547342b",
+            "sha256": "202e66e1c692d66f285c5979be5df32f5c04302d19f522ae047be7e90d658495"
+        }
+    },
+    "sample\\data\\out_ctr_": {
+        "sample.ctr.ptcl": {
+            "modified": "2017-05-31 21:52:13.493539",
+            "size": "71.5KB",
+            "md5": "62c992120e1ed1023ed3057edbc81ba1",
+            "sha256": "961ff7b1f618081ae90df451c776a0175194d1f2c6fd3105129754d8aa71070a"
+        }
+    },
+    "sample\\data\\out_win32_": {
+        "sample.wingl.ptcl": {
+            "modified": "2017-05-31 21:52:13.527542",
+            "size": "433.53KB",
+            "md5": "de3a1c4131a69414923d4e42fe5bb1e3",
+            "sha256": "dfa42a80a39d5b1213fb15c32a8945615d274f3937a4c6233b0983a31aa194d7"
+        }
+    },
+    "sample\\data\\SampleData": {
+        "Sample_Fall.eset": {
+            "modified": "2017-05-31 21:52:13.397529",
+            "size": "53.31KB",
+            "md5": "ce6c9bb8a6e3e00893978d997d4d6f04",
+            "sha256": "10b6c6b7816eef492ac630d340f7f49920f37798084f0e3f0ea6048816154425"
+        },
+        "Sample_Fire_02.eset": {
+            "modified": "2017-05-31 21:52:13.405530",
+            "size": "49.87KB",
+            "md5": "14761dbd9634cbb86a44a7203171bc94",
+            "sha256": "2bca65cadc7d85f758169bb6137c4210510190ba07c4dcf407fa7f725a7baaeb"
+        }
+    },
+    "sample\\data\\SampleData\\Textures": {
+        "Fire_01.tga": {
+            "modified": "2017-05-31 21:52:13.424532",
+            "size": "172.2KB",
+            "md5": "f7e5984f18c7eb3ebc1d96ba95fcfc0e",
+            "sha256": "cc44b141659c5b568abb3e3ad2b73df83959e7984afb664e9cc1f769a48a724e"
+        },
+        "Fire_02.tga": {
+            "modified": "2017-05-31 21:52:13.428532",
+            "size": "3.73KB",
+            "md5": "111be9692d3b74c066117128234c3d76",
+            "sha256": "9a36f471552d2f4d3c4585625725d35e4949ba7e4458c7d0de00fde22e85e41f"
+        }
+    },
+    "sample\\project": {
+        "EffectSample.link.props": {
+            "modified": "2017-05-31 21:52:13.532542",
+            "size": "0.47KB",
+            "md5": "eb579e8aa99dafc14ca7bd20f19c507e",
+            "sha256": "9f39fe79e2335d8075c48c55db391f1801141ea51dbaf5b5f337e94b6dd2da0c"
+        },
+        "EffectSample.props": {
+            "modified": "2017-05-31 21:52:13.558545",
+            "size": "0.88KB",
+            "md5": "fc3ae4f35853fb0dbd743602766e8225",
+            "sha256": "a38e6cc7a23f929a19ddd2fe0a078c474dda1a206b4a5531b8efb89d0b230933"
+        },
+        "EffectSample.rsf": {
+            "modified": "2017-05-31 21:52:13.569546",
+            "size": "0.17KB",
+            "md5": "e6c2e3cdf5793f3627b26e4a41ea5973",
+            "sha256": "35e0ae45e8d2b2b2701ed29d540239cdd6cdb8c53b2326be566aae7cb6d17b35"
+        },
+        "EffectSample.vcxproj": {
+            "modified": "2017-05-31 23:56:19.491083",
+            "size": "17.27KB",
+            "md5": "47a7640779ef175490897c356b46c87b",
+            "sha256": "d44f4d356d266a5b75aaec14ab8fc7c937af1477681ca3017356c6094d181529"
+        },
+        "EffectSample.vcxproj.filters": {
+            "modified": "2017-05-31 21:52:13.591548",
+            "size": "1.38KB",
+            "md5": "bd7afd55e0cd43793de147f4ffa18758",
+            "sha256": "e749ebcc14d9e15539464afe6e695961346e57a2b3e49f6745fc85dfcb227c6c"
+        },
+        "main.cpp": {
+            "modified": "2017-05-31 21:52:13.597549",
+            "size": "13.15KB",
+            "md5": "d8efd8af79640794464a81a1b3f865ef",
+            "sha256": "3d7868f06b3548ebdf9e6044d4acaccaf8d65bfbe70318eabe0565bce8156601"
+        }
+    },
+    "sample\\project\\romfiles": {
+        ".gitkeep": {
+            "modified": "2017-05-31 21:52:13.603549",
+            "size": "0.0KB",
+            "md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+    },
+    "source": {
+        "gfl2_EffectHandle.cpp": {
+            "modified": "2017-05-31 21:52:13.603549",
+            "size": "1.53KB",
+            "md5": "6e5516506098303c7698e9b314a7efc3",
+            "sha256": "79156fdbc0cc2b15e029500adeff0424002e1b9a0f9c5815122759291295d24a"
+        },
+        "gfl2_EffectRenderPath.cpp": {
+            "modified": "2017-05-31 21:52:13.643553",
+            "size": "6.33KB",
+            "md5": "cbbc75905dbccc5ac56f1a0ae69625ff",
+            "sha256": "8b7e6e16865401c320a10fcdae95b49571dc344cb318c9083ce735adcfe6e1ab"
+        },
+        "gfl2_EffectSystem.cpp": {
+            "modified": "2017-05-31 21:52:13.651554",
+            "size": "19.52KB",
+            "md5": "4f031b36d933edb453443cb492d2ae75",
+            "sha256": "cece417d2325c5e5686b6554d4104e40651855f37f5574e870d0cfd62ae3d3ad"
+        }
+    }
+}

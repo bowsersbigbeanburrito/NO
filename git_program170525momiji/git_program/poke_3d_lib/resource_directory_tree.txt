@@ -1,0 +1,112 @@
+resource/
+├── ctr/
+│   ├── AlphaFillModel/
+│   │   ├── AlphaFillModel.ctr.gfbmdl
+│   │   └── Shaders/
+│   │       ├── AlphaFillModel_Manual.ctr.gfbfsh
+│   │       └── FillScrean.ctr.gfbvsh
+│   ├── EdgeMap/
+│   │   ├── EdgeMapShader.ctr.gfbmdl
+│   │   ├── Shader/
+│   │   │   └── Comb3_Manual.ctr.gfbvsh
+│   │   └── Texture/
+│   │       └── EdgeMapImage.ctr.btex
+│   ├── EdgeMapVColAShader/
+│   │   ├── EdgeMapVColA.ctr.gfbmdl
+│   │   ├── Shaders/
+│   │   │   ├── Comb2_Manual.ctr.gfbfsh
+│   │   │   ├── Default.ctr.gfbvsh
+│   │   │   └── NormalToUv.ctr.gfbvsh
+│   │   └── Textures/
+│   │       ├── NormalTexture.ctr.btex
+│   │       └── ZInvNormalTexture.ctr.btex
+│   └── IDEdgeMap/
+│       ├── IDEdgeMap.ctr.gfbmdl
+│       ├── Shaders/
+│       │   ├── Comb2_Manual.ctr.gfbfsh
+│       │   ├── Comb3_Manual.ctr.gfbfsh
+│       │   └── FillScrean.ctr.gfbvsh
+│       └── Textures/
+│           └── MapImage.ctr.btex
+├── IDShader/
+│   ├── .mayaSwatches/
+│   │   └── idshaderplane.mb.swatches
+│   ├── colorshadertexture.tga
+│   ├── converted_data/
+│   │   ├── idshaderplane.ctr.gfbmdl
+│   │   ├── idshaderplane.gfmdl
+│   │   ├── idshaderplane.wingl.gfbmdl
+│   │   ├── ModelHash.fnv
+│   │   ├── Shaders/
+│   │   │   ├── Comb1_Manual.ctr.gfbfsh
+│   │   │   ├── Comb1_Manual.gffsh
+│   │   │   ├── Comb1_Manual.wingl.gfbfsh
+│   │   │   ├── FillScrean.ctr.gfbvsh
+│   │   │   ├── FillScrean.gfvsh
+│   │   │   └── FillScrean.wingl.gfbvsh
+│   │   └── Textures/
+│   │       ├── colorshadertexture.ctr.btex
+│   │       ├── colorshadertexture.tga
+│   │       └── colorshadertexture.wingl.btex
+│   ├── idshaderplane.gfmdl
+│   ├── idshaderplane.mb
+│   ├── Shaders/
+│   │   ├── Comb1_Manual.gffsh
+│   │   └── FillScrean.gfvsh
+│   └── Textures/
+│       └── colorshadertexture.tga
+└── win32/
+    ├── AlphaFillModel/
+    │   ├── AlphaFillModel.wingl.gfbmdl
+    │   └── Shaders/
+    │       ├── AlphaFillModel_Manual.wingl.gfbfsh
+    │       └── FillScrean.wingl.gfbvsh
+    ├── EdgeMap/
+    │   ├── EdgeMapShader.wingl.gfbmdl
+    │   ├── Shaders/
+    │   │   ├── Comb3_Manual.gffsh
+    │   │   ├── Comb3_Manual.gfvsh
+    │   │   ├── Comb3_Manual.wingl.gfbfsh
+    │   │   ├── Comb3_Manual.wingl.gfbvsh
+    │   │   └── test.bat
+    │   └── Texture/
+    │       ├── comb_all.bat
+    │       ├── EdgeMapImage.3ds.tga
+    │       ├── EdgeMapImage.tga
+    │       ├── EdgeMapImage.wingl.tga
+    │       └── FrameBufferImage.tga
+    ├── EdgeMapVColAShader/
+    │   ├── EdgeMapVColA.wingl.gfbmdl
+    │   ├── Shaders/
+    │   │   ├── Comb2_Manual.gffsh
+    │   │   ├── Comb2_Manual.wingl.gfbfsh
+    │   │   ├── comb_all.bat
+    │   │   ├── NormalToUv.gfvsh
+    │   │   └── NormalToUv.wingl.gfbvsh
+    │   └── Textures/
+    │       ├── comb_all.bat
+    │       ├── NormalTexture.tga
+    │       ├── NormalTexture.wingl.btex
+    │       ├── ZInvNormalTexture.tga
+    │       └── ZInvNormalTexture.wingl.btex
+    └── IDEdgeMap/
+        ├── IDEdgeMap.wingl.gfbmdl
+        ├── Shader/
+        │   ├── Comb2_Manual.gffsh
+        │   ├── Comb2_Manual.gfvsh
+        │   ├── Comb2_Manual.wingl.gfbfsh
+        │   ├── Comb2_Manual.wingl.gfbvsh
+        │   ├── Comb2_Manual.wingl.gffsh
+        │   ├── Comb2_Manual.wingl.gfvsh
+        │   ├── Comb3_Manual.gffsh
+        │   ├── Comb3_Manual.gfvsh
+        │   ├── Comb3_Manual.wingl.gfbfsh
+        │   ├── Comb3_Manual.wingl.gfbvsh
+        │   ├── Comb3_Manual.wingl.gffsh
+        │   ├── Comb3_Manual.wingl.gfvsh
+        │   └── test.bat
+        └── Texture/
+            ├── comb_all.bat
+            ├── MapImage.3ds.tga
+            ├── MapImage.tga
+            └── MapImage.wingl.tga

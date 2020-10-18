@@ -1,0 +1,10 @@
+base/
+├── include/
+│   ├── gfl2_Bit.h
+│   ├── gfl2_Queue.h
+│   └── gfl2_Singleton.h
+├── project/
+│   ├── base.vcxproj
+│   └── base.vcxproj.filters
+└── source/
+    └── gfl2_Singleton.cpp

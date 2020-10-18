@@ -1,0 +1,373 @@
+ModelViewer/
+└── project/
+    ├── .nuget/
+    │   ├── NuGet.Config
+    │   ├── NuGet.exe
+    │   └── NuGet.targets
+    ├── AdjustmentFigureControlForm.cs
+    ├── AdjustmentFigureControlForm.Designer.cs
+    ├── AdjustmentFigureControlForm.resx
+    ├── AnimationDataSetForm.cs
+    ├── AnimationDataSetForm.Designer.cs
+    ├── AnimationDataSetForm.resx
+    ├── AnimationTimeLine.cs
+    ├── AnimationTimeLineControlForm.cs
+    ├── AnimationTimeLineControlForm.Designer.cs
+    ├── AnimationTimeLineControlForm.resx
+    ├── App.config
+    ├── ApplicationCore.cs
+    ├── ApplicationCore.Designer.cs
+    ├── ApplicationCore.resx
+    ├── BattleCamera.cs
+    ├── BlendListForm.cs
+    ├── BlendListForm.Designer.cs
+    ├── BlendListForm.resx
+    ├── CameraControlForm.cs
+    ├── CameraControlForm.Designer.cs
+    ├── CameraControlForm.resx
+    ├── CheckMaterialAttributeForm.cs
+    ├── CheckMaterialAttributeForm.Designer.cs
+    ├── CheckMaterialAttributeForm.resx
+    ├── ColorShaderControlForm.cs
+    ├── ColorShaderControlForm.Designer.cs
+    ├── ColorShaderControlForm.resx
+    ├── data/
+    │   ├── Background/
+    │   │   ├── kusa/
+    │   │   │   ├── btl_F/
+    │   │   │   │   ├── btl_F_kusa.gfmdl
+    │   │   │   │   ├── converted_data/
+    │   │   │   │   │   ├── btl_F_kusa.ctr.gfbmdl
+    │   │   │   │   │   ├── btl_F_kusa.gfmdl
+    │   │   │   │   │   ├── btl_F_kusa.wingl.gfbmdl
+    │   │   │   │   │   ├── ModelHash.fnv
+    │   │   │   │   │   ├── Shaders/
+    │   │   │   │   │   │   ├── BATTLE_bg_default01GRE.ctr.gfbfsh
+    │   │   │   │   │   │   ├── BATTLE_bg_default01GRE.gffsh
+    │   │   │   │   │   │   ├── BATTLE_bg_default01GRE.wingl.gfbfsh
+    │   │   │   │   │   │   ├── BattleFieldShader.ctr.gfbvsh
+    │   │   │   │   │   │   ├── BattleFieldShader.gfvsh
+    │   │   │   │   │   │   ├── BattleFieldShader.wingl.gfbvsh
+    │   │   │   │   │   │   ├── btl_A_sea_iro01_Manual.ctr.gfbfsh
+    │   │   │   │   │   │   ├── btl_A_sea_iro01_Manual.gffsh
+    │   │   │   │   │   │   └── btl_A_sea_iro01_Manual.wingl.gfbfsh
+    │   │   │   │   │   └── Textures/
+    │   │   │   │   │       ├── btl_A_sea_iro01.ctr.btex
+    │   │   │   │   │       ├── btl_A_sea_iro01.tga
+    │   │   │   │   │       ├── btl_A_sea_iro01.wingl.btex
+    │   │   │   │   │       ├── btl_A_sea_iro02.ctr.btex
+    │   │   │   │   │       ├── btl_A_sea_iro02.tga
+    │   │   │   │   │       ├── btl_A_sea_iro02.wingl.btex
+    │   │   │   │   │       ├── btl_F_kusa_jime01.ctr.btex
+    │   │   │   │   │       ├── btl_F_kusa_jime01.tga
+    │   │   │   │   │       ├── btl_F_kusa_jime01.wingl.btex
+    │   │   │   │   │       ├── btl_F_kusa_yama01.ctr.btex
+    │   │   │   │   │       ├── btl_F_kusa_yama01.tga
+    │   │   │   │   │       └── btl_F_kusa_yama01.wingl.btex
+    │   │   │   │   ├── Shaders/
+    │   │   │   │   │   ├── BATTLE_bg_default01GRE.gffsh
+    │   │   │   │   │   ├── BattleFieldShader.gfvsh
+    │   │   │   │   │   └── btl_A_sea_iro01_Manual.gffsh
+    │   │   │   │   └── Textures/
+    │   │   │   │       ├── btl_A_sea_iro01.tga
+    │   │   │   │       ├── btl_A_sea_iro02.tga
+    │   │   │   │       ├── btl_F_kusa_jime01.tga
+    │   │   │   │       └── btl_F_kusa_yama01.tga
+    │   │   │   ├── btl_G/
+    │   │   │   │   ├── btl_G_kusa.gfmdl
+    │   │   │   │   ├── converted_data/
+    │   │   │   │   │   ├── btl_G_kusa.ctr.gfbmdl
+    │   │   │   │   │   ├── btl_G_kusa.gfmdl
+    │   │   │   │   │   ├── btl_G_kusa.wingl.gfbmdl
+    │   │   │   │   │   ├── ModelHash.fnv
+    │   │   │   │   │   ├── Shaders/
+    │   │   │   │   │   │   ├── BATTLE_bg_blend01GRE.ctr.gfbfsh
+    │   │   │   │   │   │   ├── BATTLE_bg_blend01GRE.gffsh
+    │   │   │   │   │   │   ├── BATTLE_bg_blend01GRE.wingl.gfbfsh
+    │   │   │   │   │   │   ├── BATTLE_bg_default01GRE.ctr.gfbfsh
+    │   │   │   │   │   │   ├── BATTLE_bg_default01GRE.gffsh
+    │   │   │   │   │   │   ├── BATTLE_bg_default01GRE.wingl.gfbfsh
+    │   │   │   │   │   │   ├── BattleFieldShader.ctr.gfbvsh
+    │   │   │   │   │   │   ├── BattleFieldShader.gfvsh
+    │   │   │   │   │   │   ├── BattleFieldShader.wingl.gfbvsh
+    │   │   │   │   │   │   ├── btl_G_kusa_kusa01_Manual.ctr.gfbfsh
+    │   │   │   │   │   │   ├── btl_G_kusa_kusa01_Manual.gffsh
+    │   │   │   │   │   │   └── btl_G_kusa_kusa01_Manual.wingl.gfbfsh
+    │   │   │   │   │   └── Textures/
+    │   │   │   │   │       ├── btl_G_all_rain.ctr.btex
+    │   │   │   │   │       ├── btl_G_all_rain.tga
+    │   │   │   │   │       ├── btl_G_all_rain.wingl.btex
+    │   │   │   │   │       ├── btl_G_all_rain0m.ctr.btex
+    │   │   │   │   │       ├── btl_G_all_rain0m.tga
+    │   │   │   │   │       ├── btl_G_all_rain0m.wingl.btex
+    │   │   │   │   │       ├── btl_G_all_snow0m.ctr.btex
+    │   │   │   │   │       ├── btl_G_all_snow0m.tga
+    │   │   │   │   │       ├── btl_G_all_snow0m.wingl.btex
+    │   │   │   │   │       ├── btl_G_kusa_iwa01.ctr.btex
+    │   │   │   │   │       ├── btl_G_kusa_iwa01.tga
+    │   │   │   │   │       ├── btl_G_kusa_iwa01.wingl.btex
+    │   │   │   │   │       ├── btl_G_kusa_jime01.ctr.btex
+    │   │   │   │   │       ├── btl_G_kusa_jime01.tga
+    │   │   │   │   │       ├── btl_G_kusa_jime01.wingl.btex
+    │   │   │   │   │       ├── btl_G_kusa_jime02.ctr.btex
+    │   │   │   │   │       ├── btl_G_kusa_jime02.tga
+    │   │   │   │   │       ├── btl_G_kusa_jime02.wingl.btex
+    │   │   │   │   │       ├── btl_G_kusa_kusa01.ctr.btex
+    │   │   │   │   │       ├── btl_G_kusa_kusa01.tga
+    │   │   │   │   │       ├── btl_G_kusa_kusa01.wingl.btex
+    │   │   │   │   │       ├── btl_G_kusa_mori01.ctr.btex
+    │   │   │   │   │       ├── btl_G_kusa_mori01.tga
+    │   │   │   │   │       ├── btl_G_kusa_mori01.wingl.btex
+    │   │   │   │   │       ├── btl_G_kusa_ueki01.ctr.btex
+    │   │   │   │   │       ├── btl_G_kusa_ueki01.tga
+    │   │   │   │   │       ├── btl_G_kusa_ueki01.wingl.btex
+    │   │   │   │   │       ├── btl_G_kusa_yasi01.ctr.btex
+    │   │   │   │   │       ├── btl_G_kusa_yasi01.tga
+    │   │   │   │   │       └── btl_G_kusa_yasi01.wingl.btex
+    │   │   │   │   ├── Shaders/
+    │   │   │   │   │   ├── BATTLE_bg_blend01GRE.gffsh
+    │   │   │   │   │   ├── BATTLE_bg_default01GRE.gffsh
+    │   │   │   │   │   ├── BattleFieldShader.gfvsh
+    │   │   │   │   │   └── btl_G_kusa_kusa01_Manual.gffsh
+    │   │   │   │   └── Textures/
+    │   │   │   │       ├── btl_G_all_rain.tga
+    │   │   │   │       ├── btl_G_all_rain0m.tga
+    │   │   │   │       ├── btl_G_all_snow0m.tga
+    │   │   │   │       ├── btl_G_kusa_iwa01.tga
+    │   │   │   │       ├── btl_G_kusa_jime01.tga
+    │   │   │   │       ├── btl_G_kusa_jime02.tga
+    │   │   │   │       ├── btl_G_kusa_kusa01.tga
+    │   │   │   │       ├── btl_G_kusa_mori01.tga
+    │   │   │   │       ├── btl_G_kusa_ueki01.tga
+    │   │   │   │       └── btl_G_kusa_yasi01.tga
+    │   │   │   └── btl_N/
+    │   │   │       ├── btl_N_kusa.gfmdl
+    │   │   │       ├── converted_data/
+    │   │   │       │   ├── btl_N_kusa.ctr.gfbmdl
+    │   │   │       │   ├── btl_N_kusa.gfmdl
+    │   │   │       │   ├── btl_N_kusa.wingl.gfbmdl
+    │   │   │       │   ├── ModelHash.fnv
+    │   │   │       │   ├── Shaders/
+    │   │   │       │   │   ├── BATTLE_bg_default01GRE.ctr.gfbfsh
+    │   │   │       │   │   ├── BATTLE_bg_default01GRE.gffsh
+    │   │   │       │   │   ├── BATTLE_bg_default01GRE.wingl.gfbfsh
+    │   │   │       │   │   ├── BattleFieldShader.ctr.gfbvsh
+    │   │   │       │   │   ├── BattleFieldShader.gfvsh
+    │   │   │       │   │   └── BattleFieldShader.wingl.gfbvsh
+    │   │   │       │   └── Textures/
+    │   │   │       │       ├── btl_N_kusa_jime01.ctr.btex
+    │   │   │       │       ├── btl_N_kusa_jime01.tga
+    │   │   │       │       ├── btl_N_kusa_jime01.wingl.btex
+    │   │   │       │       ├── btl_N_kusa_mori01.ctr.btex
+    │   │   │       │       ├── btl_N_kusa_mori01.tga
+    │   │   │       │       ├── btl_N_kusa_mori01.wingl.btex
+    │   │   │       │       ├── btl_N_kusa_oka01.ctr.btex
+    │   │   │       │       ├── btl_N_kusa_oka01.tga
+    │   │   │       │       ├── btl_N_kusa_oka01.wingl.btex
+    │   │   │       │       ├── btl_N_kusa_yasi01.ctr.btex
+    │   │   │       │       ├── btl_N_kusa_yasi01.tga
+    │   │   │       │       └── btl_N_kusa_yasi01.wingl.btex
+    │   │   │       ├── Shaders/
+    │   │   │       │   ├── BATTLE_bg_default01GRE.gffsh
+    │   │   │       │   └── BattleFieldShader.gfvsh
+    │   │   │       └── Textures/
+    │   │   │           ├── btl_N_kusa_jime01.tga
+    │   │   │           ├── btl_N_kusa_mori01.tga
+    │   │   │           ├── btl_N_kusa_oka01.tga
+    │   │   │           └── btl_N_kusa_yasi01.tga
+    │   │   └── test_skybox/
+    │   │       └── sky_sunny/
+    │   │           ├── converted_data/
+    │   │           │   ├── ModelHash.fnv
+    │   │           │   ├── Shaders/
+    │   │           │   │   ├── Default.ctr.gfbvsh
+    │   │           │   │   ├── Default.gfvsh
+    │   │           │   │   ├── Default.wingl.gfbvsh
+    │   │           │   │   ├── Map04_sky01.ctr.gfbfsh
+    │   │           │   │   ├── Map04_sky01.gffsh
+    │   │           │   │   └── Map04_sky01.wingl.gfbfsh
+    │   │           │   ├── sky_sunny.ctr.gfbmdl
+    │   │           │   ├── sky_sunny.gfmdl
+    │   │           │   ├── sky_sunny.wingl.gfbmdl
+    │   │           │   └── Textures/
+    │   │           │       ├── sky_colorbar01.ctr.btex
+    │   │           │       ├── sky_colorbar01.tga
+    │   │           │       ├── sky_colorbar01.wingl.btex
+    │   │           │       ├── sky_star01.ctr.btex
+    │   │           │       ├── sky_star01.tga
+    │   │           │       └── sky_star01.wingl.btex
+    │   │           ├── Shaders/
+    │   │           │   ├── Default.gfvsh
+    │   │           │   └── Map04_sky01.gffsh
+    │   │           ├── sky_sunny.gfmdl
+    │   │           └── Textures/
+    │   │               ├── sky_colorbar01.tga
+    │   │               └── sky_star01.tga
+    │   ├── BlendList/
+    │   │   └── pm_default_blend_list.xml
+    │   ├── ColorShaderGfmdl/
+    │   │   ├── colorshaderplane.wingl.gfbmdl
+    │   │   ├── colorshadertexture.wingl.btex
+    │   │   ├── Comb1_Manual.wingl.gfbfsh
+    │   │   └── FillScrean.wingl.gfbvsh
+    │   ├── Dof/
+    │   │   ├── CombBack_Manual.wingl.gfbfsh
+    │   │   ├── CombFront_Manual.wingl.gfbfsh
+    │   │   ├── Default.wingl.gfbvsh
+    │   │   ├── DofShader.wingl.gfbmdl
+    │   │   └── EdgeMapImage.wingl.btex
+    │   ├── EdgeColorCheck/
+    │   │   ├── Comb1_Manual.wingl.gfbfsh
+    │   │   ├── edgecolorcheckplane.wingl.gfbmdl
+    │   │   ├── edgecolorchecktexture.wingl.btex
+    │   │   └── FillScrean.wingl.gfbvsh
+    │   ├── EdgeMap/
+    │   │   ├── EdgeMapImage.tga
+    │   │   ├── EdgeMapShader.mb
+    │   │   ├── exports/
+    │   │   │   ├── EdgeMapShader.3ds.gfbmdl
+    │   │   │   ├── EdgeMapShader.gfmdl
+    │   │   │   ├── EdgeMapShader.wingl.gfbmdl
+    │   │   │   ├── Shaders/
+    │   │   │   │   ├── Comb3_Manual.gffsh
+    │   │   │   │   ├── Comb3_Manual.gfvsh
+    │   │   │   │   ├── Comb3_Manual.wingl.gfbfsh
+    │   │   │   │   ├── Comb3_Manual.wingl.gfbvsh
+    │   │   │   │   └── test.bat
+    │   │   │   ├── test.bat
+    │   │   │   └── Texture/
+    │   │   │       ├── comb_all.bat
+    │   │   │       ├── EdgeMapImage.3ds.tga
+    │   │   │       ├── EdgeMapImage.tga
+    │   │   │       ├── EdgeMapImage.wingl.tga
+    │   │   │       └── FrameBufferImage.tga
+    │   │   └── FrameBufferImage.tga
+    │   ├── EdgeMapVColAShader/
+    │   │   ├── EdgeMapImage.tga
+    │   │   ├── EdgeMapVColA.mb
+    │   │   ├── exports/
+    │   │   │   ├── EdgeMapVColA.3ds.gfbmdl
+    │   │   │   ├── EdgeMapVColA.gfbmdl.wingl
+    │   │   │   ├── EdgeMapVColA.gfmdl
+    │   │   │   ├── EdgeMapVColA.wingl.gfbmdl
+    │   │   │   ├── Shaders/
+    │   │   │   │   ├── Comb2_Manual.gffsh
+    │   │   │   │   ├── Comb2_Manual.wingl.gfbfsh
+    │   │   │   │   ├── comb_all.bat
+    │   │   │   │   ├── NormalToUv.gfvsh
+    │   │   │   │   └── NormalToUv.wingl.gfbvsh
+    │   │   │   ├── test.bat
+    │   │   │   └── Textures/
+    │   │   │       ├── comb_all.bat
+    │   │   │       ├── NormalTexture.tga
+    │   │   │       ├── NormalTexture.wingl.btex
+    │   │   │       ├── ZInvNormalTexture.tga
+    │   │   │       └── ZInvNormalTexture.wingl.btex
+    │   │   └── NormalTexture.tga
+    │   ├── IDEdgeMap/
+    │   │   ├── debug.cres
+    │   │   ├── exports/
+    │   │   │   ├── IDEdgeMap.3ds.gfbmdl
+    │   │   │   ├── IDEdgeMap.ctr.gfbmdl
+    │   │   │   ├── IDEdgeMap.gfmdl
+    │   │   │   ├── IDEdgeMap.wingl.gfbmdl
+    │   │   │   ├── Shader/
+    │   │   │   │   ├── Comb2_Manual.gffsh
+    │   │   │   │   ├── Comb2_Manual.gfvsh
+    │   │   │   │   ├── Comb2_Manual.wingl.gfbfsh
+    │   │   │   │   ├── Comb2_Manual.wingl.gfbvsh
+    │   │   │   │   ├── Comb2_Manual.wingl.gffsh
+    │   │   │   │   ├── Comb2_Manual.wingl.gfvsh
+    │   │   │   │   ├── Comb3_Manual.gffsh
+    │   │   │   │   ├── Comb3_Manual.gfvsh
+    │   │   │   │   ├── Comb3_Manual.wingl.gfbfsh
+    │   │   │   │   ├── Comb3_Manual.wingl.gfbvsh
+    │   │   │   │   ├── Comb3_Manual.wingl.gffsh
+    │   │   │   │   ├── Comb3_Manual.wingl.gfvsh
+    │   │   │   │   └── test.bat
+    │   │   │   ├── test.bat
+    │   │   │   └── Texture/
+    │   │   │       ├── comb_all.bat
+    │   │   │       ├── MapImage.3ds.tga
+    │   │   │       ├── MapImage.tga
+    │   │   │       └── MapImage.wingl.tga
+    │   │   ├── IDEdgeMap.mb
+    │   │   ├── InsideEdgeFillter.cres
+    │   │   ├── MapImage.ctex
+    │   │   └── MapImage.tga
+    │   └── Sound/
+    │       └── cursor.wav
+    ├── DefaultCamera.cs
+    ├── DisplayNodeHierarchyForm.cs
+    ├── DisplayNodeHierarchyForm.Designer.cs
+    ├── DisplayNodeHierarchyForm.resx
+    ├── EffectLocatorControlForm.cs
+    ├── EffectLocatorControlForm.Designer.cs
+    ├── EffectLocatorControlForm.resx
+    ├── ExtraFilePathSet.cs
+    ├── FaceControlForm.cs
+    ├── FaceControlForm.Designer.cs
+    ├── FaceControlForm.resx
+    ├── GfblocPathSet.cs
+    ├── GfmdlErrorChecker.cs
+    ├── GfmdlPathSetDictionary.cs
+    ├── GfmotPathSet.cs
+    ├── ICamera.cs
+    ├── IModelDataManager.cs
+    ├── IModelMotionResourceChangeListener.cs
+    ├── Keyboard.cs
+    ├── KeySoundControlForm.cs
+    ├── KeySoundControlForm.Designer.cs
+    ├── KeySoundControlForm.resx
+    ├── KwCamera.cs
+    ├── LightControlForm.cs
+    ├── LightControlForm.Designer.cs
+    ├── LightControlForm.resx
+    ├── MarkingControlForm.cs
+    ├── MarkingControlForm.Designer.cs
+    ├── MarkingControlForm.resx
+    ├── MathUtil.cs
+    ├── McnfForm.cs
+    ├── McnfForm.Designer.cs
+    ├── McnfForm.resx
+    ├── ModelMotionResourceLoader.cs
+    ├── ModelMotionResourceTreeViewForm.cs
+    ├── ModelMotionResourceTreeViewForm.Designer.cs
+    ├── ModelMotionResourceTreeViewForm.resx
+    ├── ModelMotionSettingData.cs
+    ├── ModelViewer.bat
+    ├── ModelViewer.csproj
+    ├── ModelViewer.sln
+    ├── MotionCompForm.cs
+    ├── MotionCompForm.Designer.cs
+    ├── MotionCompForm.resx
+    ├── Mouse.cs
+    ├── Options.cs
+    ├── packages.config
+    ├── PokedecoLocatorControlForm.cs
+    ├── PokedecoLocatorControlForm.Designer.cs
+    ├── PokedecoLocatorControlForm.resx
+    ├── PokemonModelDataManager.cs
+    ├── PokemonUtility.cs
+    ├── Program.cs
+    ├── Properties/
+    │   ├── AssemblyInfo.cs
+    │   ├── Resources.Designer.cs
+    │   ├── Resources.resx
+    │   ├── Settings.Designer.cs
+    │   └── Settings.settings
+    ├── RenderForm.cs
+    ├── RenderForm.Designer.cs
+    ├── RenderForm.resx
+    ├── Resources/
+    │   └── AnimationConverter.exe
+    ├── SharedFiles/
+    │   ├── RareSettingXml/
+    │   │   └── RareSettingList.cs
+    │   └── SettingXml/
+    │       └── SettingList.cs
+    ├── StatusCamera.cs
+    ├── TransformControlForm.cs
+    ├── TransformControlForm.Designer.cs
+    ├── TransformControlForm.resx
+    └── Util.cs

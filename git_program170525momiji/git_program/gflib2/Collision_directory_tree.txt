@@ -1,0 +1,375 @@
+Collision/
+├── include/
+│   └── gfl2_CollisionModel.h
+├── project/
+│   ├── Collision.vcxproj
+│   ├── Collision.vcxproj.filters
+│   └── gf_template_gflib2.rsf
+├── Sample/
+│   ├── CollisionModelConverter/
+│   │   ├── CollisionModelCache/
+│   │   │   └── map_height_yuka.gfbcol
+│   │   ├── CollisionModelConverter.exe
+│   │   ├── CollisionModelConverter.vcxproj
+│   │   ├── conv.bat
+│   │   ├── main.cpp
+│   │   └── map.gfmdl
+│   ├── data/
+│   │   ├── niji_test_map/
+│   │   │   ├── niji_test_map01.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── berries01MAPデフォルト01.gffsh
+│   │   │   │   ├── berries01MAPデフォルト01.gfvsh
+│   │   │   │   ├── books01MAPデフォルト01.gffsh
+│   │   │   │   ├── books01MAPデフォルト01.gfvsh
+│   │   │   │   ├── bookshelf01MAPデフォルト01.gffsh
+│   │   │   │   ├── bookshelf01MAPデフォルト01.gfvsh
+│   │   │   │   ├── bottle_aMAPデフォルト01.gffsh
+│   │   │   │   ├── bottle_aMAPデフォルト01.gfvsh
+│   │   │   │   ├── c104g_hikariMAPデフォルト01.gffsh
+│   │   │   │   ├── c104g_hikariMAPデフォルト01.gfvsh
+│   │   │   │   ├── chair01MAPデフォルト01.gffsh
+│   │   │   │   ├── chair01MAPデフォルト01.gfvsh
+│   │   │   │   ├── chip_wood_shadowMAPデフォルト01.gffsh
+│   │   │   │   ├── chip_wood_shadowMAPデフォルト01.gfvsh
+│   │   │   │   ├── chip_wood_shadowMAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── chip_wood_shadowMAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── Comb1doukutu01.gffsh
+│   │   │   │   ├── Comb1doukutu01.gfvsh
+│   │   │   │   ├── Comb1MAPデフォルト01.gffsh
+│   │   │   │   ├── Comb1MAPデフォルト01.gfvsh
+│   │   │   │   ├── Comb1MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── Comb1MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── Comb2.gffsh
+│   │   │   │   ├── Comb2.gfvsh
+│   │   │   │   ├── Comb3.gffsh
+│   │   │   │   ├── Comb3.gfvsh
+│   │   │   │   ├── Comb32MAPデフォルト01.gffsh
+│   │   │   │   ├── Comb32MAPデフォルト01.gfvsh
+│   │   │   │   ├── Comb32MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── Comb32MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── Comb33MAPデフォルト01.gffsh
+│   │   │   │   ├── Comb33MAPデフォルト01.gfvsh
+│   │   │   │   ├── Comb33MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── Comb33MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── Comb34MAPデフォルト01.gffsh
+│   │   │   │   ├── Comb34MAPデフォルト01.gfvsh
+│   │   │   │   ├── Comb34MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── Comb34MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── Comb35MAPデフォルト01.gffsh
+│   │   │   │   ├── Comb35MAPデフォルト01.gfvsh
+│   │   │   │   ├── Comb35MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── Comb35MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── Comb36MAPデフォルト01.gffsh
+│   │   │   │   ├── Comb36MAPデフォルト01.gfvsh
+│   │   │   │   ├── Comb36MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── Comb36MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── Comb37MAPデフォルト01.gffsh
+│   │   │   │   ├── Comb37MAPデフォルト01.gfvsh
+│   │   │   │   ├── Comb37MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── Comb37MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── Comb38MAPデフォルト01.gffsh
+│   │   │   │   ├── Comb38MAPデフォルト01.gfvsh
+│   │   │   │   ├── Comb38MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── Comb38MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── Comb39MAPデフォルト01.gffsh
+│   │   │   │   ├── Comb39MAPデフォルト01.gfvsh
+│   │   │   │   ├── Comb39MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── Comb39MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── Comb40MAPデフォルト01.gffsh
+│   │   │   │   ├── Comb40MAPデフォルト01.gfvsh
+│   │   │   │   ├── Comb41.gffsh
+│   │   │   │   ├── Comb41.gfvsh
+│   │   │   │   ├── Comb41MAPデフォルト01.gffsh
+│   │   │   │   ├── Comb41MAPデフォルト01.gfvsh
+│   │   │   │   ├── Comb42.gffsh
+│   │   │   │   ├── Comb42.gfvsh
+│   │   │   │   ├── ent_light01_aMAPデフォルト01＋カラースペキュラー.gffsh
+│   │   │   │   ├── ent_light01_aMAPデフォルト01＋カラースペキュラー.gfvsh
+│   │   │   │   ├── floor01_rMAPデフォルト01.gffsh
+│   │   │   │   ├── floor01_rMAPデフォルト01.gfvsh
+│   │   │   │   ├── floor02_rMAPデフォルト01.gffsh
+│   │   │   │   ├── floor02_rMAPデフォルト01.gfvsh
+│   │   │   │   ├── floor03_rMAPデフォルト01.gffsh
+│   │   │   │   ├── floor03_rMAPデフォルト01.gfvsh
+│   │   │   │   ├── gaitouMAPデフォルト01.gffsh
+│   │   │   │   ├── gaitouMAPデフォルト01.gfvsh
+│   │   │   │   ├── gaitouMAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── gaitouMAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── haichi03_c03_bm_minka1MAPデフォルト01.gffsh
+│   │   │   │   ├── haichi03_c03_bm_minka1MAPデフォルト01.gfvsh
+│   │   │   │   ├── haichi03_c03_bm_minka1MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── haichi03_c03_bm_minka1MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── haichi03_com_chip_mado1MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── haichi03_com_chip_mado1MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── haichi03_com_chip_mado1MAP窓.gffsh
+│   │   │   │   ├── haichi03_com_chip_mado1MAP窓.gfvsh
+│   │   │   │   ├── haichi03_stand_shadowMAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── haichi03_stand_shadowMAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── haichi03_stand_shadowMAP影.gffsh
+│   │   │   │   ├── haichi03_stand_shadowMAP影.gfvsh
+│   │   │   │   ├── in1
+│   │   │   │   ├── kanazumi_house01MAPデフォルト01.gffsh
+│   │   │   │   ├── kanazumi_house01MAPデフォルト01.gfvsh
+│   │   │   │   ├── kanazumi_komonoMAPデフォルト01.gffsh
+│   │   │   │   ├── kanazumi_komonoMAPデフォルト01.gfvsh
+│   │   │   │   ├── ki
+│   │   │   │   ├── madoMAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── madoMAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── madoMAP窓.gffsh
+│   │   │   │   ├── madoMAP窓.gfvsh
+│   │   │   │   ├── mat01MAPデフォルト01.gffsh
+│   │   │   │   ├── mat01MAPデフォルト01.gfvsh
+│   │   │   │   ├── mat02_rMAPデフォルト01.gffsh
+│   │   │   │   ├── mat02_rMAPデフォルト01.gfvsh
+│   │   │   │   ├── pasted__Comb1doukutu02.gffsh
+│   │   │   │   ├── pasted__Comb1doukutu02.gfvsh
+│   │   │   │   ├── pasted__Comb1MAPデフォルト01.gffsh
+│   │   │   │   ├── pasted__Comb1MAPデフォルト01.gfvsh
+│   │   │   │   ├── pasted__han_treea_bMAPデフォルト01＋カラースペキュラー.gffsh
+│   │   │   │   ├── pasted__han_treea_bMAPデフォルト01＋カラースペキュラー.gfvsh
+│   │   │   │   ├── pasted__han_treea_bMAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── pasted__han_treea_bMAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── pasted__kokage5MAPデフォルト01.gffsh
+│   │   │   │   ├── pasted__kokage5MAPデフォルト01.gfvsh
+│   │   │   │   ├── pasted__kokage5MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── pasted__kokage5MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── pasted__kusa01MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── pasted__kusa01MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── pasted__kusa01MAPデフォルト01＋フレネル.gffsh
+│   │   │   │   ├── pasted__kusa01MAPデフォルト01＋フレネル.gfvsh
+│   │   │   │   ├── pasted__pasted__Comb1doukutu02.gffsh
+│   │   │   │   ├── pasted__pasted__Comb1doukutu02.gfvsh
+│   │   │   │   ├── pasted__pasted__pasted__test06_rp_01.gffsh
+│   │   │   │   ├── pasted__pasted__pasted__test06_rp_01.gfvsh
+│   │   │   │   ├── pasted__pasted__test06_rp_01.gffsh
+│   │   │   │   ├── pasted__pasted__test06_rp_01.gfvsh
+│   │   │   │   ├── pasted__test06_rp_01.gffsh
+│   │   │   │   ├── pasted__test06_rp_01.gfvsh
+│   │   │   │   ├── pasted__test07_rp_01.gffsh
+│   │   │   │   ├── pasted__test07_rp_01.gfvsh
+│   │   │   │   ├── pasted__test07_rp_02.gffsh
+│   │   │   │   ├── pasted__test07_rp_02.gfvsh
+│   │   │   │   ├── pictureframe01MAPデフォルト01.gffsh
+│   │   │   │   ├── pictureframe01MAPデフォルト01.gfvsh
+│   │   │   │   ├── plant01_aMAPデフォルト01.gffsh
+│   │   │   │   ├── plant01_aMAPデフォルト01.gfvsh
+│   │   │   │   ├── ref01MAPデフォルト01.gffsh
+│   │   │   │   ├── ref01MAPデフォルト01.gfvsh
+│   │   │   │   ├── shadow_aMAPデフォルト01.gffsh
+│   │   │   │   ├── shadow_aMAPデフォルト01.gfvsh
+│   │   │   │   ├── shelf02_aMAPデフォルト01.gffsh
+│   │   │   │   ├── shelf02_aMAPデフォルト01.gfvsh
+│   │   │   │   ├── shelf02MAPデフォルト01.gffsh
+│   │   │   │   ├── shelf02MAPデフォルト01.gfvsh
+│   │   │   │   ├── shelf03MAPデフォルト01.gffsh
+│   │   │   │   ├── shelf03MAPデフォルト01.gfvsh
+│   │   │   │   ├── sidake_house_sidake_wakuMAPデフォルト01.gffsh
+│   │   │   │   ├── sidake_house_sidake_wakuMAPデフォルト01.gfvsh
+│   │   │   │   ├── sidake_house_sidake_wakuMAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── sidake_house_sidake_wakuMAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── sink01MAPデフォルト01.gffsh
+│   │   │   │   ├── sink01MAPデフォルト01.gfvsh
+│   │   │   │   ├── sink02MAPデフォルト01.gffsh
+│   │   │   │   ├── sink02MAPデフォルト01.gfvsh
+│   │   │   │   ├── speaker01MAPデフォルト01.gffsh
+│   │   │   │   ├── speaker01MAPデフォルト01.gfvsh
+│   │   │   │   ├── t101r0101
+│   │   │   │   ├── t101r0101_books02MAPデフォルト01.gffsh
+│   │   │   │   ├── t101r0101_books02MAPデフォルト01.gfvsh
+│   │   │   │   ├── t101r0101_carpet01MAPデフォルト01.gffsh
+│   │   │   │   ├── t101r0101_carpet01MAPデフォルト01.gfvsh
+│   │   │   │   ├── t101r0101_clock01MAPデフォルト01.gffsh
+│   │   │   │   ├── t101r0101_clock01MAPデフォルト01.gfvsh
+│   │   │   │   ├── t101r0101_tv01_02MAPデフォルト01.gffsh
+│   │   │   │   ├── t101r0101_tv01_02MAPデフォルト01.gfvsh
+│   │   │   │   ├── t101r0101_wall_01MAPデフォルト01.gffsh
+│   │   │   │   ├── t101r0101_wall_01MAPデフォルト01.gfvsh
+│   │   │   │   ├── table01MAPデフォルト01.gffsh
+│   │   │   │   ├── table01MAPデフォルト01.gfvsh
+│   │   │   │   ├── test01_rp_01MAPデフォルト01.gffsh
+│   │   │   │   ├── test01_rp_01MAPデフォルト01.gfvsh
+│   │   │   │   ├── test04_rp_01.gffsh
+│   │   │   │   ├── test04_rp_01.gfvsh
+│   │   │   │   ├── test05_rp_01MAPデフォルト01.gffsh
+│   │   │   │   ├── test05_rp_01MAPデフォルト01.gfvsh
+│   │   │   │   ├── test06_rp_01.gffsh
+│   │   │   │   ├── test06_rp_01.gfvsh
+│   │   │   │   ├── wall_topMAPデフォルト01.gffsh
+│   │   │   │   ├── wall_topMAPデフォルト01.gfvsh
+│   │   │   │   ├── water_aMAPデフォルト01.gffsh
+│   │   │   │   ├── water_aMAPデフォルト01.gfvsh
+│   │   │   │   ├── window01_grMAP窓.gffsh
+│   │   │   │   ├── window01_grMAP窓.gfvsh
+│   │   │   │   ├── window02_rMAPデフォルト01.gffsh
+│   │   │   │   ├── window02_rMAPデフォルト01.gfvsh
+│   │   │   │   ├── yashi_mMAPデフォルト01.gffsh
+│   │   │   │   ├── yashi_mMAPデフォルト01.gfvsh
+│   │   │   │   ├── yashi_mMAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── yashi_mMAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── yashi_shadowMAPデフォルト01.gffsh
+│   │   │   │   ├── yashi_shadowMAPデフォルト01.gfvsh
+│   │   │   │   ├── yashi_shadowMAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   └── yashi_shadowMAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   ├── takasa_test.gfmdl
+│   │   │   └── Texture/
+│   │   │       ├── 1shima_map02.tga
+│   │   │       ├── 1shima_sora02.tga
+│   │   │       ├── berries01.tga
+│   │   │       ├── books01.tga
+│   │   │       ├── bookshelf01.tga
+│   │   │       ├── bottle_a.tga
+│   │   │       ├── c02a01_town00.tga
+│   │   │       ├── c03_bm_minka.tga
+│   │   │       ├── c104g_hikari.tga
+│   │   │       ├── chair01.tga
+│   │   │       ├── com_c02_mado0.tga
+│   │   │       ├── com_chip_mado1.tga
+│   │   │       ├── com_kusa_table2_t.tga
+│   │   │       ├── ent_light01_a.tga
+│   │   │       ├── far01.tga
+│   │   │       ├── far02.tga
+│   │   │       ├── far03.tga
+│   │   │       ├── floor01_r.tga
+│   │   │       ├── floor02_r.tga
+│   │   │       ├── floor03_r.tga
+│   │   │       ├── han_treea_b.tga
+│   │   │       ├── han_treea_b_s.tga
+│   │   │       ├── in.tga
+│   │   │       ├── kanazumi_house01.tga
+│   │   │       ├── kanazumi_komono.tga
+│   │   │       ├── kokage3.tga
+│   │   │       ├── kusa01.tga
+│   │   │       ├── kusa01_s.tga
+│   │   │       ├── map_shiro1.tga
+│   │   │       ├── mat01.tga
+│   │   │       ├── mat02_r.tga
+│   │   │       ├── pictureframe01.tga
+│   │   │       ├── plant01_a.tga
+│   │   │       ├── platan_bk.tga
+│   │   │       ├── ref01.tga
+│   │   │       ├── shadow_a.tga
+│   │   │       ├── shelf02.tga
+│   │   │       ├── shelf02_a.tga
+│   │   │       ├── shelf03.tga
+│   │   │       ├── sink01.tga
+│   │   │       ├── sink02.tga
+│   │   │       ├── speaker01.tga
+│   │   │       ├── stand_shadow.tga
+│   │   │       ├── t101r0101_books02.tga
+│   │   │       ├── t101r0101_carpet01.tga
+│   │   │       ├── t101r0101_clock01.tga
+│   │   │       ├── t101r0101_tv01_02.tga
+│   │   │       ├── t101r0101_wall_01.tga
+│   │   │       ├── table01.tga
+│   │   │       ├── test01_rp_01.tga
+│   │   │       ├── test01_rp_01_n.tga
+│   │   │       ├── test01_rp_01_n2.tga
+│   │   │       ├── test01_rp_01_sc.tga
+│   │   │       ├── test04_rp_01.tga
+│   │   │       ├── test05_rp_01.tga
+│   │   │       ├── test06_rp_01.tga
+│   │   │       ├── test06_rp_01_n.tga
+│   │   │       ├── test08_01.tga
+│   │   │       ├── test08_01_n.tga
+│   │   │       ├── test09_01.tga
+│   │   │       ├── test09_01_n.tga
+│   │   │       ├── test10_01.tga
+│   │   │       ├── test11_01.tga
+│   │   │       ├── test2_kusaji01.tga
+│   │   │       ├── test_c_mado.tga
+│   │   │       ├── test_chip_wood_s.tga
+│   │   │       ├── test_gaitou.tga
+│   │   │       ├── test_gake0000.tga
+│   │   │       ├── test_gake01.tga
+│   │   │       ├── test_ie001.tga
+│   │   │       ├── test_ki0_1.tga
+│   │   │       ├── test_ki0_2.tga
+│   │   │       ├── test_ki0_3.tga
+│   │   │       ├── test_kuro.tga
+│   │   │       ├── test_kusaji01.tga
+│   │   │       ├── test_kusaji01a.tga
+│   │   │       ├── test_shiro00.tga
+│   │   │       ├── test_sidake_waku.tga
+│   │   │       ├── test_umi01.tga
+│   │   │       ├── test_yashi.tga
+│   │   │       ├── test_yashi_s.tga
+│   │   │       ├── wall_top.tga
+│   │   │       ├── water_a.tga
+│   │   │       ├── window01_gr.tga
+│   │   │       └── window02_r.tga
+│   │   └── tr0001_00_hero/
+│   │       ├── DrawEnvTest.gfenv
+│   │       └── new/
+│   │           ├── Shader/
+│   │           │   ├── tr0001_bag_yeCHARA_trainer01.gffsh
+│   │           │   ├── tr0001_bag_yeCHARA_trainer01.gfvsh
+│   │           │   ├── tr0001_boots_reCHARA_trainer01.gffsh
+│   │           │   ├── tr0001_boots_reCHARA_trainer01.gfvsh
+│   │           │   ├── tr0001_btms_blCHARA_trainer01.gffsh
+│   │           │   ├── tr0001_btms_blCHARA_trainer01.gfvsh
+│   │           │   ├── tr0001_eye.gffsh
+│   │           │   ├── tr0001_eye.gfvsh
+│   │           │   ├── tr0001_face02.gffsh
+│   │           │   ├── tr0001_face02.gfvsh
+│   │           │   ├── tr0001_hair_brCHARA_trainer01.gffsh
+│   │           │   ├── tr0001_hair_brCHARA_trainer01.gfvsh
+│   │           │   ├── tr0001_hat_reCHARA_trainer01.gffsh
+│   │           │   ├── tr0001_hat_reCHARA_trainer01.gfvsh
+│   │           │   ├── tr0001_tops_reCHARA_trainer01.gffsh
+│   │           │   └── tr0001_tops_reCHARA_trainer01.gfvsh
+│   │           ├── Texture/
+│   │           │   ├── chara_Hta1D.tga
+│   │           │   ├── chara_Rim00.tga
+│   │           │   ├── chara_Rim01_01.tga
+│   │           │   ├── chara_Rim02_01.tga
+│   │           │   ├── com_kusa.tga
+│   │           │   ├── Default_Lta_13D.tga
+│   │           │   ├── LinerTable.tga
+│   │           │   ├── tr0001_bag_ye.tga
+│   │           │   ├── tr0001_bagHlm.tga
+│   │           │   ├── tr0001_bagNor.tga
+│   │           │   ├── tr0001_boots_re.tga
+│   │           │   ├── tr0001_bootsHLM.tga
+│   │           │   ├── tr0001_bootsNor.tga
+│   │           │   ├── tr0001_btms_bl.tga
+│   │           │   ├── tr0001_btmsHlm.tga
+│   │           │   ├── tr0001_btmsNor.tga
+│   │           │   ├── tr0001_eye.tga
+│   │           │   ├── tr0001_eyeHlm.tga
+│   │           │   ├── tr0001_eyeNor.tga
+│   │           │   ├── tr0001_face02.tga
+│   │           │   ├── tr0001_faceHlm.tga
+│   │           │   ├── tr0001_faceNor.tga
+│   │           │   ├── tr0001_hair_br.tga
+│   │           │   ├── tr0001_hairHim.tga
+│   │           │   ├── tr0001_hairNor.tga
+│   │           │   ├── tr0001_hat_re.tga
+│   │           │   ├── tr0001_hatHlm.tga
+│   │           │   ├── tr0001_hatNor.tga
+│   │           │   ├── tr0001_tops_re.tga
+│   │           │   ├── tr0001_topsHlm.tga
+│   │           │   └── tr0001_topsNor.tga
+│   │           ├── tr0001_00.gfenv
+│   │           ├── tr0001_00.gfmdl
+│   │           ├── tr0001_00.mcnf
+│   │           ├── tr0001_00_fi01_wait01.gfmot
+│   │           └── tr0001_00_fi20_walk01.gfmot
+│   ├── Debug/
+│   │   └── Framework.lib
+│   ├── Framework/
+│   │   ├── Framework.vcxproj
+│   │   ├── Framework.vcxproj.filters
+│   │   ├── IApplication.h
+│   │   └── main.cpp
+│   ├── Release/
+│   │   └── Framework.lib
+│   ├── Sample.sln
+│   └── Terrain/
+│       ├── main.cpp
+│       ├── MyRenderingPipeLine.cpp
+│       ├── MyRenderingPipeLine.h
+│       ├── Terrain.vcxproj
+│       └── Terrain.vcxproj.filters
+└── source/
+    └── gfl2_CollisionModel.cpp

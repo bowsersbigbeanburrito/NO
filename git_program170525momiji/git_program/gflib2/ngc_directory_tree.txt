@@ -1,0 +1,12 @@
+ngc/
+├── include/
+│   ├── gfl2_NGWordChecker.h
+│   ├── gfl2_NGWordCheckListener.h
+│   └── gfl2_template.h
+├── ngc.vcxproj
+├── ngc.vcxproj.filters
+└── source/
+    ├── gfl2_NGWordChecker.cpp
+    ├── gfl2_NGWordCheckThread.cpp
+    ├── gfl2_NGWordCheckThread.h
+    └── gfl2_template.cpp

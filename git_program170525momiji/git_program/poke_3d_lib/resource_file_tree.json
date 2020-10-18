@@ -1,0 +1,540 @@
+{
+    "ctr\\AlphaFillModel": {
+        "AlphaFillModel.ctr.gfbmdl": {
+            "modified": "2017-05-31 21:54:43.214509",
+            "size": "1.94KB",
+            "md5": "8ce919f3448d3db8a69dc3834aeb0bb9",
+            "sha256": "477cb9820197c50582245b2e147dff80f6ba9dcb2a165b3d2f2ace9e99c66d5b"
+        }
+    },
+    "ctr\\AlphaFillModel\\Shaders": {
+        "AlphaFillModel_Manual.ctr.gfbfsh": {
+            "modified": "2017-05-31 21:54:43.218509",
+            "size": "0.36KB",
+            "md5": "36a7fa8a2211fedcc24583c3b042ef7e",
+            "sha256": "bba9cf3f6e9bf0e53d143e726d80781109964a1fe730cc90a7ed852a710ede0a"
+        },
+        "FillScrean.ctr.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.222510",
+            "size": "2.53KB",
+            "md5": "699834a49f293f66da606118bd42bf84",
+            "sha256": "9580cb6405cc0c422142d795e29dd9c7a0c8393747bdc1f5915f2f1ba638c139"
+        }
+    },
+    "ctr\\EdgeMap": {
+        "EdgeMapShader.ctr.gfbmdl": {
+            "modified": "2017-05-31 21:54:43.226510",
+            "size": "2.22KB",
+            "md5": "67505f1941e7e4d0b71011d2d3020613",
+            "sha256": "439199f5e0dcd37c98b4a45a0eb41a929d478b0f3c753515a77174b76757a4bf"
+        }
+    },
+    "ctr\\EdgeMap\\Shader": {
+        "Comb3_Manual.ctr.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.253513",
+            "size": "3.47KB",
+            "md5": "0aa5873d0316cf9291e6a04a67017ce9",
+            "sha256": "b7126dfd03a87434e3bcc3d7078d437c558c5a803dc95c23041d3754ed4d8843"
+        }
+    },
+    "ctr\\EdgeMap\\Texture": {
+        "EdgeMapImage.ctr.btex": {
+            "modified": "2017-05-31 21:54:43.259514",
+            "size": "32.12KB",
+            "md5": "728dba59b99c9399937de80b205bc471",
+            "sha256": "07feec8eeec6364c8fe7c2176302120af4c8b12df38e07c45367d0cf25f886c4"
+        }
+    },
+    "ctr\\EdgeMapVColAShader": {
+        "EdgeMapVColA.ctr.gfbmdl": {
+            "modified": "2017-05-31 21:54:43.263514",
+            "size": "3.02KB",
+            "md5": "a5478f51776538156c7ecab65546b79c",
+            "sha256": "2ee03ae60fca11f75e62bd3b79233331ed407a6b6a7dc5d271071dea1f9575f0"
+        }
+    },
+    "ctr\\EdgeMapVColAShader\\Shaders": {
+        "Comb2_Manual.ctr.gfbfsh": {
+            "modified": "2017-05-31 21:54:43.267514",
+            "size": "0.36KB",
+            "md5": "2ab80ba5c8264e91b0a95642c3aba185",
+            "sha256": "3c99dcf66ac6ffc0645165ad92668188278b3c3e9f9c135f5ec885249fbdc1b7"
+        },
+        "Default.ctr.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.270515",
+            "size": "2.09KB",
+            "md5": "514fa2aa324485303b7dbaba81951e1c",
+            "sha256": "1db19e573916c64490911b45f0c4d550c726a5c8c57ca4b2ab49f2a5f87e2e1d"
+        },
+        "NormalToUv.ctr.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.292517",
+            "size": "2.77KB",
+            "md5": "b635d947f4ec737c586d3931f3139b99",
+            "sha256": "74b7b37aac55a0f9b3268d4490d2fe9cab0b7d250e62ee18478fbd0e04807967"
+        }
+    },
+    "ctr\\EdgeMapVColAShader\\Textures": {
+        "NormalTexture.ctr.btex": {
+            "modified": "2017-05-31 21:54:43.313519",
+            "size": "12.12KB",
+            "md5": "a5822dbfee29d7a65027a54e7022ba59",
+            "sha256": "8e85ee91586da435062e7bf46c0c91bb8e24a0a7d51a7725bf2e9b15c4e0cfbc"
+        },
+        "ZInvNormalTexture.ctr.btex": {
+            "modified": "2017-05-31 21:54:43.317519",
+            "size": "12.12KB",
+            "md5": "f540c4d22378431fc7cb730d8ce7b401",
+            "sha256": "84e2cc454f7472523854fbfed742fe60593144c89f49a9836965a3c5962efd61"
+        }
+    },
+    "ctr\\IDEdgeMap": {
+        "IDEdgeMap.ctr.gfbmdl": {
+            "modified": "2017-05-31 21:54:43.322520",
+            "size": "4.42KB",
+            "md5": "48d5d79bfd5f71c4ff77e1b4698adfc4",
+            "sha256": "735c02ca53800cbbeac4d4e5bfe508b41020baf5877f938f297e61f68781beb8"
+        }
+    },
+    "ctr\\IDEdgeMap\\Shaders": {
+        "Comb2_Manual.ctr.gfbfsh": {
+            "modified": "2017-05-31 21:54:43.326520",
+            "size": "0.36KB",
+            "md5": "2798bdb827e4f6b8ffe3ab0cb01c661a",
+            "sha256": "991981306f38bb77c5452c5b98d02e36e12141cf8127ed4512c6b7d8277c284a"
+        },
+        "Comb3_Manual.ctr.gfbfsh": {
+            "modified": "2017-05-31 21:54:43.329521",
+            "size": "0.36KB",
+            "md5": "6e6b2bc102b7f08ee8c873201bf0ea57",
+            "sha256": "56859359e7d2964bb8b53d52e3f9f4a29892338fed459fa9680679dce6318425"
+        },
+        "FillScrean.ctr.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.333521",
+            "size": "2.53KB",
+            "md5": "52fd1a2eec7e9e1e537cacc5bc00bf3b",
+            "sha256": "70df1f883f263e4171a5a3ece0e837bba43e136f5d9f7cada37ab8df14024cc6"
+        }
+    },
+    "ctr\\IDEdgeMap\\Textures": {
+        "MapImage.ctr.btex": {
+            "modified": "2017-05-31 21:54:43.336521",
+            "size": "4.12KB",
+            "md5": "b6a2cbfc58d6420ca8e8c4754299778a",
+            "sha256": "6decc2e93d67287f3bb015e7b95087d481eaff3fb48576421babb64bce078577"
+        }
+    },
+    "IDShader": {
+        "colorshadertexture.tga": {
+            "modified": "2017-05-31 21:54:43.139502",
+            "size": "16.53KB",
+            "md5": "5cdd0467ae8a5b0d61b6be4d85e04c4c",
+            "sha256": "3e41faf062e075c405a1b6d7d8978b8675ecd8dab2c64a7ea23e2197e3bb87bf"
+        },
+        "idshaderplane.gfmdl": {
+            "modified": "2017-05-31 21:54:43.202508",
+            "size": "8.8KB",
+            "md5": "171a3cf9e43cf7924f3067e1a281cafc",
+            "sha256": "823db1617914bc0745dc10d9eb56571618acdcde7dffe12f07addcb2fe2b8d44"
+        },
+        "idshaderplane.mb": {
+            "modified": "2017-05-31 21:54:43.210509",
+            "size": "85.19KB",
+            "md5": "7e98921126da651562c2d8ec1b7ef820",
+            "sha256": "852f16e1393e516c36831c9bcb88ddff3c24c0c57284c3c6d5b81c7fe0cff339"
+        }
+    },
+    "IDShader\\.mayaSwatches": {
+        "idshaderplane.mb.swatches": {
+            "modified": "2017-05-31 21:54:43.085496",
+            "size": "16.1KB",
+            "md5": "121c6c4456d3b789fa04b2b35ef29411",
+            "sha256": "cc3bba04f0bcc3696507241909983638118b020a9e66f799f883a84499f8b264"
+        }
+    },
+    "IDShader\\converted_data": {
+        "idshaderplane.ctr.gfbmdl": {
+            "modified": "2017-05-31 21:54:43.189507",
+            "size": "2.14KB",
+            "md5": "db3c6cf9ed01a85358d1f574ffe025b8",
+            "sha256": "518007375bc5f797c73c6b0924b97c4f76c0a7e7994d767d1305829e6ebc1fe3"
+        },
+        "idshaderplane.gfmdl": {
+            "modified": "2017-05-31 21:54:43.193507",
+            "size": "8.8KB",
+            "md5": "171a3cf9e43cf7924f3067e1a281cafc",
+            "sha256": "823db1617914bc0745dc10d9eb56571618acdcde7dffe12f07addcb2fe2b8d44"
+        },
+        "idshaderplane.wingl.gfbmdl": {
+            "modified": "2017-05-31 21:54:43.199508",
+            "size": "2.72KB",
+            "md5": "0f3d4aa8d06167c048b814bb30eca5c2",
+            "sha256": "ee624aa77eac04e5560738e8098a8c22d463170597581bfee702d371f78275cc"
+        },
+        "ModelHash.fnv": {
+            "modified": "2017-05-31 21:54:43.143502",
+            "size": "0.0KB",
+            "md5": "079830baf6aeff07f48c6109c9f9a7ce",
+            "sha256": "ed24bf16509359659340b3865b0fd5961977d501febcf90bb4df7a586cc3a166"
+        }
+    },
+    "IDShader\\converted_data\\Shaders": {
+        "Comb1_Manual.ctr.gfbfsh": {
+            "modified": "2017-05-31 21:54:43.146502",
+            "size": "0.36KB",
+            "md5": "783ef23b9432066f8c5bca6991cfb1e7",
+            "sha256": "88292b93e092b7b06a97b3895865afffa260a4a83e968ad77fed0a967d035267"
+        },
+        "Comb1_Manual.gffsh": {
+            "modified": "2017-05-31 21:54:43.149503",
+            "size": "45.67KB",
+            "md5": "8fb6022e600c83f22a2447688178a005",
+            "sha256": "7a347af1e22aef5bd5e2ff7c244eae52b5a4e77314cda90620be81c28353a352"
+        },
+        "Comb1_Manual.wingl.gfbfsh": {
+            "modified": "2017-05-31 21:54:43.157503",
+            "size": "45.77KB",
+            "md5": "73898a0cf6bde08156d050d68be6ba3c",
+            "sha256": "f6c26c919477151c5293b5d4316a7fe9a5bea28d1e0a645e3ec2043d0fecae66"
+        },
+        "FillScrean.ctr.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.161504",
+            "size": "2.53KB",
+            "md5": "ed4528e88e858a2cb756aac76099665d",
+            "sha256": "9040e808ee7ac3a19f8c07553a46c6e3ba6ccd6c27525c918730b617fad59cb4"
+        },
+        "FillScrean.gfvsh": {
+            "modified": "2017-05-31 21:54:43.165504",
+            "size": "41.52KB",
+            "md5": "e555147ca71d6f7533b7205069057a67",
+            "sha256": "64a0eedf418b8e2f7148ea0958c1451c9011e137db6ece5e391325372a53356a"
+        },
+        "FillScrean.wingl.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.171505",
+            "size": "41.72KB",
+            "md5": "150edb8481391e5e385a59901d7c1fb2",
+            "sha256": "380b42e4a61ecc812f76b020c757270b6678ef56e57da3d7dc4c1572179ccfb9"
+        }
+    },
+    "IDShader\\converted_data\\Textures": {
+        "colorshadertexture.ctr.btex": {
+            "modified": "2017-05-31 21:54:43.175505",
+            "size": "16.12KB",
+            "md5": "8d3407f578e4e413bbd4db4a65a5eea8",
+            "sha256": "39025080d3e958f85fb84d6982e86e4a018cdf581158555ef047c21abb2e439d"
+        },
+        "colorshadertexture.tga": {
+            "modified": "2017-05-31 21:54:43.180506",
+            "size": "16.53KB",
+            "md5": "5316a46c4d6ee6498d480c8831e48467",
+            "sha256": "a08ce8a5eefec6f3cdfc8b6cb9349e4bd67b38c9ff8189f4ef742a9893a0d9ea"
+        },
+        "colorshadertexture.wingl.btex": {
+            "modified": "2017-05-31 21:54:43.184506",
+            "size": "16.65KB",
+            "md5": "f39c3e0d432e37068118868b13df9144",
+            "sha256": "3e29fe2805d04eaf1bd4c60e5eac734ac0193e5dda793c4979304262cd6500fc"
+        }
+    },
+    "IDShader\\Shaders": {
+        "Comb1_Manual.gffsh": {
+            "modified": "2017-05-31 21:54:43.090497",
+            "size": "45.67KB",
+            "md5": "8fb6022e600c83f22a2447688178a005",
+            "sha256": "7a347af1e22aef5bd5e2ff7c244eae52b5a4e77314cda90620be81c28353a352"
+        },
+        "FillScrean.gfvsh": {
+            "modified": "2017-05-31 21:54:43.098497",
+            "size": "41.52KB",
+            "md5": "e555147ca71d6f7533b7205069057a67",
+            "sha256": "64a0eedf418b8e2f7148ea0958c1451c9011e137db6ece5e391325372a53356a"
+        }
+    },
+    "IDShader\\Textures": {
+        "colorshadertexture.tga": {
+            "modified": "2017-05-31 21:54:43.105498",
+            "size": "16.53KB",
+            "md5": "5316a46c4d6ee6498d480c8831e48467",
+            "sha256": "a08ce8a5eefec6f3cdfc8b6cb9349e4bd67b38c9ff8189f4ef742a9893a0d9ea"
+        }
+    },
+    "win32\\AlphaFillModel": {
+        "AlphaFillModel.wingl.gfbmdl": {
+            "modified": "2017-05-31 21:54:43.340522",
+            "size": "2.34KB",
+            "md5": "a0d4141102ac9ce165f69e963efacff2",
+            "sha256": "f6501b8a854b21ac9dd4cc584b83f6444894466dcc1da958432712cc47ac03c4"
+        }
+    },
+    "win32\\AlphaFillModel\\Shaders": {
+        "AlphaFillModel_Manual.wingl.gfbfsh": {
+            "modified": "2017-05-31 21:54:43.344522",
+            "size": "45.69KB",
+            "md5": "edc7ae8c5f1a60831da5d165978016c1",
+            "sha256": "b6870ea037e0b37e4d93d184b479faa9aacfa487ff0c24a7fa0b96de4d7885b1"
+        },
+        "FillScrean.wingl.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.347522",
+            "size": "41.72KB",
+            "md5": "55889a61b6af95d1992c96fccf98bd75",
+            "sha256": "f3f09df338e9d7f05ff85f87922a8a9e6b5ff8dd5f06025b80d4fef9c728fe39"
+        }
+    },
+    "win32\\EdgeMap": {
+        "EdgeMapShader.wingl.gfbmdl": {
+            "modified": "2017-05-31 21:54:43.351523",
+            "size": "2.78KB",
+            "md5": "9c3615b16b9022f06ae1c555401861e1",
+            "sha256": "7c21edf63ef3a674ea0ffdacdedd35e9a7e7baf00cb114366dcc935872443679"
+        }
+    },
+    "win32\\EdgeMap\\Shaders": {
+        "Comb3_Manual.gffsh": {
+            "modified": "2017-05-31 21:54:43.401528",
+            "size": "51.26KB",
+            "md5": "aa311425a0a1bb6933911c6b90ed5e8d",
+            "sha256": "bd9b50e4b9dba0f7ab509859ac564703e5c3039b08ddf2554cbcb9368086f8fc"
+        },
+        "Comb3_Manual.gfvsh": {
+            "modified": "2017-05-31 21:54:43.409528",
+            "size": "80.55KB",
+            "md5": "489a1c795985cc263f3257defe97a3c6",
+            "sha256": "e35ea4abcdce0b16a924fe46d51fde3c7590b2112aa3c2c43bb1574c46f20d1b"
+        },
+        "Comb3_Manual.wingl.gfbfsh": {
+            "modified": "2017-05-31 21:54:43.417529",
+            "size": "51.45KB",
+            "md5": "ce3551fe933a008030f5b18ec1bba11e",
+            "sha256": "45b43bfb95d9c4cfefeb848314146ac8726af12f23bd7f5c981f57c560a4f4d0"
+        },
+        "Comb3_Manual.wingl.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.421530",
+            "size": "80.75KB",
+            "md5": "d06f86ec658a0ed376b8a4bdcd4dd651",
+            "sha256": "4fba0420739663c1e76560ce0cd1d8a37a0d7890ba4a242a48526c4219624a75"
+        },
+        "test.bat": {
+            "modified": "2017-05-31 21:54:43.425530",
+            "size": "0.31KB",
+            "md5": "d3bfa2783c0358dfe03e6c87dc02e6a8",
+            "sha256": "91a6ce64a157591dd91a260fe52a91a1031b9b7a9c49ddcbaba2edbd9345df0f"
+        }
+    },
+    "win32\\EdgeMap\\Texture": {
+        "comb_all.bat": {
+            "modified": "2017-05-31 21:54:43.476535",
+            "size": "0.26KB",
+            "md5": "3ff2752db1584470e1a649dad928dcfb",
+            "sha256": "ebf1655de8eb5f696e1a8235714d585bff9e03023fbf92408851dc8ceaa433c7"
+        },
+        "EdgeMapImage.3ds.tga": {
+            "modified": "2017-05-31 21:54:43.446532",
+            "size": "128.12KB",
+            "md5": "aef402aea43675849e7bea6f94e397d7",
+            "sha256": "4f220e7816909c2d9bb0cc7dda488cbb237ab89451e8f0f5d6f72484a07f0a07"
+        },
+        "EdgeMapImage.tga": {
+            "modified": "2017-05-31 21:54:43.453533",
+            "size": "512.53KB",
+            "md5": "106148f6d7b6785f4ff8ce5024cedd5d",
+            "sha256": "381ce6d95d15c6326b9ca3a3c4778b15c6c3399416c88a1fe71aa5d09a4d1629"
+        },
+        "EdgeMapImage.wingl.tga": {
+            "modified": "2017-05-31 21:54:43.461534",
+            "size": "512.65KB",
+            "md5": "8c6a6adb92cb637e93d3f72542a4afb9",
+            "sha256": "7a8236a4bdbe463e8f77cd9d0bf663ea1f0fee080dae8626f131b42ca64a5e62"
+        },
+        "FrameBufferImage.tga": {
+            "modified": "2017-05-31 21:54:43.470535",
+            "size": "512.53KB",
+            "md5": "74ce803a026a1db0c935d75b9b88b15c",
+            "sha256": "85490f9d21bbc0abf020564f625b5dcc871fd82a8fa377b7d57a6458bc643b7c"
+        }
+    },
+    "win32\\EdgeMapVColAShader": {
+        "EdgeMapVColA.wingl.gfbmdl": {
+            "modified": "2017-05-31 21:54:43.483536",
+            "size": "5.86KB",
+            "md5": "e82246480923b6a9d3e1ec42c6dc76ad",
+            "sha256": "3bef3f90f8ddcd0dfe9b824d932e3b57d331e04623ceddbba02c1c4e234fd4c7"
+        }
+    },
+    "win32\\EdgeMapVColAShader\\Shaders": {
+        "Comb2_Manual.gffsh": {
+            "modified": "2017-05-31 21:54:43.501538",
+            "size": "47.65KB",
+            "md5": "db88c77cc430f76926098c1c07b5578a",
+            "sha256": "e2dba0d78c6b6d71a28888e4b43b960e6f20d4dc78f47a86409dff9fb9a59753"
+        },
+        "Comb2_Manual.wingl.gfbfsh": {
+            "modified": "2017-05-31 21:54:43.509539",
+            "size": "47.72KB",
+            "md5": "cdeafbfabf11667b6a58264400ec94de",
+            "sha256": "99006e63f39f2c37b1044f72f8e0df76b9f24c344b9001572d00b231726279a4"
+        },
+        "comb_all.bat": {
+            "modified": "2017-05-31 21:54:43.557544",
+            "size": "0.3KB",
+            "md5": "c7e2c0e5c4adc815514f9b17d686a474",
+            "sha256": "4077f9ae0519a325f25ee111f8ab2ade609f8cfe9118efdc24eafc17bea54533"
+        },
+        "NormalToUv.gfvsh": {
+            "modified": "2017-05-31 21:54:43.514539",
+            "size": "43.67KB",
+            "md5": "a9e0a078df3c171509d1ca92ea580fdb",
+            "sha256": "bc6445fb01e8077e855a554777a9a08eabc636e569db219b81a17e3f14cc09a6"
+        },
+        "NormalToUv.wingl.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.553543",
+            "size": "43.86KB",
+            "md5": "65042326062ff9b5cfa6bc0a678bac10",
+            "sha256": "12a49ab35fdedc2d1828470145a86226a390ef9c9a887b50cdf2f419a5e388b8"
+        }
+    },
+    "win32\\EdgeMapVColAShader\\Textures": {
+        "comb_all.bat": {
+            "modified": "2017-05-31 21:54:43.650553",
+            "size": "0.27KB",
+            "md5": "61f8988c4dbd95b2caa101917324cdde",
+            "sha256": "81f7d59904100e59b2dd25079863e3b9b45773d1735a7d994c6d06bcf3f0e2ea"
+        },
+        "NormalTexture.tga": {
+            "modified": "2017-05-31 21:54:43.596547",
+            "size": "24.22KB",
+            "md5": "f69d7da4ef89b1743103a189188910e8",
+            "sha256": "ed3bb08737d55bd0680b4c15a6d22d372b46e36e724173642cc5fdd0159d969b"
+        },
+        "NormalTexture.wingl.btex": {
+            "modified": "2017-05-31 21:54:43.600548",
+            "size": "24.34KB",
+            "md5": "13db6e81a5a2b6d6af41b484ede9987a",
+            "sha256": "75b64f93bb79bedd8ad8ffe4627cbeef64271e73cdc8ab08672ef300fab120cb"
+        },
+        "ZInvNormalTexture.tga": {
+            "modified": "2017-05-31 21:54:43.623550",
+            "size": "16.53KB",
+            "md5": "314f1ad0666f8f54fd3bb10a370d3e4a",
+            "sha256": "a470b99b2fdb7c905a623cd295b01a7b754164712af212a9143a91d1d514b91a"
+        },
+        "ZInvNormalTexture.wingl.btex": {
+            "modified": "2017-05-31 21:54:43.628551",
+            "size": "16.65KB",
+            "md5": "9b75ddee5e48d1d360c443b329efdd8c",
+            "sha256": "c77c2b4a3555993ead028e23c1da036e2789ec00e7735c2a3ec5dc0953f411f4"
+        }
+    },
+    "win32\\IDEdgeMap": {
+        "IDEdgeMap.wingl.gfbmdl": {
+            "modified": "2017-05-31 21:54:43.655553",
+            "size": "5.3KB",
+            "md5": "b641d3faa683a16d2021c018d7a48ace",
+            "sha256": "698e4197877970e7ebb918ec9e4d7e85800d507c53ccf5a7a2bc80ace185a610"
+        }
+    },
+    "win32\\IDEdgeMap\\Shader": {
+        "Comb2_Manual.gffsh": {
+            "modified": "2017-05-31 21:54:43.660554",
+            "size": "45.51KB",
+            "md5": "587476c1c2dfa1c6b3c46072a5fad4d7",
+            "sha256": "7dff67ac542adc9d1628ffc29fd8374f6a6c8265ddd8c280680502d418e2b009"
+        },
+        "Comb2_Manual.gfvsh": {
+            "modified": "2017-05-31 21:54:43.667554",
+            "size": "80.55KB",
+            "md5": "6611190ea17550aa573cf1cb3638e71e",
+            "sha256": "f1c409c862c9cc3e44096772c8d1b3562238b6269998697b2ca68ce202e7d797"
+        },
+        "Comb2_Manual.wingl.gfbfsh": {
+            "modified": "2017-05-31 21:54:43.681556",
+            "size": "45.7KB",
+            "md5": "e233591a9a7fd4b1ce7cd1778fc6ccb7",
+            "sha256": "5cd268f6a6d021728bde324a7bfbd774d22a2a168e4c99da429e7482aeb63826"
+        },
+        "Comb2_Manual.wingl.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.686556",
+            "size": "80.75KB",
+            "md5": "1eb71468ae62e89eca207cdd786823f5",
+            "sha256": "1d79961a2909935b8abcf1ee69beba0e6fedc0a57545cbc355b5db344e22ddaf"
+        },
+        "Comb2_Manual.wingl.gffsh": {
+            "modified": "2017-05-31 21:54:43.690557",
+            "size": "45.55KB",
+            "md5": "d81c85b7d9ee3663e5f4e35f609e8ae0",
+            "sha256": "0e176353a1d3344d786bd6a02dc33d7591feb8894e36eac66fd067a63a36fa60"
+        },
+        "Comb2_Manual.wingl.gfvsh": {
+            "modified": "2017-05-31 21:54:43.693557",
+            "size": "63.35KB",
+            "md5": "627f0cae2d4ac17fbc10630d2021ec11",
+            "sha256": "fc4da3148bd2c9b2500aceee0c832fd5dbf6eb50852877762d685647094eba7e"
+        },
+        "Comb3_Manual.gffsh": {
+            "modified": "2017-05-31 21:54:43.697557",
+            "size": "44.92KB",
+            "md5": "e18f5a82363a8eaa39e19caf052f6ae9",
+            "sha256": "30c9d05d5fc867d64e3161e2e1311a1e5fba1240af4e315f0c07caf55bf60d1a"
+        },
+        "Comb3_Manual.gfvsh": {
+            "modified": "2017-05-31 21:54:43.705558",
+            "size": "80.55KB",
+            "md5": "6611190ea17550aa573cf1cb3638e71e",
+            "sha256": "f1c409c862c9cc3e44096772c8d1b3562238b6269998697b2ca68ce202e7d797"
+        },
+        "Comb3_Manual.wingl.gfbfsh": {
+            "modified": "2017-05-31 21:54:43.711559",
+            "size": "45.11KB",
+            "md5": "ed952a33f7e24b61d5ce0c95a661d103",
+            "sha256": "a46791a76f7868a88d8ba2838450c5f4cca54fc3b667fa7e6167bdfd577f37e4"
+        },
+        "Comb3_Manual.wingl.gfbvsh": {
+            "modified": "2017-05-31 21:54:43.715559",
+            "size": "80.75KB",
+            "md5": "1471a2bcb64354c236669d24d922b905",
+            "sha256": "b048a95a4e8db0087f6648decbb827937df04ac36082edcf6d597da79a905a5c"
+        },
+        "Comb3_Manual.wingl.gffsh": {
+            "modified": "2017-05-31 21:54:43.719560",
+            "size": "44.98KB",
+            "md5": "14b9944abc01fde14032e774d41239b5",
+            "sha256": "10a0bc71488abc168a9aaefe1fcb234cc610e037f2c723b9eb2eec21ca01df11"
+        },
+        "Comb3_Manual.wingl.gfvsh": {
+            "modified": "2017-05-31 21:54:43.722560",
+            "size": "63.35KB",
+            "md5": "dc579ec7963ca2eac2987546f52f9436",
+            "sha256": "8d14f5183f7faf1abd9155cbd160b6abb3eed205e1eb63c8fe25123ef3fc439b"
+        },
+        "test.bat": {
+            "modified": "2017-05-31 21:54:43.726560",
+            "size": "0.61KB",
+            "md5": "5c2f0e2437eca2f22c0322fe3d01dae8",
+            "sha256": "66777cfefae5f4c04af1a3e80a800146dac36ea742c48e3be29e4c13510b32ca"
+        }
+    },
+    "win32\\IDEdgeMap\\Texture": {
+        "comb_all.bat": {
+            "modified": "2017-05-31 21:54:43.824570",
+            "size": "0.24KB",
+            "md5": "b70ef780771da77fdce80cbc923fedd9",
+            "sha256": "2f8d3d64296617162771121e84d3d7b3814786d5805a6f3795dadcb178e0d3c3"
+        },
+        "MapImage.3ds.tga": {
+            "modified": "2017-05-31 21:54:43.787566",
+            "size": "256.12KB",
+            "md5": "2e73e9c4e46d49b02b24e0fccc86f043",
+            "sha256": "e635cfefc23f6ad878f500c2bdd5af3b246319951fda7ef62c0675ed127ec67d"
+        },
+        "MapImage.tga": {
+            "modified": "2017-05-31 21:54:43.812569",
+            "size": "1024.53KB",
+            "md5": "e27d7091c242634ab418575050d7c670",
+            "sha256": "6193d40cd1e5e07580f360e38050765ab88d79b3b6825dbcbbdaf67b60855769"
+        },
+        "MapImage.wingl.tga": {
+            "modified": "2017-05-31 21:54:43.820570",
+            "size": "1024.65KB",
+            "md5": "e94ab3e1022ccdf00db5e22ef042cdf1",
+            "sha256": "f76d14ca659dff9a9c9869ed9689c48dbb8371d98013c75361756392ad77306d"
+        }
+    }
+}

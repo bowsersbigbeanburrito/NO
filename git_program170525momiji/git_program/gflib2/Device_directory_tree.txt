@@ -1,0 +1,20 @@
+Device/
+├── Device.vcxproj
+├── Device.vcxproj.filters
+├── include/
+│   └── Camera/
+│       ├── gfl2_DeviceCamera_Controller.h
+│       ├── gfl2_DeviceCamera_DefaultSettings.h
+│       ├── gfl2_DeviceCamera_System.h
+│       └── gfl2_DeviceCamera_Types.h
+└── source/
+    └── Camera/
+        ├── gfl2_DeviceCamera_BufferManager.cpp
+        ├── gfl2_DeviceCamera_BufferManager.h
+        ├── gfl2_DeviceCamera_CameraThread.cpp
+        ├── gfl2_DeviceCamera_CameraThread.h
+        ├── gfl2_DeviceCamera_Controller.cpp
+        ├── gfl2_DeviceCamera_DefaultSettings.cpp
+        ├── gfl2_DeviceCamera_System.cpp
+        ├── gfl2_DeviceCamera_Y2rThread.cpp
+        └── gfl2_DeviceCamera_Y2rThread.h

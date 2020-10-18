@@ -1,0 +1,52 @@
+debug/
+├── include/
+│   ├── DynamicHeader/
+│   │   ├── gfl2_DebugDynamicHeader.h
+│   │   └── internal/
+│   │       ├── gfl2_DebugAddOnlyHashTable.h
+│   │       ├── gfl2_DebugCppEnumHeaderParser.h
+│   │       ├── gfl2_DebugDynamicHeaderDefine.h
+│   │       ├── gfl2_DebugFixedStack.h
+│   │       ├── gfl2_DebugHashTableBase.h
+│   │       ├── gfl2_DebugHeaderHashManager.h
+│   │       ├── gfl2_DebugRemovableHashTable.h
+│   │       └── gfl2_DebugTextFileReadStream.h
+│   ├── gfl2_Assert.h
+│   ├── gfl2_DebugLogWindow.h
+│   ├── gfl2_DebugPrint.h
+│   ├── gfl2_DebugTick.h
+│   ├── gfl2_DebugWinItem.h
+│   ├── gfl2_DebugWinItemTypes.h
+│   ├── gfl2_DebugWinLocal.h
+│   ├── gfl2_DebugWinSystem.h
+│   └── gfl2_DebugWinTypes.h
+├── project/
+│   ├── debug.vcxproj
+│   ├── debug.vcxproj.filters
+│   └── gf_template_gflib2.rsf
+├── Sample/
+│   ├── .gitignore
+│   ├── DynamicHeader/
+│   │   ├── CheckerUsageSample.bat
+│   │   ├── dumy_enum.h
+│   │   ├── DynamicHeader.rsf
+│   │   ├── DynamicHeader.vcxproj
+│   │   ├── DynamicHeader.vcxproj.filters
+│   │   ├── IncludeHeaderChecker.rb
+│   │   └── main.cpp
+│   └── Sample.sln
+└── source/
+    ├── DynamicHeader/
+    │   ├── gfl2_DebugAddOnlyHashTable.cpp
+    │   ├── gfl2_DebugCppEnumHeaderParser.cpp
+    │   ├── gfl2_DebugDynamicHeaderManager.cpp
+    │   ├── gfl2_DebugHashTableBase.cpp
+    │   ├── gfl2_DebugRemovableHashTable.cpp
+    │   └── gfl2_DebugTextFileReadStream.cpp
+    ├── gfl2_DebugLogWindow.cpp
+    ├── gfl2_DebugTick.cpp
+    ├── gfl2_DebugWinItem.cpp
+    ├── gfl2_DebugWinItemTypes.cpp
+    ├── gfl2_DebugWinSystem.cpp
+    ├── gfl_assert.cpp
+    └── gfl_debug_print.cpp

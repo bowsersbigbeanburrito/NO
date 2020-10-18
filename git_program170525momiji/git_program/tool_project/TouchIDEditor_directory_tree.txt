@@ -1,0 +1,303 @@
+TouchIDEditor/
+├── DLLs/
+│   ├── glew32.dll
+│   └── glut32.dll
+├── gfl_Framework/
+│   ├── Bin2Ascii.exe
+│   ├── gfl_Framework.vcxproj
+│   ├── gfl_Framework.vcxproj.filters
+│   ├── include/
+│   │   ├── core/
+│   │   │   ├── gfl_Camera.h
+│   │   │   ├── gfl_Config.h
+│   │   │   ├── gfl_CoreFile.h
+│   │   │   ├── gfl_Debug.h
+│   │   │   ├── gfl_Dummy.h
+│   │   │   ├── gfl_Ellipse.h
+│   │   │   ├── gfl_HashList.h
+│   │   │   ├── gfl_Macro.h
+│   │   │   ├── gfl_MathBase.h
+│   │   │   ├── gfl_Matrix.h
+│   │   │   ├── gfl_MatrixAos43.h
+│   │   │   ├── gfl_MatrixAos44.h
+│   │   │   ├── gfl_MatrixAosCommon.h
+│   │   │   ├── gfl_MatrixCommon.h
+│   │   │   ├── gfl_MatrixSoa34.h
+│   │   │   ├── gfl_MatrixSoa44.h
+│   │   │   ├── gfl_MatrixSoaCommon.h
+│   │   │   ├── gfl_MatrixSoaNative33.h
+│   │   │   ├── gfl_MatrixSoaNative34.h
+│   │   │   ├── gfl_MatrixSoaNative44.h
+│   │   │   ├── gfl_OsHeader.h
+│   │   │   ├── gfl_Quaternion.h
+│   │   │   ├── gfl_QuaternionNative.h
+│   │   │   ├── gfl_Rect.h
+│   │   │   ├── gfl_Singleton.h
+│   │   │   ├── gfl_SmartPointer.h
+│   │   │   ├── gfl_Time.h
+│   │   │   ├── gfl_Tuple.h
+│   │   │   ├── gfl_Tuple2.h
+│   │   │   ├── gfl_Tuple4Common.h
+│   │   │   ├── gfl_Typedef.h
+│   │   │   ├── gfl_Utility.h
+│   │   │   ├── gfl_Vector.h
+│   │   │   ├── gfl_Vector2.h
+│   │   │   ├── gfl_Vector3.h
+│   │   │   ├── gfl_Vector4.h
+│   │   │   ├── gfl_VectorNative2.h
+│   │   │   ├── gfl_VectorNative3.h
+│   │   │   └── gfl_VectorNative4.h
+│   │   ├── gfl_Base.h
+│   │   ├── gfl_Common.h
+│   │   ├── gfl_Core2.h
+│   │   ├── gfl_debug.h
+│   │   ├── gfl_Device.h
+│   │   ├── gfl_Framework.h
+│   │   ├── gfl_fs.h
+│   │   ├── gfl_Grp.h
+│   │   ├── gfl_Heap.h
+│   │   ├── gfl_Macros.h
+│   │   ├── gfl_Math.h
+│   │   ├── gfl_Motion.h
+│   │   ├── gfl_Pc.h
+│   │   ├── gfl_Physic.h
+│   │   ├── gfl_Qt.h
+│   │   ├── gfl_RttiUnity.h
+│   │   ├── gfl_Snd.h
+│   │   ├── gfl_Std.h
+│   │   ├── gfl_Str.h
+│   │   ├── gfl_UI.h
+│   │   ├── gflib.h
+│   │   ├── gflib_3ds.h
+│   │   ├── gflib_core.h
+│   │   ├── gflib_graphic.h
+│   │   ├── motion/
+│   │   │   ├── gfl_EffectorBase.h
+│   │   │   ├── gfl_Fcurve.h
+│   │   │   ├── gfl_JointBase.h
+│   │   │   └── gfl_MotionBase.h
+│   │   ├── physic/
+│   │   │   ├── gfl_Collision.h
+│   │   │   └── gfl_Spring.h
+│   │   ├── qt/
+│   │   │   ├── gfl_Application.h
+│   │   │   ├── gfl_Client.h
+│   │   │   ├── gfl_ClientBase.h
+│   │   │   ├── gfl_ClientRead.h
+│   │   │   ├── gfl_ClientWrite.h
+│   │   │   ├── gfl_CmdlModel.h
+│   │   │   ├── gfl_Ctex.h
+│   │   │   ├── gfl_GLWidget.h
+│   │   │   ├── gfl_GLWindow.h
+│   │   │   ├── gfl_MainWindow.h
+│   │   │   ├── gfl_QtFile.h
+│   │   │   ├── gfl_QtGui.h
+│   │   │   ├── gfl_QtModel.h
+│   │   │   ├── gfl_QtProperty.h
+│   │   │   ├── gfl_Render.h
+│   │   │   ├── gfl_Tga.h
+│   │   │   ├── gfl_Zip.h
+│   │   │   ├── moc_gfl_MainWindow.cpp
+│   │   │   ├── moc_gfl_QtProperty.cpp
+│   │   │   └── Shader/
+│   │   │       ├── CombinerAttribute.h
+│   │   │       ├── CombinerShader.h
+│   │   │       ├── Common/
+│   │   │       │   ├── FnvHash.h
+│   │   │       │   ├── Platform.h
+│   │   │       │   ├── Random.h
+│   │   │       │   ├── SecureData.h
+│   │   │       │   └── Type.h
+│   │   │       ├── IShader.h
+│   │   │       ├── NativeMath/
+│   │   │       │   ├── Math.h
+│   │   │       │   ├── Matrix.h
+│   │   │       │   ├── Util.h
+│   │   │       │   └── Vector.h
+│   │   │       ├── ShaderObject.h
+│   │   │       ├── String/
+│   │   │       │   ├── LogPrint.h
+│   │   │       │   └── Util.h
+│   │   │       ├── Type.h
+│   │   │       ├── UvAdjustShader.h
+│   │   │       └── Win/
+│   │   │           └── WinGLSLShaderObject.h
+│   │   └── rtti/
+│   │       ├── gfl_Property.h
+│   │       ├── gfl_PropertyBase.h
+│   │       ├── gfl_Rtti.h
+│   │       ├── gfl_RttiBase.h
+│   │       └── gfl_RttiMacro.h
+│   └── source/
+│       ├── core/
+│       │   ├── gfl_Camera.cpp
+│       │   ├── gfl_Core.cpp
+│       │   ├── gfl_CoreFile.cpp
+│       │   ├── gfl_Debug.cpp
+│       │   ├── gfl_HashList.cpp
+│       │   ├── gfl_Math.cpp
+│       │   ├── gfl_MathBase.cpp
+│       │   ├── gfl_Matrix.cpp
+│       │   ├── gfl_MatrixAos43.cpp
+│       │   ├── gfl_MatrixAos44.cpp
+│       │   ├── gfl_MatrixSoa34.cpp
+│       │   ├── gfl_MatrixSoa44.cpp
+│       │   ├── gfl_MatrixSoaNative34.cpp
+│       │   ├── gfl_MatrixSoaNative44.cpp
+│       │   ├── gfl_Quaternion.cpp
+│       │   ├── gfl_SmartPointer.cpp
+│       │   ├── gfl_Time.cpp
+│       │   ├── gfl_Utility.cpp
+│       │   └── gfl_Vector.cpp
+│       ├── gfl_Framework.cpp
+│       ├── motion/
+│       │   ├── gfl_Fcurve.cpp
+│       │   ├── gfl_Motion.cpp
+│       │   └── gfl_MotionBase.cpp
+│       ├── physic/
+│       │   ├── gfl_Collision.cpp
+│       │   ├── gfl_Physic.cpp
+│       │   └── gfl_Spring.cpp
+│       └── qt/
+│           ├── gfl_Application.cpp
+│           ├── gfl_Client.cpp
+│           ├── gfl_ClientBase.cpp
+│           ├── gfl_ClientRead.cpp
+│           ├── gfl_ClientWrite.cpp
+│           ├── gfl_CmdlModel.cpp
+│           ├── gfl_GLWidget.cpp
+│           ├── gfl_GLWindow.cpp
+│           ├── gfl_MainWindow.cpp
+│           ├── gfl_Qt.cpp
+│           ├── gfl_QtFile.cpp
+│           ├── gfl_QtModel.cpp
+│           ├── gfl_QtProperty.cpp
+│           ├── gfl_Render.cpp
+│           ├── gfl_Zip.cpp
+│           └── Shader/
+│               ├── CharShader.vert
+│               ├── CombinerAttribute.cpp
+│               ├── CombinerShader.cpp
+│               ├── CombinerShader.frag
+│               ├── CombinerShader.vert
+│               ├── Common/
+│               │   └── SecureData.cpp
+│               ├── NativeMath/
+│               │   ├── Matrix.cpp
+│               │   ├── Util.cpp
+│               │   └── Vector.cpp
+│               ├── String/
+│               │   ├── LogPrint.cpp
+│               │   ├── Util.cpp
+│               │   └── Util2.cpp
+│               ├── UvAdjustShader.cpp
+│               ├── UvAdjustShader.geom
+│               └── Win/
+│                   └── WinGLSLShaderObject.cpp
+├── Gui/
+│   ├── app.ico
+│   ├── app.png
+│   ├── Bin2Ascii.exe
+│   ├── Gui.vcxproj
+│   ├── Gui.vcxproj.filters
+│   ├── include/
+│   │   ├── _Viewer.h
+│   │   ├── BrushShader.h
+│   │   ├── BucketJob.h
+│   │   ├── DisplayWidget.h
+│   │   ├── FillTextureShader.h
+│   │   ├── GLUtil.h
+│   │   ├── GLWidget.h
+│   │   ├── GLWindow.h
+│   │   ├── IdWidget.h
+│   │   ├── MainWindow.h
+│   │   ├── moc_DisplayWidget.cpp
+│   │   ├── moc_IdWidget.cpp
+│   │   ├── moc_MainWindow.cpp
+│   │   ├── moc_MotionWidget.cpp
+│   │   ├── moc_TextureWidget.cpp
+│   │   ├── moc_ToolWidget.cpp
+│   │   ├── moc_UvPaintWindow.cpp
+│   │   ├── MotionWidget.h
+│   │   ├── MultiSamplingTextureShader.h
+│   │   ├── MultiTextureShader.h
+│   │   ├── PaintAction.h
+│   │   ├── PaintUtil.h
+│   │   ├── ResourceConv.h
+│   │   ├── TextureWidget.h
+│   │   ├── TextureWidgetDef.h
+│   │   ├── ToolWidget.h
+│   │   ├── UvPaintView.h
+│   │   ├── UvPaintWindow.h
+│   │   └── UvPaintWindowInfo.h
+│   └── source/
+│       ├── _Viewer.cpp
+│       ├── Brush.tga
+│       ├── BrushShader.cpp
+│       ├── BrushShader.frag
+│       ├── BrushShader.vert
+│       ├── BucketJob.cpp
+│       ├── DisplayWidget.cpp
+│       ├── FillTextureShader.cpp
+│       ├── FillTextureShader.frag
+│       ├── FillTextureShader.vert
+│       ├── GLWidget.cpp
+│       ├── GLWindow.cpp
+│       ├── IdWidget.cpp
+│       ├── MainWindow.cpp
+│       ├── MotionWidget.cpp
+│       ├── MultiSamplingTextureShader.cpp
+│       ├── MultiSamplingTextureShader.frag
+│       ├── MultiSamplingTextureShader.vert
+│       ├── MultiTextureShader.cpp
+│       ├── MultiTextureShader.frag
+│       ├── MultiTextureShader.vert
+│       ├── PaintAction.cpp
+│       ├── PaintUtil.cpp
+│       ├── ResourceConv.cpp
+│       ├── TextureWidget.cpp
+│       ├── ToolWidget.cpp
+│       ├── UvPaintView.cpp
+│       ├── UvPaintWindow.cpp
+│       └── UvPaintWindowInfo.cpp
+├── include/
+│   └── gl/
+│       └── glut.h
+├── lib/
+│   └── gl/
+│       ├── glew32s.lib
+│       └── glut32.lib
+├── rapidxml/
+│   ├── include/
+│   │   ├── gfl_CmdlXml.h
+│   │   ├── gfl_CsklaXml.h
+│   │   ├── gfl_CtexXml.h
+│   │   ├── gfl_DaeXml.h
+│   │   ├── gfl_Xml.h
+│   │   ├── rapidxml.hpp
+│   │   ├── rapidxml_iterators.hpp
+│   │   ├── rapidxml_print.hpp
+│   │   └── rapidxml_utils.hpp
+│   ├── rapidxml.vcxproj
+│   ├── rapidxml.vcxproj.filters
+│   └── source/
+│       ├── gfl_CmdlXml.cpp
+│       ├── gfl_CsklaXml.cpp
+│       ├── gfl_CtexXml.cpp
+│       └── gfl_DaeXml.cpp
+├── readme.md
+├── tools/
+│   └── run_qtc.bat
+├── TouchIDEditor/
+│   ├── HeapDefine.h
+│   ├── HeapSize.h
+│   ├── main.cpp
+│   ├── MainHeap.hpp
+│   ├── qrc_TouchIdEditor.cpp
+│   ├── resource.h
+│   ├── TouchId.xml
+│   ├── TouchIdEditor.rc
+│   ├── TouchIDEditor.vcxproj
+│   └── TouchIDEditor.vcxproj.filters
+├── TouchIDEditor.bat
+└── TouchIDEditor.sln

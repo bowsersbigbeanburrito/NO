@@ -1,0 +1,29 @@
+heap/
+├── include/
+│   ├── gfl2_CtrExpHeap.h
+│   ├── gfl2_CtrHeapBase.h
+│   ├── gfl2_FndAllocator.h
+│   ├── gfl2_Heap.h
+│   ├── gfl2_heap_base.h
+│   ├── gfl2_heap_base_lower.h
+│   ├── gfl2_heap_manager.h
+│   ├── gfl2_HeapMacros.h
+│   ├── gfl2_NewAndDeleteOperators.h
+│   ├── gfl2_NwAllocator.h
+│   ├── gfl2_WinHeap.h
+│   └── malloc.c
+├── project/
+│   ├── gf_template_gflib2.rsf
+│   ├── heap.vcxproj
+│   └── heap.vcxproj.filters
+└── source/
+    ├── gfl2_CtrExpHeap.cpp
+    ├── gfl2_CtrHeapBase.cpp
+    ├── gfl2_FndAllocator.cpp
+    ├── gfl2_heap_base.cpp
+    ├── gfl2_heap_base_lower.cpp
+    ├── gfl2_heap_local.h
+    ├── gfl2_heap_manager.cpp
+    ├── gfl2_NewAndDeleteOperators.cpp
+    ├── gfl2_NwAllocator.cpp
+    └── gfl2_WinHeap.cpp

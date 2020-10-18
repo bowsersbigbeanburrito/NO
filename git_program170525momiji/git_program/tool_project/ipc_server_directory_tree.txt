@@ -1,0 +1,22 @@
+ipc_server/
+├── include/
+│   ├── common.h
+│   ├── debugprint.h
+│   ├── main.h
+│   ├── resource.h
+│   ├── server_main.h
+│   └── util.h
+├── project/
+│   ├── ipc2.ico
+│   ├── ipc_server.vcxproj
+│   ├── ipc_server.vcxproj.filters
+│   └── Resource.rc
+├── source/
+│   ├── debugprint.cpp
+│   ├── main.cpp
+│   ├── moc_window.cpp
+│   ├── server_main.cpp
+│   ├── window.cpp
+│   └── window.h
+└── tool/
+    └── run_qtc.bat

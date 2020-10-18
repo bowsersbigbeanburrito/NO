@@ -1,0 +1,100 @@
+model/
+├── include/
+│   ├── gfl2_BaseCamera.h
+│   ├── gfl2_BaseModel.h
+│   ├── gfl2_BaseModelAnimation.h
+│   ├── gfl2_BaseModelMaterial.h
+│   ├── gfl2_CharaModel.h
+│   ├── gfl2_CharaModelFactory.h
+│   ├── gfl2_DressUpModel.h
+│   ├── gfl2_DressUpParam.h
+│   └── gfl2_PokemonModel.h
+├── model.vcxproj
+├── model.vcxproj.bak
+├── model.vcxproj.filters
+├── Sample/
+│   ├── BaseCamera/
+│   │   ├── BaseCamera.vcxproj
+│   │   ├── BaseCamera.vcxproj.filters
+│   │   └── main.cpp
+│   ├── BaseModel/
+│   │   ├── BaseModel.vcxproj
+│   │   ├── BaseModel.vcxproj.filters
+│   │   └── main.cpp
+│   ├── CharaModel/
+│   │   ├── CharaModel.vcxproj
+│   │   ├── CharaModel.vcxproj.filters
+│   │   └── main.cpp
+│   ├── Framework/
+│   │   ├── Framework.vcxproj
+│   │   ├── Framework.vcxproj.filters
+│   │   └── source/
+│   │       ├── IApplication.h
+│   │       └── main.cpp
+│   ├── poke_3d_lib.bat
+│   ├── res/
+│   │   ├── AnimationCache/
+│   │   │   ├── 1.0.5946.32703.-104299976.cache
+│   │   │   ├── 1.0.5946.32703.363683322.cache
+│   │   │   └── 1.0.5946.32703.513076654.cache
+│   │   ├── ModelCache/
+│   │   │   └── -633294990.cache.opt
+│   │   ├── pm0025_00.gfmdl
+│   │   ├── pm0025_00_ba10_waitA01.gfmot
+│   │   ├── pm0025_00_ba20_buturi01.gfmot
+│   │   ├── pm0025_00_ba21_tokusyu01.gfmot
+│   │   ├── Shaders/
+│   │   │   ├── PDC_Body_Shadow.gffsh
+│   │   │   ├── PDC_Body_ShadowALW.gffsh
+│   │   │   ├── PDC_pm_keikouo_Neon.gffsh
+│   │   │   ├── PDC_pm_keikouo_NeonALW.gffsh
+│   │   │   ├── PokeNormal.gfvsh
+│   │   │   ├── PressShadow.gfvsh
+│   │   │   └── PressShadowGRE.gffsh
+│   │   └── Textures/
+│   │       ├── Default_Lta_10D.tga
+│   │       ├── DummyTex.tga
+│   │       ├── DummyTexId.ctex
+│   │       ├── DummyTexId.tga
+│   │       ├── LinerTable.tga
+│   │       ├── pm0025_00_BodyA1.tga
+│   │       ├── pm0025_00_BodyA1Id.ctex
+│   │       ├── pm0025_00_BodyA1Id.tga
+│   │       ├── pm0025_00_BodyAHlm.tga
+│   │       ├── pm0025_00_BodyALta.tga
+│   │       ├── pm0025_00_BodyANor.tga
+│   │       ├── pm0025_00_BodyB1.tga
+│   │       ├── pm0025_00_BodyB1Id.ctex
+│   │       ├── pm0025_00_BodyB1Id.tga
+│   │       ├── pm0025_00_BodyBHlm.tga
+│   │       ├── pm0025_00_BodyBInc.tga
+│   │       ├── pm0025_00_BodyBNor.tga
+│   │       ├── pm0025_00_Eye1.tga
+│   │       ├── pm0025_00_Eye1Id.ctex
+│   │       ├── pm0025_00_Eye1Id.tga
+│   │       ├── pm0025_00_EyeHlm.tga
+│   │       ├── pm0025_00_EyeNor.tga
+│   │       ├── pm0025_00_Hta.tga
+│   │       ├── pm0025_00_Mouth1.tga
+│   │       ├── pm0025_00_Mouth1Id.ctex
+│   │       ├── pm0025_00_Mouth1Id.tga
+│   │       ├── pm0025_00_MouthHlm.tga
+│   │       └── pm0025_00_MouthNor.tga
+│   ├── Sample.bat
+│   └── Sample.sln
+└── source/
+    ├── gfl2_BaseCamera.cpp
+    ├── gfl2_BaseModel.cpp
+    ├── gfl2_BaseModelAnimation.cpp
+    ├── gfl2_BaseModelMaterial.cpp
+    ├── gfl2_BaseModelResourceUnit.cpp
+    ├── gfl2_BaseModelResourceUnit.h
+    ├── gfl2_CharaModel.cpp
+    ├── gfl2_CharaModelFactory.cpp
+    ├── gfl2_CharaModelResourceUnit.cpp
+    ├── gfl2_CharaModelResourceUnit.h
+    ├── gfl2_DressUpModel.cpp
+    ├── gfl2_DressUpModelResourceUnit.cpp
+    ├── gfl2_DressUpModelResourceUnit.h
+    ├── gfl2_PokemonModel.cpp
+    └── main.cpp

@@ -1,0 +1,110 @@
+{
+    ".": {
+        "renderer.vcxproj": {
+            "modified": "2017-05-31 23:56:45.995733",
+            "size": "14.88KB",
+            "md5": "5575a9f3a0cc8c059eac3362e4e9ed1e",
+            "sha256": "3d7656c79e618f1956283988a359554d5d829ddc04fff09503c59fc863123f68"
+        },
+        "renderer.vcxproj.filters": {
+            "modified": "2017-05-31 21:54:42.969485",
+            "size": "2.67KB",
+            "md5": "3a9af228e6bbe9b4ffab675591786165",
+            "sha256": "0e1bafada262c309105d26ef0a381bfaa55786558a22cf25ece497633837aab9"
+        }
+    },
+    "include": {
+        "gfl2_BloomRenderPath.h": {
+            "modified": "2017-05-31 23:56:45.967730",
+            "size": "12.27KB",
+            "md5": "ea7dcb3fa0c1b68d9d29f3998638d0fc",
+            "sha256": "8c208466f0552141a08e370775638df37fbc8d6e073559c4cda5151af0b2367a"
+        },
+        "gfl2_DistortionPostRenderPath.h": {
+            "modified": "2017-05-31 21:54:42.913479",
+            "size": "2.88KB",
+            "md5": "417e66d17983937d3cd9487b248f45c9",
+            "sha256": "e47ca4e26c4fbf57b15ca7d713edfb6464be05ee0d32b54cd6102eb0a9453d57"
+        },
+        "gfl2_EdgeMapSceneRenderPath.h": {
+            "modified": "2017-05-31 21:54:42.924480",
+            "size": "4.62KB",
+            "md5": "4f4787db832cf51f790b787763ed1914",
+            "sha256": "d65ab4a4d676accab1e1f0c0116cf5fcae9d192b3b13192cb2b19369bfdcb544"
+        },
+        "gfl2_FrameBufferClearAlphaPath.h": {
+            "modified": "2017-05-31 21:54:42.930481",
+            "size": "1.04KB",
+            "md5": "6ec4e9d6cdbb277720137a2e4617a806",
+            "sha256": "e6bbb1212342afa3123e64273cb40ef591457d19ff12e5936879ab8ff2401440"
+        },
+        "gfl2_OutLinePostRenderPath.h": {
+            "modified": "2017-05-31 21:54:42.958483",
+            "size": "1.78KB",
+            "md5": "40da277dad2a3a83d6a65feb37f255fb",
+            "sha256": "e4343460599c8c28176d5d5b7c361e6c7a34cd5e43bdfedb83263e2aceb9e8f7"
+        }
+    },
+    "source": {
+        "gfl2_BloomRenderPathUtil.cpp": {
+            "modified": "2017-05-31 21:54:42.978486",
+            "size": "2.29KB",
+            "md5": "7baaeb3406bbc0bab4bdae88e066369c",
+            "sha256": "72837adf8686d9d98910a779d73c2061573a00b57f58bd882f6b545ef380c57c"
+        },
+        "gfl2_BloomRenderPathUtil.h": {
+            "modified": "2017-05-31 21:54:43.003488",
+            "size": "2.87KB",
+            "md5": "c379faeadfb6ea2682fa3423175b727a",
+            "sha256": "2879315a59602e81a42f32d04cd03e5b415eb609388d9d8ce639d32ac15e8272"
+        },
+        "gfl2_CTRBloomRenderPath.cpp": {
+            "modified": "2017-05-31 21:54:43.010489",
+            "size": "65.86KB",
+            "md5": "bf53675e61d085b08e681a913c93648a",
+            "sha256": "76da2cb988fb5f08c0081cf4ddc283d71d188eaadae65e44ddfca0e93a1c6d0f"
+        },
+        "gfl2_DistortionPostRenderPath.cpp": {
+            "modified": "2017-05-31 21:54:43.017489",
+            "size": "10.66KB",
+            "md5": "fc51e1f0c6ad9a8790fa628d0089486c",
+            "sha256": "53ebf5447b915ec932a9365b3cef1e9cbc04c3aa4321565682c386a602bb44ce"
+        },
+        "gfl2_EdgeMapSceneRenderPath.cpp": {
+            "modified": "2017-05-31 21:54:43.023490",
+            "size": "36.2KB",
+            "md5": "9bd7cbce4251a2baeba2260c1204bb8b",
+            "sha256": "d59f7506a7d4abd1e739a6ae3fd3d25cb5a6b26e344d7b9b102cbf82d3988ebe"
+        },
+        "gfl2_FrameBufferClearAlphaPath.cpp": {
+            "modified": "2017-05-31 21:54:43.032491",
+            "size": "3.7KB",
+            "md5": "7d85466a9887a28c44fbd842a59a4bb2",
+            "sha256": "36ed3238336bd0e54a9dccfead2b75336e3688ad617cc8685dd58eb8e201a220"
+        },
+        "gfl2_OutLinePostRenderPath.cpp": {
+            "modified": "2017-05-31 21:54:43.037491",
+            "size": "15.71KB",
+            "md5": "73695eb5e19d491d32628519d66b568c",
+            "sha256": "91b57c721537e5be5b25f5edbde08e95dc9c595dfb2f423071873d18126ee7a5"
+        },
+        "gfl2_WinOpenGLBloomRenderPath.cpp": {
+            "modified": "2017-05-31 21:54:43.043492",
+            "size": "15.05KB",
+            "md5": "f828bea6ae2547bf4c392b8361c946ec",
+            "sha256": "f53d6b539738563b1fedb173ea55ebd169e50722523eeba2f59fa867e5c287ec"
+        },
+        "gfl2_WinOpenGLBloomRenderPathClasses.cpp": {
+            "modified": "2017-05-31 23:56:46.002733",
+            "size": "19.7KB",
+            "md5": "32e3fc899c97e26323f358ba1d6f357b",
+            "sha256": "4c04548e4b324757035c29bb13b7730faa219623f9944afc1de12d2498a4c788"
+        },
+        "gfl2_WinOpenGLBloomRenderPathClasses.h": {
+            "modified": "2017-05-31 21:54:43.055493",
+            "size": "11.92KB",
+            "md5": "f328a0de57cfa4ab41d517f7652715dd",
+            "sha256": "07176ef54b4d324dc54cd474c57e9ac9bba46876a4f204e9bba104c6f1e50320"
+        }
+    }
+}

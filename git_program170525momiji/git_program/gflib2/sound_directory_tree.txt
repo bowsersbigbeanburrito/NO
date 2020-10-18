@@ -1,0 +1,12 @@
+sound/
+├── include/
+│   ├── gfl2_SoundDataManagerThread.h
+│   ├── gfl2_SoundHeap.h
+│   └── gfl2_SoundSystem.h
+├── project/
+│   ├── sound.vcxproj
+│   └── sound.vcxproj.filters
+└── source/
+    ├── gfl2_SoundDataManagerThread.cpp
+    ├── gfl2_SoundHeap.cpp
+    └── gfl2_SoundSystem.cpp

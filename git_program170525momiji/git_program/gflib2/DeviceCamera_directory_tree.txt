@@ -1,0 +1,14 @@
+DeviceCamera/
+├── DeviceCamera.vcxproj
+├── DeviceCamera.vcxproj.filters
+├── include/
+│   ├── gfl2_CaptureBuffer.h
+│   ├── gfl2_DeviceCamera.h
+│   ├── gfl2_DeviceCameraParam.h
+│   ├── gfl2_DeviceCameraThread.h
+│   └── gfl2_Y2RThread.h
+└── source/
+    ├── gfl2_CaptureBuffer.cpp
+    ├── gfl2_DeviceCamera.cpp
+    ├── gfl2_DeviceCameraThread.cpp
+    └── gfl2_Y2RThread.cpp

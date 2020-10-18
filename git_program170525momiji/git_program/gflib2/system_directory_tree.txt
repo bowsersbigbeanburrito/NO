@@ -1,0 +1,46 @@
+system/
+├── include/
+│   ├── Date/
+│   │   └── gfl2_Date.h
+│   ├── InputDevice/
+│   │   ├── CTR/
+│   │   │   └── gfl2_CTRPad.h
+│   │   ├── gfl2_InputTypes.h
+│   │   ├── gfl2_KeyBoard.h
+│   │   ├── gfl2_Mouse.h
+│   │   ├── gfl2_Pad.h
+│   │   └── WinDX11/
+│   │       ├── gfl2_WinDX11KeyBoard.h
+│   │       ├── gfl2_WinDX11Mouse.h
+│   │       └── gfl2_WinDX11Pad.h
+│   ├── nw/
+│   │   └── libnw.h
+│   └── Timer/
+│       ├── Ctr/
+│       │   └── gfl2_CtrPerformanceCounter.h
+│       ├── gfl2_PerformanceCounter.h
+│       └── Win/
+│           └── gfl2_WinPerformanceCounter.h
+├── project/
+│   ├── gf_template_gflib2.rsf
+│   ├── system.vcxproj
+│   └── system.vcxproj.filters
+├── Sample/
+│   ├── PadTest/
+│   │   ├── PadTest.cpp
+│   │   ├── PadTest.filters
+│   │   └── PadTest.vcxproj
+│   └── Sample.sln
+└── source/
+    ├── Date/
+    │   └── gfl2_Date.cpp
+    └── InputDevice/
+        ├── CTR/
+        │   └── gfl2_CTRPad.cpp
+        ├── gfl2_KeyBoard.cpp
+        ├── gfl2_Mouse.cpp
+        ├── gfl2_Pad.cpp
+        └── WinDX11/
+            ├── gfl2_WinDX11KeyBoard.cpp
+            ├── gfl2_WinDX11Mouse.cpp
+            └── gfl2_WinDX11Pad.cpp

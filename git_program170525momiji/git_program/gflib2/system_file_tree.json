@@ -1,0 +1,200 @@
+{
+    "include\\Date": {
+        "gfl2_Date.h": {
+            "modified": "2017-05-31 21:53:13.605549",
+            "size": "6.47KB",
+            "md5": "047753011c02ab26ea5e63376c483c3a",
+            "sha256": "b0581428465cfe43fc54b7bf38be980f4cf83f0a20bd9babe9ea79061f5bc8c0"
+        }
+    },
+    "include\\InputDevice": {
+        "gfl2_InputTypes.h": {
+            "modified": "2017-05-31 21:53:13.674556",
+            "size": "5.47KB",
+            "md5": "7c33490bff82d09fc6acb2e602b04bb0",
+            "sha256": "6c040b072b3310609ee69512df311ef051515f5f8da761ace44d7af0eb50764d"
+        },
+        "gfl2_KeyBoard.h": {
+            "modified": "2017-05-31 21:53:13.679557",
+            "size": "2.12KB",
+            "md5": "d8a46b45f9430637a2f85aacc80bc0ac",
+            "sha256": "ff94dd567e7371c48bf5ffe1e6c9d0f902a9b07bb4e85b831b7f4fc76f22cb09"
+        },
+        "gfl2_Mouse.h": {
+            "modified": "2017-05-31 21:53:13.684557",
+            "size": "2.14KB",
+            "md5": "825cf785c4815c94619138bca7efea31",
+            "sha256": "d52027a038b5b56717f9bba6d0f55d43b892aec62269f9e9aee02eadf01a0c1a"
+        },
+        "gfl2_Pad.h": {
+            "modified": "2017-05-31 21:53:13.690558",
+            "size": "2.48KB",
+            "md5": "1c8b9406f4a9a4046e351c0d862c03b7",
+            "sha256": "0841466912bd296dd5648a7b738aa057669b30dfb7665d9168dbdff123679c5d"
+        }
+    },
+    "include\\InputDevice\\CTR": {
+        "gfl2_CTRPad.h": {
+            "modified": "2017-05-31 21:53:13.626551",
+            "size": "1.72KB",
+            "md5": "7745a56dad1ee7f784d050f83b1073b5",
+            "sha256": "5fb6e6cc9da33fc63e049c924938ace731a954ba6d78cb5d4f2b439a55618cc3"
+        }
+    },
+    "include\\InputDevice\\WinDX11": {
+        "gfl2_WinDX11KeyBoard.h": {
+            "modified": "2017-05-31 21:53:13.646553",
+            "size": "1.85KB",
+            "md5": "3686a21f516dbc26bdc400a3c149c5fd",
+            "sha256": "0f98193056f1ca02999b2faa1176ec084a903317a0743a2cc65d42cb1dced43b"
+        },
+        "gfl2_WinDX11Mouse.h": {
+            "modified": "2017-05-31 21:53:13.662555",
+            "size": "1.51KB",
+            "md5": "76ccdce542c63208a6970e892ab2de65",
+            "sha256": "66fc6e2147a87fca5e94860d8d64290acc6fbcb56fa9596892782ddb11628a11"
+        },
+        "gfl2_WinDX11Pad.h": {
+            "modified": "2017-05-31 21:53:13.668555",
+            "size": "2.73KB",
+            "md5": "06b0a61a38819bb4df92c189f81b9bfc",
+            "sha256": "fa0c723568ca95ecc35cefd26aead02c4c2a9dabdb4547ccee8365bf313f4c1f"
+        }
+    },
+    "include\\nw": {
+        "libnw.h": {
+            "modified": "2017-05-31 21:53:13.739563",
+            "size": "0.48KB",
+            "md5": "e64acb072f09b5cbf288be90b9b0b7b8",
+            "sha256": "129f0e505ff714052c8ca8c3a4da90b9fe827abfc6b1ca6074460c13dec40387"
+        }
+    },
+    "include\\Timer": {
+        "gfl2_PerformanceCounter.h": {
+            "modified": "2017-05-31 21:53:13.733562",
+            "size": "1.26KB",
+            "md5": "588d6f219a7295c2786475d77dfcc3c0",
+            "sha256": "055cecdf66a0a76437ffdb066787fe253d781bed37f83a97858e2f6ad37c1fed"
+        }
+    },
+    "include\\Timer\\Ctr": {
+        "gfl2_CtrPerformanceCounter.h": {
+            "modified": "2017-05-31 21:53:13.695558",
+            "size": "1.57KB",
+            "md5": "0338a7955c0d6b7a6a0a5d741c43f234",
+            "sha256": "6ea72f8936bc4e96e0b717b4ebaf76772c3a5d6631a721bdd896df71114ea009"
+        }
+    },
+    "include\\Timer\\Win": {
+        "gfl2_WinPerformanceCounter.h": {
+            "modified": "2017-05-31 21:53:13.717560",
+            "size": "1.74KB",
+            "md5": "668f8114b73f333ef6c4b649722ec086",
+            "sha256": "12fc3687fdfd8ce84191895dd35e56b846b533fc33da410e3c62d313d73c57bc"
+        }
+    },
+    "project": {
+        "gf_template_gflib2.rsf": {
+            "modified": "2017-05-31 21:53:13.744563",
+            "size": "0.17KB",
+            "md5": "e6c2e3cdf5793f3627b26e4a41ea5973",
+            "sha256": "35e0ae45e8d2b2b2701ed29d540239cdd6cdb8c53b2326be566aae7cb6d17b35"
+        },
+        "system.vcxproj": {
+            "modified": "2017-05-31 23:56:20.495183",
+            "size": "22.78KB",
+            "md5": "0a540f09bb043178bbff74ade42baab5",
+            "sha256": "54b1eddb6ebbb8cc77f20c3d13d258cfe1cbbeb15699c97ee3cccac8c22bbc1b"
+        },
+        "system.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:13.756564",
+            "size": "5.64KB",
+            "md5": "97c4acc4c66d5249f45aacbddaabeaf6",
+            "sha256": "7415312155e5d525a50ebdec790017e03e643499059762304beea4bb77f36734"
+        }
+    },
+    "Sample": {
+        "Sample.sln": {
+            "modified": "2017-05-31 21:53:13.585547",
+            "size": "2.11KB",
+            "md5": "50700548f30ad5c451e6989400df1afa",
+            "sha256": "d25ff6574887990a1e2e8775164b206b01eaf52e603f85710f5be91f9bd413e7"
+        }
+    },
+    "Sample\\PadTest": {
+        "PadTest.cpp": {
+            "modified": "2017-05-31 21:53:13.566545",
+            "size": "1.39KB",
+            "md5": "11a00e550f1a6edec82287816febd37f",
+            "sha256": "31937fb76064226d887a2a282e858e69fb62c8e17bcd7b16c85f8226d79ef02f"
+        },
+        "PadTest.filters": {
+            "modified": "2017-05-31 21:53:13.571546",
+            "size": "0.84KB",
+            "md5": "50c4ae00ba766ccfb33f12a1f31073a1",
+            "sha256": "9464702af54997e1a18cf5989f9155acb3eafc970312e2f85f406b2a4da55850"
+        },
+        "PadTest.vcxproj": {
+            "modified": "2017-05-31 23:56:20.487182",
+            "size": "7.39KB",
+            "md5": "9015c2d71442305e321e1c78a9088cf5",
+            "sha256": "35b51a65e00f43f04fe5f1560f50569eaf4a2177a52c5d74bafc96a223617ffd"
+        }
+    },
+    "source\\Date": {
+        "gfl2_Date.cpp": {
+            "modified": "2017-05-31 21:53:13.776566",
+            "size": "18.32KB",
+            "md5": "77dc589b410ff12108d5df6499ba2b50",
+            "sha256": "f09334e5ec9261086263f11373d1aae369e2ac5592e48abf7b2be39f01db81ae"
+        }
+    },
+    "source\\InputDevice": {
+        "gfl2_KeyBoard.cpp": {
+            "modified": "2017-05-31 21:53:13.822571",
+            "size": "0.41KB",
+            "md5": "5645807c22a1049fb871b8c1264f18e7",
+            "sha256": "62d91ad5c1ee01e9260b7c85303c294e6200c54f73ae009ed8a63adba275b542"
+        },
+        "gfl2_Mouse.cpp": {
+            "modified": "2017-05-31 21:53:13.852574",
+            "size": "0.4KB",
+            "md5": "6f8d3f57fe7156614af7dedefa2e923b",
+            "sha256": "d96158335c03f1769d2e54d92a1a87665afe39e8b7ba6bcb6f91e1248847b12c"
+        },
+        "gfl2_Pad.cpp": {
+            "modified": "2017-05-31 21:53:13.887577",
+            "size": "0.49KB",
+            "md5": "f2aca87d55dc6c5866c3f9b0c5341a94",
+            "sha256": "e7bb245cff6e85b1fd512c632762d00cad915ed4dd00978ccb02bb1a1dda46cb"
+        }
+    },
+    "source\\InputDevice\\CTR": {
+        "gfl2_CTRPad.cpp": {
+            "modified": "2017-05-31 21:53:13.782567",
+            "size": "2.32KB",
+            "md5": "641301681607cf6c1f55f758629d7967",
+            "sha256": "4e03c15e7b37c645078c34232ee96d7d894c84d282ebfd569c3d3e1b7d75dda0"
+        }
+    },
+    "source\\InputDevice\\WinDX11": {
+        "gfl2_WinDX11KeyBoard.cpp": {
+            "modified": "2017-05-31 21:53:13.788567",
+            "size": "8.19KB",
+            "md5": "fbfad9619b98ab914334e2da4e32dacb",
+            "sha256": "e87124d0f5f1da5f83b36c99ce7340addc73b12199b6c3b0cfe60a0471312b73"
+        },
+        "gfl2_WinDX11Mouse.cpp": {
+            "modified": "2017-05-31 21:53:13.795568",
+            "size": "4.73KB",
+            "md5": "af55ddc203c5e85133ed81314d06487b",
+            "sha256": "5296affe853633fbb2e93d9076e3c3bf2e29e497dcc14e740c1b96bc818f3e4c"
+        },
+        "gfl2_WinDX11Pad.cpp": {
+            "modified": "2017-05-31 21:53:13.815570",
+            "size": "12.13KB",
+            "md5": "98e29b8afa30934e8c93e4438f45e327",
+            "sha256": "ccbb6daee29cb60b6099377024032feef35d00f8a7eb212243a8004877c7b418"
+        }
+    }
+}

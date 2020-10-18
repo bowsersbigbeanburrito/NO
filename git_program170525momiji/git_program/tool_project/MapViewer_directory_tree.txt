@@ -1,0 +1,220 @@
+MapViewer/
+├── MapViewer/
+│   ├── DebugWin/
+│   │   ├── DebugWin.vcxproj
+│   │   ├── DebugWin.vcxproj.filters
+│   │   ├── include/
+│   │   │   └── DebugWinSystem.h
+│   │   └── source/
+│   │       └── DebugWinSystem.cpp
+│   ├── GameSystem/
+│   │   ├── GameSystem.vcxproj
+│   │   ├── GameSystem.vcxproj.filters
+│   │   ├── include/
+│   │   │   ├── GameData.h
+│   │   │   ├── GameEvent.h
+│   │   │   ├── GameEventManager.h
+│   │   │   ├── GameFrameMode.h
+│   │   │   ├── GameManager.h
+│   │   │   ├── GameProc.h
+│   │   │   └── GameProcManager.h
+│   │   └── source/
+│   │       ├── GameData.cpp
+│   │       ├── GameEvent.cpp
+│   │       ├── GameEventManager.cpp
+│   │       ├── GameManager.cpp
+│   │       ├── GameProc.cpp
+│   │       └── GameProcManager.cpp
+│   ├── Main/
+│   │   ├── CommonApplication.cpp
+│   │   ├── CommonApplication.hpp
+│   │   ├── IApplication.h
+│   │   ├── main.cpp
+│   │   ├── Main.h
+│   │   └── MainHeap.hpp
+│   ├── MapViewer.vcxproj
+│   ├── MapViewer.vcxproj.filters
+│   ├── Print/
+│   │   ├── include/
+│   │   │   ├── GrammaticalAttributeProvider.h
+│   │   │   ├── hangul.h
+│   │   │   ├── hangul_composer.h
+│   │   │   ├── LayoutDefaultFont.h
+│   │   │   ├── MessageWindow.h
+│   │   │   ├── PrintSystem.h
+│   │   │   ├── SystemFont.h
+│   │   │   ├── WordSet.h
+│   │   │   └── WordSetLoader.h
+│   │   ├── Print.vcxproj
+│   │   ├── Print.vcxproj.filters
+│   │   └── source/
+│   │       ├── GrammaticalAttributeProvider.cpp
+│   │       ├── hangul.cpp
+│   │       ├── hangul_composer.cpp
+│   │       ├── IsVowelAlphabetTable.cdat
+│   │       ├── LayoutDefaultFont.cpp
+│   │       ├── MessageWindow.cpp
+│   │       ├── PrintSystem.cpp
+│   │       ├── SystemFont.cpp
+│   │       ├── WordSet.cpp
+│   │       └── WordSetLoader.cpp
+│   ├── System/
+│   │   ├── include/
+│   │   │   ├── EnvAccessor.h
+│   │   │   ├── GflvUse.h
+│   │   │   ├── HeapDefine.h
+│   │   │   ├── HeapSize.h
+│   │   │   ├── nijiAllocator.h
+│   │   │   ├── PokemonLanguage.h
+│   │   │   ├── PokemonVersion.h
+│   │   │   ├── RenderPath/
+│   │   │   │   ├── CtrGfbDummy.h
+│   │   │   │   ├── EdgeMapRenderPath.h
+│   │   │   │   ├── FullPowerEffect.h
+│   │   │   │   ├── ModelRenderPath.h
+│   │   │   │   └── OutLinePostRenderPath.h
+│   │   │   └── ThreadPriority.h
+│   │   ├── source/
+│   │   │   ├── EnvAccessor.cpp
+│   │   │   ├── GflvUse.cpp
+│   │   │   ├── nijiAllocator.cpp
+│   │   │   └── RenderPath/
+│   │   │       ├── CtrGfbDummy.cpp
+│   │   │       ├── EdgeMapRenderPath.cpp
+│   │   │       ├── FullPowerEffect.cpp
+│   │   │       ├── ModelRenderPath.cpp
+│   │   │       └── OutLinePostRenderPath.cpp
+│   │   ├── System.vcxproj
+│   │   └── System.vcxproj.filters
+│   └── ViewerProc/
+│       ├── include/
+│       │   ├── chara_define.h
+│       │   ├── chara_rsc_manager.h
+│       │   ├── field_transform.h
+│       │   ├── FieldActionCmdAnalogMove.h
+│       │   ├── FieldActionCmdManager.h
+│       │   ├── FieldActionCmdNone.h
+│       │   ├── FieldActionCmdTsuriTest.h
+│       │   ├── FieldRo/
+│       │   │   ├── Camera/
+│       │   │   │   ├── Area/
+│       │   │   │   │   ├── FieldCameraAreaCollisionManager.h
+│       │   │   │   │   ├── FieldCameraAreaDataManager.h
+│       │   │   │   │   ├── FieldCameraAreaTypes.h
+│       │   │   │   │   └── FieldCameraAreaUtility.h
+│       │   │   │   ├── Controller/
+│       │   │   │   │   ├── FieldCameraControllerBase.h
+│       │   │   │   │   ├── FieldCameraControllerTypeArea.h
+│       │   │   │   │   ├── FieldCameraControllerTypeDebugAdjustPosition.h
+│       │   │   │   │   ├── FieldCameraControllerTypeDebugOrthoView.h
+│       │   │   │   │   ├── FieldCameraControllerTypeEventScript.h
+│       │   │   │   │   └── FieldCameraControllerTypeTest.h
+│       │   │   │   ├── FieldCameraManager.h
+│       │   │   │   ├── FieldCameraUnit.h
+│       │   │   │   └── Target/
+│       │   │   │       ├── FieldCameraTargetBase.h
+│       │   │   │       └── FieldCameraTargetTypeMoveModel.h
+│       │   │   ├── FieldEnvManager.h
+│       │   │   ├── FieldGLAllocatorFromHeap.h
+│       │   │   ├── Fieldmap.h
+│       │   │   ├── FieldRootNode.h
+│       │   │   ├── MyRenderingPipeLine.h
+│       │   │   └── Terrain/
+│       │   │       ├── Block/
+│       │   │       │   ├── FieldTerrainBlockLodChangeStaticListener.h
+│       │   │       │   ├── FieldTerrainBlockLodType.h
+│       │   │       │   └── FieldTerrainBlockTypes.h
+│       │   │       ├── FieldTerrainBlock.h
+│       │   │       ├── FieldTerrainDistantView.h
+│       │   │       ├── FieldTerrainFactory.h
+│       │   │       ├── FieldTerrainLayoutData.h
+│       │   │       ├── FieldTerrainManager.h
+│       │   │       └── FieldTerrainTypes.h
+│       │   ├── FieldStatic/
+│       │   │   ├── Collision/
+│       │   │   │   ├── BaseActor.h
+│       │   │   │   ├── BaseCollisionScene.h
+│       │   │   │   ├── BaseShape.h
+│       │   │   │   ├── BaseSolver.h
+│       │   │   │   ├── CollisionSceneDefault.h
+│       │   │   │   ├── CollisionSceneNone.h
+│       │   │   │   ├── CollisionSolverDefault.h
+│       │   │   │   ├── DynamicActor.h
+│       │   │   │   ├── RaycastCustomCallback.h
+│       │   │   │   └── StaticActor.h
+│       │   │   ├── Field3DObjectNode.h
+│       │   │   ├── FieldManagerNode.h
+│       │   │   ├── FieldNode.h
+│       │   │   ├── FieldResident/
+│       │   │   │   └── FieldResident.h
+│       │   │   ├── MoveCode/
+│       │   │   │   ├── FieldMoveCode_define.h
+│       │   │   │   ├── FieldMoveCodeBase.h
+│       │   │   │   ├── FieldMoveCodeManager.h
+│       │   │   │   └── FieldMoveCodePlayer.h
+│       │   │   └── MoveModel/
+│       │   │       ├── FieldMoveModel.h
+│       │   │       ├── FieldMoveModel_define.h
+│       │   │       └── FieldMoveModelManager.h
+│       │   ├── FieldSystem.h
+│       │   ├── ReadViewerData.h
+│       │   ├── SimpleCollisionCallbackable.h
+│       │   ├── systemCollision.h
+│       │   └── ViewerProc.h
+│       ├── source/
+│       │   ├── chara_rsc_manager.cpp
+│       │   ├── field_transform.cpp
+│       │   ├── FieldActionCmdAnalogMove.cpp
+│       │   ├── FieldActionCmdBase.cpp
+│       │   ├── FieldActionCmdManager.cpp
+│       │   ├── FieldActionCmdTsuriTest.cpp
+│       │   ├── FieldRo/
+│       │   │   ├── Camera/
+│       │   │   │   ├── Area/
+│       │   │   │   │   ├── FieldCameraAreaCollisionManager.cpp
+│       │   │   │   │   └── FieldCameraAreaDataManager.cpp
+│       │   │   │   ├── Controller/
+│       │   │   │   │   ├── FieldCameraControllerTypeArea.cpp
+│       │   │   │   │   ├── FieldCameraControllerTypeDebugAdjustPosition.cpp
+│       │   │   │   │   ├── FieldCameraControllerTypeDebugOrthoView.cpp
+│       │   │   │   │   ├── FieldCameraControllerTypeEventScript.cpp
+│       │   │   │   │   └── FieldCameraControllerTypeTest.cpp
+│       │   │   │   ├── FieldCameraManager.cpp
+│       │   │   │   ├── FieldCameraUnit.cpp
+│       │   │   │   └── Target/
+│       │   │   │       └── FielcCameraTargetTypeMoveModel.cpp
+│       │   │   ├── FieldEnvManager.cpp
+│       │   │   ├── Fieldmap.cpp
+│       │   │   ├── MyRenderingPipeLine.cpp
+│       │   │   └── Terrain/
+│       │   │       ├── FieldTerrainBlock.cpp
+│       │   │       ├── FieldTerrainDistantView.cpp
+│       │   │       ├── FieldTerrainFactory.cpp
+│       │   │       └── FieldTerrainManager.cpp
+│       │   ├── FieldStaic/
+│       │   │   ├── Collision/
+│       │   │   │   ├── BaseActor.cpp
+│       │   │   │   ├── BaseCollisionScene.cpp
+│       │   │   │   ├── BaseShape.cpp
+│       │   │   │   ├── BaseSolver.cpp
+│       │   │   │   ├── CollisionSceneDefault.cpp
+│       │   │   │   ├── CollisionSceneNone.cpp
+│       │   │   │   ├── CollisionSolverDefault.cpp
+│       │   │   │   ├── DynamicActor.cpp
+│       │   │   │   ├── RaycastCustomCallback.cpp
+│       │   │   │   └── StaticActor.cpp
+│       │   │   ├── FieldResident/
+│       │   │   │   └── FieldResident.cpp
+│       │   │   ├── MoveCode/
+│       │   │   │   ├── FieldMoveCodeManager.cpp
+│       │   │   │   └── FieldMoveCodePlayer.cpp
+│       │   │   └── MoveModel/
+│       │   │       ├── FieldMoveModel.cpp
+│       │   │       └── FieldMoveModelManager.cpp
+│       │   ├── ReadViewerData.cpp
+│       │   ├── SimpleCollisionCallbackable.cpp
+│       │   ├── systemCollision.cpp
+│       │   └── ViewerProc.cpp
+│       ├── ViewerProc.vcxproj
+│       └── ViewerProc.vcxproj.filters
+└── MapViewer.sln

@@ -1,0 +1,194 @@
+{
+    "include": {
+        "gfl2_Event.h": {
+            "modified": "2017-05-31 21:53:14.205609",
+            "size": "3.08KB",
+            "md5": "01586660de5a4c8b7394c4bb6c02eb2c",
+            "sha256": "6b499f5a37a1a5502ed2a6142e3dbe56406a673ec47697478b466f98c1845fbe"
+        },
+        "gfl2_Mutex.h": {
+            "modified": "2017-05-31 21:53:14.210610",
+            "size": "3.04KB",
+            "md5": "b9781597ff6067f78192083aebdb4143",
+            "sha256": "f83ee65c22ea89de8da944263e1ea5eb553551b9da77ad135d29dd7f11faa845"
+        },
+        "gfl2_ScopedLock.h": {
+            "modified": "2017-05-31 21:53:14.215610",
+            "size": "1.62KB",
+            "md5": "b10982f402e502d02e3a499ec2cc99b9",
+            "sha256": "5b742d2f4e60a0686985a0679cbfb286b68e8537ffcf56c2b0597e82cf4cfaa6"
+        },
+        "gfl2_Thread.h": {
+            "modified": "2017-05-31 21:53:14.226611",
+            "size": "9.35KB",
+            "md5": "8d33ea683853b7c91cd393f674413468",
+            "sha256": "c02b18aed9b3bdea1677fbf020053100b5f8e9bf8645ee7a3b81585077e9ae1a"
+        },
+        "gfl2_ThreadStatic.h": {
+            "modified": "2017-05-31 21:53:14.234612",
+            "size": "2.75KB",
+            "md5": "5bc0bdcb2ddac55dedfbe8758d1d0b8c",
+            "sha256": "0b595df6968943889eb8f81fc0533635ce8e9e687f9e94609dc23482c8756a1f"
+        }
+    },
+    "project": {
+        "gf_template_gflib2.rsf": {
+            "modified": "2017-05-31 21:53:14.239613",
+            "size": "0.17KB",
+            "md5": "e6c2e3cdf5793f3627b26e4a41ea5973",
+            "sha256": "35e0ae45e8d2b2b2701ed29d540239cdd6cdb8c53b2326be566aae7cb6d17b35"
+        },
+        "thread.vcxproj": {
+            "modified": "2017-05-31 23:56:20.563190",
+            "size": "15.28KB",
+            "md5": "a4315de6a5bf287ac626fa42b05db9ed",
+            "sha256": "d17b856eb64a58dee8af12e280a06acbf6412da2e8ca414187ff4805f879d083"
+        },
+        "thread.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:14.250614",
+            "size": "3.61KB",
+            "md5": "8cd0220d598cdc17085dc84524e101a7",
+            "sha256": "cb63804289be328f057b57e3fbbec20821aaf77288983df688e928012043d0a7"
+        }
+    },
+    "source": {
+        "gfl_event.cpp": {
+            "modified": "2017-05-31 21:53:14.256614",
+            "size": "1.88KB",
+            "md5": "af6d4a9f212b4184691945c60c1a3e16",
+            "sha256": "8fbf105536e8f35d5fe7919190713c015e4548a13bb8e656414ebaa19601e076"
+        },
+        "gfl_event_adapter.h": {
+            "modified": "2017-05-31 21:53:14.261615",
+            "size": "2.2KB",
+            "md5": "f85ca735a5889af908f4688d7c569d38",
+            "sha256": "57678c6e4ed57b3d6f32c29e3c2749d1e069334b9f5723118f212f3f711c8dc4"
+        },
+        "gfl_event_adapter_3ds.cpp": {
+            "modified": "2017-05-31 21:53:14.266615",
+            "size": "1.72KB",
+            "md5": "39605d090c4b742bfb73d6ff2d7614a2",
+            "sha256": "6c67ff5411b2af6eb542d758d8f3b091e4371214f056f4c392cb992e75d3d97e"
+        },
+        "gfl_event_adapter_3ds.h": {
+            "modified": "2017-05-31 21:53:14.293618",
+            "size": "1.22KB",
+            "md5": "d27dc54794909608a8ab0f1130d02afe",
+            "sha256": "b81aed7799aea26806b9fb2ef22cb1bb41767ff05902a1ff176319c20df04553"
+        },
+        "gfl_event_adapter_win.cpp": {
+            "modified": "2017-05-31 21:53:14.346623",
+            "size": "1.85KB",
+            "md5": "d8a896fbcffbebf50bd34511022ca33e",
+            "sha256": "4b43f7167b4a7113b74f50b3305f76cf5ee0e8784d81dd13f39511329eda7690"
+        },
+        "gfl_event_adapter_win.h": {
+            "modified": "2017-05-31 21:53:14.351624",
+            "size": "1.26KB",
+            "md5": "e068193e1184c46a40b5b6df57b67d60",
+            "sha256": "ec4c20069010eb0e1587d374314d8acd4b12552eb3825af0fcfc0911a05a6653"
+        },
+        "gfl_mutex_adapter.h": {
+            "modified": "2017-05-31 21:53:14.366625",
+            "size": "2.07KB",
+            "md5": "a6e5bca30cc52aa2c527981e4e59a4e8",
+            "sha256": "a2552dc8f505fa538f16d485d21521819fb2b35e15fe34d3a26f39c078064129"
+        },
+        "gfl_mutex_adapter_3ds.cpp": {
+            "modified": "2017-05-31 21:53:14.387627",
+            "size": "0.84KB",
+            "md5": "f1840f4c37e9f3609d6871ba19f6939c",
+            "sha256": "a844b4f2a9a030a6559204a5ed49b25696e05d4470d778cb0a3ad6fcb35e90b4"
+        },
+        "gfl_mutex_adapter_3ds.h": {
+            "modified": "2017-05-31 21:53:14.403629",
+            "size": "2.57KB",
+            "md5": "de945b42a389cf391fd0698c3496f0e9",
+            "sha256": "b0225867bd7a4da6eda6391a801318e7d8b89596c9c7bba37ea8e17869c3d270"
+        },
+        "gfl_mutex_adapter_win.cpp": {
+            "modified": "2017-05-31 21:53:14.413630",
+            "size": "0.77KB",
+            "md5": "cb2c1d4aac0496a32c3d47cf355bd5bd",
+            "sha256": "30851b8e1fdd13006d39b8733f2debd4c4fddaf64f6c765796520197a687a2a5"
+        },
+        "gfl_mutex_adapter_win.h": {
+            "modified": "2017-05-31 21:53:14.420631",
+            "size": "2.6KB",
+            "md5": "88b9370c3d0ed0669f741422d6f1787e",
+            "sha256": "6c09949e1e04d463ea42afc3e9d06c2722e619f90cd0ce99a982e4862e9a87bc"
+        },
+        "gfl_thread.cpp": {
+            "modified": "2017-05-31 21:53:14.425631",
+            "size": "1.96KB",
+            "md5": "290bc924d3d53c458bc8057917d0f92d",
+            "sha256": "16925b16c14d82043408d2ced1b64176165517305c9b2ca2b22719aa88c78d7f"
+        },
+        "gfl_threadstatic.cpp": {
+            "modified": "2017-05-31 21:53:14.505639",
+            "size": "1.9KB",
+            "md5": "e2cef2e08396c7d020497fdfad1f4904",
+            "sha256": "4f7f2ce7050561cf61139ff6ad1ca3cebebfff25b2b06e2b5d60844b12b645d8"
+        },
+        "gfl_threadstatic_adapter.h": {
+            "modified": "2017-05-31 21:53:14.511640",
+            "size": "1.86KB",
+            "md5": "5f17bfabbd71bcd54ff22734f3810673",
+            "sha256": "7f98af8b4258bcd18b1aa4d6ed09be08bc7d01d62fde3eb05f329eec1fbf305b"
+        },
+        "gfl_threadstatic_adapter_3ds.cpp": {
+            "modified": "2017-05-31 21:53:14.534642",
+            "size": "1.26KB",
+            "md5": "6b788b39672ca460555627a85735f232",
+            "sha256": "115e85314020f7e37e5a8b403fb69c4323d8658283a7c118fa42d448ce072b1e"
+        },
+        "gfl_threadstatic_adapter_3ds.h": {
+            "modified": "2017-05-31 21:53:14.544643",
+            "size": "2.49KB",
+            "md5": "8a731f7a07467dbf13976e10e630c4c6",
+            "sha256": "55962c0dd0ef87c86cc4639f489ef1f5ed6cd4876766fddf5721082868f693ef"
+        },
+        "gfl_threadstatic_adapter_win.cpp": {
+            "modified": "2017-05-31 21:53:14.549644",
+            "size": "1.16KB",
+            "md5": "e6abe2344c6a7ca9784bd3f1c46cd114",
+            "sha256": "63cfe81f6542b8c8c92b5f8d46cd4fbd5cc2a5e93b113d28e69bd5dee7888f43"
+        },
+        "gfl_threadstatic_adapter_win.h": {
+            "modified": "2017-05-31 21:53:14.555644",
+            "size": "2.43KB",
+            "md5": "7a0e3b67eb2473dd13487e705e0a91d5",
+            "sha256": "8211150391cb4c25e49d9a15748fa99ae4f9b92896a8de26069c9aa07c6e08eb"
+        },
+        "gfl_thread_adapter.h": {
+            "modified": "2017-05-31 21:53:14.430632",
+            "size": "3.52KB",
+            "md5": "ea1bfc3dd9c1e91b1b17e7c83f46ab40",
+            "sha256": "caf778704451a0226a5e3a96849764a54bb88bc9be9e06c94c3759a03b0bb7e0"
+        },
+        "gfl_thread_adapter_3ds.cpp": {
+            "modified": "2017-05-31 21:53:14.436632",
+            "size": "2.68KB",
+            "md5": "cb7ec52797539437cf3a536cdf9b0b7a",
+            "sha256": "11d649151f1c231a073ac796d2e1712950b3f84c836eda6a384eba47722db0cb"
+        },
+        "gfl_thread_adapter_3ds.h": {
+            "modified": "2017-05-31 21:53:14.442633",
+            "size": "4.92KB",
+            "md5": "46859541119ed49a11a198e997d7ad7b",
+            "sha256": "f5ce92ef8cafd935d975039cb5d72684030ea52d30136d5fa44848d62feace85"
+        },
+        "gfl_thread_adapter_win.cpp": {
+            "modified": "2017-05-31 21:53:14.454634",
+            "size": "2.77KB",
+            "md5": "cd99f1948aab6c67203a3a341e96e178",
+            "sha256": "b1c51515891464f9235340aa1d3356428b72e268aaf1c17e2e25bf2565151c39"
+        },
+        "gfl_thread_adapter_win.h": {
+            "modified": "2017-05-31 21:53:14.473636",
+            "size": "4.78KB",
+            "md5": "387361b3ddb2b8a9b42e85cf7d135be6",
+            "sha256": "138165a0da54e06d9a7ad63934e2e43df1e632f21b5b2006cf6406846c9968c3"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+SimpleViewer/
+├── SimpleViewer/
+│   ├── App.config
+│   ├── BackCamera.cs
+│   ├── BottomCamera.cs
+│   ├── data/
+│   │   ├── ColorShaderGfmdl/
+│   │   │   ├── colorshaderplane.wingl.gfbmdl
+│   │   │   ├── colorshadertexture.wingl.btex
+│   │   │   ├── Comb1_Manual.wingl.gfbfsh
+│   │   │   └── FillScrean.wingl.gfbvsh
+│   │   ├── EdgeMap/
+│   │   │   ├── EdgeMapImage.tga
+│   │   │   ├── EdgeMapShader.mb
+│   │   │   ├── exports/
+│   │   │   │   ├── EdgeMapShader.3ds.gfbmdl
+│   │   │   │   ├── EdgeMapShader.gfmdl
+│   │   │   │   ├── EdgeMapShader.wingl.gfbmdl
+│   │   │   │   ├── Shaders/
+│   │   │   │   │   ├── Comb3_Manual.gffsh
+│   │   │   │   │   ├── Comb3_Manual.gfvsh
+│   │   │   │   │   ├── Comb3_Manual.wingl.gfbfsh
+│   │   │   │   │   ├── Comb3_Manual.wingl.gfbvsh
+│   │   │   │   │   └── test.bat
+│   │   │   │   ├── test.bat
+│   │   │   │   └── Texture/
+│   │   │   │       ├── comb_all.bat
+│   │   │   │       ├── EdgeMapImage.3ds.tga
+│   │   │   │       ├── EdgeMapImage.tga
+│   │   │   │       ├── EdgeMapImage.wingl.tga
+│   │   │   │       └── FrameBufferImage.tga
+│   │   │   └── FrameBufferImage.tga
+│   │   ├── EdgeMapVColAShader/
+│   │   │   ├── EdgeMapImage.tga
+│   │   │   ├── EdgeMapVColA.mb
+│   │   │   ├── exports/
+│   │   │   │   ├── EdgeMapVColA.3ds.gfbmdl
+│   │   │   │   ├── EdgeMapVColA.gfbmdl.wingl
+│   │   │   │   ├── EdgeMapVColA.gfmdl
+│   │   │   │   ├── EdgeMapVColA.wingl.gfbmdl
+│   │   │   │   ├── Shaders/
+│   │   │   │   │   ├── Comb2_Manual.gffsh
+│   │   │   │   │   ├── Comb2_Manual.wingl.gfbfsh
+│   │   │   │   │   ├── comb_all.bat
+│   │   │   │   │   ├── NormalToUv.gfvsh
+│   │   │   │   │   └── NormalToUv.wingl.gfbvsh
+│   │   │   │   ├── test.bat
+│   │   │   │   └── Textures/
+│   │   │   │       ├── comb_all.bat
+│   │   │   │       ├── NormalTexture.tga
+│   │   │   │       ├── NormalTexture.wingl.btex
+│   │   │   │       ├── ZInvNormalTexture.tga
+│   │   │   │       └── ZInvNormalTexture.wingl.btex
+│   │   │   └── NormalTexture.tga
+│   │   └── IDEdgeMap/
+│   │       ├── debug.cres
+│   │       ├── exports/
+│   │       │   ├── IDEdgeMap.3ds.gfbmdl
+│   │       │   ├── IDEdgeMap.ctr.gfbmdl
+│   │       │   ├── IDEdgeMap.gfmdl
+│   │       │   ├── IDEdgeMap.wingl.gfbmdl
+│   │       │   ├── Shader/
+│   │       │   │   ├── Comb2_Manual.gffsh
+│   │       │   │   ├── Comb2_Manual.gfvsh
+│   │       │   │   ├── Comb2_Manual.wingl.gfbfsh
+│   │       │   │   ├── Comb2_Manual.wingl.gfbvsh
+│   │       │   │   ├── Comb2_Manual.wingl.gffsh
+│   │       │   │   ├── Comb2_Manual.wingl.gfvsh
+│   │       │   │   ├── Comb3_Manual.gffsh
+│   │       │   │   ├── Comb3_Manual.gfvsh
+│   │       │   │   ├── Comb3_Manual.wingl.gfbfsh
+│   │       │   │   ├── Comb3_Manual.wingl.gfbvsh
+│   │       │   │   ├── Comb3_Manual.wingl.gffsh
+│   │       │   │   ├── Comb3_Manual.wingl.gfvsh
+│   │       │   │   └── test.bat
+│   │       │   ├── test.bat
+│   │       │   └── Texture/
+│   │       │       ├── comb_all.bat
+│   │       │       ├── MapImage.3ds.tga
+│   │       │       ├── MapImage.tga
+│   │       │       └── MapImage.wingl.tga
+│   │       ├── IDEdgeMap.mb
+│   │       ├── InsideEdgeFillter.cres
+│   │       ├── MapImage.ctex
+│   │       └── MapImage.tga
+│   ├── DefaultCamera.cs
+│   ├── GfmdlPathSetDictionary.cs
+│   ├── ICamera.cs
+│   ├── LeftCamera.cs
+│   ├── MathUtil.cs
+│   ├── PokemonModelDataManager.cs
+│   ├── Program.cs
+│   ├── Properties/
+│   │   ├── AssemblyInfo.cs
+│   │   ├── Resources.Designer.cs
+│   │   ├── Resources.resx
+│   │   ├── Settings.Designer.cs
+│   │   └── Settings.settings
+│   ├── RenderForm.cs
+│   ├── RenderForm.Designer.cs
+│   ├── RenderForm.resx
+│   ├── RightCamera.cs
+│   ├── SimpleViewer.csproj
+│   └── TopCamera.cs
+├── SimpleViewer.bat
+└── SimpleViewer.sln

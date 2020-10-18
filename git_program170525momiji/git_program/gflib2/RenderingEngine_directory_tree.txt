@@ -1,0 +1,1765 @@
+RenderingEngine/
+├── CLR/
+│   ├── include/
+│   │   ├── Renderer/
+│   │   │   └── gfl2_DefaultRenderingPipeLine_CLR.h
+│   │   └── SceneGraph/
+│   │       └── Instance/
+│   │           └── gfl2_InstanceCreator_CLR.h
+│   └── source/
+│       ├── Renderer/
+│       │   └── gfl2_DefaultRenderingPipeLine_CLR.cpp
+│       └── SceneGraph/
+│           └── Instance/
+│               └── gfl2_InstanceCreator_CLR.cpp
+├── include/
+│   ├── gfl2_RenderingEngineEnumDefine.h
+│   ├── gfl2_RenderingEngineEnums.h
+│   ├── Renderer/
+│   │   ├── gfl2_CombinerCtrShaderDriver.h
+│   │   ├── gfl2_CombinerShaderDriver.h
+│   │   ├── gfl2_DrawManager.h
+│   │   ├── gfl2_DrawTag.h
+│   │   ├── gfl2_IShaderDriver.h
+│   │   ├── gfl2_MaterialTypes.h
+│   │   ├── gfl2_MeshDrawTag.h
+│   │   ├── gfl2_RenderingPipeLine.h
+│   │   ├── gfl2_RenderState.h
+│   │   └── Util/
+│   │       ├── gfl2_ClearRenderPath.h
+│   │       ├── gfl2_ColorShaderTextureRenderPath.h
+│   │       ├── gfl2_DofRenderPath.h
+│   │       ├── gfl2_FillScreenRenderPath.h
+│   │       ├── gfl2_MakeBlurImagePath.h
+│   │       ├── gfl2_MakeReductionImagePath.h
+│   │       ├── gfl2_ModelRenderPath.h
+│   │       ├── gfl2_StretchBltFrameBufferPath.h
+│   │       ├── gfl2_UtilCollisionRenderPath.h
+│   │       ├── gfl2_UtilEffectLocatorRenderPath.h
+│   │       ├── gfl2_UtilJointRenderPath.h
+│   │       ├── gfl2_UtilMcnfRenderPath.h
+│   │       └── gfl2_UtilNodeRenderPath.h
+│   └── SceneGraph/
+│       ├── gfl2_AABBTree.h
+│       ├── gfl2_DagNode.h
+│       ├── gfl2_Node.h
+│       ├── gfl2_NodeTrait.h
+│       ├── gfl2_SceneGraphManager.h
+│       ├── gfl2_Traverser.h
+│       ├── Instance/
+│       │   ├── gfl2_CameraNode.h
+│       │   ├── gfl2_CullingObjectNode.h
+│       │   ├── gfl2_DrawableNode.h
+│       │   ├── gfl2_DrawEnvNode.h
+│       │   ├── gfl2_EffectNodeLocatorInstanceNode.h
+│       │   ├── gfl2_InstanceCreator.h
+│       │   ├── gfl2_InstanceNode.h
+│       │   ├── gfl2_JointInstanceNode.h
+│       │   ├── gfl2_LightNode.h
+│       │   ├── gfl2_LightSetNode.h
+│       │   ├── gfl2_LocatorInstanceNode.h
+│       │   ├── gfl2_MaterialInstanceNode.h
+│       │   ├── gfl2_ModelInstanceNode.h
+│       │   ├── gfl2_MotionConfigInstanceNode.h
+│       │   ├── gfl2_MotionInstanceNode.h
+│       │   ├── gfl2_TransformNode.h
+│       │   └── gfl2_ViewerLocatorInstanceNode.h
+│       └── Resource/
+│           ├── gfl2_AnimationResourceNode.h
+│           ├── gfl2_AnimationResourceNodeFactory.h
+│           ├── gfl2_ArrayResourceNode.h
+│           ├── gfl2_BlendShapeAnimationResourceNode.h
+│           ├── gfl2_BlendShapeAnimationResourceNodeFactory.h
+│           ├── gfl2_CameraResourceNode.h
+│           ├── gfl2_CameraResourceNodeFactory.h
+│           ├── gfl2_CollisionMeshResourceNode.h
+│           ├── gfl2_CollisionMeshResourceNodeFactory.h
+│           ├── gfl2_CombinerAttribute.h
+│           ├── gfl2_DrawEnvResourceNode.h
+│           ├── gfl2_DrawEnvResourceNodeFactory.h
+│           ├── gfl2_GfBinaryCollisionMdlData.h
+│           ├── gfl2_GfBinaryEnvData.h
+│           ├── gfl2_GfBinaryLocData.h
+│           ├── gfl2_GfBinaryMcnfData.h
+│           ├── gfl2_GfBinaryMdlData.h
+│           ├── gfl2_GfBinaryMdlDataPack.h
+│           ├── gfl2_GfBinaryMdlDataPackFactory.h
+│           ├── gfl2_GfBinaryMotData.h
+│           ├── gfl2_GfBinaryShdData.h
+│           ├── gfl2_GfBinaryTexData.h
+│           ├── gfl2_GfCollisionMdlData.h
+│           ├── gfl2_GfEnvData.h
+│           ├── gfl2_GfLocData.h
+│           ├── gfl2_GfMdlData.h
+│           ├── gfl2_GfMdlResourceNode.h
+│           ├── gfl2_GfMdlResourceNodeFactory.h
+│           ├── gfl2_GfMotData.h
+│           ├── gfl2_GfMotResourceNode.h
+│           ├── gfl2_GfMotResourceNodeFactory.h
+│           ├── gfl2_IResourceData.h
+│           ├── gfl2_IResourceNodeFactory.h
+│           ├── gfl2_LightSetResourceNode.h
+│           ├── gfl2_LightSetResourceNodeFactory.h
+│           ├── gfl2_LocatorResourceNode.h
+│           ├── gfl2_LocatorResourceNodeFactory.h
+│           ├── gfl2_MaterialResourceNode.h
+│           ├── gfl2_MaterialResourceNodeFactory.h
+│           ├── gfl2_McnfData.h
+│           ├── gfl2_MeshResourceNode.h
+│           ├── gfl2_MeshResourceNodeFactory.h
+│           ├── gfl2_MotionConfigResourceNode.h
+│           ├── gfl2_MotionConfigResourceNodeFactory.h
+│           ├── gfl2_ParserUtil.h
+│           ├── gfl2_ResourceManager.h
+│           ├── gfl2_ResourceNode.h
+│           ├── gfl2_ShaderResourceNode.h
+│           ├── gfl2_ShaderResourceNodeFactory.h
+│           ├── gfl2_TextureResourceNode.h
+│           └── gfl2_TextureResourceNodeFactory.h
+├── project/
+│   ├── Bin2Ascii.exe
+│   ├── gf_template_gflib2.rsf
+│   ├── RenderingEngine.vcxproj
+│   ├── RenderingEngine.vcxproj.filters
+│   ├── RenderingEngine_ctr.filters
+│   ├── RenderingEngine_ctr.vcxproj
+│   └── RenderingEngine_ctr.vcxproj.filters
+├── resource/
+│   ├── AlphaFillModel/
+│   │   ├── AlphaFillModel.mb
+│   │   └── Exports/
+│   │       ├── AlphaFillModel.gfmdl
+│   │       └── Shaders/
+│   │           ├── AlphaFillModel_Manual.gffsh
+│   │           └── FillScrean.gfvsh
+│   ├── bloom_resource/
+│   │   ├── bloom_board_model.mb
+│   │   ├── bloom_board_model_out/
+│   │   │   ├── binary/
+│   │   │   │   ├── ctr/
+│   │   │   │   │   ├── bloom_board_model.ctr.gfbmdl
+│   │   │   │   │   ├── bloom_dummy_tex.ctr.btex
+│   │   │   │   │   ├── Comb1_Manual.ctr.gfbfsh
+│   │   │   │   │   └── FillScrean.ctr.gfbvsh
+│   │   │   │   └── wingl/
+│   │   │   │       ├── bloom_board_model.wingl.gfbmdl
+│   │   │   │       ├── bloom_dummy_tex.wingl.btex
+│   │   │   │       ├── Comb1_Manual.wingl.gfbfsh
+│   │   │   │       └── FillScrean.wingl.gfbvsh
+│   │   │   ├── conv.bat
+│   │   │   └── exports/
+│   │   │       ├── bloom_board_model.gfmdl
+│   │   │       ├── Shaders/
+│   │   │       │   ├── Comb1_Manual.gffsh
+│   │   │       │   └── FillScrean.gfvsh
+│   │   │       └── Textures/
+│   │   │           └── bloom_dummy_tex.tga
+│   │   ├── bloom_dummy_tex.tga
+│   │   ├── bloom_high_luminance_model.mb
+│   │   ├── bloom_high_luminance_model_out/
+│   │   │   ├── binary/
+│   │   │   │   ├── ctr/
+│   │   │   │   │   ├── bloom_dummy_tex.ctr.btex
+│   │   │   │   │   ├── bloom_high_luminance_model.ctr.gfbmdl
+│   │   │   │   │   ├── Comb1_Manual.ctr.gfbfsh
+│   │   │   │   │   └── FillScrean.ctr.gfbvsh
+│   │   │   │   └── wingl/
+│   │   │   │       ├── bloom_dummy_tex.wingl.btex
+│   │   │   │       ├── bloom_high_luminance_model.wingl.gfbmdl
+│   │   │   │       ├── Comb1_Manual.wingl.gfbfsh
+│   │   │   │       └── FillScrean.wingl.gfbvsh
+│   │   │   ├── conv.bat
+│   │   │   └── exports/
+│   │   │       ├── bloom_high_luminance_model.gfmdl
+│   │   │       ├── Shaders/
+│   │   │       │   ├── Comb1_Manual.gffsh
+│   │   │       │   └── FillScrean.gfvsh
+│   │   │       └── Textures/
+│   │   │           └── bloom_dummy_tex.tga
+│   │   ├── bloom_high_luminance_model_rgbxa.mb
+│   │   ├── bloom_high_luminance_model_rgbxa_out/
+│   │   │   ├── binary/
+│   │   │   │   ├── ctr/
+│   │   │   │   │   ├── bloom_dummy_tex.ctr.btex
+│   │   │   │   │   ├── bloom_high_luminance_model_rgbxa.ctr.gfbmdl
+│   │   │   │   │   ├── Comb1_Manual.ctr.gfbfsh
+│   │   │   │   │   └── FillScrean.ctr.gfbvsh
+│   │   │   │   └── wingl/
+│   │   │   │       ├── bloom_dummy_tex.wingl.btex
+│   │   │   │       ├── bloom_high_luminance_model_rgbxa.wingl.gfbmdl
+│   │   │   │       ├── Comb1_Manual.wingl.gfbfsh
+│   │   │   │       └── FillScrean.wingl.gfbvsh
+│   │   │   ├── conv.bat
+│   │   │   └── exports/
+│   │   │       ├── bloom_high_luminance_model_rgbxa.gfmdl
+│   │   │       ├── Shaders/
+│   │   │       │   ├── Comb1_Manual.gffsh
+│   │   │       │   └── FillScrean.gfvsh
+│   │   │       └── Textures/
+│   │   │           └── bloom_dummy_tex.tga
+│   │   ├── prog/
+│   │   │   ├── build.bat
+│   │   │   ├── clean.bat
+│   │   │   ├── ctr/
+│   │   │   │   ├── bloom_resource.gaix
+│   │   │   │   ├── bloom_resource.garc
+│   │   │   │   ├── bloom_resource.gasc
+│   │   │   │   ├── bloom_resource_pack.h
+│   │   │   │   └── bloom_resource_pack.pack
+│   │   │   └── win32/
+│   │   │       ├── bloom_resource.gaix
+│   │   │       ├── bloom_resource.garc
+│   │   │       ├── bloom_resource.gasc
+│   │   │       ├── bloom_resource_pack.h
+│   │   │       └── bloom_resource_pack.pack
+│   │   ├── simple_board_model.mb
+│   │   ├── simple_board_model_out/
+│   │   │   ├── binary/
+│   │   │   │   ├── ctr/
+│   │   │   │   │   ├── Comb1_Manual.ctr.gfbfsh
+│   │   │   │   │   ├── FillScrean.ctr.gfbvsh
+│   │   │   │   │   ├── simple_board_model.ctr.gfbmdl
+│   │   │   │   │   └── simple_dummy_tex.ctr.btex
+│   │   │   │   └── wingl/
+│   │   │   │       ├── Comb1_Manual.wingl.gfbfsh
+│   │   │   │       ├── FillScrean.wingl.gfbvsh
+│   │   │   │       ├── simple_board_model.wingl.gfbmdl
+│   │   │   │       └── simple_dummy_tex.wingl.btex
+│   │   │   ├── conv.bat
+│   │   │   └── exports/
+│   │   │       ├── Shaders/
+│   │   │       │   ├── Comb1_Manual.gffsh
+│   │   │       │   └── FillScrean.gfvsh
+│   │   │       ├── simple_board_model.gfmdl
+│   │   │       └── Textures/
+│   │   │           └── simple_dummy_tex.tga
+│   │   ├── simple_dummy_tex.tga
+│   │   ├── tex/
+│   │   │   ├── binary/
+│   │   │   │   ├── ctr/
+│   │   │   │   │   ├── bloom_alpha_mask_test_tex.ctr.btex
+│   │   │   │   │   ├── bloom_small_tex_rgba0.ctr.btex
+│   │   │   │   │   ├── bloom_small_tex_rgba1.ctr.btex
+│   │   │   │   │   ├── bloom_test_tex.ctr.btex
+│   │   │   │   │   ├── bloom_test_tex_w128xh128_disp.ctr.btex
+│   │   │   │   │   ├── bloom_test_tex_w256xh256_disp.ctr.btex
+│   │   │   │   │   ├── bloom_test_tex_w256xh512_disp.ctr.btex
+│   │   │   │   │   ├── bloom_test_tex_w512xh256_disp.ctr.btex
+│   │   │   │   │   └── bloom_test_tex_w512xh512_disp.ctr.btex
+│   │   │   │   └── wingl/
+│   │   │   │       ├── bloom_alpha_mask_test_tex.wingl.btex
+│   │   │   │       ├── bloom_small_tex_rgba0.wingl.btex
+│   │   │   │       ├── bloom_small_tex_rgba1.wingl.btex
+│   │   │   │       ├── bloom_test_tex.wingl.btex
+│   │   │   │       ├── bloom_test_tex_w128xh128_disp.wingl.btex
+│   │   │   │       ├── bloom_test_tex_w256xh256_disp.wingl.btex
+│   │   │   │       ├── bloom_test_tex_w256xh512_disp.wingl.btex
+│   │   │   │       ├── bloom_test_tex_w512xh256_disp.wingl.btex
+│   │   │   │       └── bloom_test_tex_w512xh512_disp.wingl.btex
+│   │   │   ├── bloom_alpha_mask_test_tex.tga
+│   │   │   ├── bloom_alpha_mask_test_tex_nw.tga
+│   │   │   ├── bloom_small_tex_rgba0.tga
+│   │   │   ├── bloom_small_tex_rgba0_nw.tga
+│   │   │   ├── bloom_small_tex_rgba1.tga
+│   │   │   ├── bloom_small_tex_rgba1_nw.tga
+│   │   │   ├── bloom_test_tex.tga
+│   │   │   ├── bloom_test_tex_nw.tga
+│   │   │   ├── bloom_test_tex_w128xh128.tga
+│   │   │   ├── bloom_test_tex_w128xh128_disp.tga
+│   │   │   ├── bloom_test_tex_w128xh128_disp_nw.tga
+│   │   │   ├── bloom_test_tex_w256xh256.tga
+│   │   │   ├── bloom_test_tex_w256xh256_disp.tga
+│   │   │   ├── bloom_test_tex_w256xh256_disp_nw.tga
+│   │   │   ├── bloom_test_tex_w256xh512.tga
+│   │   │   ├── bloom_test_tex_w256xh512_disp.tga
+│   │   │   ├── bloom_test_tex_w256xh512_disp_nw.tga
+│   │   │   ├── bloom_test_tex_w512xh256.tga
+│   │   │   ├── bloom_test_tex_w512xh256_disp.tga
+│   │   │   ├── bloom_test_tex_w512xh256_disp_nw.tga
+│   │   │   ├── bloom_test_tex_w512xh512.tga
+│   │   │   ├── bloom_test_tex_w512xh512_disp.tga
+│   │   │   ├── bloom_test_tex_w512xh512_disp_nw.tga
+│   │   │   └── conv.bat
+│   │   ├── win32/
+│   │   │   └── shader/
+│   │   │       ├── BloomAdd.gffsh
+│   │   │       ├── BloomAdd.gfvsh
+│   │   │       ├── BloomAlphaMask.tga
+│   │   │       ├── BloomAlphaMaskBlack.tga
+│   │   │       ├── BloomBlur.gffsh
+│   │   │       ├── BloomBlur.gfvsh
+│   │   │       ├── BloomLuminance.gffsh
+│   │   │       ├── BloomLuminance.gfvsh
+│   │   │       ├── BloomScale.gffsh
+│   │   │       └── BloomScale.gfvsh
+│   │   ├── ビルドメモ.txt
+│   │   └── 手動修正メモ.txt
+│   ├── chara_Hta1D.tga
+│   ├── ColorShader/
+│   │   ├── colorshaderplane.gfmdl
+│   │   ├── colorshaderplane.mb
+│   │   ├── colorshadertexture.tga
+│   │   ├── converted_data/
+│   │   │   ├── colorshaderplane.ctr.gfbmdl
+│   │   │   ├── colorshaderplane.gfmdl
+│   │   │   ├── colorshaderplane.wingl.gfbmdl
+│   │   │   ├── ModelHash.fnv
+│   │   │   ├── Shaders/
+│   │   │   │   ├── Comb1_Manual.ctr.gfbfsh
+│   │   │   │   ├── Comb1_Manual.gffsh
+│   │   │   │   ├── Comb1_Manual.wingl.gfbfsh
+│   │   │   │   ├── FillScrean.ctr.gfbvsh
+│   │   │   │   ├── FillScrean.gfvsh
+│   │   │   │   └── FillScrean.wingl.gfbvsh
+│   │   │   └── Textures/
+│   │   │       ├── colorshadertexture.ctr.btex
+│   │   │       ├── colorshadertexture.tga
+│   │   │       └── colorshadertexture.wingl.btex
+│   │   ├── Shaders/
+│   │   │   ├── Comb1_Manual.gffsh
+│   │   │   └── FillScrean.gfvsh
+│   │   └── Textures/
+│   │       └── colorshadertexture.tga
+│   ├── CombinerShader.sh
+│   ├── Default_Lta_15D.tga
+│   ├── Dof/
+│   │   ├── CTR/
+│   │   │   ├── converted_data/
+│   │   │   │   ├── DofShader_ctr.ctr.gfbmdl
+│   │   │   │   ├── DofShader_ctr.gfmdl
+│   │   │   │   ├── DofShader_ctr.wingl.gfbmdl
+│   │   │   │   ├── Shaders/
+│   │   │   │   │   ├── CombBack_Manual.ctr.gfbfsh
+│   │   │   │   │   ├── CombBack_Manual.gffsh
+│   │   │   │   │   ├── CombBack_Manual.wingl.gfbfsh
+│   │   │   │   │   ├── CombFront_Manual.ctr.gfbfsh
+│   │   │   │   │   ├── CombFront_Manual.gffsh
+│   │   │   │   │   ├── CombFront_Manual.wingl.gfbfsh
+│   │   │   │   │   ├── Default.ctr.gfbvsh
+│   │   │   │   │   ├── Default.gfvsh
+│   │   │   │   │   └── Default.wingl.gfbvsh
+│   │   │   │   └── Textures/
+│   │   │   │       ├── EdgeMapImage.ctr.btex
+│   │   │   │       ├── EdgeMapImage.tga
+│   │   │   │       └── EdgeMapImage.wingl.btex
+│   │   │   ├── DofShader_ctr.gfmdl
+│   │   │   ├── DofShader_ctr.mb
+│   │   │   ├── Shaders/
+│   │   │   │   ├── CombBack_Manual.gffsh
+│   │   │   │   ├── CombFront_Manual.gffsh
+│   │   │   │   └── Default.gfvsh
+│   │   │   └── Textures/
+│   │   │       ├── .mayaSwatches/
+│   │   │       │   └── EdgeMapImage.tga.swatch
+│   │   │       └── EdgeMapImage.tga
+│   │   └── Win32/
+│   │       ├── converted_data/
+│   │       │   ├── DofShader.ctr.gfbmdl
+│   │       │   ├── DofShader.gfmdl
+│   │       │   ├── DofShader.wingl.gfbmdl
+│   │       │   ├── Shaders/
+│   │       │   │   ├── CombBack_Manual.ctr.gfbfsh
+│   │       │   │   ├── CombBack_Manual.gffsh
+│   │       │   │   ├── CombBack_Manual.wingl.gfbfsh
+│   │       │   │   ├── CombFront_Manual.ctr.gfbfsh
+│   │       │   │   ├── CombFront_Manual.gffsh
+│   │       │   │   ├── CombFront_Manual.wingl.gfbfsh
+│   │       │   │   ├── Default.ctr.gfbvsh
+│   │       │   │   ├── Default.gfvsh
+│   │       │   │   └── Default.wingl.gfbvsh
+│   │       │   └── Textures/
+│   │       │       ├── EdgeMapImage.ctr.btex
+│   │       │       ├── EdgeMapImage.tga
+│   │       │       └── EdgeMapImage.wingl.btex
+│   │       ├── DofShader.gfmdl
+│   │       ├── DofShader.mb
+│   │       ├── Shaders/
+│   │       │   ├── CombBack_Manual.gffsh
+│   │       │   ├── CombFront_Manual.gffsh
+│   │       │   └── Default.gfvsh
+│   │       └── Textures/
+│   │           └── EdgeMapImage.tga
+│   ├── dummy.gffsh
+│   ├── dummy.gfvsh
+│   ├── Dummy.tga
+│   ├── EdgeColorCheck/
+│   │   ├── converted_data/
+│   │   │   ├── edgecolorcheckplane.ctr.gfbmdl
+│   │   │   ├── edgecolorcheckplane.gfmdl
+│   │   │   ├── edgecolorcheckplane.wingl.gfbmdl
+│   │   │   ├── ModelHash.fnv
+│   │   │   ├── Shaders/
+│   │   │   │   ├── Comb1_Manual.ctr.gfbfsh
+│   │   │   │   ├── Comb1_Manual.gffsh
+│   │   │   │   ├── Comb1_Manual.wingl.gfbfsh
+│   │   │   │   ├── FillScrean.ctr.gfbvsh
+│   │   │   │   ├── FillScrean.gfvsh
+│   │   │   │   └── FillScrean.wingl.gfbvsh
+│   │   │   └── Textures/
+│   │   │       ├── edgecolorchecktexture.ctr.btex
+│   │   │       ├── edgecolorchecktexture.tga
+│   │   │       └── edgecolorchecktexture.wingl.btex
+│   │   ├── edgecolorcheckplane.gfmdl
+│   │   ├── edgecolorcheckplane.mb
+│   │   ├── edgecolorchecktexture.tga
+│   │   ├── Shaders/
+│   │   │   ├── Comb1_Manual.gffsh
+│   │   │   └── FillScrean.gfvsh
+│   │   └── Textures/
+│   │       └── edgecolorchecktexture.tga
+│   ├── EdgeMap/
+│   │   ├── .mayaSwatches/
+│   │   │   └── EdgeMapImage.tga.swatch
+│   │   ├── EdgeMapImage.tga
+│   │   ├── EdgeMapShader.mb
+│   │   ├── EdgeMapShaderWin.mb
+│   │   ├── exports/
+│   │   │   ├── EdgeMapShader.3ds.gfbmdl
+│   │   │   ├── EdgeMapShader.gfmdl
+│   │   │   ├── EdgeMapShader.wingl.gfbmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── Comb2_Manual.gffsh
+│   │   │   │   ├── Comb2_Manual.gfvsh
+│   │   │   │   ├── Comb3_Manual.gffsh
+│   │   │   │   ├── Comb3_Manual.gfvsh
+│   │   │   │   ├── Comb3_Manual.wingl.gffsh
+│   │   │   │   └── Comb3_Manual.wingl.gfvsh
+│   │   │   ├── Shaders/
+│   │   │   │   ├── Comb3_Manual.gffsh
+│   │   │   │   └── Comb3_Manual.gfvsh
+│   │   │   ├── test.bat
+│   │   │   ├── Texture/
+│   │   │   │   ├── comb_all.bat
+│   │   │   │   ├── EdgeMapImage.3ds.tga
+│   │   │   │   ├── EdgeMapImage.tga
+│   │   │   │   ├── EdgeMapImage.wingl.tga
+│   │   │   │   └── FrameBufferImage.tga
+│   │   │   └── Textures/
+│   │   │       └── EdgeMapImage.tga
+│   │   └── FrameBufferImage.tga
+│   ├── EdgeMapVColAShader/
+│   │   ├── EdgeMapImage.tga
+│   │   ├── EdgeMapVColA.mb
+│   │   ├── exports/
+│   │   │   ├── EdgeMapVColA.3ds.gfbmdl
+│   │   │   ├── EdgeMapVColA.gfbmdl.wingl
+│   │   │   ├── EdgeMapVColA.gfmdl
+│   │   │   ├── EdgeMapVColA.wingl.gfbmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── Comb2_Manual.3ds.gfvsh
+│   │   │   │   ├── Comb2_Manual.gffsh
+│   │   │   │   ├── Comb2_Manual.gfvsh
+│   │   │   │   ├── Comb2_Manual.wingl.gffsh
+│   │   │   │   └── Comb2_Manual.wingl.gfvsh
+│   │   │   ├── test.bat
+│   │   │   └── Texture/
+│   │   │       ├── comb_all.bat
+│   │   │       ├── NormalTexture.3ds.tga
+│   │   │       ├── NormalTexture.tga
+│   │   │       └── NormalTexture.wingl.tga
+│   │   ├── NormalTexture.tga
+│   │   └── ZInvNormalTexture.tga
+│   ├── IDEdgeMap/
+│   │   ├── debug.cres
+│   │   ├── exports/
+│   │   │   ├── IDEdgeMap.gfmdl
+│   │   │   ├── Shaders/
+│   │   │   │   ├── Comb2_Manual.gffsh
+│   │   │   │   └── Comb3_Manual.gffsh
+│   │   │   └── Textures/
+│   │   │       └── MapImage.tga
+│   │   ├── IDEdgeMap.mb
+│   │   ├── IDEdgeMapWin.mb
+│   │   ├── InsideEdgeFillter.cres
+│   │   ├── MapImage.ctex
+│   │   └── MapImage.tga
+│   ├── KujiraEdgeMap.gffsh
+│   ├── KujiraEdgeMap.gfvsh
+│   ├── KujiraOutLine.gffsh
+│   ├── KujiraOutLine.gfvsh
+│   ├── LinerTable.tga
+│   ├── mobiclip_resource/
+│   │   ├── prog/
+│   │   │   ├── build.bat
+│   │   │   ├── clean.bat
+│   │   │   ├── ctr/
+│   │   │   │   ├── mobiclip_resource.gaix
+│   │   │   │   ├── mobiclip_resource.garc
+│   │   │   │   ├── mobiclip_resource.gasc
+│   │   │   │   ├── mobiclip_resource_pack.h
+│   │   │   │   └── mobiclip_resource_pack.pack
+│   │   │   └── win32/
+│   │   │       ├── mobiclip_resource.gaix
+│   │   │       ├── mobiclip_resource.garc
+│   │   │       ├── mobiclip_resource.gasc
+│   │   │       ├── mobiclip_resource_pack.h
+│   │   │       └── mobiclip_resource_pack.pack
+│   │   ├── simple_board_model.mb
+│   │   ├── simple_board_model_out/
+│   │   │   ├── binary/
+│   │   │   │   ├── ctr/
+│   │   │   │   │   ├── Comb1_Manual.ctr.gfbfsh
+│   │   │   │   │   ├── FillScrean.ctr.gfbvsh
+│   │   │   │   │   ├── simple_board_model.ctr.gfbmdl
+│   │   │   │   │   └── simple_dummy_tex.ctr.btex
+│   │   │   │   └── wingl/
+│   │   │   │       ├── Comb1_Manual.wingl.gfbfsh
+│   │   │   │       ├── FillScrean.wingl.gfbvsh
+│   │   │   │       ├── simple_board_model.wingl.gfbmdl
+│   │   │   │       └── simple_dummy_tex.wingl.btex
+│   │   │   ├── conv.bat
+│   │   │   └── exports/
+│   │   │       ├── Shaders/
+│   │   │       │   ├── Comb1_Manual.gffsh
+│   │   │       │   └── FillScrean.gfvsh
+│   │   │       ├── simple_board_model.gfmdl
+│   │   │       └── Textures/
+│   │   │           └── simple_dummy_tex.tga
+│   │   ├── simple_dummy_tex.tga
+│   │   ├── ビルドメモ.txt
+│   │   └── 手動修正メモ.txt
+│   └── tr0001_TtopsHlm.tga
+├── Sample/
+│   ├── CollisionModelConverter/
+│   │   ├── assert_log.txt
+│   │   ├── attribute_xml.xml
+│   │   ├── CollisionModelConverter.exe
+│   │   ├── CollisionModelConverter.vcxproj
+│   │   ├── CollisionModelConverter.zip
+│   │   ├── conv.bat
+│   │   ├── island1_01.gfmdl
+│   │   ├── main.cpp
+│   │   ├── map.gfbcol
+│   │   ├── map.gfmdl
+│   │   ├── map_height_yuka.gfbcol
+│   │   ├── nozomusankaramoratta_island1_01.gfmdl
+│   │   ├── TestColorG.gfbcol
+│   │   ├── TestColorG.gfmdl
+│   │   ├── w_test01__floor.gfbcol
+│   │   ├── w_test01__floor.gfbcol attribute_xml.xml
+│   │   └── w_test01__floor.gfmdl
+│   ├── ColorShaderPipeLine/
+│   │   ├── ColorShaderPipeLine.vcxproj
+│   │   ├── main.cpp
+│   │   ├── MyRenderingPipeLine.cpp
+│   │   └── MyRenderingPipeLine.h
+│   ├── CustomPipeLine/
+│   │   ├── CustomPipeLine.vcxproj
+│   │   ├── CustomPipeLine.vcxproj.filters
+│   │   ├── main.cpp
+│   │   ├── MyRenderingPipeLine.cpp
+│   │   └── MyRenderingPipeLine.h
+│   ├── data/
+│   │   ├── Acc_test_0723/
+│   │   │   ├── hat.gfmdl
+│   │   │   ├── horn.gfmdl
+│   │   │   ├── mustache.gfmdl
+│   │   │   ├── pm0051_00.gfloc
+│   │   │   ├── pm0051_00.gfmdl
+│   │   │   ├── pm0051_00_ba10_waitA01.gfmot
+│   │   │   ├── pm0051_00_scale1.gfloc
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyA00PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyA00PTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyA01PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyA01PTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyA02PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyA02PTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyBPDC_Body.gffsh
+│   │   │   │   ├── BodyBPDC_Body.gfvsh
+│   │   │   │   ├── Eye00PTS_Def_Body.gffsh
+│   │   │   │   ├── Eye00PTS_Def_Body.gfvsh
+│   │   │   │   ├── Eye01PTS_Def_Body.gffsh
+│   │   │   │   ├── Eye01PTS_Def_Body.gfvsh
+│   │   │   │   ├── Eye02PTS_Def_Body.gffsh
+│   │   │   │   ├── Eye02PTS_Def_Body.gfvsh
+│   │   │   │   ├── hat_mat.gffsh
+│   │   │   │   ├── hat_mat.gfvsh
+│   │   │   │   ├── horn_matPDC_pm_tattu_BodyAdd.gffsh
+│   │   │   │   ├── horn_matPDC_pm_tattu_BodyAdd.gfvsh
+│   │   │   │   ├── mustache_matCHARA_人物01.gffsh
+│   │   │   │   ├── mustache_matCHARA_人物01.gfvsh
+│   │   │   │   ├── sunglasses_mat.gffsh
+│   │   │   │   └── sunglasses_mat.gfvsh
+│   │   │   ├── sunglasses.gfmdl
+│   │   │   └── Texture/
+│   │   │       ├── chara_Rim01_01.tga
+│   │   │       ├── Default_Hta_4D.tga
+│   │   │       ├── Default_Lta_10D.tga
+│   │   │       ├── Default_Lta_13D.tga
+│   │   │       ├── Default_Lta_14D.tga
+│   │   │       ├── Default_Lta_15D.tga
+│   │   │       ├── Default_Lta_8D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── hat.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── mustache.tga
+│   │   │       ├── pm0051_00_BodyA1.tga
+│   │   │       ├── pm0051_00_BodyA2.tga
+│   │   │       ├── pm0051_00_BodyAHlm.tga
+│   │   │       ├── pm0051_00_BodyANor.tga
+│   │   │       ├── pm0051_00_BodyB1.tga
+│   │   │       ├── pm0051_00_EyeA1.tga
+│   │   │       ├── pm0051_00_EyeA2.tga
+│   │   │       ├── pm0051_00_EyeAHlm.tga
+│   │   │       ├── pm0051_00_EyeANor.tga
+│   │   │       ├── pm0051_00_Hta.tga
+│   │   │       ├── pm0119_00_Body1.tga
+│   │   │       ├── pm0119_00_BodyHlm.tga
+│   │   │       ├── pm0119_00_BodyNor.tga
+│   │   │       ├── pm0119_00_BodyTattuHta.tga
+│   │   │       └── sunglasses.tga
+│   │   ├── badge/
+│   │   │   ├── badge.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── pointbadgeCHARA_人物01.gffsh
+│   │   │   │   └── pointbadgeCHARA_人物01.gfvsh
+│   │   │   └── Textures/
+│   │   │       └── pointbadge.tga
+│   │   ├── BloomAdd.gffsh
+│   │   ├── BloomAdd.gfvsh
+│   │   ├── BloomAlphaMask.tga
+│   │   ├── BloomBlur.gffsh
+│   │   ├── BloomBlur.gfvsh
+│   │   ├── BloomLuminance.gffsh
+│   │   ├── BloomLuminance.gfvsh
+│   │   ├── BloomScale.gffsh
+│   │   ├── BloomScale.gfvsh
+│   │   ├── ColorShaderGfmdl/
+│   │   │   ├── colorshaderplane.gfmdl
+│   │   │   ├── Shaders/
+│   │   │   │   ├── Comb1_Manual.gffsh
+│   │   │   │   └── Comb1_Manual.gfvsh
+│   │   │   └── Textures/
+│   │   │       └── colorshadertexture.tga
+│   │   ├── earth/
+│   │   │   ├── pSphere1.gfmdl
+│   │   │   ├── pSphere1dx.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── Comb3.frag
+│   │   │   │   ├── Comb3.gffsh
+│   │   │   │   ├── Comb3.gfvsh
+│   │   │   │   └── Comb3.vert
+│   │   │   └── Texture/
+│   │   │       └── color.tga
+│   │   ├── earth_/
+│   │   │   ├── pSphere1.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── Comb3.gffsh
+│   │   │   │   └── Comb3.gfvsh
+│   │   │   └── Texture/
+│   │   │       └── color.tga
+│   │   ├── EdgeMap.gffsh
+│   │   ├── EdgeMap.gfvsh
+│   │   ├── EnvTestMap/
+│   │   │   ├── DrawEnvTest.gfenv
+│   │   │   ├── DrawEnvTest.gfmdl
+│   │   │   ├── DrawEnvTest.gfmot
+│   │   │   ├── Shader/
+│   │   │   │   ├── kokage4_Manual.gffsh
+│   │   │   │   ├── kokage4_Manual.gfvsh
+│   │   │   │   ├── MAPデフォルト01.gffsh
+│   │   │   │   ├── MAPデフォルト01.gfvsh
+│   │   │   │   ├── MAPデフォルト01＋カラースペキュラー.gffsh
+│   │   │   │   ├── MAPデフォルト01＋カラースペキュラー.gfvsh
+│   │   │   │   ├── MAPデフォルト01＋スペキュラーMAP.gffsh
+│   │   │   │   ├── MAPデフォルト01＋スペキュラーMAP.gfvsh
+│   │   │   │   ├── MAPデフォルト01＋フレネル.gffsh
+│   │   │   │   ├── MAPデフォルト01＋フレネル.gfvsh
+│   │   │   │   ├── MAP影.gffsh
+│   │   │   │   ├── MAP影.gfvsh
+│   │   │   │   ├── MAP水01.gffsh
+│   │   │   │   ├── MAP水01.gfvsh
+│   │   │   │   ├── MAP窓.gffsh
+│   │   │   │   └── MAP窓.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── c_fence1.tga
+│   │   │       ├── c_fence1_s.tga
+│   │   │       ├── c_fencekg1.tga
+│   │   │       ├── com_chip_mado1.tga
+│   │   │       ├── com_kaze.tga
+│   │   │       ├── com_kaze_s.tga
+│   │   │       ├── com_kusa.tga
+│   │   │       ├── com_kusa_table2_t.tga
+│   │   │       ├── grass3_s.tga
+│   │   │       ├── h00_jarib.tga
+│   │   │       ├── h00_jaric.tga
+│   │   │       ├── han_grass_v01.tga
+│   │   │       ├── han_grass_v01_s.tga
+│   │   │       ├── han_treea_b.tga
+│   │   │       ├── han_treea_b_s.tga
+│   │   │       ├── itosugi_01b.tga
+│   │   │       ├── iwa00.tga
+│   │   │       ├── iwa00_s.tga
+│   │   │       ├── iwa01.tga
+│   │   │       ├── kinoha00.tga
+│   │   │       ├── kokage1.tga
+│   │   │       ├── kokage3.tga
+│   │   │       ├── kusa01.tga
+│   │   │       ├── kusa01_s.tga
+│   │   │       ├── lag_t.tga
+│   │   │       ├── ohanas2.tga
+│   │   │       ├── platan_bk.tga
+│   │   │       ├── platan_rf.tga
+│   │   │       ├── r02_sigemi.tga
+│   │   │       ├── suna01a_b.tga
+│   │   │       ├── t01_f.tga
+│   │   │       ├── t01_hana05.tga
+│   │   │       ├── t01_kabe01.tga
+│   │   │       ├── t01_kadan00.tga
+│   │   │       ├── t01_kusa.tga
+│   │   │       ├── t01_road_a.tga
+│   │   │       ├── t01_road_b.tga
+│   │   │       ├── t01_road_e.tga
+│   │   │       ├── t01_road_g.tga
+│   │   │       ├── t01_yaneaji00.tga
+│   │   │       ├── ts_kabe01.tga
+│   │   │       └── ts_kabe02.tga
+│   │   ├── FillDraw.sh
+│   │   ├── kisekae/
+│   │   │   ├── Shader/
+│   │   │   │   ├── Bchara_hlight02バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight02バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight03バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight03バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight04バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight04バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight05バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight05バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── ob0204_00.gffsh
+│   │   │   │   ├── ob0204_00.gfvsh
+│   │   │   │   ├── ob0204_00バトルモンスターボールシェーダー.gffsh
+│   │   │   │   ├── ob0204_00バトルモンスターボールシェーダー.gfvsh
+│   │   │   │   ├── ob0204_01.gffsh
+│   │   │   │   ├── ob0204_01.gfvsh
+│   │   │   │   ├── ob0204_01バトルモンスターボールシェーダー.gffsh
+│   │   │   │   ├── ob0204_01バトルモンスターボールシェーダー.gfvsh
+│   │   │   │   ├── skiningTest.gfvsh
+│   │   │   │   ├── tr0001_eyeバトルキャラシェーダー.gffsh
+│   │   │   │   ├── tr0001_eyeバトルキャラシェーダー.gfvsh
+│   │   │   │   ├── tr0001_faceバトルキャラシェーダー.gffsh
+│   │   │   │   ├── tr0001_faceバトルキャラシェーダー.gfvsh
+│   │   │   │   ├── tr0001_Ttops.gffsh
+│   │   │   │   ├── tr0001_TtopsCHARA_着せ替え01.gffsh
+│   │   │   │   └── tr0001_TtopsCHARA_着せ替え01.gfvsh
+│   │   │   ├── Texture/
+│   │   │   │   ├── Bchara_Hta00.tga
+│   │   │   │   ├── Bchara_Hta01.tga
+│   │   │   │   ├── Bchara_Hta03.tga
+│   │   │   │   ├── Bchara_Tta01.tga
+│   │   │   │   ├── Bchara_Tta02.tga
+│   │   │   │   ├── Bchara_Tta05.tga
+│   │   │   │   ├── Bmball_shade01.tga
+│   │   │   │   ├── chara_Hta1D.tga
+│   │   │   │   ├── chara_Rim00.tga
+│   │   │   │   ├── chara_Rim01_01.tga
+│   │   │   │   ├── chara_Rim02_01.tga
+│   │   │   │   ├── Default_Lta_15D.tga
+│   │   │   │   ├── linearTable.tga
+│   │   │   │   ├── LinerTable.tga
+│   │   │   │   ├── ob0204_00.tga
+│   │   │   │   ├── tr0001_boots.tga
+│   │   │   │   ├── tr0001_btms_br.tga
+│   │   │   │   ├── tr0001_eye.tga
+│   │   │   │   ├── tr0001_face.tga
+│   │   │   │   ├── tr0001_hair_bl.tga
+│   │   │   │   ├── tr0001_hat.tga
+│   │   │   │   ├── tr0001_Ttops.tga
+│   │   │   │   ├── tr0001_TtopsHlm.tga
+│   │   │   │   ├── tr0001_TtopsNor.tga
+│   │   │   │   └── wcs2014_mark.tga
+│   │   │   ├── Textures/
+│   │   │   │   ├── Bmball_shade01.tga
+│   │   │   │   ├── chara_Rim00.tga
+│   │   │   │   ├── chara_Rim01_01.tga
+│   │   │   │   ├── chara_Rim02_01.tga
+│   │   │   │   ├── msball_mark.tga
+│   │   │   │   ├── ob0204_00.tga
+│   │   │   │   ├── tr0001_boots.tga
+│   │   │   │   ├── tr0001_btms_br.tga
+│   │   │   │   ├── tr0001_eye.tga
+│   │   │   │   ├── tr0001_face.tga
+│   │   │   │   ├── tr0001_hair_bl.tga
+│   │   │   │   ├── tr0001_hat.tga
+│   │   │   │   ├── tr0001_Ttops.tga
+│   │   │   │   ├── tr0001_TtopsNor.tga
+│   │   │   │   └── wcs2014_mark.tga
+│   │   │   └── tr0001_01.gfmdl
+│   │   ├── KujiraEdgeMap.gffsh
+│   │   ├── KujiraEdgeMap.gfvsh
+│   │   ├── KujiraOutLine.gffsh
+│   │   ├── KujiraOutLine.gfvsh
+│   │   ├── KujiraOutLine.sh
+│   │   ├── mustache/
+│   │   │   ├── mustache.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── mustache_matCHARA_人物01.gffsh
+│   │   │   │   └── mustache_matCHARA_人物01.gfvsh
+│   │   │   └── Textures/
+│   │   │       ├── chara_Rim01_01.tga
+│   │   │       └── mustache.tga
+│   │   ├── OutLine.sh
+│   │   ├── pm0001_00/
+│   │   │   ├── buturi01.gfmot
+│   │   │   ├── pm0001_00.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyAPTS_Def_Body.gffsh
+│   │   │   │   ├── BodyAPTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyBPTS_Def_Body.gffsh
+│   │   │   │   ├── BodyBPTS_Def_Body.gfvsh
+│   │   │   │   ├── EyePTS_Def_Body.gffsh
+│   │   │   │   ├── EyePTS_Def_Body.gfvsh
+│   │   │   │   ├── LIrisPDC_Def_Iris_Tra.gffsh
+│   │   │   │   ├── LIrisPDC_Def_Iris_Tra.gfvsh
+│   │   │   │   ├── RIrisPDC_Def_Iris_Tra.gffsh
+│   │   │   │   └── RIrisPDC_Def_Iris_Tra.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_15D.tga
+│   │   │       ├── Default_Lta_7D.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0001_00_BodyA1.tga
+│   │   │       ├── pm0001_00_BodyA2.tga
+│   │   │       ├── pm0001_00_BodyAHlm.tga
+│   │   │       ├── pm0001_00_BodyANor.tga
+│   │   │       ├── pm0001_00_BodyB1.tga
+│   │   │       ├── pm0001_00_BodyB2.tga
+│   │   │       ├── pm0001_00_BodyBHlm.tga
+│   │   │       ├── pm0001_00_BodyBNor.tga
+│   │   │       ├── pm0001_00_Eye1.tga
+│   │   │       ├── pm0001_00_Eye2.tga
+│   │   │       ├── pm0001_00_EyeHlm.tga
+│   │   │       ├── pm0001_00_EyeNor.tga
+│   │   │       ├── pm0001_00_Hta.tga
+│   │   │       ├── pm0001_00_Iris1.tga
+│   │   │       └── pm0001_00_Iris2.tga
+│   │   ├── pm0006_00_lizardon/
+│   │   │   ├── pm0006_00.gfmdl
+│   │   │   ├── pm0006_00_ba20_buturi01.gfmot
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyAPDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyAPDC_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyB00PTS_Body_Shadow.gffsh
+│   │   │   │   ├── BodyB00PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── BodyB01PDC_Body_Shadow.gffsh
+│   │   │   │   ├── BodyB01PDC_Body_Shadow.gfvsh
+│   │   │   │   ├── EyePDC_Body_Shadow.gffsh
+│   │   │   │   ├── EyePDC_Body_Shadow.gfvsh
+│   │   │   │   ├── FireCoreAFireCore_FireWing.gffsh
+│   │   │   │   ├── FireCoreAFireCore_FireWing.gfvsh
+│   │   │   │   ├── FireStenAFireSten_lizardon.gffsh
+│   │   │   │   └── FireStenAFireSten_lizardon.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_12D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── FireCoreA1.tga
+│   │   │       ├── FireCoreA2.tga
+│   │   │       ├── FireStenA1.tga
+│   │   │       ├── FireStenA2.tga
+│   │   │       ├── FireStenAMask.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0006_00_BodyA1.tga
+│   │   │       ├── pm0006_00_BodyAHlm.tga
+│   │   │       ├── pm0006_00_BodyANor.tga
+│   │   │       ├── pm0006_00_BodyB1.tga
+│   │   │       ├── pm0006_00_BodyB2.tga
+│   │   │       ├── pm0006_00_BodyBHlm.tga
+│   │   │       ├── pm0006_00_BodyBNor.tga
+│   │   │       ├── pm0006_00_Eye1.tga
+│   │   │       ├── pm0006_00_EyeHlm.tga
+│   │   │       ├── pm0006_00_EyeNor.tga
+│   │   │       ├── pm0006_00_Hta.tga
+│   │   │       └── pm0006_00_Lta.tga
+│   │   ├── pm0016_00_poppo/
+│   │   │   ├── land.gfmot
+│   │   │   ├── pm0016_00_poppo.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── Body00PTS_Body_Shadow.gffsh
+│   │   │   │   ├── Body00PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── Body01PTS_Body_Shadow.gffsh
+│   │   │   │   ├── Body01PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── Body02PTS_Body_Shadow.gffsh
+│   │   │   │   ├── Body02PTS_Body_Shadow.gfvsh
+│   │   │   │   ├── EyePTS_Body_Shadow.gffsh
+│   │   │   │   └── EyePTS_Body_Shadow.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_10D.tga
+│   │   │       ├── Default_Lta_7D.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0016_00_Body1.tga
+│   │   │       ├── pm0016_00_Body2.tga
+│   │   │       ├── pm0016_00_BodyHlm.tga
+│   │   │       ├── pm0016_00_BodyNor.tga
+│   │   │       ├── pm0016_00_Eye1.tga
+│   │   │       ├── pm0016_00_Eye2.tga
+│   │   │       ├── pm0016_00_EyeHlm.tga
+│   │   │       ├── pm0016_00_EyeNor.tga
+│   │   │       ├── pm0016_00_Hta.tga
+│   │   │       └── pm0016_00_Lta.tga
+│   │   ├── pm0017_00_pigeon/
+│   │   │   ├── pm0017.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyA00PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyA00PTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyA01PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyA01PTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyAVcoPTS_Def_Body.gffsh
+│   │   │   │   ├── BodyAVcoPTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyB00PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyB00PTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyB01PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyB01PTS_Def_Body.gfvsh
+│   │   │   │   ├── EyePTS_Def_Body.gffsh
+│   │   │   │   ├── EyePTS_Def_Body.gfvsh
+│   │   │   │   ├── LIrisPDC_Def_Iris_Tra.gffsh
+│   │   │   │   ├── LIrisPDC_Def_Iris_Tra.gfvsh
+│   │   │   │   ├── RIrisPDC_Def_Iris_Tra.gffsh
+│   │   │   │   ├── RIrisPDC_Def_Iris_Tra.gfvsh
+│   │   │   │   └── skiningTest.gfvsh
+│   │   │   ├── Texture/
+│   │   │   │   ├── Default_Lta_8D.tga
+│   │   │   │   ├── LinerTable.tga
+│   │   │   │   ├── pm0017_00_BodyA1.tga
+│   │   │   │   ├── pm0017_00_BodyA2.tga
+│   │   │   │   ├── pm0017_00_BodyAHlm.tga
+│   │   │   │   ├── pm0017_00_BodyANor.tga
+│   │   │   │   ├── pm0017_00_BodyB1.tga
+│   │   │   │   ├── pm0017_00_BodyB2.tga
+│   │   │   │   ├── pm0017_00_BodyBHlm.tga
+│   │   │   │   ├── pm0017_00_BodyBNor.tga
+│   │   │   │   ├── pm0017_00_Eye1.tga
+│   │   │   │   ├── pm0017_00_Eye2.tga
+│   │   │   │   ├── pm0017_00_EyeHlm.tga
+│   │   │   │   ├── pm0017_00_EyeNor.tga
+│   │   │   │   ├── pm0017_00_Hta.tga
+│   │   │   │   ├── pm0017_00_Iris1.tga
+│   │   │   │   ├── pm0017_00_Iris2.tga
+│   │   │   │   └── pm0017_00_Lta.tga
+│   │   │   └── wait.gfmot
+│   │   ├── pm0025_00/
+│   │   │   ├── pm0025_00.ctr.gfbmdl
+│   │   │   ├── pm0025_00.gfbmot
+│   │   │   ├── pm0025_00.gfmdl
+│   │   │   ├── pm0025_00.gfmot
+│   │   │   ├── pm0025_00.wingl.gfbmdl
+│   │   │   ├── pm0025_00_ba10_waitA01.gfbmot
+│   │   │   ├── pm0025_00_ba10_waitA01.gfmot
+│   │   │   ├── pm0025_00_kw01_wait01.gfbmot
+│   │   │   ├── pm0025_00_kw01_wait01.gfmot
+│   │   │   ├── Shaders/
+│   │   │   │   ├── PDC_Body_Shadow.ctr.gfbfsh
+│   │   │   │   ├── PDC_Body_Shadow.gffsh
+│   │   │   │   ├── PDC_Body_Shadow.wingl.gfbfsh
+│   │   │   │   ├── PDC_pm_keikouo_Neon.ctr.gfbfsh
+│   │   │   │   ├── PDC_pm_keikouo_Neon.gffsh
+│   │   │   │   ├── PDC_pm_keikouo_Neon.wingl.gfbfsh
+│   │   │   │   ├── PokeNormal.ctr.gfbvsh
+│   │   │   │   ├── PokeNormal.gfvsh
+│   │   │   │   └── PokeNormal.wingl.gfbvsh
+│   │   │   └── Textures/
+│   │   │       ├── Default_Lta_10D.tga
+│   │   │       ├── Default_Lta_10D.wingl.btex
+│   │   │       ├── DummyTex.ctr.btex
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── DummyTex.wingl.btex
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── LinerTable.wingl.btex
+│   │   │       ├── pm0025_00_BodyA1.ctr.btex
+│   │   │       ├── pm0025_00_BodyA1.tga
+│   │   │       ├── pm0025_00_BodyA1.wingl.btex
+│   │   │       ├── pm0025_00_BodyAHlm.tga
+│   │   │       ├── pm0025_00_BodyAHlm.wingl.btex
+│   │   │       ├── pm0025_00_BodyALta.tga
+│   │   │       ├── pm0025_00_BodyALta.wingl.btex
+│   │   │       ├── pm0025_00_BodyANor.ctr.btex
+│   │   │       ├── pm0025_00_BodyANor.tga
+│   │   │       ├── pm0025_00_BodyANor.wingl.btex
+│   │   │       ├── pm0025_00_BodyB1.ctr.btex
+│   │   │       ├── pm0025_00_BodyB1.tga
+│   │   │       ├── pm0025_00_BodyB1.wingl.btex
+│   │   │       ├── pm0025_00_BodyBHlm.tga
+│   │   │       ├── pm0025_00_BodyBHlm.wingl.btex
+│   │   │       ├── pm0025_00_BodyBInc.ctr.btex
+│   │   │       ├── pm0025_00_BodyBInc.tga
+│   │   │       ├── pm0025_00_BodyBInc.wingl.btex
+│   │   │       ├── pm0025_00_BodyBNor.ctr.btex
+│   │   │       ├── pm0025_00_BodyBNor.tga
+│   │   │       ├── pm0025_00_BodyBNor.wingl.btex
+│   │   │       ├── pm0025_00_Eye1.ctr.btex
+│   │   │       ├── pm0025_00_Eye1.tga
+│   │   │       ├── pm0025_00_Eye1.wingl.btex
+│   │   │       ├── pm0025_00_EyeHlm.tga
+│   │   │       ├── pm0025_00_EyeHlm.wingl.btex
+│   │   │       ├── pm0025_00_EyeNor.ctr.btex
+│   │   │       ├── pm0025_00_EyeNor.tga
+│   │   │       ├── pm0025_00_EyeNor.wingl.btex
+│   │   │       ├── pm0025_00_Hta.tga
+│   │   │       ├── pm0025_00_Hta.wingl.btex
+│   │   │       ├── pm0025_00_Mouth1.ctr.btex
+│   │   │       ├── pm0025_00_Mouth1.tga
+│   │   │       ├── pm0025_00_Mouth1.wingl.btex
+│   │   │       ├── pm0025_00_MouthHlm.tga
+│   │   │       ├── pm0025_00_MouthHlm.wingl.btex
+│   │   │       ├── pm0025_00_MouthNor.ctr.btex
+│   │   │       ├── pm0025_00_MouthNor.tga
+│   │   │       └── pm0025_00_MouthNor.wingl.btex
+│   │   ├── pm0025_00_ba10_waitA01.bgfmot
+│   │   ├── pm0025_00_ba20_buturi01.bgfmot
+│   │   ├── pm0092_00_ghos/
+│   │   │   ├── pm0092_00.mb.gfmdl
+│   │   │   ├── pm0092_00.mb.gfmot
+│   │   │   ├── Shader/
+│   │   │   │   ├── FireCore_ghos.gffsh
+│   │   │   │   ├── FireCore_ghos.gfvsh
+│   │   │   │   ├── FireGeom_ghos.gffsh
+│   │   │   │   ├── FireGeom_ghos.gfgsh
+│   │   │   │   ├── FireGeom_ghos.gfvsh
+│   │   │   │   ├── FireSten_ghos.gffsh
+│   │   │   │   ├── FireSten_ghos.gfvsh
+│   │   │   │   ├── PDC_pm_ghos_BodyAdd.gffsh
+│   │   │   │   ├── PDC_pm_ghos_BodyAdd.gfvsh
+│   │   │   │   ├── PDC_pm_ghos_Iris_Tra.gffsh
+│   │   │   │   └── PDC_pm_ghos_Iris_Tra.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_10D.tga
+│   │   │       ├── Default_SpcLta_8D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0092_00_Body00Hta.tga
+│   │   │       ├── pm0092_00_Body01Hta.tga
+│   │   │       ├── pm0092_00_Body1.tga
+│   │   │       ├── pm0092_00_BodyHlm.tga
+│   │   │       ├── pm0092_00_BodyNor.tga
+│   │   │       ├── pm0092_00_Eye1.tga
+│   │   │       ├── pm0092_00_EyeHlm.tga
+│   │   │       ├── pm0092_00_EyeNor.tga
+│   │   │       ├── pm0092_00_FireGeomA.tga
+│   │   │       ├── pm0092_00_FireStenA.tga
+│   │   │       ├── pm0092_00_FireStenMask.tga
+│   │   │       ├── pm0092_00_Iris1.tga
+│   │   │       └── pm0092_00_Iris2.tga
+│   │   ├── pm0094/
+│   │   │   ├── pm0094_51.mb.gfmdl
+│   │   │   ├── pm0094_51.mb.gfmot
+│   │   │   ├── Shader/
+│   │   │   │   ├── PDC_pm_megagangar_Body.gffsh
+│   │   │   │   ├── PDC_pm_megagangar_Body.gfvsh
+│   │   │   │   ├── PDC_pm_megagangar_Mask.gffsh
+│   │   │   │   └── PDC_pm_megagangar_Mask.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Black.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0094_51_BodyA1.tga
+│   │   │       ├── pm0094_51_BodyAHlm.tga
+│   │   │       ├── pm0094_51_BodyANor.tga
+│   │   │       ├── pm0094_51_BodyB1.tga
+│   │   │       ├── pm0094_51_BodyBHlm.tga
+│   │   │       ├── pm0094_51_BodyBNor.tga
+│   │   │       ├── pm0094_51_BodyLta.tga
+│   │   │       ├── pm0094_51_BodyMask.tga
+│   │   │       ├── pm0094_51_Eye1.tga
+│   │   │       ├── pm0094_51_EyeHlm.tga
+│   │   │       └── pm0094_51_EyeNor.tga
+│   │   ├── pm0579_00_lanculus/
+│   │   │   ├── pm0579_00.gfmdl
+│   │   │   ├── pm0579_00_ba10_waitA01.gfmot
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyIde00PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyIde00PTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyIde01PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyIde01PTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyIde02PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyIde02PTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyIde03PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyIde03PTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyIde04PTS_Def_Body.gffsh
+│   │   │   │   ├── BodyIde04PTS_Def_Body.gfvsh
+│   │   │   │   ├── BodyUniran_Cell_BackPDC_pm_uniran_Cell.gffsh
+│   │   │   │   ├── BodyUniran_Cell_BackPDC_pm_uniran_Cell.gfvsh
+│   │   │   │   ├── BodyUniran_Cell_FrontPDC_pm_uniran_Cell.gffsh
+│   │   │   │   ├── BodyUniran_Cell_FrontPDC_pm_uniran_Cell.gfvsh
+│   │   │   │   ├── EyePTS_Def_Body.gffsh
+│   │   │   │   └── EyePTS_Def_Body.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Black.tga
+│   │   │       ├── Default_Lta_15D.tga
+│   │   │       ├── Default_Lta_6D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0579_00_BodyA1.tga
+│   │   │       ├── pm0579_00_BodyA2.tga
+│   │   │       ├── pm0579_00_BodyAHlm.tga
+│   │   │       ├── pm0579_00_BodyANor.tga
+│   │   │       ├── pm0579_00_BodyB1.tga
+│   │   │       ├── pm0579_00_BodyB2.tga
+│   │   │       ├── pm0579_00_BodyUniran_CellHta.tga
+│   │   │       ├── pm0579_00_BodyUniran_CellLta.tga
+│   │   │       ├── pm0579_00_Eye1.tga
+│   │   │       ├── pm0579_00_Eye2.tga
+│   │   │       ├── pm0579_00_EyeHlm.tga
+│   │   │       └── pm0579_00_EyeNor.tga
+│   │   ├── pm0772/
+│   │   │   ├── pm0772_51.gfmdl
+│   │   │   ├── pm0772_51_ba20_buturi01.gfmot
+│   │   │   ├── Shader/
+│   │   │   │   ├── BodyADesukarnVcoPDC_pm_desukarn_Env.gffsh
+│   │   │   │   ├── BodyADesukarnVcoPDC_pm_desukarn_Env.gfvsh
+│   │   │   │   ├── BodyAIncPDC_pm_reshiram_BodyInc_BodyShadow.gffsh
+│   │   │   │   ├── BodyAIncPDC_pm_reshiram_BodyInc_BodyShadow.gfvsh
+│   │   │   │   ├── BodyAIncVcoPDC_pm_reshiram_BodyInc_BodyShadow.gffsh
+│   │   │   │   ├── BodyAIncVcoPDC_pm_reshiram_BodyInc_BodyShadow.gfvsh
+│   │   │   │   ├── BodyBIncVco_omoPDC_pm_megadiancie_veil.gffsh
+│   │   │   │   ├── BodyBIncVco_omoPDC_pm_megadiancie_veil.gfvsh
+│   │   │   │   ├── BodyBIncVco_uraPDC_pm_megadiancie_veil.gffsh
+│   │   │   │   ├── BodyBIncVco_uraPDC_pm_megadiancie_veil.gfvsh
+│   │   │   │   ├── BodyDiaPink00PDC_pm_megadiancie_Dia.gffsh
+│   │   │   │   ├── BodyDiaPink00PDC_pm_megadiancie_Dia.gfvsh
+│   │   │   │   ├── BodyDiaPink_TransPDC_pm_megadiancie_Dia.gffsh
+│   │   │   │   ├── BodyDiaPink_TransPDC_pm_megadiancie_Dia.gfvsh
+│   │   │   │   ├── BodyDiaRed00PDC_pm_megadiancie_Dia.gffsh
+│   │   │   │   ├── BodyDiaRed00PDC_pm_megadiancie_Dia.gfvsh
+│   │   │   │   ├── EyePDC_Body_Shadow.gffsh
+│   │   │   │   ├── EyePDC_Body_Shadow.gfvsh
+│   │   │   │   ├── MouthPDC_Body.gffsh
+│   │   │   │   └── MouthPDC_Body.gfvsh
+│   │   │   └── Texture/
+│   │   │       ├── Default_Lta_15D.tga
+│   │   │       ├── Default_Lta_5D.tga
+│   │   │       ├── Default_SpcLta_10D.tga
+│   │   │       ├── DummyTex.tga
+│   │   │       ├── LinerTable.tga
+│   │   │       ├── pm0772_51_BodyA1.tga
+│   │   │       ├── pm0772_51_BodyAHlm.tga
+│   │   │       ├── pm0772_51_BodyAMask.tga
+│   │   │       ├── pm0772_51_BodyANor.tga
+│   │   │       ├── pm0772_51_BodyB1.tga
+│   │   │       ├── pm0772_51_BodyBMask.tga
+│   │   │       ├── pm0772_51_BodyBVeil_Hta.tga
+│   │   │       ├── pm0772_51_BodyBVeil_Lta.tga
+│   │   │       ├── pm0772_51_BodyDiaLta.tga
+│   │   │       ├── pm0772_51_BodyDiaOffsetLta.tga
+│   │   │       ├── pm0772_51_DesukarnEnv.tga
+│   │   │       ├── pm0772_51_DiaEnv.tga
+│   │   │       ├── pm0772_51_DiaEnv2.tga
+│   │   │       ├── pm0772_51_DiaEnvMask.tga
+│   │   │       ├── pm0772_51_Eye1.tga
+│   │   │       ├── pm0772_51_EyeHlm.tga
+│   │   │       ├── pm0772_51_EyeNor.tga
+│   │   │       ├── pm0772_51_Hta.tga
+│   │   │       ├── pm0772_51_Mouth1.tga
+│   │   │       ├── pm0772_51_MouthHlm.tga
+│   │   │       ├── pm0772_51_MouthNor.tga
+│   │   │       └── pm0772_51_SpcHta.tga
+│   │   ├── ribon/
+│   │   │   ├── ribon.gfmdl
+│   │   │   ├── Shader/
+│   │   │   │   ├── sample_matCHARA_人物01.gffsh
+│   │   │   │   └── sample_matCHARA_人物01.gfvsh
+│   │   │   └── Textures/
+│   │   │       ├── chara_Rim01_01.tga
+│   │   │       └── ribbon.tga
+│   │   ├── tr0001/
+│   │   │   ├── Shader/
+│   │   │   │   ├── _tr0001_Ttops.gffsh
+│   │   │   │   ├── Bchara_hlight02バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight02バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight03バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight03バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight04バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight04バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight05バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight05バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight06バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight06バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── ob0204_00バトルモンスターボールシェーダー.gffsh
+│   │   │   │   ├── ob0204_00バトルモンスターボールシェーダー.gfvsh
+│   │   │   │   ├── ob0204_01バトルモンスターボールシェーダー.gffsh
+│   │   │   │   ├── ob0204_01バトルモンスターボールシェーダー.gfvsh
+│   │   │   │   ├── tr0001_eyeバトルキャラシェーダー.gffsh
+│   │   │   │   ├── tr0001_eyeバトルキャラシェーダー.gfvsh
+│   │   │   │   ├── tr0001_faceバトルキャラシェーダー.gffsh
+│   │   │   │   ├── tr0001_faceバトルキャラシェーダー.gfvsh
+│   │   │   │   ├── tr0001_Ttops.gffsh
+│   │   │   │   └── tr0001_Ttops.gfvsh
+│   │   │   ├── Shaders/
+│   │   │   │   ├── Bchara_hlight02バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight02バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight03バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight03バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight04バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight04バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight05バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight05バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight06バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight06バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── ob0204_00バトルモンスターボールシェーダー.gffsh
+│   │   │   │   ├── ob0204_00バトルモンスターボールシェーダー.gfvsh
+│   │   │   │   ├── ob0204_01バトルモンスターボールシェーダー.gffsh
+│   │   │   │   ├── ob0204_01バトルモンスターボールシェーダー.gfvsh
+│   │   │   │   ├── tr0001_eyeバトルキャラシェーダー.gffsh
+│   │   │   │   ├── tr0001_eyeバトルキャラシェーダー.gfvsh
+│   │   │   │   ├── tr0001_faceバトルキャラシェーダー.gffsh
+│   │   │   │   ├── tr0001_faceバトルキャラシェーダー.gfvsh
+│   │   │   │   ├── tr0001_Ttops.gffsh
+│   │   │   │   └── tr0001_Ttops.gfvsh
+│   │   │   ├── Textures/
+│   │   │   │   ├── Bmball_shade01.tga
+│   │   │   │   ├── chara_Hta1D.tga
+│   │   │   │   ├── chara_Rim00.tga
+│   │   │   │   ├── chara_Rim01_01.tga
+│   │   │   │   ├── chara_Rim02_01.tga
+│   │   │   │   ├── Default_Lta_15D.tga
+│   │   │   │   ├── LinerTable.tga
+│   │   │   │   ├── msball_mark.tga
+│   │   │   │   ├── ob0204_00.tga
+│   │   │   │   ├── pika_mark.tga
+│   │   │   │   ├── tr0001_bag.tga
+│   │   │   │   ├── tr0001_bag_gr.tga
+│   │   │   │   ├── tr0001_boots.tga
+│   │   │   │   ├── tr0001_boots_bl.tga
+│   │   │   │   ├── tr0001_btms.tga
+│   │   │   │   ├── tr0001_btms_br.tga
+│   │   │   │   ├── tr0001_eye.tga
+│   │   │   │   ├── tr0001_face.tga
+│   │   │   │   ├── tr0001_hair.tga
+│   │   │   │   ├── tr0001_hair_bl.tga
+│   │   │   │   ├── tr0001_hair_go.tga
+│   │   │   │   ├── tr0001_hat.tga
+│   │   │   │   ├── tr0001_hat_bl.tga
+│   │   │   │   ├── tr0001_tops.tga
+│   │   │   │   ├── tr0001_Ttops.tga
+│   │   │   │   ├── tr0001_Ttops_m.tga
+│   │   │   │   ├── tr0001_TtopsHlm.tga
+│   │   │   │   └── tr0001_TtopsNor.tga
+│   │   │   ├── tr0001.gfmdl
+│   │   │   └── tr0001_tops.gfmdl
+│   │   ├── tr0001_00_hero/
+│   │   │   ├── DrawEnvTest.gfenv
+│   │   │   ├── new/
+│   │   │   │   ├── Shader/
+│   │   │   │   │   ├── tr0001_bag_yeCHARA_trainer01.gffsh
+│   │   │   │   │   ├── tr0001_bag_yeCHARA_trainer01.gfvsh
+│   │   │   │   │   ├── tr0001_boots_reCHARA_trainer01.gffsh
+│   │   │   │   │   ├── tr0001_boots_reCHARA_trainer01.gfvsh
+│   │   │   │   │   ├── tr0001_btms_blCHARA_trainer01.gffsh
+│   │   │   │   │   ├── tr0001_btms_blCHARA_trainer01.gfvsh
+│   │   │   │   │   ├── tr0001_eye.gffsh
+│   │   │   │   │   ├── tr0001_eye.gfvsh
+│   │   │   │   │   ├── tr0001_face02.gffsh
+│   │   │   │   │   ├── tr0001_face02.gfvsh
+│   │   │   │   │   ├── tr0001_hair_brCHARA_trainer01.gffsh
+│   │   │   │   │   ├── tr0001_hair_brCHARA_trainer01.gfvsh
+│   │   │   │   │   ├── tr0001_hat_reCHARA_trainer01.gffsh
+│   │   │   │   │   ├── tr0001_hat_reCHARA_trainer01.gfvsh
+│   │   │   │   │   ├── tr0001_tops_reCHARA_trainer01.gffsh
+│   │   │   │   │   └── tr0001_tops_reCHARA_trainer01.gfvsh
+│   │   │   │   ├── Texture/
+│   │   │   │   │   ├── chara_Hta1D.tga
+│   │   │   │   │   ├── chara_Rim00.tga
+│   │   │   │   │   ├── chara_Rim01_01.tga
+│   │   │   │   │   ├── chara_Rim02_01.tga
+│   │   │   │   │   ├── com_kusa.tga
+│   │   │   │   │   ├── Default_Lta_13D.tga
+│   │   │   │   │   ├── LinerTable.tga
+│   │   │   │   │   ├── tr0001_bag_ye.tga
+│   │   │   │   │   ├── tr0001_bagHlm.tga
+│   │   │   │   │   ├── tr0001_bagNor.tga
+│   │   │   │   │   ├── tr0001_boots_re.tga
+│   │   │   │   │   ├── tr0001_bootsHLM.tga
+│   │   │   │   │   ├── tr0001_bootsNor.tga
+│   │   │   │   │   ├── tr0001_btms_bl.tga
+│   │   │   │   │   ├── tr0001_btmsHlm.tga
+│   │   │   │   │   ├── tr0001_btmsNor.tga
+│   │   │   │   │   ├── tr0001_eye.tga
+│   │   │   │   │   ├── tr0001_eyeHlm.tga
+│   │   │   │   │   ├── tr0001_eyeNor.tga
+│   │   │   │   │   ├── tr0001_face02.tga
+│   │   │   │   │   ├── tr0001_faceHlm.tga
+│   │   │   │   │   ├── tr0001_faceNor.tga
+│   │   │   │   │   ├── tr0001_hair_br.tga
+│   │   │   │   │   ├── tr0001_hairHim.tga
+│   │   │   │   │   ├── tr0001_hairNor.tga
+│   │   │   │   │   ├── tr0001_hat_re.tga
+│   │   │   │   │   ├── tr0001_hatHlm.tga
+│   │   │   │   │   ├── tr0001_hatNor.tga
+│   │   │   │   │   ├── tr0001_tops_re.tga
+│   │   │   │   │   ├── tr0001_topsHlm.tga
+│   │   │   │   │   └── tr0001_topsNor.tga
+│   │   │   │   ├── tr0001_00.gfenv
+│   │   │   │   └── tr0001_00.gfmdl
+│   │   │   └── old/
+│   │   │       ├── Texture/
+│   │   │       │   ├── chara_Hta1D.tga
+│   │   │       │   ├── chara_Rim00.tga
+│   │   │       │   ├── chara_Rim01_01.tga
+│   │   │       │   ├── chara_Rim02_01.tga
+│   │   │       │   ├── com_kusa.tga
+│   │   │       │   ├── Default_Lta_13D.tga
+│   │   │       │   ├── LinerTable.tga
+│   │   │       │   ├── tr0001_bag_ye.tga
+│   │   │       │   ├── tr0001_bagHlm.tga
+│   │   │       │   ├── tr0001_bagNor.tga
+│   │   │       │   ├── tr0001_boots_re.tga
+│   │   │       │   ├── tr0001_bootsHLM.tga
+│   │   │       │   ├── tr0001_bootsNor.tga
+│   │   │       │   ├── tr0001_btms_bl.tga
+│   │   │       │   ├── tr0001_btmsHlm.tga
+│   │   │       │   ├── tr0001_btmsNor.tga
+│   │   │       │   ├── tr0001_eye.tga
+│   │   │       │   ├── tr0001_eyeHlm.tga
+│   │   │       │   ├── tr0001_eyeNor.tga
+│   │   │       │   ├── tr0001_face02.tga
+│   │   │       │   ├── tr0001_faceHlm.tga
+│   │   │       │   ├── tr0001_faceNor.tga
+│   │   │       │   ├── tr0001_hair_br.tga
+│   │   │       │   ├── tr0001_hairHim.tga
+│   │   │       │   ├── tr0001_hairNor.tga
+│   │   │       │   ├── tr0001_hat_re.tga
+│   │   │       │   ├── tr0001_hatHlm.tga
+│   │   │       │   ├── tr0001_hatNor.tga
+│   │   │       │   ├── tr0001_tops_re.tga
+│   │   │       │   ├── tr0001_topsHlm.tga
+│   │   │       │   └── tr0001_topsNor.tga
+│   │   │       ├── tr0001_00.gfenv
+│   │   │       └── tr0001_00.gfmdl
+│   │   ├── tr0001old/
+│   │   │   ├── anim_joint_01.gfmot
+│   │   │   ├── anim_morph_01.gfmot
+│   │   │   ├── run.gfmot
+│   │   │   ├── Shader/
+│   │   │   │   ├── Bchara_hlight02バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight02バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight03バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight03バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight04バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight04バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight05バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight05バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight06バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight06バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── Bchara_hlight07バトルキャラシェーダー.gffsh
+│   │   │   │   ├── Bchara_hlight07バトルキャラシェーダー.gfvsh
+│   │   │   │   ├── ob0204_00FireCore_FireWing.gffsh
+│   │   │   │   ├── ob0204_00FireCore_FireWing.gfvsh
+│   │   │   │   ├── ob0204_00バトルモンスターボールシェーダー.gffsh
+│   │   │   │   ├── ob0204_00バトルモンスターボールシェーダー.gfvsh
+│   │   │   │   ├── ob0204_01FireCore_ghos.gffsh
+│   │   │   │   ├── ob0204_01FireCore_ghos.gfvsh
+│   │   │   │   ├── ob0204_01バトルモンスターボールシェーダー.gffsh
+│   │   │   │   ├── ob0204_01バトルモンスターボールシェーダー.gfvsh
+│   │   │   │   ├── Ref
+│   │   │   │   ├── skiningTest.gfvsh
+│   │   │   │   ├── tr0001_eyeバトルキャラシェーダー.gffsh
+│   │   │   │   ├── tr0001_eyeバトルキャラシェーダー.gfvsh
+│   │   │   │   ├── tr0001_faceバトルキャラシェーダー.gffsh
+│   │   │   │   └── tr0001_faceバトルキャラシェーダー.gfvsh
+│   │   │   ├── Texture/
+│   │   │   │   ├── Bchara_hlight00.tga
+│   │   │   │   ├── Bchara_hlight02.tga
+│   │   │   │   ├── Bchara_hlight03.tga
+│   │   │   │   ├── Bchara_Hta00.tga
+│   │   │   │   ├── Bchara_Hta01.tga
+│   │   │   │   ├── Bchara_Hta03.tga
+│   │   │   │   ├── Bchara_Tta01.tga
+│   │   │   │   ├── Bchara_Tta02.tga
+│   │   │   │   ├── Bchara_Tta05.tga
+│   │   │   │   ├── Bmball_shade01.tga
+│   │   │   │   ├── linearTable.tga
+│   │   │   │   ├── ob0204_00.tga
+│   │   │   │   ├── tr0001_bag.tga
+│   │   │   │   ├── tr0001_boots.tga
+│   │   │   │   ├── tr0001_btms.tga
+│   │   │   │   ├── tr0001_eye.tga
+│   │   │   │   ├── tr0001_face.tga
+│   │   │   │   ├── tr0001_hair.tga
+│   │   │   │   ├── tr0001_hat.tga
+│   │   │   │   └── tr0001_tops.tga
+│   │   │   ├── Textures/
+│   │   │   │   ├── Bchara_hlight00.dds
+│   │   │   │   ├── Bchara_hlight00.tga
+│   │   │   │   ├── Bchara_hlight02.dds
+│   │   │   │   ├── Bchara_hlight02.tga
+│   │   │   │   ├── Bchara_hlight03.dds
+│   │   │   │   ├── Bchara_hlight03.tga
+│   │   │   │   ├── Bmball_shade01.dds
+│   │   │   │   ├── Bmball_shade01.tga
+│   │   │   │   ├── ob0204_00.dds
+│   │   │   │   ├── ob0204_00.tga
+│   │   │   │   ├── tr0001_bag.dds
+│   │   │   │   ├── tr0001_bag.tga
+│   │   │   │   ├── tr0001_boots.dds
+│   │   │   │   ├── tr0001_boots.tga
+│   │   │   │   ├── tr0001_btms.dds
+│   │   │   │   ├── tr0001_btms.tga
+│   │   │   │   ├── tr0001_eye.dds
+│   │   │   │   ├── tr0001_eye.tga
+│   │   │   │   ├── tr0001_face.dds
+│   │   │   │   ├── tr0001_face.tga
+│   │   │   │   ├── tr0001_hair.dds
+│   │   │   │   ├── tr0001_hair.tga
+│   │   │   │   ├── tr0001_hat.dds
+│   │   │   │   ├── tr0001_hat.tga
+│   │   │   │   ├── tr0001_tops.dds
+│   │   │   │   ├── tr0001_tops.tga
+│   │   │   │   ├── tr0001_Ttops.dds
+│   │   │   │   └── tr0001_Ttops.tga
+│   │   │   ├── tr0001morph.gfmdl
+│   │   │   └── tr0001old.gfmdl
+│   │   ├── ts0001_01/
+│   │   │   └── exports/
+│   │   │       ├── Shaders/
+│   │   │       │   ├── Comb2_Manual.gffsh
+│   │   │       │   ├── Comb2_Manual.gfvsh
+│   │   │       │   ├── Comb2_Manual.wingl.gfbfsh
+│   │   │       │   ├── Default.gfvsh
+│   │   │       │   ├── Default.wingl.gfbvsh
+│   │   │       │   └── test.bat
+│   │   │       ├── test.bat
+│   │   │       ├── Textures/
+│   │   │       │   ├── comb_all.bat
+│   │   │       │   ├── proportion_Cf_fi_body.tga
+│   │   │       │   ├── proportion_Cf_fi_body.wingl.btex
+│   │   │       │   ├── ts0001_00_shadow.tga
+│   │   │       │   └── ts0001_00_shadow.wingl.btex
+│   │   │       ├── ts0001_01.gfmdl
+│   │   │       └── ts0001_01.wingl.gfbmdl
+│   │   └── 検証/
+│   │       └── gfmdl/
+│   │           ├── com_block_ikuta_150227.gfmdl
+│   │           ├── com_block_ikuta_150227.wingl.gfbmdl
+│   │           ├── Shaders/
+│   │           │   ├── com1_rp_02_f_Manual.gffsh
+│   │           │   ├── com1_rp_02_f_Manual.gfvsh
+│   │           │   ├── com1_rp_02_f_Manual.wingl.gfbfsh
+│   │           │   ├── com1_rp_02_f_Manual.wingl.gfbvsh
+│   │           │   ├── comb_all.bat
+│   │           │   ├── light_Manual.gffsh
+│   │           │   ├── light_Manual.gfvsh
+│   │           │   ├── light_Manual.wingl.gfbfsh
+│   │           │   └── light_Manual.wingl.gfbvsh
+│   │           ├── test.bat
+│   │           └── Textures/
+│   │               ├── com1_rp_02_f.tga
+│   │               ├── com1_rp_02_f.wingl.tex
+│   │               ├── com1_rp_04_f2.tga
+│   │               ├── com1_rp_04_f2.wingl.tex
+│   │               ├── comb_all.bat
+│   │               ├── light.tga
+│   │               ├── light.wingl.tex
+│   │               ├── testout5_arp03.tga
+│   │               └── testout5_arp03.wingl.tex
+│   ├── DebugJointRender/
+│   │   ├── DebugJointRender.vcxproj
+│   │   ├── DebugJointRender.vcxproj.filters
+│   │   ├── main.cpp
+│   │   ├── MyRenderingPipeLine.cpp
+│   │   └── MyRenderingPipeLine.h
+│   ├── DebugTreeView/
+│   │   ├── DebugTreeView.vcxproj
+│   │   ├── DebugTreeView.vcxproj.filters
+│   │   ├── DebugWindow.cpp
+│   │   ├── DebugWindow.h
+│   │   ├── main.cpp
+│   │   ├── MyRenderingPipeLine.cpp
+│   │   └── MyRenderingPipeLine.h
+│   ├── DrawEnvSample/
+│   │   ├── DrawEnvSample.vcxproj
+│   │   ├── DrawEnvSample.vcxproj.filters
+│   │   ├── main.cpp
+│   │   ├── MyRenderingPipeLine.cpp
+│   │   └── MyRenderingPipeLine.h
+│   ├── DrawEnvSample02/
+│   │   ├── DrawEnvSample02.vcxproj
+│   │   ├── DrawEnvSample02.vcxproj.filters
+│   │   └── main.cpp
+│   ├── Framework/
+│   │   ├── Framework.vcxproj
+│   │   ├── Framework.vcxproj.filters
+│   │   ├── Framework_ctr/
+│   │   │   ├── Framework_ctr.cpp
+│   │   │   └── Framework_ctr.h
+│   │   ├── Framework_ctr.vcxproj
+│   │   ├── Framework_ctr.vcxproj.filters
+│   │   ├── IApplication.h
+│   │   └── main.cpp
+│   ├── MorphingSample/
+│   │   ├── main.cpp
+│   │   ├── MorphingSample.vcxproj
+│   │   └── MorphingSample.vcxproj.filters
+│   ├── PartsAttach/
+│   │   ├── DebugWindow.cpp
+│   │   ├── DebugWindow.h
+│   │   ├── main.cpp
+│   │   ├── MyRenderingPipeLine.cpp
+│   │   ├── MyRenderingPipeLine.h
+│   │   ├── PartsAttach.vcxproj
+│   │   └── PartsAttach.vcxproj.filters
+│   ├── RenderingEngine.bat
+│   ├── Sample.sln
+│   ├── Sample_CTR.v11.sln
+│   ├── SimpleModelDraw/
+│   │   ├── assert_log.txt
+│   │   ├── main.cpp
+│   │   ├── SimpleModelDraw.vcxproj
+│   │   └── SimpleModelDraw.vcxproj.filters
+│   ├── SimpleModelDraw_CTR/
+│   │   ├── gfl_G3dGfModel.cpp
+│   │   ├── gfl_G3dGfModel.h
+│   │   ├── ReadMe.txt
+│   │   ├── romfiles/
+│   │   │   ├── DummyTex.3ds.tga
+│   │   │   ├── exports/
+│   │   │   │   ├── pm0025_00.3ds.gfbmdl
+│   │   │   │   ├── Shader/
+│   │   │   │   │   ├── PDC_Body_Shadow.3ds.gfvsh
+│   │   │   │   │   └── PDC_pm_keikouo_Neon.3ds.gfvsh
+│   │   │   │   └── Texture/
+│   │   │   │       ├── Default_Lta_10D.3ds.tex
+│   │   │   │       ├── DummyTex.3ds.tex
+│   │   │   │       ├── LinerTable.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyA1.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyAHlm.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyALta.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyANor.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyB1.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyBHlm.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyBInc.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyBNor.3ds.tex
+│   │   │   │       ├── pm0025_00_Eye1.3ds.tex
+│   │   │   │       ├── pm0025_00_EyeHlm.3ds.tex
+│   │   │   │       ├── pm0025_00_EyeNor.3ds.tex
+│   │   │   │       ├── pm0025_00_Hta.3ds.tex
+│   │   │   │       ├── pm0025_00_Mouth1.3ds.tex
+│   │   │   │       ├── pm0025_00_MouthHlm.3ds.tex
+│   │   │   │       └── pm0025_00_MouthNor.3ds.tex
+│   │   │   ├── PDC_Body_Shadow.3ds.gfvsh
+│   │   │   ├── pm0025_00.3ds.gfbmdl
+│   │   │   ├── pm0025_00_BodyA1.3ds.tga
+│   │   │   ├── pm0025_00_BodyANor.3ds.tga
+│   │   │   ├── rgba8.ctpk
+│   │   │   └── shader.shbin
+│   │   ├── SimpleModelDraw_CTR.cpp
+│   │   ├── SimpleModelDraw_CTR.rsf
+│   │   ├── SimpleModelDraw_CTR.vcxproj
+│   │   └── SimpleModelDraw_CTR.vcxproj.filters
+│   ├── StereoDraw/
+│   │   ├── main.cpp
+│   │   ├── MyRenderingPipeLine.cpp
+│   │   ├── MyRenderingPipeLine.h
+│   │   ├── romfiles/
+│   │   │   ├── DummyTex.3ds.tga
+│   │   │   ├── EdgeMap/
+│   │   │   │   └── exports/
+│   │   │   │       ├── EdgeMapShader.ctr.gfbmdl
+│   │   │   │       ├── EdgeMapShader.wingl.gfbmdl
+│   │   │   │       ├── Shader/
+│   │   │   │       │   ├── Comb3_Manual.ctr.gfbvsh
+│   │   │   │       │   ├── Comb3_Manual.ctr.gfvsh
+│   │   │   │       │   ├── Comb3_Manual.gffsh
+│   │   │   │       │   ├── Comb3_Manual.gfvsh
+│   │   │   │       │   └── test.bat
+│   │   │   │       └── Texture/
+│   │   │   │           └── EdgeMapImage.3ds.tga
+│   │   │   ├── EdgeMapVColAShader/
+│   │   │   │   ├── EdgeMapVColA.3ds.gfbmdl
+│   │   │   │   ├── EdgeMapVColA.ctr.gfbmdl
+│   │   │   │   ├── Shader/
+│   │   │   │   │   ├── Comb2_Manual.3ds.gfvsh
+│   │   │   │   │   ├── Comb2_Manual.ctr.gfbvsh
+│   │   │   │   │   ├── Comb2_Manual.gffsh
+│   │   │   │   │   ├── Comb2_Manual.wingl.gfbvsh
+│   │   │   │   │   ├── comb_all.bat
+│   │   │   │   │   └── NormalToUv.gfvsh
+│   │   │   │   └── Texture/
+│   │   │   │       └── NormalTexture.3ds.tga
+│   │   │   ├── encgrass.ctr.gfbmdlp
+│   │   │   ├── exports/
+│   │   │   │   ├── pm0025_00.3ds.gfbmdl
+│   │   │   │   ├── pm0025_00.ctr.gfbmdl
+│   │   │   │   ├── Shader/
+│   │   │   │   │   ├── comb_all.bat
+│   │   │   │   │   ├── PDC_Body_Shadow.ctr.gfbfsh
+│   │   │   │   │   ├── PDC_Body_Shadow.ctr.gfbvsh
+│   │   │   │   │   ├── PDC_Body_Shadow.gffsh
+│   │   │   │   │   ├── PDC_Body_Shadow.gfvsh
+│   │   │   │   │   ├── PDC_pm_keikouo_Neon.ctr.gfbfsh
+│   │   │   │   │   ├── PDC_pm_keikouo_Neon.ctr.gfbvsh
+│   │   │   │   │   ├── PDC_pm_keikouo_Neon.gffsh
+│   │   │   │   │   └── PDC_pm_keikouo_Neon.gfvsh
+│   │   │   │   └── Texture/
+│   │   │   │       ├── Default_Lta_10D.3ds.tex
+│   │   │   │       ├── Default_Lta_10D.ctr.tex
+│   │   │   │       ├── DummyTex.3ds.tex
+│   │   │   │       ├── DummyTex.ctr.tex
+│   │   │   │       ├── LinerTable.3ds.tex
+│   │   │   │       ├── LinerTable.ctr.tex
+│   │   │   │       ├── pm0025_00_BodyA1.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyA1.ctr.tex
+│   │   │   │       ├── pm0025_00_BodyAHlm.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyAHlm.ctr.tex
+│   │   │   │       ├── pm0025_00_BodyALta.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyALta.ctr.tex
+│   │   │   │       ├── pm0025_00_BodyANor.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyANor.ctr.tex
+│   │   │   │       ├── pm0025_00_BodyB1.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyB1.ctr.tex
+│   │   │   │       ├── pm0025_00_BodyBHlm.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyBHlm.ctr.tex
+│   │   │   │       ├── pm0025_00_BodyBInc.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyBInc.ctr.tex
+│   │   │   │       ├── pm0025_00_BodyBNor.3ds.tex
+│   │   │   │       ├── pm0025_00_BodyBNor.ctr.tex
+│   │   │   │       ├── pm0025_00_Eye1.3ds.tex
+│   │   │   │       ├── pm0025_00_Eye1.ctr.tex
+│   │   │   │       ├── pm0025_00_EyeHlm.3ds.tex
+│   │   │   │       ├── pm0025_00_EyeHlm.ctr.tex
+│   │   │   │       ├── pm0025_00_EyeNor.3ds.tex
+│   │   │   │       ├── pm0025_00_EyeNor.ctr.tex
+│   │   │   │       ├── pm0025_00_Hta.3ds.tex
+│   │   │   │       ├── pm0025_00_Hta.ctr.tex
+│   │   │   │       ├── pm0025_00_Mouth1.3ds.tex
+│   │   │   │       ├── pm0025_00_Mouth1.ctr.tex
+│   │   │   │       ├── pm0025_00_MouthHlm.3ds.tex
+│   │   │   │       ├── pm0025_00_MouthHlm.ctr.tex
+│   │   │   │       ├── pm0025_00_MouthNor.3ds.tex
+│   │   │   │       └── pm0025_00_MouthNor.ctr.tex
+│   │   │   ├── IDEdgeMap/
+│   │   │   │   ├── exports/
+│   │   │   │   │   ├── IDEdgeMap.3ds.gfbmdl
+│   │   │   │   │   ├── IDEdgeMap.ctr.gfbmdl
+│   │   │   │   │   ├── IDEdgeMap.gfmdl
+│   │   │   │   │   ├── Shader/
+│   │   │   │   │   │   ├── Comb2_Manual.3ds.gfvsh
+│   │   │   │   │   │   ├── Comb2_Manual.ctr.gfvsh
+│   │   │   │   │   │   ├── Comb2_Manual.gffsh
+│   │   │   │   │   │   ├── Comb2_Manual.gfvsh
+│   │   │   │   │   │   ├── Comb3_Manual.3ds.gfvsh
+│   │   │   │   │   │   ├── Comb3_Manual.ctr.gfvsh
+│   │   │   │   │   │   ├── Comb3_Manual.gffsh
+│   │   │   │   │   │   ├── Comb3_Manual.gfvsh
+│   │   │   │   │   │   └── test.bat
+│   │   │   │   │   ├── test.bat
+│   │   │   │   │   └── Texture/
+│   │   │   │   │       ├── MapImage.3ds.tga
+│   │   │   │   │       └── MapImage.tga
+│   │   │   │   ├── IDEdgeMap.gfmdl
+│   │   │   │   ├── Shader/
+│   │   │   │   │   ├── Comb2_Manual.gffsh
+│   │   │   │   │   ├── Comb2_Manual.gfvsh
+│   │   │   │   │   ├── Comb3_Manual.gffsh
+│   │   │   │   │   └── Comb3_Manual.gfvsh
+│   │   │   │   └── Texture/
+│   │   │   │       └── MapImage.tga
+│   │   │   ├── PDC_Body_Shadow.3ds.gfvsh
+│   │   │   ├── pm0025_00.3ds.gfbmdl
+│   │   │   ├── pm0025_00.ctr.gfbmdlp
+│   │   │   ├── pm0025_00.wingl.gfbmdlp
+│   │   │   ├── pm0025_00_ba10_waitA01.bgfmot
+│   │   │   ├── pm0025_00_ba20_buturi01.bgfmot
+│   │   │   ├── pm0025_00_ba52_run01.bgfmot
+│   │   │   ├── pm0025_00_BodyA1.3ds.tga
+│   │   │   ├── pm0025_00_BodyANor.3ds.tga
+│   │   │   ├── rgba8.ctpk
+│   │   │   └── shader.shbin
+│   │   ├── StereoDraw.rsf
+│   │   ├── StereoDraw.vcxproj
+│   │   └── StereoDraw.vcxproj.filters
+│   └── TraverseAndShaderDriverSample/
+│       ├── main.cpp
+│       ├── TraverseAndShaderDriverSample.vcxproj
+│       └── TraverseAndShaderDriverSample.vcxproj.filters
+└── source/
+    ├── Renderer/
+    │   ├── gfl2_CombinerCtrShaderDriver.cpp
+    │   ├── gfl2_CombinerShaderDriver.cpp
+    │   ├── gfl2_DrawManager.cpp
+    │   ├── gfl2_DrawTag.cpp
+    │   ├── gfl2_MeshDrawTag.cpp
+    │   ├── gfl2_RenderingPipeLine.cpp
+    │   └── Util/
+    │       ├── gfl2_ClearRenderPath.cpp
+    │       ├── gfl2_ColorShaderTextureRenderPath.cpp
+    │       ├── gfl2_DofRenderPath.cpp
+    │       ├── gfl2_FillScreenRenderPath.cpp
+    │       ├── gfl2_MakeBlurImagePath.cpp
+    │       ├── gfl2_MakeReductionImagePath.cpp
+    │       ├── gfl2_ModelRenderPath.cpp
+    │       ├── gfl2_StretchBltFrameBufferPath.cpp
+    │       ├── gfl2_UtilCollisionRenderPath.cpp
+    │       ├── gfl2_UtilEffectLocatorRenderPath.cpp
+    │       ├── gfl2_UtilJointRenderPath.cpp
+    │       ├── gfl2_UtilMcnfRenderPath.cpp
+    │       └── gfl2_UtilNodeRenderPath.cpp
+    └── SceneGraph/
+        ├── gfl2_AABBTree.cpp
+        ├── gfl2_DagNode.cpp
+        ├── gfl2_Node.cpp
+        ├── gfl2_NodeTrait.cpp
+        ├── gfl2_SceneGraphManager.cpp
+        ├── gfl2_Traverser.cpp
+        ├── Instance/
+        │   ├── gfl2_CameraNode.cpp
+        │   ├── gfl2_CullingObjectNode.cpp
+        │   ├── gfl2_DrawableNode.cpp
+        │   ├── gfl2_DrawEnvNode.cpp
+        │   ├── gfl2_EffectNodeLocatorInstanceNode.cpp
+        │   ├── gfl2_InstanceCreator.cpp
+        │   ├── gfl2_InstanceNode.cpp
+        │   ├── gfl2_JointInstanceNode.cpp
+        │   ├── gfl2_LightNode.cpp
+        │   ├── gfl2_LightSetNode.cpp
+        │   ├── gfl2_LocatorInstanceNode.cpp
+        │   ├── gfl2_MaterialInstanceNode.cpp
+        │   ├── gfl2_ModelInstanceNode.cpp
+        │   ├── gfl2_MotionConfigInstanceNode.cpp
+        │   ├── gfl2_MotionInstanceNode.cpp
+        │   ├── gfl2_TransformNode.cpp
+        │   └── gfl2_ViewerLocatorInstanceNode.cpp
+        └── Resource/
+            ├── gfl2_AnimationResourceNode.cpp
+            ├── gfl2_AnimationResourceNodeFactory.cpp
+            ├── gfl2_ArrayResourceNode.cpp
+            ├── gfl2_BlendShapeAnimationResourceNode.cpp
+            ├── gfl2_BlendShapeAnimationResourceNodeFactory.cpp
+            ├── gfl2_CameraResourceNode.cpp
+            ├── gfl2_CameraResourceNodeFactory.cpp
+            ├── gfl2_CollisionMeshResourceNode.cpp
+            ├── gfl2_CollisionMeshResourceNodeFactory.cpp
+            ├── gfl2_DrawEnvResourceNode.cpp
+            ├── gfl2_DrawEnvResourceNodeFactory.cpp
+            ├── gfl2_GfBinaryCollisionMdlData.cpp
+            ├── gfl2_GfBinaryEnvData.cpp
+            ├── gfl2_GfBinaryLocData.cpp
+            ├── gfl2_GfBinaryMcnfData.cpp
+            ├── gfl2_GfBinaryMdlData.cpp
+            ├── gfl2_GfBinaryMdlDataPack.cpp
+            ├── gfl2_GfBinaryMdlDataPackFactory.cpp
+            ├── gfl2_GfBinaryMotData.cpp
+            ├── gfl2_GfBinaryShdData.cpp
+            ├── gfl2_GfBinaryTexData.cpp
+            ├── gfl2_GfCollisionMdlData.cpp
+            ├── gfl2_GfEnvData.cpp
+            ├── gfl2_GfLocData.cpp
+            ├── gfl2_GfMdlData.cpp
+            ├── gfl2_GfMdlResourceNode.cpp
+            ├── gfl2_GfMdlResourceNodeFactory.cpp
+            ├── gfl2_GfMotData.cpp
+            ├── gfl2_GfMotResourceNode.cpp
+            ├── gfl2_GfMotResourceNodeFactory.cpp
+            ├── gfl2_LightSetResourceNode.cpp
+            ├── gfl2_LightSetResourceNodeFactory.cpp
+            ├── gfl2_LocatorResourceNode.cpp
+            ├── gfl2_LocatorResourceNodeFactory.cpp
+            ├── gfl2_MaterialResourceNode.cpp
+            ├── gfl2_MaterialResourceNodeFactory.cpp
+            ├── gfl2_McnfData.cpp
+            ├── gfl2_MeshResourceNode.cpp
+            ├── gfl2_MeshResourceNodeFactory.cpp
+            ├── gfl2_MotionConfigResourceNode.cpp
+            ├── gfl2_MotionConfigResourceNodeFactory.cpp
+            ├── gfl2_ParserUtil.cpp
+            ├── gfl2_ResourceManager.cpp
+            ├── gfl2_ResourceNode.cpp
+            ├── gfl2_ShaderResourceNode.cpp
+            ├── gfl2_ShaderResourceNodeFactory.cpp
+            ├── gfl2_TextureResourceNode.cpp
+            └── gfl2_TextureResourceNodeFactory.cpp

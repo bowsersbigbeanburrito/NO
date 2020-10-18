@@ -1,0 +1,2172 @@
+{
+    "include": {
+        "gfl2_CollisionModel.h": {
+            "modified": "2017-05-31 21:52:12.644454",
+            "size": "3.02KB",
+            "md5": "9edcba7df87785c06cf8edec236a566b",
+            "sha256": "e3be4fea9f3ca15585c41eba365bc71d963417a764b3cf3899a2cd8bf25b00dc"
+        }
+    },
+    "project": {
+        "Collision.vcxproj": {
+            "modified": "2017-05-31 23:56:19.431077",
+            "size": "14.04KB",
+            "md5": "4b303da9eabe68ed00c49cfabfd0ab99",
+            "sha256": "63df04bb5069b203540de9f40acd4771bc7564f81bf814dba4a579998428df4a"
+        },
+        "Collision.vcxproj.filters": {
+            "modified": "2017-05-31 21:52:12.671456",
+            "size": "1.06KB",
+            "md5": "35bc8e47550abbd9289605d4e1ebcd65",
+            "sha256": "b08307b26e6c4f26fc4380971e3b4b5b0c5a383b823cf022b06aac98cbc00b8b"
+        },
+        "gf_template_gflib2.rsf": {
+            "modified": "2017-05-31 21:52:12.700459",
+            "size": "0.17KB",
+            "md5": "e6c2e3cdf5793f3627b26e4a41ea5973",
+            "sha256": "35e0ae45e8d2b2b2701ed29d540239cdd6cdb8c53b2326be566aae7cb6d17b35"
+        }
+    },
+    "Sample": {
+        "Sample.sln": {
+            "modified": "2017-05-31 21:52:08.446034",
+            "size": "8.85KB",
+            "md5": "55ba47a4b234d64b2d531dd53c3b92eb",
+            "sha256": "0c7409d0cb51663411b63e44761dec0184c2f80877cae4cad2069ec9e62ea295"
+        }
+    },
+    "Sample\\CollisionModelConverter": {
+        "CollisionModelConverter.exe": {
+            "modified": "2017-05-31 21:52:07.747964",
+            "size": "354.5KB",
+            "md5": "4d853ccca571b5fec1ef0c4c26dab3db",
+            "sha256": "2b15fcafb2fe9e52845f880dbaae8ad6e3db45f31f3be3c9d1e1c462d53ed8d4"
+        },
+        "CollisionModelConverter.vcxproj": {
+            "modified": "2017-05-31 23:56:19.400074",
+            "size": "8.94KB",
+            "md5": "890eabdc138a70bc56b6af900f0d4826",
+            "sha256": "cef030b81444ae61c3df4c468939366370225d50096cca60687b75aa8095348b"
+        },
+        "conv.bat": {
+            "modified": "2017-05-31 21:52:08.288018",
+            "size": "0.12KB",
+            "md5": "0be95e6462a11f7d5c2d44981176f1b5",
+            "sha256": "2ba6324eacf0d9cd95c94e9279c5909c8db20dc280c7eb30ace4278d093a0c02"
+        },
+        "main.cpp": {
+            "modified": "2017-05-31 21:52:08.318021",
+            "size": "1.55KB",
+            "md5": "4d5e4383f742d7644bc28dcb031395fb",
+            "sha256": "45db4f916f70fdf15c831d51dd29de7f6177e6c88e1724c0e05abcfed5a971e5"
+        },
+        "map.gfmdl": {
+            "modified": "2017-05-31 21:52:08.346024",
+            "size": "8.97KB",
+            "md5": "088dd608b76b4f631c52edd1c9c2cf3b",
+            "sha256": "11c1be49eebbdf34b850433bc6ee520308728f22a1bfaaa43d7230746121234c"
+        }
+    },
+    "Sample\\CollisionModelConverter\\CollisionModelCache": {
+        "map_height_yuka.gfbcol": {
+            "modified": "2017-05-31 21:52:07.714961",
+            "size": "3.41KB",
+            "md5": "51f2e34944a12c9401ab2d74cc12f358",
+            "sha256": "b1aff536a7f26f3e01d85b213c10ba2128b91a411c891d85978f85cf1ba5a360"
+        }
+    },
+    "Sample\\data\\niji_test_map": {
+        "niji_test_map01.gfmdl": {
+            "modified": "2017-05-31 21:52:11.832372",
+            "size": "2953.58KB",
+            "md5": "0969ed65b76a7d49c4913795388a6cf4",
+            "sha256": "ff1b9bd7c9615ee6c9850dbf2437b180c8f204d5fd102d3eb980ff08f3645b16"
+        },
+        "takasa_test.gfmdl": {
+            "modified": "2017-05-31 21:52:11.855375",
+            "size": "21.84KB",
+            "md5": "46f1208cd15642dcd28cba0f4be80d18",
+            "sha256": "81a66982ac03bda5b29ea125a40dcc9d2b1735ac31c6ddde69b523192a2ad8dc"
+        }
+    },
+    "Sample\\data\\niji_test_map\\Shader": {
+        "berries01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.923081",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "berries01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.930082",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "books01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.937083",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "books01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.943084",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "bookshelf01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.951084",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "bookshelf01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.958085",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "bottle_aMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.964086",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "bottle_aMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.972086",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "c104g_hikariMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.979087",
+            "size": "42.56KB",
+            "md5": "e1f0fc9785b8cc36e748ce9036be854c",
+            "sha256": "99655716d7302a670928bcfed705e8fba87a075484f55abaa3abb65e8a8e670a"
+        },
+        "c104g_hikariMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.986088",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "chair01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.993088",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "chair01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.999089",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "chip_wood_shadowMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.005090",
+            "size": "40.66KB",
+            "md5": "a5ace3364a1bf9f62c1ba0e9dcdd5257",
+            "sha256": "7a61bf0946606260ad710640cb6c63e580c7efad27eaf6e05fbc841085ec2242"
+        },
+        "chip_wood_shadowMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.012090",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "chip_wood_shadowMAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.019091",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "chip_wood_shadowMAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.027092",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb1doukutu01.gffsh": {
+            "modified": "2017-05-31 21:52:08.581047",
+            "size": "43.12KB",
+            "md5": "3a5d74be167f1cc16ba4536c568d2db3",
+            "sha256": "915c2663ad5169dbb161756b859d6eac77fa031e863dbafcfcfead2cb558d86b"
+        },
+        "Comb1doukutu01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.588048",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "Comb1MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.553045",
+            "size": "43.12KB",
+            "md5": "3a5d74be167f1cc16ba4536c568d2db3",
+            "sha256": "915c2663ad5169dbb161756b859d6eac77fa031e863dbafcfcfead2cb558d86b"
+        },
+        "Comb1MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.561045",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "Comb1MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:08.567046",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "Comb1MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:08.575047",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb2.gffsh": {
+            "modified": "2017-05-31 21:52:08.594049",
+            "size": "40.31KB",
+            "md5": "4030228ca3896ca62be78ddd21856d68",
+            "sha256": "9081e94fafc92476ffb8b4d0f83ee464059f81a0b5c34e5c3d95084cf0a5c499"
+        },
+        "Comb2.gfvsh": {
+            "modified": "2017-05-31 21:52:08.600049",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "Comb3.gffsh": {
+            "modified": "2017-05-31 21:52:08.607050",
+            "size": "38.43KB",
+            "md5": "b405aedf1b2503b7d879f73d8ecf612a",
+            "sha256": "50b6581c3b0f4bf2e6a6ad7eb22611ff9c93f5da2154318344a867ebec9adacd"
+        },
+        "Comb3.gfvsh": {
+            "modified": "2017-05-31 21:52:08.613050",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb32MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.620051",
+            "size": "40.66KB",
+            "md5": "a5ace3364a1bf9f62c1ba0e9dcdd5257",
+            "sha256": "7a61bf0946606260ad710640cb6c63e580c7efad27eaf6e05fbc841085ec2242"
+        },
+        "Comb32MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.626052",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb32MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:08.633053",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "Comb32MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:08.640053",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb33MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.646054",
+            "size": "40.66KB",
+            "md5": "a5ace3364a1bf9f62c1ba0e9dcdd5257",
+            "sha256": "7a61bf0946606260ad710640cb6c63e580c7efad27eaf6e05fbc841085ec2242"
+        },
+        "Comb33MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.653054",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb33MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:08.660055",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "Comb33MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:08.667056",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb34MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.674057",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "Comb34MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.681057",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "Comb34MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:08.687058",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "Comb34MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:08.694059",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb35MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.701059",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "Comb35MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.708060",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "Comb35MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:08.714061",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "Comb35MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:08.722061",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb36MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.729062",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "Comb36MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.736063",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "Comb36MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:08.743063",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "Comb36MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:08.750064",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb37MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.757065",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "Comb37MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.763066",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "Comb37MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:08.770066",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "Comb37MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:08.778067",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb38MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.785068",
+            "size": "40.66KB",
+            "md5": "a5ace3364a1bf9f62c1ba0e9dcdd5257",
+            "sha256": "7a61bf0946606260ad710640cb6c63e580c7efad27eaf6e05fbc841085ec2242"
+        },
+        "Comb38MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.791068",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb38MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:08.798069",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "Comb38MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:08.805070",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb39MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.833072",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "Comb39MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.840073",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "Comb39MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:08.846074",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "Comb39MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:08.854075",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "Comb40MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.862075",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "Comb40MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.868076",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "Comb41.gffsh": {
+            "modified": "2017-05-31 21:52:08.875077",
+            "size": "38.46KB",
+            "md5": "7a27d4cffa31d5e6fae0d14bfe33d9ce",
+            "sha256": "5bd1671e53a733ee9a87a8faace9e92fbe61a3c3b08555d1072a62577a9ae6dc"
+        },
+        "Comb41.gfvsh": {
+            "modified": "2017-05-31 21:52:08.882077",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "Comb41MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:08.888078",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "Comb41MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:08.895079",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "Comb42.gffsh": {
+            "modified": "2017-05-31 21:52:08.901079",
+            "size": "38.46KB",
+            "md5": "7a27d4cffa31d5e6fae0d14bfe33d9ce",
+            "sha256": "5bd1671e53a733ee9a87a8faace9e92fbe61a3c3b08555d1072a62577a9ae6dc"
+        },
+        "Comb42.gfvsh": {
+            "modified": "2017-05-31 21:52:08.916081",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "ent_light01_aMAPデフォルト01＋カラースペキュラー.gffsh": {
+            "modified": "2017-05-31 21:52:09.034093",
+            "size": "41.87KB",
+            "md5": "1cf33de3a02ccdd26a2b6bfc45e8c106",
+            "sha256": "140e3603f809f945f6ea73b1d6a176ecc25434d1a6a5acfc792899aeb4ba397c"
+        },
+        "ent_light01_aMAPデフォルト01＋カラースペキュラー.gfvsh": {
+            "modified": "2017-05-31 21:52:09.041093",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "floor01_rMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.048094",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "floor01_rMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.055095",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "floor02_rMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.062095",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "floor02_rMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.069096",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "floor03_rMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.075097",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "floor03_rMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.082097",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "gaitouMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.089098",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "gaitouMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.096099",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "gaitouMAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.103100",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "gaitouMAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.111100",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "haichi03_c03_bm_minka1MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.118101",
+            "size": "40.66KB",
+            "md5": "a5ace3364a1bf9f62c1ba0e9dcdd5257",
+            "sha256": "7a61bf0946606260ad710640cb6c63e580c7efad27eaf6e05fbc841085ec2242"
+        },
+        "haichi03_c03_bm_minka1MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.125102",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "haichi03_c03_bm_minka1MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.132102",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "haichi03_c03_bm_minka1MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.140103",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "haichi03_com_chip_mado1MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.147104",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "haichi03_com_chip_mado1MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.154105",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "haichi03_com_chip_mado1MAP窓.gffsh": {
+            "modified": "2017-05-31 21:52:09.161105",
+            "size": "41.22KB",
+            "md5": "733d41f73f35407e610d0f111a82fc99",
+            "sha256": "1e94fe5e667f52ad2dd92d0773a6fa4f8d19cbde5512358a10b9e414e5f1b6e9"
+        },
+        "haichi03_com_chip_mado1MAP窓.gfvsh": {
+            "modified": "2017-05-31 21:52:09.168106",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "haichi03_stand_shadowMAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.175107",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "haichi03_stand_shadowMAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.182107",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "haichi03_stand_shadowMAP影.gffsh": {
+            "modified": "2017-05-31 21:52:09.189108",
+            "size": "39.62KB",
+            "md5": "4c32c3f9e1f4bd69b61158303073ca80",
+            "sha256": "505408ea6393c844dc1d153324b0d729f9c1fd1c2fa941de15f834d3fd0e6a45"
+        },
+        "haichi03_stand_shadowMAP影.gfvsh": {
+            "modified": "2017-05-31 21:52:09.195109",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "in1": {
+            "modified": "2017-05-31 21:52:09.201109",
+            "size": "0.0KB",
+            "md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "kanazumi_house01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.202109",
+            "size": "42.56KB",
+            "md5": "e1f0fc9785b8cc36e748ce9036be854c",
+            "sha256": "99655716d7302a670928bcfed705e8fba87a075484f55abaa3abb65e8a8e670a"
+        },
+        "kanazumi_house01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.209110",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "kanazumi_komonoMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.215111",
+            "size": "42.56KB",
+            "md5": "e1f0fc9785b8cc36e748ce9036be854c",
+            "sha256": "99655716d7302a670928bcfed705e8fba87a075484f55abaa3abb65e8a8e670a"
+        },
+        "kanazumi_komonoMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.222111",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "ki": {
+            "modified": "2017-05-31 21:52:09.228112",
+            "size": "0.0KB",
+            "md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "madoMAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.228112",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "madoMAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.235113",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "madoMAP窓.gffsh": {
+            "modified": "2017-05-31 21:52:09.242113",
+            "size": "41.22KB",
+            "md5": "3dbb49989e6e268bcd4cd7697504f50f",
+            "sha256": "00c8dc6454f47e431c2c78177e3bed9a7810a5cbe4e60cf16591f5a3b53f6d25"
+        },
+        "madoMAP窓.gfvsh": {
+            "modified": "2017-05-31 21:52:09.250114",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "mat01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.256115",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "mat01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.263115",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "mat02_rMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.270116",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "mat02_rMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.276117",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "pasted__Comb1doukutu02.gffsh": {
+            "modified": "2017-05-31 21:52:09.297119",
+            "size": "43.73KB",
+            "md5": "296490b78c52d8c9b7764d1ee30d7977",
+            "sha256": "c69a1a4269b695865dc349b38fee6dd7bb14f1828714390b1f49b916e6d61ce1"
+        },
+        "pasted__Comb1doukutu02.gfvsh": {
+            "modified": "2017-05-31 21:52:09.303119",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "pasted__Comb1MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.283118",
+            "size": "43.74KB",
+            "md5": "c2681c67599e09fa46f538b2dac0da9f",
+            "sha256": "ebfc1162b4d7e063b98b10116eb098e27db133664c2e839c3b1e6bda720838cd"
+        },
+        "pasted__Comb1MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.290118",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "pasted__han_treea_bMAPデフォルト01＋カラースペキュラー.gffsh": {
+            "modified": "2017-05-31 21:52:09.309120",
+            "size": "41.87KB",
+            "md5": "6bf06d6ea92e39d76338fbe463db39bf",
+            "sha256": "5be6749b62719df98475f2a0a265efcc0c4abcfbdcdbe4881097a7e0b3d4bae0"
+        },
+        "pasted__han_treea_bMAPデフォルト01＋カラースペキュラー.gfvsh": {
+            "modified": "2017-05-31 21:52:09.316121",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "pasted__han_treea_bMAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.324122",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "pasted__han_treea_bMAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.331122",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "pasted__kokage5MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.338123",
+            "size": "40.66KB",
+            "md5": "a5ace3364a1bf9f62c1ba0e9dcdd5257",
+            "sha256": "7a61bf0946606260ad710640cb6c63e580c7efad27eaf6e05fbc841085ec2242"
+        },
+        "pasted__kokage5MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.346124",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "pasted__kokage5MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.353125",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "pasted__kokage5MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.359125",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "pasted__kusa01MAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.366126",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "pasted__kusa01MAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.373127",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "pasted__kusa01MAPデフォルト01＋フレネル.gffsh": {
+            "modified": "2017-05-31 21:52:09.380127",
+            "size": "40.7KB",
+            "md5": "70165bf3c796c668c33adbbf7f41fc60",
+            "sha256": "612c7929bbbcfb2ab4a31b6d4fe9d6c086831fc83822230aacdd1ad9bd57fc1e"
+        },
+        "pasted__kusa01MAPデフォルト01＋フレネル.gfvsh": {
+            "modified": "2017-05-31 21:52:09.387128",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "pasted__pasted__Comb1doukutu02.gffsh": {
+            "modified": "2017-05-31 21:52:09.393128",
+            "size": "43.73KB",
+            "md5": "296490b78c52d8c9b7764d1ee30d7977",
+            "sha256": "c69a1a4269b695865dc349b38fee6dd7bb14f1828714390b1f49b916e6d61ce1"
+        },
+        "pasted__pasted__Comb1doukutu02.gfvsh": {
+            "modified": "2017-05-31 21:52:09.400129",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "pasted__pasted__pasted__test06_rp_01.gffsh": {
+            "modified": "2017-05-31 21:52:09.406130",
+            "size": "42.56KB",
+            "md5": "76857f7f3c9095078d5d0f322d06b242",
+            "sha256": "c0cba0d9e3fa284c880d8cc0f19062eb9a7d20d91ee9793c191a31b1fa83463d"
+        },
+        "pasted__pasted__pasted__test06_rp_01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.413131",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "pasted__pasted__test06_rp_01.gffsh": {
+            "modified": "2017-05-31 21:52:09.419131",
+            "size": "42.56KB",
+            "md5": "76857f7f3c9095078d5d0f322d06b242",
+            "sha256": "c0cba0d9e3fa284c880d8cc0f19062eb9a7d20d91ee9793c191a31b1fa83463d"
+        },
+        "pasted__pasted__test06_rp_01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.426132",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "pasted__test06_rp_01.gffsh": {
+            "modified": "2017-05-31 21:52:09.432132",
+            "size": "42.56KB",
+            "md5": "76857f7f3c9095078d5d0f322d06b242",
+            "sha256": "c0cba0d9e3fa284c880d8cc0f19062eb9a7d20d91ee9793c191a31b1fa83463d"
+        },
+        "pasted__test06_rp_01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.439133",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "pasted__test07_rp_01.gffsh": {
+            "modified": "2017-05-31 21:52:09.445134",
+            "size": "42.56KB",
+            "md5": "76857f7f3c9095078d5d0f322d06b242",
+            "sha256": "c0cba0d9e3fa284c880d8cc0f19062eb9a7d20d91ee9793c191a31b1fa83463d"
+        },
+        "pasted__test07_rp_01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.451134",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "pasted__test07_rp_02.gffsh": {
+            "modified": "2017-05-31 21:52:09.458135",
+            "size": "42.56KB",
+            "md5": "76857f7f3c9095078d5d0f322d06b242",
+            "sha256": "c0cba0d9e3fa284c880d8cc0f19062eb9a7d20d91ee9793c191a31b1fa83463d"
+        },
+        "pasted__test07_rp_02.gfvsh": {
+            "modified": "2017-05-31 21:52:09.464136",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "pictureframe01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.471136",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "pictureframe01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.478137",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "plant01_aMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.485138",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "plant01_aMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.492138",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "ref01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.499139",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "ref01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.505140",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "shadow_aMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.513140",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "shadow_aMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.519141",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "shelf02MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.526142",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "shelf02MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.532142",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "shelf02_aMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.539143",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "shelf02_aMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.546144",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "shelf03MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.553144",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "shelf03MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.559145",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "sidake_house_sidake_wakuMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.566146",
+            "size": "40.66KB",
+            "md5": "a5ace3364a1bf9f62c1ba0e9dcdd5257",
+            "sha256": "7a61bf0946606260ad710640cb6c63e580c7efad27eaf6e05fbc841085ec2242"
+        },
+        "sidake_house_sidake_wakuMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.573147",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "sidake_house_sidake_wakuMAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.579147",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "sidake_house_sidake_wakuMAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.586148",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "sink01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.593148",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "sink01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.600149",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "sink02MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.606150",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "sink02MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.613151",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "speaker01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.620151",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "speaker01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.627152",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "t101r0101": {
+            "modified": "2017-05-31 21:52:09.634153",
+            "size": "0.0KB",
+            "md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "t101r0101_books02MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.634153",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "t101r0101_books02MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.641153",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "t101r0101_carpet01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.648154",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "t101r0101_carpet01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.655155",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "t101r0101_clock01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.663156",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "t101r0101_clock01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.670156",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "t101r0101_tv01_02MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.677157",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "t101r0101_tv01_02MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.685158",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "t101r0101_wall_01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.691158",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "t101r0101_wall_01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.698159",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "table01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.705160",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "table01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.712160",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "test01_rp_01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.719161",
+            "size": "42.56KB",
+            "md5": "e1f0fc9785b8cc36e748ce9036be854c",
+            "sha256": "99655716d7302a670928bcfed705e8fba87a075484f55abaa3abb65e8a8e670a"
+        },
+        "test01_rp_01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.726162",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "test04_rp_01.gffsh": {
+            "modified": "2017-05-31 21:52:09.733162",
+            "size": "42.56KB",
+            "md5": "76857f7f3c9095078d5d0f322d06b242",
+            "sha256": "c0cba0d9e3fa284c880d8cc0f19062eb9a7d20d91ee9793c191a31b1fa83463d"
+        },
+        "test04_rp_01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.739163",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "test05_rp_01MAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.745164",
+            "size": "42.56KB",
+            "md5": "e1f0fc9785b8cc36e748ce9036be854c",
+            "sha256": "99655716d7302a670928bcfed705e8fba87a075484f55abaa3abb65e8a8e670a"
+        },
+        "test05_rp_01MAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.752164",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "test06_rp_01.gffsh": {
+            "modified": "2017-05-31 21:52:09.759165",
+            "size": "42.56KB",
+            "md5": "76857f7f3c9095078d5d0f322d06b242",
+            "sha256": "c0cba0d9e3fa284c880d8cc0f19062eb9a7d20d91ee9793c191a31b1fa83463d"
+        },
+        "test06_rp_01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.765166",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "wall_topMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.771166",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "wall_topMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.778167",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "water_aMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.785168",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "water_aMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.792168",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "window01_grMAP窓.gffsh": {
+            "modified": "2017-05-31 21:52:09.799169",
+            "size": "41.22KB",
+            "md5": "3dbb49989e6e268bcd4cd7697504f50f",
+            "sha256": "00c8dc6454f47e431c2c78177e3bed9a7810a5cbe4e60cf16591f5a3b53f6d25"
+        },
+        "window01_grMAP窓.gfvsh": {
+            "modified": "2017-05-31 21:52:09.806170",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "window02_rMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.812171",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "window02_rMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.819171",
+            "size": "13.51KB",
+            "md5": "76ad5afd3d098e87cae8839e4f0ad79e",
+            "sha256": "f181481902ced1f24aad04f6b36f644a05eb19129f41e93a27ed85a587da7b5d"
+        },
+        "yashi_mMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.825172",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "yashi_mMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.832172",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "yashi_mMAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.838173",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "yashi_mMAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.845174",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        },
+        "yashi_shadowMAPデフォルト01.gffsh": {
+            "modified": "2017-05-31 21:52:09.852174",
+            "size": "40.66KB",
+            "md5": "0c6064be0233f5c18385c0b73e105f18",
+            "sha256": "b6f441c9ec788deacfaa143923edbeda048b745ba4e51d824c00661c5becaece"
+        },
+        "yashi_shadowMAPデフォルト01.gfvsh": {
+            "modified": "2017-05-31 21:52:09.858175",
+            "size": "13.44KB",
+            "md5": "90042e1f3b51d6e6a78e9511bc050af6",
+            "sha256": "ea763497d93da5ecd1db030d12f419d3496422339dd32b24ee5d840f2a693d13"
+        },
+        "yashi_shadowMAPデフォルト01＋スペキュラーMAP.gffsh": {
+            "modified": "2017-05-31 21:52:09.864176",
+            "size": "40.71KB",
+            "md5": "2eb61b978cfe344183ca1ada60f231d6",
+            "sha256": "d3576a4ae2930c51792f6081f55648c2cef570429a819405ef9bec46c76df80c"
+        },
+        "yashi_shadowMAPデフォルト01＋スペキュラーMAP.gfvsh": {
+            "modified": "2017-05-31 21:52:09.871176",
+            "size": "12.99KB",
+            "md5": "99343905fb6f28ea19f2b384256e57dd",
+            "sha256": "0701f4ad12e3f212bb5c5ef1cd00fb17ce3875d942daceb6f1f1b7bca711475c"
+        }
+    },
+    "Sample\\data\\niji_test_map\\Texture": {
+        "1shima_map02.tga": {
+            "modified": "2017-05-31 21:52:10.215211",
+            "size": "4096.53KB",
+            "md5": "1954d717c0fce1b111a61c0261b9894d",
+            "sha256": "2f8878370706e4477eb667e5627b26cb319c4888e4a8922c1d1206be22920d74"
+        },
+        "1shima_sora02.tga": {
+            "modified": "2017-05-31 21:52:10.483238",
+            "size": "4096.53KB",
+            "md5": "8b35dfcbc298972990eeef234422fceb",
+            "sha256": "b247e659daece83bc0895963a0ef2e7b2a8b22756436817be902a4aba1ef832d"
+        },
+        "berries01.tga": {
+            "modified": "2017-05-31 21:52:10.488238",
+            "size": "4.53KB",
+            "md5": "c563fe56bb805709f85903b8d6e7bcc0",
+            "sha256": "23a451b2d000a04fec34a96684f190ad5c8fb70f91deba77c115bea699e45f80"
+        },
+        "books01.tga": {
+            "modified": "2017-05-31 21:52:10.492238",
+            "size": "16.53KB",
+            "md5": "d1efbe852dae85913c2c37ff326e80f2",
+            "sha256": "6fa8e52b3938f2aa8fc9fce63559ecce254ea6708866a247a7b1495404dce386"
+        },
+        "bookshelf01.tga": {
+            "modified": "2017-05-31 21:52:10.626252",
+            "size": "32.53KB",
+            "md5": "b834b94278cd460b71c4400d56d408fe",
+            "sha256": "e87157d69ea9bf8791e5f20f04c3b2335eebbadb82945a14fbeaeb30865ff98c"
+        },
+        "bottle_a.tga": {
+            "modified": "2017-05-31 21:52:10.631252",
+            "size": "16.53KB",
+            "md5": "eee9916f97c153ec96161c999e799b8a",
+            "sha256": "0aead8d9b07a487757c06796456ee8572d579158cda1cd6a8dbddb45609a7be8"
+        },
+        "c02a01_town00.tga": {
+            "modified": "2017-05-31 21:52:10.660255",
+            "size": "1024.53KB",
+            "md5": "575f86c0cb966757e751d0bb0ac4b4a2",
+            "sha256": "0a3a647976ba0351dc5d1a6c71e8fa8b4b094b286509a260bbd424ab78125f35"
+        },
+        "c03_bm_minka.tga": {
+            "modified": "2017-05-31 21:52:10.665256",
+            "size": "64.53KB",
+            "md5": "295089f61dcbfa3553af8fd448beca6b",
+            "sha256": "bbc8beaaa897ae788010ada27d6657554ea7157de0edb5e79558331893ae71b2"
+        },
+        "c104g_hikari.tga": {
+            "modified": "2017-05-31 21:52:10.684258",
+            "size": "4.53KB",
+            "md5": "52b1a3b0b1d9eb40a1f6dd09a926246d",
+            "sha256": "ba96a8d5c7eb9a21cb83d13eebee2a99fd4dfb744c914e31fe66d821781b06ef"
+        },
+        "chair01.tga": {
+            "modified": "2017-05-31 21:52:10.688258",
+            "size": "8.53KB",
+            "md5": "5c1052b20c77058c947005e22ac9fef3",
+            "sha256": "507bc82c501b58a215621ad498289462ce3c213ca928591e0d87ae86c4300d93"
+        },
+        "com_c02_mado0.tga": {
+            "modified": "2017-05-31 21:52:10.691258",
+            "size": "4.53KB",
+            "md5": "a8173780f38985f8f0900b9a5c382b0f",
+            "sha256": "bcbc1ffddd85bb065d02f059e586e981f50b7ddfb60f28988cc1e4ad746c4a36"
+        },
+        "com_chip_mado1.tga": {
+            "modified": "2017-05-31 21:52:10.695259",
+            "size": "8.53KB",
+            "md5": "4a10617753cc0f9e6f658b795c22bf86",
+            "sha256": "d94a7e40449daf0482c0ea5a962ff0afc4d6b381d1bcab3d9c0ec641365bd44d"
+        },
+        "com_kusa_table2_t.tga": {
+            "modified": "2017-05-31 21:52:10.699259",
+            "size": "8.53KB",
+            "md5": "1827c2c2054d17061b69245b54ff7f17",
+            "sha256": "ed7770ddebe5b1ead9aaa335750fa62d71cbeab6cb7858d5ae93935d70c80265"
+        },
+        "ent_light01_a.tga": {
+            "modified": "2017-05-31 21:52:10.703259",
+            "size": "16.53KB",
+            "md5": "c0909f8552c9651f3a73166d7bde25a1",
+            "sha256": "cb9f9bd9b2e9d7b6ecc64b75b52880684bc09f9aa9859ecfe70707ef340bea42"
+        },
+        "far01.tga": {
+            "modified": "2017-05-31 21:52:10.731262",
+            "size": "64.53KB",
+            "md5": "b110526e2827b9891f5e0b64dc4845b6",
+            "sha256": "423a120e2ba4476b6f2ea3fd1d90dac898bf157a0239f1f6ca4b5e4738ea9f07"
+        },
+        "far02.tga": {
+            "modified": "2017-05-31 21:52:10.767266",
+            "size": "64.53KB",
+            "md5": "d755ae62b01ca6a6195d5a8eec61bb96",
+            "sha256": "87836f26b2119cfc9f4669dbb92c4676ebc8f9b4955d302460686ea578cf2e3b"
+        },
+        "far03.tga": {
+            "modified": "2017-05-31 21:52:10.772266",
+            "size": "64.53KB",
+            "md5": "1c9fc908eb28a9edf3c94cb81f06714f",
+            "sha256": "c02cd74f63e5ab42eb6f35596c4e58093ae5702a61642f1aabee325f906cc34f"
+        },
+        "floor01_r.tga": {
+            "modified": "2017-05-31 21:52:10.775267",
+            "size": "16.53KB",
+            "md5": "c284f389910c46820ac514cd043893c7",
+            "sha256": "9a0bbd264967dea7e1c4df226474ff043afe87ed987bc02a27c5e4662f131431"
+        },
+        "floor02_r.tga": {
+            "modified": "2017-05-31 21:52:10.780267",
+            "size": "16.53KB",
+            "md5": "2da991179bc400884197260680cbf691",
+            "sha256": "a5406f9ae72af18a0fa8595b09166beebde4b9633d702b2a6458f16c581097d4"
+        },
+        "floor03_r.tga": {
+            "modified": "2017-05-31 21:52:10.810270",
+            "size": "8.53KB",
+            "md5": "62bc2ed874c49f8a3dddb67086e523b7",
+            "sha256": "86f1483b06041ed3ba6f24833e3979c05dc21fbd6e4121012e42b3a1a7aed793"
+        },
+        "han_treea_b.tga": {
+            "modified": "2017-05-31 21:52:10.815271",
+            "size": "64.53KB",
+            "md5": "1b74655cac94580f8369e2ecb4995868",
+            "sha256": "42dd44eb47d400b61035d4c933b319203fa1ff490a0872af7f67f801d8eb5e8d"
+        },
+        "han_treea_b_s.tga": {
+            "modified": "2017-05-31 21:52:10.819271",
+            "size": "64.53KB",
+            "md5": "33e85f1d7fe1238a75b83c533e6acbea",
+            "sha256": "501ac1ec6e71f12af107da23715852a03a8e2891255663cf676089994f61d4b0"
+        },
+        "in.tga": {
+            "modified": "2017-05-31 21:52:10.829272",
+            "size": "1024.53KB",
+            "md5": "7218c3e5b7ff01579742b315b23d40dc",
+            "sha256": "231160906182d9b661742f1b7d2def507235247ea5ab222a75f3bfffd64373ed"
+        },
+        "kanazumi_house01.tga": {
+            "modified": "2017-05-31 21:52:10.835273",
+            "size": "128.53KB",
+            "md5": "686631d1ab9edc2da5ce5bc6367b439d",
+            "sha256": "68bfae067e45ee36eba4d188607808d3829acd95e007371f4c57947a8e617471"
+        },
+        "kanazumi_komono.tga": {
+            "modified": "2017-05-31 21:52:10.839273",
+            "size": "64.53KB",
+            "md5": "13ad20be3df99db499052f5272db980c",
+            "sha256": "6f2d8af713b2f802d8e4f811fca610564fd48efc0fc81995710bd589d0be5c3b"
+        },
+        "kokage3.tga": {
+            "modified": "2017-05-31 21:52:10.844274",
+            "size": "64.53KB",
+            "md5": "da454a7e632e645f8c45cf214b97234f",
+            "sha256": "6d553d6c69eb147485caa17c3c50784eecbdfd95740f459c0726df3db68e959c"
+        },
+        "kusa01.tga": {
+            "modified": "2017-05-31 21:52:10.848274",
+            "size": "64.53KB",
+            "md5": "8ccec8dd63fd1f3196d13eb21abdead6",
+            "sha256": "7c05f741802944dd1d66cd1512311a675a8b21a65caf90ca94be760dd681c0f3"
+        },
+        "kusa01_s.tga": {
+            "modified": "2017-05-31 21:52:10.852274",
+            "size": "64.53KB",
+            "md5": "59d02a0d9f3439e8b0a982ad4eabca11",
+            "sha256": "243ac3acefb2b86656840a7cda03b06a562277bf031a6eb0862dd9a9bbfdf9ca"
+        },
+        "map_shiro1.tga": {
+            "modified": "2017-05-31 21:52:10.856275",
+            "size": "0.78KB",
+            "md5": "05416f3982855371a7ac9ee887c74b6d",
+            "sha256": "68ec6ecde509e4a40839d231adea73fd32c16522113fccbc3c96c815fd458c09"
+        },
+        "mat01.tga": {
+            "modified": "2017-05-31 21:52:10.920281",
+            "size": "8.53KB",
+            "md5": "9263d5c402b01c53c480ad54310ffdcf",
+            "sha256": "49e7f41c9f5783850002c8b22cfd87a133336bccbff959ebdd3cd80ec3bc7cfa"
+        },
+        "mat02_r.tga": {
+            "modified": "2017-05-31 21:52:10.924282",
+            "size": "8.53KB",
+            "md5": "8a2667f15dc3ce16e119dade1b83e65d",
+            "sha256": "fc837f4b122c0ce5052cb9370c07a39455d8b0ee7701ef2971cb1b8fc5838200"
+        },
+        "pictureframe01.tga": {
+            "modified": "2017-05-31 21:52:10.929282",
+            "size": "16.53KB",
+            "md5": "545c0a0eea67398262ba6f1634fa69b2",
+            "sha256": "7b432b116a95a89c39a008abeda754e7e06ca224d8a2b0ee9f1ee44ec9dbd6d7"
+        },
+        "plant01_a.tga": {
+            "modified": "2017-05-31 21:52:10.954285",
+            "size": "32.53KB",
+            "md5": "729a5e46083a1f9784d6ec32534adaab",
+            "sha256": "9053d8b3787c004fac348a8e2c426780009b8e6dd771c6164549e9b6e2f24051"
+        },
+        "platan_bk.tga": {
+            "modified": "2017-05-31 21:52:10.958285",
+            "size": "32.53KB",
+            "md5": "324b1fc1aad65a0519feb22b60375bf6",
+            "sha256": "b9b367d3f501e9f280970267f473bffdfc4513c19889c4cd69ea0b87a6600198"
+        },
+        "ref01.tga": {
+            "modified": "2017-05-31 21:52:10.962286",
+            "size": "16.53KB",
+            "md5": "033f3841dff8a8622bdd0ee3262018da",
+            "sha256": "babb992f557f56660b96f7c31bb8cc942419a9003cda46512ee03826b62120e9"
+        },
+        "shadow_a.tga": {
+            "modified": "2017-05-31 21:52:10.965286",
+            "size": "4.53KB",
+            "md5": "1864411d17f1744b5d7c112b67f7972c",
+            "sha256": "65afd8e209f75532948a3d9d6600bc6bc5dfc979293d9cc00449bffac6584652"
+        },
+        "shelf02.tga": {
+            "modified": "2017-05-31 21:52:10.969286",
+            "size": "32.53KB",
+            "md5": "7af3f117cf53ea7dfadce1f961ecff43",
+            "sha256": "94295833c1356fe7f96f60142bc8ad7e0239544fa6f9cc3c5428757a9fbed10e"
+        },
+        "shelf02_a.tga": {
+            "modified": "2017-05-31 21:52:10.972286",
+            "size": "4.53KB",
+            "md5": "a9337076ab726de3c177beba0e1db626",
+            "sha256": "e1807067680afbd2a1b96cf23be157544ec1ed1e22183a68ccbf19fa1909eed5"
+        },
+        "shelf03.tga": {
+            "modified": "2017-05-31 21:52:10.976287",
+            "size": "16.53KB",
+            "md5": "1843ed644d186f7f3f18d20d42479799",
+            "sha256": "e13b80720650a4004bc798d61b423dc388a1dad56a45048fa6f294c02d5fcff8"
+        },
+        "sink01.tga": {
+            "modified": "2017-05-31 21:52:10.981287",
+            "size": "64.53KB",
+            "md5": "95c415f6e3e28571876da64e829e7158",
+            "sha256": "1fd27b23453c31b2c0bb6ce6fb46c7bac4df04db75ec43800373269d9a9c5d40"
+        },
+        "sink02.tga": {
+            "modified": "2017-05-31 21:52:10.985288",
+            "size": "32.53KB",
+            "md5": "4c60ba2be989d0525fc2b46d87310059",
+            "sha256": "0c67f8a459fad876d7f3fea29798f94a777e5d9c5b6ab5e968f3a71f0072dc6e"
+        },
+        "speaker01.tga": {
+            "modified": "2017-05-31 21:52:10.989288",
+            "size": "16.53KB",
+            "md5": "eb9fafb89f7596ecf56ee0bee2c5ad28",
+            "sha256": "907c33f99f1f5e827e9c4e55b67eec6cbb8e32b41179ceeb18018a35aebea5be"
+        },
+        "stand_shadow.tga": {
+            "modified": "2017-05-31 21:52:11.033293",
+            "size": "1.53KB",
+            "md5": "0bfd553ddac352167a5fd29930744f4e",
+            "sha256": "636a544d1f1e318864b71ae00a38956314357df41428ed84f08aa114b18967a1"
+        },
+        "t101r0101_books02.tga": {
+            "modified": "2017-05-31 21:52:11.052294",
+            "size": "4.53KB",
+            "md5": "c438b11e744856c5876dbd6c2fdbe31c",
+            "sha256": "749163ac0b4a73ce2ab25564da0df776785a108caed3b41b30c99ba037182f3d"
+        },
+        "t101r0101_carpet01.tga": {
+            "modified": "2017-05-31 21:52:11.056295",
+            "size": "32.53KB",
+            "md5": "9e74c47b5cbde82c39c7daf6681b041a",
+            "sha256": "2b7f9721518ae83ebcfc7b3638b2063e28c10702b72b912e94528126f5bc15f2"
+        },
+        "t101r0101_clock01.tga": {
+            "modified": "2017-05-31 21:52:11.067296",
+            "size": "16.53KB",
+            "md5": "02c9d1dd363b13b67bab9fec2ac710a6",
+            "sha256": "7070f8f5903369494c8242c0de81cf73bc63bafdac2bf3b70d3f08b1444cc09d"
+        },
+        "t101r0101_tv01_02.tga": {
+            "modified": "2017-05-31 21:52:11.089298",
+            "size": "16.53KB",
+            "md5": "b44f757fe8a171ed802a2e90a075bd1c",
+            "sha256": "4e53b2f5b403726e7b131b0d782abfbe347d14705ab7531e127b9a2b1325f896"
+        },
+        "t101r0101_wall_01.tga": {
+            "modified": "2017-05-31 21:52:11.129302",
+            "size": "64.53KB",
+            "md5": "f58a50829e6b5e5a7190d6254ca85afe",
+            "sha256": "8abf544bd33b54b0396f055bd5f89e675db8c6ea475cf09d2247c9bde7f2f096"
+        },
+        "table01.tga": {
+            "modified": "2017-05-31 21:52:11.133302",
+            "size": "16.53KB",
+            "md5": "df7b9dadb1d178417cfd15c3149aeb2a",
+            "sha256": "3ed7879c8cf8c4ef013ab5e626ef8b53a4bfa195f87a2f74a7976d4fcbb5fd02"
+        },
+        "test01_rp_01.tga": {
+            "modified": "2017-05-31 21:52:11.175307",
+            "size": "256.53KB",
+            "md5": "ae2871e8ae2a390d8ad905768f2b5c63",
+            "sha256": "2cb642bf42244aab208332723aa93d04a93c71203de40abb0d5b01629407f0c8"
+        },
+        "test01_rp_01_n.tga": {
+            "modified": "2017-05-31 21:52:11.206310",
+            "size": "256.53KB",
+            "md5": "01547e534e1593ce7caf7978fc86c443",
+            "sha256": "e6ab34a88770b2bf458510ecc6f0dbda3097bf7a44a3028953617616ddcb3052"
+        },
+        "test01_rp_01_n2.tga": {
+            "modified": "2017-05-31 21:52:11.238313",
+            "size": "256.53KB",
+            "md5": "5df6d8dfcb6bf00cac399b9daf227b14",
+            "sha256": "08da596ee2caaec259b68d68f5ae6a10ffbc4c8f4f369e33bef60f357c58b97c"
+        },
+        "test01_rp_01_sc.tga": {
+            "modified": "2017-05-31 21:52:11.312320",
+            "size": "16.53KB",
+            "md5": "8d02b91801bdda628dd01141e3662fc1",
+            "sha256": "a33ca4fc45b2de91adb4cb98faaec6f0825ad0374abdad4224edf28c05513775"
+        },
+        "test04_rp_01.tga": {
+            "modified": "2017-05-31 21:52:11.395329",
+            "size": "128.53KB",
+            "md5": "034b0dddfe75b00d2acd6ae79914364c",
+            "sha256": "8987a50c05526160d913a66b6bc3ef5b00156bc9d16803cc97b59cdcac6e8a7f"
+        },
+        "test05_rp_01.tga": {
+            "modified": "2017-05-31 21:52:11.400329",
+            "size": "128.53KB",
+            "md5": "e0780d71dc63efe89ef9838bbfa92d37",
+            "sha256": "cd2e389fe7f86a37023344cb192e36a4906d8ddcb74d84cbef6eae809cf2f312"
+        },
+        "test06_rp_01.tga": {
+            "modified": "2017-05-31 21:52:11.406330",
+            "size": "256.53KB",
+            "md5": "49c2dbb23ec772784a359373a4c60f18",
+            "sha256": "1d0e1f60018d64a7d34ba962c088045cc73222233022b88b1b182f4144fe4bb4"
+        },
+        "test06_rp_01_n.tga": {
+            "modified": "2017-05-31 21:52:11.444334",
+            "size": "256.53KB",
+            "md5": "2dda86a0246df267386ce0a44a8613f7",
+            "sha256": "3199e39fafa845e6a49d9d69a133c3a7e7d6df5e33b508e8b26a113d7da2e182"
+        },
+        "test08_01.tga": {
+            "modified": "2017-05-31 21:52:11.450334",
+            "size": "64.53KB",
+            "md5": "45752ded82d435610ccfb448b9e99142",
+            "sha256": "cee9ed3ce8bc61dac948bacea4eb27b267bbf70402d28519d4508fb66f8122ac"
+        },
+        "test08_01_n.tga": {
+            "modified": "2017-05-31 21:52:11.455335",
+            "size": "64.53KB",
+            "md5": "1b6828803656b06a0c4148cb9ecc7007",
+            "sha256": "b69989faddb3a7bca04857bed12afde5a15a56ca31494ea34e2ba53681840835"
+        },
+        "test09_01.tga": {
+            "modified": "2017-05-31 21:52:11.459335",
+            "size": "64.53KB",
+            "md5": "2664fb65c21e7ec46f00d73378c74696",
+            "sha256": "c79a09ff41e73857661f4e9f60c3970b8b9d270cec006f75c432be74433fa658"
+        },
+        "test09_01_n.tga": {
+            "modified": "2017-05-31 21:52:11.464336",
+            "size": "64.53KB",
+            "md5": "11e7116904c3fcdda4f26e39abfdf034",
+            "sha256": "34db3a0829481c88ddd084fd9a6df30deda931d8f047118070fe1c7e74c6be9d"
+        },
+        "test10_01.tga": {
+            "modified": "2017-05-31 21:52:11.469336",
+            "size": "64.53KB",
+            "md5": "9df86e782f8cfa0116595748078daad4",
+            "sha256": "4dd8723061d3c7108cc42a3b30fe64490f55c3bb323dcb1274f42860786791c7"
+        },
+        "test11_01.tga": {
+            "modified": "2017-05-31 21:52:11.472336",
+            "size": "64.53KB",
+            "md5": "0c9503623630d127827f1222b5aea061",
+            "sha256": "d65a2cfbb515d5afb6042e17101eabbdb3af99bb51bf68860b20a4ff052846a8"
+        },
+        "test2_kusaji01.tga": {
+            "modified": "2017-05-31 21:52:11.478337",
+            "size": "256.53KB",
+            "md5": "83dedd20ee424a09e01eb6dd973ba409",
+            "sha256": "abbc7e25fbee0101414e281271092d5c157c8ef7d4c90c0749914ae3e64e9123"
+        },
+        "test_chip_wood_s.tga": {
+            "modified": "2017-05-31 21:52:11.590348",
+            "size": "64.53KB",
+            "md5": "c4fd623762ddc76a71705f607754bd0d",
+            "sha256": "06040f3f6680385dd437fdede98f42fe430931d4caab857e08c0b2c8b2a6bf8e"
+        },
+        "test_c_mado.tga": {
+            "modified": "2017-05-31 21:52:11.530342",
+            "size": "16.53KB",
+            "md5": "a1d829be6f98d74068993a6fc4db89bf",
+            "sha256": "0576913a5b9cdb06585de808af7bdbca112a86f8732c5d69426109d0dc9411f7"
+        },
+        "test_gaitou.tga": {
+            "modified": "2017-05-31 21:52:11.595349",
+            "size": "64.53KB",
+            "md5": "1acf045134510788a68a5e25765fd287",
+            "sha256": "dff2b4b6258f304da962053415428bfdf5fdb02e68a430dafbeebde061b0f60f"
+        },
+        "test_gake0000.tga": {
+            "modified": "2017-05-31 21:52:11.615351",
+            "size": "256.53KB",
+            "md5": "d9a6392433fb989c87fb9a3744886fb6",
+            "sha256": "86a00cae0dd216bc4b79aab7d5ef72c205f816e97440689bc551461967cd0a7b"
+        },
+        "test_gake01.tga": {
+            "modified": "2017-05-31 21:52:11.649354",
+            "size": "256.53KB",
+            "md5": "b1d42a3204955670d164fac3b16b3b4b",
+            "sha256": "4ded1b67a8ed3253966a85fe2e2e80df4a3c6a46c5b095d3254b8ab421165692"
+        },
+        "test_ie001.tga": {
+            "modified": "2017-05-31 21:52:11.658355",
+            "size": "128.53KB",
+            "md5": "0aee1fa41f66be9794887256bb4491a8",
+            "sha256": "4926ffad56033bac83d6c72f3c8fcfd7230c1ffd5e1a48bdf4810f7d9936b325"
+        },
+        "test_ki0_1.tga": {
+            "modified": "2017-05-31 21:52:11.663356",
+            "size": "64.53KB",
+            "md5": "16c410c9531b830b7ad3fed58a31b5c1",
+            "sha256": "eb4b2626d432f12e35eb9493f21ad055939ac2a755c561e5b3800543fda78e4f"
+        },
+        "test_ki0_2.tga": {
+            "modified": "2017-05-31 21:52:11.670356",
+            "size": "512.53KB",
+            "md5": "0487d682525c8bd7ffe0bd10bc32b222",
+            "sha256": "614494ad2447006fa46fc20e3d958163925bce2f7616a089f43947698d7444f2"
+        },
+        "test_ki0_3.tga": {
+            "modified": "2017-05-31 21:52:11.676357",
+            "size": "32.53KB",
+            "md5": "7f312cf8932237c727de29e373fdbce3",
+            "sha256": "65cbc9e054b69894c1180859b7356adad0b2d3556cfa6d958a9692e8c6deffb5"
+        },
+        "test_kuro.tga": {
+            "modified": "2017-05-31 21:52:11.680357",
+            "size": "16.53KB",
+            "md5": "ecdd92aadf382bb3413694f83f8c33ac",
+            "sha256": "a03571e6623f080a3b1f99b352ba3a9f55579cfbf995d1414d617e514e5e1753"
+        },
+        "test_kusaji01.tga": {
+            "modified": "2017-05-31 21:52:11.731362",
+            "size": "256.53KB",
+            "md5": "c32288850b2abf16cb3070b647686817",
+            "sha256": "6430b132afc9fb8becb259f4e4906755ef0d5efe77e0426bd3eb3cd21c13cc58"
+        },
+        "test_kusaji01a.tga": {
+            "modified": "2017-05-31 21:52:11.736363",
+            "size": "8.53KB",
+            "md5": "541220e4f6844fe8cd06a812cdc2ecca",
+            "sha256": "b0b318649bebda508060241cbfb9d1401304801684beecefa77e7548c2cc0fb7"
+        },
+        "test_shiro00.tga": {
+            "modified": "2017-05-31 21:52:11.740363",
+            "size": "16.53KB",
+            "md5": "128f3883f4d1937dbf770b3f20c4b23a",
+            "sha256": "6bf601d83c9fae00f342a19cda6c6999ea8901f5508196c887bbc8db9e1ba6f7"
+        },
+        "test_sidake_waku.tga": {
+            "modified": "2017-05-31 21:52:11.757365",
+            "size": "64.53KB",
+            "md5": "3d220955dce0b5ceab110ed026906700",
+            "sha256": "964dbf9168d094fe31de8a4f966999e2805ec3e49f9f9618823f05d8a543271d"
+        },
+        "test_umi01.tga": {
+            "modified": "2017-05-31 21:52:11.763366",
+            "size": "256.53KB",
+            "md5": "281d57e5b145608fd614e86bed9d8c83",
+            "sha256": "5cdfd86e5a4f461e2bd5c87dd2c8582b4606607b53c36d6882d35e82efac7aac"
+        },
+        "test_yashi.tga": {
+            "modified": "2017-05-31 21:52:11.790368",
+            "size": "32.53KB",
+            "md5": "dc92178b49aef852868d83ef30808077",
+            "sha256": "85d0614ef26a595fb89a9bf3b41605e6dd6e8d3d8418fda27b78e84bbded1c3e"
+        },
+        "test_yashi_s.tga": {
+            "modified": "2017-05-31 21:52:11.794369",
+            "size": "64.53KB",
+            "md5": "f1c9065a41c7cba1f901c9d8ea10053c",
+            "sha256": "d568a6c32bfa431aad1a865184ccc8b4f255e88ea67beb52ba47ed46a8aa9ae0"
+        },
+        "wall_top.tga": {
+            "modified": "2017-05-31 21:52:11.798369",
+            "size": "4.53KB",
+            "md5": "a335b7f9a842db903b7dc3023b1d0a0d",
+            "sha256": "cae73c58be23c6d20d3c6366ad1d6821be60b10d96365f3937cac3a789603aab"
+        },
+        "water_a.tga": {
+            "modified": "2017-05-31 21:52:11.801369",
+            "size": "4.53KB",
+            "md5": "9ac483bd2133adac0e62415eb56ee4d7",
+            "sha256": "a15207584949784aea2b72109794450a2f5c85c0ae43dd70982fe9dbbc4251ae"
+        },
+        "window01_gr.tga": {
+            "modified": "2017-05-31 21:52:11.805370",
+            "size": "8.53KB",
+            "md5": "797e5c67d6b25b5acfe50ace25c275db",
+            "sha256": "9c88897cb650ad6fef8b9e8cb7d52b23ca6045433889f5dd5dd9df8ef8bf9204"
+        },
+        "window02_r.tga": {
+            "modified": "2017-05-31 21:52:11.809370",
+            "size": "4.53KB",
+            "md5": "6485a3175a4e47a841aee93697c26f21",
+            "sha256": "925b2c4b4281fdb4225990443a33251eec093ba7bcf94b37c859324084593af7"
+        }
+    },
+    "Sample\\data\\tr0001_00_hero": {
+        "DrawEnvTest.gfenv": {
+            "modified": "2017-05-31 21:52:11.862375",
+            "size": "2.02KB",
+            "md5": "dadd9380f691e5a22ee040c906e03054",
+            "sha256": "a861b2b24c277a5214d6f04d9dc735e839ff697248023ec3964debadaa11e9d5"
+        }
+    },
+    "Sample\\data\\tr0001_00_hero\\new": {
+        "tr0001_00.gfenv": {
+            "modified": "2017-05-31 21:52:12.528442",
+            "size": "1.99KB",
+            "md5": "8dce968b4a7cf1e5b689b92f49d582c1",
+            "sha256": "3ae5353da1f59d469c5753fd1ac391db3ec0f7a76eb15463726b10e6f60a722d"
+        },
+        "tr0001_00.gfmdl": {
+            "modified": "2017-05-31 21:52:12.560445",
+            "size": "3575.78KB",
+            "md5": "58f8923dc455ba64871c63911fd63cb5",
+            "sha256": "81b47f13bc749b3f58b61d30bfc52a226f1ff52898e4ab9d24418e00988e0a80"
+        },
+        "tr0001_00.mcnf": {
+            "modified": "2017-05-31 21:52:12.596449",
+            "size": "0.65KB",
+            "md5": "74ce581a65c6204e6b963058b248a3cb",
+            "sha256": "7f58c87b8a9d29b8006da8633c930eae55987ece82edc1cf466c7b19b7f47990"
+        },
+        "tr0001_00_fi01_wait01.gfmot": {
+            "modified": "2017-05-31 21:52:12.605450",
+            "size": "659.3KB",
+            "md5": "e83e3e75e2ba2eb2b01f1a5c27885146",
+            "sha256": "39663a597b9c6f046de5011715f917d4853cd85d64dc60d52d1751050a1f8776"
+        },
+        "tr0001_00_fi20_walk01.gfmot": {
+            "modified": "2017-05-31 21:52:12.626452",
+            "size": "1488.1KB",
+            "md5": "71d485cff704e231c43169902395513b",
+            "sha256": "e99b5aeaef063e31078e57cd4e27cba081700917c8905d5e33fcab1c0ffc4410"
+        }
+    },
+    "Sample\\data\\tr0001_00_hero\\new\\Shader": {
+        "tr0001_bag_yeCHARA_trainer01.gffsh": {
+            "modified": "2017-05-31 21:52:11.868376",
+            "size": "43.2KB",
+            "md5": "24b6a1027972f6a18b83e89c36066d60",
+            "sha256": "c49ed67d810f876c9ca38b0d10539e17a991cb0d0fd17181cdb1c9006d65190d"
+        },
+        "tr0001_bag_yeCHARA_trainer01.gfvsh": {
+            "modified": "2017-05-31 21:52:11.875377",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "tr0001_boots_reCHARA_trainer01.gffsh": {
+            "modified": "2017-05-31 21:52:11.882377",
+            "size": "43.2KB",
+            "md5": "24b6a1027972f6a18b83e89c36066d60",
+            "sha256": "c49ed67d810f876c9ca38b0d10539e17a991cb0d0fd17181cdb1c9006d65190d"
+        },
+        "tr0001_boots_reCHARA_trainer01.gfvsh": {
+            "modified": "2017-05-31 21:52:11.889378",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "tr0001_btms_blCHARA_trainer01.gffsh": {
+            "modified": "2017-05-31 21:52:11.896379",
+            "size": "43.2KB",
+            "md5": "24b6a1027972f6a18b83e89c36066d60",
+            "sha256": "c49ed67d810f876c9ca38b0d10539e17a991cb0d0fd17181cdb1c9006d65190d"
+        },
+        "tr0001_btms_blCHARA_trainer01.gfvsh": {
+            "modified": "2017-05-31 21:52:11.903379",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "tr0001_eye.gffsh": {
+            "modified": "2017-05-31 21:52:11.909380",
+            "size": "43.2KB",
+            "md5": "24b6a1027972f6a18b83e89c36066d60",
+            "sha256": "c49ed67d810f876c9ca38b0d10539e17a991cb0d0fd17181cdb1c9006d65190d"
+        },
+        "tr0001_eye.gfvsh": {
+            "modified": "2017-05-31 21:52:11.917381",
+            "size": "12.52KB",
+            "md5": "384497caffbedda21712a014cdbaffdf",
+            "sha256": "241ca8384f4ea72deec2b93d9264127645f4b5ca61b9e4ae3717a80f22a3164b"
+        },
+        "tr0001_face02.gffsh": {
+            "modified": "2017-05-31 21:52:11.923382",
+            "size": "43.2KB",
+            "md5": "24b6a1027972f6a18b83e89c36066d60",
+            "sha256": "c49ed67d810f876c9ca38b0d10539e17a991cb0d0fd17181cdb1c9006d65190d"
+        },
+        "tr0001_face02.gfvsh": {
+            "modified": "2017-05-31 21:52:11.933383",
+            "size": "12.52KB",
+            "md5": "384497caffbedda21712a014cdbaffdf",
+            "sha256": "241ca8384f4ea72deec2b93d9264127645f4b5ca61b9e4ae3717a80f22a3164b"
+        },
+        "tr0001_hair_brCHARA_trainer01.gffsh": {
+            "modified": "2017-05-31 21:52:11.940383",
+            "size": "43.2KB",
+            "md5": "24b6a1027972f6a18b83e89c36066d60",
+            "sha256": "c49ed67d810f876c9ca38b0d10539e17a991cb0d0fd17181cdb1c9006d65190d"
+        },
+        "tr0001_hair_brCHARA_trainer01.gfvsh": {
+            "modified": "2017-05-31 21:52:11.947384",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "tr0001_hat_reCHARA_trainer01.gffsh": {
+            "modified": "2017-05-31 21:52:11.954385",
+            "size": "43.2KB",
+            "md5": "24b6a1027972f6a18b83e89c36066d60",
+            "sha256": "c49ed67d810f876c9ca38b0d10539e17a991cb0d0fd17181cdb1c9006d65190d"
+        },
+        "tr0001_hat_reCHARA_trainer01.gfvsh": {
+            "modified": "2017-05-31 21:52:11.967386",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        },
+        "tr0001_tops_reCHARA_trainer01.gffsh": {
+            "modified": "2017-05-31 21:52:11.974387",
+            "size": "43.2KB",
+            "md5": "24b6a1027972f6a18b83e89c36066d60",
+            "sha256": "c49ed67d810f876c9ca38b0d10539e17a991cb0d0fd17181cdb1c9006d65190d"
+        },
+        "tr0001_tops_reCHARA_trainer01.gfvsh": {
+            "modified": "2017-05-31 21:52:11.998389",
+            "size": "12.55KB",
+            "md5": "9b93bc2122e7beb9571da5a67b20738c",
+            "sha256": "af7079a07dc6f3a635397baa5732c14ec16d1827ce679717da6cde9938dcae91"
+        }
+    },
+    "Sample\\data\\tr0001_00_hero\\new\\Texture": {
+        "chara_Hta1D.tga": {
+            "modified": "2017-05-31 21:52:12.014391",
+            "size": "8.53KB",
+            "md5": "cd482b9ecfd5246d43db6b643b69d609",
+            "sha256": "f359e721372d6cba65f141e983c14106729e6ea7ddeb9e3f02f1496856f9f2bb"
+        },
+        "chara_Rim00.tga": {
+            "modified": "2017-05-31 21:52:12.024392",
+            "size": "16.53KB",
+            "md5": "68c2bf4ea6881167b3977727b97c4695",
+            "sha256": "25b96ea5e8376e4d2eb75a7b82c21204fae9a2771d511bbe4ceb4b5d7eb4bf9f"
+        },
+        "chara_Rim01_01.tga": {
+            "modified": "2017-05-31 21:52:12.049394",
+            "size": "16.53KB",
+            "md5": "4488a87a9b9f76d458063887fccc03a5",
+            "sha256": "9ba0ffe959b40df10a9404755f5ee8c4e78f95c60a0e03fe3fb647e9ef3e3cb5"
+        },
+        "chara_Rim02_01.tga": {
+            "modified": "2017-05-31 21:52:12.071396",
+            "size": "16.53KB",
+            "md5": "dea0bba608c92759b39804a28ca73669",
+            "sha256": "a30d9c39b74e9e945d7d76915e697104136991057831658fd4e02b305d941c95"
+        },
+        "com_kusa.tga": {
+            "modified": "2017-05-31 21:52:12.076397",
+            "size": "5.35KB",
+            "md5": "a55e211a8e02bee95ca8dd805acd40c8",
+            "sha256": "4c3fd39aa50535f55eda4ee1ab601e4d440b3610eb719bafbecb8a5348418fc7"
+        },
+        "Default_Lta_13D.tga": {
+            "modified": "2017-05-31 21:52:12.006390",
+            "size": "8.53KB",
+            "md5": "12b8c0ed2230ce10c28be85485531699",
+            "sha256": "61e185847a0a51bf00bb98837639021dc995223d1881bbc32ab696064528775c"
+        },
+        "LinerTable.tga": {
+            "modified": "2017-05-31 21:52:12.009390",
+            "size": "8.53KB",
+            "md5": "d25906fa043a0ced4a5c67a04ae81916",
+            "sha256": "9d6d5387e6a9697819fce844d697ff6cafac192bfd96a135e730b94bbe57b219"
+        },
+        "tr0001_bagHlm.tga": {
+            "modified": "2017-05-31 21:52:12.135403",
+            "size": "1024.53KB",
+            "md5": "bdf490b648e9d919d20c9098bedd739d",
+            "sha256": "50e3c10dde1185f3f9c587e06bc6b5a1dfc491b04c6b456aca1e648309cc0701"
+        },
+        "tr0001_bagNor.tga": {
+            "modified": "2017-05-31 21:52:12.142403",
+            "size": "256.53KB",
+            "md5": "5d8603299e76d2e922fc4d6811035a83",
+            "sha256": "2045692a2bfbe0b4d0a3cb580f04477eda48bee5ed27e2fe6cfac4a03966b4ae"
+        },
+        "tr0001_bag_ye.tga": {
+            "modified": "2017-05-31 21:52:12.177407",
+            "size": "1024.53KB",
+            "md5": "f40b6bfdd4e00de0a1aa3de27234c75b",
+            "sha256": "610a9203ad4a428633ed1b8ab8ac8a242ebf4ce12563ac2230a79e302f0df15c"
+        },
+        "tr0001_bootsHLM.tga": {
+            "modified": "2017-05-31 21:52:12.184408",
+            "size": "512.53KB",
+            "md5": "0ede4a97c002ae7715726baef46a5847",
+            "sha256": "423e243d1c0e3ed6434545d9d2ae4c598d8ebc2a42f1b99b16dc297837dc3da3"
+        },
+        "tr0001_bootsNor.tga": {
+            "modified": "2017-05-31 21:52:12.194409",
+            "size": "512.53KB",
+            "md5": "16e640836e1c2a5f5a0ad206d799c0fd",
+            "sha256": "4b3a46db4470196f981c7b1206ce17901ce81df8568a3829426bd504296d7d20"
+        },
+        "tr0001_boots_re.tga": {
+            "modified": "2017-05-31 21:52:12.202410",
+            "size": "512.53KB",
+            "md5": "0b99cc2be6803f68a7be9ece28738706",
+            "sha256": "03adbfa65b0844df352d66d7c406c90de632d70af66b315e9bf9e0bae07d10d4"
+        },
+        "tr0001_btmsHlm.tga": {
+            "modified": "2017-05-31 21:52:12.214411",
+            "size": "512.53KB",
+            "md5": "f14cf2fbc0ffc30af38bc250d9e0164a",
+            "sha256": "2aefe896b4eb9a3b1f80cb5adfb6d5098404b40c23638d6a31916028e9546983"
+        },
+        "tr0001_btmsNor.tga": {
+            "modified": "2017-05-31 21:52:12.233413",
+            "size": "2048.53KB",
+            "md5": "1823fd6dc478dad5baf571e19f4e688e",
+            "sha256": "c799dd581ffed32558fb4f579f661bddce33ba8e7aeff02f687990554c9f6ef1"
+        },
+        "tr0001_btms_bl.tga": {
+            "modified": "2017-05-31 21:52:12.242413",
+            "size": "1024.53KB",
+            "md5": "cc7e359f1fe2d9c123d1af3f312941c2",
+            "sha256": "d8bd7e26c88f2573152c6105194c753638cfa45a29b25ba28d988a802318a553"
+        },
+        "tr0001_eye.tga": {
+            "modified": "2017-05-31 21:52:12.269416",
+            "size": "2048.53KB",
+            "md5": "69fb7011259828d3e467f67852d1984a",
+            "sha256": "0e05baddc481429eeabcf1cba4b744b870b267ddb1a2919d138d0bcc0557114e"
+        },
+        "tr0001_eyeHlm.tga": {
+            "modified": "2017-05-31 21:52:12.282417",
+            "size": "2048.53KB",
+            "md5": "c4b02293de7c3987daa0b4eaba6e2b9c",
+            "sha256": "c1be5637db1908a115218420b4ad2d72a5929df197d14b49fe7f820d2d68b1ce"
+        },
+        "tr0001_eyeNor.tga": {
+            "modified": "2017-05-31 21:52:12.296419",
+            "size": "2048.53KB",
+            "md5": "61b1bfbb76a6e5c1c34a089acca48577",
+            "sha256": "5c8b1595f3492b7273a0f519894d68eef7757575aace0c73d371fac7fc180a68"
+        },
+        "tr0001_face02.tga": {
+            "modified": "2017-05-31 21:52:12.308420",
+            "size": "2048.53KB",
+            "md5": "9f22abfc4c6c5f7ca80d42760d1eea4d",
+            "sha256": "58ccf0b41b8c2c5f6a52e50fc9a640d0ad46c6d32dd906ab2c4a361db82689a0"
+        },
+        "tr0001_faceHlm.tga": {
+            "modified": "2017-05-31 21:52:12.359425",
+            "size": "4096.53KB",
+            "md5": "5e66c7571d7371989673552a3a57f9cc",
+            "sha256": "fc9a5429772bc64b4d1936247a35e25be5f6582d660b95de22f55642e007aa36"
+        },
+        "tr0001_faceNor.tga": {
+            "modified": "2017-05-31 21:52:12.386428",
+            "size": "4096.53KB",
+            "md5": "133d224f74f9f0efdccd69e0b9766549",
+            "sha256": "38ab8264a646b624eb3e6b3dab2c5952b6291f267e627ab9e19ad9aea5ec48b9"
+        },
+        "tr0001_hairHim.tga": {
+            "modified": "2017-05-31 21:52:12.395429",
+            "size": "1024.53KB",
+            "md5": "01319f7181c223b9489f54f1fdb8e77e",
+            "sha256": "e2615a3273d1467497645c30e0abdd22eea55828d40054f1ec4df503a0462924"
+        },
+        "tr0001_hairNor.tga": {
+            "modified": "2017-05-31 21:52:12.413430",
+            "size": "1024.53KB",
+            "md5": "01140e67f5337a22082e4e2915670ea8",
+            "sha256": "bc25e0636f459f2e28bb918a2dc5acec38ff79e018ed9ea35942e44f38c934c7"
+        },
+        "tr0001_hair_br.tga": {
+            "modified": "2017-05-31 21:52:12.422431",
+            "size": "1024.53KB",
+            "md5": "38183d59546ff8f98ba0a1ddcf93cc72",
+            "sha256": "a0ce941c510257f04096b0ab10827e002e8a6e7773edf75278f6d4708afec4f9"
+        },
+        "tr0001_hatHlm.tga": {
+            "modified": "2017-05-31 21:52:12.428432",
+            "size": "512.53KB",
+            "md5": "21cd84ff2336d64e60d434e0f4213dfc",
+            "sha256": "86f093d4e47c7f5960c24bb4e5704a8e54f9ae412e3e5b4cedf395170c5f1134"
+        },
+        "tr0001_hatNor.tga": {
+            "modified": "2017-05-31 21:52:12.444434",
+            "size": "512.53KB",
+            "md5": "ecad8ad8fec32237c9a856c7f3743b15",
+            "sha256": "9757a8ee7efced63f8566c1c064a7be09bcc3820f87d46dec8b6765e52719dde"
+        },
+        "tr0001_hat_re.tga": {
+            "modified": "2017-05-31 21:52:12.452434",
+            "size": "512.53KB",
+            "md5": "31ab5725575e5adccdf5d2b69f7c3683",
+            "sha256": "0cd40a410919d493a184c6aed3a6269e828ba46d016f3941f76534e097da1603"
+        },
+        "tr0001_topsHlm.tga": {
+            "modified": "2017-05-31 21:52:12.465436",
+            "size": "2048.53KB",
+            "md5": "725341fb90ff2a6cb4109de2110d132e",
+            "sha256": "5788eccd84b8f25c9de8f6670e79dde906d763b06bb8964ed843f3e6992a0466"
+        },
+        "tr0001_topsNor.tga": {
+            "modified": "2017-05-31 21:52:12.510440",
+            "size": "2048.53KB",
+            "md5": "bdab804b5edbb7a242cb84b386bd3059",
+            "sha256": "acf21a241e35aedf2b893301dd6056d99ca1b357e3f2c1f06a80761acb167e56"
+        },
+        "tr0001_tops_re.tga": {
+            "modified": "2017-05-31 21:52:12.523442",
+            "size": "2048.53KB",
+            "md5": "55252862ccef661596610384e9fcf6f4",
+            "sha256": "ca2984c14878f19b79f018f9e038a5b0b5fdcc712df1fad093570a6dde7b0df1"
+        }
+    },
+    "Sample\\Debug": {
+        "Framework.lib": {
+            "modified": "2017-05-31 21:52:08.369026",
+            "size": "27.91KB",
+            "md5": "e2e5092fdfe0423a7445d73cd128e481",
+            "sha256": "e766930ba172042f7267f5b8555f9ce0e3e9d58cc355c755728960ac42d11f5e"
+        }
+    },
+    "Sample\\Framework": {
+        "Framework.vcxproj": {
+            "modified": "2017-05-31 23:56:19.408074",
+            "size": "7.05KB",
+            "md5": "e5508d9df6fb3c92d7a342dbac4d24d0",
+            "sha256": "ea0a6b24b0e9ab9c8d2b1f0e8890d51c93a80309d3bd5e2f977180f05b30f54d"
+        },
+        "Framework.vcxproj.filters": {
+            "modified": "2017-05-31 21:52:08.403029",
+            "size": "1.11KB",
+            "md5": "f2d6e326a60d7bcbb22410398ca5100c",
+            "sha256": "518eb022cfc75732b3d8d8d01f91709add29563c8d4d44e0102921748cafc8d9"
+        },
+        "IApplication.h": {
+            "modified": "2017-05-31 21:52:08.409030",
+            "size": "0.41KB",
+            "md5": "9143b42c592810d43809cabd73b0b102",
+            "sha256": "e93ef438b4a0728e754a5f4461493d81f3da1809437c94dc172550b99cd948cd"
+        },
+        "main.cpp": {
+            "modified": "2017-05-31 21:52:08.414031",
+            "size": "0.83KB",
+            "md5": "b34865a21a38145b4cd25bbb57ff0042",
+            "sha256": "983be69bd7825317a109a408a97438d9f793f85dd9db2aec68ff13da29bdf129"
+        }
+    },
+    "Sample\\Release": {
+        "Framework.lib": {
+            "modified": "2017-05-31 21:52:08.419031",
+            "size": "77.3KB",
+            "md5": "2354b17c4eb9b8ad6c5cbef95460f580",
+            "sha256": "eef3c64c892d23f0d8235d45a46c8b4860d2131443d4c51e876473901cc0a763"
+        }
+    },
+    "Sample\\Terrain": {
+        "main.cpp": {
+            "modified": "2017-05-31 21:52:08.546044",
+            "size": "19.13KB",
+            "md5": "28e230dde1c3876758add0c8d19c2c6b",
+            "sha256": "a54af2b9289826cb19b753cc2c15d0a9a6331f9d56bf39cc64c4cab19b6eef35"
+        },
+        "MyRenderingPipeLine.cpp": {
+            "modified": "2017-05-31 21:52:08.455035",
+            "size": "6.72KB",
+            "md5": "11c4dacb437b089030530b819c428f6a",
+            "sha256": "5f004557240c7bb5fe7950d4289af873012edcbcbff84e8aa2e686ba6c6037db"
+        },
+        "MyRenderingPipeLine.h": {
+            "modified": "2017-05-31 21:52:08.461035",
+            "size": "3.12KB",
+            "md5": "9f1ae143afdd8138a4f1728697612553",
+            "sha256": "27ecf7a837bf5aaa2c28aa51f6733792e42c179318b0a3017a3a56ca1b833ab9"
+        },
+        "Terrain.vcxproj": {
+            "modified": "2017-05-31 23:56:19.422076",
+            "size": "8.42KB",
+            "md5": "b1131c5b90f4d3292cccf44b94955005",
+            "sha256": "aacdc8537dfc54d72f951344a3f3507da1a9f4c66df081798c4164e1e6d6422c"
+        },
+        "Terrain.vcxproj.filters": {
+            "modified": "2017-05-31 21:52:08.541043",
+            "size": "1.23KB",
+            "md5": "2305c5dac7d609d1dab835e47009bb4d",
+            "sha256": "1a9a044305ac8adc31657b527665e78943514712f5eeeb6daae76192f1ff57a3"
+        }
+    },
+    "source": {
+        "gfl2_CollisionModel.cpp": {
+            "modified": "2017-05-31 21:52:12.706460",
+            "size": "5.12KB",
+            "md5": "fbdf9d3c1cabdc79288902880a2cf8b0",
+            "sha256": "7e59c3b499c616d492b376d75d955ae92dca70b75533482f2725e795b8402695"
+        }
+    }
+}

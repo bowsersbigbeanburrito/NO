@@ -1,0 +1,20 @@
+renderer/
+├── include/
+│   ├── gfl2_BloomRenderPath.h
+│   ├── gfl2_DistortionPostRenderPath.h
+│   ├── gfl2_EdgeMapSceneRenderPath.h
+│   ├── gfl2_FrameBufferClearAlphaPath.h
+│   └── gfl2_OutLinePostRenderPath.h
+├── renderer.vcxproj
+├── renderer.vcxproj.filters
+└── source/
+    ├── gfl2_BloomRenderPathUtil.cpp
+    ├── gfl2_BloomRenderPathUtil.h
+    ├── gfl2_CTRBloomRenderPath.cpp
+    ├── gfl2_DistortionPostRenderPath.cpp
+    ├── gfl2_EdgeMapSceneRenderPath.cpp
+    ├── gfl2_FrameBufferClearAlphaPath.cpp
+    ├── gfl2_OutLinePostRenderPath.cpp
+    ├── gfl2_WinOpenGLBloomRenderPath.cpp
+    ├── gfl2_WinOpenGLBloomRenderPathClasses.cpp
+    └── gfl2_WinOpenGLBloomRenderPathClasses.h

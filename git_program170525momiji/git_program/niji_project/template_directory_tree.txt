@@ -1,0 +1,28 @@
+template/
+├── lib_template/
+│   ├── include/
+│   │   └── NijiTemplateLib.h
+│   ├── niji_template_lib.sln
+│   ├── niji_template_lib.vcxproj
+│   ├── niji_template_lib.vcxproj.filters
+│   └── source/
+│       └── NijiTemplateLib.cpp
+├── ro_template/
+│   ├── include/
+│   │   └── NijiTemplateRo.h
+│   ├── niji_template_ro.sln
+│   ├── niji_template_ro.vcxproj
+│   ├── niji_template_ro.vcxproj.filters
+│   └── source/
+│       └── NijiTemplateRo.cpp
+└── roapp_template/
+    ├── niji_template_roapp.sln
+    └── project/
+        ├── main.cpp
+        ├── niji_template_roapp.link.props
+        ├── niji_template_roapp.props
+        ├── niji_template_roapp.rsf
+        ├── niji_template_roapp.vcxproj
+        ├── niji_template_roapp.vcxproj.filters
+        └── romfiles/
+            └── .gitkeep

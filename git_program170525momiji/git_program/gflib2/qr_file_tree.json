@@ -1,0 +1,210 @@
+{
+    ".": {
+        "qr.vcxproj": {
+            "modified": "2017-05-31 23:56:20.443178",
+            "size": "15.74KB",
+            "md5": "accfe45b416561f95086639b5a27f325",
+            "sha256": "dd83341c45dbc69ad6199273cceda3bbaeb5f6b19a6140c1d75178ff0c780e52"
+        },
+        "qr.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:12.955484",
+            "size": "4.86KB",
+            "md5": "8646d30d74e6dba97b3c0379c25caa17",
+            "sha256": "70ee6f08aae57ff7343af880f65d450ccec65cfda2390563933974a5a3687c11"
+        }
+    },
+    "include": {
+        "gfl2_IQRDecoder.h": {
+            "modified": "2017-05-31 21:53:12.907479",
+            "size": "3.04KB",
+            "md5": "09db1210e28de750dd338f31b7dd634e",
+            "sha256": "ed64177606a1ceb0199c273b47c2351d1406fb262e47f489c914a9b5aef86b27"
+        },
+        "gfl2_IQREncoder.h": {
+            "modified": "2017-05-31 21:53:12.911480",
+            "size": "3.04KB",
+            "md5": "b120959b82d0c42001d1f311f782ba3a",
+            "sha256": "2599541fbb1d3df918055030dbb529cb95252c7a854d0e35683a2e19d5f45668"
+        },
+        "gfl2_IQREventListener.h": {
+            "modified": "2017-05-31 21:53:12.916480",
+            "size": "2.46KB",
+            "md5": "06b945a599620c7cf3758aa4753308dc",
+            "sha256": "c098612e363f9bd919012d94cde7e0459351ac80f4ba73bdad1fc41daa33d1cf"
+        },
+        "gfl2_QRDecodeData.h": {
+            "modified": "2017-05-31 21:53:12.929482",
+            "size": "2.63KB",
+            "md5": "65258c4727646b88711beababa5da176",
+            "sha256": "493e8ac6bb698a882da21aa960e41c350906171908afbe60ae7a219b6873596f"
+        },
+        "gfl2_QREncodeData.h": {
+            "modified": "2017-05-31 21:53:12.934482",
+            "size": "4.27KB",
+            "md5": "b6ae829336582ea526d768969ac2ee1f",
+            "sha256": "21162114cce1f20e40c3a08cfdbecbab9fccc0c4513ae48b37580664667641b3"
+        },
+        "gfl2_QRRGBImageInfo.h": {
+            "modified": "2017-05-31 21:53:12.940483",
+            "size": "3.77KB",
+            "md5": "a89e6bff0ab08ff8e11da36b42b11cf5",
+            "sha256": "22924fc3ef98a6909c5ab75f0ae1f89cc324a5b4b6577a1d1b40be735be9de1e"
+        },
+        "gfl2_QRYUVImageInfo.h": {
+            "modified": "2017-05-31 21:53:12.944483",
+            "size": "3.54KB",
+            "md5": "b6f00fbbe98ee1ae9e89350b8b648541",
+            "sha256": "448a16d9a546dba064926cb334640bec61a3f3fa7d199a05788220af4b9b2e46"
+        }
+    },
+    "source": {
+        "gfl2_IQRDecoder.cpp": {
+            "modified": "2017-05-31 21:53:13.160505",
+            "size": "1.04KB",
+            "md5": "63272d4d247ac68f19c45cf8f681f2d8",
+            "sha256": "4e2ab11d80d0e027d7f51a04941bc4d97f2e2e96348fcbea044ec8bbac1f617a"
+        },
+        "gfl2_IQREncoder.cpp": {
+            "modified": "2017-05-31 21:53:13.165505",
+            "size": "1.04KB",
+            "md5": "e81408d71d991089edd4ed141c177939",
+            "sha256": "b2d8c1b99ba4a668af848f4496d47dae54edf820b15052bbfc96356f5bfa9dc1"
+        },
+        "gfl2_QRDecodeData.cpp": {
+            "modified": "2017-05-31 21:53:13.171506",
+            "size": "2.72KB",
+            "md5": "5ad0974c985d0e41dffc07d40187b04e",
+            "sha256": "17d45e687d3dd314cceeba6bb54fcf312aa3c62c2ccddc6426e555d7f8fa83dd"
+        },
+        "gfl2_QREncodeData.cpp": {
+            "modified": "2017-05-31 21:53:13.176506",
+            "size": "4.59KB",
+            "md5": "1cf0028caa638369b7dff4e1ea7e89d2",
+            "sha256": "914c6ef7acb36c4ef00fd40c11bf626206c14125f1d1cf23ddb33e30a1fb3a87"
+        },
+        "gfl2_QRRGBImageInfo.cpp": {
+            "modified": "2017-05-31 21:53:13.181507",
+            "size": "4.38KB",
+            "md5": "b72232f643ab33e5722ad7c71fb19333",
+            "sha256": "be3a9897558b26f11365c60be0bccf74731f774e07988d5d35ec6dfce00764fe"
+        },
+        "gfl2_QRYUVImageInfo.cpp": {
+            "modified": "2017-05-31 21:53:13.187507",
+            "size": "3.73KB",
+            "md5": "fb14dd5952d74baf875168ef9e7e21c9",
+            "sha256": "d0e81c7dd103e49c201b122d6111d1141590f083ceb3722ea03ae235917e5707"
+        }
+    },
+    "source\\ctr": {
+        "gfl2_CTR_QRDecodeExecutor.cpp": {
+            "modified": "2017-05-31 21:53:12.969486",
+            "size": "3.04KB",
+            "md5": "0bf2d8f109c481c60ac7885bfe16f320",
+            "sha256": "01e94b445cb6e04fbd73017632a183b5e21e7c3adcd0ab8a11f7aaa2c53d6678"
+        },
+        "gfl2_CTR_QRDecodeExecutor.h": {
+            "modified": "2017-05-31 21:53:12.975486",
+            "size": "1.71KB",
+            "md5": "6881b67abcb9aff0f10ddd88fd970689",
+            "sha256": "819148a46462bfa4da2ca5ad25a5b031bb3011a939b7fab88b294c30f052dd2d"
+        },
+        "gfl2_CTR_QRDecoder.cpp": {
+            "modified": "2017-05-31 21:53:13.012490",
+            "size": "3.98KB",
+            "md5": "dc98ed035342cb3f66eaef698f976d98",
+            "sha256": "30593179a7d40591d7c10c15015e5087a1f47775030802f9636a00807115cc08"
+        },
+        "gfl2_CTR_QRDecoder.h": {
+            "modified": "2017-05-31 21:53:13.016490",
+            "size": "3.13KB",
+            "md5": "b58e92282d612c862bc776c694916aa9",
+            "sha256": "9d093bcccc7e0ccea28bddfee163ef869982272a2ed0a7f8b9dec3634d809a3b"
+        },
+        "gfl2_CTR_QRDecodeThread.cpp": {
+            "modified": "2017-05-31 21:53:13.001489",
+            "size": "2.36KB",
+            "md5": "a2edafd489d1ce472093a9cf47dc4e15",
+            "sha256": "57769ffa9ab17e76a6cfb415209362bc2c815cf4f2479571b1439a7f3cb35e2a"
+        },
+        "gfl2_CTR_QRDecodeThread.h": {
+            "modified": "2017-05-31 21:53:13.006489",
+            "size": "2.44KB",
+            "md5": "114ebbe65807303d3f4e9e8d0d1e2814",
+            "sha256": "79b609b064eb2757b50198dd37a5d3b0ff96506a465cbc81eb404f00e48789d1"
+        },
+        "gfl2_CTR_QREncodeExecutor.cpp": {
+            "modified": "2017-05-31 21:53:13.021491",
+            "size": "3.1KB",
+            "md5": "d638a4595310db3922756fd043032c0f",
+            "sha256": "dc0e4395d4966f48d2d3b5374aca82b34ad25a49d687e2a5d3788c854b33a869"
+        },
+        "gfl2_CTR_QREncodeExecutor.h": {
+            "modified": "2017-05-31 21:53:13.048493",
+            "size": "1.67KB",
+            "md5": "fdcdbc61586f84fa5deb701e5c09ab46",
+            "sha256": "8a99f47dfd2abd8d5e36f4dc52f615da19f32d0de805f0c0d17a826ab836372a"
+        },
+        "gfl2_CTR_QREncoder.cpp": {
+            "modified": "2017-05-31 21:53:13.107499",
+            "size": "6.34KB",
+            "md5": "ad89aad6f51b128a52761078148a5f42",
+            "sha256": "22416309ca5acb9e76a5ad749d29ddacdd086d35f93b43761862b83bb8c28b5d"
+        },
+        "gfl2_CTR_QREncoder.h": {
+            "modified": "2017-05-31 21:53:13.112500",
+            "size": "3.28KB",
+            "md5": "8fd978ddb997370c82b901deda4387ea",
+            "sha256": "161e61a6ff9c6a847bc2fb37c2b8e8f3765e19ef6f3a8df8030dbb08fe49de86"
+        },
+        "gfl2_CTR_QREncodeThread.cpp": {
+            "modified": "2017-05-31 21:53:13.096498",
+            "size": "2.37KB",
+            "md5": "a603cc0e9a84cf98d2d20bb2d02a4f5b",
+            "sha256": "031c981382b6fe8f5a9d27a8979040c9b12237776c0b9e5c84a099a89e572a59"
+        },
+        "gfl2_CTR_QREncodeThread.h": {
+            "modified": "2017-05-31 21:53:13.101499",
+            "size": "2.45KB",
+            "md5": "31605013f7340040413dabc81661200a",
+            "sha256": "244ea6da52fb352255f47b75d2eabafa96dc96158dfefed4527bae65a6b771be"
+        },
+        "gfl2_CTR_TextureConverter.cpp": {
+            "modified": "2017-05-31 21:53:13.149503",
+            "size": "14.26KB",
+            "md5": "dbd8d54a92a0fcecf87d95c7ac500660",
+            "sha256": "1bee62d0765ac889e4b71cb4445d3de93e033cd65bf2d05201cad2543c1d93ab"
+        },
+        "gfl2_CTR_TextureConverter.h": {
+            "modified": "2017-05-31 21:53:13.156504",
+            "size": "2.23KB",
+            "md5": "8013d1107b031456e4dd968c03373bd8",
+            "sha256": "9d6684f080d5e8e8c33f56462f2a7ccf2658e1a34ae4bf6f183386f51ec462ca"
+        }
+    },
+    "source\\win32": {
+        "gfl2_WIN32_QRDecoder.cpp": {
+            "modified": "2017-05-31 21:53:13.193508",
+            "size": "2.62KB",
+            "md5": "2e1aca9ba6c6a79c8c08c93d3de1e209",
+            "sha256": "e1d61ae155d37d987c015c1a3910109b10259d2392ad7dcf5ea1cd6e29576aac"
+        },
+        "gfl2_WIN32_QRDecoder.h": {
+            "modified": "2017-05-31 21:53:13.219511",
+            "size": "2.55KB",
+            "md5": "3e0f809b4a4aa63b61c0a0747e0337d0",
+            "sha256": "48845f49505069dd2b671f006ec9e0021ab7d06147a62e6be265094ca5a26ae1"
+        },
+        "gfl2_WIN32_QREncoder.cpp": {
+            "modified": "2017-05-31 21:53:13.225511",
+            "size": "2.62KB",
+            "md5": "818812a8d886e58f13092185ae88f2ed",
+            "sha256": "b7c507ccd445157411278e79aded93ed64a140cef7cc2db0037d1b399e69454a"
+        },
+        "gfl2_WIN32_QREncoder.h": {
+            "modified": "2017-05-31 21:53:13.231512",
+            "size": "2.55KB",
+            "md5": "3a1f7f5a6f5fbb39abed82bb55ce9b4b",
+            "sha256": "0b368c1e38b386be43ce95199d06033abe11e7c499a94b0d371cbc541c3aa9f2"
+        }
+    }
+}

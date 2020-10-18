@@ -1,0 +1,52 @@
+SymbolicBinary/
+├── .gitignore
+├── DynamicBinaryWriterLib/
+│   ├── DynamicBinaryWriterLib.vcxproj
+│   ├── DynamicBinaryWriterLib.vcxproj.filters
+│   ├── ForRuby/
+│   │   ├── DynamicBinary4Ruby.cpp
+│   │   └── RubyWrapper.h
+│   ├── MakeRubyLib.sh
+│   ├── SymbolicBinary-i386-mingw32.def
+│   ├── SymbolicBinaryWriter.cpp
+│   ├── SymbolicBinaryWriter.h
+│   ├── SymbolicTableWriter.cpp
+│   └── SymbolicTableWriter.h
+├── SymbolicBinary.sln
+├── SymbolResolveManager/
+│   ├── App.config
+│   ├── GlobalSymbolIndex.cs
+│   ├── ProcessManager.cs
+│   ├── Program.cs
+│   ├── Properties/
+│   │   └── AssemblyInfo.cs
+│   └── SymbolResolveManager.csproj
+├── SymbolResolver/
+│   ├── App.config
+│   ├── IBinaryDecoder.cs
+│   ├── OctDecoder.cs
+│   ├── Program.cs
+│   ├── Properties/
+│   │   └── AssemblyInfo.cs
+│   ├── SymbolDefinitionTable.cs
+│   ├── SymbolRecordType.cs
+│   ├── SymbolReferenceTable.cs
+│   ├── SymbolResolver.csproj
+│   └── SymbolTable.cs
+├── SymbolTableMergerLib/
+│   ├── Properties/
+│   │   └── AssemblyInfo.cs
+│   ├── SymbolTableMerger.cs
+│   └── SymbolTableMergerLib.csproj
+├── TableMerger4Binlinker/
+│   ├── App.config
+│   ├── Program.cs
+│   ├── Properties/
+│   │   └── AssemblyInfo.cs
+│   └── TableMerger4Binlinker.csproj
+└── TableMerger4GFArchiver/
+    ├── App.config
+    ├── Program.cs
+    ├── Properties/
+    │   └── AssemblyInfo.cs
+    └── TableMerger4GFArchiver.csproj

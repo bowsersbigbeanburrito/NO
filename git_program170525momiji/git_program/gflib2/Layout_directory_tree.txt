@@ -1,0 +1,29 @@
+Layout/
+├── include/
+│   ├── gfl2_Camera.h
+│   ├── gfl2_DrawingLytWkManager.h
+│   ├── gfl2_G2dEnv.h
+│   ├── gfl2_GraphicsType.h
+│   ├── gfl2_Layout.h
+│   ├── gfl2_LayoutRenderPath.h
+│   ├── gfl2_LytInfoTableAccessor.h
+│   ├── gfl2_LytMultiResID.h
+│   ├── gfl2_LytRes.h
+│   ├── gfl2_LytShaderResource.h
+│   ├── gfl2_LytSys.h
+│   └── gfl2_LytWkBase.h
+├── project/
+│   ├── gf_template_gflib2.rsf
+│   ├── Layout.vcxproj
+│   └── Layout.vcxproj.filters
+└── source/
+    ├── gfl2_Camera.cpp
+    ├── gfl2_DrawingLytWkManager.cpp
+    ├── gfl2_G2dEnv.cpp
+    ├── gfl2_LayoutRenderPath.cpp
+    ├── gfl2_LytInfoTableAccessor.cpp
+    ├── gfl2_LytMultiResID.cpp
+    ├── gfl2_LytRes.cpp
+    ├── gfl2_LytShaderResource.cpp
+    ├── gfl2_LytSys.cpp
+    └── gfl2_LytWkBase.cpp

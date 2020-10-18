@@ -1,0 +1,276 @@
+{
+    "include": {
+        "gfl2_Assert.h": {
+            "modified": "2017-05-31 21:53:01.740363",
+            "size": "6.56KB",
+            "md5": "d3bffe65a27b0ee0e85c86305626c25c",
+            "sha256": "d1a658aa1f7821c5840068b811b5b240aed6ea2714d5fc48e1bcbcb67629d3ee"
+        },
+        "gfl2_DebugLogWindow.h": {
+            "modified": "2017-05-31 21:53:01.746363",
+            "size": "8.93KB",
+            "md5": "c62ac5d0b140b40c2c58435942481ace",
+            "sha256": "eeb2125d99d6c21c547183b3f1f5bcbc565a8567787e0339fa589383415ff155"
+        },
+        "gfl2_DebugPrint.h": {
+            "modified": "2017-05-31 23:56:19.983132",
+            "size": "14.67KB",
+            "md5": "8321a2542a8f99fcecf8ec32a1f830e6",
+            "sha256": "f14cfc809912cf6ed8d32c7745afc17f02939a3842069362797c047d3cbd8f9c"
+        },
+        "gfl2_DebugTick.h": {
+            "modified": "2017-05-31 21:53:01.761365",
+            "size": "9.14KB",
+            "md5": "0bc8b5e0e46a5a8ffbd5d763e29ffb26",
+            "sha256": "6ec3a1a92c273c6d70eb946eb0c0bb4a7d810914bac1e710ab1d042bac450022"
+        },
+        "gfl2_DebugWinItem.h": {
+            "modified": "2017-05-31 23:56:19.989132",
+            "size": "8.14KB",
+            "md5": "acc638b8b5c7d6b44a23015c856211d5",
+            "sha256": "5c5c29eb7d1176bbe92b0f915fbb5b41c4c207bb57631a354ba855faefea1757"
+        },
+        "gfl2_DebugWinItemTypes.h": {
+            "modified": "2017-05-31 21:53:01.775366",
+            "size": "35.93KB",
+            "md5": "223761634272ff54fa31b9d202686550",
+            "sha256": "d61440bc032d940b916627f80b2304c120c97b46452537831c78590ac38f766e"
+        },
+        "gfl2_DebugWinLocal.h": {
+            "modified": "2017-05-31 23:56:19.997133",
+            "size": "15.33KB",
+            "md5": "10b53f25b6c9eb131020fa614cc11fb9",
+            "sha256": "75c42717e93100aec3b5bc8e05c863c4adf407c0773962cad58bd3ba55619bc0"
+        },
+        "gfl2_DebugWinSystem.h": {
+            "modified": "2017-05-31 23:56:20.003134",
+            "size": "11.31KB",
+            "md5": "3b7c1fa16c66dda0fd4637ce39ff4b23",
+            "sha256": "34e10de70f660c3924658909bac449a889d4ed131f6c5a2c0b8cb199fac3339d"
+        },
+        "gfl2_DebugWinTypes.h": {
+            "modified": "2017-05-31 21:53:01.794368",
+            "size": "0.88KB",
+            "md5": "7f5f5eba37ae5eb40b4756033cce7e8b",
+            "sha256": "ed44729420654cdf1a9b3721631a010e700c10a0a2705cafa2b9d310fe22ea6b"
+        }
+    },
+    "include\\DynamicHeader": {
+        "gfl2_DebugDynamicHeader.h": {
+            "modified": "2017-05-31 21:53:01.662355",
+            "size": "3.32KB",
+            "md5": "e81c6065fc1e4ec383e1062f9ad18a4b",
+            "sha256": "73feafc35f0ee6c2e9d773bc015c302ddd1f348841f0b56a8f6ce212ebaf1373"
+        }
+    },
+    "include\\DynamicHeader\\internal": {
+        "gfl2_DebugAddOnlyHashTable.h": {
+            "modified": "2017-05-31 21:53:01.668355",
+            "size": "2.49KB",
+            "md5": "f6df87984f6baa0cc7c402c4fabf92d5",
+            "sha256": "08b55ab0db788bba4239a7303d5c7ebe1fe0c4a93db17278bd10365c0562a4e7"
+        },
+        "gfl2_DebugCppEnumHeaderParser.h": {
+            "modified": "2017-05-31 21:53:01.673356",
+            "size": "2.83KB",
+            "md5": "383b8813588985cdc77b22c2be1ab6f5",
+            "sha256": "5a69d2b19ae81cd916998c71ecff80e954590d7877e38ecfd0b912c99b266bb1"
+        },
+        "gfl2_DebugDynamicHeaderDefine.h": {
+            "modified": "2017-05-31 21:53:01.690358",
+            "size": "1.15KB",
+            "md5": "17358e43765744f2f04008fb2ce41b83",
+            "sha256": "1794c7ebe34e6c10efeedcd4968805fc9d6360b0b4ec4e6ef0b9e8503a831cb7"
+        },
+        "gfl2_DebugFixedStack.h": {
+            "modified": "2017-05-31 21:53:01.695358",
+            "size": "3.77KB",
+            "md5": "3f7dadc2c581cfa0533508df5d48d31b",
+            "sha256": "022c96f0289268d692cb5ced832ae9c955f24310f3eeda4801e69d6e6d2f0149"
+        },
+        "gfl2_DebugHashTableBase.h": {
+            "modified": "2017-05-31 21:53:01.700359",
+            "size": "8.62KB",
+            "md5": "2bd1da33358eb7dce19db8657048bd17",
+            "sha256": "f8d210306efc56c51be05e3993eba113fc5d3aae88bbcaf85df706a1c0c89646"
+        },
+        "gfl2_DebugHeaderHashManager.h": {
+            "modified": "2017-05-31 21:53:01.707359",
+            "size": "5.49KB",
+            "md5": "8d0edbf40155eda55607a8861238985c",
+            "sha256": "23a0caeeec92872e64ed69eed2f009f72544650dac01d004642152ebca08a16d"
+        },
+        "gfl2_DebugRemovableHashTable.h": {
+            "modified": "2017-05-31 21:53:01.714360",
+            "size": "3.13KB",
+            "md5": "cbe2473084d68614bd6f755e6fd0df3d",
+            "sha256": "7b4664fd9d86cbc0404d26d3142eeaeec01a7a054b2b5231908ba5c3709d5fe0"
+        },
+        "gfl2_DebugTextFileReadStream.h": {
+            "modified": "2017-05-31 21:53:01.719361",
+            "size": "2.4KB",
+            "md5": "bfb01943ceeca6b8e4b211fe11ff1ad8",
+            "sha256": "1e0682e27ea01043b2aefebad2defc482fd743ab5bf13e15439b1ccafd60d09a"
+        }
+    },
+    "project": {
+        "debug.vcxproj": {
+            "modified": "2017-05-31 23:56:20.024136",
+            "size": "16.08KB",
+            "md5": "b65b2ba7e1fe1ace1ba9ec147a9f1c7e",
+            "sha256": "3fe180f067a6db214d7ccf9e04d7fa0b0be75c7fa4c65f56896b64bc1840ed8e"
+        },
+        "debug.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:01.823371",
+            "size": "5.69KB",
+            "md5": "add693af30705e213ce05f6c13f913cf",
+            "sha256": "6ff6d24a41c2c487e1add7ccff7be8eb17b7b92524d091873a0b2d5510b9c1fa"
+        },
+        "gf_template_gflib2.rsf": {
+            "modified": "2017-05-31 21:53:01.829372",
+            "size": "0.17KB",
+            "md5": "e6c2e3cdf5793f3627b26e4a41ea5973",
+            "sha256": "35e0ae45e8d2b2b2701ed29d540239cdd6cdb8c53b2326be566aae7cb6d17b35"
+        }
+    },
+    "Sample": {
+        ".gitignore": {
+            "modified": "2017-05-31 21:53:01.576346",
+            "size": "0.09KB",
+            "md5": "08c3b9b03d56e1f192c8de20a52175e8",
+            "sha256": "ac9174b1ccdb28283fbc426e1c98d456a1dcae59e63dd0835e0f234bf5ad93ff"
+        },
+        "Sample.sln": {
+            "modified": "2017-05-31 21:53:01.654354",
+            "size": "9.35KB",
+            "md5": "259c81167cc25acd507428ddeef678e1",
+            "sha256": "5d6134677dec889dd61b347de03b4a1b073f70fc7b2b5a356916daeaf916f81e"
+        }
+    },
+    "Sample\\DynamicHeader": {
+        "CheckerUsageSample.bat": {
+            "modified": "2017-05-31 21:53:01.580347",
+            "size": "0.2KB",
+            "md5": "9c9346d5750dbfceb31a39f98dd5c8ca",
+            "sha256": "cd364e32718b8ca9926ab66a30c7b78336a355577e3f45f56b2f474036d3d48f"
+        },
+        "dumy_enum.h": {
+            "modified": "2017-05-31 21:53:01.620351",
+            "size": "0.94KB",
+            "md5": "332f400dca049cc52ef7b243562c961c",
+            "sha256": "b2bb581f8b73e104065da48489840590be6e29b40b6276d42a8a5d9038b17469"
+        },
+        "DynamicHeader.rsf": {
+            "modified": "2017-05-31 21:53:01.585347",
+            "size": "0.17KB",
+            "md5": "e6c2e3cdf5793f3627b26e4a41ea5973",
+            "sha256": "35e0ae45e8d2b2b2701ed29d540239cdd6cdb8c53b2326be566aae7cb6d17b35"
+        },
+        "DynamicHeader.vcxproj": {
+            "modified": "2017-05-31 23:56:19.961130",
+            "size": "15.08KB",
+            "md5": "d3ddeaaaea4def3de74cf5de55c2ae5e",
+            "sha256": "6435953b6a741b9ec8da6092fab4fcbc4794342b669adba7f7ddfaf5a1d269db"
+        },
+        "DynamicHeader.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:01.596348",
+            "size": "1.33KB",
+            "md5": "27682ca52e34663cfe025f90328f8c20",
+            "sha256": "c0cb67d7ca8cc9e9885a78eff15c3365266d7a03a1b3ab09ad83b7aaa75b89f7"
+        },
+        "IncludeHeaderChecker.rb": {
+            "modified": "2017-05-31 21:53:01.602349",
+            "size": "1.09KB",
+            "md5": "2884a8636fa443646f5b05d048220170",
+            "sha256": "8821c7dbcc4748166c4e5cb2984907797f4291e85ed4cf21e40fff4b96b1c073"
+        },
+        "main.cpp": {
+            "modified": "2017-05-31 21:53:01.633352",
+            "size": "3.73KB",
+            "md5": "5879e44e44c9a503eb62e7954b35836d",
+            "sha256": "ab474edd0b81eba2eae562a779ec50ad03ede15ffc888e61ce97d3c61334024f"
+        }
+    },
+    "source": {
+        "gfl2_DebugLogWindow.cpp": {
+            "modified": "2017-05-31 21:53:01.894378",
+            "size": "16.29KB",
+            "md5": "72f8544786a80eff49e4fae3a863db8e",
+            "sha256": "28158c55d1af472a1783dfa1a284852228d329d49548421f3529548d82047ede"
+        },
+        "gfl2_DebugTick.cpp": {
+            "modified": "2017-05-31 21:53:01.902379",
+            "size": "12.4KB",
+            "md5": "02933551e998cdc053012a4e49df625a",
+            "sha256": "9d983fd8ba1cc52d97ea491271aa7ac6d1ca0540190b28546120cc5ee8ebd80b"
+        },
+        "gfl2_DebugWinItem.cpp": {
+            "modified": "2017-05-31 23:56:20.052139",
+            "size": "6.99KB",
+            "md5": "15fe72cf8f5dc3cc2d18c72f71cb1ff2",
+            "sha256": "f716382092d521a48955778fe4331270ad9a473022150b18d2ae4d15bd0b7324"
+        },
+        "gfl2_DebugWinItemTypes.cpp": {
+            "modified": "2017-05-31 21:53:01.915380",
+            "size": "24.42KB",
+            "md5": "e158909142ed5f064ef33842f1c0111e",
+            "sha256": "b8d7cdb10776622f710c8d67851db0cfe8f4534dfbd0e00d9f160090de07001b"
+        },
+        "gfl2_DebugWinSystem.cpp": {
+            "modified": "2017-05-31 23:56:20.060139",
+            "size": "29.76KB",
+            "md5": "ecb7940b0afc7ba409eac986b5e3b653",
+            "sha256": "994b0c790dfe302dde0c1949101d64c3dffdf5228a42c7ddd0004714de6b3246"
+        },
+        "gfl_assert.cpp": {
+            "modified": "2017-05-31 21:53:01.929382",
+            "size": "16.49KB",
+            "md5": "920f34676abd37b8487815df0fab5f39",
+            "sha256": "c34698d9e4df81a27a6ae580c933f1a395683e81be89b071982ae6fa72aaf483"
+        },
+        "gfl_debug_print.cpp": {
+            "modified": "2017-05-31 21:53:01.935382",
+            "size": "5.0KB",
+            "md5": "246252b34189e3aff446685cf8ecb0a5",
+            "sha256": "8ba406560f8a8485dad1499d75cf3a1883263178efe7b5eb917dc89d1ba637e9"
+        }
+    },
+    "source\\DynamicHeader": {
+        "gfl2_DebugAddOnlyHashTable.cpp": {
+            "modified": "2017-05-31 21:53:01.835372",
+            "size": "3.49KB",
+            "md5": "a9798bb72c0674d10b9380fa7d3536bb",
+            "sha256": "27d545baa5f4817ae48aae15aa112c99b7cc59fb86661701ab2a77e1ad05b987"
+        },
+        "gfl2_DebugCppEnumHeaderParser.cpp": {
+            "modified": "2017-05-31 21:53:01.840373",
+            "size": "7.26KB",
+            "md5": "0f1f2da38bca3580093581833091f59d",
+            "sha256": "b26d2d2cf5b8745401eb66b8fc2217d6295e2becd86391a3a370be8e3203da2c"
+        },
+        "gfl2_DebugDynamicHeaderManager.cpp": {
+            "modified": "2017-05-31 21:53:01.849374",
+            "size": "9.25KB",
+            "md5": "5d4297082427ebc05343a78df76468d1",
+            "sha256": "5e2ffda491d5d4ab56a6e0ccbe5514b2559604e97b16c28ce7277272362920f9"
+        },
+        "gfl2_DebugHashTableBase.cpp": {
+            "modified": "2017-05-31 21:53:01.875376",
+            "size": "8.38KB",
+            "md5": "5e39c189dced17f917200d5d3663f16c",
+            "sha256": "ebbef1bcfe6d5eee158f5e821bb664403271934ed6bc61d415d7f141893be258"
+        },
+        "gfl2_DebugRemovableHashTable.cpp": {
+            "modified": "2017-05-31 21:53:01.883377",
+            "size": "6.91KB",
+            "md5": "01ba34591c6b64a2f6ab22eea3db59cc",
+            "sha256": "0861867dbadc5b5f9815b92f2466fc30ed80fc917bff61c2293654dbe037c161"
+        },
+        "gfl2_DebugTextFileReadStream.cpp": {
+            "modified": "2017-05-31 21:53:01.888377",
+            "size": "3.45KB",
+            "md5": "214dac2520434166ac4d04320fc0811a",
+            "sha256": "f23d1a8eee707b1d9f0f2c5c4853ab5d4a2b0def814ab3fe0c3ca294b6e00a97"
+        }
+    }
+}

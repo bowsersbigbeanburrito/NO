@@ -1,0 +1,26 @@
+common/
+├── cafe/
+│   └── gf.cafe.custom.props
+├── common.props
+├── ctr/
+│   ├── gf.ctr.app.debug.props
+│   ├── gf.ctr.app.develop.props
+│   ├── gf.ctr.app.release.props
+│   ├── gf.ctr.custom.props
+│   ├── gf.ctr.lib.debug.props
+│   ├── gf.ctr.lib.develop.props
+│   ├── gf.ctr.lib.release.props
+│   ├── gf.ctr.ro.debug.props
+│   ├── gf.ctr.ro.develop.props
+│   ├── gf.ctr.ro.release.props
+│   ├── gf.ctr.roapp.debug.props
+│   ├── gf.ctr.roapp.develop.props
+│   └── gf.ctr.roapp.release.props
+├── gf.root.common.props
+└── win32/
+    ├── gf.win32.app.debug.props
+    ├── gf.win32.app.develop.props
+    ├── gf.win32.app.release.props
+    ├── gf.win32.lib.debug.props
+    ├── gf.win32.lib.develop.props
+    └── gf.win32.lib.release.props

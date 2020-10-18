@@ -1,0 +1,10 @@
+imagedb/
+├── imagedb.vcxproj
+├── imagedb.vcxproj.filters
+├── include/
+│   ├── gfl2_ImageDBAccessor.h
+│   ├── gfl2_ImageDBSearcher.h
+│   └── gfl2_ImageDBTypes.h
+└── source/
+    ├── gfl2_ImageDBAccessor.cpp
+    └── gfl2_ImageDBSearcher.cpp

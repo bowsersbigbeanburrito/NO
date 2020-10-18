@@ -1,0 +1,138 @@
+fs/
+├── include/
+│   ├── CTR/
+│   │   ├── gfl2_FsCtrBackupFile.h
+│   │   ├── gfl2_FsCtrBackupSystem.h
+│   │   ├── gfl2_FsCtrDirectory.h
+│   │   ├── gfl2_FsCtrExtSaveFile.h
+│   │   └── gfl2_FsCtrExtSaveSystem.h
+│   ├── gfl2_BinLinkerAccessor.h
+│   ├── gfl2_Fs.h
+│   ├── gfl2_FsArcFile.h
+│   ├── gfl2_FsAsyncFileManager.h
+│   ├── gfl2_FsDefine.h
+│   ├── gfl2_FsDirectSdmcFile.h
+│   ├── gfl2_FsNameTable.h
+│   ├── gfl2_FsPcUtil.h
+│   ├── gfl2_FsResult.h
+│   ├── gfl2_FsStr.h
+│   ├── gfl2_FsSystem.h
+│   ├── gfl2_FsToolDefine.h
+│   └── internal/
+│       ├── gfl2_FsElemBase.h
+│       ├── gfl2_FsFile.h
+│       ├── gfl2_FsFileBase.h
+│       └── gfl2_FsFileCoreBase.h
+├── project/
+│   ├── fs.vcxproj
+│   ├── fs.vcxproj.filters
+│   └── gf_template_gflib2.rsf
+└── source/
+    ├── ArcFileAccessor/
+    │   ├── gfl2_FsIArcFileAccessor.cpp
+    │   ├── gfl2_FsIArcFileAccessor.h
+    │   ├── ver.4.x/
+    │   │   ├── gfl2_FsArcFileAccessor.cpp
+    │   │   ├── gfl2_FsArcFileAccessor.h
+    │   │   ├── gfl2_FsArcFileAccessor_FileAllocationOffsetBlock.cpp
+    │   │   ├── gfl2_FsArcFileAccessor_FileAllocationOffsetBlock.h
+    │   │   ├── gfl2_FsArcFileAccessor_FileAllocationTableBlock.cpp
+    │   │   ├── gfl2_FsArcFileAccessor_FileAllocationTableBlock.h
+    │   │   ├── gfl2_FsArcFileAccessor_FileBlock.cpp
+    │   │   ├── gfl2_FsArcFileAccessor_FileBlock.h
+    │   │   ├── gfl2_FsArcFileAccessor_FileHeaderBlock.cpp
+    │   │   ├── gfl2_FsArcFileAccessor_FileHeaderBlock.h
+    │   │   ├── gfl2_FsArcFileAccessor_FileImageBlock.cpp
+    │   │   └── gfl2_FsArcFileAccessor_FileImageBlock.h
+    │   ├── ver.5.x/
+    │   │   ├── gfl2_FsArcFileAccessor_FileAllocationOffsetBlock_ver5.cpp
+    │   │   ├── gfl2_FsArcFileAccessor_FileAllocationOffsetBlock_ver5.h
+    │   │   ├── gfl2_FsArcFileAccessor_FileAllocationTableBlock_ver5.cpp
+    │   │   ├── gfl2_FsArcFileAccessor_FileAllocationTableBlock_ver5.h
+    │   │   ├── gfl2_FsArcFileAccessor_FileBlock_ver5.cpp
+    │   │   ├── gfl2_FsArcFileAccessor_FileBlock_ver5.h
+    │   │   ├── gfl2_FsArcFileAccessor_FileHeaderBlock_ver5.cpp
+    │   │   ├── gfl2_FsArcFileAccessor_FileHeaderBlock_ver5.h
+    │   │   ├── gfl2_FsArcFileAccessor_FileImageBlock_ver5.cpp
+    │   │   ├── gfl2_FsArcFileAccessor_FileImageBlock_ver5.h
+    │   │   ├── gfl2_FsArcFileAccessor_ver5.cpp
+    │   │   └── gfl2_FsArcFileAccessor_ver5.h
+    │   └── ver.6.x/
+    │       ├── gfl2_FsArcFileAccessor_FileAllocationOffsetBlock_ver6.cpp
+    │       ├── gfl2_FsArcFileAccessor_FileAllocationOffsetBlock_ver6.h
+    │       ├── gfl2_FsArcFileAccessor_FileAllocationTableBlock_ver6.cpp
+    │       ├── gfl2_FsArcFileAccessor_FileAllocationTableBlock_ver6.h
+    │       ├── gfl2_FsArcFileAccessor_FileBlock_ver6.cpp
+    │       ├── gfl2_FsArcFileAccessor_FileBlock_ver6.h
+    │       ├── gfl2_FsArcFileAccessor_FileHeaderBlock_ver6.cpp
+    │       ├── gfl2_FsArcFileAccessor_FileHeaderBlock_ver6.h
+    │       ├── gfl2_FsArcFileAccessor_FileImageBlock_ver6.cpp
+    │       ├── gfl2_FsArcFileAccessor_FileImageBlock_ver6.h
+    │       ├── gfl2_FsArcFileAccessor_ver6.cpp
+    │       └── gfl2_FsArcFileAccessor_ver6.h
+    ├── arcsrc/
+    │   ├── arcsrc_Accessor.cpp
+    │   ├── arcsrc_Accessor.h
+    │   └── arcsrc_ToolDefine.h
+    ├── CTR/
+    │   ├── gfl2_FsCtrBackupFile.cpp
+    │   ├── gfl2_FsCtrBackupSystem.cpp
+    │   ├── gfl2_FsCtrBackupThread.cpp
+    │   ├── gfl2_FsCtrBackupThread.h
+    │   ├── gfl2_FsCtrDirectory.cpp
+    │   ├── gfl2_FsCtrExtSaveFile.cpp
+    │   ├── gfl2_FsCtrExtSaveSystem.cpp
+    │   ├── gfl2_FsCtrExtSaveThread.cpp
+    │   ├── gfl2_FsCtrExtSaveThread.h
+    │   ├── gfl2_FsCtrFileCore.cpp
+    │   ├── gfl2_FsCtrFileCore.h
+    │   ├── gfl2_FsCtrHioDevice.cpp
+    │   ├── gfl2_FsCtrHioDevice.h
+    │   ├── gfl2_FsCtrHioFileCore.cpp
+    │   ├── gfl2_FsCtrHioFileCore.h
+    │   ├── gfl2_FsCtrHioUtil.cpp
+    │   ├── gfl2_FsCtrHioUtil.h
+    │   ├── gfl2_FsCtrRomDevice.cpp
+    │   ├── gfl2_FsCtrRomDevice.h
+    │   ├── gfl2_FsCtrRomFileCore.cpp
+    │   ├── gfl2_FsCtrRomFileCore.h
+    │   ├── gfl2_FsCtrSdmcDevice.cpp
+    │   ├── gfl2_FsCtrSdmcDevice.h
+    │   ├── gfl2_FsCtrSdmcPathDevice.cpp
+    │   └── gfl2_FsCtrSdmcPathDevice.h
+    ├── gfl2_BinLinkerAccessor.cpp
+    ├── gfl2_Fs.cpp
+    ├── gfl2_FsArcFile.cpp
+    ├── gfl2_FsAsyncFileManager.cpp
+    ├── gfl2_FsDeviceBase.cpp
+    ├── gfl2_FsDeviceBase.h
+    ├── gfl2_FsDirectSdmcFile.cpp
+    ├── gfl2_FsNameTable.cpp
+    ├── gfl2_FsResult.cpp
+    ├── gfl2_FsStr.cpp
+    ├── gfl2_FsSystem.cpp
+    ├── internal/
+    │   ├── gfl2_FsCalc.cpp
+    │   ├── gfl2_FsCalc.h
+    │   ├── gfl2_FsDebug.cpp
+    │   ├── gfl2_FsDebug.h
+    │   ├── gfl2_FsFile.cpp
+    │   ├── gfl2_FsFileBase.cpp
+    │   ├── gfl2_FsFileCoreBase.cpp
+    │   ├── gfl2_FsFileThread.cpp
+    │   ├── gfl2_FsFileThread.h
+    │   ├── gfl2_FsList.cpp
+    │   ├── gfl2_FsList.h
+    │   ├── gfl2_FsOtherThread.cpp
+    │   ├── gfl2_FsOtherThread.h
+    │   ├── gfl2_FsUtilBase.cpp
+    │   └── gfl2_FsUtilBase.h
+    └── Win32/
+        ├── gfl2_FsWin32Device.cpp
+        ├── gfl2_FsWin32Device.h
+        ├── gfl2_FsWin32FileCore.cpp
+        ├── gfl2_FsWin32FileCore.h
+        ├── gfl2_FsWin32Func.cpp
+        ├── gfl2_FsWin32Func.h
+        ├── gfl2_FsWin32Util.cpp
+        └── gfl2_FsWin32Util.h

@@ -1,0 +1,19 @@
+FontString/
+├── data/
+│   ├── output_binary.bin
+│   └── pokemon_wb.xlor
+├── include/
+│   └── gfl2_FontString.h
+├── project/
+│   ├── FontString.vcxproj
+│   ├── FontString.vcxproj.filters
+│   └── gf_template_gflib2.rsf
+├── source/
+│   └── gfl2_FontString.cpp
+└── tool/
+    ├── BinConv.sln
+    ├── BinConv.vcxproj
+    ├── BinConv.vcxproj.filters
+    ├── main.cpp
+    ├── Util.cpp
+    └── Util.h

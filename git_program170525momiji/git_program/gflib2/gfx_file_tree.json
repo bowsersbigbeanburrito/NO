@@ -1,0 +1,1448 @@
+{
+    "include": {
+        "ColorDef.inl": {
+            "modified": "2017-05-31 21:53:08.630052",
+            "size": "6.26KB",
+            "md5": "8e07331696d56e67fa68f7df12a6301a",
+            "sha256": "15850e7bbd0863efef3ce0c8976ba2a30ee7a2367c4048dcc0c06c514d277283"
+        },
+        "gfl2_Buffer.h": {
+            "modified": "2017-05-31 21:53:09.076096",
+            "size": "1.81KB",
+            "md5": "243d8b9b66e2a4f81c4611b340791544",
+            "sha256": "70ddf88f50d36f5a1255f8f27decf40e6ae81ff56d116e284ee4f3671698636c"
+        },
+        "gfl2_Color.h": {
+            "modified": "2017-05-31 21:53:09.081097",
+            "size": "4.34KB",
+            "md5": "f4070c7e7b6025c708b69b0ac61c0e03",
+            "sha256": "f567260d1c725f897a2f540b9cdcca7782e6241c988ec38364ffa2b58595cba2"
+        },
+        "gfl2_ColorU8.h": {
+            "modified": "2017-05-31 21:53:09.087097",
+            "size": "1.54KB",
+            "md5": "96d279d30c295d45649cd83dead1d203",
+            "sha256": "8f5cab3b49be0be1d4219826666c00b879929dfe3d4b59a0b576bdb05384941f"
+        },
+        "gfl2_CommonGL.h": {
+            "modified": "2017-05-31 21:53:09.091098",
+            "size": "0.71KB",
+            "md5": "6c766ddf617031d93a7f3ef4302f1926",
+            "sha256": "748efb009c9db9abd8f20f155cb0738453a87cb72d2301d4715904f6f4759761"
+        },
+        "gfl2_DisplayList.h": {
+            "modified": "2017-05-31 21:53:09.111100",
+            "size": "0.54KB",
+            "md5": "73a1d286a5f4aa66f6ac12e01a1c2f30",
+            "sha256": "98d348b487d21a464843a2b0243517db3f4f3ebec6d7c33a95c5b590893e9336"
+        },
+        "gfl2_DrawUtil.h": {
+            "modified": "2017-05-31 21:53:09.118100",
+            "size": "17.78KB",
+            "md5": "a1ea77b028249991ff4a66b3b6960052",
+            "sha256": "d2579f180a321b6264c9b968ea0fdda27d992710c122b5334b1326d4201f3944"
+        },
+        "gfl2_enums.h": {
+            "modified": "2017-05-31 21:53:09.491138",
+            "size": "22.41KB",
+            "md5": "7c5ee9606519ec732e24ed3bc415e590",
+            "sha256": "6e4be9d82ffa3b2c51dbed25f2a59d02a180e272fa79fced79ce736055855506"
+        },
+        "gfl2_GFGL.h": {
+            "modified": "2017-05-31 21:53:09.124101",
+            "size": "39.3KB",
+            "md5": "a1c56dfcda5361fd3fd5366595066ae3",
+            "sha256": "902130224e2dd1117878f2451d5ac19f212d723a4119e1a672325a00344c364a"
+        },
+        "gfl2_GFGLUtil.h": {
+            "modified": "2017-05-31 21:53:09.130102",
+            "size": "6.49KB",
+            "md5": "8c840d1f0f9c4f89d3d6105c84cdb39a",
+            "sha256": "261081753b7ab925b9f53689b3602832d2faed2036e91135e984d1c631c0a51e"
+        },
+        "gfl2_GLMemory.h": {
+            "modified": "2017-05-31 21:53:09.168105",
+            "size": "10.74KB",
+            "md5": "32a62faa0eeda89e48292d83fc60ce7b",
+            "sha256": "3602f24f6fdc3e1129593570f22c777ce564b12071c89279c13f5f0f9edb7609"
+        },
+        "gfl2_ImageData.h": {
+            "modified": "2017-05-31 21:53:09.174106",
+            "size": "3.59KB",
+            "md5": "8311471156309fcf773211e08a30c798",
+            "sha256": "b61b80250f0d209e52adb6520d1544d23603be833d31967750476bb620a079ac"
+        },
+        "gfl2_OcclusionQuery.h": {
+            "modified": "2017-05-31 21:53:09.200109",
+            "size": "0.55KB",
+            "md5": "8300bfdccb5fb07c241b0e5922fcddb6",
+            "sha256": "c24f80084b1fb9e4c562c132e09b9b5e383a474c63e3613926fce6a4307d91d3"
+        },
+        "gfl2_PCDebugUtil.h": {
+            "modified": "2017-05-31 21:53:09.222111",
+            "size": "4.03KB",
+            "md5": "88e90773509902936480cc54e1152277",
+            "sha256": "f80e7773ce301cd33f234baf825a57f42c562b6dd1d12310384de3511677989d"
+        },
+        "gfl2_QueryObject.h": {
+            "modified": "2017-05-31 21:53:09.365125",
+            "size": "0.49KB",
+            "md5": "9a45f57ecdebf1f1bd1b9d38a2b41775",
+            "sha256": "0cf249f8fe11c2f8f6dc2da544c838565dfa02b90d5a36ab3d2f200ff56502a3"
+        },
+        "gfl2_Shader.h": {
+            "modified": "2017-05-31 21:53:09.385127",
+            "size": "0.5KB",
+            "md5": "c5febe895c2f73cde9ea3936bb3b8501",
+            "sha256": "02e77997293ef2f52b5255c0860ae04363a7467a6a484a9e98b2ec3555877195"
+        },
+        "gfl2_StateObject.h": {
+            "modified": "2017-05-31 21:53:09.391128",
+            "size": "19.2KB",
+            "md5": "8be6ed6ada8b956dcde4fa6538de192b",
+            "sha256": "771bade8a56387a9296302bc4a0d0d0c9e0dd3ea0d7cc8c377457c1866978878"
+        },
+        "gfl2_Surface.h": {
+            "modified": "2017-05-31 21:53:09.399128",
+            "size": "1.24KB",
+            "md5": "9fc49da8019c92e8aefd4ea8de6fa202",
+            "sha256": "bce277320d64c1ba71ce59ae41b74baf82d863f45374d7d0cd797a969b1c2bfe"
+        },
+        "gfl2_Texture.h": {
+            "modified": "2017-05-31 21:53:09.466135",
+            "size": "1.9KB",
+            "md5": "51a5e4b2d979a460104dfc4b6d9a54b9",
+            "sha256": "eb5e6f4374e24870588ebc2089775e617b694b1e7018fedd789e5e3b989b10fe"
+        },
+        "gfl2_TimerQuery.h": {
+            "modified": "2017-05-31 21:53:09.486137",
+            "size": "0.63KB",
+            "md5": "16feb8eafa3a0e517e2990840a6a5be1",
+            "sha256": "9e1ac719ac68866c556d21d95903165b03e36789dc01a7b6cbc1cd44f0d3596d"
+        },
+        "gfl2_types.h": {
+            "modified": "2017-05-31 21:53:09.496138",
+            "size": "2.58KB",
+            "md5": "30a1a38289dcf4fe2590e6c9a2f7e696",
+            "sha256": "17a5cc5ede6df8d70a9b26d5b4800a401aa4a34a2c85eba451c29aaa719f5393"
+        }
+    },
+    "include\\CTR": {
+        "gfl2_CTRCommandBufferManager.h": {
+            "modified": "2017-05-31 21:53:08.474036",
+            "size": "7.76KB",
+            "md5": "433ab089b46dc0ea7268bf966d08d64a",
+            "sha256": "16cedf16b867ef7432c395e69a6a450e04abf965e58bbb62001565a7eb6ecab6"
+        },
+        "gfl2_CTRCommandBufferManager.inl": {
+            "modified": "2017-05-31 21:53:08.480036",
+            "size": "6.7KB",
+            "md5": "12909f0fd9fe2d3811e9bbf751d6131a",
+            "sha256": "871b921e5d72b48003c2abe11242fdebb6861fb1c6098e4e6036702a040297cf"
+        },
+        "gfl2_CTRCommandBufferUtil.h": {
+            "modified": "2017-05-31 21:53:08.486037",
+            "size": "0.84KB",
+            "md5": "3c4b20bdf977c76f055ef540b045a7b3",
+            "sha256": "8ebd9277e1828e668acd154564bd4599460d8dcff26aa573a85df2c55dfb3ec3"
+        },
+        "gfl2_CTRCommandList.h": {
+            "modified": "2017-05-31 21:53:08.500039",
+            "size": "11.62KB",
+            "md5": "6a719aadf7a7465a9affd3dc6927e691",
+            "sha256": "ca61d5f7fa095592af3095e54d9df0c73c9dae4e7d80f48792917797ca823265"
+        },
+        "gfl2_CTRConstantBuffer.h": {
+            "modified": "2017-05-31 21:53:08.506039",
+            "size": "1.2KB",
+            "md5": "aa37d5ccd6072641c683c3ad40a35a64",
+            "sha256": "01335d7c4bb2900b67def1ac71456046533ba344844479fa6fbd8665daac58c9"
+        },
+        "gfl2_CTRDisplayList.h": {
+            "modified": "2017-05-31 21:53:08.511040",
+            "size": "0.92KB",
+            "md5": "aab76f6d38c9454766329e2403e12292",
+            "sha256": "2eaf8f35ecbc21f68ea48e364be7f04dcb53e5adf92207c2bdaf88a60ec10197"
+        },
+        "gfl2_CTRGeometryShader.h": {
+            "modified": "2017-05-31 21:53:08.541043",
+            "size": "0.53KB",
+            "md5": "4a699aaa729eaa3a8da70b22cebfe2f8",
+            "sha256": "f003042a6830a46c5a3ed530a5b6c5c5b4b7f874fbbf93d5ad0d388783c41453"
+        },
+        "gfl2_CTRGL.h": {
+            "modified": "2017-05-31 21:53:08.529042",
+            "size": "27.02KB",
+            "md5": "3321f83f8b4982d1e17bbe7ed5bb85c1",
+            "sha256": "32c62bb3a13925e5970897d6707fd465d07afc0097052164308447651dbcab14"
+        },
+        "gfl2_CTRGPUProfiler.h": {
+            "modified": "2017-05-31 21:53:08.534042",
+            "size": "9.18KB",
+            "md5": "4f23a617b73daf0e4aa48a80f36200a3",
+            "sha256": "26c6100ac5522ce8beb52c09f125857417e18d0bdbc329043c402b7f64a1b9f5"
+        },
+        "gfl2_CTRIndexBuffer.h": {
+            "modified": "2017-05-31 21:53:08.546043",
+            "size": "0.81KB",
+            "md5": "e57e3845f78e8557f552108b9f4b9b4e",
+            "sha256": "ef3d11eeb821fc501fe1b7cdd144808d3696037fdc0a7d0c43a1906a07501bdd"
+        },
+        "gfl2_CTROcclusionQuery.h": {
+            "modified": "2017-05-31 21:53:08.551044",
+            "size": "0.44KB",
+            "md5": "2b67a03f25b09e27633347f6470502ff",
+            "sha256": "f10c5f88ec425cd1ef18883d983c0b53fc3a69799543561695e416edad334448"
+        },
+        "gfl2_CTRPixelShader.h": {
+            "modified": "2017-05-31 21:53:08.585047",
+            "size": "0.62KB",
+            "md5": "4e5c01b30d5bff4bf6a2bcce66898b7c",
+            "sha256": "a6ddd0537cb215a57e0b98cc4b60a79ab750db4f9bbf54c539305d3e877dac0d"
+        },
+        "gfl2_CTRStateObject.h": {
+            "modified": "2017-05-31 21:53:08.590048",
+            "size": "9.35KB",
+            "md5": "fb63c9051c5487d59c774668960bc792",
+            "sha256": "606edc7ce7f599501134b4dd5153a95120c5f0db898e914cc05565297af3efdd"
+        },
+        "gfl2_CTRSurface.h": {
+            "modified": "2017-05-31 21:53:08.595048",
+            "size": "0.72KB",
+            "md5": "961cc03cc1561b60a03603c84bda0b93",
+            "sha256": "fa549720727ddf8984fa962057e6f0208ccacd1e6bd24542f9057cbd8d19e2aa"
+        },
+        "gfl2_CTRTexture.h": {
+            "modified": "2017-05-31 21:53:08.604049",
+            "size": "0.86KB",
+            "md5": "638ae04ea7e20b885677a3d5500ba99d",
+            "sha256": "5d62d5d1315ba5f98deb1052f89a559972ccc594c10e4eab98d6dab479cd3b4c"
+        },
+        "gfl2_CTRTimerQuery.h": {
+            "modified": "2017-05-31 21:53:08.609050",
+            "size": "0.94KB",
+            "md5": "9b930f3ba0da2657112c2ddad10fd301",
+            "sha256": "f5def9fa80369265e7ec6df3c17001fc1e9819d66169faa716644ab3d2c61b4a"
+        },
+        "gfl2_CTRTypes.h": {
+            "modified": "2017-05-31 21:53:08.614050",
+            "size": "20.44KB",
+            "md5": "25f6724980c7944cce7bfdfde2ba5818",
+            "sha256": "66dc75a47875c7970578007eea8e25e9af42621003b5d08000d8e358a5ae7a75"
+        },
+        "gfl2_CTRVertexBuffer.h": {
+            "modified": "2017-05-31 21:53:08.620051",
+            "size": "0.83KB",
+            "md5": "f0de0880623637e71d7973a750ee09f6",
+            "sha256": "2f3c7831ea31d4722c171501a0f2d6d1b61bb3fce8f260ce7e8aa252e49ca5ac"
+        },
+        "gfl2_CTRVertexShader.h": {
+            "modified": "2017-05-31 21:53:08.625051",
+            "size": "1.46KB",
+            "md5": "f1cba8f7b94a24b93fed9a795978e782",
+            "sha256": "6032941eb7e6f987220cefda064c36af22451af712f08fe4499d0e6bfe91c09e"
+        }
+    },
+    "include\\WinDx11": {
+        "gfl2_WinDX11ConstantBuffer.h": {
+            "modified": "2017-05-31 21:53:08.637052",
+            "size": "0.75KB",
+            "md5": "be542a11dfd9cfc8096fb0007c76dba6",
+            "sha256": "55d2377f28f3c039c08942cbf2047f1cfc8f3ef46764e777890bfeecb08beafa"
+        },
+        "gfl2_WinDX11DisplayList.h": {
+            "modified": "2017-05-31 21:53:08.643053",
+            "size": "0.81KB",
+            "md5": "2a3e38f5a099c5269056e826d4a22b34",
+            "sha256": "1c256422144462d173ac4af522f2b1f56ac018aeeeab4e25b8945934d31671bc"
+        },
+        "gfl2_WinDX11GeometryShader.h": {
+            "modified": "2017-05-31 21:53:08.671056",
+            "size": "0.61KB",
+            "md5": "2520bf6952913459c875687dd7d0ef8f",
+            "sha256": "75aca5442f80d55313ee9d43ef088fe4a3e2e7d2c66a7893c417051f10dfd5fc"
+        },
+        "gfl2_WinDX11GL.h": {
+            "modified": "2017-05-31 21:53:08.666055",
+            "size": "12.61KB",
+            "md5": "c527613b58ae3d1d91f6372060186193",
+            "sha256": "b6a83bd832c539fbfffa1d8456abf2679cf6c1be3baef250988a90b3c34eec60"
+        },
+        "gfl2_WinDX11IndexBuffer.h": {
+            "modified": "2017-05-31 21:53:08.676056",
+            "size": "0.84KB",
+            "md5": "16be826cc7f7b38aba66b006a0be36e6",
+            "sha256": "de2f5c555f3069de5fd38a08b263e030de01a837f14d8a3f9a622b90ab6d66d5"
+        },
+        "gfl2_WinDX11OcclusionQuery.h": {
+            "modified": "2017-05-31 21:53:08.700059",
+            "size": "0.47KB",
+            "md5": "15c4fd63ba130ec06b14b6bd53b0423c",
+            "sha256": "9e26e4ae10c683b4f9a9930d9f0c510a93b619b89c9ab1828647020f6321a9ff"
+        },
+        "gfl2_WinDX11PixelShader.h": {
+            "modified": "2017-05-31 21:53:08.705059",
+            "size": "0.59KB",
+            "md5": "c420a03fa7d5771113623d5c9d90f0a7",
+            "sha256": "49ab8cb1e9c7678d2fbfb693c95fe8a12951a1c3b4665a4b03e8e883103b0890"
+        },
+        "gfl2_WinDX11QueryObject.h": {
+            "modified": "2017-05-31 21:53:08.710060",
+            "size": "0.58KB",
+            "md5": "eb5b408072b9d9f27e8393415390d9fd",
+            "sha256": "c6b67cefbed588ba292e1d9700e17400199c7a17fda0afb1ba5ecdfea6549607"
+        },
+        "gfl2_WinDX11StateObject.h": {
+            "modified": "2017-05-31 21:53:08.715060",
+            "size": "1.43KB",
+            "md5": "73471d3d07a8650d8e01638b3e467507",
+            "sha256": "1686fee5a37db79d1c1ce38921fd4b7398f1e61b8375a20420d01ea4cfb65ec9"
+        },
+        "gfl2_WinDX11Surface.h": {
+            "modified": "2017-05-31 21:53:08.727061",
+            "size": "1.07KB",
+            "md5": "2b36e1a7b5fe27cafe3422785a92a5c1",
+            "sha256": "66ad4b13e911f3db9d3d33fae16f2352674a5c052e6310b59de8d0c58446fdd8"
+        },
+        "gfl2_WinDX11Texture.h": {
+            "modified": "2017-05-31 21:53:08.732062",
+            "size": "1.41KB",
+            "md5": "2debbabd2e3523a1b3984e6aca10bafb",
+            "sha256": "fad7ee153adf4b828d1a50611c1e297d580d9aaf479ac39586e2a4725582608c"
+        },
+        "gfl2_WinDX11TimerQuery.h": {
+            "modified": "2017-05-31 21:53:08.748063",
+            "size": "0.57KB",
+            "md5": "05d8747a1869435cceb871e7d80aa167",
+            "sha256": "d2387fc817f67262e5437c31be172634647e17e93f82ccfd5fed74e338297459"
+        },
+        "gfl2_WinDX11Types.h": {
+            "modified": "2017-05-31 21:53:08.753064",
+            "size": "10.54KB",
+            "md5": "17163a4a0339e71eaf00e669992f3a38",
+            "sha256": "4dd212f5d44be5e3acb9013d1cdc776563f0a9ea579cb6367b7fec755b2c10d7"
+        },
+        "gfl2_WinDX11VertexBuffer.h": {
+            "modified": "2017-05-31 21:53:08.769066",
+            "size": "0.88KB",
+            "md5": "9203668027e64e00a140ebf14bfc33e3",
+            "sha256": "a64303185d3660ff1e98b7ec2be1d5b89fd6b0101f7e8a0694299a02c02b8b27"
+        },
+        "gfl2_WinDX11VertexShader.h": {
+            "modified": "2017-05-31 21:53:08.780066",
+            "size": "0.61KB",
+            "md5": "38ef23119a9ce204cbb9ee30fa81e27b",
+            "sha256": "8a1bb3ea60e2ab8c191ceafa869d9e41f58e4e82e87f1c31921c7926c212dcf6"
+        },
+        "stdafx.h": {
+            "modified": "2017-05-31 21:53:08.785067",
+            "size": "1.12KB",
+            "md5": "1e9adbcfa7176bf67768b8db199bdbf9",
+            "sha256": "9da6a8d37dfaca7781f9c8a974092be025364b659920dbf99e68624aa7f3cf4a"
+        },
+        "targetver.h": {
+            "modified": "2017-05-31 21:53:08.790068",
+            "size": "0.48KB",
+            "md5": "40937e6a355a8da7c5543dae268a77e8",
+            "sha256": "988463d9f1f133abf3022b51bf9fc3ebf728fc3aeb51d8459b03d70c3dd31c77"
+        }
+    },
+    "include\\WinOpenGL": {
+        "gfl2_WinOpenGLConstantBuffer.h": {
+            "modified": "2017-05-31 21:53:08.799068",
+            "size": "0.8KB",
+            "md5": "a169ece76b18e0e4489322484fbe66b1",
+            "sha256": "c64ebd28db6a7acf19188cbdfb0d58b40d9e7d3a5b476fe66910fa190c0cd9fd"
+        },
+        "gfl2_WinOpenGLDisplayList.h": {
+            "modified": "2017-05-31 21:53:08.803069",
+            "size": "0.83KB",
+            "md5": "b49209565db3bb1e0889bc26bb0798c8",
+            "sha256": "cb20078a648650fbfe611285212e7b6fbbd90354033e4355b8db5923ed674f64"
+        },
+        "gfl2_WinOpenGLGeometryShader.h": {
+            "modified": "2017-05-31 21:53:08.818070",
+            "size": "0.61KB",
+            "md5": "61461ee892e32f83850584e245bc7470",
+            "sha256": "18089591d3f34587a62e16455c44e6e56002b6814c6928e0656ffdc390e73979"
+        },
+        "gfl2_WinOpenGLGL.h": {
+            "modified": "2017-05-31 21:53:08.812070",
+            "size": "16.27KB",
+            "md5": "054f7c6b4ea31be4adc32df4418bf1fc",
+            "sha256": "e8b40ecab63ca753987286a7c938caa736851791b755154f8b55a5effc5ca7a7"
+        },
+        "gfl2_WinOpenGLIndexBuffer.h": {
+            "modified": "2017-05-31 21:53:08.848073",
+            "size": "0.73KB",
+            "md5": "b6ea44c923d1ece007d112581eb8d906",
+            "sha256": "32bbc6c62c6bfcabd0500ebd6aff49f5f53875240d72d05608bf22b110308766"
+        },
+        "gfl2_WinOpenGLOcclusionQuery.h": {
+            "modified": "2017-05-31 21:53:08.862075",
+            "size": "0.48KB",
+            "md5": "c00286299a8d40e3624789e316b86548",
+            "sha256": "9912b70413e23f651fcaaf29488f32dfbc75db436f667e8df4d135fead8737d6"
+        },
+        "gfl2_WinOpenGLPixelShader.h": {
+            "modified": "2017-05-31 21:53:08.867075",
+            "size": "0.57KB",
+            "md5": "961c2612cc4aa86090a98cb97e9fc5f5",
+            "sha256": "8ea898f0117c48f242731369ae615860a42b7d99f84101af980bf7141f8d27e1"
+        },
+        "gfl2_WinOpenGLQueryObject.h": {
+            "modified": "2017-05-31 21:53:08.872076",
+            "size": "0.48KB",
+            "md5": "318d8e7740d2f3ba909c902eb1323da1",
+            "sha256": "312f0c68ba66f1be358fd0523fe2a577c64747698953aef99078ad2a007b5aeb"
+        },
+        "gfl2_WinOpenGLStateObject.h": {
+            "modified": "2017-05-31 21:53:08.881077",
+            "size": "1.71KB",
+            "md5": "7ff8ab36e088a1ec2714c9854e1fbdf4",
+            "sha256": "86b0a4ef46fe028bd4f9a9aa74a4e66aa889c56a0da1bf5ebd3e7e557d575c1a"
+        },
+        "gfl2_WinOpenGLSurface.h": {
+            "modified": "2017-05-31 21:53:08.893078",
+            "size": "0.9KB",
+            "md5": "fef1d7f051db04644f9c59bbce5c1b18",
+            "sha256": "21647ebd68a5a8c29c68f9506e1a12c906b425b8fdc8dcb660b2cfbed089491f"
+        },
+        "gfl2_WinOpenGLTexture.h": {
+            "modified": "2017-05-31 21:53:08.898078",
+            "size": "0.76KB",
+            "md5": "00c7dbd7a8b97c9f16f4fae60e3deaff",
+            "sha256": "64a19aa770c1bcf90afbcc3f22020a356c3280f02a1736e2330e23da6c35c454"
+        },
+        "gfl2_WinOpenGLTimerQuery.h": {
+            "modified": "2017-05-31 21:53:08.909080",
+            "size": "0.89KB",
+            "md5": "6c45bdfe9ec077d9373160be2e7d4062",
+            "sha256": "e67556dab234c6beed77de7f4b26684c114607ce12f54af3ecd6d7ec96d6372d"
+        },
+        "gfl2_WinOpenGLTypes.h": {
+            "modified": "2017-05-31 21:53:08.914080",
+            "size": "13.47KB",
+            "md5": "145f9a23fdbe218ee89de24ed0152f35",
+            "sha256": "6b71cd2b72773ec4f5db472cad9f2daa9155f4e0b34ee2a62e88130fa1ca6339"
+        },
+        "gfl2_WinOpenGLVertexBuffer.h": {
+            "modified": "2017-05-31 21:53:08.919080",
+            "size": "0.76KB",
+            "md5": "601d18cbd9906fc02df18cdfffca9d08",
+            "sha256": "ad041c4128753a51179f5583b86ac686f38649c89db0c2116c7d9d7460f40eb0"
+        },
+        "gfl2_WinOpenGLVertexShader.h": {
+            "modified": "2017-05-31 21:53:08.990088",
+            "size": "1.02KB",
+            "md5": "17ac95169e356c726b13de61f017a8ee",
+            "sha256": "0f16fde0e777c1ff9f00a9ecac93994b2d6629bf13ef3a5f7e3a736b452a1ae2"
+        },
+        "stdafx.h": {
+            "modified": "2017-05-31 21:53:08.996088",
+            "size": "1.12KB",
+            "md5": "c39b678ccef075e88d6c77a6ccf69256",
+            "sha256": "471b1395e218bb6b9c5f2d7bc4a2c26a6b86310cfaf846910a6961ee39d1f346"
+        },
+        "targetver.h": {
+            "modified": "2017-05-31 21:53:09.020091",
+            "size": "0.48KB",
+            "md5": "40937e6a355a8da7c5543dae268a77e8",
+            "sha256": "988463d9f1f133abf3022b51bf9fc3ebf728fc3aeb51d8459b03d70c3dd31c77"
+        }
+    },
+    "project": {
+        "Bin2Ascii.exe": {
+            "modified": "2017-05-31 21:53:09.516140",
+            "size": "12.0KB",
+            "md5": "aa3ca7772fca6e734a68202830ce661c",
+            "sha256": "fdad29e031954dce1e95e16a8e912b149faee00ece87b06a592c76171077551a"
+        },
+        "CompiledShader2Binary.exe": {
+            "modified": "2017-05-31 21:53:09.581147",
+            "size": "13.0KB",
+            "md5": "659d69275c14cc526b3effc07cc09a1c",
+            "sha256": "8a9dc99daa39184a0d865819abe6df0f8ebe358fbf8a2704ba590902cb81f7ce"
+        },
+        "gfx.sln": {
+            "modified": "2017-05-31 21:53:09.664155",
+            "size": "3.48KB",
+            "md5": "f8e3868b980b284b9682d6ff1e71f801",
+            "sha256": "a02687c2c6f44307a83217790aad91c4a3fd8ecf7d2ada24ca2927ea06ea7df2"
+        },
+        "gfx.vcxproj": {
+            "modified": "2017-05-31 23:56:20.265160",
+            "size": "88.43KB",
+            "md5": "91cacb035e63855d513abdefc568fda2",
+            "sha256": "1550d7f3c774ff3c0a5fb6a7adb51baa7792048e74419ca1c21ac1d3356fd33e"
+        },
+        "gfx.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:09.677156",
+            "size": "15.32KB",
+            "md5": "07bfd4643144242cafb5afe8dacad96a",
+            "sha256": "3c4affa446f4f90d51de71cacadb1b48ddbfb2ea04442d7b7c163f182ec03ce8"
+        },
+        "gfx_ctr.vcxproj": {
+            "modified": "2017-05-31 23:56:20.272161",
+            "size": "12.89KB",
+            "md5": "ad40d7a680fea0826fc28092a28d37cd",
+            "sha256": "103e1158e8b018f4a1379ceafee6fda3082a5ec1b7687c1926986a56085a3069"
+        },
+        "gfx_ctr.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:09.689157",
+            "size": "8.43KB",
+            "md5": "29fbc48d92d8ad06e84a25aafce1487d",
+            "sha256": "4396c8ec1095b936671deffefb5eb224c5ec52921eb19b7adbc82d3cad77d498"
+        },
+        "gf_template_gflib2.rsf": {
+            "modified": "2017-05-31 21:53:09.659154",
+            "size": "0.17KB",
+            "md5": "e6c2e3cdf5793f3627b26e4a41ea5973",
+            "sha256": "35e0ae45e8d2b2b2701ed29d540239cdd6cdb8c53b2326be566aae7cb6d17b35"
+        },
+        "ShaderCompile.bat": {
+            "modified": "2017-05-31 21:53:09.653154",
+            "size": "0.77KB",
+            "md5": "8d08a7fe18fac3afc7e56acdf123a135",
+            "sha256": "01943b22529b1075648d1ad6c2a32cc5e139b4f4818197e86c014853c84dffde"
+        }
+    },
+    "project\\romfiles": {
+        "rgba8.ctpk": {
+            "modified": "2017-05-31 21:53:09.697158",
+            "size": "8.12KB",
+            "md5": "b914bdd823aac86cc47de3f6c0125d67",
+            "sha256": "747366e142a7b73a806605b512105ac5a58a3a57dc24c5c631c8542d4aa881b8"
+        },
+        "rgba8_raw.ctpk": {
+            "modified": "2017-05-31 21:53:09.705159",
+            "size": "512.12KB",
+            "md5": "f0bc96b95879e81b6d6b843322de0891",
+            "sha256": "1dbaf1d72e30e1a9fe667008eeeafab3fa59e470fb9343c369f9867697797ca7"
+        },
+        "shader.shbin": {
+            "modified": "2017-05-31 21:53:09.708159",
+            "size": "0.46KB",
+            "md5": "8443a4346d78610f0f1e71f0462fa279",
+            "sha256": "e0688333e47e8f3a818d4fe53e066aefbb18e2f67588f3f5b406feccc06732e2"
+        }
+    },
+    "resource": {
+        "DrawUtil.gffsh": {
+            "modified": "2017-05-31 21:53:09.712160",
+            "size": "4.07KB",
+            "md5": "2ef6325bd83656058c51b6de1e2fc283",
+            "sha256": "feaa8b49148491de43d16591e0ae972df4fabe6a27f1c6f975fed3684d0b42fa"
+        },
+        "DrawUtil.gfvsh": {
+            "modified": "2017-05-31 21:53:09.717160",
+            "size": "5.08KB",
+            "md5": "95d8c0f6ea356705c5ded3675efd0aaf",
+            "sha256": "b5fcb1b95c0510c01b86b5042fe8d995907818d236da1251ef4ed59439f36cbb"
+        },
+        "DrawUtil.shbin": {
+            "modified": "2017-05-31 21:53:09.739162",
+            "size": "0.49KB",
+            "md5": "2cf1cbd4c5201858ae65a783b8799d45",
+            "sha256": "83c6e7346e763dddf6722545fb849c5336f7ef4eedd1cff290af6d7ee999cfcd"
+        },
+        "DrawUtil.vsh": {
+            "modified": "2017-05-31 21:53:09.749163",
+            "size": "1.21KB",
+            "md5": "e8237e35388cff8882a6ead46030c935",
+            "sha256": "2b9a38f54ca630a3fd575c646d00f9a9199127b12b0985fc16ab16260c88072e"
+        },
+        "dummy.ctpk": {
+            "modified": "2017-05-31 21:53:09.777166",
+            "size": "0.38KB",
+            "md5": "65ed51110e7b372b597d8f522f9ad04d",
+            "sha256": "408c948610f0390eb264127c7111465fd30299ffeecab0e2af6825979ca09340"
+        },
+        "dummy.tga": {
+            "modified": "2017-05-31 21:53:09.780167",
+            "size": "0.29KB",
+            "md5": "8b17541a26d34c2265186c8c3d39d16a",
+            "sha256": "fa791839092a1ec4978d381f0e72ad9e04f19701464f56cce90e638d064b159b"
+        }
+    },
+    "Sample": {
+        "gfx.bat": {
+            "modified": "2017-05-31 21:53:08.469035",
+            "size": "0.06KB",
+            "md5": "d6b4552f9fb7dc40cc922ac1c940ecd6",
+            "sha256": "cb8a8277ed73cdf2a1ee0597ee4e5a11a0df0a1719160c206083e683837c4767"
+        },
+        "Sample.sln": {
+            "modified": "2017-05-31 21:53:07.338923",
+            "size": "33.93KB",
+            "md5": "67b76f3cf8c5fc143e3c0f7de6b62c3b",
+            "sha256": "b0c448315df2115976714963ba0209f8a7e755c6e7deff44796a2ba183748b67"
+        },
+        "Sample_ctr.sln": {
+            "modified": "2017-05-31 21:53:07.345923",
+            "size": "10.08KB",
+            "md5": "d78eb0454aa171f44043c513bf4f00ae",
+            "sha256": "d7e4176f3247626a004bf46f2434d28f015f7767ac327a1349386b243f3bdefa"
+        }
+    },
+    "Sample\\data": {
+        "black.tga": {
+            "modified": "2017-05-31 21:53:07.559945",
+            "size": "4.04KB",
+            "md5": "39d5912d0b5d0f1262cbbe0376860ca7",
+            "sha256": "11902ad81bc906fee9886160ace564c2833962ef9e48092ae806a7cfac2890ec"
+        },
+        "DrawUtilPixelShader.bfsh": {
+            "modified": "2017-05-31 21:53:07.475936",
+            "size": "6.06KB",
+            "md5": "d6fbca7d00d1ff7d8c7a6f54272ee1e4",
+            "sha256": "e3909249b3144f464772572c07565c3cde1873a7577f402724164a8f85ab3c77"
+        },
+        "DrawUtilVertexShader.bvsh": {
+            "modified": "2017-05-31 21:53:07.479937",
+            "size": "24.09KB",
+            "md5": "9c4d0319071155a2272553ff10fe135e",
+            "sha256": "cca0077677b228af5a00bde42960cbc6a16a128914068db59a6dc7924d9be8cf"
+        },
+        "dummy.tga": {
+            "modified": "2017-05-31 21:53:07.577946",
+            "size": "0.29KB",
+            "md5": "8b17541a26d34c2265186c8c3d39d16a",
+            "sha256": "fa791839092a1ec4978d381f0e72ad9e04f19701464f56cce90e638d064b159b"
+        },
+        "dxt1_mip.dds": {
+            "modified": "2017-05-31 21:53:07.600949",
+            "size": "85.48KB",
+            "md5": "5c4bebb4c736a00edfa8548fb429a6c4",
+            "sha256": "ea79fdaad86df98529d4283887a75c878f329e3aee94c3099f7c934ce137c2b0"
+        },
+        "font_utf16_256x256.tga": {
+            "modified": "2017-05-31 21:53:07.606949",
+            "size": "256.04KB",
+            "md5": "a69774d17bfcb7cb3297f8f52b8a5d19",
+            "sha256": "bb48963c98bede495d274aa1f390d1af50e6166310619088b68225802ac0655f"
+        },
+        "large.tga": {
+            "modified": "2017-05-31 21:53:07.718961",
+            "size": "8800.04KB",
+            "md5": "170f9d6e0c8cf49a61cda4d1a7cd5722",
+            "sha256": "8d53f8610296b39bfbcce8a0bde0bb8ad0b3454b5f76c55b9852a8cf0265b9c4"
+        },
+        "output_binary.bin": {
+            "modified": "2017-05-31 21:53:07.723961",
+            "size": "9.98KB",
+            "md5": "a7bf7a14f11c521a9b460b60e94e13eb",
+            "sha256": "6d5b64f6b98a0be3cc6409e88f96338dc9ef19ffca85a9d4908027aa66532c1d"
+        },
+        "pokemon_wb.xlor": {
+            "modified": "2017-05-31 21:53:07.727961",
+            "size": "31.2KB",
+            "md5": "af3ac98865114d7e84746f9318f8a4d4",
+            "sha256": "15f895c2a4e3d11d2c0cf4ae7063e3fdff4f0de472aa4f6a93bcd4cd9bbbaf12"
+        },
+        "rgba8.ctpk": {
+            "modified": "2017-05-31 21:53:07.733962",
+            "size": "8.12KB",
+            "md5": "b914bdd823aac86cc47de3f6c0125d67",
+            "sha256": "747366e142a7b73a806605b512105ac5a58a3a57dc24c5c631c8542d4aa881b8"
+        },
+        "rgba8.dds": {
+            "modified": "2017-05-31 21:53:07.744963",
+            "size": "512.12KB",
+            "md5": "7d0d3aee8caec838e0981076eecf71aa",
+            "sha256": "4f09c75e633c831a80461be99b70995f430d01ac74b0d505916b1885abfebff0"
+        },
+        "rgba8.tga": {
+            "modified": "2017-05-31 21:53:07.749964",
+            "size": "64.02KB",
+            "md5": "3c17281f55d1167a173e51a99ae1c092",
+            "sha256": "3e2caec289051b0bf75e2acb2da0d2fcdf071dddac03eb2f8edd6d6d4e2ef222"
+        },
+        "rgba8_mip.dds": {
+            "modified": "2017-05-31 21:53:07.773966",
+            "size": "682.79KB",
+            "md5": "3c2882948be34e82346067208c8d6f71",
+            "sha256": "f0705b64ae4ab668f294b27573be56c360c1f4188008501c2b3d51f421a8fba4"
+        },
+        "SimpleDraw.frag": {
+            "modified": "2017-05-31 21:53:07.483937",
+            "size": "0.56KB",
+            "md5": "72c7bcdb317801887d89b3f14e0664fa",
+            "sha256": "5eaef9b7a01459177a521a547488b6ccb40e2164a77d97f5d8d32501f7b502fd"
+        },
+        "SimpleDraw.psh": {
+            "modified": "2017-05-31 21:53:07.488938",
+            "size": "0.53KB",
+            "md5": "03d94873e7cc6a44a3a8ead8203a4c90",
+            "sha256": "54a27134d091942a684e2f8e1b0e336093bbcfc0f774f79631fef3d75819743e"
+        },
+        "SimpleDraw.sh": {
+            "modified": "2017-05-31 21:53:07.492938",
+            "size": "1.54KB",
+            "md5": "bd4596503d51ab6f794f36f2ffc7ba82",
+            "sha256": "cc4c41073028049971dbde0384e758d86ae2e52a7dd4e2ce8a417ed242a10659"
+        },
+        "SimpleDraw.vert": {
+            "modified": "2017-05-31 21:53:07.513940",
+            "size": "1.79KB",
+            "md5": "997ca9c48f55aa542cc56a57f0f79353",
+            "sha256": "d1d6a55be228cd8308fba7d0491012dff1415ac572af743b2931f250ee9d7f57"
+        },
+        "SimpleDraw.vsh": {
+            "modified": "2017-05-31 21:53:07.553944",
+            "size": "1.13KB",
+            "md5": "c78e8f5c2198524f5dffe0d07af2a70c",
+            "sha256": "bc167b5e040c64e98df8623d5b36b745208f95bafcbed2cbaf9e42a1ff7e6116"
+        },
+        "texconv.bat": {
+            "modified": "2017-05-31 21:53:08.448033",
+            "size": "0.1KB",
+            "md5": "2f2633b1620b9b4e82eee9aab33c166d",
+            "sha256": "adf1dba237eead765410c9710c9df3abedfd00dc4508c7c9a11945522a182731"
+        }
+    },
+    "Sample\\data\\tex_test": {
+        "conv.bat": {
+            "modified": "2017-05-31 21:53:08.186007",
+            "size": "0.95KB",
+            "md5": "4cef60997d65877500c8f5694973040d",
+            "sha256": "2f10e9e8d46b0ddf79ff5d11ad3289c2452192cd83fd01737d5a147a11f6717a"
+        },
+        "Nw4cTga.frag": {
+            "modified": "2017-05-31 21:53:08.130002",
+            "size": "0.56KB",
+            "md5": "58e66f467e20a5a39b5c3c876cffb3e6",
+            "sha256": "7bb6f68f0616ed59ce159650ee10936c7a7a49b12b25c5d0b7f80c2bf7a787a6"
+        },
+        "Nw4cTga.vert": {
+            "modified": "2017-05-31 21:53:08.156004",
+            "size": "1.62KB",
+            "md5": "ca0fc498af72c40247c0a1603cc16bd5",
+            "sha256": "201989cc05fb17ef8535318aa51b37166ee0068a5ccc8170906ae56ba3affb84"
+        },
+        "NW4C_TextureConverter.exe": {
+            "modified": "2017-05-31 21:53:07.782967",
+            "size": "320.0KB",
+            "md5": "7c2fd6342fbf428c6e8da432a6cecbf0",
+            "sha256": "c070b0cae1fe4521b308b52469a39679a419ba1af70f46803d6d18443bbab1b6"
+        },
+        "pm0025_00_BodyA1.tga": {
+            "modified": "2017-05-31 21:53:08.192008",
+            "size": "214.75KB",
+            "md5": "8189bd72b290b1683fe959eb8296af47",
+            "sha256": "301e6c198d4aa92c6913a6edb6bce1a76a28fefe070644f1d99d5c45649c495c"
+        },
+        "test.tga": {
+            "modified": "2017-05-31 21:53:08.226011",
+            "size": "253.6KB",
+            "md5": "810ccff5be3583898037efd1f86a6efc",
+            "sha256": "6b485843dddc63946ee5f9a77121592999fabcdbaae2d85c3a9e9a9caa86a299"
+        },
+        "test_a4.tga": {
+            "modified": "2017-05-31 21:53:08.260015",
+            "size": "298.81KB",
+            "md5": "b148f0806ffdd404e7e92ad9a6e06cef",
+            "sha256": "2b66973356644f04ca942a1be4d3c21508d045f009bb5f150da88a1b1b124f42"
+        },
+        "test_a8.tga": {
+            "modified": "2017-05-31 21:53:08.269016",
+            "size": "341.47KB",
+            "md5": "8d0498a33e26288afd931b029958deb2",
+            "sha256": "23e06f277aa3037d394d091dda9055ba0929a4139a408ec944e6bfb0c325c9df"
+        },
+        "test_etc1.tga": {
+            "modified": "2017-05-31 21:53:08.279016",
+            "size": "298.81KB",
+            "md5": "5e58efae8dda1f34b801d54362a5df32",
+            "sha256": "6891cae85624edf347bba49a561943deb20970a526cb7d3b8441f47a73e9e813"
+        },
+        "test_etc1_a4.tga": {
+            "modified": "2017-05-31 21:53:08.289017",
+            "size": "341.5KB",
+            "md5": "ef1d660f44cb14d03583b3ac97de2fd8",
+            "sha256": "b4a77c2f5613e2405023300d446a3568c21a7892c0eb9a2e732954c0a8e165c0"
+        },
+        "test_hilo8.tga": {
+            "modified": "2017-05-31 21:53:08.299018",
+            "size": "426.79KB",
+            "md5": "430837692af30df5d1055ab82831ffee",
+            "sha256": "3580f13c30f3f096104b43e471438d14e4b69b365aa221557c77681a420d8714"
+        },
+        "test_l4.tga": {
+            "modified": "2017-05-31 21:53:08.328021",
+            "size": "298.81KB",
+            "md5": "c62696d83cdf99565131441c0bbef8e9",
+            "sha256": "5baa9ee8fb7e16c8612b8d8eed6c384723f4278e12426af557de5a2884d64e5f"
+        },
+        "test_l8.tga": {
+            "modified": "2017-05-31 21:53:08.336022",
+            "size": "341.47KB",
+            "md5": "a0d4e2850cd3ca4d323d6d5263998bec",
+            "sha256": "89e6ea0d056a9f98310f68c0a7f4a7ef5f980e72354dba324dc37e2f1d08f264"
+        },
+        "test_la4.tga": {
+            "modified": "2017-05-31 21:53:08.344023",
+            "size": "341.47KB",
+            "md5": "0642fcd2c9f4c97c0266291bd2ed2380",
+            "sha256": "a2aad5642f30cfa8576fd976f19c1545f34c4f9d64db466cf89e903fda85bea6"
+        },
+        "test_la8.tga": {
+            "modified": "2017-05-31 21:53:08.353024",
+            "size": "426.78KB",
+            "md5": "0eebad8ab1ede18ec6ca46010b5ab145",
+            "sha256": "87abdabe4b604f02c2d9550898ed3f256707c771bac6f32fccfb015407c1f4d3"
+        },
+        "test_rgb565.tga": {
+            "modified": "2017-05-31 21:53:08.363025",
+            "size": "426.79KB",
+            "md5": "34c2dc17d1732d1bef91488c36feb62a",
+            "sha256": "854a0d3631308b3903f6bf587328677d7369407e521242dc15b58071c611b3d1"
+        },
+        "test_rgb5_a1.tga": {
+            "modified": "2017-05-31 21:53:08.373026",
+            "size": "426.79KB",
+            "md5": "316360e7edacf2e09490a55a17c7d22e",
+            "sha256": "0b498f249b94e19f52bb1b1bd57424c6e869375e8b87b43b3a9524cb24d2f297"
+        },
+        "test_rgb8.tga": {
+            "modified": "2017-05-31 21:53:08.404029",
+            "size": "512.1KB",
+            "md5": "9fa96e7660335901805b0ae3d04bdb27",
+            "sha256": "8b45a29fa1189eb9acdbd436a7ab9c5953924bcd925cc177ff931d0fa95028fc"
+        },
+        "test_rgba4.tga": {
+            "modified": "2017-05-31 21:53:08.413030",
+            "size": "426.79KB",
+            "md5": "f3f57bb35140e6e7d17504a2513210b3",
+            "sha256": "78b4811e2c348810ce9e0405c12740a7947bdb1283d08897e2867f32ac965f68"
+        },
+        "test_rgba8.tga": {
+            "modified": "2017-05-31 21:53:08.443033",
+            "size": "597.41KB",
+            "md5": "d486c9012b34f45041addc89ad21795f",
+            "sha256": "ef61e50184405ee545e4597ccac4e26ae5fba0e7d6eac5b15d6e5f46bf098a91"
+        }
+    },
+    "Sample\\DrawUtil": {
+        "DrawUtil.vcxproj": {
+            "modified": "2017-05-31 23:56:20.197153",
+            "size": "8.36KB",
+            "md5": "980e5970ecf5c7b6329a3b52b472100f",
+            "sha256": "0b900f2bd00e583162402e1b2c550b029df55a66c9188c927aed8dae5eedf084"
+        },
+        "DrawUtil.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:06.829872",
+            "size": "0.97KB",
+            "md5": "5e58b247ccd14d723d9d92df037e2067",
+            "sha256": "dd2e41b6bf160d698d867e35cce97d8e356075448ba9428754edd4bd70f87fe4"
+        },
+        "main.cpp": {
+            "modified": "2017-05-31 21:53:06.835872",
+            "size": "6.07KB",
+            "md5": "dc85cac05699dd997062b4cf9f013072",
+            "sha256": "da0e49d15aef3b8d8286c863e9b78e804a5c8fcf453694f8875fd9fe89049544"
+        }
+    },
+    "Sample\\DrawUtil_CTRSample": {
+        "DrawUtilSample.bat": {
+            "modified": "2017-05-31 21:53:07.063895",
+            "size": "0.07KB",
+            "md5": "82823749523461ffa3cf7b21ec7f2397",
+            "sha256": "164858cc592ac4bc2f43f376495421a47b621462ffe2d3956458e486a094d636"
+        },
+        "DrawUtilSample.sln": {
+            "modified": "2017-05-31 21:53:07.069896",
+            "size": "42.08KB",
+            "md5": "457e951ee5710d87c0c53e1c98b14ae8",
+            "sha256": "64b7cb16ea6d907741e1de4c6ac6eca800db79c68b0e7347181f22deb8998078"
+        }
+    },
+    "Sample\\DrawUtil_CTRSample\\CTRViewer": {
+        "DrawUtilSample.rsf": {
+            "modified": "2017-05-31 21:53:06.841873",
+            "size": "0.17KB",
+            "md5": "e6c2e3cdf5793f3627b26e4a41ea5973",
+            "sha256": "35e0ae45e8d2b2b2701ed29d540239cdd6cdb8c53b2326be566aae7cb6d17b35"
+        },
+        "DrawUtilSample.vcxproj": {
+            "modified": "2017-05-31 23:56:20.205154",
+            "size": "19.26KB",
+            "md5": "46528d042633417dad460e343def6f55",
+            "sha256": "9e1258ddc0cb2b9a4c24d1b26ee3e35e11cec030fa1bb08ba4b13489e9eb2c79"
+        },
+        "DrawUtilSample.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:06.875876",
+            "size": "1.19KB",
+            "md5": "e7df52ef3e4b6a3053f16352a88b37d2",
+            "sha256": "709b52d8451911d93314e032e0b78f8c56038a7f76479d9f1216da77441c2230"
+        },
+        "main.cpp": {
+            "modified": "2017-05-31 21:53:06.881877",
+            "size": "28.45KB",
+            "md5": "6702eabfcdd05e590d45d595da925729",
+            "sha256": "605c31275e2ec87a7d04cf84598d89b841e2845c2af109654b588586aa150c39"
+        }
+    },
+    "Sample\\DrawUtil_CTRSample\\CTRViewer\\romfiles": {
+        "CTR2ShaderCompiler.shbin": {
+            "modified": "2017-05-31 21:53:06.887877",
+            "size": "0.49KB",
+            "md5": "2cf1cbd4c5201858ae65a783b8799d45",
+            "sha256": "83c6e7346e763dddf6722545fb849c5336f7ef4eedd1cff290af6d7ee999cfcd"
+        },
+        "dummy.ctpk": {
+            "modified": "2017-05-31 21:53:06.897878",
+            "size": "0.38KB",
+            "md5": "65ed51110e7b372b597d8f522f9ad04d",
+            "sha256": "408c948610f0390eb264127c7111465fd30299ffeecab0e2af6825979ca09340"
+        },
+        "dummy.tga": {
+            "modified": "2017-05-31 21:53:06.922881",
+            "size": "0.29KB",
+            "md5": "8b17541a26d34c2265186c8c3d39d16a",
+            "sha256": "fa791839092a1ec4978d381f0e72ad9e04f19701464f56cce90e638d064b159b"
+        },
+        "rgba8.ctpk": {
+            "modified": "2017-05-31 21:53:06.936882",
+            "size": "8.12KB",
+            "md5": "b914bdd823aac86cc47de3f6c0125d67",
+            "sha256": "747366e142a7b73a806605b512105ac5a58a3a57dc24c5c631c8542d4aa881b8"
+        },
+        "rgba8_raw.ctpk": {
+            "modified": "2017-05-31 21:53:06.976886",
+            "size": "512.12KB",
+            "md5": "f0bc96b95879e81b6d6b843322de0891",
+            "sha256": "1dbaf1d72e30e1a9fe667008eeeafab3fa59e470fb9343c369f9867697797ca7"
+        },
+        "shader.shbin": {
+            "modified": "2017-05-31 21:53:06.980887",
+            "size": "0.46KB",
+            "md5": "8443a4346d78610f0f1e71f0462fa279",
+            "sha256": "e0688333e47e8f3a818d4fe53e066aefbb18e2f67588f3f5b406feccc06732e2"
+        }
+    },
+    "Sample\\DrawUtil_CTRSample\\FrameWork": {
+        "FrameWork.vcxproj": {
+            "modified": "2017-05-31 23:56:20.212155",
+            "size": "13.83KB",
+            "md5": "4c5fbba857e0646cc30d66e6a426f03c",
+            "sha256": "41d80dd22904c1c86c5df47ada4494f0de30de4ef4e0524108c78d80f22b716e"
+        },
+        "FrameWork.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:07.083897",
+            "size": "0.94KB",
+            "md5": "0222f09af9b9c37acf2a7057771be21f",
+            "sha256": "5974fcebe242d758e65ec7d436bbb5fb332b87dd3b530ebfbc2b13d9a9df067e"
+        },
+        "IApplication.h": {
+            "modified": "2017-05-31 21:53:07.088897",
+            "size": "0.4KB",
+            "md5": "10051c79534edacac7dab45f6c03729e",
+            "sha256": "4f86693b2f261b762101880e4fa42b7a281bb777a38990daa74756015227b6e3"
+        },
+        "main.cpp": {
+            "modified": "2017-05-31 21:53:07.187907",
+            "size": "1.19KB",
+            "md5": "c2d71f20be138cce10b2a040bafb8e71",
+            "sha256": "5e7bcde4e9d490747d2b775787afa8f798879bbd2a2042165ee7d7c0bf6bc5f9"
+        }
+    },
+    "Sample\\Framework2": {
+        "Framework2.vcxproj": {
+            "modified": "2017-05-31 23:56:20.218155",
+            "size": "13.85KB",
+            "md5": "6eaed046709ae28bcd58fd0ce51852c1",
+            "sha256": "7372cfee7b9a6c25889bd48d220723f7c409fd4e194b29d7d3910da7c9f6e24f"
+        },
+        "Framework2.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:07.234912",
+            "size": "0.96KB",
+            "md5": "48ea16c2255860c31fda32eabd8682ad",
+            "sha256": "61f38f1faed30a72e481611e1440d18478d2a2d817b330fff6b78ffe9f0048bf"
+        }
+    },
+    "Sample\\Framework2\\include": {
+        "IApplication.h": {
+            "modified": "2017-05-31 21:53:07.244913",
+            "size": "0.41KB",
+            "md5": "6a4fba049916d1b632c4edeedf996a98",
+            "sha256": "9a319de6030b9520444a81f01a83f3a62671506ddd9885abe2e777d85e0d1a9e"
+        }
+    },
+    "Sample\\Framework2\\source": {
+        "main.cpp": {
+            "modified": "2017-05-31 21:53:07.250914",
+            "size": "1.25KB",
+            "md5": "f46a2132ef435e70192a3c5bbb24cffe",
+            "sha256": "05cedad6aeae633a2f910d65165e478467710502b5b5fc1b8dc1019f4d2c239d"
+        }
+    },
+    "Sample\\Nw4cTga": {
+        "main.cpp": {
+            "modified": "2017-05-31 21:53:07.332922",
+            "size": "12.88KB",
+            "md5": "5a0a4588d0f8fe450fff5e8dcaf503f6",
+            "sha256": "4eba7846211ed56ad11a089edacd3ff6722037a213031135ef1f2e43cd49eccd"
+        },
+        "Nw4cTga.vcxproj": {
+            "modified": "2017-05-31 23:56:20.225156",
+            "size": "8.8KB",
+            "md5": "7c5bcc09d6093058f1aa110703f4cfa1",
+            "sha256": "6b662d97c6a229f955eb1c947217df70bedb799bb60d606337b5d45e2dd89879"
+        },
+        "Nw4cTga.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:07.320921",
+            "size": "1.11KB",
+            "md5": "07a52fea600aa97eeeec12687a843b5b",
+            "sha256": "6f840b9d97244e6e022dc94725280cb6fac70496f83f573d470507480986618a"
+        }
+    },
+    "Sample\\SimpleDraw": {
+        "main.cpp": {
+            "modified": "2017-05-31 21:53:07.383927",
+            "size": "23.72KB",
+            "md5": "03bc578a9efae3d3020274f80ffff362",
+            "sha256": "8004b658b9ff770ccf2d587f88f6ea9472e33ad848d980de9a985fa941a3e988"
+        },
+        "SimpleDraw.vcxproj": {
+            "modified": "2017-05-31 23:56:20.243158",
+            "size": "8.8KB",
+            "md5": "2d600901f887b5dbacb965529a55f768",
+            "sha256": "f905e3ac8b538e5bbfc7a1d03c3f8765761a2927bf764329f7ac835f1aaf3e21"
+        },
+        "SimpleDraw.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:07.358924",
+            "size": "1.11KB",
+            "md5": "07a52fea600aa97eeeec12687a843b5b",
+            "sha256": "6f840b9d97244e6e022dc94725280cb6fac70496f83f573d470507480986618a"
+        },
+        "SimpleDraw_ctr.rsf": {
+            "modified": "2017-05-31 21:53:07.364925",
+            "size": "0.17KB",
+            "md5": "e6c2e3cdf5793f3627b26e4a41ea5973",
+            "sha256": "35e0ae45e8d2b2b2701ed29d540239cdd6cdb8c53b2326be566aae7cb6d17b35"
+        },
+        "SimpleDraw_ctr.vcxproj": {
+            "modified": "2017-05-31 23:56:20.251159",
+            "size": "17.87KB",
+            "md5": "824206ce0b625bdfee37ab14ce910ee5",
+            "sha256": "a22feb46c0b33fd3f258a50e6cf3f8c395c4b83a58047ed86969b426c25ed692"
+        },
+        "SimpleDraw_ctr.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:07.376926",
+            "size": "0.96KB",
+            "md5": "f4b06e7aac29fe89f109e252706c9e25",
+            "sha256": "64d7b808715d03215929dccdbca7047771ac62997a49da58c219f21d2562b0b5"
+        }
+    },
+    "Sample\\SimpleDraw\\romfiles": {
+        "rgba8.ctpk": {
+            "modified": "2017-05-31 21:53:07.419931",
+            "size": "8.12KB",
+            "md5": "b914bdd823aac86cc47de3f6c0125d67",
+            "sha256": "747366e142a7b73a806605b512105ac5a58a3a57dc24c5c631c8542d4aa881b8"
+        },
+        "rgba8_raw.ctpk": {
+            "modified": "2017-05-31 21:53:07.428931",
+            "size": "512.12KB",
+            "md5": "f0bc96b95879e81b6d6b843322de0891",
+            "sha256": "1dbaf1d72e30e1a9fe667008eeeafab3fa59e470fb9343c369f9867697797ca7"
+        },
+        "shader.shbin": {
+            "modified": "2017-05-31 21:53:07.432932",
+            "size": "0.46KB",
+            "md5": "8443a4346d78610f0f1e71f0462fa279",
+            "sha256": "e0688333e47e8f3a818d4fe53e066aefbb18e2f67588f3f5b406feccc06732e2"
+        }
+    },
+    "Sample\\SimpleDraw2": {
+        "main.cpp": {
+            "modified": "2017-05-31 21:53:07.453934",
+            "size": "28.59KB",
+            "md5": "85541b42fb89518bf7917b16f4873334",
+            "sha256": "a9b4643abccb5f6095cae38e8d986701a46a596a22e585e892cae936f08f984d"
+        },
+        "SimpleDraw2.rsf": {
+            "modified": "2017-05-31 21:53:07.436932",
+            "size": "0.17KB",
+            "md5": "e6c2e3cdf5793f3627b26e4a41ea5973",
+            "sha256": "35e0ae45e8d2b2b2701ed29d540239cdd6cdb8c53b2326be566aae7cb6d17b35"
+        },
+        "SimpleDraw2.vcxproj": {
+            "modified": "2017-05-31 23:56:20.258159",
+            "size": "15.06KB",
+            "md5": "aa7711a3cf210a22898884a30aa1b746",
+            "sha256": "dd7c6550a0538ea8146d681d455dbd95927204148049e91bd55911ab8c1bd6a1"
+        },
+        "SimpleDraw2.vcxproj.filters": {
+            "modified": "2017-05-31 21:53:07.448934",
+            "size": "1.19KB",
+            "md5": "d95289d891a20b9cafe769a6c647856b",
+            "sha256": "97291b01523e1c13bd0e6a29aa6faf94f09e27bec2d9e2433ed2b09927f78c53"
+        }
+    },
+    "Sample\\SimpleDraw2\\romfiles": {
+        "rgba8.ctpk": {
+            "modified": "2017-05-31 21:53:07.460935",
+            "size": "8.12KB",
+            "md5": "b914bdd823aac86cc47de3f6c0125d67",
+            "sha256": "747366e142a7b73a806605b512105ac5a58a3a57dc24c5c631c8542d4aa881b8"
+        },
+        "rgba8_raw.ctpk": {
+            "modified": "2017-05-31 21:53:07.468935",
+            "size": "512.12KB",
+            "md5": "f0bc96b95879e81b6d6b843322de0891",
+            "sha256": "1dbaf1d72e30e1a9fe667008eeeafab3fa59e470fb9343c369f9867697797ca7"
+        },
+        "shader.shbin": {
+            "modified": "2017-05-31 21:53:07.472936",
+            "size": "0.46KB",
+            "md5": "8443a4346d78610f0f1e71f0462fa279",
+            "sha256": "e0688333e47e8f3a818d4fe53e066aefbb18e2f67588f3f5b406feccc06732e2"
+        }
+    },
+    "source": {
+        "gfl2_CommonGL.cpp": {
+            "modified": "2017-05-31 21:53:10.414230",
+            "size": "0.81KB",
+            "md5": "b7d057beb6eea78fb75b2e323b1d1044",
+            "sha256": "c64caff19da3494df282c0c8351bb2038912eb297450cdd1fab25343eea7d1b0"
+        },
+        "gfl2_DDSInformation.cpp": {
+            "modified": "2017-05-31 21:53:10.420231",
+            "size": "21.39KB",
+            "md5": "9dd2d5e7e0d3adc336494daadd9e34d9",
+            "sha256": "7fbdab97a759a63a593a24c234146e1147fa8dba26326b76453fb485fb696601"
+        },
+        "gfl2_DDSInformation.h": {
+            "modified": "2017-05-31 21:53:10.426231",
+            "size": "11.47KB",
+            "md5": "ed7ddf309b2224509ef5817e4bc01306",
+            "sha256": "335ba7386a39745c920e105b37015209dbd76b52a03ae6c28a2cbae3df328e92"
+        },
+        "gfl2_DrawUtil.cpp": {
+            "modified": "2017-05-31 23:56:20.301164",
+            "size": "78.27KB",
+            "md5": "5f699e81b910edbf3d0ad9603006538c",
+            "sha256": "e50610d3568e6179174de6db9cfdcd158421f52f13833e3a5ae80d20300f1181"
+        },
+        "gfl2_GFGL.cpp": {
+            "modified": "2017-05-31 21:53:10.438232",
+            "size": "0.58KB",
+            "md5": "7e1179e690d922ddb8d6fe09ec3865a0",
+            "sha256": "d67e80b3081e5e6782a556cd0f6f6d0f1c46c8890d1f1921be6c1186ba875d9b"
+        },
+        "gfl2_GFGLUtil.cpp": {
+            "modified": "2017-05-31 21:53:10.442233",
+            "size": "17.24KB",
+            "md5": "f96b3305ae65293485b08bd88f4c8a02",
+            "sha256": "a0cbc2d37884e1b7de426e6662f3ee8fdcf84eb292fc471a3bcb1d47fc5cd819"
+        },
+        "gfl2_GLMemory.cpp": {
+            "modified": "2017-05-31 21:53:10.448233",
+            "size": "0.31KB",
+            "md5": "54fb66d5d408126cb3bac5b9b66a2173",
+            "sha256": "3008237c3c6db68af3cc083c73ff21a36dd2c81609901a7a300becd0357522e2"
+        },
+        "gfl2_ImageData.cpp": {
+            "modified": "2017-05-31 21:53:10.453234",
+            "size": "12.56KB",
+            "md5": "42eb6c18637db8fad199852d6ef8426d",
+            "sha256": "180807539e815a1ebb09f1abc72bd35b411ffde6184dc841e3ab15d8c733f545"
+        },
+        "gfl2_ImageData_nw4ctga.cpp": {
+            "modified": "2017-05-31 23:56:20.333167",
+            "size": "19.68KB",
+            "md5": "0a618e57947c2af402007bc827ebf7cc",
+            "sha256": "48e3797ad8fef51e163b5d5ebc108f2dfa71772d1a04bfefd50f6a1221356257"
+        },
+        "gfl2_Surface.cpp": {
+            "modified": "2017-05-31 21:53:10.464235",
+            "size": "0.2KB",
+            "md5": "63e1fec1df4f75d42eb3f437dd56fc64",
+            "sha256": "ee7fcb685131d577c21045224e8c2a5e141327f109313b6560f4718d9a232ed3"
+        },
+        "gfl2_Texture.cpp": {
+            "modified": "2017-05-31 21:53:10.469235",
+            "size": "0.4KB",
+            "md5": "a48843d989fe1f4d16668bdca46a7cdb",
+            "sha256": "ab7000e41737c47bbc80a2886fb34f7bc3e6b7614e574ed893b234b0213287df"
+        }
+    },
+    "source\\CTR": {
+        "gfl2_CTRCommandList.cpp": {
+            "modified": "2017-05-31 21:53:09.784167",
+            "size": "1.42KB",
+            "md5": "12eb92eaf5ada7ed712cf040fa873330",
+            "sha256": "3d0998456db91db55176943a9c4dc0fa8000c52a09bdc5101882e59f1f8a653a"
+        },
+        "gfl2_CTRConstantBuffer.cpp": {
+            "modified": "2017-05-31 21:53:09.815170",
+            "size": "1.71KB",
+            "md5": "228f71d0907d1c98d1604f6fb168b366",
+            "sha256": "233a53dd70a94f259724cc02a6ee13f53568e5ca6054d1b4c99ad9438ff3987a"
+        },
+        "gfl2_CTRDisplayList.cpp": {
+            "modified": "2017-05-31 21:53:09.853174",
+            "size": "0.6KB",
+            "md5": "a2bea6d98b1a693750ad09e33263144e",
+            "sha256": "3144f1f6ecd8a7db30e58150210275869839f01826a058a9e7a4cb468c85be83"
+        },
+        "gfl2_CTRGeometryShader.cpp": {
+            "modified": "2017-05-31 21:53:09.871176",
+            "size": "0.42KB",
+            "md5": "7a0137743d7c4e7c4a3ec78a110c0306",
+            "sha256": "1b6e99fb4eaada8b571af04e50efe0de9c14afa86b6d69854e8610cbd5563830"
+        },
+        "gfl2_CTRGL.cpp": {
+            "modified": "2017-05-31 21:53:09.859174",
+            "size": "81.82KB",
+            "md5": "55bf126cb468e34d10670e3b455ae506",
+            "sha256": "99de4d411cdde5d48e2e1a7b7949503510af64612f33c859e3cd70b8812474dc"
+        },
+        "gfl2_CTRGPUProfiler.cpp": {
+            "modified": "2017-05-31 21:53:09.865175",
+            "size": "11.07KB",
+            "md5": "b87b383a5528f5f759dee3d8a8481021",
+            "sha256": "77ea96ecf31e191a279b8f8889d02678d2dcf2beaccd1dd0869b1db166e1358b"
+        },
+        "gfl2_CTRIndexBuffer.cpp": {
+            "modified": "2017-05-31 21:53:09.919180",
+            "size": "1.26KB",
+            "md5": "59d9c926c9c92667fc1d08e8734a44e1",
+            "sha256": "3a31937a48e1084838730416e639ebcfe3814171fd0208fb08c1b22167458c40"
+        },
+        "gfl2_CTROcclusionQuery.cpp": {
+            "modified": "2017-05-31 21:53:09.925181",
+            "size": "0.33KB",
+            "md5": "abe398ebea8265bad89519cb0501d735",
+            "sha256": "ec014a21f48a4ee13c2462723c0569ac1773dfe17a91da5edcf1c30046adac5d"
+        },
+        "gfl2_CTRPCDebugUtil.cpp": {
+            "modified": "2017-05-31 21:53:09.975186",
+            "size": "11.71KB",
+            "md5": "68dd3c7e2b4072d89f96e17e560d5408",
+            "sha256": "0105af39a20e8a653debc399641932d34e7a4bda91e7ea6303cda998be94710d"
+        },
+        "gfl2_CTRPixelShader.cpp": {
+            "modified": "2017-05-31 21:53:09.982187",
+            "size": "0.8KB",
+            "md5": "7f3aab8745e4b0ff28ed3fb9904b51f0",
+            "sha256": "0dfad4a6e67fb5fbf5e53540dd1921f7a752fb21782bbb5fca522dd59f88842d"
+        },
+        "gfl2_CTRStateObject.cpp": {
+            "modified": "2017-05-31 21:53:10.022191",
+            "size": "19.76KB",
+            "md5": "b70dc0eb4d72080429a22aa4f4cd4134",
+            "sha256": "a43b2cbf50d9e6ced871f0d26c0fc30e2d62765f5fddfd2945dd8911faf70fa8"
+        },
+        "gfl2_CTRSurface.cpp": {
+            "modified": "2017-05-31 21:53:10.028191",
+            "size": "3.92KB",
+            "md5": "c6cc28bc880da221c57a858c82133084",
+            "sha256": "cd1e50ea91ee6095a08ff5a1fd10ceff7e55a5bf9cf59cb4bb94adb8a3ec8393"
+        },
+        "gfl2_CTRTexture.cpp": {
+            "modified": "2017-05-31 21:53:10.065195",
+            "size": "1.95KB",
+            "md5": "52a6dd088dac62986a5069ee0edaab97",
+            "sha256": "4dc1ea13934b0f78104b52bf62cb4db67afca76fb08e6917c20299b594c407e7"
+        },
+        "gfl2_CTRTimerQuery.cpp": {
+            "modified": "2017-05-31 21:53:10.070196",
+            "size": "1.41KB",
+            "md5": "365fb899feace9d568cc1fd604051c5f",
+            "sha256": "f5d106b25ead826f8b7b00983d6e7efebc6e53fa1f6b019a503287178dac44b7"
+        },
+        "gfl2_CTRVertexBuffer.cpp": {
+            "modified": "2017-05-31 21:53:10.075196",
+            "size": "1.11KB",
+            "md5": "89f228b694291a941def364e80de60b3",
+            "sha256": "776d6ddca1d1dd790e70ff223433edd7765e677a4411bec1ce899c987a042bc3"
+        },
+        "gfl2_CTRVertexShader.cpp": {
+            "modified": "2017-05-31 21:53:10.102199",
+            "size": "5.66KB",
+            "md5": "91d414b5cfd179f644cb8560c041186c",
+            "sha256": "01f88915700e01f1ce38278257d27613647be2fdc33b7b2dff49dbda680f182f"
+        }
+    },
+    "source\\WinDX11": {
+        "gfl2_WinDX11ConstantBuffer.cpp": {
+            "modified": "2017-05-31 21:53:10.108199",
+            "size": "2.4KB",
+            "md5": "6c41f08b04cddfc9e050fbd435003cf1",
+            "sha256": "04e169739a19b9c6493bd17bd7cc7240ac422bce30588e9fb7ef89085028fe88"
+        },
+        "gfl2_WinDX11DisplayList.cpp": {
+            "modified": "2017-05-31 21:53:10.114200",
+            "size": "0.37KB",
+            "md5": "9e7b2f2c4670f74ef4d4a162f6e72477",
+            "sha256": "ce28651b2d3912fd9d02f6d51d2e9a3a33aa186cece1c87c0fd08aa9f5af902e"
+        },
+        "gfl2_WinDX11GeometryShader.cpp": {
+            "modified": "2017-05-31 21:53:10.132202",
+            "size": "0.75KB",
+            "md5": "25c8ee26c257396c4ac061f661d5b997",
+            "sha256": "a61d8424858ece72a23fb4d6c4c7629bced92c13396d2262237d9d013ebd8b89"
+        },
+        "gfl2_WinDX11GL.cpp": {
+            "modified": "2017-05-31 21:53:10.125201",
+            "size": "49.24KB",
+            "md5": "ce1f3f16c54bc625fd2b7144b2cf0679",
+            "sha256": "bfd24549b26b8b2a3e8c72716b9168331bc94e6ba9b8784848970b5c823637b4"
+        },
+        "gfl2_WinDX11IndexBuffer.cpp": {
+            "modified": "2017-05-31 21:53:10.157204",
+            "size": "1.91KB",
+            "md5": "595087efcdcc019f9f55ccb2c68b9367",
+            "sha256": "8a8da20ea6ff8fede8156e9fd304df61e1a7c8568aa0108f8d842e630c232a51"
+        },
+        "gfl2_WinDX11OcclusionQuery.cpp": {
+            "modified": "2017-05-31 21:53:10.162205",
+            "size": "0.37KB",
+            "md5": "2c39491e4fd10fb8e0ab05c9986ea0d5",
+            "sha256": "3da04812dda2358b4a66ba0c0cfcffcb8a2593773c2a27dad8cd1c87b19230b7"
+        },
+        "gfl2_WinDX11PixelShader.cpp": {
+            "modified": "2017-05-31 21:53:10.168205",
+            "size": "0.72KB",
+            "md5": "921f70e456220c09cadd7bc8175af6d1",
+            "sha256": "2ea4006c444938223d876bbc84e307249a007ef59b19570b562a65d0e6dca88d"
+        },
+        "gfl2_WinDX11QueryObject.cpp": {
+            "modified": "2017-05-31 21:53:10.174206",
+            "size": "0.58KB",
+            "md5": "a6d8107ec7b2490101f31dd629af9c2e",
+            "sha256": "c39311f8f92095b2fa9ce84cc4d3a951b8b5615c813e6e9abd5c6daf5b6a0c49"
+        },
+        "gfl2_WinDX11StateObject.cpp": {
+            "modified": "2017-05-31 21:53:10.190207",
+            "size": "7.58KB",
+            "md5": "8b28d8b5baa0ffdd731d414c50a7d872",
+            "sha256": "f5b13089323aaaec7fc9ce74266fe38fdb0ff78e486f66e1c39198060c007438"
+        },
+        "gfl2_WinDX11Surface.cpp": {
+            "modified": "2017-05-31 21:53:10.199208",
+            "size": "2.27KB",
+            "md5": "9bacfcf1dbb0f44949fb16e80ef8dacd",
+            "sha256": "d552bc51a4fb6a33dac1b50fa0845ebf19c2abc7deb2325473348430f313b9fb"
+        },
+        "gfl2_WinDX11Texture.cpp": {
+            "modified": "2017-05-31 21:53:10.204209",
+            "size": "3.38KB",
+            "md5": "e57fc959bfd6a9f12ada2c0da520eb29",
+            "sha256": "b73afdfb2d084a072b0af48cae1ffbd6f2bd5dcf86c3406281a3117ce57dbf25"
+        },
+        "gfl2_WinDX11TimerQuery.cpp": {
+            "modified": "2017-05-31 21:53:10.209209",
+            "size": "0.61KB",
+            "md5": "22d39956964d794e0660c0515c064374",
+            "sha256": "a15292ff359b93da13992f8d82547f901434613dfa35877d53dff18ece7dde88"
+        },
+        "gfl2_WinDX11VertexBuffer.cpp": {
+            "modified": "2017-05-31 21:53:10.215210",
+            "size": "1.85KB",
+            "md5": "26398f157e35a40e2fda365c2c000623",
+            "sha256": "3ca78d21c012c37ed004f88f5065c53ece5d76b0ba4d9991efc0528411129172"
+        },
+        "gfl2_WinDX11VertexShader.cpp": {
+            "modified": "2017-05-31 21:53:10.221211",
+            "size": "3.88KB",
+            "md5": "f19acad4ab69e2c7d0c243ba0b0fa9a2",
+            "sha256": "764512f65fe82efa54edd57eab83d605aca33cf4254993e9adfa1a3202cfbb99"
+        }
+    },
+    "source\\WinOpenGL": {
+        "gfl2_WinOpenGLConstantBuffer.cpp": {
+            "modified": "2017-05-31 21:53:10.226211",
+            "size": "1.39KB",
+            "md5": "04ce1e68900edb46f0dcdb3a974d7439",
+            "sha256": "7587df4054caf3d90987999fa38530d9f12bc15b555e471b86bef28e00b14acf"
+        },
+        "gfl2_WinOpenGLDisplayList.cpp": {
+            "modified": "2017-05-31 21:53:10.263215",
+            "size": "0.39KB",
+            "md5": "ebde7af9caef53e01a97de7b47537c0e",
+            "sha256": "29d2d064735069953d0efbbeca4d85bd239b46272cbf7de6be345499757cfc12"
+        },
+        "gfl2_WinOpenGLGeometryShader.cpp": {
+            "modified": "2017-05-31 21:53:10.288217",
+            "size": "1.55KB",
+            "md5": "f782af2bb2b0dde329b6ebb6a4eb31c3",
+            "sha256": "07e7ddacd1d6e4253182019990aa4b81ef7077f0dd4ac1e2ce9103de0aaa3537"
+        },
+        "gfl2_WinOpenGLGL.cpp": {
+            "modified": "2017-05-31 21:53:10.281217",
+            "size": "59.11KB",
+            "md5": "99f662e44f439e3f4ba99c51c4795fec",
+            "sha256": "6ca1d3566b93fae7acd8ae5be586ebbe64141e833e437aa4dda9fce692991034"
+        },
+        "gfl2_WinOpenGLIndexBuffer.cpp": {
+            "modified": "2017-05-31 21:53:10.316220",
+            "size": "1.06KB",
+            "md5": "5f05dbb509a1772a94423ef2710db877",
+            "sha256": "abaf7d26da571d40b7601be3a60d345dbba25ee1975ecf7aab6de2f78b5e1cab"
+        },
+        "gfl2_WinOpenGLOcclusionQuery.cpp": {
+            "modified": "2017-05-31 21:53:10.333222",
+            "size": "0.38KB",
+            "md5": "76f4c3c4120653ee606456ca0c5df203",
+            "sha256": "c6067daa0b3ac44d7f1d53bff56c8de65e23d108b736fc53bc50a0111d98cded"
+        },
+        "gfl2_WinOpenGLPCDebugUtil.cpp": {
+            "modified": "2017-05-31 21:53:10.340223",
+            "size": "11.47KB",
+            "md5": "5cee4a1fdda1b2c0035e7a6b84dc3086",
+            "sha256": "c2e0e3ead18d2278576361e913bf4cd9d5103019659a3e097c904ce8a05a0b8d"
+        },
+        "gfl2_WinOpenGLPixelShader.cpp": {
+            "modified": "2017-05-31 21:53:10.345223",
+            "size": "2.71KB",
+            "md5": "fe9862f3c4514aea01f2a8a25cfda2ac",
+            "sha256": "13e5501d36b7457c8be8dab4a1269844f21ad3d116426ed8707e817e6ba3d5be"
+        },
+        "gfl2_WinOpenGLQueryObject.cpp": {
+            "modified": "2017-05-31 21:53:10.358224",
+            "size": "0.34KB",
+            "md5": "06abab88a4505d5b7c6ab2e7502dca6f",
+            "sha256": "56135f912948fe5372883bf7455933be600065bfdd9141dac19feed7cb95bb9b"
+        },
+        "gfl2_WinOpenGLStateObject.cpp": {
+            "modified": "2017-05-31 21:53:10.374226",
+            "size": "7.95KB",
+            "md5": "0e63ef1d45f1bf54bc3c0197841f3202",
+            "sha256": "07821c53c81f0a97be87269ec69205e89a61a3b39a2061139592414d4ff174ef"
+        },
+        "gfl2_WinOpenGLSurface.cpp": {
+            "modified": "2017-05-31 21:53:10.381227",
+            "size": "1.35KB",
+            "md5": "e39f34a6ec85f69ff1b4b4625cc1a27a",
+            "sha256": "6cb9f53b6f2577fe3dfaaf6ae58c9bbca2d1b668316eb5fc633fee7f917dc177"
+        },
+        "gfl2_WinOpenGLTexture.cpp": {
+            "modified": "2017-05-31 21:53:10.386227",
+            "size": "3.13KB",
+            "md5": "c01b9fce8d0f007e5894f3838b5cb705",
+            "sha256": "73245a8cb5361710f2b6e573deae17d48d846ff11d800bc8c86c0c7606b15ec6"
+        },
+        "gfl2_WinOpenGLTimerQuery.cpp": {
+            "modified": "2017-05-31 21:53:10.391228",
+            "size": "2.39KB",
+            "md5": "339eab583ec6256cac56c96d16ac197b",
+            "sha256": "fc2fff69c0da20e9a08733cfbe76d2a817d3c1c2ebb77ec947ba8bc11685aed3"
+        },
+        "gfl2_WinOpenGLVertexBuffer.cpp": {
+            "modified": "2017-05-31 21:53:10.403229",
+            "size": "0.98KB",
+            "md5": "746f603dec23acc12b7844c9c7505498",
+            "sha256": "1b0556c20839fe6e4bf8813a53ec9698856c109385adb4fcfd964161e30a9bfc"
+        },
+        "gfl2_WinOpenGLVertexShader.cpp": {
+            "modified": "2017-05-31 21:53:10.408229",
+            "size": "3.48KB",
+            "md5": "c53465a2a0587a2a9b6c6109f7917068",
+            "sha256": "701c2b3cac1ce6e3fcf71b77f3cfc1ca20b3f44abf28462e02cd2ed9c0bae6c2"
+        }
+    }
+}

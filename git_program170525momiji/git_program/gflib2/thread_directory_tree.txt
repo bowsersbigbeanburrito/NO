@@ -1,0 +1,35 @@
+thread/
+├── include/
+│   ├── gfl2_Event.h
+│   ├── gfl2_Mutex.h
+│   ├── gfl2_ScopedLock.h
+│   ├── gfl2_Thread.h
+│   └── gfl2_ThreadStatic.h
+├── project/
+│   ├── gf_template_gflib2.rsf
+│   ├── thread.vcxproj
+│   └── thread.vcxproj.filters
+└── source/
+    ├── gfl_event.cpp
+    ├── gfl_event_adapter.h
+    ├── gfl_event_adapter_3ds.cpp
+    ├── gfl_event_adapter_3ds.h
+    ├── gfl_event_adapter_win.cpp
+    ├── gfl_event_adapter_win.h
+    ├── gfl_mutex_adapter.h
+    ├── gfl_mutex_adapter_3ds.cpp
+    ├── gfl_mutex_adapter_3ds.h
+    ├── gfl_mutex_adapter_win.cpp
+    ├── gfl_mutex_adapter_win.h
+    ├── gfl_thread.cpp
+    ├── gfl_thread_adapter.h
+    ├── gfl_thread_adapter_3ds.cpp
+    ├── gfl_thread_adapter_3ds.h
+    ├── gfl_thread_adapter_win.cpp
+    ├── gfl_thread_adapter_win.h
+    ├── gfl_threadstatic.cpp
+    ├── gfl_threadstatic_adapter.h
+    ├── gfl_threadstatic_adapter_3ds.cpp
+    ├── gfl_threadstatic_adapter_3ds.h
+    ├── gfl_threadstatic_adapter_win.cpp
+    └── gfl_threadstatic_adapter_win.h

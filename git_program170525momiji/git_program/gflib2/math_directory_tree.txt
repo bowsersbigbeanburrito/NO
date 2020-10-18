@@ -1,0 +1,96 @@
+math/
+├── include/
+│   ├── gfl2_Easing.h
+│   ├── gfl2_EulerRotation.h
+│   ├── gfl2_Float.h
+│   ├── gfl2_math.h
+│   ├── gfl2_math_control.h
+│   ├── gfl2_math_convert.h
+│   ├── gfl2_math_crc.h
+│   ├── gfl2_math_random.h
+│   ├── gfl2_MathAABB.h
+│   ├── gfl2_MathArithmetic.h
+│   ├── gfl2_MathCommon.h
+│   ├── gfl2_MathExtendedVectorTemplate.h
+│   ├── gfl2_MathTriangular.h
+│   ├── gfl2_MathType.h
+│   ├── gfl2_MathUtil.h
+│   ├── gfl2_Matrix.h
+│   ├── gfl2_Matrix34.h
+│   ├── gfl2_Matrix44.h
+│   ├── gfl2_Mtx.h
+│   ├── gfl2_PathController.h
+│   ├── gfl2_Quaternion.h
+│   ├── gfl2_QuaternionNative.h
+│   ├── gfl2_Rect.h
+│   ├── gfl2_SpringSimulation.h
+│   ├── gfl2_SRT.h
+│   ├── gfl2_tinymt32.h
+│   ├── gfl2_tinymt64.h
+│   ├── gfl2_Transporter.h
+│   ├── gfl2_TransporterTypes.h
+│   ├── gfl2_Tuple4Common.h
+│   ├── gfl2_Vec.h
+│   ├── gfl2_Vector.h
+│   ├── gfl2_Vector2.h
+│   ├── gfl2_Vector3.h
+│   ├── gfl2_Vector4.h
+│   ├── Matrix34Standard.inl
+│   ├── Matrix44Standard.inl
+│   ├── MatrixStandard.inl
+│   ├── SFMT/
+│   │   ├── LICENSE.txt
+│   │   ├── SFMT-alti.h
+│   │   ├── SFMT-common.h
+│   │   ├── SFMT-params.h
+│   │   ├── SFMT-params11213.h
+│   │   ├── SFMT-params1279.h
+│   │   ├── SFMT-params132049.h
+│   │   ├── SFMT-params19937.h
+│   │   ├── SFMT-params216091.h
+│   │   ├── SFMT-params2281.h
+│   │   ├── SFMT-params4253.h
+│   │   ├── SFMT-params44497.h
+│   │   ├── SFMT-params607.h
+│   │   ├── SFMT-params86243.h
+│   │   ├── SFMT-sse2-msc.h
+│   │   ├── SFMT-sse2.h
+│   │   ├── SFMT.c
+│   │   └── SFMT.h
+│   ├── Vector2Standard.inl
+│   ├── Vector3Standard.inl
+│   ├── Vector4Standard.inl
+│   └── VectorStandard.inl
+├── project/
+│   ├── dummy.txt
+│   ├── gf_template_gflib2.rsf
+│   ├── math.vcxproj
+│   ├── math.vcxproj.filters
+│   └── math_test/
+│       ├── math_test.bat
+│       ├── math_test.sln
+│       └── test/
+│           ├── include/
+│           │   └── Performance_test.h
+│           ├── main.cpp
+│           ├── source/
+│           │   ├── Float_test.cpp
+│           │   ├── Main.cpp
+│           │   ├── Matrix34_test.cpp
+│           │   ├── Matrix44_test.cpp
+│           │   ├── Performance_test.cpp
+│           │   ├── Quaternion_test.cpp
+│           │   ├── Random_test.cpp
+│           │   ├── SRT_test.cpp
+│           │   └── Vector3_test.cpp
+│           ├── test.rsf
+│           ├── test.vcxproj
+│           └── test.vcxproj.filters
+└── source/
+    ├── gfl2_math.cpp
+    ├── gfl2_math_crc.cpp
+    ├── gfl2_math_random.cpp
+    ├── gfl2_MathUtil.cpp
+    ├── gfl2_SpringSimulation.cpp
+    ├── gfl2_tinymt32.cpp
+    └── gfl2_tinymt64.cpp

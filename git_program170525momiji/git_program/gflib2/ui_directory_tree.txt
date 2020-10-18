@@ -1,0 +1,74 @@
+ui/
+├── include/
+│   ├── ctr/
+│   │   └── gfl2_UI_CTR_DeviceManager.h
+│   ├── gfl2_UI.h
+│   ├── gfl2_UI_Accelerometer.h
+│   ├── gfl2_UI_Button.h
+│   ├── gfl2_UI_Device.h
+│   ├── gfl2_UI_DeviceManager.h
+│   ├── gfl2_UI_Gyroscope.h
+│   ├── gfl2_UI_System.h
+│   ├── gfl2_UI_TouchPanel.h
+│   ├── gfl2_UI_Types.h
+│   ├── gfl2_UI_VectorDevice.h
+│   └── win32/
+│       └── gfl2_UI_WIN32_DeviceManager.h
+├── project/
+│   ├── gf_template_gflib2.rsf
+│   ├── ui.filters
+│   ├── ui.sln
+│   ├── ui.vcxproj
+│   └── ui.vcxproj.filters
+└── source/
+    ├── ctr/
+    │   ├── gfl2_UI_CTR_Accelerometer.cpp
+    │   ├── gfl2_UI_CTR_Accelerometer.h
+    │   ├── gfl2_UI_CTR_Button.cpp
+    │   ├── gfl2_UI_CTR_Button.h
+    │   ├── gfl2_UI_CTR_CrossKey.cpp
+    │   ├── gfl2_UI_CTR_CrossKey.h
+    │   ├── gfl2_UI_CTR_DebugButton.cpp
+    │   ├── gfl2_UI_CTR_DebugButton.h
+    │   ├── gfl2_UI_CTR_DebugCrossKey.cpp
+    │   ├── gfl2_UI_CTR_DebugCrossKey.h
+    │   ├── gfl2_UI_CTR_DebugStick.cpp
+    │   ├── gfl2_UI_CTR_DebugStick.h
+    │   ├── gfl2_UI_CTR_DeviceManager.cpp
+    │   ├── gfl2_UI_CTR_Gyroscope.cpp
+    │   ├── gfl2_UI_CTR_Gyroscope.h
+    │   ├── gfl2_UI_CTR_Stick.cpp
+    │   ├── gfl2_UI_CTR_Stick.h
+    │   ├── gfl2_UI_CTR_TouchPanel.cpp
+    │   └── gfl2_UI_CTR_TouchPanel.h
+    ├── gfl2_UI_Accelerometer.cpp
+    ├── gfl2_UI_Button.cpp
+    ├── gfl2_UI_Device.cpp
+    ├── gfl2_UI_DeviceImplementer.h
+    ├── gfl2_UI_DeviceImplementerForAccelerometer.cpp
+    ├── gfl2_UI_DeviceImplementerForAccelerometer.h
+    ├── gfl2_UI_DeviceImplementerForGyroscope.cpp
+    ├── gfl2_UI_DeviceImplementerForGyroscope.h
+    ├── gfl2_UI_DeviceImplementerForVectorDevice.cpp
+    ├── gfl2_UI_DeviceImplementerForVectorDevice.h
+    ├── gfl2_UI_DeviceManager.cpp
+    ├── gfl2_UI_Gyroscope.cpp
+    ├── gfl2_UI_LogPlayer.cpp
+    ├── gfl2_UI_LogPlayer.h
+    ├── gfl2_UI_LogRecorder.cpp
+    ├── gfl2_UI_LogRecorder.h
+    ├── gfl2_UI_RepeatTimer.cpp
+    ├── gfl2_UI_RepeatTimer.h
+    ├── gfl2_UI_System.cpp
+    ├── gfl2_UI_TouchPanel.cpp
+    ├── gfl2_UI_VectorDevice.cpp
+    └── win32/
+        ├── gfl2_UI_WIN32_Button.cpp
+        ├── gfl2_UI_WIN32_Button.h
+        ├── gfl2_UI_WIN32_CrossKey.cpp
+        ├── gfl2_UI_WIN32_CrossKey.h
+        ├── gfl2_UI_WIN32_DeviceManager.cpp
+        ├── gfl2_UI_WIN32_Stick.cpp
+        ├── gfl2_UI_WIN32_Stick.h
+        ├── gfl2_UI_WIN32_TouchPanel.cpp
+        └── gfl2_UI_WIN32_TouchPanel.h

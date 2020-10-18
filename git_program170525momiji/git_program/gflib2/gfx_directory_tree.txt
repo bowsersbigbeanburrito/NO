@@ -1,0 +1,260 @@
+gfx/
+├── include/
+│   ├── ColorDef.inl
+│   ├── CTR/
+│   │   ├── gfl2_CTRCommandBufferManager.h
+│   │   ├── gfl2_CTRCommandBufferManager.inl
+│   │   ├── gfl2_CTRCommandBufferUtil.h
+│   │   ├── gfl2_CTRCommandList.h
+│   │   ├── gfl2_CTRConstantBuffer.h
+│   │   ├── gfl2_CTRDisplayList.h
+│   │   ├── gfl2_CTRGeometryShader.h
+│   │   ├── gfl2_CTRGL.h
+│   │   ├── gfl2_CTRGPUProfiler.h
+│   │   ├── gfl2_CTRIndexBuffer.h
+│   │   ├── gfl2_CTROcclusionQuery.h
+│   │   ├── gfl2_CTRPixelShader.h
+│   │   ├── gfl2_CTRStateObject.h
+│   │   ├── gfl2_CTRSurface.h
+│   │   ├── gfl2_CTRTexture.h
+│   │   ├── gfl2_CTRTimerQuery.h
+│   │   ├── gfl2_CTRTypes.h
+│   │   ├── gfl2_CTRVertexBuffer.h
+│   │   └── gfl2_CTRVertexShader.h
+│   ├── gfl2_Buffer.h
+│   ├── gfl2_Color.h
+│   ├── gfl2_ColorU8.h
+│   ├── gfl2_CommonGL.h
+│   ├── gfl2_DisplayList.h
+│   ├── gfl2_DrawUtil.h
+│   ├── gfl2_enums.h
+│   ├── gfl2_GFGL.h
+│   ├── gfl2_GFGLUtil.h
+│   ├── gfl2_GLMemory.h
+│   ├── gfl2_ImageData.h
+│   ├── gfl2_OcclusionQuery.h
+│   ├── gfl2_PCDebugUtil.h
+│   ├── gfl2_QueryObject.h
+│   ├── gfl2_Shader.h
+│   ├── gfl2_StateObject.h
+│   ├── gfl2_Surface.h
+│   ├── gfl2_Texture.h
+│   ├── gfl2_TimerQuery.h
+│   ├── gfl2_types.h
+│   ├── WinDx11/
+│   │   ├── gfl2_WinDX11ConstantBuffer.h
+│   │   ├── gfl2_WinDX11DisplayList.h
+│   │   ├── gfl2_WinDX11GeometryShader.h
+│   │   ├── gfl2_WinDX11GL.h
+│   │   ├── gfl2_WinDX11IndexBuffer.h
+│   │   ├── gfl2_WinDX11OcclusionQuery.h
+│   │   ├── gfl2_WinDX11PixelShader.h
+│   │   ├── gfl2_WinDX11QueryObject.h
+│   │   ├── gfl2_WinDX11StateObject.h
+│   │   ├── gfl2_WinDX11Surface.h
+│   │   ├── gfl2_WinDX11Texture.h
+│   │   ├── gfl2_WinDX11TimerQuery.h
+│   │   ├── gfl2_WinDX11Types.h
+│   │   ├── gfl2_WinDX11VertexBuffer.h
+│   │   ├── gfl2_WinDX11VertexShader.h
+│   │   ├── stdafx.h
+│   │   └── targetver.h
+│   └── WinOpenGL/
+│       ├── gfl2_WinOpenGLConstantBuffer.h
+│       ├── gfl2_WinOpenGLDisplayList.h
+│       ├── gfl2_WinOpenGLGeometryShader.h
+│       ├── gfl2_WinOpenGLGL.h
+│       ├── gfl2_WinOpenGLIndexBuffer.h
+│       ├── gfl2_WinOpenGLOcclusionQuery.h
+│       ├── gfl2_WinOpenGLPixelShader.h
+│       ├── gfl2_WinOpenGLQueryObject.h
+│       ├── gfl2_WinOpenGLStateObject.h
+│       ├── gfl2_WinOpenGLSurface.h
+│       ├── gfl2_WinOpenGLTexture.h
+│       ├── gfl2_WinOpenGLTimerQuery.h
+│       ├── gfl2_WinOpenGLTypes.h
+│       ├── gfl2_WinOpenGLVertexBuffer.h
+│       ├── gfl2_WinOpenGLVertexShader.h
+│       ├── stdafx.h
+│       └── targetver.h
+├── project/
+│   ├── Bin2Ascii.exe
+│   ├── CompiledShader2Binary.exe
+│   ├── gf_template_gflib2.rsf
+│   ├── gfx.sln
+│   ├── gfx.vcxproj
+│   ├── gfx.vcxproj.filters
+│   ├── gfx_ctr.vcxproj
+│   ├── gfx_ctr.vcxproj.filters
+│   ├── romfiles/
+│   │   ├── rgba8.ctpk
+│   │   ├── rgba8_raw.ctpk
+│   │   └── shader.shbin
+│   └── ShaderCompile.bat
+├── resource/
+│   ├── DrawUtil.gffsh
+│   ├── DrawUtil.gfvsh
+│   ├── DrawUtil.shbin
+│   ├── DrawUtil.vsh
+│   ├── dummy.ctpk
+│   └── dummy.tga
+├── Sample/
+│   ├── data/
+│   │   ├── black.tga
+│   │   ├── DrawUtilPixelShader.bfsh
+│   │   ├── DrawUtilVertexShader.bvsh
+│   │   ├── dummy.tga
+│   │   ├── dxt1_mip.dds
+│   │   ├── font_utf16_256x256.tga
+│   │   ├── large.tga
+│   │   ├── output_binary.bin
+│   │   ├── pokemon_wb.xlor
+│   │   ├── rgba8.ctpk
+│   │   ├── rgba8.dds
+│   │   ├── rgba8.tga
+│   │   ├── rgba8_mip.dds
+│   │   ├── SimpleDraw.frag
+│   │   ├── SimpleDraw.psh
+│   │   ├── SimpleDraw.sh
+│   │   ├── SimpleDraw.vert
+│   │   ├── SimpleDraw.vsh
+│   │   ├── tex_test/
+│   │   │   ├── conv.bat
+│   │   │   ├── NW4C_TextureConverter.exe
+│   │   │   ├── Nw4cTga.frag
+│   │   │   ├── Nw4cTga.vert
+│   │   │   ├── pm0025_00_BodyA1.tga
+│   │   │   ├── test.tga
+│   │   │   ├── test_a4.tga
+│   │   │   ├── test_a8.tga
+│   │   │   ├── test_etc1.tga
+│   │   │   ├── test_etc1_a4.tga
+│   │   │   ├── test_hilo8.tga
+│   │   │   ├── test_l4.tga
+│   │   │   ├── test_l8.tga
+│   │   │   ├── test_la4.tga
+│   │   │   ├── test_la8.tga
+│   │   │   ├── test_rgb565.tga
+│   │   │   ├── test_rgb5_a1.tga
+│   │   │   ├── test_rgb8.tga
+│   │   │   ├── test_rgba4.tga
+│   │   │   └── test_rgba8.tga
+│   │   └── texconv.bat
+│   ├── DrawUtil/
+│   │   ├── DrawUtil.vcxproj
+│   │   ├── DrawUtil.vcxproj.filters
+│   │   └── main.cpp
+│   ├── DrawUtil_CTRSample/
+│   │   ├── CTRViewer/
+│   │   │   ├── DrawUtilSample.rsf
+│   │   │   ├── DrawUtilSample.vcxproj
+│   │   │   ├── DrawUtilSample.vcxproj.filters
+│   │   │   ├── main.cpp
+│   │   │   └── romfiles/
+│   │   │       ├── CTR2ShaderCompiler.shbin
+│   │   │       ├── dummy.ctpk
+│   │   │       ├── dummy.tga
+│   │   │       ├── rgba8.ctpk
+│   │   │       ├── rgba8_raw.ctpk
+│   │   │       └── shader.shbin
+│   │   ├── DrawUtilSample.bat
+│   │   ├── DrawUtilSample.sln
+│   │   └── FrameWork/
+│   │       ├── FrameWork.vcxproj
+│   │       ├── FrameWork.vcxproj.filters
+│   │       ├── IApplication.h
+│   │       └── main.cpp
+│   ├── Framework2/
+│   │   ├── Framework2.vcxproj
+│   │   ├── Framework2.vcxproj.filters
+│   │   ├── include/
+│   │   │   └── IApplication.h
+│   │   └── source/
+│   │       └── main.cpp
+│   ├── gfx.bat
+│   ├── Nw4cTga/
+│   │   ├── main.cpp
+│   │   ├── Nw4cTga.vcxproj
+│   │   └── Nw4cTga.vcxproj.filters
+│   ├── Sample.sln
+│   ├── Sample_ctr.sln
+│   ├── SimpleDraw/
+│   │   ├── main.cpp
+│   │   ├── romfiles/
+│   │   │   ├── rgba8.ctpk
+│   │   │   ├── rgba8_raw.ctpk
+│   │   │   └── shader.shbin
+│   │   ├── SimpleDraw.vcxproj
+│   │   ├── SimpleDraw.vcxproj.filters
+│   │   ├── SimpleDraw_ctr.rsf
+│   │   ├── SimpleDraw_ctr.vcxproj
+│   │   └── SimpleDraw_ctr.vcxproj.filters
+│   └── SimpleDraw2/
+│       ├── main.cpp
+│       ├── romfiles/
+│       │   ├── rgba8.ctpk
+│       │   ├── rgba8_raw.ctpk
+│       │   └── shader.shbin
+│       ├── SimpleDraw2.rsf
+│       ├── SimpleDraw2.vcxproj
+│       └── SimpleDraw2.vcxproj.filters
+└── source/
+    ├── CTR/
+    │   ├── gfl2_CTRCommandList.cpp
+    │   ├── gfl2_CTRConstantBuffer.cpp
+    │   ├── gfl2_CTRDisplayList.cpp
+    │   ├── gfl2_CTRGeometryShader.cpp
+    │   ├── gfl2_CTRGL.cpp
+    │   ├── gfl2_CTRGPUProfiler.cpp
+    │   ├── gfl2_CTRIndexBuffer.cpp
+    │   ├── gfl2_CTROcclusionQuery.cpp
+    │   ├── gfl2_CTRPCDebugUtil.cpp
+    │   ├── gfl2_CTRPixelShader.cpp
+    │   ├── gfl2_CTRStateObject.cpp
+    │   ├── gfl2_CTRSurface.cpp
+    │   ├── gfl2_CTRTexture.cpp
+    │   ├── gfl2_CTRTimerQuery.cpp
+    │   ├── gfl2_CTRVertexBuffer.cpp
+    │   └── gfl2_CTRVertexShader.cpp
+    ├── gfl2_CommonGL.cpp
+    ├── gfl2_DDSInformation.cpp
+    ├── gfl2_DDSInformation.h
+    ├── gfl2_DrawUtil.cpp
+    ├── gfl2_GFGL.cpp
+    ├── gfl2_GFGLUtil.cpp
+    ├── gfl2_GLMemory.cpp
+    ├── gfl2_ImageData.cpp
+    ├── gfl2_ImageData_nw4ctga.cpp
+    ├── gfl2_Surface.cpp
+    ├── gfl2_Texture.cpp
+    ├── WinDX11/
+    │   ├── gfl2_WinDX11ConstantBuffer.cpp
+    │   ├── gfl2_WinDX11DisplayList.cpp
+    │   ├── gfl2_WinDX11GeometryShader.cpp
+    │   ├── gfl2_WinDX11GL.cpp
+    │   ├── gfl2_WinDX11IndexBuffer.cpp
+    │   ├── gfl2_WinDX11OcclusionQuery.cpp
+    │   ├── gfl2_WinDX11PixelShader.cpp
+    │   ├── gfl2_WinDX11QueryObject.cpp
+    │   ├── gfl2_WinDX11StateObject.cpp
+    │   ├── gfl2_WinDX11Surface.cpp
+    │   ├── gfl2_WinDX11Texture.cpp
+    │   ├── gfl2_WinDX11TimerQuery.cpp
+    │   ├── gfl2_WinDX11VertexBuffer.cpp
+    │   └── gfl2_WinDX11VertexShader.cpp
+    └── WinOpenGL/
+        ├── gfl2_WinOpenGLConstantBuffer.cpp
+        ├── gfl2_WinOpenGLDisplayList.cpp
+        ├── gfl2_WinOpenGLGeometryShader.cpp
+        ├── gfl2_WinOpenGLGL.cpp
+        ├── gfl2_WinOpenGLIndexBuffer.cpp
+        ├── gfl2_WinOpenGLOcclusionQuery.cpp
+        ├── gfl2_WinOpenGLPCDebugUtil.cpp
+        ├── gfl2_WinOpenGLPixelShader.cpp
+        ├── gfl2_WinOpenGLQueryObject.cpp
+        ├── gfl2_WinOpenGLStateObject.cpp
+        ├── gfl2_WinOpenGLSurface.cpp
+        ├── gfl2_WinOpenGLTexture.cpp
+        ├── gfl2_WinOpenGLTimerQuery.cpp
+        ├── gfl2_WinOpenGLVertexBuffer.cpp
+        └── gfl2_WinOpenGLVertexShader.cpp

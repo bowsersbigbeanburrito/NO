@@ -1,0 +1,173 @@
+PawnCompiler/
+├── examples/
+│   ├── argument.p
+│   ├── c2f.p
+│   ├── capt.p
+│   ├── cards.p
+│   ├── chat.p
+│   ├── comment.p
+│   ├── faculty.p
+│   ├── fib.p
+│   ├── gcd.p
+│   ├── gtkcalc.p
+│   ├── hanoi.p
+│   ├── hello.p
+│   ├── hello2.p
+│   ├── julian.p
+│   ├── ones.p
+│   ├── queue.p
+│   ├── quine.p
+│   ├── randlist.p
+│   ├── readfile.p
+│   ├── rot13.p
+│   ├── rpn.p
+│   ├── rpnparse.inc
+│   ├── set.p
+│   ├── sieve.p
+│   ├── stack.inc
+│   ├── strtok.inc
+│   ├── traffic.p
+│   ├── traffic2.p
+│   ├── turtle.p
+│   ├── wcount.p
+│   └── weekday.p
+├── include/
+│   ├── amxdll.inc
+│   ├── args.inc
+│   ├── console.inc
+│   ├── core.inc
+│   ├── datagram.inc
+│   ├── default.inc
+│   ├── file.inc
+│   ├── fixed.inc
+│   ├── float.inc
+│   ├── process.inc
+│   ├── rational.inc
+│   ├── string.inc
+│   └── time.inc
+├── project/
+│   ├── Debug/
+│   │   ├── Win32/
+│   │   │   └── pawncompilerd.lib
+│   │   └── x64/
+│   │       └── pawncompiler64d.lib
+│   ├── pawncompiler.sln
+│   ├── pawncompiler.vcxproj
+│   ├── pawncompiler.vcxproj.filters
+│   ├── Release/
+│   │   ├── Win32/
+│   │   │   └── pawncompiler.lib
+│   │   └── x64/
+│   │       └── pawncompiler.lib
+│   └── ReleaseExe/
+│       └── win32/
+│           ├── pawncompiler.exe
+│           └── pawncompiler.lib
+└── source/
+    ├── amx/
+    │   ├── amx.c
+    │   ├── amx.h
+    │   ├── amxargs.c
+    │   ├── amxargs.rc
+    │   ├── amxaux.c
+    │   ├── amxaux.h
+    │   ├── amxcons.c
+    │   ├── amxcons.h
+    │   ├── amxcore.c
+    │   ├── amxdbg.c
+    │   ├── amxdbg.h
+    │   ├── amxdef.asm
+    │   ├── amxdefn.asm
+    │   ├── amxdgram.c
+    │   ├── amxDGram.def
+    │   ├── amxDGram.rc
+    │   ├── amxexec.asm
+    │   ├── amxexec_arm7.s
+    │   ├── amxexec_arm7_gas.s
+    │   ├── amxexecn.asm
+    │   ├── amxfile.c
+    │   ├── amxfile.def
+    │   ├── amxFile.rc
+    │   ├── amxFixed.def
+    │   ├── amxFixed.rc
+    │   ├── amxFloat.def
+    │   ├── amxFloat.rc
+    │   ├── amxgc.c
+    │   ├── amxgc.h
+    │   ├── amxjitr.asm
+    │   ├── amxjits.asm
+    │   ├── amxjitsn.asm
+    │   ├── amxpool.c
+    │   ├── amxpool.h
+    │   ├── amxprocess.c
+    │   ├── amxProcess.def
+    │   ├── amxProcess.rc
+    │   ├── amxstring.c
+    │   ├── amxstring.def
+    │   ├── amxstring.rc
+    │   ├── amxtime.c
+    │   ├── amxtime.def
+    │   ├── amxtime.rc
+    │   ├── dllmain.c
+    │   ├── examples/
+    │   │   ├── logfile.cpp
+    │   │   ├── power.c
+    │   │   ├── prun1.c
+    │   │   ├── prun2.c
+    │   │   ├── prun3.c
+    │   │   ├── prun4.c
+    │   │   ├── prun5.c
+    │   │   └── prun_jit.c
+    │   ├── fixed.c
+    │   ├── float.c
+    │   ├── fpattern.c
+    │   ├── fpattern.h
+    │   ├── minGlue.h
+    │   ├── minIni.c
+    │   ├── minIni.h
+    │   ├── osdefs.h
+    │   ├── pawndbg.c
+    │   ├── pawnrun.c
+    │   ├── term_ga.c
+    │   ├── term_ga.h
+    │   ├── termwin.c
+    │   └── termwin.h
+    ├── compiler/
+    │   ├── libpawnc.c
+    │   ├── libpawnc.def
+    │   ├── libpawnc.def.borland
+    │   ├── libpawnc.lbc
+    │   ├── libpawnc.rc
+    │   ├── lstring.c
+    │   ├── lstring.h
+    │   ├── memfile.c
+    │   ├── memfile.h
+    │   ├── pawncc.c
+    │   ├── pawncc.def
+    │   ├── pawncc.def.borland
+    │   ├── pawndisasm.c
+    │   ├── sc.h
+    │   ├── sc1.c
+    │   ├── sc2.c
+    │   ├── sc3.c
+    │   ├── sc4.c
+    │   ├── sc5.c
+    │   ├── sc5.scp
+    │   ├── sc6.c
+    │   ├── sc7.c
+    │   ├── sc7.scp
+    │   ├── scexpand.c
+    │   ├── sci18n.c
+    │   ├── sclist.c
+    │   ├── scmemfil.c
+    │   ├── scpack.c
+    │   ├── scstate.c
+    │   ├── scstub.c
+    │   ├── scvars.c
+    │   └── svnrev.h
+    └── linux/
+        ├── binreloc.c
+        ├── binreloc.h
+        ├── getch.c
+        ├── getch.h
+        └── sclinux.h
