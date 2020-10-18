@@ -1,0 +1,479 @@
+libATOK/
+├── .cvsignore
+├── _build/
+│   ├── .cvsignore
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Entries.Extra
+│   │   ├── Entries.Extra.Old
+│   │   ├── Entries.Log
+│   │   ├── Entries.Old
+│   │   ├── Repository
+│   │   └── Root
+│   ├── include/
+│   │   ├── atok_exp.h
+│   │   ├── CVS/
+│   │   │   ├── Entries
+│   │   │   ├── Entries.Extra
+│   │   │   ├── Entries.Extra.Old
+│   │   │   ├── Entries.Old
+│   │   │   ├── Repository
+│   │   │   └── Root
+│   │   └── mwmdefs.h
+│   ├── lib/
+│   │   ├── atokeng.a
+│   │   ├── atokengD.a
+│   │   └── CVS/
+│   │       ├── Entries
+│   │       ├── Entries.Extra
+│   │       ├── Entries.Extra.Old
+│   │       ├── Entries.Old
+│   │       ├── Repository
+│   │       └── Root
+│   ├── libATOK.mcp
+│   └── src/
+│       ├── atok.c
+│       └── CVS/
+│           ├── Entries
+│           ├── Entries.Extra
+│           ├── Entries.Extra.Old
+│           ├── Entries.Old
+│           ├── Repository
+│           └── Root
+├── _BuildPackage.bat
+├── _BuildSharedData.bat
+├── _BuildSymbolTable.bat
+├── _data/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Entries.Extra
+│   │   ├── Entries.Extra.Old
+│   │   ├── Entries.Old
+│   │   ├── Repository
+│   │   └── Root
+│   ├── �C�V���⏕����_070528.xls
+│   ├── �C�V���⏕����_070613.xls
+│   └── �v�]��b�t�H�[�}�b�g_070528_JPN.xls
+├── _Exclude.txt
+├── _ExcludeBuild.txt
+├── _Readme.txt
+├── _SetDVDRoot.bat
+├── build/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Entries.Extra
+│   │   ├── Entries.Extra.Old
+│   │   ├── Entries.Log
+│   │   ├── Entries.Old
+│   │   ├── Repository
+│   │   └── Root
+│   └── demos/
+│       ├── atokdemo/
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Entries.Extra
+│       │   │   ├── Entries.Extra.Old
+│       │   │   ├── Entries.Log
+│       │   │   ├── Entries.Old
+│       │   │   ├── Repository
+│       │   │   └── Root
+│       │   ├── Makefile
+│       │   ├── mcs_keyboard/
+│       │   │   ├── .cvsignore
+│       │   │   ├── _mcs_keyboard.mcp
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Entries.Extra
+│       │   │   │   ├── Entries.Extra.Old
+│       │   │   │   ├── Entries.Log
+│       │   │   │   ├── Entries.Old
+│       │   │   │   ├── Repository
+│       │   │   │   └── Root
+│       │   │   ├── include/
+│       │   │   │   ├── CVS/
+│       │   │   │   │   ├── Entries
+│       │   │   │   │   ├── Entries.Extra
+│       │   │   │   │   ├── Entries.Extra.Old
+│       │   │   │   │   ├── Entries.Old
+│       │   │   │   │   ├── Repository
+│       │   │   │   │   └── Root
+│       │   │   │   ├── input_form.h
+│       │   │   │   ├── input_method.h
+│       │   │   │   └── mcs_keyboard.h
+│       │   │   ├── Makefile
+│       │   │   └── src/
+│       │   │       ├── CVS/
+│       │   │       │   ├── Entries
+│       │   │       │   ├── Entries.Extra
+│       │   │       │   ├── Entries.Extra.Old
+│       │   │       │   ├── Entries.Old
+│       │   │       │   ├── Repository
+│       │   │       │   └── Root
+│       │   │       ├── input_form.cpp
+│       │   │       ├── input_method.cpp
+│       │   │       ├── main.cpp
+│       │   │       └── mcs_keyboard.cpp
+│       │   └── usb_keyboard/
+│       │       ├── .cvsignore
+│       │       ├── _usb_keyboard.mcp
+│       │       ├── CVS/
+│       │       │   ├── Entries
+│       │       │   ├── Entries.Extra
+│       │       │   ├── Entries.Extra.Old
+│       │       │   ├── Entries.Log
+│       │       │   ├── Entries.Old
+│       │       │   ├── Repository
+│       │       │   └── Root
+│       │       ├── include/
+│       │       │   ├── CVS/
+│       │       │   │   ├── Entries
+│       │       │   │   ├── Entries.Extra
+│       │       │   │   ├── Entries.Extra.Old
+│       │       │   │   ├── Entries.Old
+│       │       │   │   ├── Repository
+│       │       │   │   └── Root
+│       │       │   └── SimpleUSBKeyboard.h
+│       │       └── src/
+│       │           ├── CVS/
+│       │           │   ├── Entries
+│       │           │   ├── Entries.Extra
+│       │           │   ├── Entries.Extra.Old
+│       │           │   ├── Entries.Old
+│       │           │   ├── Repository
+│       │           │   └── Root
+│       │           ├── main.c
+│       │           └── SimpleUSBKeyboard.c
+│       └── CVS/
+│           ├── Entries
+│           ├── Entries.Extra
+│           ├── Entries.Extra.Old
+│           ├── Entries.Log
+│           ├── Entries.Old
+│           ├── Repository
+│           └── Root
+├── CVS/
+│   ├── Entries
+│   ├── Entries.Extra
+│   ├── Entries.Extra.Old
+│   ├── Entries.Log
+│   ├── Entries.Old
+│   ├── Repository
+│   └── Root
+├── data/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Entries.Extra
+│   │   ├── Entries.Extra.Old
+│   │   ├── Entries.Log
+│   │   ├── Entries.Old
+│   │   ├── Repository
+│   │   └── Root
+│   └── Logo/
+│       ├── atok_logo_128.bmp
+│       └── CVS/
+│           ├── Entries
+│           ├── Entries.Extra
+│           ├── Entries.Extra.Old
+│           ├── Entries.Old
+│           ├── Repository
+│           └── Root
+├── docs/
+│   ├── _atok_spec_050927.pdf
+│   ├── _atok_spec_070313.pdf
+│   ├── _atok_spec_070313_diff.pdf
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Entries.Extra
+│   │   ├── Entries.Extra.Old
+│   │   ├── Entries.Log
+│   │   ├── Entries.Old
+│   │   ├── Repository
+│   │   └── Root
+│   └── ja_JP/
+│       ├── ATOK_Library_Guide/
+│       │   ├── atok.doc
+│       │   ├── atok.pdf
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Entries.Extra
+│       │   │   ├── Entries.Extra.Old
+│       │   │   ├── Entries.Old
+│       │   │   ├── Repository
+│       │   │   └── Root
+│       │   └── �⏕�����쐬�c�[���戵�����.pdf
+│       └── CVS/
+│           ├── Entries
+│           ├── Entries.Extra
+│           ├── Entries.Extra.Old
+│           ├── Entries.Log
+│           ├── Entries.Old
+│           ├── Repository
+│           └── Root
+├── dvddata/
+│   ├── atokdemo/
+│   │   ├── _old/
+│   │   │   ├── 20061107/
+│   │   │   │   ├── AtokNintendo.atd
+│   │   │   │   └── CVS/
+│   │   │   │       ├── Entries
+│   │   │   │       ├── Entries.Extra
+│   │   │   │       ├── Entries.Extra.Old
+│   │   │   │       ├── Entries.Old
+│   │   │   │       ├── Repository
+│   │   │   │       └── Root
+│   │   │   └── CVS/
+│   │   │       ├── Entries
+│   │   │       ├── Entries.Extra
+│   │   │       ├── Entries.Extra.Old
+│   │   │       ├── Entries.Log
+│   │   │       ├── Entries.Old
+│   │   │       ├── Repository
+│   │   │       └── Root
+│   │   ├── AtokApot.atd
+│   │   ├── AtokNintendo.atd
+│   │   ├── AtokSystem.atd
+│   │   ├── AtokSystem_m.atd
+│   │   ├── AtokSystem_s.atd
+│   │   └── CVS/
+│   │       ├── Entries
+│   │       ├── Entries.Extra
+│   │       ├── Entries.Extra.Old
+│   │       ├── Entries.Log
+│   │       ├── Entries.Old
+│   │       ├── Repository
+│   │       └── Root
+│   └── CVS/
+│       ├── Entries
+│       ├── Entries.Extra
+│       ├── Entries.Extra.Old
+│       ├── Entries.Log
+│       ├── Entries.Old
+│       ├── Repository
+│       └── Root
+├── include/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Entries.Extra
+│   │   ├── Entries.Extra.Old
+│   │   ├── Entries.Log
+│   │   ├── Entries.Old
+│   │   ├── Repository
+│   │   └── Root
+│   └── revolution/
+│       ├── atok.h
+│       └── CVS/
+│           ├── Entries
+│           ├── Entries.Extra
+│           ├── Entries.Extra.Old
+│           ├── Entries.Old
+│           ├── Repository
+│           └── Root
+├── man/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Entries.Extra
+│   │   ├── Entries.Extra.Old
+│   │   ├── Entries.Log
+│   │   ├── Entries.Old
+│   │   ├── Repository
+│   │   └── Root
+│   └── ja_JP/
+│       ├── atok/
+│       │   ├── a-z.html
+│       │   ├── atok.html
+│       │   ├── ATOKClose.html
+│       │   ├── ATOKCommandPack.html
+│       │   ├── ATOKCommitPredictiveItem.html
+│       │   ├── ATOKDeleteWord.html
+│       │   ├── ATOKDeleteWordExpr.html
+│       │   ├── ATOKDrive.html
+│       │   ├── ATOKGetPredictiveItems.html
+│       │   ├── ATOKGetRegRemSpace.html
+│       │   ├── ATOKGetRegWordFirst.html
+│       │   ├── ATOKGetRegWordNext.html
+│       │   ├── ATOKGetRegWordNum.html
+│       │   ├── ATOKModifyWord.html
+│       │   ├── ATOKOpen.html
+│       │   ├── ATOKOpenPack.html
+│       │   ├── ATOKPredictItem.html
+│       │   ├── ATOKRegisterWord.html
+│       │   ├── ATOKRegWordHyokiCheck.html
+│       │   ├── ATOKRegWordYomiCheck.html
+│       │   ├── button.html
+│       │   ├── changes.html
+│       │   ├── command/
+│       │   │   ├── ATOK_DO_EDIT_TRANS.html
+│       │   │   ├── ATOK_DO_FLUSH.html
+│       │   │   ├── ATOK_DO_KANJI_OFF.html
+│       │   │   ├── ATOK_DO_KANJI_ON.html
+│       │   │   ├── ATOK_DO_RESET_RELATION.html
+│       │   │   ├── ATOK_EDIT_TRANS_BACKSPACE.html
+│       │   │   ├── ATOK_EDIT_TRANS_CANCEL_ALL.html
+│       │   │   ├── ATOK_EDIT_TRANS_CONV_BACKWARD.html
+│       │   │   ├── ATOK_EDIT_TRANS_CONV_CANCEL.html
+│       │   │   ├── ATOK_EDIT_TRANS_CONV_FORWARD.html
+│       │   │   ├── ATOK_EDIT_TRANS_CURSOR_LEFT.html
+│       │   │   ├── ATOK_EDIT_TRANS_CURSOR_RIGHT.html
+│       │   │   ├── ATOK_EDIT_TRANS_DELETE.html
+│       │   │   ├── ATOK_EDIT_TRANS_DELETE_ALL.html
+│       │   │   ├── ATOK_EDIT_TRANS_DELETE_FOLLOW.html
+│       │   │   ├── ATOK_EDIT_TRANS_ENTER_CHAR.html
+│       │   │   ├── ATOK_EDIT_TRANS_ENTER_CHAR_EXT.html
+│       │   │   ├── ATOK_EDIT_TRANS_ENTER_STR.html
+│       │   │   ├── ATOK_EDIT_TRANS_FOCUS_LEFT.html
+│       │   │   ├── ATOK_EDIT_TRANS_FOCUS_RIGHT.html
+│       │   │   ├── ATOK_EDIT_TRANS_GET_CAND_BY_INDEX.html
+│       │   │   ├── ATOK_EDIT_TRANS_KAKUTEI_ALL.html
+│       │   │   ├── ATOK_EDIT_TRANS_KAKUTEI_PART.html
+│       │   │   ├── ATOK_EDIT_TRANS_KAKUTEI_UNDO.html
+│       │   │   ├── ATOK_EDIT_TRANS_MODIFY_CHAR.html
+│       │   │   ├── ATOK_EDIT_TRANS_MOVE_FOCUS_CLAUSE.html
+│       │   │   ├── ATOK_EDIT_TRANS_POST_CONV.html
+│       │   │   ├── ATOK_EDIT_TRANS_SELECT_CAND.html
+│       │   │   ├── ATOK_GET_CURRENT_YOMI.html
+│       │   │   ├── ATOK_SET_APPEND_KANA_STEM.html
+│       │   │   ├── ATOK_SET_APPEND_POST_CONV.html
+│       │   │   ├── ATOK_SET_APPEND_ROMAN.html
+│       │   │   ├── ATOK_SET_DSP_CHAR_TYPE.html
+│       │   │   ├── ATOK_SET_FIX_INPUT_MODE.html
+│       │   │   ├── ATOK_SET_GAKUSYU_MODE.html
+│       │   │   ├── ATOK_SET_INPUT_MAX.html
+│       │   │   ├── ATOK_SET_INPUT_MODE.html
+│       │   │   ├── ATOK_SET_KANJI_MODE.html
+│       │   │   ├── ATOK_SET_PUT_CURSOR.html
+│       │   │   ├── ATOK_SET_ROMAN_RECOVER.html
+│       │   │   ├── ATOK_SET_TRANS_MODE.html
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Entries.Extra
+│       │   │   │   ├── Entries.Extra.Old
+│       │   │   │   ├── Entries.Old
+│       │   │   │   ├── Repository
+│       │   │   │   └── Root
+│       │   │   └── list_command.html
+│       │   ├── contents.html
+│       │   ├── CSS/
+│       │   │   ├── apilist.css
+│       │   │   ├── button.css
+│       │   │   ├── contents.css
+│       │   │   ├── CVS/
+│       │   │   │   ├── Entries
+│       │   │   │   ├── Entries.Extra
+│       │   │   │   ├── Entries.Extra.Old
+│       │   │   │   ├── Entries.Old
+│       │   │   │   ├── Repository
+│       │   │   │   └── Root
+│       │   │   ├── main.css
+│       │   │   └── manpage.css
+│       │   ├── CVS/
+│       │   │   ├── Entries
+│       │   │   ├── Entries.Extra
+│       │   │   ├── Entries.Extra.Old
+│       │   │   ├── Entries.Log
+│       │   │   ├── Entries.Old
+│       │   │   ├── Repository
+│       │   │   └── Root
+│       │   ├── index.html
+│       │   ├── list_atok.html
+│       │   └── main.html
+│       └── CVS/
+│           ├── Entries
+│           ├── Entries.Extra
+│           ├── Entries.Extra.Old
+│           ├── Entries.Log
+│           ├── Entries.Old
+│           ├── Repository
+│           └── Root
+├── Readme-libATOK.txt
+├── Release/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Entries.Extra
+│   │   ├── Entries.Extra.Old
+│   │   ├── Entries.Old
+│   │   ├── Repository
+│   │   └── Root
+│   ├── libATOK_070409.zip
+│   ├── libATOK_070613.zip
+│   ├── libATOK_CW4W_20090417.zip
+│   ├── Wii_Middleware-libATOK-1_1_0_CW4W-20090608.zip.zip
+│   └── Wii_Middleware-libATOK-1_1_1_CW4W-20091110.zip
+├── RVL/
+│   ├── CVS/
+│   │   ├── Entries
+│   │   ├── Entries.Extra
+│   │   ├── Entries.Extra.Old
+│   │   ├── Entries.Log
+│   │   ├── Entries.Old
+│   │   ├── Repository
+│   │   └── Root
+│   └── lib/
+│       ├── .cvsignore
+│       └── CVS/
+│           ├── Entries
+│           ├── Entries.Extra
+│           ├── Entries.Extra.Old
+│           ├── Entries.Old
+│           ├── Repository
+│           └── Root
+├── shareddata/
+│   ├── atok/
+│   │   ├── _old/
+│   │   │   ├── 20061107/
+│   │   │   │   ├── AtokNintendo.arc
+│   │   │   │   └── CVS/
+│   │   │   │       ├── Entries
+│   │   │   │       ├── Entries.Extra
+│   │   │   │       ├── Entries.Extra.Old
+│   │   │   │       ├── Entries.Old
+│   │   │   │       ├── Repository
+│   │   │   │       └── Root
+│   │   │   └── CVS/
+│   │   │       ├── Entries
+│   │   │       ├── Entries.Extra
+│   │   │       ├── Entries.Extra.Old
+│   │   │       ├── Entries.Log
+│   │   │       ├── Entries.Old
+│   │   │       ├── Repository
+│   │   │       └── Root
+│   │   ├── AtokApot.arc
+│   │   ├── AtokNintendo.arc
+│   │   ├── AtokSystem.arc
+│   │   └── CVS/
+│   │       ├── Entries
+│   │       ├── Entries.Extra
+│   │       ├── Entries.Extra.Old
+│   │       ├── Entries.Log
+│   │       ├── Entries.Old
+│   │       ├── Repository
+│   │       └── Root
+│   └── CVS/
+│       ├── Entries
+│       ├── Entries.Extra
+│       ├── Entries.Extra.Old
+│       ├── Entries.Log
+│       ├── Entries.Old
+│       ├── Repository
+│       └── Root
+└── X86/
+    ├── bin/
+    │   ├── AuxDicMakerForWii.exe
+    │   ├── AuxDicViewerForWii.exe
+    │   ├── CVS/
+    │   │   ├── Entries
+    │   │   ├── Entries.Extra
+    │   │   ├── Entries.Extra.Old
+    │   │   ├── Entries.Old
+    │   │   ├── Repository
+    │   │   └── Root
+    │   ├── sample.bat
+    │   ├── sample.dat
+    │   └── sample.txt
+    └── CVS/
+        ├── Entries
+        ├── Entries.Extra
+        ├── Entries.Extra.Old
+        ├── Entries.Log
+        ├── Entries.Old
+        ├── Repository
+        └── Root
