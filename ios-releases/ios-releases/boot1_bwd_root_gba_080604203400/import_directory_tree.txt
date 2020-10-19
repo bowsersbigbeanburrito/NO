@@ -1,0 +1,34 @@
+import/
+└── usr/
+    ├── bin/
+    │   └── sc/
+    │       ├── lce.elf
+    │       ├── vnp.elf
+    │       ├── vnp_dev.bwf
+    │       ├── vnp_dev.mrg
+    │       └── vnp_sce.elf
+    ├── include/
+    │   ├── ec.h
+    │   ├── lce.h
+    │   ├── server_rpc.h
+    │   ├── sktp.h
+    │   ├── vng.h
+    │   ├── vng_p.h
+    │   ├── vng_priv.h
+    │   ├── vng_server.h
+    │   └── vng_types.h
+    └── lib/
+        ├── gba/
+        │   ├── libec.a
+        │   ├── liblce.a
+        │   ├── libvna.a
+        │   ├── libvng.a
+        │   ├── libvnp.a
+        │   └── libvoice.a
+        └── sc/
+            ├── libec.a
+            ├── liblce.a
+            ├── libvna.a
+            ├── libvng.a
+            ├── libvnp.a
+            └── libvoice.a

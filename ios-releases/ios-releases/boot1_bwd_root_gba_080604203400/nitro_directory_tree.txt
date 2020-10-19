@@ -1,0 +1,167 @@
+nitro/
+├── build/
+│   ├── buildtools/
+│   │   └── commondefs
+│   ├── demos/
+│   │   └── card/
+│   │       ├── backup-full/
+│   │       │   ├── include/
+│   │       │   ├── Makefile
+│   │       │   └── src/
+│   │       │       └── backup-full.c
+│   │       ├── backup-size/
+│   │       │   ├── include/
+│   │       │   ├── Makefile
+│   │       │   └── src/
+│   │       │       └── backup-size.c
+│   │       ├── backup-test/
+│   │       │   ├── include/
+│   │       │   ├── Makefile
+│   │       │   └── src/
+│   │       │       └── backup-test.c
+│   │       ├── card-remove/
+│   │       │   ├── include/
+│   │       │   ├── Makefile
+│   │       │   └── src/
+│   │       │       └── card-remove.c
+│   │       └── no-backup/
+│   │           ├── include/
+│   │           ├── Makefile
+│   │           └── src/
+│   │               └── no-backup.c
+│   ├── libraries/
+│   │   ├── card-nc/
+│   │   │   ├── include/
+│   │   │   │   ├── card-api.h
+│   │   │   │   ├── card-lock.h
+│   │   │   │   └── card-nc.h
+│   │   │   ├── Makefile
+│   │   │   └── src/
+│   │   │       ├── card-api.c
+│   │   │       └── card-backup-api.c
+│   │   ├── ctrdg/
+│   │   │   └── common/
+│   │   │       └── src/
+│   │   │           └── ctrdg.c
+│   │   ├── ds-debug/
+│   │   │   ├── include/
+│   │   │   │   ├── aes.h
+│   │   │   │   ├── aes_api.h
+│   │   │   │   ├── aes_imp.h
+│   │   │   │   ├── bsstypes.h
+│   │   │   │   └── md5.h
+│   │   │   ├── Makefile
+│   │   │   └── src/
+│   │   │       ├── aes.c
+│   │   │       ├── aes_api.c
+│   │   │       ├── aes_imp.c
+│   │   │       ├── ds-debug.c
+│   │   │       └── md5.c
+│   │   ├── es/
+│   │   │   ├── Makefile
+│   │   │   └── src/
+│   │   │       └── es.c
+│   │   ├── ios/
+│   │   │   ├── Makefile
+│   │   │   └── src/
+│   │   │       └── ios.c
+│   │   ├── isfs/
+│   │   │   ├── Makefile
+│   │   │   └── src/
+│   │   │       └── fs.c
+│   │   ├── Makefile
+│   │   ├── os/
+│   │   │   ├── ARM9/
+│   │   │   │   └── TS-Prototype/
+│   │   │   │       ├── 0/
+│   │   │   │       │   └── Makefile
+│   │   │   │       ├── 100/
+│   │   │   │       │   └── Makefile
+│   │   │   │       ├── 200/
+│   │   │   │       │   └── Makefile
+│   │   │   │       └── undefine/
+│   │   │   │           └── Makefile
+│   │   │   ├── common/
+│   │   │   │   └── src/
+│   │   │   │       └── os_reset.c
+│   │   │   └── Makefile
+│   │   ├── screen-text/
+│   │   │   ├── include/
+│   │   │   │   └── text-internal.h
+│   │   │   ├── Makefile
+│   │   │   └── src/
+│   │   │       ├── font.c
+│   │   │       └── screen-text.c
+│   │   ├── spi/
+│   │   │   └── ARM9/
+│   │   │       ├── Makefile.CORE
+│   │   │       └── src/
+│   │   │           └── tp.c
+│   │   ├── tp-nc/
+│   │   │   ├── Makefile
+│   │   │   └── src/
+│   │   │       └── tp_shim.c
+│   │   └── vio/
+│   │       ├── include/
+│   │       │   └── printf.h
+│   │       ├── Makefile
+│   │       └── src/
+│   │           ├── printf.c
+│   │           ├── snprintf.c
+│   │           ├── strnlen.c
+│   │           └── vio_usb.c
+│   └── tools/
+│       ├── gba-switch/
+│       │   ├── include/
+│       │   ├── Makefile
+│       │   └── src/
+│       │       └── arm9-switch.c
+│       ├── gba-switch-arm7/
+│       │   ├── ARM7-TS.lsf
+│       │   ├── Makefile
+│       │   └── src/
+│       │       └── crt0.c
+│       ├── Makefile
+│       ├── ncloader/
+│       │   ├── include/
+│       │   │   └── loader.h
+│       │   ├── Makefile
+│       │   └── src/
+│       │       ├── font.c
+│       │       ├── gui.c
+│       │       ├── launch.c
+│       │       └── main.c
+│       └── ncviewer/
+│           ├── include/
+│           │   ├── draw.h
+│           │   ├── p2p.h
+│           │   └── p2p_priv_t.h
+│           ├── Makefile
+│           └── src/
+│               ├── data.c
+│               ├── draw.c
+│               ├── launch.c
+│               └── main.c
+└── include/
+    └── netcard/
+        ├── card-nc.h
+        ├── csltypes.h
+        ├── ds/
+        │   ├── ios.h
+        │   ├── ioslibc.h
+        │   ├── iostypes.h
+        │   ├── tp_ipc.h
+        │   └── vio.h
+        ├── ds-debug.h
+        ├── es.h
+        ├── es_int.h
+        ├── estypes.h
+        ├── fs.h
+        ├── iosccert.h
+        ├── iosctypes.h
+        ├── sc/
+        │   ├── addr_map.h
+        │   └── sc.h
+        ├── screen-text.h
+        ├── sha1.h
+        └── types.h

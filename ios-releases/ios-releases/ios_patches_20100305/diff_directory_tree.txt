@@ -1,0 +1,51 @@
+diff/
+├── ios_12_0_0/
+│   ├── cachec.c.diff
+│   ├── exceptc.c.diff
+│   ├── iobuf.c.diff
+│   ├── ipcsrv.c.diff
+│   ├── memory.c.diff
+│   ├── message.c.diff
+│   ├── mmu.c.diff
+│   ├── resource.c.diff
+│   ├── sdi_utils.h.diff
+│   ├── thread.c.diff
+│   └── version.c.diff
+├── ios_30_4_12/
+│   ├── cachec.c.diff
+│   ├── es_mgr.c.diff
+│   ├── es_title.c.diff
+│   ├── exceptc.c.diff
+│   ├── iobuf.c.diff
+│   ├── ipcsrv.c.diff
+│   ├── memory.c.diff
+│   ├── message.c.diff
+│   ├── mmu.c.diff
+│   ├── mmu.c.dynRM.diff
+│   ├── resource.c.diff
+│   ├── sdi_utils.h.diff
+│   ├── thread.c.diff
+│   ├── thread.c.dynRM.diff
+│   └── version.c.diff
+├── ios_30_4_14/
+│   ├── es_mgr.c.diff
+│   └── es_title.c.diff
+├── ios_9_1_0/
+│   ├── cachec.c.diff
+│   ├── es_title.c.diff
+│   ├── exceptc.c.diff
+│   ├── iobuf.c.diff
+│   ├── ipcsrv.c.diff
+│   ├── memory.c.diff
+│   ├── message.c.diff
+│   ├── mmu.c.diff
+│   ├── resource.c.diff
+│   ├── sdi_utils.h.diff
+│   ├── thread.c.diff
+│   └── version.c.diff
+├── ios_9_2_1/
+│   └── sdi_utils.h.diff
+└── ios_release_080711/
+    ├── es_mgr.c.diff
+    ├── es_title.c.diff
+    └── sdi_utils.h.diff
