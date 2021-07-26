@@ -1,0 +1,156 @@
+vc/
+├── build/
+│   ├── libraries/
+│   │   └── ec/
+│   │       ├── include/
+│   │       │   └── ec.h,v
+│   │       ├── makefile,v
+│   │       └── src/
+│   │           ├── Attic/
+│   │           │   ├── ec_msglog.h,v
+│   │           │   ├── ec_stl_linux.h,v
+│   │           │   └── ec_stl_win32.h,v
+│   │           ├── ec_api.cpp,v
+│   │           ├── ec_asyncOp.cpp,v
+│   │           ├── ec_asyncOp.h,v
+│   │           ├── ec_base64.cpp,v
+│   │           ├── ec_base64.h,v
+│   │           ├── ec_buyPoints.cpp,v
+│   │           ├── ec_buyPoints.h,v
+│   │           ├── ec_comm.h,v
+│   │           ├── ec_common.h,v
+│   │           ├── ec_config.h,v
+│   │           ├── ec_content.cpp,v
+│   │           ├── ec_content.h,v
+│   │           ├── ec_deleteTicket.cpp,v
+│   │           ├── ec_file.cpp,v
+│   │           ├── ec_file.h,v
+│   │           ├── ec_getPoints.cpp,v
+│   │           ├── ec_getPoints.h,v
+│   │           ├── ec_getTitle.cpp,v
+│   │           ├── ec_getTitle.h,v
+│   │           ├── ec_getUpApps.cpp,v
+│   │           ├── ec_getUpApps.h,v
+│   │           ├── ec_http.cpp,v
+│   │           ├── ec_http.h,v
+│   │           ├── ec_js.cpp,v
+│   │           ├── ec_js.h,v
+│   │           ├── ec_md5.cpp,v
+│   │           ├── ec_md5.h,v
+│   │           ├── ec_md5_global.h,v
+│   │           ├── ec_md5c.c,v
+│   │           ├── ec_md5c.h,v
+│   │           ├── ec_misc.cpp,v
+│   │           ├── ec_porting.h,v
+│   │           ├── ec_purchaseTitle.cpp,v
+│   │           ├── ec_purchaseTitle.h,v
+│   │           ├── ec_redeemECard.cpp,v
+│   │           ├── ec_redeemECard.h,v
+│   │           ├── ec_registerVC.cpp,v
+│   │           ├── ec_registerVC.h,v
+│   │           ├── ec_soap.cpp,v
+│   │           ├── ec_soap.h,v
+│   │           ├── ec_stl.h,v
+│   │           ├── ec_string.cpp,v
+│   │           ├── ec_string.h,v
+│   │           ├── ec_syncTickets.cpp,v
+│   │           ├── ec_syncTickets.h,v
+│   │           ├── ec_ticketedPurchase.h,v
+│   │           ├── ec_trace.h,v
+│   │           ├── ssl_socket.cpp,v
+│   │           └── ssl_socket.h,v
+│   └── tests/
+│       └── ec/
+│           ├── makefile,v
+│           └── src/
+│               ├── ec_test.cpp,v
+│               ├── ec_test.h,v
+│               ├── ec_test_main.cpp,v
+│               ├── ec_test_resp.cpp,v
+│               └── ec_test_resp.h,v
+├── ec/
+│   ├── Attic/
+│   │   ├── comm.h,v
+│   │   ├── ec.h,v
+│   │   ├── ec_api.cpp,v
+│   │   ├── ec_asyncOp.cpp,v
+│   │   ├── ec_asyncOp.h,v
+│   │   ├── ec_base64.cpp,v
+│   │   ├── ec_base64.h,v
+│   │   ├── ec_buyPoints.cpp,v
+│   │   ├── ec_buyPoints.h,v
+│   │   ├── ec_comm.cpp,v
+│   │   ├── ec_comm.h,v
+│   │   ├── ec_common.cpp,v
+│   │   ├── ec_common.h,v
+│   │   ├── ec_config.h,v
+│   │   ├── ec_content.cpp,v
+│   │   ├── ec_content.h,v
+│   │   ├── ec_file.cpp,v
+│   │   ├── ec_file.h,v
+│   │   ├── ec_fileObj.h,v
+│   │   ├── ec_getMeta.cpp,v
+│   │   ├── ec_getMeta.h,v
+│   │   ├── ec_getPoints.cpp,v
+│   │   ├── ec_getPoints.h,v
+│   │   ├── ec_getTitle.cpp,v
+│   │   ├── ec_getTitle.h,v
+│   │   ├── ec_http.cpp,v
+│   │   ├── ec_http.h,v
+│   │   ├── ec_js.cpp,v
+│   │   ├── ec_js.h,v
+│   │   ├── ec_md5.cpp,v
+│   │   ├── ec_md5.h,v
+│   │   ├── ec_md5_global.h,v
+│   │   ├── ec_md5c.c,v
+│   │   ├── ec_md5c.h,v
+│   │   ├── ec_misc.cpp,v
+│   │   ├── ec_msglog.h,v
+│   │   ├── ec_porting.h,v
+│   │   ├── ec_purchaseTitle.cpp,v
+│   │   ├── ec_purchaseTitle.h,v
+│   │   ├── ec_redeemECard.cpp,v
+│   │   ├── ec_redeemECard.h,v
+│   │   ├── ec_registerVC.cpp,v
+│   │   ├── ec_registerVC.h,v
+│   │   ├── ec_soap.cpp,v
+│   │   ├── ec_soap.h,v
+│   │   ├── ec_stl.h,v
+│   │   ├── ec_string.cpp,v
+│   │   ├── ec_string.h,v
+│   │   ├── ec_syncTickets.cpp,v
+│   │   ├── ec_syncTickets.h,v
+│   │   ├── ec_test.cpp,v
+│   │   ├── ec_test.h,v
+│   │   ├── ec_test_main.cpp,v
+│   │   ├── ec_test_resp.cpp,v
+│   │   ├── ec_test_resp.h,v
+│   │   ├── ec_trace.h,v
+│   │   ├── http.cpp,v
+│   │   ├── http.h,v
+│   │   ├── makefile_rvl_ec_lib,v
+│   │   ├── makefile_rvl_ec_test,v
+│   │   ├── md5.h,v
+│   │   ├── md5_global.h,v
+│   │   ├── md5c.c,v
+│   │   ├── ssl_socket.cpp,v
+│   │   ├── ssl_socket.h,v
+│   │   ├── ssl_wrapper.c,v
+│   │   ├── ssl_wrapper.h,v
+│   │   └── ssl_wrapper_core.c,v
+│   ├── ec.vcproj,v
+│   ├── ec_config_win32.h,v
+│   ├── ec_ext_file.cpp,v
+│   ├── ec_ext_file.h,v
+│   ├── ec_ext_md5.cpp,v
+│   ├── ec_porting_other_plat.h,v
+│   ├── ec_stl_linux.h,v
+│   ├── ec_stl_win32.h,v
+│   ├── ec_trace_win32.h,v
+│   ├── Makefile,v
+│   ├── rsyncfiles_ec_lib,v
+│   ├── rsyncfiles_ec_lib_flat,v
+│   └── rsyncfiles_ec_test_flat,v
+├── test/
+│   └── test.vcproj,v
+└── vc.sln,v

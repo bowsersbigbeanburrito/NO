@@ -1,0 +1,388 @@
+{
+    ".": {
+        "README,v": {
+            "modified": "2003-12-19 09:36:54",
+            "size": "1.14KB",
+            "md5": "7a474436bf471f4fefc12ddb2287bb53",
+            "sha256": "6545500fb8c86e71cb76393fc021fdd90e969c2c9f56d3fb3b9ca7b1791ba1be"
+        }
+    },
+    "bb_manf_rma": {
+        "Content-ID,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "0.59KB",
+            "md5": "7892c999dcda1c7ad2cf63bd7c9cdbe0",
+            "sha256": "97ade14ce3c4fe7ea98891c28345e0f1281d3295067669cf00bd6ac13309c94a"
+        },
+        "diag.rom,v": {
+            "modified": "2003-12-10 17:50:23",
+            "size": "0.17KB",
+            "md5": "92677dd1b46c0b8b66086c6399d81091",
+            "sha256": "d73ed8cc1c7a1312c0e813b2f5e88909fc8dc624e03978b69bcd5fd84136cfa3"
+        },
+        "diag.prop,v": {
+            "modified": "2003-12-10 17:50:23",
+            "size": "0.19KB",
+            "md5": "cc061bbce7160cdcd4e94014fa8f98e0",
+            "sha256": "1c2927edb5f7983b6035034d98152f7f58e9740b8a01aefd39073dc701505f14"
+        },
+        "Makefile,v": {
+            "modified": "2003-12-10 17:50:23",
+            "size": "0.71KB",
+            "md5": "910c36a288b0781a978d33e9557a4379",
+            "sha256": "ab26c93be89eba3586b819d03d67c406712babb7a7d1695460cf0e686b76e2f5"
+        },
+        "boot.rom,v": {
+            "modified": "2003-12-19 12:23:41",
+            "size": "245.16KB",
+            "md5": "3f65cfbd0baff1be5b3c5f37a82a7774",
+            "sha256": "259634e953a079e44827f03909b4426be3519a0d82d8423829a418cff1981b9d"
+        },
+        "SADesc.properties,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "3.11KB",
+            "md5": "fa8f6b2dbfbbb15e65ef035fdc0e4198",
+            "sha256": "cac5778816008ed5b08e3e3afad20d0b1ae431b409277e97628ebb1f01461ff9"
+        }
+    },
+    "bb_manf_sys": {
+        "Content-ID,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "0.44KB",
+            "md5": "dfcf20c0a1b39c8db90eb6a0badee297",
+            "sha256": "109716e9a4ea8e2a3e2ebddaced469fc17b0db8d79919219d8545a170102bd73"
+        },
+        "diag.rom,v": {
+            "modified": "2003-12-11 16:50:56",
+            "size": "4718.77KB",
+            "md5": "777471eacd119ef26a65b849f5c1d8ab",
+            "sha256": "65a67b352840bc88ec53a7686378c3cd6e52e3c830b9a48c8bdcf38c2c764c88"
+        },
+        "diag.prop,v": {
+            "modified": "2003-10-19 23:47:21",
+            "size": "0.24KB",
+            "md5": "3910bed75c15eae38a8aff14c777ec35",
+            "sha256": "93ee502274f19f996b963b2fb906fae5dbee6c1a3532a25b233a5c25b79626e1"
+        },
+        "Makefile,v": {
+            "modified": "2003-10-22 15:14:11",
+            "size": "1.4KB",
+            "md5": "3acf61743f4dec1dc8f2bc2df3dc65e1",
+            "sha256": "3c7af023919f9e7ab2c2b88796980b3178c0d94b0780083d53d11d7e743245e8"
+        },
+        "SADesc.properties,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "4.0KB",
+            "md5": "bf9015b1322f8c3c9f7661521f34d6dd",
+            "sha256": "b14e9f9a737e4f40a8b6f5e5018d9dadd690e5c3f15faec74844e0eba4257170"
+        }
+    },
+    "bb_manf_board": {
+        "Content-ID,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "0.64KB",
+            "md5": "39907b1fdcc5c72b9b2099c67d880238",
+            "sha256": "de3baf5169d725ee32bf89c0df03afef9756bd9f0ac7eadddb31cdf16b5a20dd"
+        },
+        "diag.rom,v": {
+            "modified": "2003-12-11 16:49:28",
+            "size": "5621.07KB",
+            "md5": "d5afec6e189c3ae0336863f439d8a664",
+            "sha256": "afabdf3e7220317381ebf890b45d93f8aca5c9a50d105fcbc330722d4b734758"
+        },
+        "diag.prop,v": {
+            "modified": "2003-10-22 15:14:09",
+            "size": "0.24KB",
+            "md5": "0acf67fdbec963e68554534938721b23",
+            "sha256": "c9db2ca448f999408bb970fc394db93fbd65be03e0e55e5fd30dfb9f046e44eb"
+        },
+        "Makefile,v": {
+            "modified": "2003-10-22 15:14:09",
+            "size": "0.77KB",
+            "md5": "79d3747086171ca10bd46149e3f64c4a",
+            "sha256": "f04f15eeccee93243ef6d3c8245639a2913e52576702fce3f085e405e1347aa5"
+        },
+        "SADesc.properties,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "3.19KB",
+            "md5": "5c62779ad171072cb0e02ba351e7490b",
+            "sha256": "ede635918907952f3ea6dafff37339f02759b53a6c464fb93023a0a0f0fb2855"
+        }
+    },
+    "SHARED": {
+        "sysapp.rom,v": {
+            "modified": "2004-06-18 17:03:48",
+            "size": "4717.84KB",
+            "md5": "e5f9ccdf8bf301d930d4853d14ec7592",
+            "sha256": "f14f0329cde4023b2583f5cc32376b76615d7ecc04830edea65f6d40d356b5a1"
+        },
+        "sysapp.prop,v": {
+            "modified": "2003-10-19 23:47:22",
+            "size": "0.24KB",
+            "md5": "64e183593d941fe955a3f3a05d0186fb",
+            "sha256": "cebbe77126bd2b7da29dc82b8a65df59aef4933fcc1265ae4ee7f199855465fd"
+        },
+        "boot.prop,v": {
+            "modified": "2003-10-19 23:47:21",
+            "size": "0.24KB",
+            "md5": "3910bed75c15eae38a8aff14c777ec35",
+            "sha256": "93ee502274f19f996b963b2fb906fae5dbee6c1a3532a25b233a5c25b79626e1"
+        },
+        "viewer.prop,v": {
+            "modified": "2004-05-27 15:29:41",
+            "size": "0.23KB",
+            "md5": "71ce1f130e37ceb33fdd87bf0b0fe344",
+            "sha256": "563e9a638c52928b132f59ae950d5f8a14133949544086442292b2b2351cedd6"
+        },
+        "loader.rom,v": {
+            "modified": "2005-09-14 17:33:48",
+            "size": "978.66KB",
+            "md5": "055b3866cb5004f82cdd7aca5a4e4df7",
+            "sha256": "ecb3fad2b601873f3070266ce38ec173eda83228c8d5c7cceef1ea2a4c5b2f70"
+        },
+        "boot.rom,v": {
+            "modified": "2003-12-19 12:23:18",
+            "size": "357.8KB",
+            "md5": "a8a9848cddde77b83bbc2ad599d20f9c",
+            "sha256": "a493ed8add3a57a78af023cd20ffd8ba58116bfc24ed776a7315ba4d7e011edf"
+        },
+        "virage2.in,v": {
+            "modified": "2003-10-19 23:47:22",
+            "size": "0.33KB",
+            "md5": "00ff29c8c2cf98fc07777716ccccc908",
+            "sha256": "bfb88c63025f9f297df0050266671c7b5b0f21dcb7077073fb9001f23b5ce28b"
+        },
+        "viewer.rom.gz,v": {
+            "modified": "2005-09-14 17:33:48",
+            "size": "6722.09KB",
+            "md5": "ebdbb44bd1ca2b2012aae73c66089b78",
+            "sha256": "425933dbed6da789168f3fbca80674fb5ba876420973368c07a7314bbd6fa337"
+        }
+    },
+    "SHARED/beta": {
+        "crl.sys,v": {
+            "modified": "2003-10-19 23:47:22",
+            "size": "0.88KB",
+            "md5": "c731b3c2bcd3c84778bbad420fb40060",
+            "sha256": "fb6615e86f09f44d3f40bd5db6393447c7272a90f655f53f0376bb0112988a1f"
+        },
+        "skernel.rom,v": {
+            "modified": "2003-10-21 13:54:36",
+            "size": "128.87KB",
+            "md5": "ac03b56df5b026c499eda4eb731b7885",
+            "sha256": "eaeca09c12d18a258d726a009ec3370258cd37db4a70306a4cfe4eefbb9830e0"
+        }
+    },
+    "SHARED/prod": {
+        "crl.sys,v": {
+            "modified": "2003-10-22 14:26:49",
+            "size": "0.84KB",
+            "md5": "eb74162547e96072253d3ef319a0b313",
+            "sha256": "8db920619050bf4679abc5d62fce3f506c775037828e1f7ff16cb01a4fe3847b"
+        },
+        "skernel.rom,v": {
+            "modified": "2003-10-21 13:55:23",
+            "size": "64.45KB",
+            "md5": "665594ed86adc7c151ddb5f6b2930e06",
+            "sha256": "6e5dcd2811d901193bd1f3f36b1f73ddd63ffe06f6602f55d81f1b9c9790c1e1"
+        }
+    },
+    "bb_manf_oqc": {
+        "Content-ID,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "0.64KB",
+            "md5": "6d7ac480b98f78466f5b1ff665197b1a",
+            "sha256": "2d9249ad56740c1ce003fb77a14afe3194868bcf1b664cbb5de66a78321a7a96"
+        },
+        "diag.rom,v": {
+            "modified": "2003-12-11 16:50:08",
+            "size": "4707.53KB",
+            "md5": "e3892b53f1bbdf817fdeece512f9ce9f",
+            "sha256": "7c0fc467fac142d3ef8de9e224e666825ca1ab30bb915b6ff575b7791abf1f59"
+        },
+        "diag.prop,v": {
+            "modified": "2003-10-22 15:14:10",
+            "size": "0.24KB",
+            "md5": "a411bfba56bab9299f581d9db749b001",
+            "sha256": "77df156d1724a5c8de1b1c9cef78a23692fd5adc69c812c7e6a4439457ca1f4e"
+        },
+        "Makefile,v": {
+            "modified": "2003-10-22 15:14:10",
+            "size": "0.77KB",
+            "md5": "f035b100fbdae760209061d9fc917b85",
+            "sha256": "bfee63db53e10150fe76a11949261ba902828835c24d64c3f44919dad840e6ec"
+        },
+        "SADesc.properties,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "3.19KB",
+            "md5": "9adffacfd83c10548f28cb2b32be6394",
+            "sha256": "d88bfe9c264682af68237b517cf81b173d92e7c09fa3e1657e9b440388c4576d"
+        }
+    },
+    "dummy_manf_sys": {
+        "Content-ID,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "0.6KB",
+            "md5": "bc364e2258745a444a322a18e52e3a82",
+            "sha256": "b90072553e6cea79ee5cdce9a5037a4fbc17deb3da39fc44522ea75d1d3c3a88"
+        },
+        "diag.rom,v": {
+            "modified": "2003-12-10 17:53:02",
+            "size": "3671.83KB",
+            "md5": "83a251bc5e4d4c85dce1a59a90a38e6a",
+            "sha256": "5d8c01e6a4f69f88d0cc5c25ac94cb8d2f971394401c4672f83752a6df72b59a"
+        },
+        "diag.prop,v": {
+            "modified": "2003-12-10 17:53:02",
+            "size": "0.2KB",
+            "md5": "7c18881147b46db643daf3673a3a3896",
+            "sha256": "bf7d8370cdb5e8fd9fb5d5e21132c37e0c64e198d30f34026d539159e6555cfa"
+        },
+        "Makefile,v": {
+            "modified": "2003-12-10 17:53:02",
+            "size": "0.72KB",
+            "md5": "2b5c62227d4ee1bc1d62819674778d25",
+            "sha256": "12702710c709281dc48361e19c557ce6f49642c7713f39edd3ae3fc7fb4f4807"
+        },
+        "SADesc.properties,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "3.14KB",
+            "md5": "1c94bcb2a6b593f234cc29c1470658b0",
+            "sha256": "f64bc6caa5ce1794b428caf733d1ad99f948ab2d36287b7e323ecb7bf65f7bab"
+        }
+    },
+    "breakout_manf_sys": {
+        "Content-ID,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "0.6KB",
+            "md5": "dc025cff06dda2eb58adf3b314b6aaa7",
+            "sha256": "f9637d7a8e7f665f7c2a7fdbb74aac33c9c371c618cafc37ff7e7911a3e5befa"
+        },
+        "diag.rom,v": {
+            "modified": "2003-12-10 17:54:28",
+            "size": "3671.83KB",
+            "md5": "d4d892d877c1f51c616cc32b384351a9",
+            "sha256": "6e9849a1b42c682bc2c7a1e5306064945b51f931d293fc1ca197a6d1134708e2"
+        },
+        "diag.prop,v": {
+            "modified": "2003-12-10 17:54:28",
+            "size": "0.2KB",
+            "md5": "dcf0375c39ef40acc6ecc2d884a919b5",
+            "sha256": "155b321eaed989aeb3be320fef7bcf17370af58a9be239c30830f4207b3f7871"
+        },
+        "Makefile,v": {
+            "modified": "2003-12-10 17:54:28",
+            "size": "0.72KB",
+            "md5": "7b29365d7063fcf7907a1a9a4135a844",
+            "sha256": "1c62373584cb60cc4b1dacbb9e27f97f9c836620452ed84946814a1b199d0090"
+        },
+        "SADesc.properties,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "3.15KB",
+            "md5": "8e3d9d73d6481fe10010dfc6468b762c",
+            "sha256": "ed538418f4ade0072e3dfa17e45d76b97976e92decfdef4c5cc2e8f6a22e1769"
+        }
+    },
+    "bb_manf_block": {
+        "Content-ID,v": {
+            "modified": "2004-04-23 13:10:43",
+            "size": "0.2KB",
+            "md5": "1de57c2291135487542b631e15ee26c6",
+            "sha256": "ef46b252a796988f05cb60ec724d0a97b1ffa55048cf7533ed00485fa97d4b2c"
+        },
+        "block.prop,v": {
+            "modified": "2004-04-23 13:10:43",
+            "size": "0.21KB",
+            "md5": "859491c2052496b8a7ff6886f1e91d30",
+            "sha256": "3987400cdf4ebf5f9db6aea1a871a515448b00abf648e0b4b429685585840281"
+        },
+        "diag.rom,v": {
+            "modified": "2004-04-23 13:11:13",
+            "size": "0.21KB",
+            "md5": "96256bfbcc9302866a5a2c33385e152a",
+            "sha256": "1f8d4e04be3be895773cf3514c8c34340a5b04930001840a9284d23934b79acc"
+        },
+        "block.rom,v": {
+            "modified": "2004-04-23 13:10:43",
+            "size": "94.86KB",
+            "md5": "60d2493a94b5efea47fb57e3ba29a17c",
+            "sha256": "1bdf154440370d16ad2bcf6368e5686385838025fe7bf056050a8812cc7a0112"
+        },
+        "diag.prop,v": {
+            "modified": "2004-04-23 13:11:13",
+            "size": "0.22KB",
+            "md5": "c095d75ec39b97569f1549f109b3b22d",
+            "sha256": "e762736b484a0cf03a5d9de4547b0ff0ea16dda104252c78708690a232c2ce35"
+        },
+        "Makefile,v": {
+            "modified": "2004-04-23 13:11:31",
+            "size": "0.73KB",
+            "md5": "f389c616dda2b68a76e55be71176866b",
+            "sha256": "ffad6046d856d014abd31838dfceb12c0e6b8cd251753d3e879b18c7674f5318"
+        },
+        "SADesc.properties,v": {
+            "modified": "2004-04-23 13:10:43",
+            "size": "2.04KB",
+            "md5": "4183170b678c0a210bcc69f01ccab705",
+            "sha256": "5d7ba9dbdf4b1c9fd6a3ecb467c5045f3ba376f1d3350559895dc7bf6ac88703"
+        }
+    },
+    "dpad_manf_sys": {
+        "Content-ID,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "0.65KB",
+            "md5": "7c90b7a33cef5e3a1373bacebfebac99",
+            "sha256": "0415a35dc422a1c901fa3fa5cb5f2690f0c7648be4074dfcb59e0f76d8a02141"
+        },
+        "diag.rom,v": {
+            "modified": "2003-12-10 17:51:25",
+            "size": "105.31KB",
+            "md5": "1927b1e3f92ce6aa6f4fb698ee7b73bb",
+            "sha256": "467c32c93f70f22987d87292a4be0038678e81700a25419cf0a38b40326b1fda"
+        },
+        "diag.prop,v": {
+            "modified": "2003-12-02 10:52:00",
+            "size": "0.25KB",
+            "md5": "c48a011e767affd5ba326dedf684c928",
+            "sha256": "97ab48578a0b534638b3de5f282978818b1e82adf125bfa4893871c05488d222"
+        },
+        "Makefile,v": {
+            "modified": "2003-12-02 10:52:00",
+            "size": "0.77KB",
+            "md5": "0465ecda39a4a49b8dccbcf25e8687de",
+            "sha256": "df3b7c27d51d57ff2a17b82a6a402e883c8951d12becd6182af011053ab1e082"
+        },
+        "SADesc.properties,v": {
+            "modified": "2003-12-23 11:06:11",
+            "size": "3.2KB",
+            "md5": "4ae703cd41ea5cc5f515a7b3870934e5",
+            "sha256": "8d60e3cbd6ac279784594a559b7ab0e7e2f6a4c4702f8a64bbdf1ff956db2814"
+        }
+    },
+    "bb_viewer_app": {
+        "Content-ID,v": {
+            "modified": "2005-09-14 17:33:48",
+            "size": "5.39KB",
+            "md5": "6173d54a1350a936c46021d6c95e6395",
+            "sha256": "6b4d40d39fa1202d14976f2488d268cdbdcafd17588052d58cbf1c31e19a5966"
+        },
+        "Makefile,v": {
+            "modified": "2003-12-12 16:00:31",
+            "size": "0.74KB",
+            "md5": "c3d328d339181261e84dec652491fdc7",
+            "sha256": "05093f331f831e3a97aed93bd0690abdaa851b7cd18ee86a3cd3fdb1ca5a0c80"
+        },
+        "SADesc.properties.old,v": {
+            "modified": "2004-08-16 11:02:45",
+            "size": "2.47KB",
+            "md5": "0eebf505c0d2dc4a44f663b60d972880",
+            "sha256": "635bd23533db2ae726579e7fb8f558973265ab4b7bd1df795dc946538cc2380f"
+        },
+        "SADesc.properties,v": {
+            "modified": "2005-09-14 17:33:48",
+            "size": "10.15KB",
+            "md5": "b4097ee68e697316069897fee843caae",
+            "sha256": "38dce9d60831a98495b3a094ba069c56f5415bd4c8eb12b57a64d381ed00b562"
+        }
+    }
+}

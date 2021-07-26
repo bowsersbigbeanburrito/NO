@@ -1,0 +1,212 @@
+games/
+├── Chinese/
+│   ├── AnimalForest/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── forest.desc,v
+│   │   ├── forest.prop,v
+│   │   └── Makefile,v
+│   ├── Club/
+│   │   ├── club.desc,v
+│   │   ├── club.prop,v
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   └── Makefile,v
+│   ├── CustomRobo1/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── cr1.desc,v
+│   │   ├── cr1.prop,v
+│   │   └── Makefile,v
+│   ├── DrMario/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── dm.desc,v
+│   │   ├── dm.prop,v
+│   │   ├── Makefile,v
+│   │   └── Manual/
+│   │       ├── Content-ID,v
+│   │       ├── ContentDesc.properties,v
+│   │       ├── dm_manual.desc,v
+│   │       ├── dm_manual.prop,v
+│   │       └── Makefile,v
+│   ├── ExciteBike/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── eb.desc,v
+│   │   ├── eb.prop,v
+│   │   ├── Makefile,v
+│   │   └── Manual/
+│   │       ├── Content-ID,v
+│   │       ├── ContentDesc.properties,v
+│   │       ├── eb_manual.desc,v
+│   │       ├── eb_manual.prop,v
+│   │       └── Makefile,v
+│   ├── FZeroX/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── f0x.desc,v
+│   │   ├── f0x.prop,v
+│   │   ├── Makefile,v
+│   │   └── Manual/
+│   │       ├── Content-ID,v
+│   │       ├── ContentDesc.properties,v
+│   │       ├── f0x_manual.desc,v
+│   │       ├── f0x_manual.prop,v
+│   │       └── Makefile,v
+│   ├── MajorasMask/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── Makefile,v
+│   │   ├── Manual/
+│   │   │   ├── Content-ID,v
+│   │   │   ├── ContentDesc.properties,v
+│   │   │   ├── Makefile,v
+│   │   │   ├── mm_manual.desc,v
+│   │   │   └── mm_manual.prop,v
+│   │   ├── zm.desc,v
+│   │   └── zm.prop,v
+│   ├── MarioKart/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── Makefile,v
+│   │   ├── Manual/
+│   │   │   ├── Content-ID,v
+│   │   │   ├── ContentDesc.properties,v
+│   │   │   ├── Makefile,v
+│   │   │   ├── mk_manual.desc,v
+│   │   │   └── mk_manual.prop,v
+│   │   ├── mk.desc,v
+│   │   └── mk.prop,v
+│   ├── PaperMario/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── Makefile,v
+│   │   ├── Manual/
+│   │   │   ├── Content-ID,v
+│   │   │   ├── ContentDesc.properties,v
+│   │   │   ├── Makefile,v
+│   │   │   ├── pm_manual.desc,v
+│   │   │   └── pm_manual.prop,v
+│   │   ├── pm.desc,v
+│   │   └── pm.prop,v
+│   ├── Shin/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── CVS/
+│   │   │   └── fileattr
+│   │   ├── Makefile,v
+│   │   ├── Manual/
+│   │   │   ├── Content-ID,v
+│   │   │   ├── ContentDesc.properties,v
+│   │   │   ├── Makefile,v
+│   │   │   ├── sin.desc,v
+│   │   │   └── sin.prop,v
+│   │   ├── shin.desc,v
+│   │   └── shin.prop,v
+│   ├── SmashBrother/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── Makefile,v
+│   │   ├── Manual/
+│   │   │   ├── Content-ID,v
+│   │   │   ├── ContentDesc.properties,v
+│   │   │   ├── Makefile,v
+│   │   │   ├── smb_manual.desc,v
+│   │   │   └── smb_manual.prop,v
+│   │   ├── smash.desc,v
+│   │   └── smash.prop,v
+│   ├── StarFox/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── Makefile,v
+│   │   ├── Manual/
+│   │   │   ├── Content-ID,v
+│   │   │   ├── ContentDesc.properties,v
+│   │   │   ├── Makefile,v
+│   │   │   ├── sf_manual.desc,v
+│   │   │   └── sf_manual.prop,v
+│   │   ├── sf.desc,v
+│   │   └── sf.prop,v
+│   ├── SuperMario/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── Makefile,v
+│   │   ├── Manual/
+│   │   │   ├── Content-ID,v
+│   │   │   ├── ContentDesc.properties,v
+│   │   │   ├── Makefile,v
+│   │   │   ├── sm_manual.desc,v
+│   │   │   └── sm_manual.prop,v
+│   │   ├── sm.desc,v
+│   │   └── sm.prop,v
+│   ├── WaveRace/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── Makefile,v
+│   │   ├── Manual/
+│   │   │   ├── Content-ID,v
+│   │   │   ├── ContentDesc.properties,v
+│   │   │   ├── Makefile,v
+│   │   │   ├── wr_manual.desc,v
+│   │   │   └── wr_manual.prop,v
+│   │   ├── wr.desc,v
+│   │   └── wr.prop,v
+│   ├── Yoshi/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   ├── Makefile,v
+│   │   ├── Manual/
+│   │   │   ├── Content-ID,v
+│   │   │   ├── ContentDesc.properties,v
+│   │   │   ├── Makefile,v
+│   │   │   ├── yoshi_manual.desc,v
+│   │   │   └── yoshi_manual.prop,v
+│   │   ├── yoshi.desc,v
+│   │   └── yoshi.prop,v
+│   └── Zelda/
+│       ├── Content-ID,v
+│       ├── ContentDesc.properties,v
+│       ├── Makefile,v
+│       ├── Manual/
+│       │   ├── Content-ID,v
+│       │   ├── ContentDesc.properties,v
+│       │   ├── Makefile,v
+│       │   ├── z_ocarina_manual.desc,v
+│       │   └── z_ocarina_manual.prop,v
+│       ├── z_ocarina.desc,v
+│       └── z_ocarina.prop,v
+├── ScreenSavers/
+│   ├── DrMario/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   └── Makefile,v
+│   ├── FZeroX/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   └── Makefile,v
+│   ├── MarioKart/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   └── Makefile,v
+│   ├── StarFox/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   └── Makefile,v
+│   ├── SuperMario/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   └── Makefile,v
+│   ├── WaveRace/
+│   │   ├── Content-ID,v
+│   │   ├── ContentDesc.properties,v
+│   │   └── Makefile,v
+│   └── Zelda/
+│       ├── Content-ID,v
+│       ├── ContentDesc.properties,v
+│       └── Makefile,v
+└── SHARED/
+    ├── CVS/
+    │   └── fileattr
+    ├── Makefile,v
+    └── virage2.in,v

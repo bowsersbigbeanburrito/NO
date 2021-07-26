@@ -1,0 +1,73 @@
+sksa/
+├── bb_manf_block/
+│   ├── block.prop,v
+│   ├── block.rom,v
+│   ├── Content-ID,v
+│   ├── diag.prop,v
+│   ├── diag.rom,v
+│   ├── Makefile,v
+│   └── SADesc.properties,v
+├── bb_manf_board/
+│   ├── Content-ID,v
+│   ├── diag.prop,v
+│   ├── diag.rom,v
+│   ├── Makefile,v
+│   └── SADesc.properties,v
+├── bb_manf_oqc/
+│   ├── Content-ID,v
+│   ├── diag.prop,v
+│   ├── diag.rom,v
+│   ├── Makefile,v
+│   └── SADesc.properties,v
+├── bb_manf_rma/
+│   ├── boot.rom,v
+│   ├── Content-ID,v
+│   ├── diag.prop,v
+│   ├── diag.rom,v
+│   ├── Makefile,v
+│   └── SADesc.properties,v
+├── bb_manf_sys/
+│   ├── Content-ID,v
+│   ├── diag.prop,v
+│   ├── diag.rom,v
+│   ├── Makefile,v
+│   └── SADesc.properties,v
+├── bb_viewer_app/
+│   ├── Content-ID,v
+│   ├── Makefile,v
+│   ├── SADesc.properties,v
+│   └── SADesc.properties.old,v
+├── breakout_manf_sys/
+│   ├── Content-ID,v
+│   ├── diag.prop,v
+│   ├── diag.rom,v
+│   ├── Makefile,v
+│   └── SADesc.properties,v
+├── dpad_manf_sys/
+│   ├── Content-ID,v
+│   ├── diag.prop,v
+│   ├── diag.rom,v
+│   ├── Makefile,v
+│   └── SADesc.properties,v
+├── dummy_manf_sys/
+│   ├── Content-ID,v
+│   ├── diag.prop,v
+│   ├── diag.rom,v
+│   ├── Makefile,v
+│   └── SADesc.properties,v
+├── README,v
+└── SHARED/
+    ├── beta/
+    │   ├── crl.sys,v
+    │   └── skernel.rom,v
+    ├── boot.prop,v
+    ├── boot.rom,v
+    ├── loader.rom,v
+    ├── prod/
+    │   ├── crl.sys,v
+    │   └── skernel.rom,v
+    ├── sysapp.prop,v
+    ├── sysapp.rom,v
+    ├── viewer.prop,v
+    ├── viewer.rom.gz,v
+    └── virage2.in,v

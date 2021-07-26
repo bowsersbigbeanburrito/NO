@@ -1,0 +1,880 @@
+{
+    ".": {
+        "vc.sln,v": {
+            "modified": "2006-06-21 13:03:58",
+            "size": "1.65KB",
+            "md5": "2c580ea7ddffd00f041fec7f0597d822",
+            "sha256": "f84145f0894a8d5c966abf4dde661219b7aeba719613050c4a7e0a41aadf6e5b"
+        }
+    },
+    "build/tests/ec": {
+        "makefile,v": {
+            "modified": "2006-08-12 20:51:42",
+            "size": "5.24KB",
+            "md5": "d050471e86bea2a1470e289ddc69b982",
+            "sha256": "a08777f8399e193842c0f57ec68169201dc58ef3184ff01373000f0ae34e9d8e"
+        }
+    },
+    "build/tests/ec/src": {
+        "ec_test_main.cpp,v": {
+            "modified": "2006-08-02 19:48:27",
+            "size": "0.83KB",
+            "md5": "5c2b7c83627b205f0d20d1235d7906ea",
+            "sha256": "2bc96726eb47167a404db667eb1a114a1f9b4790b83ab6927464fdd51d0516c4"
+        },
+        "ec_test_resp.h,v": {
+            "modified": "2006-08-02 19:48:27",
+            "size": "0.44KB",
+            "md5": "202bb65bee080f6a7ee7f1add046cc55",
+            "sha256": "7c5af5c01385d6f88e60cf135e8c0f3205fbce907cb42de15e55ca869ea76ee3"
+        },
+        "ec_test.cpp,v": {
+            "modified": "2006-08-24 14:15:39",
+            "size": "19.13KB",
+            "md5": "e56d22e608dc0bb2d0f0aece4c82540c",
+            "sha256": "0ebec3fb70ff9ae16a0f3c9726e022aa95a8ce229a3229f8af2ab4a9d94b8e17"
+        },
+        "ec_test_resp.cpp,v": {
+            "modified": "2006-08-21 13:19:51",
+            "size": "16.26KB",
+            "md5": "1cc346820c0d387ecc93ce27daeb2ac7",
+            "sha256": "bbb432f6299f2f720833b359f306330b0fba0aa539f89235994ee846b06919d0"
+        },
+        "ec_test.h,v": {
+            "modified": "2006-08-21 13:19:51",
+            "size": "2.11KB",
+            "md5": "5d4190b2a953a5b9dda151b5dcfa90b0",
+            "sha256": "057fb0a738e19ad42230dbab50271420307349c629b7fe610144063a4393fda8"
+        }
+    },
+    "build/libraries/ec": {
+        "makefile,v": {
+            "modified": "2006-08-23 20:03:24",
+            "size": "4.68KB",
+            "md5": "7029f21510b1611b9d7d666dd160085c",
+            "sha256": "ea8bbbe87826be400a0e281a78e1ae4cc25ceb770cd6680d96e9c37bf14b0638"
+        }
+    },
+    "build/libraries/ec/include": {
+        "ec.h,v": {
+            "modified": "2006-08-24 14:11:29",
+            "size": "37.03KB",
+            "md5": "5f06109f23fa9e4a2eacd4e607e12269",
+            "sha256": "06c12cb1bbae53745bb3e40b60a210dcbed35728d02777223b03dc33b05ec1ea"
+        }
+    },
+    "build/libraries/ec/src": {
+        "ec_trace.h,v": {
+            "modified": "2006-08-21 13:00:06",
+            "size": "6.59KB",
+            "md5": "4026ede0c16f18a3bfeffcb0a64a47aa",
+            "sha256": "fbddd75b1de0250ad6315c53b61e9bc405da7af8a99fb80f986c9ed85a4525e9"
+        },
+        "ec_string.h,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "2.23KB",
+            "md5": "3c389246534c85a5c7ddcbe11ca683b5",
+            "sha256": "ee632b0971cae224643b19f0fab662acd9f3dc370323233af3ede1197ef3e4ad"
+        },
+        "ec_misc.cpp,v": {
+            "modified": "2006-08-23 20:09:28",
+            "size": "4.34KB",
+            "md5": "fb37a0d42f6bd6967cc6461eb139801c",
+            "sha256": "a167275afe5d324f9d500297ae4a2ecf712918a2b1b2a50f63f9652d1ce1f861"
+        },
+        "ec_md5c.c,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "10.4KB",
+            "md5": "561473f9b22afbdd6ba93d68faaf769e",
+            "sha256": "97c070e88efa4f641b96c319eb28d10fc4faa4e5d51c0d9da780544f5f0a458f"
+        },
+        "ec_md5c.h,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "1.67KB",
+            "md5": "7697b1d9bba70ce48d41ea7b1bad8f7c",
+            "sha256": "2d6595b2dd1d8216a6ee418d81b399f6737025ff96f016f8c96439e69e47d901"
+        },
+        "ec_registerVC.h,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "1.53KB",
+            "md5": "bbe899b16c042dbb6e723ecd2e4fc26e",
+            "sha256": "bdced729d7c1f8ecb4fcdd763f4c2d465bc303e53fb61c15ca99b047a6e48e88"
+        },
+        "ec_base64.h,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "1.56KB",
+            "md5": "34c09c93805cc3e30509ebf8fdbad9b8",
+            "sha256": "89fe63c5445c1d7d5efa24a63cd0aeed603e6b9b5a9a9f6175302465f856870a"
+        },
+        "ec_syncTickets.h,v": {
+            "modified": "2006-08-23 20:09:28",
+            "size": "3.57KB",
+            "md5": "7ac792ec19c0cf531e4677d0a97c68a3",
+            "sha256": "4acb3d227b42fd537173c58bb46884146dfc9b1bc0eeeaca226ad6d897313cf6"
+        },
+        "ec_ticketedPurchase.h,v": {
+            "modified": "2006-08-25 14:43:14",
+            "size": "4.66KB",
+            "md5": "2f373eaf42ee853133ec8b1c5453f600",
+            "sha256": "28634bc5d66a64014fd430ee6fe18a249e621686d9d114414c0778b9cacf071d"
+        },
+        "ec_asyncOp.h,v": {
+            "modified": "2006-08-23 20:09:28",
+            "size": "11.69KB",
+            "md5": "a013ba6d45cb86a71c2467948ea75275",
+            "sha256": "d240fefe15298bd316d2c66e50ccb6f6aa833e426ea853a4bdd2f89aaf745e02"
+        },
+        "ec_redeemECard.h,v": {
+            "modified": "2006-08-23 20:09:28",
+            "size": "4.21KB",
+            "md5": "81793a18f4b5f73c59621c9d03bfa56b",
+            "sha256": "7b7b434d095b28111780ca3f2b4e595f5f818be596a2aa7eabb7ddfb860863e0"
+        },
+        "ec_asyncOp.cpp,v": {
+            "modified": "2006-08-25 14:43:20",
+            "size": "37.43KB",
+            "md5": "68cff3ff0d8a9709b700b38f64fbc29d",
+            "sha256": "854476925a5d7441183ac4c47e286071ccf6034f431b6f6ec81884fb7cd29911"
+        },
+        "ec_registerVC.cpp,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "3.39KB",
+            "md5": "fb9b163a20e396dce97e2df5b24386ce",
+            "sha256": "38949f6e74c5a4fcefe2cc9e9776e8297977f63c45941071ccc923cab19d4b67"
+        },
+        "ec_md5_global.h,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "0.99KB",
+            "md5": "d7ae756f22f411fb8631c9f33f77b337",
+            "sha256": "2d47095707da4620903777717ac211aa13ce890a6cf5ec144858bd2df2940e29"
+        },
+        "ec_content.h,v": {
+            "modified": "2006-08-25 14:43:20",
+            "size": "27.74KB",
+            "md5": "0b4cb33f964ecea9090a738878543776",
+            "sha256": "16963caa7bcdb3cd7d393386c62207ae820554a7c377b70e21e35f6972d82c5f"
+        },
+        "ec_http.cpp,v": {
+            "modified": "2006-08-25 09:24:29",
+            "size": "42.04KB",
+            "md5": "b4ccba7687dc7364bfb744a1fbce0db6",
+            "sha256": "9c43f81c3c0bf1fa8f46740f4f2918a832fd64a49a69a6fdbd1f4c26c04f3ee8"
+        },
+        "ec_getPoints.h,v": {
+            "modified": "2006-08-07 14:43:27",
+            "size": "2.41KB",
+            "md5": "c050e1bc4317bedd7db020bc39c9df53",
+            "sha256": "ecb591b5f166bc86951e3213c588057943e0302898f53bbff40226b6bf40b28c"
+        },
+        "ec_common.h,v": {
+            "modified": "2006-08-24 14:12:34",
+            "size": "4.06KB",
+            "md5": "45a938f99c761f93f90de1377bcf94e7",
+            "sha256": "3cd19d4f15d78fcf91f30919374a79c0a2b4fe4837089b1febe2ff2d4d4bafbe"
+        },
+        "ec_md5.cpp,v": {
+            "modified": "2006-08-24 12:01:20",
+            "size": "2.31KB",
+            "md5": "9b4f1fa2c4b790d47dc67e7680997eb4",
+            "sha256": "4332121ca5b293a44eb39a8567179844ad7ea912b6dc8a54ea0c3897c8cc8567"
+        },
+        "ec_stl.h,v": {
+            "modified": "2006-08-21 13:00:06",
+            "size": "1.73KB",
+            "md5": "90c200f35c02b5c3f2c9c54f7178f3dc",
+            "sha256": "5c83508a367b299e694ee889aec6de091313fd1ebbbeb67b463c9f5ec22142fc"
+        },
+        "ec_getTitle.h,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "1.67KB",
+            "md5": "729ecffbaecc0ea8ddb7fd1faba28576",
+            "sha256": "d9667c7f0f67198df57de6eb849d0bdb60944442f2037c7b5abe07b274939d31"
+        },
+        "ec_comm.h,v": {
+            "modified": "2006-08-25 09:24:29",
+            "size": "5.28KB",
+            "md5": "d20e82e368ae69354d00c225714a9238",
+            "sha256": "da382dd1baa0ede73090f72e9a1a8ea39b31fdd7c5ebfc94c70f8fc9daf5e0ef"
+        },
+        "ec_redeemECard.cpp,v": {
+            "modified": "2006-08-23 20:09:28",
+            "size": "15.05KB",
+            "md5": "51351a5f019a499d80e254839f81a807",
+            "sha256": "8111f6ef7bc20ada2359268416724f8eabdc0b71500fc07ac77aba4c74935d69"
+        },
+        "ec_getTitle.cpp,v": {
+            "modified": "2006-08-21 13:00:06",
+            "size": "4.64KB",
+            "md5": "f4300862874e833d95d094e306aef4c3",
+            "sha256": "89a020c0094381b60b70c13c61718726bc8de4cd1b3a2b343016f356dc9f13b1"
+        },
+        "ec_js.cpp,v": {
+            "modified": "2006-08-25 09:24:29",
+            "size": "118.15KB",
+            "md5": "5b81aa7b906fccbce078b7e9b2ea0f98",
+            "sha256": "23fdc81bf5567de82a54fd92880f6a4b8ab114c1c12af96a6b1e5baeba55ce8e"
+        },
+        "ec_getPoints.cpp,v": {
+            "modified": "2006-08-21 13:00:06",
+            "size": "11.4KB",
+            "md5": "c643c9e61663cf63550d959ef0816af6",
+            "sha256": "2029a624b5859c48aff0175344f0e489e1751b463695cc47a214447f7f5e5baf"
+        },
+        "ec_api.cpp,v": {
+            "modified": "2006-08-25 09:24:29",
+            "size": "38.13KB",
+            "md5": "0d85dc92742e8216dd18723826be77bb",
+            "sha256": "c18ce98870d097791badc5b825ce096a89cb29ed776fd2a48931908f81827998"
+        },
+        "ec_getUpApps.h,v": {
+            "modified": "2006-08-07 14:43:27",
+            "size": "2.4KB",
+            "md5": "6feda0c53163224b7ebd6d2820715f82",
+            "sha256": "8e6ae8af3eb4a7a0f43fbf90b2c83af4fd8666d3537d1dfa7f9b63ec96ed0dac"
+        },
+        "ec_getUpApps.cpp,v": {
+            "modified": "2006-08-21 13:00:06",
+            "size": "14.36KB",
+            "md5": "13cd6513ebb6fff1249eb93a63dec1e3",
+            "sha256": "2f2714b475b1474d04084578c47205e7d0cff9d0dee269d99dc0a4fa70d7863b"
+        },
+        "ec_config.h,v": {
+            "modified": "2006-08-25 14:43:44",
+            "size": "5.4KB",
+            "md5": "dd87312fa7b7f2dd4b8d181897835f9d",
+            "sha256": "87c0f333618f98a96ab15bc8325ffaacb3b009f08adb8350200ed3d298966ca1"
+        },
+        "ec_md5.h,v": {
+            "modified": "2006-08-24 12:01:20",
+            "size": "2.92KB",
+            "md5": "5f7d0c5afb7078c953879177ac0f795a",
+            "sha256": "86f852cd57f7ce9e272d6f84073b98d2fc3b7435ffbd4a5aa1a61dd63240396f"
+        },
+        "ec_buyPoints.h,v": {
+            "modified": "2006-08-23 20:09:28",
+            "size": "4.21KB",
+            "md5": "0ef7d15d487c472b642887916f37b30b",
+            "sha256": "fb9479f00e2c260bd2fca633fb4c2ff9242165c0188d891ebf08c45084a35f51"
+        },
+        "ec_http.h,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "3.28KB",
+            "md5": "86afd047bfa653d63c22dfddc8b69e6d",
+            "sha256": "0d6e95f5e73184c01c3651405bbe8d34be61d26c734e56d22c359cd3a774b152"
+        },
+        "ec_string.cpp,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "3.89KB",
+            "md5": "dc265c4f2323003f02f7746980d50d5a",
+            "sha256": "c95a747004064cc14748aff8426dc12e2d8917a4168fdbb181896602c0e581ca"
+        },
+        "ec_syncTickets.cpp,v": {
+            "modified": "2006-08-25 09:24:29",
+            "size": "22.62KB",
+            "md5": "82b03a5b89eb8d3da8e512d5994a7c0f",
+            "sha256": "49d22e7cefe7e64cc8afa7f3c4a5525bfe6d8df5b4a9332b05c50323921c0cf5"
+        },
+        "ec_soap.cpp,v": {
+            "modified": "2006-08-25 09:24:29",
+            "size": "22.87KB",
+            "md5": "32b0b8b34263a75ed5ad80f623b3f0b7",
+            "sha256": "f21c35bd4d0fc05d843de0ac743913a798e6df6de2b153ed1fdbf1148bedacba"
+        },
+        "ec_js.h,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "0.77KB",
+            "md5": "b7bddea19535863f39606311cd4063d1",
+            "sha256": "c7f4f051e7328fb70d21c4025ff24e002f39f9c2f18fcdd19d4134492c1a0188"
+        },
+        "ec_purchaseTitle.cpp,v": {
+            "modified": "2006-08-24 14:12:34",
+            "size": "25.5KB",
+            "md5": "d5b9b3d8d55e8b53d07e800247d47af5",
+            "sha256": "c05dc1f9adbdc41c6784905dc04a2d058860007cfaac060ee0ea6e77b9309ecf"
+        },
+        "ec_content.cpp,v": {
+            "modified": "2006-08-25 14:43:31",
+            "size": "27.46KB",
+            "md5": "44ea76aa4a48358001021251beb203ac",
+            "sha256": "33b0a5bbd809468ebc8f50c1b3a4e1dc30fb133f68511579ecc779e81a257723"
+        },
+        "ec_purchaseTitle.h,v": {
+            "modified": "2006-08-23 20:09:28",
+            "size": "4.84KB",
+            "md5": "3902c25f73c76b1594fd4b6af6ffabb2",
+            "sha256": "993e672e07ce094ba71a0c814d76fe9979282f4397df7cbfe6a5853823d82f1b"
+        },
+        "ec_base64.cpp,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "8.14KB",
+            "md5": "9ca7bdd2476bd61b803ee46e20a97c3a",
+            "sha256": "8590f66b510324bb372f00f384070314985c90d430503de0de64d209d91aa0e9"
+        },
+        "ec_buyPoints.cpp,v": {
+            "modified": "2006-08-24 14:12:34",
+            "size": "15.76KB",
+            "md5": "84c4154d00bab687fc571fd7ca9e1b35",
+            "sha256": "6891e5e0b3430e4296cfaec14b68ff943ac608d1cbf7efd954abb1a4e9db97a2"
+        },
+        "ec_porting.h,v": {
+            "modified": "2006-08-02 19:46:18",
+            "size": "1.98KB",
+            "md5": "7749ce5546f2e332998ca4143f24ccfb",
+            "sha256": "3f75a5fdaa02cbbd2c94cee2c7c84d3184d0d154491c7a5de188cda74eb07a6e"
+        },
+        "ec_soap.h,v": {
+            "modified": "2006-08-24 12:01:46",
+            "size": "7.89KB",
+            "md5": "01161bba39a832114e0a57d2938a96fc",
+            "sha256": "518f88eb1f959f86eb86c1fcbdae619c695486bd874dd95e788379cb3f4fe2f0"
+        },
+        "ec_file.cpp,v": {
+            "modified": "2006-08-25 09:24:29",
+            "size": "11.27KB",
+            "md5": "056a8287a11e551ea494629e137ecfae",
+            "sha256": "65d60019513146dc651d77bd49ac26a53232f91129802e29360af0ceb5d96c83"
+        },
+        "ec_deleteTicket.cpp,v": {
+            "modified": "2006-08-25 09:24:29",
+            "size": "5.15KB",
+            "md5": "0b95fbeaaa7ba6ae90a3a9f0413e820e",
+            "sha256": "139d064303e0cf82fd24c86e78404e6cd6bfe040ec3e973c764e6e4b1e57eb63"
+        },
+        "ec_file.h,v": {
+            "modified": "2006-08-12 20:44:43",
+            "size": "5.64KB",
+            "md5": "9776c8d59097f1f03ab3dc3ed39b4fc5",
+            "sha256": "16303c75d9195128d0049220be7c5898546d1eba4b855507aab13278c70b564e"
+        },
+        "ssl_socket.h,v": {
+            "modified": "2006-08-25 09:24:29",
+            "size": "4.54KB",
+            "md5": "0395137eed9f14346bd2050c0b0db81b",
+            "sha256": "a0df2d53105b35c883f5c6c3544b22bffea70b0d53ee58a1b6da2c8e019c357c"
+        },
+        "ssl_socket.cpp,v": {
+            "modified": "2006-08-25 09:24:29",
+            "size": "3.87KB",
+            "md5": "3d8cbbff3e9ed03d14274a53ba5823c9",
+            "sha256": "a7fc06ebe7b2eba8158ced300f4127d047f4b8b0e5b409cfaf4ed53de1f98f7e"
+        }
+    },
+    "build/libraries/ec/src/Attic": {
+        "ec_stl_win32.h,v": {
+            "modified": "2006-08-21 12:41:54",
+            "size": "1.92KB",
+            "md5": "cbcd73db95fa64b3e862787dff02c062",
+            "sha256": "a95bf431c79050887b5de46dcc28962563c17e5885b4325094009b6fab57f29e"
+        },
+        "ec_msglog.h,v": {
+            "modified": "2006-08-21 12:42:23",
+            "size": "2.42KB",
+            "md5": "d1118035ac96185aa0f4fb23f2509a51",
+            "sha256": "a359d74ecdcc79ed6b8b570f8e895030d12bf65ec84276b9224dc3774b70f755"
+        },
+        "ec_stl_linux.h,v": {
+            "modified": "2006-08-21 12:41:54",
+            "size": "1.51KB",
+            "md5": "a45d0932e785e2e17c3e28f6498abfd6",
+            "sha256": "65f0f33f9d8cf2e4701bfb3172807d13b07a31bc13898c6c583b98de77d88c5c"
+        }
+    },
+    "test": {
+        "test.vcproj,v": {
+            "modified": "2006-06-21 13:03:58",
+            "size": "4.61KB",
+            "md5": "afe6c05eb4912e61d32fdf966b497718",
+            "sha256": "86dc493a2364fedd515fb2157fcae4d5b32fb0fa094a1acc812c88aa3c943dde"
+        }
+    },
+    "ec": {
+        "ec_stl_win32.h,v": {
+            "modified": "2006-08-21 12:29:50",
+            "size": "2.09KB",
+            "md5": "3e9d78b2a373273b4891d32add720c51",
+            "sha256": "963541f24be59e09e5a67a7edc0a53fe534a8c3ea7a99ba2954bde1fcc11a9bc"
+        },
+        "ec_ext_md5.cpp,v": {
+            "modified": "2006-06-29 08:27:51",
+            "size": "1.48KB",
+            "md5": "59e5705210cef661ae6a9c32aee23f53",
+            "sha256": "599cc3ca5a183268dc87794357edbcc4b4a2907a76cf6b8d85beaa09c892085c"
+        },
+        "ec_trace_win32.h,v": {
+            "modified": "2006-08-21 12:29:50",
+            "size": "2.93KB",
+            "md5": "a2673c503180649a193a3e6f9a82575b",
+            "sha256": "19244ce6531f5b12d872fde2a24256a15b8bcf74c15a650ec77037eb2019e466"
+        },
+        "ec_config_win32.h,v": {
+            "modified": "2006-08-21 12:29:50",
+            "size": "1.38KB",
+            "md5": "b0dc1c722955c093a89b937e315b56ea",
+            "sha256": "7c1295a5e9b08362b21433823a6e7ab984926270264cd7c82b708ef077943a88"
+        },
+        "ec_ext_file.h,v": {
+            "modified": "2006-06-29 08:27:51",
+            "size": "1.99KB",
+            "md5": "76ec0406f3b0ae1c090881fd3e946117",
+            "sha256": "378f8b089a690ba0484a8c7171366040441db1aba6d4ffe94ba84748c66c344c"
+        },
+        "ec_porting_other_plat.h,v": {
+            "modified": "2006-08-26 10:31:13",
+            "size": "7.79KB",
+            "md5": "d169f936e16953633b26a6f49e1c0597",
+            "sha256": "7a0188128e4f6ee3763ce7b4968232c6f4ea1c11e6d0fa131aa338c2dd4a5392"
+        },
+        "rsyncfiles_ec_lib,v": {
+            "modified": "2006-08-26 11:08:29",
+            "size": "1.33KB",
+            "md5": "f2b60f07a5650f1ef165bdb73b3f66e1",
+            "sha256": "ed79e480ed5daf32de83dd526436f7d10ba36de45ab60e77a672648b4dc1acb9"
+        },
+        "rsyncfiles_ec_lib_flat,v": {
+            "modified": "2006-08-26 11:08:29",
+            "size": "1.11KB",
+            "md5": "6bc3d9372c0350d98dd0e03a3255320c",
+            "sha256": "848babd02fe04d68372856bf352b1baf891b473ff1e6b198ce9654045aac8427"
+        },
+        "ec_ext_file.cpp,v": {
+            "modified": "2006-08-26 10:29:18",
+            "size": "5.07KB",
+            "md5": "0b8b44efce769b8f0e96d1805d657041",
+            "sha256": "3a37f1a5071c4c4ba2537158a4cd4a80fdfd6de619dfb41eb0d86fb08ea18bc4"
+        },
+        "rsyncfiles_ec_test_flat,v": {
+            "modified": "2006-08-07 15:54:13",
+            "size": "0.29KB",
+            "md5": "8f08b92b9fd9d199e32fb92005afb365",
+            "sha256": "5bc4f74815c46ebd5793ea84db9dcc28eddd8d9677d13f9e8a95112a49988b2c"
+        },
+        "ec_stl_linux.h,v": {
+            "modified": "2006-08-21 12:29:50",
+            "size": "1.64KB",
+            "md5": "283c87f0b709dfeca692d260bf688b74",
+            "sha256": "f4f129bf3a0857779a2368b180a8be70513bcf828f90ef7dc38f628546c2ff47"
+        },
+        "Makefile,v": {
+            "modified": "2006-08-26 10:27:11",
+            "size": "4.45KB",
+            "md5": "bbe5c99b73309147913fc78d9a37ddd1",
+            "sha256": "b70fdbd6a0f58a698551c0eb31b0e4af9542e17e56013917b7b07bb411867e27"
+        },
+        "ec.vcproj,v": {
+            "modified": "2006-08-26 11:06:44",
+            "size": "11.96KB",
+            "md5": "8820f6f79ce870308cc78e32c10c2058",
+            "sha256": "212fa389a4a0fc6c006b92c69cc490acd93b79525914b84b0a28b07d91b306a5"
+        }
+    },
+    "ec/Attic": {
+        "ec_trace.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "4.29KB",
+            "md5": "5467ba72481acde3e1df59d096a500b6",
+            "sha256": "b196d13195b7f4d9fb62acc25ba43a96c6aca5c1c93045c6e6433933008a240a"
+        },
+        "ec_string.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "2.83KB",
+            "md5": "9005782df13831dc939f41ee4a237c23",
+            "sha256": "8f72414ca0e92c5463dd923ca666ea2e0227db11e44c94722e83caa6e9a64078"
+        },
+        "ec_getMeta.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "10.47KB",
+            "md5": "7140cd08a95cb419b681cdb535faee41",
+            "sha256": "9c977b09d5bf911dfcbb1d298533f9f53e3891c6acf0e319a8e4c2b4b75d93ac"
+        },
+        "ec_misc.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "10.5KB",
+            "md5": "4971182f82dda044408435ad6c5c763f",
+            "sha256": "bdc6904cb22685dba6fbb84f6a711b9151928e142d0fd123d2992b158d4b5e09"
+        },
+        "ec_md5c.c,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "10.54KB",
+            "md5": "ff790a21b0d2a1587f172edf57745908",
+            "sha256": "54408f2a571f1cbc6dab4295adb864e0a8e047585b64dc5af70fbff01fbc36a8"
+        },
+        "ec_md5c.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "1.81KB",
+            "md5": "779b716fdd80a54157bf9bdfca605508",
+            "sha256": "042ce9c52e72147bf9e7f5efec2f619b9dbf138d74ab244830f1fd2ee278e1e7"
+        },
+        "ec_registerVC.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "2.42KB",
+            "md5": "ed7c17f0162740dee614d52e4ad79d89",
+            "sha256": "28ff8c9bd469b6dbb7ab2d7f6e6bd3eb78e10dfa606c6bda9a4ac1761bfe0ab7"
+        },
+        "ec_base64.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "1.71KB",
+            "md5": "be884168dc81eca69bc6c52a5b548884",
+            "sha256": "1b506512d6415d885d94bed46276a3c01b31f07aa420ae221f8b36174573f633"
+        },
+        "ec_syncTickets.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "2.1KB",
+            "md5": "6b0761b74f9e3bef046a21bb0b25df7e",
+            "sha256": "e168cf2eb6974c799bfbaef8185811f3fbae02364150a2780617241dbeb18d34"
+        },
+        "ec_asyncOp.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "10.72KB",
+            "md5": "08f3c95aade5a4901c0ce93d988f8026",
+            "sha256": "f1f294757e0b2b8803e281809028ecfd6f995c263790983b45f9444dc1bcacc6"
+        },
+        "ec_redeemECard.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "2.4KB",
+            "md5": "1402e7028d801c906307cc5f9d8e8997",
+            "sha256": "150c6218d73cfd98153545974348507b3652d5f234c543c77e8686fe4ed20ec7"
+        },
+        "ssl_wrapper_core.c,v": {
+            "modified": "2006-07-01 18:25:22",
+            "size": "9.29KB",
+            "md5": "b5e706ccfcd5d874cb468eab37884d6d",
+            "sha256": "6d7908dc4d3fa9e001859c936726dfffde3a28cf282ad7a01511107a79b07894"
+        },
+        "ec_asyncOp.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "23.41KB",
+            "md5": "01f5bc4f322e137491b568e317c5463a",
+            "sha256": "f3f920579ca5f6ece13b836ad3ac69a31a909581002058e2f87c39a900dd695c"
+        },
+        "ec_registerVC.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "4.22KB",
+            "md5": "fcf04291e8698d63181d896ba27d37bb",
+            "sha256": "06b810a38490695ca05075554498f533a8defd3a5ddacf2333f8c991a5120ee7"
+        },
+        "ec_md5_global.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "1.13KB",
+            "md5": "c2e4bfb58eec59a679ff5c9beb668b7d",
+            "sha256": "642a8f0d06332e96d69339bd952fd92a848efdee6abc1b2dedcd07ae9d2a24b6"
+        },
+        "ec_content.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "32.91KB",
+            "md5": "b692213cb1ef67797ad6b762e07244ed",
+            "sha256": "744749e5a1789d826b277a6a9014dad7a2599571c14138b700e2e761e863efa0"
+        },
+        "ec_http.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "41.71KB",
+            "md5": "d096f6799d85067afdbf6ba3f2331d24",
+            "sha256": "e3ba1ee68679f7b82a70ee20f501445c6c327c07acea636bc8a5b7dbbb60569a"
+        },
+        "ec_common.cpp,v": {
+            "modified": "2006-06-21 12:44:11",
+            "size": "7.76KB",
+            "md5": "a1c980814585526307fa8c6f5c34f39f",
+            "sha256": "52cd26bffb5f0d30cef05a150b3145a2d8066fa61e47cb651162b617f760eef4"
+        },
+        "ec_test_main.cpp,v": {
+            "modified": "2006-08-07 15:43:43",
+            "size": "1.14KB",
+            "md5": "f3a1b33ad573df13173da0947ada9a0f",
+            "sha256": "458eff2168fbe599917972dc7832df85f2b86d8a696e3466a03deb8c07497afb"
+        },
+        "ec_msglog.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "2.43KB",
+            "md5": "342a1dc0f37c54d2e1f1c06738947846",
+            "sha256": "3030983e5fc6e023026cd5c459177ae2c12fdb59b60d7016de416267b3eb9110"
+        },
+        "ec_getPoints.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "2.0KB",
+            "md5": "db1de186ea2fd2ff55d9958d5d8975d0",
+            "sha256": "74c61d867ca743bdde928bba8c8d8e2628d12ca6872bb246acb5334c9f491ddd"
+        },
+        "ec_common.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "2.08KB",
+            "md5": "0f3257fc1b871096033256f4f2f72d5e",
+            "sha256": "1709fa53f94dc5c0f8dd4bfe5463f5f8d2e56692b9fa78c97aa536e3a7518e28"
+        },
+        "ec_md5.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "3.36KB",
+            "md5": "3a2c229cf9e407332a23a9fd3f1f620a",
+            "sha256": "ebc4f6a1feafd5b1f5f0e013133689f6d28341b86da7158a728e93ee973ba979"
+        },
+        "ec_stl.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "2.1KB",
+            "md5": "9f3110876312c6d395a781a8be88ebf6",
+            "sha256": "f103fafd85e0424e0de0825897806ba0d932758b541d3bb5f261579f8387be95"
+        },
+        "ec_getTitle.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "3.28KB",
+            "md5": "9e3adfa68493023c430a8153265cfc65",
+            "sha256": "e087ce30057b96f09cc413a5d2248f66f5e3b15bb29a356bf4acc0c6560d7370"
+        },
+        "ec_comm.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "5.08KB",
+            "md5": "690906527953b2851e54de4767954564",
+            "sha256": "a176b8d9b7ec9a5224ab7f881406d7aa9d636f755d524ee03e01249725e791f8"
+        },
+        "ec.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "35.22KB",
+            "md5": "a4bee563cf50f5b2492d9e4b365699af",
+            "sha256": "b9e98d6c811eb1ddd16a86e9fce2e36ce2cb818a0fd1a4e69bea8ab52f3b4fd6"
+        },
+        "ec_redeemECard.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "13.04KB",
+            "md5": "588b7f020c2714bcb01def5127bd0bb0",
+            "sha256": "93acd18c981daafb049711631449cc468d9221ed7103e14d749518885ec481c0"
+        },
+        "http.h,v": {
+            "modified": "2006-06-21 12:44:11",
+            "size": "2.31KB",
+            "md5": "4c3ddeeeb853d4fe85fceb3d45266cd7",
+            "sha256": "1c5526ded976d3f105f2f2dedcf282fc44ab8024d8e51e59137f491008afa200"
+        },
+        "ec_comm.cpp,v": {
+            "modified": "2006-07-01 18:25:22",
+            "size": "4.29KB",
+            "md5": "4290cdd2eefafd6978f39657f5176ac8",
+            "sha256": "9a6a1597edc88a64227ce78dd6f9859ae6a7a081896f2806e9f9383071705a42"
+        },
+        "ec_test_resp.h,v": {
+            "modified": "2006-08-07 15:43:43",
+            "size": "0.84KB",
+            "md5": "577f4ca29f4820028d1ac64e2b38bf1e",
+            "sha256": "0927cc65fb1bdc1d578558f0dbc52cc51772a5a019d5296c2fae3d8af114e049"
+        },
+        "md5c.c,v": {
+            "modified": "2006-06-21 12:44:11",
+            "size": "10.52KB",
+            "md5": "43bd3b89b963f68a0e497c6eea0fd758",
+            "sha256": "72f4dd4c5cb55a1b8b977e20681a66ad4bb462c56e12258012f09755532757f0"
+        },
+        "ec_test.cpp,v": {
+            "modified": "2006-08-07 15:43:43",
+            "size": "28.25KB",
+            "md5": "aac9a93677fdb0e8abf714b843daa8b8",
+            "sha256": "53900317d2b8b118d8dd05f48f6348a41dd63cb9898e4dae9d920c5229701048"
+        },
+        "ec_getTitle.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "6.31KB",
+            "md5": "3e7940213364af4c489659253ce38255",
+            "sha256": "94159f614cb1aadd80129837e857b01e0a62e5ab62e63ae25484ff60073ffc6d"
+        },
+        "ec_js.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "20.72KB",
+            "md5": "78828f9314248d5f3a172ab6d19ba382",
+            "sha256": "d722c2e3b51d0edfeee55f446cf48ad2c5959229bfaef53b09406fb8cd69bb3b"
+        },
+        "comm.h,v": {
+            "modified": "2006-06-21 12:44:11",
+            "size": "4.34KB",
+            "md5": "a624541739f2d01c25368b8180272ef9",
+            "sha256": "260ac2c777585b3551ff866f4cfae9fbf013afc1361501d6874d96065eea7816"
+        },
+        "ec_getPoints.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "10.6KB",
+            "md5": "a6a8b986b3c45a7fe6b2cde730281faa",
+            "sha256": "ab5fc7698701ab23e883d26ff0a809de5d967ff8658c5e6b8b9652ef1d407726"
+        },
+        "ec_fileObj.h,v": {
+            "modified": "2006-06-21 12:44:11",
+            "size": "4.88KB",
+            "md5": "c60ccd272bf03e89eef7a5fad4c95017",
+            "sha256": "0c0e6d69f922befdf3b98964d76fcd07d92ece83b54f18f052899f3f7962b0f2"
+        },
+        "ec_api.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "20.21KB",
+            "md5": "d9667602447739345c09803198963a33",
+            "sha256": "ca75d52bd8ccabc2a8fe1684bdefafaa588a0a559c40f2183a514d48d0612d07"
+        },
+        "ssl_wrapper.c,v": {
+            "modified": "2006-07-01 18:25:22",
+            "size": "5.64KB",
+            "md5": "79b390a5c42fdf2a6ace19fa82d8d923",
+            "sha256": "60f6de9d2163ac9d60ada56a3818f9beb9a38aee1a7502e6e54bd66563ea83db"
+        },
+        "makefile_rvl_ec_test,v": {
+            "modified": "2006-08-26 11:06:44",
+            "size": "6.16KB",
+            "md5": "2f796f1ed183346d24224bf98bc40a7f",
+            "sha256": "41359b348929860336c8fb49f2a6d76463cf4f65ee4484bfa6b3632145944a2d"
+        },
+        "ec_config.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "2.96KB",
+            "md5": "79af917538c504b4fccc85dc7a6a481f",
+            "sha256": "e46984938c98ae039c2581a89242757479532c3c26e5c31f21daa25a30d542a9"
+        },
+        "ec_test_resp.cpp,v": {
+            "modified": "2006-08-07 15:43:43",
+            "size": "20.05KB",
+            "md5": "df46c1010c967dea805b05f132c6f965",
+            "sha256": "e083d54ed615a7fd427c55455f06e13e4e82b0d4c99a4624733bcd1858ef382d"
+        },
+        "md5.h,v": {
+            "modified": "2006-06-21 12:44:11",
+            "size": "1.79KB",
+            "md5": "60815ff508639a567b0a3cafc133dcfc",
+            "sha256": "b4431ad0a301d08aca2c569b09879ef4b8f9a451f6880884a25b6dc9590848c1"
+        },
+        "ec_md5.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "3.8KB",
+            "md5": "a33b42e0637ea94becbcded0c88d07dd",
+            "sha256": "9e777449aae442903f6a22d2c5ef0c4033252bcf70ab7cced48b0b63a419bd4e"
+        },
+        "ec_buyPoints.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "2.45KB",
+            "md5": "660bdd62bb0879080bcddc7604114489",
+            "sha256": "bab31d1c9088a507d801db430ac9ea098d002b8d7e50bce738bc214de262f572"
+        },
+        "ec_http.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "3.56KB",
+            "md5": "08b14f2e76f101f3ef8263be1fc7146c",
+            "sha256": "089fb4e7b4028846c90f7ff288cc2f503ecab19dbb49772cd04cda58e98f3f88"
+        },
+        "ec_string.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "4.58KB",
+            "md5": "0d6a981353eb1a3ace29fd8100a862d2",
+            "sha256": "904ef39354efa3bf14399fb8cae22d42ec26733f6311bc98009c40cb7cec074b"
+        },
+        "md5_global.h,v": {
+            "modified": "2006-06-21 12:44:11",
+            "size": "1.11KB",
+            "md5": "ef40ce963014a9ad67da717957d8151b",
+            "sha256": "b0bec2f109d653fb52a49b78260ef9a371cd810a03045d271cd7834b53fa6674"
+        },
+        "ec_syncTickets.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "11.71KB",
+            "md5": "13a4445f8e3f89841b0258a7d083cb21",
+            "sha256": "3bfa21990972757b34e35bf8a2dac016c01e1a7c7562a1a8356d1321b8670e10"
+        },
+        "ec_soap.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "17.71KB",
+            "md5": "e52de3d7815f7b58458c16102687f263",
+            "sha256": "0f28ca4142058f74083a8893ebdf553d37d78e56bed73aaaa8ab8dbd8d509caf"
+        },
+        "ec_test.h,v": {
+            "modified": "2006-08-07 15:43:43",
+            "size": "2.06KB",
+            "md5": "121d0a29059a11ad55d4c65751cf3f09",
+            "sha256": "da773d3a3021c410d82ed23d0bbc2cb2ee2c079713724e692ba0829af5285b70"
+        },
+        "ec_getMeta.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "1.73KB",
+            "md5": "6fd94f70f742a30632bc9d273c604310",
+            "sha256": "598f6f35d26eeaa6eb775eecbfa8ae59c423ac7e67c57022617413943b0da612"
+        },
+        "ec_js.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "0.91KB",
+            "md5": "48d23a29808068e8a97416b9740ea850",
+            "sha256": "4a7be2e799959352daeb1a6809292fe41c6e504cf61eac3445ed7d8add9549c6"
+        },
+        "ec_purchaseTitle.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "27.21KB",
+            "md5": "e9141e9cca689cdeff2e78f52fc58f0e",
+            "sha256": "617b4cd7cbe89ce9c8aa3745c6181bd8b357b205ae020534aefaa14e48e04bc2"
+        },
+        "ec_content.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "28.88KB",
+            "md5": "8afbbc08c3901182f3c440b36c970e08",
+            "sha256": "b46cc80b3f626ce16985bbffce9101680642f310582a6c228047160ad2332d2e"
+        },
+        "ec_purchaseTitle.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "4.8KB",
+            "md5": "f8c6bd3873e6e7a6293c355de6bec2e6",
+            "sha256": "bff803cbcd6e24175edc8afe0728cd4c58ed3c2f948f308b2a6b7259cf93b518"
+        },
+        "makefile_rvl_ec_lib,v": {
+            "modified": "2006-08-26 11:06:44",
+            "size": "5.08KB",
+            "md5": "613c0bfe4eb3ead35cd8c6546f77f619",
+            "sha256": "355d68d49c55c852d2bb4fea13a7281b6c9fa38b04a394d77d78788e605944c4"
+        },
+        "ec_base64.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "8.29KB",
+            "md5": "d7132a3d161052f500135a1bfa47e6a5",
+            "sha256": "c422992ccd9d28d6f5f25f5ebd02e0b58d08dbf9462c7dcc3be76f00283fd6f4"
+        },
+        "ec_buyPoints.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "14.64KB",
+            "md5": "96bee5109f1cf0349ffcd0b696329910",
+            "sha256": "4c94087c615c224f2627eb0f4421c75fda17834a0fdd2429122e99ea4d1a3cd8"
+        },
+        "ec_porting.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "7.04KB",
+            "md5": "a88703c537a58f34b1b9ef24a8938e78",
+            "sha256": "b2e59a40d57072c7bc7d0c5ae6e53af038e93846d6f791addd1615e62e36fb73"
+        },
+        "ec_soap.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "6.58KB",
+            "md5": "683ff94c9c590a4fe0879a13360ad292",
+            "sha256": "a67d8ae1cf91a32ccb16b193e7c1efd2e991c55e54f8935493e7ae3b79e750fb"
+        },
+        "ec_file.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "5.59KB",
+            "md5": "f44a8a35d9693e7eaca4074ab279872d",
+            "sha256": "e45e775f4bb7b1ce6b589da2378511319e2937e1427487db3b0f6e074a1308d7"
+        },
+        "http.cpp,v": {
+            "modified": "2006-06-21 12:44:11",
+            "size": "28.9KB",
+            "md5": "d59b74378e8b9a1af1a46b82c135a6c0",
+            "sha256": "dc0b6ed244974319406bb7c64e3f783c69900829ffb43c829b9558cc61d2a20e"
+        },
+        "ec_file.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "6.41KB",
+            "md5": "b64fefc7ae3bceb4abcc1f596384f19b",
+            "sha256": "80c5dab65a4375634cf93e398b909a7e8b09083445db5b04565f7444e8bb41c5"
+        },
+        "ssl_wrapper.h,v": {
+            "modified": "2006-07-01 18:25:22",
+            "size": "3.69KB",
+            "md5": "3bc9a4801bd1f7f978895957c8d6e5bb",
+            "sha256": "7287aa0db8fbf505ba3d6cb7be7f0e5c8947fc6875e07148e59f00cea3a92fe8"
+        },
+        "ssl_socket.h,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "5.72KB",
+            "md5": "7542278e4f2553fa16988a9d374ef6af",
+            "sha256": "a337acd628c7e88ef329631ff98f3fb18e29104d378ffc7d406319f0c3b2e00b"
+        },
+        "ssl_socket.cpp,v": {
+            "modified": "2006-08-07 15:42:59",
+            "size": "3.81KB",
+            "md5": "ca8c859be91cc15c880bb98f58ae5306",
+            "sha256": "cf31db3ad37f9f61512e0bae3989de0e8417b2898f0b9da2d83c635a16a0cbe5"
+        }
+    }
+}

@@ -1,0 +1,1358 @@
+bbdocs/
+├── Accounts/
+│   ├── Decrypt.Howto,v
+│   ├── login-passwd,v
+│   └── prod-root-passwd.des3,v
+├── CVS/
+│   └── fileattr
+├── Deliverables/
+│   ├── BBSystems-Export/
+│   │   ├── BB-Depot-ProductSheet.doc,v
+│   │   ├── BB-ManagementServers-ProductSheet.doc,v
+│   │   ├── bb_player_blk.pdf,v
+│   │   ├── BIS_BBPlayer_Servers.doc,v
+│   │   └── nShield.pdf,v
+│   ├── BroadOn-Deliverable-Network.gif,v
+│   ├── BroadOn-Deliverable-System.gif,v
+│   ├── BroadOn-Deliverable.vsd,v
+│   ├── BroadOn-Deliverables-Pricing.doc,v
+│   └── BroadOn-Deliverables.doc,v
+├── Depot_HW/
+│   ├── barcode-scanner/
+│   │   ├── BroadOn-iQue-Label-Requirements.doc,v
+│   │   ├── BroadOn-iQue-Scanner-Requirements.doc,v
+│   │   ├── ChampTek/
+│   │   │   ├── ChampTek-ScannerSurvey.doc,v
+│   │   │   ├── FS302.pdf,v
+│   │   │   └── MCR7.pdf,v
+│   │   ├── CipherLab/
+│   │   │   ├── barcode-slotreader.pdf,v
+│   │   │   └── CipherLab-1022UsersManual.pdf,v
+│   │   ├── Labels/
+│   │   │   ├── 10mil-sample.pdf,v
+│   │   │   ├── 8mil-sample.pdf,v
+│   │   │   ├── BroadOn-BAL-Requirements.doc,v
+│   │   │   ├── GameTicketSpecification.doc,v
+│   │   │   ├── Merwyns-ScratchLabel.jpg,v
+│   │   │   └── Vendor-MyCard.doc,v
+│   │   ├── MetroLogic/
+│   │   │   └── MS-6220.pdf,v
+│   │   └── Symbol/
+│   │       ├── MiniScan.pdf,v
+│   │       ├── MiniScanFamily.doc,v
+│   │       ├── OEM_QualForm11.xls,v
+│   │       ├── SE-2223-3223_A.pdf,v
+│   │       ├── SE-923.PDF,v
+│   │       ├── SSI-Developers-Guide.pdf,v
+│   │       ├── SSI_Program_A.pdf,v
+│   │       ├── Symbol-ScannerSurvey-China.doc,v
+│   │       └── Symbol-ScannerSurvey.doc,v
+│   ├── Biostar/
+│   │   ├── awdflash.exe,v
+│   │   ├── awfl824c.exe,v
+│   │   ├── Barebone Roadmap V2.2.xls,v
+│   │   ├── BiostarLCDPCDataSheet.pdf,v
+│   │   ├── BiostarLCDPCPower.pdf,v
+│   │   ├── BiostarLCDPCTestReport.doc,v
+│   │   └── BiostarMTBF.doc,v
+│   ├── Depot/
+│   │   └── Luke-SuZhou-survey.doc,v
+│   ├── Depot-BOM.xls,v
+│   ├── Depot-drawing.doc,v
+│   ├── depot-hardware.html,v
+│   ├── Depot-Kiosk-Purpose.doc,v
+│   ├── DepotKeypad.doc,v
+│   ├── GPRS/
+│   │   ├── iTegno-AT Commands.pdf,v
+│   │   ├── iTegno-AT_GPRS_1.pdf,v
+│   │   └── iTegno-QuickGuide.pdf,v
+│   ├── hardware/
+│   │   ├── BBDepot-HardwareRequirements.html,v
+│   │   ├── BroadOn-Kiosk.doc,v
+│   │   ├── BroadOnSystem-RFQ.xls,v
+│   │   └── Nintendo-Kiosk.doc,v
+│   ├── lcd/
+│   │   └── M150XN04-1specv0.4 2002.10.10.doc,v
+│   ├── motherboard/
+│   │   ├── e1117_p4sgl-mx.pdf,v
+│   │   ├── E5042-651-SPEC.doc,v
+│   │   ├── P4BGL-drivers,v
+│   │   ├── P4BGL-MX spec.JPG,v
+│   │   ├── P4SGL-drivers,v
+│   │   ├── spec-rtl8101lv12.pdf,v
+│   │   └── t1111_P4BGL-MX.pdf,v
+│   ├── NAND-Flash/
+│   │   ├── ALI/
+│   │   │   ├── ALi-5634.pdf,v
+│   │   │   ├── ALi-License.pdf,v
+│   │   │   └── BroadOn-NDA-ALI.doc,v
+│   │   ├── Apacer/
+│   │   │   ├── ALI-M5634DSTECH_11062002_2.pdf,v
+│   │   │   ├── BroadOn-Kiosk.doc,v
+│   │   │   ├── BroadOn-NDA-Apacer.doc,v
+│   │   │   ├── USB-mass-BulkOnly-Transport.pdf,v
+│   │   │   ├── USB-mass-DesignConsiderations.pdf,v
+│   │   │   ├── USB-mass-Overview.pdf,v
+│   │   │   └── USB-mass-UFI-CommandSet.pdf,v
+│   │   ├── BB-FlashModule-Schematics.pdf,v
+│   │   ├── BroadOn-NAND-Flash-Controller-Requirements.doc,v
+│   │   ├── FlashController-BlockDiag.vsd,v
+│   │   ├── NAND-Flash.html,v
+│   │   ├── RatocSystems/
+│   │   │   └── Smart-Media-Controller-rg85539ce.pdf,v
+│   │   ├── Samsung-NAND-Flash-ds_k9f1208-16-qu0a.pdf,v
+│   │   ├── SCM/
+│   │   │   ├── SCM-COR.MKT.P1.F1.CRD.doc,v
+│   │   │   └── SCM-StandardNDA.doc,v
+│   │   ├── SmartMedia_LogicalFormat.pdf,v
+│   │   ├── SmartMedia_PhysicalFormat.pdf,v
+│   │   ├── SMSC/
+│   │   │   ├── 97c242.pdf,v
+│   │   │   ├── BroadOn-NDA-SMSC.doc,v
+│   │   │   ├── evb97c242demo.pdf,v
+│   │   │   ├── USB97C242-MemoryBar-Ref.dsn,v
+│   │   │   └── USB97C242-WriteInterleve-Ref.dsn,v
+│   │   ├── ST-7265/
+│   │   │   ├── ST7265-DTC.zip,v
+│   │   │   ├── ST7265-EvalBoard-UserManual.pdf,v
+│   │   │   ├── ST7265_Readme.html,v
+│   │   │   ├── ST7265x-License.doc,v
+│   │   │   └── ST7265X_PFD_SOURCES_1_34.zip,v
+│   │   └── Toshiba-NAND-Flash-TC58512FT-01-3-5.pdf,v
+│   ├── smartcard/
+│   │   ├── ACS/
+│   │   │   ├── AC1030.pdf,v
+│   │   │   ├── ACR30 reference manual.pdf,v
+│   │   │   ├── ACSR20.pdf,v
+│   │   │   ├── FAQ/
+│   │   │   │   ├── AC-Kit FAQ.pdf,v
+│   │   │   │   └── Account Transaction process.pdf,v
+│   │   │   ├── spec_ACR30.pdf,v
+│   │   │   └── User_manual_ACR30.pdf,v
+│   │   ├── BroadOn-iQue-SmartCard-Requirements.doc,v
+│   │   ├── Cryptoflex/
+│   │   │   ├── CryptoflexPG_3C.pdf,v
+│   │   │   ├── CryptoflexPG_4-3.pdf,v
+│   │   │   └── CryptoflexPG_4-4.pdf,v
+│   │   ├── drivers/
+│   │   │   ├── acs30-proprietary/
+│   │   │   │   └── acsr2032/
+│   │   │   │       ├── .kdbgrc.libacsr2032.so,v
+│   │   │   │       ├── .kdbgrc.test,v
+│   │   │   │       ├── accard.c,v
+│   │   │   │       ├── acdata.h,v
+│   │   │   │       ├── acsr20.c,v
+│   │   │   │       ├── acsr20.h,v
+│   │   │   │       ├── debug/
+│   │   │   │       │   ├── .kdbgrc.test,v
+│   │   │   │       │   ├── acrraw.c,v
+│   │   │   │       │   ├── acrraw.h,v
+│   │   │   │       │   ├── cmdfile,v
+│   │   │   │       │   ├── defs.h,v
+│   │   │   │       │   ├── libacrraw.so,v
+│   │   │   │       │   ├── Makefile,v
+│   │   │   │       │   ├── test,v
+│   │   │   │       │   └── test.c,v
+│   │   │   │       ├── GuidJB3.h,v
+│   │   │   │       ├── internal.c,v
+│   │   │   │       ├── internal.h,v
+│   │   │   │       ├── KeyB.C,v
+│   │   │   │       ├── Makefile,v
+│   │   │   │       └── test.c,v
+│   │   │   ├── acs30-serial/
+│   │   │   │   ├── acs_cmouse-drv-0.3.5.tar.gz,v
+│   │   │   │   ├── gmp-3_0_tar.gz,v
+│   │   │   │   ├── pcsc-lite-0_7_8_tar.gz,v
+│   │   │   │   └── smarttools-rsa-0_4_0_tar.gz,v
+│   │   │   ├── acs30Driver/
+│   │   │   │   ├── acsAcr30.bundle/
+│   │   │   │   │   └── Contents/
+│   │   │   │   │       ├── Info.plist,v
+│   │   │   │   │       ├── Linux/
+│   │   │   │   │       │   └── acsAcr30,v
+│   │   │   │   │       ├── pbdevelopment.plist,v
+│   │   │   │   │       ├── PkgInfo,v
+│   │   │   │   │       └── Resources/
+│   │   │   │   │           └── English.lproj/
+│   │   │   │   │               └── InfoPlist.strings,v
+│   │   │   │   ├── AdmHndlr.c,v
+│   │   │   │   ├── AdmHndlr.h,v
+│   │   │   │   ├── ifdhandler.c,v
+│   │   │   │   ├── ifdhandler.h,v
+│   │   │   │   ├── Makefile,v
+│   │   │   │   ├── pcscdefines.h,v
+│   │   │   │   ├── README,v
+│   │   │   │   ├── serial.c,v
+│   │   │   │   ├── serial.h,v
+│   │   │   │   ├── T0Hndlr.c,v
+│   │   │   │   ├── T0Hndlr.h,v
+│   │   │   │   ├── T1Hndlr.c,v
+│   │   │   │   ├── T1Hndlr.h,v
+│   │   │   │   ├── usblinux.c,v
+│   │   │   │   ├── usblinux.h,v
+│   │   │   │   ├── usbserial.c,v
+│   │   │   │   └── usbserial.h,v
+│   │   │   ├── ifd-devkit-1.0.0/
+│   │   │   │   ├── docs/
+│   │   │   │   │   └── ifdhandler20.pdf,v
+│   │   │   │   ├── ifdhandler.c,v
+│   │   │   │   ├── ifdhandler.h,v
+│   │   │   │   ├── LICENSE,v
+│   │   │   │   ├── Makefile,v
+│   │   │   │   ├── pcscdefines.h,v
+│   │   │   │   └── README,v
+│   │   │   ├── ifd-gempc-0.7.4/
+│   │   │   │   ├── Changelog,v
+│   │   │   │   ├── check,v
+│   │   │   │   ├── common/
+│   │   │   │   │   ├── .dependencies,v
+│   │   │   │   │   ├── COPYING.BSD,v
+│   │   │   │   │   ├── COPYING.GPL,v
+│   │   │   │   │   ├── GCCmds.c,v
+│   │   │   │   │   ├── GCCmds.h,v
+│   │   │   │   │   ├── GCdebug.c,v
+│   │   │   │   │   ├── GCdebug.h,v
+│   │   │   │   │   ├── GCTransport.h,v
+│   │   │   │   │   ├── GCUtils.c,v
+│   │   │   │   │   ├── GCUtils.h,v
+│   │   │   │   │   ├── GemCore.h,v
+│   │   │   │   │   ├── ifdhandler.c,v
+│   │   │   │   │   ├── ifdhandler.h,v
+│   │   │   │   │   ├── Makefile,v
+│   │   │   │   │   ├── pcscdefines.h,v
+│   │   │   │   │   ├── pcsclite.h,v
+│   │   │   │   │   ├── winscard.h,v
+│   │   │   │   │   └── wintypes.h,v
+│   │   │   │   ├── create_distrib.sh,v
+│   │   │   │   ├── GemPC410/
+│   │   │   │   │   ├── .dependencies,v
+│   │   │   │   │   ├── Config.h,v
+│   │   │   │   │   ├── COPYING.GPL,v
+│   │   │   │   │   ├── devfs/
+│   │   │   │   │   │   ├── libgempc410.conf.d,v
+│   │   │   │   │   │   ├── libgempc410.devfsd.conf,v
+│   │   │   │   │   │   ├── libgempc410.devices.d,v
+│   │   │   │   │   │   └── README,v
+│   │   │   │   │   ├── gbpserial.c,v
+│   │   │   │   │   ├── gbpserial.h,v
+│   │   │   │   │   ├── GCGBPTransport.c,v
+│   │   │   │   │   ├── GemPC410Utils.c,v
+│   │   │   │   │   ├── GemPC410Utils.h,v
+│   │   │   │   │   ├── main.c,v
+│   │   │   │   │   ├── Makefile,v
+│   │   │   │   │   ├── resetGemPC410.c,v
+│   │   │   │   │   └── TODO,v
+│   │   │   │   ├── GemPC430/
+│   │   │   │   │   ├── .dependencies,v
+│   │   │   │   │   ├── Config.h,v
+│   │   │   │   │   ├── COPYING,v
+│   │   │   │   │   ├── GCUSBTransport.c,v
+│   │   │   │   │   ├── GemPC430Utils.c,v
+│   │   │   │   │   ├── GemPC430Utils.h,v
+│   │   │   │   │   ├── ifd-GemPC430.bundle/
+│   │   │   │   │   │   └── Contents/
+│   │   │   │   │   │       └── Info.plist,v
+│   │   │   │   │   ├── libusb_wrap.c,v
+│   │   │   │   │   ├── libusb_wrap.h,v
+│   │   │   │   │   ├── Makefile,v
+│   │   │   │   │   ├── TODO.txt,v
+│   │   │   │   │   ├── usbserial.h,v
+│   │   │   │   │   └── usbserial_mosx.c,v
+│   │   │   │   ├── MacOSXbuild/
+│   │   │   │   │   └── ifd-GemPC430/
+│   │   │   │   │       ├── build/
+│   │   │   │   │       │   └── intermediates/
+│   │   │   │   │       │       ├── ifd-GemPC430.indexed-headers,v
+│   │   │   │   │       │       ├── ifd-GemPC430.indexed-precomps,v
+│   │   │   │   │       │       └── ifd-GemPC430.pbxindex/
+│   │   │   │   │       │           ├── categories.pbxbtree,v
+│   │   │   │   │       │           ├── decls.pbxbtree,v
+│   │   │   │   │       │           ├── files.pbxbtree,v
+│   │   │   │   │       │           ├── imports.pbxbtree,v
+│   │   │   │   │       │           ├── pbxindex.header,v
+│   │   │   │   │       │           ├── protocols.pbxbtree,v
+│   │   │   │   │       │           ├── refs.pbxbtree,v
+│   │   │   │   │       │           ├── strings.pbxstrings/
+│   │   │   │   │       │           │   ├── control,v
+│   │   │   │   │       │           │   └── strings,v
+│   │   │   │   │       │           ├── subclasses.pbxbtree,v
+│   │   │   │   │       │           └── symbols0.pbxsymbols,v
+│   │   │   │   │       ├── English.lproj/
+│   │   │   │   │       │   └── InfoPlist.strings,v
+│   │   │   │   │       └── ifd-GemPC430.pbproj/
+│   │   │   │   │           ├── giraud.pbxuser,v
+│   │   │   │   │           └── project.pbxproj,v
+│   │   │   │   ├── Makefile,v
+│   │   │   │   ├── MANIFEST,v
+│   │   │   │   ├── README,v
+│   │   │   │   ├── README.410,v
+│   │   │   │   └── README.430,v
+│   │   │   ├── scm310Driver/
+│   │   │   │   ├── AdmHndlr.h,v
+│   │   │   │   ├── backup/
+│   │   │   │   │   └── AdmHndlr.o,v
+│   │   │   │   ├── ifdhandler.c,v
+│   │   │   │   ├── ifdhandler.h,v
+│   │   │   │   ├── LICENSE,v
+│   │   │   │   ├── Makefile,v
+│   │   │   │   ├── pcscdefines.h,v
+│   │   │   │   ├── README,v
+│   │   │   │   ├── scm310Driver.bundle/
+│   │   │   │   │   └── Contents/
+│   │   │   │   │       ├── Info.plist,v
+│   │   │   │   │       ├── Linux/
+│   │   │   │   │       ├── MacOS/
+│   │   │   │   │       └── Resources/
+│   │   │   │   ├── T0Hndlr.c,v
+│   │   │   │   ├── T0Hndlr.h,v
+│   │   │   │   ├── T1Hndlr.c,v
+│   │   │   │   ├── T1Hndlr.h,v
+│   │   │   │   ├── usblinux.c,v
+│   │   │   │   ├── usblinux.h,v
+│   │   │   │   ├── usbserial.c,v
+│   │   │   │   └── usbserial.h,v
+│   │   │   └── slb_rfUSB/
+│   │   │       ├── AdmHndlr.h,v
+│   │   │       ├── backup/
+│   │   │       │   └── AdmHndlr.o,v
+│   │   │       ├── ifdhandler.c,v
+│   │   │       ├── ifdhandler.h,v
+│   │   │       ├── LICENSE,v
+│   │   │       ├── Makefile,v
+│   │   │       ├── pcscdefines.h,v
+│   │   │       ├── README,v
+│   │   │       ├── slbReflexUSB.bundle/
+│   │   │       │   └── Contents/
+│   │   │       │       ├── .Info.plist.swp,v
+│   │   │       │       ├── Info.plist,v
+│   │   │       │       ├── Linux/
+│   │   │       │       ├── MacOS/
+│   │   │       │       └── Resources/
+│   │   │       ├── T0Hndlr.c,v
+│   │   │       ├── T0Hndlr.h,v
+│   │   │       ├── T1Hndlr.c,v
+│   │   │       ├── T1Hndlr.h,v
+│   │   │       ├── usblinux.c,v
+│   │   │       ├── usblinux.h,v
+│   │   │       ├── usbserial.c,v
+│   │   │       └── usbserial.h,v
+│   │   ├── pcsc.pdf,v
+│   │   └── Readers,v
+│   └── touchpanel/
+│       ├── AMT/
+│       │   ├── AMT-FPD-Requirements_Survey.doc,v
+│       │   ├── AS-02502-01.pdf,v
+│       │   ├── AS09513-02.pdf,v
+│       │   ├── FPD-GM-OF12H-H350.PDF,v
+│       │   └── NL8060BC31-17.pdf,v
+│       ├── BroadOn-iQue-FPD-Requirements.doc,v
+│       ├── Microtouch/
+│       │   ├── control_panel_guide.pdf,v
+│       │   ├── linux_driver.pdf,v
+│       │   ├── SC-controller/
+│       │   ├── touch-tech-primer.pdf,v
+│       │   ├── TouchScree-Finishes.pdf,v
+│       │   └── TouchScreen-DesignGuide.pdf,v
+│       ├── Price-Comparison.xls,v
+│       ├── Salt/
+│       │   ├── 5-wire Datasheet.pdf,v
+│       │   ├── AMT-AS-02502-01.pdf,v
+│       │   ├── Calibration/
+│       │   │   ├── bcircle.xpm,v
+│       │   │   ├── pencal-2.00,v
+│       │   │   └── rcircle.xpm,v
+│       │   ├── Driver/
+│       │   │   ├── penmount_drv.o,v
+│       │   │   └── Source/
+│       │   │       ├── Imakefile,v
+│       │   │       ├── Makefile,v
+│       │   │       ├── penmount.4.html,v
+│       │   │       ├── penmount.cpp,v
+│       │   │       ├── penmount.man,v
+│       │   │       ├── xf86PM.c,v
+│       │   │       └── xf86PM.h,v
+│       │   ├── MT510 5-wire controller.pdf,v
+│       │   ├── PenMount 9084.PDF,v
+│       │   ├── PenMount DMC 9000 Windows 98-Me V2.1.pdf,v
+│       │   ├── PL75 Datasheet.pdf,v
+│       │   ├── R512[1].1HHNNNa.pdf,v
+│       │   ├── README,v
+│       │   ├── Salt-How-to-Select.doc,v
+│       │   ├── Salt-Survey.doc,v
+│       │   └── XF86Config.sample,v
+│       ├── Tech-Comparison.xls,v
+│       ├── touchcal_0.2/
+│       │   ├── Copyright,v
+│       │   ├── Makefile,v
+│       │   ├── README,v
+│       │   └── touchcal.c,v
+│       └── Transpoint/
+│           ├── 5-wire.pdf,v
+│           ├── FPDdesktop.pdf,v
+│           ├── M150.pdf,v
+│           ├── Resistive-OV.pdf,v
+│           ├── Transpoint-FAQ.doc,v
+│           ├── Transpoint-specs.pdf,v
+│           ├── Transpoint-Survey.doc,v
+│           ├── Transpoint_Capacitive-OV.pdf,v
+│           └── Transpoint_ClearTek3000.pdf,v
+├── Designs/
+│   ├── 1.0/
+│   │   ├── Depot/
+│   │   │   ├── BB-Card-Operations.html,v
+│   │   │   ├── bbcard-interface.txt,v
+│   │   │   ├── bbdepot-diagnostics.html,v
+│   │   │   ├── bbdepot-installer-ui.html,v
+│   │   │   ├── bbdepot_arch.html,v
+│   │   │   ├── bbdepot_hw_arch.html,v
+│   │   │   ├── bbdepot_hw_blk.gif,v
+│   │   │   ├── bbdepot_protocols.html,v
+│   │   │   ├── bbdepot_usage.html,v
+│   │   │   ├── bbdepot_usecases.html,v
+│   │   │   ├── conf_variables.html,v
+│   │   │   ├── content-import.html,v
+│   │   │   ├── Customer-ID.html,v
+│   │   │   ├── CustomerAppUI.ppt,v
+│   │   │   ├── CustomerUIDT.doc,v
+│   │   │   ├── Depot-CPU-SystemBudget.xls,v
+│   │   │   ├── Depot-CustomerApp.vsd,v
+│   │   │   ├── Depot-Installation.vsd,v
+│   │   │   ├── Depot-Localization.doc,v
+│   │   │   ├── Diagnostics.html,v
+│   │   │   ├── iconfigvar.txt,v
+│   │   │   ├── remote_mgmt_files/
+│   │   │   │   ├── fig1.vsd,v
+│   │   │   │   ├── Fig2.vsd,v
+│   │   │   │   ├── image001.gif,v
+│   │   │   │   ├── image002.gif,v
+│   │   │   │   └── image003.gif,v
+│   │   │   ├── retailer_usecases.html,v
+│   │   │   ├── RetailerAppUI.ppt,v
+│   │   │   ├── RMA-Application.html,v
+│   │   │   ├── security.htm,v
+│   │   │   └── system_overview.htm,v
+│   │   ├── DepotMgmtDaemons.htm,v
+│   │   ├── DepotRemoteMgmt.htm,v
+│   │   ├── HealthMonStats.htm,v
+│   │   ├── IDC/
+│   │   │   ├── EMS-Configuration.gif,v
+│   │   │   ├── EMS-Deployment.gif,v
+│   │   │   ├── Infrastructure-CostEstimates.xls,v
+│   │   │   ├── Infrastructure-SizeNPowerEstimates.xls,v
+│   │   │   ├── IQue-HostingCenter-Requirements.doc,v
+│   │   │   ├── IQue-ISP-Requirements.doc,v
+│   │   │   ├── OpsCenter-NetworkConfiguration.vsd,v
+│   │   │   ├── Survey-HostingCenter.doc,v
+│   │   │   ├── Survey-ISP.doc,v
+│   │   │   └── Transactions-Vol-responseTimes.xls,v
+│   │   ├── Obsoleted/
+│   │   │   ├── bbdepot_hw_arch_old.html,v
+│   │   │   ├── bbdepot_overview.html,v
+│   │   │   ├── RemoteMgmtBehindFirwall.htm,v
+│   │   │   └── RMS-plan-200306.html,v
+│   │   ├── RMS-Depot.gif,v
+│   │   ├── RMS_ServerPosting.htm,v
+│   │   ├── SoftwarePackaging.htm,v
+│   │   └── VirageProgramming.xls,v
+│   ├── 1.1/
+│   │   ├── CRL_Implementation.html,v
+│   │   ├── CVS/
+│   │   │   └── fileattr
+│   │   ├── DepotBurninTest.doc,v
+│   │   ├── DepotReliabilityTest.doc,v
+│   │   ├── GameCompetitionUseModel.doc,v
+│   │   └── iQue_RMA_Process.doc,v
+│   ├── 1.2/
+│   │   ├── GameCompetition.htm,v
+│   │   ├── MgmtServerArch.doc,v
+│   │   ├── Obsoleted/
+│   │   │   ├── Content-Download-TODO.txt,v
+│   │   │   ├── HealthMonitor_TODO.txt,v
+│   │   │   └── RMS-TODO.txt,v
+│   │   ├── RMS_Enhancements.htm,v
+│   │   ├── RMS_Upgrade.txt,v
+│   │   ├── SecureMsg.txt,v
+│   │   ├── ServiceDriver.htm,v
+│   │   └── TrialBonusRental.htm,v
+│   ├── 1.3/
+│   │   ├── iQue_Club_Membership.doc,v
+│   │   ├── iQueAtHome_design.doc,v
+│   │   ├── iQueAtHome_Integration.html,v
+│   │   ├── iQueAtHome_mrd.doc,v
+│   │   └── iQueAtHome_thoughts.doc,v
+│   ├── 1.4/
+│   │   ├── Server_OS_Installation.htm,v
+│   │   └── TaoLinuxUpgradePlan.htm,v
+│   ├── 2.0/
+│   │   ├── Attic/
+│   │   │   └── vng.h,v
+│   │   ├── BuddyListMgmt.doc,v
+│   │   ├── CVS/
+│   │   │   └── fileattr
+│   │   ├── Definitions.html,v
+│   │   ├── eCommerceFuncSpec.doc,v
+│   │   ├── eCommerceImplSpec.doc,v
+│   │   ├── eTicketMgrRequirements.doc,v
+│   │   ├── eTicketModel.doc,v
+│   │   ├── GameRomInfo.xls,v
+│   │   ├── HSMCost.xls,v
+│   │   ├── LCE_release_notes.doc,v
+│   │   ├── lce_type.xls,v
+│   │   ├── LinkCableDataCollection.doc,v
+│   │   ├── LinkCableEmulationDesign.doc,v
+│   │   ├── LinkCableEmulationImplSpec.doc,v
+│   │   ├── NC_AppImplNotes.doc,v
+│   │   ├── NC_AppImplSpec.doc,v
+│   │   ├── NC_AppProgModel.doc,v
+│   │   ├── NC_Architecture.doc,v
+│   │   ├── NC_Architecture_Summary.doc,v
+│   │   ├── NC_MediaApp.doc,v
+│   │   ├── NetworkingPokemonRequirement.doc,v
+│   │   ├── NNGC_MfrHW.doc,v
+│   │   ├── NNGC_MfrSW.doc,v
+│   │   ├── Obsoleted/
+│   │   │   ├── Comm.primitives.html,v
+│   │   │   ├── IqueNetworkingModels.doc,v
+│   │   │   ├── ogc.h,v
+│   │   │   ├── OGC_api.doc,v
+│   │   │   ├── OGI_Overview.doc,v
+│   │   │   ├── RPC-API-0.1.html,v
+│   │   │   ├── RPC-API-0.2.html,v
+│   │   │   ├── SysApp-PC.doc,v
+│   │   │   ├── VN_Security.doc,v
+│   │   │   └── VNG_SystemDesign.doc,v
+│   │   ├── OnlineGameUseModels.doc,v
+│   │   ├── pasDesign.doc,v
+│   │   ├── PaymentSystemRequirement.doc,v
+│   │   ├── PublisherDesign.doc,v
+│   │   ├── PublishServer.vsd,v
+│   │   ├── VN_api.doc,v
+│   │   ├── VN_FirewallManagerDesign.doc,v
+│   │   ├── VN_ImplSpec.doc,v
+│   │   ├── VN_KeyEstablishment.doc,v
+│   │   ├── VN_TransportSpec.doc,v
+│   │   ├── VNG_api.doc,v
+│   │   ├── VNG_FuncModules.doc,v
+│   │   ├── VNG_InfraOverview.doc,v
+│   │   ├── VNG_InfraRequirement.doc,v
+│   │   ├── VNG_OSC_Interface.doc,v
+│   │   ├── VNG_ServerImplSpec.doc,v
+│   ├── Document-Template.doc,v
+│   └── Overview/
+│       ├── Architecture/
+│       │   ├── BarcodeSize,v
+│       │   ├── BB-Servers.html,v
+│       │   ├── bbHwRev-Definition.doc,v
+│       │   ├── bbserver_arch.dia,v
+│       │   ├── bbserver_arch.html,v
+│       │   ├── bbserver_dataflow.html,v
+│       │   ├── bbserver_interfaces.html,v
+│       │   ├── Content-Packaging.html,v
+│       │   ├── content-release.html,v
+│       │   ├── ems-contentLoading.html,v
+│       │   ├── EMS-Proposal.doc,v
+│       │   ├── eTicket.html,v
+│       │   ├── Game_Card_v1.htm,v
+│       │   ├── Game_Card_v2.htm,v
+│       │   ├── HighAvailability.html,v
+│       │   ├── infrastructure-conventions.html,v
+│       │   ├── Limited-Rights.html,v
+│       │   ├── New_Purchase_Model.html,v
+│       │   ├── Revocations.html,v
+│       │   ├── server-users.html,v
+│       │   ├── Servers-StandardReports.html,v
+│       │   ├── Smart-Cards.html,v
+│       │   ├── SpecialPurchases-Model.html,v
+│       │   └── tabled-issues.html,v
+│       ├── Schema/
+│       │   ├── BB-ALL.jpg,v
+│       │   ├── BBCenterERD_files/
+│       │   ├── BBCentersERD.htm,v
+│       │   ├── BBCentersERD.vsd,v
+│       │   ├── BBCentersERD_files/
+│       │   │   ├── BBCentersERD.css,v
+│       │   │   ├── BBCentersERD.xml,v
+│       │   │   ├── BBCentersERD_frames.htm,v
+│       │   │   ├── BBCentersERD_gif_1.gif,v
+│       │   │   ├── BBCentersERD_gif_1.htm,v
+│       │   │   ├── BBCentersERD_gif_10.gif,v
+│       │   │   ├── BBCentersERD_gif_10.htm,v
+│       │   │   ├── BBCentersERD_gif_11.gif,v
+│       │   │   ├── BBCentersERD_gif_11.htm,v
+│       │   │   ├── BBCentersERD_gif_12.gif,v
+│       │   │   ├── BBCentersERD_gif_12.htm,v
+│       │   │   ├── BBCentersERD_gif_2.gif,v
+│       │   │   ├── BBCentersERD_gif_2.htm,v
+│       │   │   ├── BBCentersERD_gif_3.gif,v
+│       │   │   ├── BBCentersERD_gif_3.htm,v
+│       │   │   ├── BBCentersERD_gif_4.gif,v
+│       │   │   ├── BBCentersERD_gif_4.htm,v
+│       │   │   ├── BBCentersERD_gif_5.gif,v
+│       │   │   ├── BBCentersERD_gif_5.htm,v
+│       │   │   ├── BBCentersERD_gif_6.gif,v
+│       │   │   ├── BBCentersERD_gif_6.htm,v
+│       │   │   ├── BBCentersERD_gif_7.gif,v
+│       │   │   ├── BBCentersERD_gif_7.htm,v
+│       │   │   ├── BBCentersERD_gif_8.gif,v
+│       │   │   ├── BBCentersERD_gif_8.htm,v
+│       │   │   ├── BBCentersERD_gif_9.gif,v
+│       │   │   ├── BBCentersERD_gif_9.htm,v
+│       │   │   ├── BBCentersERD_nav.htm,v
+│       │   │   ├── BBCentersERD_nav2.htm,v
+│       │   │   ├── BBCentersERD_pagetabs.htm,v
+│       │   │   ├── BBCentersERD_scroll.htm,v
+│       │   │   ├── BBCentersERD_utils.js,v
+│       │   │   ├── BBCentersERD_zoom.htm,v
+│       │   │   ├── lt_off.gif,v
+│       │   │   ├── lt_over.gif,v
+│       │   │   ├── rt_off.gif,v
+│       │   │   └── rt_over.gif,v
+│       │   ├── BBCentersERD_visio2002.vsd,v
+│       │   ├── BBCompetition-ERD.jpg,v
+│       │   ├── BBCompetition.vsd,v
+│       │   ├── BCC-ERD.jpg,v
+│       │   ├── BroadOnInfraServices.htm,v
+│       │   ├── BroadOnInfraServices_files/
+│       │   │   ├── arrow.gif,v
+│       │   │   ├── data.xml,v
+│       │   │   ├── filelist.xml,v
+│       │   │   ├── find.js,v
+│       │   │   ├── frameset.js,v
+│       │   │   ├── fullpage.gif,v
+│       │   │   ├── gif_1.gif,v
+│       │   │   ├── gif_1.htm,v
+│       │   │   ├── gif_1.js,v
+│       │   │   ├── gif_2.gif,v
+│       │   │   ├── gif_2.htm,v
+│       │   │   ├── gif_3.gif,v
+│       │   │   ├── gif_3.htm,v
+│       │   │   ├── gif_4.gif,v
+│       │   │   ├── gif_4.htm,v
+│       │   │   ├── gif_5.gif,v
+│       │   │   ├── gif_5.htm,v
+│       │   │   ├── gif_6.gif,v
+│       │   │   ├── gif_6.htm,v
+│       │   │   ├── gif_7.gif,v
+│       │   │   ├── gif_7.htm,v
+│       │   │   ├── gif_8.gif,v
+│       │   │   ├── gif_8.htm,v
+│       │   │   ├── gif_9.gif,v
+│       │   │   ├── gif_9.htm,v
+│       │   │   ├── go.gif,v
+│       │   │   ├── jpg_1.htm,v
+│       │   │   ├── jpg_1.jpg,v
+│       │   │   ├── jpg_1.js,v
+│       │   │   ├── jpg_2.htm,v
+│       │   │   ├── jpg_2.jpg,v
+│       │   │   ├── jpg_3.htm,v
+│       │   │   ├── jpg_3.jpg,v
+│       │   │   ├── jpg_4.htm,v
+│       │   │   ├── jpg_4.jpg,v
+│       │   │   ├── jpg_5.htm,v
+│       │   │   ├── jpg_5.jpg,v
+│       │   │   ├── jpg_6.htm,v
+│       │   │   ├── jpg_6.jpg,v
+│       │   │   ├── jpg_7.htm,v
+│       │   │   ├── jpg_7.jpg,v
+│       │   │   ├── jpg_8.htm,v
+│       │   │   ├── jpg_8.jpg,v
+│       │   │   ├── jpg_9.htm,v
+│       │   │   ├── jpg_9.jpg,v
+│       │   │   ├── keys.js,v
+│       │   │   ├── maximize.gif,v
+│       │   │   ├── minimize.gif,v
+│       │   │   ├── minus.gif,v
+│       │   │   ├── panminus.gif,v
+│       │   │   ├── panplus.gif,v
+│       │   │   ├── plus.gif,v
+│       │   │   ├── tick-foc.gif,v
+│       │   │   ├── tick-off.gif,v
+│       │   │   ├── tick-on.gif,v
+│       │   │   ├── toc.gif,v
+│       │   │   ├── toc2.gif,v
+│       │   │   ├── toolbar.htm,v
+│       │   │   ├── visio.css,v
+│       │   │   ├── vml_1.emz,v
+│       │   │   ├── vml_1.htm,v
+│       │   │   ├── vml_1.js,v
+│       │   │   ├── vml_2.emz,v
+│       │   │   ├── vml_2.htm,v
+│       │   │   ├── vml_3.emz,v
+│       │   │   ├── vml_3.htm,v
+│       │   │   ├── vml_4.emz,v
+│       │   │   ├── vml_4.htm,v
+│       │   │   ├── vml_5.emz,v
+│       │   │   ├── vml_5.htm,v
+│       │   │   ├── vml_6.emz,v
+│       │   │   ├── vml_6.htm,v
+│       │   │   ├── vml_7.emz,v
+│       │   │   ├── vml_7.htm,v
+│       │   │   ├── vml_8.emz,v
+│       │   │   ├── vml_8.htm,v
+│       │   │   ├── vml_9.emz,v
+│       │   │   ├── vml_9.htm,v
+│       │   │   ├── widgets.htm,v
+│       │   │   └── zoom.htm,v
+│       │   ├── CA-ERD.jpg,v
+│       │   ├── Content-ERD.jpg,v
+│       │   ├── Depot-ERD.jpg,v
+│       │   ├── RMS-ERD.jpg,v
+│       │   ├── RMS-ERD.vsd,v
+│       │   ├── vng.vsd,v
+│       │   ├── vviewer.exe,v
+│       │   └── XS-ERD.jpg,v
+│       ├── Test-Plans/
+│       │   ├── bbd-StoreFieldTest.html,v
+│       │   ├── bbd-SystemFunctionalTestCases.html,v
+│       │   ├── bbd-UserFunctionalTestCases.html,v
+│       │   ├── bbs-DatabaseTestCases.html,v
+│       │   ├── bbs-IntegrationTestCases.html,v
+│       │   ├── bcc-UserFunctionalTestCases.html,v
+│       │   ├── bu-UserFunctionalTestCases.html,v
+│       │   ├── ems-UserFunctionalTestCases.html,v
+│       │   ├── emsDepot-UserFunctionalTestCases.html,v
+│       │   ├── Infr-Operational-Tests.html,v
+│       │   ├── rmaDepot-UserFunctionalTestCases.html,v
+│       │   └── scDepot-UserFunctionalTestCases.html,v
+│       ├── Transactions/
+│       │   ├── BB-Transactions.html,v
+│       │   ├── bbserver_interfaces/
+│       │   │   ├── bb_act.dia,v
+│       │   │   ├── bb_act.png,v
+│       │   │   ├── bb_deact.dia,v
+│       │   │   ├── bb_deact.png,v
+│       │   │   ├── bb_download.dia,v
+│       │   │   ├── bb_download.png,v
+│       │   │   ├── browse_eTicket.dia,v
+│       │   │   ├── browse_eTicket.png,v
+│       │   │   ├── buy-eTicket.dia,v
+│       │   │   ├── buy-eTicket.png,v
+│       │   │   ├── hw_delivery.dia,v
+│       │   │   ├── hw_delivery.png,v
+│       │   │   ├── recover.dia,v
+│       │   │   ├── recover.png,v
+│       │   │   ├── redeem-eTicket.dia,v
+│       │   │   └── redeem-eTicket.png,v
+│       │   ├── data_defs/
+│       │   │   ├── bb-state.png,v
+│       │   │   ├── bb-state.vsd,v
+│       │   │   ├── bbdepot-content-download-state.jpg,v
+│       │   │   ├── bbdepot-content-download-state.vsd,v
+│       │   │   ├── cds-content-download-state.jpg,v
+│       │   │   ├── cds-content-download-state.vsd,v
+│       │   │   ├── cms-content-state.jpg,v
+│       │   │   ├── cms-content-state.vsd,v
+│       │   │   ├── eTicket-state.png,v
+│       │   │   ├── eTicket-state.vsd,v
+│       │   │   ├── xs-content-purchase-state.jpg,v
+│       │   │   └── xs-content-purchase-state.vsd,v
+│       │   ├── data_defs.html,v
+│       │   ├── overlayed/
+│       │   │   ├── bb_act-ctrl.png,v
+│       │   │   ├── bb_act-ctrl.vsd,v
+│       │   │   ├── bb_act-data.png,v
+│       │   │   ├── bb_act-data.vsd,v
+│       │   │   ├── bb_deact-ctrl.png,v
+│       │   │   ├── bb_deact-ctrl.vsd,v
+│       │   │   ├── bb_deact-data.png,v
+│       │   │   ├── bb_deact-data.vsd,v
+│       │   │   ├── browse_eTickets-ctrl.png,v
+│       │   │   ├── browse_eTickets-ctrl.vsd,v
+│       │   │   ├── browse_eTickets-data.png,v
+│       │   │   ├── browse_eTickets-data.vsd,v
+│       │   │   ├── buy_eTicket-ctrl.png,v
+│       │   │   ├── buy_eTicket-ctrl.vsd,v
+│       │   │   ├── buy_eTicket-data.png,v
+│       │   │   ├── buy_eTicket-data.vsd,v
+│       │   │   ├── config_depot-ctrl.png,v
+│       │   │   ├── config_depot-data.png,v
+│       │   │   ├── config_depot.vsd,v
+│       │   │   ├── Factory_act-ctrl.png,v
+│       │   │   ├── Factory_act-data.png,v
+│       │   │   ├── Factory_act.vsd,v
+│       │   │   ├── load_eTicket-ctrl.png,v
+│       │   │   ├── load_eTicket-ctrl.vsd,v
+│       │   │   ├── load_eTicket-datal.png,v
+│       │   │   ├── load_eTicket-datal.vsd,v
+│       │   │   ├── load_HWID-ctrl.png,v
+│       │   │   ├── load_HWID-data.png,v
+│       │   │   ├── load_HWID.vsd,v
+│       │   │   ├── newDepotID-ctrl.png,v
+│       │   │   ├── newDepotID-data.png,v
+│       │   │   ├── newDepotID.vsd,v
+│       │   │   ├── rcv_inventory-ctrl.png,v
+│       │   │   ├── rcv_inventory-data.png,v
+│       │   │   ├── rcv_inventory.vsd,v
+│       │   │   ├── refund_eTicket-ctrl.png,v
+│       │   │   ├── refund_eTicket-ctrl.vsd,v
+│       │   │   ├── refund_eTicket-data.png,v
+│       │   │   ├── refund_eTicket-data.vsd,v
+│       │   │   ├── reinit_card-ctrl.png,v
+│       │   │   ├── reinit_card-ctrl.vsd,v
+│       │   │   ├── reinit_card-data.png,v
+│       │   │   ├── reinit_card-data.vsd,v
+│       │   │   └── template.vsd,v
+│       │   ├── Server-Transactions.jpg,v
+│       │   ├── Server-Transactions.vsd,v
+│       │   ├── XS-bb_act.html,v
+│       │   ├── XS-bb_deact.html,v
+│       │   ├── XS-browse_eTickets.html,v
+│       │   ├── XS-buy_eTicket.html,v
+│       │   ├── XS-config_depot.html,v
+│       │   ├── XS-ContentSync/
+│       │   │   ├── lt_off.gif,v
+│       │   │   ├── lt_over.gif,v
+│       │   │   ├── rt_off.gif,v
+│       │   │   ├── rt_over.gif,v
+│       │   │   ├── XS-ContentSync.html,v
+│       │   │   ├── XS-ContentSync1_raster.gif,v
+│       │   │   ├── XS-ContentSync1_raster.htm,v
+│       │   │   ├── XS-ContentSync2_raster.gif,v
+│       │   │   ├── XS-ContentSync2_raster.htm,v
+│       │   │   ├── XS-ContentSync3_raster.gif,v
+│       │   │   ├── XS-ContentSync3_raster.htm,v
+│       │   │   ├── XS-ContentSync_frame.htm,v
+│       │   │   ├── XS-ContentSync_nav.htm,v
+│       │   │   └── XS-ContentSync_utils.js,v
+│       │   ├── XS-ContentSync.html,v
+│       │   ├── XS-ContentSync.vsd,v
+│       │   ├── XS-DownloadContent-BBCard/
+│       │   │   ├── lt_off.gif,v
+│       │   │   ├── lt_over.gif,v
+│       │   │   ├── rt_off.gif,v
+│       │   │   ├── rt_over.gif,v
+│       │   │   ├── XS-DownloadContent-BBCard.html,v
+│       │   │   ├── XS-DownloadContent-BBCard1_raster.gif,v
+│       │   │   ├── XS-DownloadContent-BBCard1_raster.htm,v
+│       │   │   ├── XS-DownloadContent-BBCard2_raster.gif,v
+│       │   │   ├── XS-DownloadContent-BBCard2_raster.htm,v
+│       │   │   ├── XS-DownloadContent-BBCard_frame.htm,v
+│       │   │   ├── XS-DownloadContent-BBCard_nav.htm,v
+│       │   │   └── XS-DownloadContent-BBCard_utils.js,v
+│       │   ├── XS-DownloadContent-BBCard.html,v
+│       │   ├── XS-DownloadContent-BBCard.vsd,v
+│       │   ├── XS-factory_act.html,v
+│       │   ├── XS-load_eTicket.html,v
+│       │   ├── XS-load_HWID.html,v
+│       │   ├── XS-new_depotID.html,v
+│       │   ├── XS-PublishContent/
+│       │   │   ├── lt_off.gif,v
+│       │   │   ├── lt_over.gif,v
+│       │   │   ├── rt_off.gif,v
+│       │   │   ├── rt_over.gif,v
+│       │   │   ├── XS-PublishContent.html,v
+│       │   │   ├── XS-PublishContent1_raster.gif,v
+│       │   │   ├── XS-PublishContent1_raster.htm,v
+│       │   │   ├── XS-PublishContent2_raster.gif,v
+│       │   │   ├── XS-PublishContent2_raster.htm,v
+│       │   │   ├── XS-PublishContent_frame.htm,v
+│       │   │   ├── XS-PublishContent_nav.htm,v
+│       │   │   └── XS-PublishContent_utils.js,v
+│       │   ├── XS-PublishContent.html,v
+│       │   ├── XS-PublishContent.vsd,v
+│       │   ├── XS-rcv_inventory.html,v
+│       │   ├── XS-refund_eTicket.html,v
+│       │   ├── XS-reinit_card.html,v
+│       │   ├── XS-RevokeContent/
+│       │   │   ├── lt_off.gif,v
+│       │   │   ├── lt_over.gif,v
+│       │   │   ├── rt_off.gif,v
+│       │   │   ├── rt_over.gif,v
+│       │   │   ├── XS-RevokeContent.html,v
+│       │   │   ├── XS-RevokeContent1_raster.gif,v
+│       │   │   ├── XS-RevokeContent1_raster.htm,v
+│       │   │   ├── XS-RevokeContent2_raster.gif,v
+│       │   │   ├── XS-RevokeContent2_raster.htm,v
+│       │   │   ├── XS-RevokeContent_frame.htm,v
+│       │   │   ├── XS-RevokeContent_nav.htm,v
+│       │   │   └── XS-RevokeContent_utils.js,v
+│       │   ├── XS-RevokeContent.html,v
+│       │   ├── XS-RevokeContent.vsd,v
+│       │   ├── XS-StartContentDistribution/
+│       │   │   ├── lt_off.gif,v
+│       │   │   ├── lt_over.gif,v
+│       │   │   ├── rt_off.gif,v
+│       │   │   ├── rt_over.gif,v
+│       │   │   ├── XS-StartContentDistribution.html,v
+│       │   │   ├── XS-StartContentDistribution1_raster.gif,v
+│       │   │   ├── XS-StartContentDistribution1_raster.htm,v
+│       │   │   ├── XS-StartContentDistribution2_raster.gif,v
+│       │   │   ├── XS-StartContentDistribution2_raster.htm,v
+│       │   │   ├── XS-StartContentDistribution3_raster.gif,v
+│       │   │   ├── XS-StartContentDistribution3_raster.htm,v
+│       │   │   ├── XS-StartContentDistribution_frame.htm,v
+│       │   │   ├── XS-StartContentDistribution_nav.htm,v
+│       │   │   └── XS-StartContentDistribution_utils.js,v
+│       │   ├── XS-StartContentDistribution.html,v
+│       │   └── XS-StartContentDistribution.vsd,v
+│       └── Use-Cases/
+│           └── bbserver_usecases.html,v
+├── Development/
+│   ├── EclipseHowTo.htm,v
+│   ├── GBA_SC_SetupSupplement.htm,v
+│   ├── JavaCodingGuidelines.doc,v
+│   ├── Obsoleted/
+│   │   └── BroadOn-Java-Coding.doc,v
+│   ├── OSC_CodingGuidelines.doc,v
+│   ├── ServerReleaseProcedure.doc,v
+│   ├── SetupTestServer.txt,v
+│   ├── SrcTreeOrganization.txt,v
+│   ├── VNG_CodingGuidelines.doc,v
+│   ├── VNG_ReleaseProcedure.txt,v
+│   └── WebServicesDev.doc,v
+├── index.html,v
+├── Manuals/
+│   ├── BroadOn-ACS.gif,v
+│   ├── BroadOn-Export-List.doc,v
+│   ├── BroadOn-Servers-SystemsGuide.doc,v
+│   ├── BroadOn-ServerSetupGuide.html,v
+│   ├── BroadOn-UserGuide-Network.gif,v
+│   ├── CVS/
+│   │   └── fileattr
+│   ├── Depot-ContentCD-Procedure.html,v
+│   ├── Depot-Customer-Alerts.txt,v
+│   ├── Depot-Customer-Err-Codes.doc,v
+│   ├── Depot-Customer-Err-Contexts-Map.txt,v
+│   ├── HRInstall/
+│   │   ├── HRInstallAdmin.html,v
+│   │   ├── HRInstallAdmin_files/
+│   │   │   ├── filelist.xml,v
+│   │   │   ├── header.htm,v
+│   │   │   ├── image001.gif,v
+│   │   │   ├── image002.gif,v
+│   │   │   ├── image003.gif,v
+│   │   │   ├── image004.gif,v
+│   │   │   ├── image005.gif,v
+│   │   │   ├── image006.gif,v
+│   │   │   ├── image007.gif,v
+│   │   │   ├── image008.gif,v
+│   │   │   ├── image009.gif,v
+│   │   │   ├── image010.gif,v
+│   │   │   └── image011.gif,v
+│   │   ├── IWTestPlan.html,v
+│   │   └── screenshots/
+│   │       ├── d01-halt.gif,v
+│   │       ├── d02-bad computer name.gif,v
+│   │       ├── d03-bad dhcp hostname.gif,v
+│   │       ├── d04-password mismatch.gif,v
+│   │       ├── d05-blank password.gif,v
+│   │       ├── d06-bad login.gif,v
+│   │       ├── d07-bad pppoe dns.gif,v
+│   │       ├── d08-bad static hostname.gif,v
+│   │       ├── d09-bad domain.gif,v
+│   │       ├── d10-bad static dns.gif,v
+│   │       ├── d11-bad subnet mask.gif,v
+│   │       ├── d12-bad ip address.gif,v
+│   │       ├── d13-bad gateway.gif,v
+│   │       ├── d17-not administrator.gif,v
+│   │       ├── d23-config send failed.gif,v
+│   │       ├── d24-prior install.gif,v
+│   │       ├── d25-progress.gif,v
+│   │       ├── error.html,v
+│   │       ├── list.html,v
+│   │       ├── normal.html,v
+│   │       ├── w01-welcome.gif,v
+│   │       ├── w02-license.gif,v
+│   │       ├── w03-computer name.gif,v
+│   │       ├── w04-destination dir.gif,v
+│   │       ├── w05-uplink type.gif,v
+│   │       ├── w06-dhcp hostname.gif,v
+│   │       ├── w07-static ip.gif,v
+│   │       ├── w08-pppoe.gif,v
+│   │       ├── w09-pppoe advanced.gif,v
+│   │       └── w10-reboot.gif,v
+│   ├── HROnline/
+│   │   ├── acer_daily_stats.xsl,v
+│   │   ├── acer_daily_stats_sample.xml,v
+│   │   ├── acer_stats_schema.xml,v
+│   │   ├── activation_key.dia,v
+│   │   ├── activation_key.html,v
+│   │   ├── activation_key.jpg,v
+│   │   ├── alarmmgmt.html,v
+│   │   ├── alarmmgmt.mdr,v
+│   │   ├── alarmmgmt.xml.zip,v
+│   │   ├── alarmmgmt_framework.jpg,v
+│   │   ├── alarmmgmt_handlers.jpg,v
+│   │   ├── alarmmgmt_parsers.jpg,v
+│   │   ├── alarmmgmt_sources.jpg,v
+│   │   ├── alarmmgmt_tasks.jpg,v
+│   │   ├── alarmmgmt_workflows.jpg,v
+│   │   ├── ams_2_2.html,v
+│   │   ├── ams_2_3.html,v
+│   │   ├── ams_beta.html,v
+│   │   ├── ams_snmp.html,v
+│   │   ├── audit.html,v
+│   │   ├── broadon_stats_sample.xml,v
+│   │   ├── broadon_stats_schema.xml,v
+│   │   ├── diag.html,v
+│   │   ├── hrincrsw.jpg,v
+│   │   ├── hrincrsw.vsd,v
+│   │   ├── hrincrswerd.vsd,v
+│   │   ├── hrmgmtsrv.htm,v
+│   │   ├── hrmgmtsrv.vsd,v
+│   │   ├── hrmgmtsrv_files/
+│   │   │   ├── hrmgmtsrv.css,v
+│   │   │   ├── hrmgmtsrv.xml,v
+│   │   │   ├── hrmgmtsrv_frames.htm,v
+│   │   │   ├── hrmgmtsrv_jpg_1.htm,v
+│   │   │   ├── hrmgmtsrv_jpg_1.jpg,v
+│   │   │   ├── hrmgmtsrv_nav2.htm,v
+│   │   │   ├── hrmgmtsrv_utils.js,v
+│   │   │   ├── hrmgmtsrv_zoom.htm,v
+│   │   │   ├── lt_off.gif,v
+│   │   │   ├── lt_over.gif,v
+│   │   │   ├── rt_off.gif,v
+│   │   │   └── rt_over.gif,v
+│   │   ├── hron_interface.html,v
+│   │   ├── hron_mesgs/
+│   │   │   ├── activation,v
+│   │   │   ├── problemreport,v
+│   │   │   ├── sample_mesg.txt,v
+│   │   │   ├── stat,v
+│   │   │   ├── statistics,v
+│   │   │   └── update,v
+│   │   ├── hronbb.gif,v
+│   │   ├── hronbb.htm,v
+│   │   ├── hronbb.vsd,v
+│   │   ├── hronbb1_raster.gif,v
+│   │   ├── hronbb1_raster.htm,v
+│   │   ├── hronbb2_raster.gif,v
+│   │   ├── hronbb2_raster.htm,v
+│   │   ├── hronbb_frame.htm,v
+│   │   ├── hronbb_nav.htm,v
+│   │   ├── hronbb_utils.js,v
+│   │   ├── hronline_deploy.dia,v
+│   │   ├── hronline_deploy.jpg,v
+│   │   ├── hronline_deploy_r.jpg,v
+│   │   ├── hronline_messages.html,v
+│   │   ├── hronline_servers.html,v
+│   │   ├── HROnlineBigBrain.doc,v
+│   │   ├── HROnlineBigBrain.htm,v
+│   │   ├── license_management.htm,v
+│   │   ├── lt_off.gif,v
+│   │   ├── lt_over.gif,v
+│   │   ├── perf_index.html,v
+│   │   ├── releaseMgmt.html,v
+│   │   ├── rms22-perf.html,v
+│   │   ├── rms2_2.html,v
+│   │   ├── RMSSOPStatuses.htm,v
+│   │   ├── rt_off.gif,v
+│   │   ├── rt_over.gif,v
+│   │   ├── server_arch.dia,v
+│   │   ├── server_arch.jpg,v
+│   │   ├── stat_collector.html,v
+│   │   └── stat_collector.jpg,v
+│   └── Test.doc,v
+├── Manufacturing/
+│   ├── iQue-Depot/
+│   │   └── iQCardRW-Diag.doc,v
+│   ├── iQue-Player/
+│   │   ├── Bundles,v
+│   │   ├── manf_proc_flow_player.doc,v
+│   │   ├── Pointers,v
+│   │   └── re-manf-flow-player.doc,v
+│   ├── NEC-BB-Chips/
+│   │   ├── BB-SOC_test_system_evaluation_result_0527.pdf,v
+│   │   ├── BroadOn-Manufacturing-System.doc,v
+│   │   ├── BroadOn-MasterPC-UIDiagrams.ppt,v
+│   │   ├── Master-PC-Setup-Procedure.htm,v
+│   │   ├── MasterPC-1.0-ReleaseNotes.doc,v
+│   │   ├── MasterPC-1.1-ReleaseNotes.doc,v
+│   │   ├── MasterPC-1.1-UpgradeInstructions-MPC1.doc,v
+│   │   ├── MasterPC-1.2-ReleaseNotes.doc,v
+│   │   ├── MasterPC-1.3-ReleaseNotes.doc,v
+│   │   ├── MasterPC-1.4-ReleaseNotes.doc,v
+│   │   ├── MasterPC-UserGuide.doc,v
+│   │   ├── MasterPC_Ver_1_0.tgz,v
+│   │   ├── MasterPC_Ver_1_1.tgz,v
+│   │   ├── mpc001.info,v
+│   │   ├── mpc002.info,v
+│   │   ├── NEC-Manufactureing-System.ppt,v
+│   │   ├── nec_code/
+│   │   │   ├── fid_menu.tcl,v
+│   │   │   ├── flash_func.c9k,v
+│   │   │   ├── function_flash_id_get().doc,v
+│   │   │   ├── function_flash_output().doc,v
+│   │   │   ├── presentation.ppt,v
+│   │   │   └── Test_Program_flow.ppt,v
+│   │   ├── necmfg.gif,v
+│   │   └── necmfg.vsd,v
+│   └── NEC-NNGC-Chips/
+│       ├── dms001.info,v
+│       └── Hollywood_IdCreator_UserGuide.doc,v
+├── NCL-comm/
+│   ├── Nintendo_IDC.vsd,v
+│   └── Store-brief.doc,v
+├── obsoleted/
+│   ├── bbdeployment/
+│   │   ├── BroadOn-Deployment-Plan.xls,v
+│   │   ├── INFR-1.0-alpha-plan.html,v
+│   │   ├── INFR-1.0-beta-plan.html,v
+│   │   ├── INFR-1.0-beta1-plan.html,v
+│   │   ├── INFR-1.0-beta2-plan.html,v
+│   │   ├── INFR-1.0-Deployment.html,v
+│   │   ├── iQue-Deployment-Plan.xls,v
+│   │   └── iQue-Schedule.mpp,v
+│   ├── dns.txt,v
+│   ├── index-old.html,v
+│   ├── infr-engr-future.html,v
+│   ├── infr-engr-notes.html,v
+│   ├── infr-engr-status.html,v
+│   ├── infr-engr-testing.html,v
+│   ├── infr-ToDoList.html,v
+│   ├── reverse-dns.txt,v
+│   ├── server_setup.html,v
+│   └── Systems-Configuration.xls,v
+├── Operations/
+│   ├── Asus-Contacts,v
+│   ├── BarCode-Printing,v
+│   ├── BeautifulCardPrintFlow.doc,v
+│   ├── Depot-Hardware-Problems,v
+│   ├── GameTicketFlow.ppt,v
+│   ├── Hardware-Failures,v
+│   └── iQue-Contacts,v
+├── Presentations/
+│   ├── Handheld_050602/
+│   │   └── BeSS_Overview.doc,v
+│   ├── Handheld_050902/
+│   │   ├── Attic/
+│   │   │   ├── BeSS-9-2-2005.doc,v
+│   │   │   └── BeSS_050902.ppt,v
+│   │   ├── BeSS_050831.doc,v
+│   │   ├── BeSS_Additions_050904.doc,v
+│   │   ├── BeSS_Slides_050901.ppt,v
+│   │   └── BeSS_Slides_050902.ppt,v
+│   ├── Infra_041215/
+│   │   └── Infra_Slides_041215.ppt,v
+│   ├── Infra_050411/
+│   │   └── eCommerce_Infrastructure.doc,v
+│   ├── Infra_050908/
+│   │   └── Infra_Slides_050907.ppt,v
+│   ├── Infra_060228/
+│   │   ├── IDC.doc,v
+│   │   ├── Infrastructure(2)-2006-02-28.ppt,v
+│   │   ├── Infrastructure-2006-02-28.ppt,v
+│   │   └── Nintendo_02_28_06_eTicket.ppt,v
+│   └── SecureCart_040511/
+│       └── GBA-Security.html,v
+├── Proposals/
+│   ├── Infra-RFC-Oct-2005/
+│   │   ├── Attic/
+│   │   │   ├── Load balancer.doc,v
+│   │   │   └── RemoteManagementModule.doc,v
+│   │   ├── BusinessManagement.doc,v
+│   │   ├── Content Distribution.doc,v
+│   │   ├── content publishing.doc,v
+│   │   ├── Data Center Framework.doc,v
+│   │   ├── DeviceMfr.doc,v
+│   │   ├── Drawing2.png,v
+│   │   ├── Drawing2.vsd,v
+│   │   ├── eCommerceModule.doc,v
+│   │   ├── eticket server.doc,v
+│   │   ├── IdentityAuthentication.doc,v
+│   │   ├── NetworkPresence.doc,v
+│   │   ├── OnlineGame.doc,v
+│   │   ├── Overview.doc,v
+│   │   ├── PaymentAuthorization.doc,v
+│   │   ├── PeerToPeer.doc,v
+│   │   ├── prepaid card.doc,v
+│   │   ├── Proposal.doc,v
+│   │   ├── Proposal.pdf,v
+│   │   └── WebPortal.doc,v
+│   ├── Modules-Jan-2006.doc,v
+│   ├── Proposal-Dec-2005.doc,v
+│   └── Server-Product-Sheets.doc,v
+├── Public/
+│   ├── iQue-Dev/
+│   │   ├── Instructions-CommonServlet.doc,v
+│   │   ├── iQue-MSTest-UserGuide.doc,v
+│   │   ├── iQue@home-build-howto.doc,v
+│   │   ├── iQue@home-customization.doc,v
+│   │   ├── setup-build-env,v
+│   │   ├── setup-test-env,v
+│   │   ├── test-bus,v
+│   │   └── test-competitions,v
+│   ├── iQue-Doc/
+│   │   ├── Member_Rank_System.doc,v
+│   │   ├── NC_Viewer_Process.pdf,v
+│   │   ├── NC_Viewer_Tutorial_Script.doc,v
+│   │   ├── Some_Requirement.doc,v
+│   │   ├── UI_Viewer_MediaPlayer.doc,v
+│   │   └── Viewer_Fun_Brief.doc,v
+│   ├── Manuals/
+│   │   ├── BroadOn-Servers-UserGuide.doc,v
+│   │   ├── Content-CD-Generation.txt,v
+│   │   ├── DB-Server-Installation.doc,v
+│   │   ├── DB-Server-Quick-Installation.doc,v
+│   │   ├── Depot-Bonus-SC-Roles-Test.doc,v
+│   │   ├── Depot-Customer-TestPlan.doc,v
+│   │   ├── Depot-Diag.doc,v
+│   │   ├── Depot-Manufacturing.doc,v
+│   │   ├── EMS-SystemsGuide.doc,v
+│   │   ├── GameTicket-FileFormat.html,v
+│   │   ├── gameTicket-SOP.html,v
+│   │   ├── GameTicketFlow.ppt,v
+│   │   ├── GameTicketSpecification.doc,v
+│   │   ├── iQue-AMS-CheckList.doc,v
+│   │   ├── iQue-CityCode.doc,v
+│   │   ├── iQue-Competitions.doc,v
+│   │   ├── iQue-Depot-MaintGuide.doc,v
+│   │   ├── iQue-Depot-OpGuide.doc,v
+│   │   ├── iQue-Depot-SupportUserGuide.doc,v
+│   │   ├── iQue-Depot-UserGuide.doc,v
+│   │   ├── iQue-Depot.jpg,v
+│   │   ├── iQue-GameTickets.doc,v
+│   │   ├── iQue-OpsCenter-FailoverProcedure.doc,v
+│   │   ├── iQue-ProductOverview.doc,v
+│   │   ├── iQue-RMA-Manager-Help.htm,v
+│   │   ├── iQue-ServerRestart.doc,v
+│   │   ├── iQue-Servers-SystemsGuide.doc,v
+│   │   ├── iQue-Servers-UserGuide.doc,v
+│   │   ├── iQue-ServerSetupGuide.doc,v
+│   │   ├── iQue-ServerSetupGuide.html,v
+│   │   ├── iQue-SmartCard-Issuer.doc,v
+│   │   ├── iQue-System.jpg,v
+│   │   ├── iQue-SystemGuide-IDC.gif,v
+│   │   ├── iQue-SystemGuide-System.gif,v
+│   │   ├── iQue-UserGuide-Network.gif,v
+│   │   ├── OracleRecoveryGuide.doc,v
+│   │   ├── OracleRecoveryOverview.doc,v
+│   │   ├── Publishing-Instructions.doc,v
+│   │   └── RMS-UserGuide.doc,v
+│   ├── NetC/
+│   │   └── XMLRPC_DTD.txt,v
+│   ├── NetConfig/
+│   │   ├── Beta/
+│   │   │   └── Beta-Servers.html,v
+│   │   ├── iQue-HQ/
+│   │   │   ├── Development-Servers,v
+│   │   │   └── iQue-CorporateNetwork.vsd,v
+│   │   ├── Lab/
+│   │   │   ├── Lab-Servers.html,v
+│   │   │   ├── Lab-Systems-Config.vsd,v
+│   │   │   └── Lab-Systems.xls,v
+│   │   └── Prod/
+│   │       ├── BCC-NetworkConfiguration.vsd,v
+│   │       ├── EMS-NetworkConfiguration.vsd,v
+│   │       ├── EMS-System-Network.gif,v
+│   │       ├── IDC HA Config.doc,v
+│   │       ├── iQue-Diagrams.vsd,v
+│   │       ├── iQue-IDC.jpg,v
+│   │       ├── iQue-IDC.vsd,v
+│   │       ├── iQue-NetworkConfiguration.vsd,v
+│   │       ├── iQue-NetworkDiagram-nonHA.jpg,v
+│   │       ├── iQue-NetworkDiagram.jpg,v
+│   │       ├── iQue-OpsCenter.jpg,v
+│   │       ├── iQue-ProductionNetwork.doc,v
+│   │       ├── Lantronix-Map,v
+│   │       ├── Netscreen-config.jpg,v
+│   │       └── Netscreen-config.vsd,v
+│   ├── Test/
+│   │   └── Depot-Test-Plan.doc,v
+│   └── VNG/
+│       └── VNG_api.doc,v
+├── References/
+│   ├── Foxconn/
+│   │   ├── BB Player Label Spec-CPBG(ENG).doc,v
+│   │   └── BB Player Label Spec-CPBG.doc,v
+│   ├── GameSpyDS/
+│   │   ├── 2player,v
+│   │   ├── 4player,v
+│   │   ├── regional-search,v
+│   │   ├── register,v
+│   │   ├── search,v
+│   │   ├── search2,v
+│   │   └── search3,v
+│   ├── IBM/
+│   │   └── IBM-JVM142-Diag.pdf,v
+│   ├── IGDA/
+│   │   ├── IGDA_Online_Games_Whitepaper_2002.pdf,v
+│   │   ├── IGDA_Online_Games_Whitepaper_2003.pdf,v
+│   │   ├── IGDA_PSW_Whitepaper_2004.pdf,v
+│   │   └── IGDA_WebDL_Whitepaper_2004.pdf,v
+│   ├── iQue/
+│   │   ├── DepotBroadband.doc,v
+│   │   ├── GameCompetition_2003_Q4.doc,v
+│   │   ├── GameCompetition_FAQ_2003_Q4.doc,v
+│   │   ├── iQue_QPA_CA_Report.xls,v
+│   │   ├── iQueClubSchema.doc,v
+│   │   ├── iQueDepotTestProcedure.doc,v
+│   │   ├── iQuePlayerManual/
+│   │   │   ├── ique ver1.4 English Version.files/
+│   │   │   │   ├── image001.gif,v
+│   │   │   │   ├── image002.jpg,v
+│   │   │   │   ├── image003.jpg,v
+│   │   │   │   ├── image004.jpg,v
+│   │   │   │   ├── image005.jpg,v
+│   │   │   │   ├── image006.gif,v
+│   │   │   │   ├── image007.jpg,v
+│   │   │   │   ├── image008.jpg,v
+│   │   │   │   ├── image009.gif,v
+│   │   │   │   ├── image010.gif,v
+│   │   │   │   ├── image011.jpg,v
+│   │   │   │   ├── image012.jpg,v
+│   │   │   │   ├── image013.jpg,v
+│   │   │   │   ├── image014.jpg,v
+│   │   │   │   ├── image015.gif,v
+│   │   │   │   └── image016.gif,v
+│   │   │   └── ique ver1.5 English Version.htm,v
+│   │   ├── MzmLocalizationReport.doc,v
+│   │   ├── NetworkingPokemonDesign.doc,v
+│   │   ├── OnlinePokemonProject_Design.ppt,v
+│   │   ├── super mario 4.xls,v
+│   │   └── TitleCodeRules.doc,v
+│   ├── iTengo-CDMA/
+│   │   ├── 2080a.rar,v
+│   │   ├── 2080AH_X Linux driver user guide.rar,v
+│   │   └── Fidelix-FD5105x.3.1.1.04.rar,v
+│   ├── nCipher/
+│   └── Siras-Electronics/
+│       └── Siras-ElectronicRegistration.pdf,v
+├── Releases/
+│   ├── Infrastructure/
+│   │   ├── Release-1.0.0-4,v
+│   │   ├── Release-1.0.5,v
+│   │   ├── Release-1.1.0,v
+│   │   ├── Release-1.1.1,v
+│   │   ├── Release-1.1.2,v
+│   │   ├── Release-1.1.3,v
+│   │   ├── Release-1.2.0,v
+│   │   ├── Release-1.2.1,v
+│   │   ├── Release-1.3.0,v
+│   │   ├── Release-1.3.1,v
+│   │   ├── Release-1.3.2,v
+│   │   ├── Release-1.3.3,v
+│   │   ├── Release-1.3.4,v
+│   │   ├── Release-1.4.0,v
+│   │   ├── Release-1.4.1,v
+│   │   └── Release-1.4.2,v
+│   └── NC_SDK/
+│       ├── ReleaseNote-0.1,v
+│       ├── ReleaseNote-0.2,v
+│       ├── ReleaseNote-0.3,v
+│       └── ReleaseNote-0.4,v
+├── Researches/
+│   ├── FirewallTypes.doc,v
+│   ├── NameResolutionNotes.doc,v
+│   ├── PokemonExplained.doc,v
+│   ├── SocialNetwork.doc,v
+│   ├── VoiceCodecSurvey.xls,v
+│   └── XboxNetworking.html,v
+├── Schedules/
+│   ├── CurrentTasks.xls,v
+│   ├── iQue-Sw-Dev.doc,v
+│   ├── Schedule-2005-Q1.xls,v
+│   ├── Schedule-2005-Q2.xls,v
+│   ├── Schedule-2005.doc,v
+│   └── VNG_API_Status.doc,v
+└── Security/
+    ├── BroadOn-PKI-Implementation.doc,v
+    ├── BroadOn-PKI-Policy.doc,v
+    ├── BroadOn-PKI.gif,v
+    ├── BroadOn-PKI.vsd,v
+    ├── certs/
+    │   ├── index.html,v
+    │   ├── root_cert_beta.der,v
+    │   └── root_cert_prod.der,v
+    ├── nShield.pdf,v
+    └── Port-Scan,v

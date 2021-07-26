@@ -1,0 +1,20 @@
+libs/
+└── libvng/
+    ├── interface/
+    │   ├── vng.h,v
+    │   ├── vngerr.h,v
+    │   ├── vngtypes.h,v
+    │   └── vngutil.h,v
+    ├── sketch/
+    │   ├── vng.c,v
+    │   ├── vngbuddy.c,v
+    │   ├── vngbuddy.h,v
+    │   ├── vnginfo.c,v
+    │   ├── vnginfo.h,v
+    │   ├── vngmem.c,v
+    │   ├── vngmem.h,v
+    │   ├── vngmsg.h,v
+    │   ├── vngsstat.h,v
+    │   └── vngthread.h,v
+    ├── unix/
+    └── win32/

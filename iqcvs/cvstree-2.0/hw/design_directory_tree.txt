@@ -1,0 +1,314 @@
+design/
+├── avocet/
+│   ├── 4PORT_HUB.DBK,v
+│   ├── 4PORT_HUB.DSN,v
+│   ├── 4PORT_HUB.opj,v
+│   ├── archieve_new/
+│   │   ├── avocet_0205.bom,v
+│   │   ├── avocet_0205.drc,v
+│   │   ├── avocet_0205.dsn,v
+│   │   ├── avocet_0205.net,v
+│   │   └── avocet_0205.opj,v
+│   ├── AV_SUBSYSTEM.DSN,v
+│   ├── avocet.bom,v
+│   ├── AVOCET.DBK,v
+│   ├── avocet.DSN,v
+│   ├── avocet.net,v
+│   ├── AVOCET.ONL,v
+│   ├── avocet.opj,v
+│   ├── avocet.prn,v
+│   ├── avocet_sme.DSN,v
+│   ├── DESIGN1.BOM,v
+│   ├── design1.dbk,v
+│   ├── DESIGN1.DRC,v
+│   ├── design1.dsn,v
+│   ├── DESIGN1.NET,v
+│   ├── DESIGN1.ONL,v
+│   ├── design1.opj,v
+│   ├── doc/
+│   │   ├── Avocet Layout Design Specifications.doc,v
+│   │   ├── avocet_parts_list.xls,v
+│   │   ├── avocet~1.xls,v
+│   │   ├── chip dimensions.doc,v
+│   │   ├── chipdi~1.doc,v
+│   │   └── floor_~1/
+│   │       ├── floor_~1.vsd,v
+│   │       ├── floor_~2.vsd,v
+│   │       ├── floor_~3.vsd,v
+│   │       └── floor_~4.vsd,v
+│   ├── dvt_sme/
+│   │   ├── 10902BOCT26GBR/
+│   │   │   ├── adt0127.pho,v
+│   │   │   ├── adt0127.rep,v
+│   │   │   ├── adt0630.pho,v
+│   │   │   ├── adt0630.rep,v
+│   │   │   ├── art01.pho,v
+│   │   │   ├── art01.rep,v
+│   │   │   ├── art02.pho,v
+│   │   │   ├── art02.rep,v
+│   │   │   ├── art03.pho,v
+│   │   │   ├── art03.rep,v
+│   │   │   ├── art04.pho,v
+│   │   │   ├── art04.rep,v
+│   │   │   ├── art05.pho,v
+│   │   │   ├── art05.rep,v
+│   │   │   ├── art06.pho,v
+│   │   │   ├── art06.rep,v
+│   │   │   ├── dd0124.pho,v
+│   │   │   ├── dd0124.rep,v
+│   │   │   ├── drl01.drl,v
+│   │   │   ├── drl01.lst,v
+│   │   │   ├── drl01.rep,v
+│   │   │   ├── Gerber1.zip,v
+│   │   │   ├── Gerber2.zip,v
+│   │   │   ├── Gerber3.zip,v
+│   │   │   ├── Gerber4.zip,v
+│   │   │   ├── sm0121.pho,v
+│   │   │   ├── sm0121.rep,v
+│   │   │   ├── sm0628.pho,v
+│   │   │   ├── sm0628.rep,v
+│   │   │   ├── smd0123.pho,v
+│   │   │   ├── smd0123.rep,v
+│   │   │   ├── smd0622.pho,v
+│   │   │   ├── smd0622.rep,v
+│   │   │   ├── sst0126.pho,v
+│   │   │   ├── sst0126.rep,v
+│   │   │   ├── sst0629.pho,v
+│   │   │   └── sst0629.rep,v
+│   │   ├── 10902OCT26/
+│   │   │   └── 10902OCT26.pcb,v
+│   │   ├── 10902OCT26.asc,v
+│   │   ├── 10902OCT26_report1.txt,v
+│   │   └── AVOCET_SME.DSN,v
+│   ├── dvt_wap/
+│   │   ├── AVOCET_SME.DSN,v
+│   │   └── AVOCET_WAP_BOM.xls,v
+│   ├── EM8400.DBK,v
+│   ├── EM8400.DSN,v
+│   ├── em8400.opj,v
+│   ├── evt1a/
+│   │   ├── avocet.drc,v
+│   │   ├── avocet_041701.bom,v
+│   │   ├── avocet_041701.dsn,v
+│   │   ├── avocet_041701.net,v
+│   │   └── f1.opj,v
+│   ├── evt1b/
+│   │   ├── avocet_0524.bom,v
+│   │   ├── avocet_0524.dsn,v
+│   │   ├── avocet_0524.net,v
+│   │   └── avocet_0524.opj,v
+│   ├── evt1c/
+│   │   ├── avocet.drc,v
+│   │   ├── avocet_0706c.bom,v
+│   │   ├── avocet_0706c.dsn,v
+│   │   ├── avocet_0706c.net,v
+│   │   └── f1.opj,v
+│   ├── evt1c_ambit/
+│   │   ├── avocet_0725.bom,v
+│   │   ├── avocet_0725.dsn,v
+│   │   └── avocet_0725.net,v
+│   ├── evt2/
+│   │   ├── avocet.bom,v
+│   │   ├── avocet_0915.bom,v
+│   │   ├── avocet_0915.dsn,v
+│   │   ├── avocet_0915.net,v
+│   │   └── gerbers/
+│   │       ├── 10902_PCB.ZIP,v
+│   │       ├── 10902gbr.zip,v
+│   │       └── 10902PDFzip.zip,v
+│   ├── evt2_sme/
+│   │   ├── avocet_sme.DSN,v
+│   │   ├── avocet_sme_bom_918.xls,v
+│   │   └── bom_918.xls,v
+│   ├── ISA10BASET.DBK,v
+│   ├── ISA10BASET.DSN,v
+│   ├── ISA10baseT.opj,v
+│   ├── pvt2_sme/
+│   │   ├── AVOCET_SME.DSN,v
+│   │   └── Gerber220/
+│   │       ├── 10902D.pcb,v
+│   │       ├── 10902D_XY.asc,v
+│   │       ├── 10902D_XY.xls,v
+│   │       ├── 10902dgbr.zip,v
+│   │       ├── adt0127.pho,v
+│   │       ├── adt0127.rep,v
+│   │       ├── adt0630.pho,v
+│   │       ├── adt0630.rep,v
+│   │       ├── art01.pho,v
+│   │       ├── art01.rep,v
+│   │       ├── art02.pho,v
+│   │       ├── art02.rep,v
+│   │       ├── art03.pho,v
+│   │       ├── art03.rep,v
+│   │       ├── art04.pho,v
+│   │       ├── art04.rep,v
+│   │       ├── art05.pho,v
+│   │       ├── art05.rep,v
+│   │       ├── art06.pho,v
+│   │       ├── art06.rep,v
+│   │       ├── AVOCET_SME.BOM,v
+│   │       ├── AVOCET_SME.NET,v
+│   │       ├── dd0124.pho,v
+│   │       ├── dd0124.rep,v
+│   │       ├── drl01.drl,v
+│   │       ├── drl01.lst,v
+│   │       ├── drl01.rep,v
+│   │       ├── sm0121.pho,v
+│   │       ├── sm0121.rep,v
+│   │       ├── sm0628.pho,v
+│   │       ├── sm0628.rep,v
+│   │       ├── smd0123.pho,v
+│   │       ├── smd0123.rep,v
+│   │       ├── smd0622.pho,v
+│   │       ├── smd0622.rep,v
+│   │       ├── sst0126.pho,v
+│   │       ├── sst0126.rep,v
+│   │       ├── sst0629.pho,v
+│   │       └── sst0629.rep,v
+│   ├── pvt3_sme/
+│   │   ├── AVOCET_SME.BOM,v
+│   │   ├── AVOCET_SME.DSN,v
+│   │   ├── AVOCET_SME.NET,v
+│   │   └── gerber_pvt3/
+│   ├── pvt_sme/
+│   │   ├── AVOCET_SME.BOM,v
+│   │   ├── AVOCET_SME.CMP,v
+│   │   ├── AVOCET_SME.DBK,v
+│   │   ├── AVOCET_SME.DRC,v
+│   │   ├── AVOCET_SME.DSN,v
+│   │   ├── AVOCET_SME.EXP,v
+│   │   ├── AVOCET_SME.NET,v
+│   │   ├── AVOCET_SME.ONL,v
+│   │   ├── avocet_sme.opj,v
+│   │   ├── BOM1129.xls,v
+│   │   ├── BOM1130.xls,v
+│   │   ├── Check/
+│   │   │   ├── 10902cDEC20.asc,v
+│   │   │   ├── 10902cDEC20.zip,v
+│   │   │   ├── 10902CGBR.zip,v
+│   │   │   ├── adt0127.pho,v
+│   │   │   ├── adt0127.rep,v
+│   │   │   ├── adt0630.pho,v
+│   │   │   ├── adt0630.rep,v
+│   │   │   ├── art01.pho,v
+│   │   │   ├── art01.rep,v
+│   │   │   ├── art02.pho,v
+│   │   │   ├── art02.rep,v
+│   │   │   ├── art03.pho,v
+│   │   │   ├── art03.rep,v
+│   │   │   ├── art04.pho,v
+│   │   │   ├── art04.rep,v
+│   │   │   ├── art05.pho,v
+│   │   │   ├── art05.rep,v
+│   │   │   ├── art06.pho,v
+│   │   │   ├── art06.rep,v
+│   │   │   ├── AVOCET_SME.BOM,v
+│   │   │   ├── dd0124.pho,v
+│   │   │   ├── dd0124.rep,v
+│   │   │   ├── drl01.drl,v
+│   │   │   ├── drl01.lst,v
+│   │   │   ├── drl01.rep,v
+│   │   │   ├── Gerber1/
+│   │   │   ├── Gerber1.zip,v
+│   │   │   ├── Gerber2/
+│   │   │   ├── Gerber2.zip,v
+│   │   │   ├── Gerber3/
+│   │   │   ├── Gerber3.zip,v
+│   │   │   ├── Gerber4/
+│   │   │   ├── Gerber4.zip,v
+│   │   │   ├── sm0121.pho,v
+│   │   │   ├── sm0121.rep,v
+│   │   │   ├── sm0628.pho,v
+│   │   │   ├── sm0628.rep,v
+│   │   │   ├── smd0123.pho,v
+│   │   │   ├── smd0123.rep,v
+│   │   │   ├── smd0622.pho,v
+│   │   │   ├── smd0622.rep,v
+│   │   │   ├── sst0126.pho,v
+│   │   │   ├── sst0126.rep,v
+│   │   │   ├── sst0629.pho,v
+│   │   │   └── sst0629.rep,v
+│   │   ├── import.txt,v
+│   │   ├── List of Changes.doc,v
+│   │   └── Schematic/
+│   │       └── AVOCET_SME.DSN,v
+│   └── serial/
+│       ├── 10909GBR/
+│       │   ├── adt001027.pho,v
+│       │   ├── adt001027.rep,v
+│       │   ├── art001.pho,v
+│       │   ├── art001.rep,v
+│       │   ├── art002.pho,v
+│       │   ├── art002.rep,v
+│       │   ├── dd001024.pho,v
+│       │   ├── dd001024.rep,v
+│       │   ├── drl001.drl,v
+│       │   ├── drl001.lst,v
+│       │   ├── drl001.rep,v
+│       │   ├── sm001021.pho,v
+│       │   ├── sm001021.rep,v
+│       │   ├── sm002028.pho,v
+│       │   ├── sm002028.rep,v
+│       │   ├── smd001023.pho,v
+│       │   ├── smd001023.rep,v
+│       │   ├── sst001026.pho,v
+│       │   └── sst001026.rep,v
+│       └── SERIAl.DSN,v
+├── peanut/
+│   ├── archie~1/
+│   │   ├── peanut~1.bom,v
+│   │   ├── peanut~1.dsn,v
+│   │   ├── peanut~1.net,v
+│   │   ├── peanut~1.opj,v
+│   │   └── peanut~1.ps,v
+│   ├── archie~2/
+│   │   ├── f1.opj,v
+│   │   ├── hunter~2.bom,v
+│   │   ├── peanut~1.bom,v
+│   │   ├── peanut~1.drc,v
+│   │   ├── peanut~1.dsn,v
+│   │   ├── peanut~1.net,v
+│   │   ├── peanut~1.opj,v
+│   │   └── peanut~2.ps,v
+│   ├── archie~3/
+│   │   ├── peanut~1.bom,v
+│   │   ├── peanut~1.drc,v
+│   │   ├── peanut~1.dsn,v
+│   │   ├── peanut~1.net,v
+│   │   └── peanut~1.opj,v
+│   ├── avnet_~1.txt,v
+│   ├── design1.bom,v
+│   ├── design1.dbk,v
+│   ├── design1.drc,v
+│   ├── design1.dsn,v
+│   ├── design1.exp,v
+│   ├── design1.net,v
+│   ├── design1.onl,v
+│   ├── design1.opj,v
+│   ├── design1.upd,v
+│   ├── design~1.bom,v
+│   ├── docs/
+│   │   └── po_hun~1.doc,v
+│   ├── gerber~1/
+│   │   ├── assemb~1.pdf,v
+│   │   ├── assemb~2.pdf,v
+│   │   ├── fabric~1.pdf,v
+│   │   ├── l1_top.pdf,v
+│   │   ├── l2_gro~1.pdf,v
+│   │   ├── l3_int~1.pdf,v
+│   │   ├── l4_int~1.pdf,v
+│   │   ├── l5_int~1.pdf,v
+│   │   ├── l6_int~1.pdf,v
+│   │   ├── l7_pow~1.pdf,v
+│   │   ├── l8_bot~1.pdf,v
+│   │   ├── legend~1.pdf,v
+│   │   ├── legend~2.pdf,v
+│   │   ├── peanut~1.zip,v
+│   │   ├── solder~1.pdf,v
+│   │   └── solder~2.pdf,v
+│   ├── peanut~1.doc,v
+│   ├── project1.opj,v
+│   └── project2.opj,v
+├── rf_lib.obk,v
+├── rf_lib.olb,v
+└── rf_lib.opj,v

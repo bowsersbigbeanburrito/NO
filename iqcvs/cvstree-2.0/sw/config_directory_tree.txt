@@ -1,0 +1,241 @@
+config/
+├── lab1/
+│   ├── common/
+│   │   ├── broadon.conf,v
+│   │   └── files.tar,v
+│   ├── server65/
+│   │   ├── broadon.conf,v
+│   │   └── files.tar,v
+│   ├── server71/
+│   │   ├── broadon.conf,v
+│   │   └── files.tar,v
+│   └── server72/
+│       ├── broadon.conf,v
+│       └── files.tar,v
+├── lab2/
+│   ├── common/
+│   │   ├── broadon.conf,v
+│   │   └── files.tar,v
+│   ├── server71/
+│   │   └── broadon.conf,v
+│   ├── server72/
+│   │   ├── broadon.conf,v
+│   │   └── files.tar,v
+│   ├── server73/
+│   │   └── broadon.conf,v
+│   └── server74/
+│       └── broadon.conf,v
+├── lab3/
+│   ├── Attic/
+│   │   └── README,v
+│   ├── common/
+│   │   ├── Attic/
+│   │   │   ├── BBserver.properties.tmpl.cps,v
+│   │   │   ├── BBserver.properties.tmpl.ets,v
+│   │   │   ├── BBserver.properties.tmpl.pas,v
+│   │   │   ├── CLSconfig.properties,v
+│   │   │   ├── eTicket-key.pem,v
+│   │   │   ├── postinst,v
+│   │   │   ├── publisher-key.pem,v
+│   │   │   ├── resolv.conf,v
+│   │   │   └── resolv.conf.tmpl,v
+│   │   ├── broadon.conf,v
+│   │   ├── broadon.conf.use_lab1_db,v
+│   │   ├── broadon.conf.use_lab3_db,v
+│   │   ├── CVS/
+│   │   │   └── fileattr
+│   │   ├── files/
+│   │   │   ├── etc/
+│   │   │   │   └── resolv.conf,v
+│   │   │   ├── flash/
+│   │   │   └── opt/
+│   │   │       └── broadon/
+│   │   │           └── pkgs/
+│   │   │               ├── cls/
+│   │   │               │   └── conf/
+│   │   │               ├── cps/
+│   │   │               │   └── conf/
+│   │   │               ├── ets/
+│   │   │               │   └── conf/
+│   │   │               └── pas/
+│   │   │                   └── conf/
+│   │   ├── files.tar,v
+│   │   └── flash/
+│   │       └── Attic/
+│   │           ├── ca_chain.pem,v
+│   │           ├── devel-CA-cert.raw,v
+│   │           ├── devel-CA-key.pem,v
+│   │           ├── devel-eTicket-cert.raw,v
+│   │           ├── devel-eTicket-cert.raw-r1.1,v
+│   │           ├── devel-eTicket-cert.raw-r1.2,v
+│   │           ├── devel-eTicket-hw-key.pem,v
+│   │           ├── devel-eTicket-hw-key.pem-r1.1,v
+│   │           ├── devel-eTicket-hw-key.pem-r1.2,v
+│   │           ├── devel-eTicket-sw-key.pem,v
+│   │           ├── devel-eTicket-sw-key.pem-r1.2,v
+│   │           ├── devel-mftr-cert.raw,v
+│   │           ├── devel-publisher-cert.raw,v
+│   │           ├── devel-publisher-cert.raw-r1.1,v
+│   │           ├── devel-publisher-cert.raw-r1.2,v
+│   │           ├── devel-publisher-hw-key.pem,v
+│   │           ├── devel-publisher-hw-key.pem-r1.1,v
+│   │           ├── devel-publisher-hw-key.pem-r1.2,v
+│   │           ├── devel-publisher-sw-key.pem,v
+│   │           ├── devel-publisher-sw-key.pem-r1.2,v
+│   │           ├── devel-root-cert.pem,v
+│   │           ├── devel-root-key.pem,v
+│   │           ├── devel-root-sw-key.pem,v
+│   │           ├── identity.pem,v
+│   │           ├── jssecacerts,v
+│   │           ├── keystore,v
+│   │           ├── private_key.pem,v
+│   │           └── root_cert.pem,v
+│   ├── server64/
+│   │   ├── Attic/
+│   │   │   ├── BBserver.properties.tmpl.cps,v
+│   │   │   ├── named.conf,v
+│   │   │   └── named.conf.tmpl,v
+│   │   ├── broadon.conf,v
+│   │   ├── broadon.conf.lb_off,v
+│   │   ├── broadon.conf.lb_on,v
+│   │   ├── broadon.conf.orig,v
+│   │   ├── files/
+│   │   │   └── etc/
+│   │   │       └── Attic/
+│   │   │           └── named.conf,v
+│   │   ├── files.tar,v
+│   │   └── postinst,v
+│   └── server65/
+│       ├── Attic/
+│       │   ├── BBserver.properties.tmpl.cps,v
+│       │   ├── CLSconfig.properties,v
+│       │   ├── named.conf,v
+│       │   └── named.conf.tmpl,v
+│       ├── broadon.conf,v
+│       ├── broadon.conf.lb_off,v
+│       ├── broadon.conf.lb_on,v
+│       ├── files/
+│       │   ├── etc/
+│       │   │   └── Attic/
+│       │   │       └── named.conf,v
+│       │   └── opt/
+│       │       ├── broadon/
+│       │       │   └── pkgs/
+│       │       │       └── cps/
+│       │       │           └── conf/
+│       │       └── nfast/
+│       │           └── kmdata/
+│       │               ├── config/
+│       │               ├── hardserver.d/
+│       │               ├── local/
+│       │               └── preload/
+│       ├── files.tar,v
+│       ├── flash/
+│       ├── kmdata/
+│       │   ├── config/
+│       │   │   └── Attic/
+│       │   │       └── config,v
+│       │   ├── features/
+│       │   ├── hardserver.d/
+│       │   │   └── Attic/
+│       │   │       └── kneti-2329-DCFD-0AD6,v
+│       │   ├── local/
+│       │   │   └── Attic/
+│       │   │       ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_1,v
+│       │   │       ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_2,v
+│       │   │       ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_3,v
+│       │   │       ├── card_98dc464cdbb7171fb469668195df4cdcc479ff1a_4,v
+│       │   │       ├── cards_98dc464cdbb7171fb469668195df4cdcc479ff1a,v
+│       │   │       ├── key_embed_08164abb71405bfec266da8f9e3474bab1d925c7,v
+│       │   │       ├── key_embed_665c13f5575c986cd53e5ba897856a3dde0fb9f0,v
+│       │   │       ├── key_embed_7f4c69123ce50842854f9de6c57170f69851a8fa,v
+│       │   │       ├── key_embed_aff0f842f7154e781d69d1e385e738ebeae44c05,v
+│       │   │       ├── key_pkcs11_uccf0ebc1320660374052cc4138e67f0177992f34f-f0ed48653c056b62b8e38a4fb4e028f63d14c7c4,v
+│       │   │       ├── module_2329-DCFD-0AD6,v
+│       │   │       └── world,v
+│       │   ├── preload/
+│       │   │   └── Attic/
+│       │   │       └── default,v
+│       │   └── tmp/
+│       └── postinst,v
+└── NOA_test/
+    ├── common/
+    │   ├── broadon.conf,v
+    │   ├── files/
+    │   │   ├── etc/
+    │   │   │   └── Attic/
+    │   │   │       └── resolv.conf,v
+    │   │   ├── flash/
+    │   │   │   └── Attic/
+    │   │   │       ├── ca_chain.pem,v
+    │   │   │       ├── devel-CA-cert.raw,v
+    │   │   │       ├── devel-eTicket-cert.raw-r1.1,v
+    │   │   │       ├── devel-eTicket-cert.raw-r1.2,v
+    │   │   │       ├── devel-eTicket-hw-key.pem-r1.1,v
+    │   │   │       ├── devel-eTicket-hw-key.pem-r1.2,v
+    │   │   │       ├── devel-eTicket-sw-key.pem-r1.2,v
+    │   │   │       ├── devel-publisher-cert.raw-r1.1,v
+    │   │   │       ├── devel-publisher-cert.raw-r1.2,v
+    │   │   │       ├── devel-publisher-hw-key.pem-r1.1,v
+    │   │   │       ├── devel-publisher-hw-key.pem-r1.2,v
+    │   │   │       ├── devel-publisher-sw-key.pem-r1.2,v
+    │   │   │       ├── devel-root-cert.pem,v
+    │   │   │       ├── identity.pem,v
+    │   │   │       ├── jssecacerts,v
+    │   │   │       ├── keystore,v
+    │   │   │       ├── private_key.pem,v
+    │   │   │       └── root_cert.pem,v
+    │   │   └── opt/
+    │   │       ├── broadon/
+    │   │       │   └── pkgs/
+    │   │       │       └── cps/
+    │   │       │           └── conf/
+    │   │       │               └── Attic/
+    │   │       │                   └── BBserver.properties.tmpl,v
+    │   │       └── nfast/
+    │   │           └── kmdata/
+    │   │               └── local/
+    │   │                   └── Attic/
+    │   │                       ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_1,v
+    │   │                       ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_2,v
+    │   │                       ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_3,v
+    │   │                       ├── card_925dbf68eeac4a442c74d034610cb0bc75dad534_4,v
+    │   │                       ├── cards_925dbf68eeac4a442c74d034610cb0bc75dad534,v
+    │   │                       ├── key_embed_665c13f5575c986cd53e5ba897856a3dde0fb9f0,v
+    │   │                       ├── module_5FF1-DB14-68D2,v
+    │   │                       ├── module_97C6-DB81-30DE,v
+    │   │                       └── world,v
+    │   └── files.tar,v
+    ├── vctstappa121/
+    │   ├── broadon.conf,v
+    │   ├── files.tar,v
+    │   ├── postinst,v
+    │   └── preinst,v
+    ├── vctstappb125/
+    │   ├── broadon.conf,v
+    │   ├── postinst,v
+    │   └── preinst,v
+    ├── vctstweba101/
+    │   ├── broadon.conf,v
+    │   ├── files/
+    │   │   └── var/
+    │   │       └── named/
+    │   │           └── chroot/
+    │   │               └── etc/
+    │   │                   └── Attic/
+    │   │                       └── named.conf,v
+    │   ├── files.tar,v
+    │   ├── postinst,v
+    │   └── preinst,v
+    └── vctstweba102/
+        ├── broadon.conf,v
+        ├── files/
+        │   └── var/
+        │       └── named/
+        │           └── chroot/
+        │               └── etc/
+        │                   └── Attic/
+        │                       └── named.conf,v
+        ├── files.tar,v
+        ├── postinst,v
+        └── preinst,v
