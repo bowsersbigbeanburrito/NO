@@ -1,0 +1,190 @@
+include/
+├── @net@list
+├── nitro/
+│   ├── @net@
+│   ├── card.h
+│   ├── env/
+│   │   └── env_system.h
+│   ├── env.h
+│   ├── hw/
+│   │   ├── ARM9/
+│   │   │   ├── ioreg.h
+│   │   │   ├── ioreg_CP.h
+│   │   │   ├── ioreg_EXI.h
+│   │   │   ├── ioreg_G2.h
+│   │   │   ├── ioreg_G2S.h
+│   │   │   ├── ioreg_G3.h
+│   │   │   ├── ioreg_G3X.h
+│   │   │   ├── ioreg_GX.h
+│   │   │   ├── ioreg_GXS.h
+│   │   │   ├── ioreg_MI.h
+│   │   │   ├── ioreg_OS.h
+│   │   │   ├── ioreg_PAD.h
+│   │   │   ├── ioreg_PXI.h
+│   │   │   ├── mmap_global.h
+│   │   │   ├── mmap_main.h
+│   │   │   ├── mmap_tcm.h
+│   │   │   └── mmap_vram.h
+│   │   └── common/
+│   │       ├── armArch.h
+│   │       ├── lcd.h
+│   │       └── mmap_shared.h
+│   ├── ioreg.h
+│   ├── math/
+│   │   ├── checksum.h
+│   │   ├── crc.h
+│   │   ├── dgt.h
+│   │   ├── fft.h
+│   │   ├── math.h
+│   │   ├── qsort.h
+│   │   └── rand.h
+│   ├── math.h
+│   ├── memorymap.h
+│   ├── mi/
+│   │   ├── allocator.h
+│   │   ├── byteAccess.h
+│   │   ├── cache.h
+│   │   ├── card.h
+│   │   ├── compress.h
+│   │   ├── device.h
+│   │   ├── dma.h
+│   │   ├── endian.h
+│   │   ├── exMemory.h
+│   │   ├── init.h
+│   │   ├── memory.h
+│   │   ├── stream.h
+│   │   ├── swap.h
+│   │   ├── uncomp_stream.h
+│   │   ├── uncompress.h
+│   │   └── wram.h
+│   ├── mi.h
+│   ├── misc.h
+│   ├── os/
+│   │   └── common/
+│   │       └── printf.h
+│   ├── os.h
+│   ├── platform.h
+│   ├── spec.h
+│   ├── std/
+│   │   ├── string.h
+│   │   └── unicode.h
+│   ├── std.h
+│   ├── types.h
+│   ├── version.h
+│   ├── wbt/
+│   │   └── context.h
+│   ├── wbt.h
+│   ├── wdp/
+│   │   ├── child.h
+│   │   ├── common.h
+│   │   └── parent.h
+│   ├── wdp.h
+│   ├── wfs/
+│   │   ├── client.h
+│   │   ├── format.h
+│   │   └── server.h
+│   ├── wfs.h
+│   ├── wm/
+│   │   └── common/
+│   │       └── wm.h
+│   └── wm.h
+├── nitro.h
+├── private/
+│   ├── @
+│   ├── @wddemo@list
+│   ├── _SOCreateSocket.h
+│   ├── NCDPrivate.h
+│   ├── NWC24Private.h
+│   ├── pseudoBS2.h
+│   ├── SOInet6.h
+│   ├── SOPrivate.h
+│   ├── wd/
+│   │   ├── wd_api.h
+│   │   ├── wd_const.h
+│   │   └── wd_types.h
+│   ├── wd.h
+│   └── www/
+│       ├── @wwwplugin@
+│       └── embedfont.h
+├── revolution/
+│   ├── @cryptolib@list
+│   ├── @socket@list
+│   ├── @www@list
+│   ├── crypto/
+│   │   └── CRYPTORC4.h
+│   ├── crypto.h
+│   ├── lua/
+│   │   ├── @
+│   │   ├── COPYRIGHT
+│   │   ├── lua.h
+│   │   └── luaconf.h
+│   ├── mp.h
+│   ├── mpdl.h
+│   ├── mpds.h
+│   ├── mpfs.h
+│   ├── ncd/
+│   │   ├── NCDConst.h
+│   │   ├── NCDMisc.h
+│   │   └── NCDTypes.h
+│   ├── ncd.h
+│   ├── net/
+│   │   ├── @net@list
+│   │   ├── NETCrypto.h
+│   │   ├── NETDigest.h
+│   │   ├── NETErrorCode.h
+│   │   ├── NETMisc.h
+│   │   └── NETTime.h
+│   ├── net.h
+│   ├── nwc24/
+│   │   ├── @net@list
+│   │   ├── @nwc24private@list
+│   │   ├── @nwc24script@list
+│   │   ├── @sysmenu@list
+│   │   ├── NWC24Dl.h
+│   │   ├── NWC24DlAdmin.h
+│   │   ├── NWC24DWC.h
+│   │   ├── NWC24Err.h
+│   │   ├── NWC24FriendList.h
+│   │   ├── NWC24Msg.h
+│   │   ├── NWC24MsgAdmin.h
+│   │   ├── NWC24MsgBoard.h
+│   │   ├── NWC24MsgFace.h
+│   │   ├── NWC24MsgScript.h
+│   │   ├── NWC24Schedule.h
+│   │   ├── NWC24Sysmenu.h
+│   │   └── NWC24Types.h
+│   ├── nwc24.h
+│   ├── prt/
+│   │   ├── @
+│   │   └── prt.h
+│   ├── rexdefs.h
+│   ├── so/
+│   │   ├── @socket@
+│   │   ├── _original/
+│   │   │   ├── private/
+│   │   │   │   ├── iop_resolver.h
+│   │   │   │   └── iop_sock.h
+│   │   │   └── revolution/
+│   │   │       ├── iop_icmp.h
+│   │   │       ├── iop_ip.h
+│   │   │       ├── iop_ip6.h
+│   │   │       ├── iop_ipdns.h
+│   │   │       ├── iop_netif.h
+│   │   │       ├── IPEntry.h
+│   │   │       ├── IPStat.h
+│   │   │       └── socket.h
+│   │   ├── SOBasic.h
+│   │   ├── SOIcmp.h
+│   │   └── SOOption.h
+│   ├── so.h
+│   ├── soex.h
+│   ├── vf/
+│   │   └── @sysmenu@
+│   ├── wd/
+│   │   ├── WDApi.h
+│   │   ├── WDConst.h
+│   │   ├── WDScan.h
+│   │   └── WDTypes.h
+│   └── www/
+│       └── _
+└── rex.h

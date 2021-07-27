@@ -1,0 +1,266 @@
+X86/
+├── bin/
+│   ├── arm-elf-merge.exe
+│   ├── bi2.bin
+│   ├── binchg.exe
+│   ├── bmerge.exe
+│   ├── bwf2wad.py
+│   ├── cert.exe
+│   ├── CheckCrc.exe
+│   ├── configHash.py
+│   ├── create_rvl_part
+│   ├── createOSImage.py
+│   ├── darchD.exe
+│   ├── dat/
+│   │   ├── 0000000100000003.bin
+│   │   ├── 0000000100000004.bin
+│   │   ├── 0000000100000005.bin
+│   │   ├── 0000000100000006.bin
+│   │   ├── 0000000100000007.bin
+│   │   ├── 0000000100000008.bin
+│   │   ├── 0000000100000009.bin
+│   │   ├── 000000010000000b.bin
+│   │   ├── 000000010000000c.bin
+│   │   ├── 000000010000000d.bin
+│   │   ├── 000000010000000e.bin
+│   │   ├── 000000010000000f.bin
+│   │   ├── 0000000100000010.bin
+│   │   ├── 0000000100000011.bin
+│   │   ├── 0000000100000012.bin
+│   │   ├── 0000000100000013.bin
+│   │   └── 0000000100000014.bin
+│   ├── decomp_disk.exe
+│   ├── decrypt_rvl_partition.exe
+│   ├── fwupdate
+│   ├── fwupdate1102
+│   ├── fwupdate1202
+│   ├── fwupdate1203
+│   ├── fwupdate1205
+│   ├── fwupdate1206
+│   ├── fwupdate13010
+│   ├── fwupdate1307
+│   ├── fwupdate1308
+│   ├── fwupdate1309
+│   ├── fwupdate1409
+│   ├── fwupdate14_1_0
+│   ├── fwupdate14_1_1
+│   ├── fwupdate15_1_1
+│   ├── fwupdate17_2_0
+│   ├── fwupdate21_2_2
+│   ├── fwupdate31_4_11_eu
+│   ├── fwupdate31_4_11_jp
+│   ├── fwupdate31_4_11_us
+│   ├── fwupdate31_4_12_eu
+│   ├── fwupdate31_4_12_jp
+│   ├── fwupdate31_4_12_us
+│   ├── fwupdate31_4_13_eu
+│   ├── fwupdate31_4_13_jp
+│   ├── fwupdate31_4_13_us
+│   ├── fwupdate31_4_6_eu
+│   ├── fwupdate31_4_6_jp
+│   ├── fwupdate31_4_6_us
+│   ├── fwupdate31_4_8_eu
+│   ├── fwupdate31_4_8_jp
+│   ├── fwupdate31_4_8_us
+│   ├── fwupdate33_4_14_eu
+│   ├── fwupdate33_4_14_jp
+│   ├── fwupdate33_4_14_us
+│   ├── fwupdate920
+│   ├── fwupdate921
+│   ├── fwupdate922
+│   ├── fwupdate923
+│   ├── fwupdate924
+│   ├── fwupdate_wiimenu_us
+│   ├── hio2.dll
+│   ├── hio2D.dll
+│   ├── hio2send.exe
+│   ├── img_to_rvlbin.exe
+│   ├── jpadder.exe
+│   ├── make_ndev_partition.exe
+│   ├── makedevpart.exe
+│   ├── makedevpartD.exe
+│   ├── makediag
+│   ├── makedol.exe
+│   ├── makedolD.exe
+│   ├── makeimage.exe
+│   ├── makeimageD.exe
+│   ├── makeinc.exe
+│   ├── makeinstaller
+│   ├── makelcf.exe
+│   ├── makemaster
+│   ├── makemasterNF
+│   ├── makemasterNFX
+│   ├── makemasterS
+│   ├── makemasterX
+│   ├── makemasterXS
+│   ├── makeo.exe
+│   ├── makeoD.exe
+│   ├── makerel.exe
+│   ├── makerelD.exe
+│   ├── makerso.exe
+│   ├── makervm.dll
+│   ├── makervm.exe
+│   ├── makeRVTR.exe
+│   ├── makeUpdateDisc
+│   ├── makeUpdateDisc.bat
+│   ├── makeUpdateDisc.sh
+│   ├── ndrun_fwlist
+│   ├── ndrun_prechecker
+│   ├── padder.exe
+│   ├── padderD.exe
+│   ├── padderex.exe
+│   ├── part_to_rvlbin.exe
+│   ├── peekBI2.exe
+│   ├── peekBI2D.exe
+│   ├── pki_data/
+│   │   ├── arcade/
+│   │   │   ├── arcgen_ca.cert
+│   │   │   ├── arcgen_xs.cert
+│   │   │   ├── arcgen_xs.pubKey
+│   │   │   ├── arcgen_xs.pvtKey
+│   │   │   ├── arcgen_xs.rsa
+│   │   │   ├── capcom_ca.cert
+│   │   │   ├── capcom_xs.cert
+│   │   │   ├── capcom_xs.pubKey
+│   │   │   ├── capcom_xs.pvtKey
+│   │   │   ├── capcom_xs.rsa
+│   │   │   ├── konami_ca.cert
+│   │   │   ├── konami_xs.cert
+│   │   │   ├── konami_xs.pubKey
+│   │   │   ├── konami_xs.pvtKey
+│   │   │   ├── konami_xs.rsa
+│   │   │   ├── namco_ca.cert
+│   │   │   ├── namco_xs.cert
+│   │   │   ├── namco_xs.pubKey
+│   │   │   ├── namco_xs.pvtKey
+│   │   │   ├── namco_xs.rsa
+│   │   │   ├── sega_ca.cert
+│   │   │   ├── sega_xs.cert
+│   │   │   ├── sega_xs.pubKey
+│   │   │   ├── sega_xs.pvtKey
+│   │   │   ├── sega_xs.rsa
+│   │   │   ├── taito_ca.cert
+│   │   │   ├── taito_xs.cert
+│   │   │   ├── taito_xs.pubKey
+│   │   │   ├── taito_xs.pvtKey
+│   │   │   └── taito_xs.rsa
+│   │   ├── ca_dpki.cert
+│   │   ├── ca_ppki.cert
+│   │   ├── cacp_dpki.cert
+│   │   ├── caxs_dpki.cert
+│   │   ├── cert_dpki.sys
+│   │   ├── cert_ppki.sys
+│   │   ├── common_dpki.aesKey
+│   │   ├── cp_dpki.cert
+│   │   ├── cp_dpki.rsa
+│   │   ├── cp_ppki.cert
+│   │   ├── dev_dpki.eccPvtKey
+│   │   ├── dev_ng_dpki.cert
+│   │   ├── ms_dpki.cert
+│   │   ├── xs_dpki.cert
+│   │   ├── xs_dpki.eccPubKey
+│   │   ├── xs_dpki.eccPvtKey
+│   │   ├── xs_dpki.rsa
+│   │   └── xs_ppki.cert
+│   ├── publishWad.py
+│   ├── rdpack.exe
+│   ├── reldump.exe
+│   ├── reldumpD.exe
+│   ├── republish.py
+│   ├── rmgen.exe
+│   ├── rmprint
+│   ├── rmprintslashdev
+│   ├── rvl.0000000100000003.bin
+│   ├── rvl.0000000100000004.bin
+│   ├── rvl.0000000100000005.bin
+│   ├── rvl.0000000100000006.bin
+│   ├── rvl.0000000100000007.bin
+│   ├── rvl.0000000100000008.bin
+│   ├── rvl.10.bin
+│   ├── rvl.11.bin
+│   ├── rvl.12.bin
+│   ├── rvl.13.bin
+│   ├── rvl.14.bin
+│   ├── rvl.15.bin
+│   ├── rvl.16.bin
+│   ├── rvl.17.bin
+│   ├── rvl.18.bin
+│   ├── rvl.19.bin
+│   ├── rvl.20.bin
+│   ├── rvl.4.bin
+│   ├── rvl.4.bin.ndev.sys
+│   ├── rvl.9.bin
+│   ├── rvl.9.bin.ndev.sys
+│   ├── rvl.bin
+│   ├── rvl.bin.hdr
+│   ├── rvl.bin.ndev.sys
+│   ├── rvl.bin.rvl
+│   ├── rvl.diag.246.bin
+│   ├── rvl.diag.246.prod.bin
+│   ├── rvl.diag.3.bin
+│   ├── rvl.diag.3.prod.bin
+│   ├── rvl.diag.4.bin
+│   ├── rvl.diag.4.prod.bin
+│   ├── rvl.diag.9.bin
+│   ├── rvl.diag.bin
+│   ├── rvl.no.21.bin
+│   ├── rvl.no.22.bin
+│   ├── rvl.no.240.bin
+│   ├── rvl.no.242.bin
+│   ├── rvl.no.243.bin
+│   ├── rvl.no.244.bin
+│   ├── rvl.no.245.bin
+│   ├── rvl.no.246.bin
+│   ├── rvl.no.247.bin
+│   ├── rvl.no.28.bin
+│   ├── rvl.no.30.bin
+│   ├── rvl.no.31.bin
+│   ├── rvl.no.32.bin
+│   ├── rvl.no.33.bin
+│   ├── rvl.no.34.bin
+│   ├── rvl.no.35.bin
+│   ├── rvl.no.36.bin
+│   ├── rvl.no.37.bin
+│   ├── rvl.update.bin
+│   ├── rvl_devel_partition.exe
+│   ├── rvl_devel_partitionD.exe
+│   ├── rvl_devel_partitionIRD.exe
+│   ├── rvl_prod_partition.exe
+│   ├── rvm2gcm.exe
+│   ├── setcountrycode
+│   ├── setcountrycode.bat
+│   ├── setcountrycodeAll
+│   ├── setcountrycodeD
+│   ├── setfirmware
+│   ├── setncountrycode
+│   ├── setncountrycodeD
+│   ├── setndrivespin
+│   ├── setnparentalcontrol
+│   ├── setsmem2size
+│   ├── setsmem2size.bat
+│   ├── setsmemsize
+│   ├── setsmemsize.bat
+│   ├── setWadinfo.exe
+│   ├── shownsettings
+│   ├── showsettings
+│   ├── showsettings.bat
+│   ├── TexConv.exe
+│   ├── TexConvD.exe
+│   ├── ticket.exe
+│   ├── ticketIRD.exe
+│   ├── tickleBI2.exe
+│   ├── tickleBI2D.exe
+│   ├── tickleBI3.exe
+│   ├── tmd.exe
+│   ├── tmdIRD.exe
+│   ├── treemerge.sh
+│   ├── unpublishIRD.exe.gpg
+│   ├── uterm.exe
+│   ├── wad2bwf.py
+│   ├── wadbuildrun.bat
+│   ├── wadprint.py
+│   ├── wadrun.bat
+│   └── wbi.bin
+└── lib/
+    ├── ndev_exi2_comm.lib
+    └── s3tc.lib

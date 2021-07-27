@@ -1,0 +1,987 @@
+docs/
+├── en_US/
+│   ├── Developer/
+│   │   ├── Architecture/
+│   │   │   ├── BroadwayUserManual.us.pdf
+│   │   │   ├── readme.us.txt
+│   │   │   ├── RVL-ControllerHardwareOverview.doc
+│   │   │   ├── RVL-ControllerHardwareOverview.pdf
+│   │   │   ├── RVL-ControllerSetup.pdf
+│   │   │   ├── RVL-ControllerSetup.us.doc
+│   │   │   ├── RVL-ControllerSetup.us.pdf
+│   │   │   ├── RVL_Overview.us.pdf
+│   │   │   ├── RVL_Overview.zip
+│   │   │   ├── RVL_Overview_1.doc
+│   │   │   └── Source_RVL_Overview.us.zip
+│   │   ├── Audio_Programmer's_Guide/
+│   │   │   ├── AX.pdf
+│   │   │   ├── AX.us.doc
+│   │   │   ├── AX.us.pdf
+│   │   │   ├── AX.us.zip
+│   │   │   ├── AX_Applications.pdf
+│   │   │   ├── AX_Applications.us.doc
+│   │   │   ├── AX_Applications.us.pdf
+│   │   │   ├── AX_Applications.us.zip
+│   │   │   ├── AX_Streaming.us.doc
+│   │   │   ├── DSPADPCM.pdf
+│   │   │   ├── DSPADPCM.us.doc
+│   │   │   ├── DSPADPCM.us.pdf
+│   │   │   ├── DSPADPCM.us.zip
+│   │   │   ├── DSPTOOL_DLL.pdf
+│   │   │   ├── DSPTOOLDLL.us.doc
+│   │   │   ├── DSPTOOLDLL.us.pdf
+│   │   │   ├── DSPTOOLDLL.us.zip
+│   │   │   ├── DTKMAKE.us.doc
+│   │   │   ├── Images/
+│   │   │   │   ├── APP_Apps_for_AX.gif
+│   │   │   │   ├── APP_Articul_for_Region.gif
+│   │   │   │   ├── APP_AX_Callback_and_AXART.gif
+│   │   │   │   ├── APP_AXART_API_Layers.gif
+│   │   │   │   ├── APP_Fader_for_ODD_Audio_Stream.gif
+│   │   │   │   ├── APP_Instr_Prog.gif
+│   │   │   │   ├── APP_Melodic_Key_Regions.gif
+│   │   │   │   ├── APP_MIDI_File_Seq_Synth.gif
+│   │   │   │   ├── APP_Mixer_API_Layer.gif
+│   │   │   │   ├── APP_Mixer_Channel.gif
+│   │   │   │   ├── APP_Percussive_Key_Regions.gif
+│   │   │   │   ├── APP_Region_for_Key_No.gif
+│   │   │   │   ├── APP_Samples_for_Region.gif
+│   │   │   │   ├── APP_Sound_Articul_and_AX_Voice.gif
+│   │   │   │   ├── APP_SYN_MIX_AX_Func_Rel.gif
+│   │   │   │   ├── APP_Wavetable_Concepts.gif
+│   │   │   │   ├── AX_AX_Logical_Flow.gif
+│   │   │   │   ├── AX_Dolby_ProL2_Mixing.gif
+│   │   │   │   ├── AX_Mix_Busses.gif
+│   │   │   │   ├── AX_Stereo_Mixing.gif
+│   │   │   │   ├── AX_Surround_Mixing.gif
+│   │   │   │   ├── AX_Voice_Proc_Flow.gif
+│   │   │   │   ├── DSP_Process_Flow.gif
+│   │   │   │   ├── GCNLogo.jpg
+│   │   │   │   ├── RightArrow.gif
+│   │   │   │   ├── SP_ARAM_AM_Usage.gif
+│   │   │   │   ├── SP_Audio_Lib_Relationships.gif
+│   │   │   │   ├── SP_DSPTOOL_DLL_Data_Flow.gif
+│   │   │   │   ├── SP_H_SPT_SPD_File_Map.gif
+│   │   │   │   ├── SP_Import_SE_Data_Flow.gif
+│   │   │   │   ├── SP_SNDCONV_Arch_Data_Flow.gif
+│   │   │   │   ├── SP_SOUNDFILE_DLL_Data_Flow.gif
+│   │   │   │   ├── SP_SP_Logical_Flow.gif
+│   │   │   │   └── SP_SPT_File_Format_Int_Ref.gif
+│   │   │   ├── SoundPipeline.pdf
+│   │   │   ├── SoundPipeline.us.doc
+│   │   │   ├── SoundPipeline.us.pdf
+│   │   │   └── SoundPipeline.us.zip
+│   │   ├── Graphics_Programmer's_Guide/
+│   │   │   ├── Advanced_GX.us.doc
+│   │   │   ├── CMPR_Texture_Format.us.doc
+│   │   │   ├── DEMO.us.doc
+│   │   │   ├── G2D.pdf
+│   │   │   ├── G2D.us.doc
+│   │   │   ├── G2D.us.pdf
+│   │   │   ├── G2D.us.zip
+│   │   │   ├── GD.us.doc
+│   │   │   ├── Graphics_Optimization.us.doc
+│   │   │   ├── GX.pdf
+│   │   │   ├── GX.us/
+│   │   │   │   ├── 1-Introduction.us.doc
+│   │   │   │   ├── 10-Indirect_Texture_Mapping.us.doc
+│   │   │   │   ├── 11-Blending.us.doc
+│   │   │   │   ├── 12-Video_Output.us.doc
+│   │   │   │   ├── 13-Graphics_FIFO.us.doc
+│   │   │   │   ├── 14-Performance_Metrics.us.doc
+│   │   │   │   ├── 15-GX_HW2.us.doc
+│   │   │   │   ├── 16-Limitations.us.doc
+│   │   │   │   ├── 17-N64_Comparison.us.doc
+│   │   │   │   ├── 18-OpenGL_Comparison.us.doc
+│   │   │   │   ├── 2-ONETRI_Example.us.doc
+│   │   │   │   ├── 3-Initialization.us.doc
+│   │   │   │   ├── 4-Vertex_&_Primitive_Data.us.doc
+│   │   │   │   ├── 5-Viewing.us.doc
+│   │   │   │   ├── 6-Vertex_Lighting.us.doc
+│   │   │   │   ├── 7-Texcoord_Gen.us.doc
+│   │   │   │   ├── 8-Texture_Mapping.us.doc
+│   │   │   │   ├── 9-Texture_Environment.us.doc
+│   │   │   │   ├── App_A-GX_API.us.doc
+│   │   │   │   ├── App_B-GXInit.us.doc
+│   │   │   │   ├── App_C-Display_List_Format.us.doc
+│   │   │   │   ├── App_D-Texture_Formats.us.doc
+│   │   │   │   └── App_E-Memory_Issues.us.doc
+│   │   │   ├── GX.us.pdf
+│   │   │   ├── GX.us.zip
+│   │   │   ├── HW2_Errata.us.doc
+│   │   │   ├── Images/
+│   │   │   │   ├── AGX_Antialiasing.gif
+│   │   │   │   ├── AGX_Binorm_Vect_Calc_1_Equation.gif
+│   │   │   │   ├── AGX_Binorm_Vect_Calc_2_Equation.gif
+│   │   │   │   ├── AGX_Binorm_Vect_Calc_3_Equation.gif
+│   │   │   │   ├── AGX_Bump_Map_Equation.gif
+│   │   │   │   ├── AGX_Desired_Text_Coord.gif
+│   │   │   │   ├── AGX_Diffuse_Bumb_Mapping_Equation.gif
+│   │   │   │   ├── AGX_Diffuse_Bump_Mapping.gif
+│   │   │   │   ├── AGX_Diffuse_Intensity_Equation.gif
+│   │   │   │   ├── AGX_Dual-Parab_Map.gif
+│   │   │   │   ├── AGX_Forward_Diff_A_Equation.gif
+│   │   │   │   ├── AGX_Forward_Diff_B_Equation.gif
+│   │   │   │   ├── AGX_Gen_Dual-Parab_Map_Warp_Cube_Map.gif
+│   │   │   │   ├── AGX_Gen_Sph_Map_Warp_Cube_Map.gif
+│   │   │   │   ├── AGX_Gloss_Map_Image_Diagram.gif
+│   │   │   │   ├── AGX_Height_Field.gif
+│   │   │   │   ├── AGX_Indirect_Text_Creation.gif
+│   │   │   │   ├── AGX_Light_Vect_Calc_1_Equation.gif
+│   │   │   │   ├── AGX_Light_Vect_Calc_2_Equation.gif
+│   │   │   │   ├── AGX_Light_Vect_Calc_3_a_Equation.gif
+│   │   │   │   ├── AGX_Light_Vect_Calc_3_b_Equation.gif
+│   │   │   │   ├── AGX_Light_Vect_Transf_Mtx_Equation.gif
+│   │   │   │   ├── AGX_LightingFrustum.gif
+│   │   │   │   ├── AGX_Map_Normals_Sph_Map_Text_Coord.gif
+│   │   │   │   ├── AGX_Non-antialiasing_Blending.gif
+│   │   │   │   ├── AGX_Perterbed_Normal_Equation.gif
+│   │   │   │   ├── AGX_Planar_Refl_Text_Gen.gif
+│   │   │   │   ├── AGX_Planar_Refl_Text_Gen_1.gif
+│   │   │   │   ├── AGX_Planar_Refl_Text_Gen_2.gif
+│   │   │   │   ├── AGX_Planar_Refl_Text_Gen_3.gif
+│   │   │   │   ├── AGX_Projected_Light_and_Shadow.gif
+│   │   │   │   ├── AGX_Pseudo-3D_Texture.gif
+│   │   │   │   ├── AGX_Ramp_Textures.gif
+│   │   │   │   ├── AGX_Simp_Pert_Normal_Equation.gif
+│   │   │   │   ├── AGX_Sph_Map_Text_Coord_Interp_Probl.gif
+│   │   │   │   ├── AGX_Sphere_Map_Creation.gif
+│   │   │   │   ├── AGX_Splayed_Normals.gif
+│   │   │   │   ├── AGX_Tang_Binorm_Vect_Def_Equation.gif
+│   │   │   │   ├── AGX_Tang_Vect_Calc_a_Equation.gif
+│   │   │   │   ├── AGX_Tang_Vect_Calc_b_Equation.gif
+│   │   │   │   ├── AGX_Text_Proj_Data_Flow.gif
+│   │   │   │   ├── AGX_Tile_Texture.gif
+│   │   │   │   ├── AGX_V1_V2_Binorm_Tang_Vect_Relat.gif
+│   │   │   │   ├── CTF_Comp_Text_Texel_Block_Form.gif
+│   │   │   │   ├── CTF_Compl_Transp_Texel_Block_Problem.gif
+│   │   │   │   ├── CTF_Gfx_Use_Text_Form_Comparison_128x128.gif
+│   │   │   │   ├── CTF_Gfx_Use_Text_Form_Comparison_32x32.gif
+│   │   │   │   ├── CTF_Principle_behind_S3TC.gif
+│   │   │   │   ├── CTF_Solution.gif
+│   │   │   │   ├── CTF_Struct_of_32-byte_Tile_Req_by_HW.gif
+│   │   │   │   ├── CTF_Text_Tile_Form_Use_Compr_Text.gif
+│   │   │   │   ├── DEMO_Dbl_Buff_Prot_GP_Output_Vid_Refresh.gif
+│   │   │   │   ├── DEMO_FIFO_w_Flow_Contr.gif
+│   │   │   │   ├── DEMO_Gamma_Correction.gif
+│   │   │   │   ├── DEMO_Gfx_Vid_Data_Flow.gif
+│   │   │   │   ├── DEMO_Virt_Phys_Real_Mem_Map_OnlineVer.gif
+│   │   │   │   ├── G2D_API_Oview.gif
+│   │   │   │   ├── G2D_DrawLayer_Example.gif
+│   │   │   │   ├── G2D_Layout_Restrict.gif
+│   │   │   │   ├── GCNLogo.jpg
+│   │   │   │   ├── GD_Graphics_Pipeline.gif
+│   │   │   │   ├── GO_Far_Plane_Guard_Band_w_Fog.gif
+│   │   │   │   ├── GO_Mtx_Load_Perf_tex_dir.gif
+│   │   │   │   ├── GO_Mtx_Load_Perf_tex_idx.gif
+│   │   │   │   ├── GO_Mtx_Load_Perf_tex_lit_dir.gif
+│   │   │   │   ├── GO_Mtx_Load_Perf_tex_lit_idx.gif
+│   │   │   │   ├── GO_Pos_Txt.gif
+│   │   │   │   ├── GO_Pos_Txt_Txt.gif
+│   │   │   │   ├── GO_Pos_Txt_Txt_Txt.gif
+│   │   │   │   ├── GX_32-bit_Mipmap_TMEM.gif
+│   │   │   │   ├── GX_32-bit_Planar_Text_TMEM.gif
+│   │   │   │   ├── GX_5-bit_Dith_Approx_Equation.gif
+│   │   │   │   ├── GX_5-bit_Dith_Ideal_Equation.gif
+│   │   │   │   ├── GX_6-bit_Dith_Approx_Equation.gif
+│   │   │   │   ├── GX_6-bit_Dith_Ideal_Equation.gif
+│   │   │   │   ├── GX_Add_Equation.gif
+│   │   │   │   ├── GX_Alpha_Compare_Equation.gif
+│   │   │   │   ├── GX_Amb_Src_Equation.gif
+│   │   │   │   ├── GX_Anis_Filt.gif
+│   │   │   │   ├── GX_Attr_Addr_Sep_NBT_Idx_Equation.gif
+│   │   │   │   ├── GX_AttrAddress_Equation.gif
+│   │   │   │   ├── GX_Bayer_Mtx_Equation.gif
+│   │   │   │   ├── GX_Blend_2_Equation.gif
+│   │   │   │   ├── GX_Blend_Equation.gif
+│   │   │   │   ├── GX_Chann_Enable_Equation.gif
+│   │   │   │   ├── GX_Clip_Coord.gif
+│   │   │   │   ├── GX_Clip_Cull_Data_Path.gif
+│   │   │   │   ├── GX_Clip_Space_Scr_Space_Conv_Equation.gif
+│   │   │   │   ├── GX_Color_Chann_Equation.gif
+│   │   │   │   ├── GX_Color_Idx_Mipmap_TMEM.gif
+│   │   │   │   ├── GX_Comp_TEV_Output_Equation.gif
+│   │   │   │   ├── GX_Coord_Sys_Transform.gif
+│   │   │   │   ├── GX_Copy_Sm_Text_Lg_Text_Main_Mem.gif
+│   │   │   │   ├── GX_Data_Coherency.gif
+│   │   │   │   ├── GX_Dbl_Str_Non-Antialiased_Mode.gif
+│   │   │   │   ├── GX_Default_Text_Pipe.gif
+│   │   │   │   ├── GX_Default_TMEM_Config.gif
+│   │   │   │   ├── GX_Diff_Angle_Dist_Atten_Equation.gif
+│   │   │   │   ├── GX_Diff_Atten_Equation.gif
+│   │   │   │   ├── GX_Dir_Vtx_Data_Flow.gif
+│   │   │   │   ├── GX_Disp_List_Flow.gif
+│   │   │   │   ├── GX_Dist_Atten_Func.gif
+│   │   │   │   ├── GX_Dyn_Indir_Mtx_Equation.gif
+│   │   │   │   ├── GX_EFB-XFB_Copy_Pipe.gif
+│   │   │   │   ├── GX_Exp_Fog_Curve.gif
+│   │   │   │   ├── GX_Exp_Sq_Fog_Curve.gif
+│   │   │   │   ├── GX_Fog_Range_Adj.gif
+│   │   │   │   ├── GX_Gfx_Primitives.gif
+│   │   │   │   ├── GX_GP_Schematic.gif
+│   │   │   │   ├── GX_GXFifoObj.gif
+│   │   │   │   ├── GX_GXInitLightShininess_Values.gif
+│   │   │   │   ├── GX_GXLINEAR.gif
+│   │   │   │   ├── GX_GXNEAR.gif
+│   │   │   │   ├── GX_Idx_Adj_NBT_Offsets_Equation.gif
+│   │   │   │   ├── GX_Idx_Vtx_Data.gif
+│   │   │   │   ├── GX_Idx_Vtx_Data_Flow.gif
+│   │   │   │   ├── GX_Immediate_Module.gif
+│   │   │   │   ├── GX_Indir_Text_Op.gif
+│   │   │   │   ├── GX_Indir_Text_Proc_1.gif
+│   │   │   │   ├── GX_Indir_Text_Proc_2.gif
+│   │   │   │   ├── GX_Input_Coord_Equation.gif
+│   │   │   │   ├── GX_Interl_Antialiased_Frame_Rend_Defl_Mode.gif
+│   │   │   │   ├── GX_Interl_Non-Antialiased_Field_Rend_Mode.gif
+│   │   │   │   ├── GX_Interl_Non-Antialiased_Frame_Rend_Defl_Mode.gif
+│   │   │   │   ├── GX_Light_Chann_Sum_Equation.gif
+│   │   │   │   ├── GX_Light_Color_Chann_Assoc.gif
+│   │   │   │   ├── GX_Light_Param_Equation.gif
+│   │   │   │   ├── GX_Light_Vec.gif
+│   │   │   │   ├── GX_Lin_Filt_Clamp_Rep_Mirr.gif
+│   │   │   │   ├── GX_Line_Def.gif
+│   │   │   │   ├── GX_Linear_Fog_Curve.gif
+│   │   │   │   ├── GX_LOD_Bias.gif
+│   │   │   │   ├── GX_LOD_Calc.gif
+│   │   │   │   ├── GX_Map-rel_Text_Coord.gif
+│   │   │   │   ├── GX_Mat_Src_Equation.gif
+│   │   │   │   ├── GX_Mipmap_Pyr_Largest_Text.gif
+│   │   │   │   ├── GX_Mipmap_TMEM.gif
+│   │   │   │   ├── GX_Miss_Rate_Calc_Equation.gif
+│   │   │   │   ├── GX_Modelview_Projec_Data_Path.gif
+│   │   │   │   ├── GX_Modulate_2X_Equation.gif
+│   │   │   │   ├── GX_Modulate_Equation.gif
+│   │   │   │   ├── GX_Mtx_Mem.gif
+│   │   │   │   ├── GX_Multi-Buff_Mode.gif
+│   │   │   │   ├── GX_Near_Filt_Clamp_Rep_Mirr.gif
+│   │   │   │   ├── GX_NH.gif
+│   │   │   │   ├── GX_Norm_Mtx_Idx_Equation.gif
+│   │   │   │   ├── GX_Ortho_Proj_Equation.gif
+│   │   │   │   ├── GX_Overlap_Copy.gif
+│   │   │   │   ├── GX_Pass_Text_Color_Equation.gif
+│   │   │   │   ├── GX_Persp_Proj_Equation.gif
+│   │   │   │   ├── GX_Planar_Text_TMEM.gif
+│   │   │   │   ├── GX_Point_Def.gif
+│   │   │   │   ├── GX_Polygon_Rast_Rules.gif
+│   │   │   │   ├── GX_Pre-Lighting_Equation.gif
+│   │   │   │   ├── GX_Pseudo-3D_Text.gif
+│   │   │   │   ├── GX_Pxl_Proj_Text_Space_Example.gif
+│   │   │   │   ├── GX_Rast_Color_Equation.gif
+│   │   │   │   ├── GX_Reg_Indir_Text_Func_Diag.gif
+│   │   │   │   ├── GX_Reg_TEV_Output_Equation.gif
+│   │   │   │   ├── GX_Reg_Text_Func_Diag.gif
+│   │   │   │   ├── GX_Rend_Mode_Struct_Calls_Hard_Mod.gif
+│   │   │   │   ├── GX_Rev_Exp_Fog_Curve.gif
+│   │   │   │   ├── GX_Rev_Exp_Sq_Fog_Curve.gif
+│   │   │   │   ├── GX_RGB-YUV_Conv_Equation.gif
+│   │   │   │   ├── GX_Sample_Alpha_Compare_Equation.gif
+│   │   │   │   ├── GX_Specul_Atten_Equation.gif
+│   │   │   │   ├── GX_Specul_Light_Vec.gif
+│   │   │   │   ├── GX_Spotlight_Func.gif
+│   │   │   │   ├── GX_Subtr_Blend_Op_Equation.gif
+│   │   │   │   ├── GX_Subtract_Equation.gif
+│   │   │   │   ├── GX_TEV_Block_Diag.gif
+│   │   │   │   ├── GX_TEV_Ops.gif
+│   │   │   │   ├── GX_TEV_Stage_Alpha_Inputs.gif
+│   │   │   │   ├── GX_TEV_Stage_Color_Inputs.gif
+│   │   │   │   ├── GX_Texel_Formats_1-4.gif
+│   │   │   │   ├── GX_Texel_Formats_5-6.gif
+│   │   │   │   ├── GX_Texgen_Comp_Path.gif
+│   │   │   │   ├── GX_Text_Coord_Gen_Equation.gif
+│   │   │   │   ├── GX_Text_Coord_Sharing_Example.gif
+│   │   │   │   ├── GX_Text_Copy_Data_Path.gif
+│   │   │   │   ├── GX_Text_File_Formats_1.gif
+│   │   │   │   ├── GX_Text_File_Formats_2-5.gif
+│   │   │   │   ├── GX_Text_Img_Formats_1.gif
+│   │   │   │   ├── GX_Text_Img_Formats_2.gif
+│   │   │   │   ├── GX_Text_Pipe_Contr.gif
+│   │   │   │   ├── GX_Transform_src_param_2x4_3x4_Mtx_a_Equation.gif
+│   │   │   │   ├── GX_Transform_src_param_2x4_3x4_Mtx_b_Equation.gif
+│   │   │   │   ├── GX_Vtx_Attr_Description.gif
+│   │   │   │   ├── GX_Vtx_Attr_Format_Table.gif
+│   │   │   │   ├── GX_Vtx_Norm_Transform_Equation.gif
+│   │   │   │   ├── GX_Vtx_Pos_Transform_Equation.gif
+│   │   │   │   ├── GX_XFB_Format_Main_Mem.gif
+│   │   │   │   ├── GX_Z_Text_Block_Diag.gif
+│   │   │   │   ├── HW2_XF_Stall_Bug_Proc_Schem.gif
+│   │   │   │   ├── MTX_3x4_Matrix.gif
+│   │   │   │   ├── MTX_4x4_Matrix.gif
+│   │   │   │   ├── MTX_Basic_Mtx_Operators_Equation.gif
+│   │   │   │   ├── MTX_Math_C_Array_Idx_Equation.gif
+│   │   │   │   ├── MTX_MTX_Concat_a_Equation.gif
+│   │   │   │   ├── MTX_MTX_Concat_b_Equation.gif
+│   │   │   │   ├── MTX_MTX_Library_within_GCN_Sys.gif
+│   │   │   │   ├── MTX_MTX_Vec_Lib_Logical_Groups.gif
+│   │   │   │   ├── MTX_MTXFrustum.gif
+│   │   │   │   ├── MTX_MTXIdentity_Equation.gif
+│   │   │   │   ├── MTX_MTXLightFrustum.gif
+│   │   │   │   ├── MTX_MTXLightOrtho.gif
+│   │   │   │   ├── MTX_MTXLightPerspective.gif
+│   │   │   │   ├── MTX_MTXLookat.gif
+│   │   │   │   ├── MTX_MTXLookat_Dir_Vect_Equation.gif
+│   │   │   │   ├── MTX_MTXMultVec_Comp_Equation.gif
+│   │   │   │   ├── MTX_MTXMultVecSR_Comp_Equation.gif
+│   │   │   │   ├── MTX_MTXOrtho.gif
+│   │   │   │   ├── MTX_MTXPerspective.gif
+│   │   │   │   ├── MTX_MtxPtr_pnts_at_Mtx_in_Mem.gif
+│   │   │   │   ├── MTX_MTXQuat_1.gif
+│   │   │   │   ├── MTX_MTXQuat_2.gif
+│   │   │   │   ├── MTX_MTXQuat_3.gif
+│   │   │   │   ├── MTX_MTXRotAxisRad.gif
+│   │   │   │   ├── MTX_MTXRotAxisRad_Comp_Equation.gif
+│   │   │   │   ├── MTX_MTXRotRad_MTXRotDeg_a_Equation.gif
+│   │   │   │   ├── MTX_MTXRotRad_MTXRotDeg_b_Equation.gif
+│   │   │   │   ├── MTX_MTXRotRad_MTXRotDeg_c_Equation.gif
+│   │   │   │   ├── MTX_MTXRotTrig_Arg_Logic_Equation.gif
+│   │   │   │   ├── MTX_MTXScale_Equation.gif
+│   │   │   │   ├── MTX_MTXTrans.gif
+│   │   │   │   ├── MTX_MTXTranspose_Equation.gif
+│   │   │   │   ├── VI_Above_Below_Field.gif
+│   │   │   │   ├── VI_Black_Bars.gif
+│   │   │   │   ├── VI_Field_Rend.gif
+│   │   │   │   ├── VI_Frame_Buff_Types.gif
+│   │   │   │   ├── VI_GX_VI_Func_Flowchart.gif
+│   │   │   │   ├── VI_Interrupts.gif
+│   │   │   │   ├── VI_Overscan_Underscan.gif
+│   │   │   │   ├── VI_Rel_Betw_6_GXRenderModeObj_Values.gif
+│   │   │   │   ├── VI_Relationship_betw_Sys_Libs.gif
+│   │   │   │   ├── VI_Retrace_Callback_Relationships.gif
+│   │   │   │   ├── VI_Video_Disp_Modes.gif
+│   │   │   │   └── VI_Y_Scaling.gif
+│   │   │   ├── MTX.pdf
+│   │   │   ├── MTX.us.doc
+│   │   │   ├── MTX.us.pdf
+│   │   │   ├── MTX.us.zip
+│   │   │   ├── S3TC_Lib.doc
+│   │   │   ├── TPL.pdf
+│   │   │   ├── TPL.us.pdf
+│   │   │   ├── TPL.us.zip
+│   │   │   ├── VI.pdf
+│   │   │   ├── VI.us.doc
+│   │   │   ├── VI.us.pdf
+│   │   │   └── VI.us.zip
+│   │   ├── Guidelines/
+│   │   │   └── Wii_Guidelines.pdf
+│   │   ├── Hardware_Transition_Guide/
+│   │   │   ├── Dev_Kit_Configurations.us.doc
+│   │   │   ├── HW1_Errata.us.doc
+│   │   │   ├── HW2_Errata.us.doc
+│   │   │   ├── Images/
+│   │   │   │   ├── DK_App_Mem_Map_D1-DDH.gif
+│   │   │   │   ├── GCNLogo.jpg
+│   │   │   │   └── HW2_XF_Stall_Bug_Proc_Schem.gif
+│   │   │   ├── Porting_Guide.us.doc
+│   │   │   ├── RVL-HardwareTransitionGuide.pdf
+│   │   │   ├── RVL-HardwareTransitionGuide.us.fm
+│   │   │   ├── RVL-HardwareTransitionGuide.us.pdf
+│   │   │   └── RVL-HardwareTransitionGuide.us.zip
+│   │   ├── License/
+│   │   │   ├── Dolby/
+│   │   │   │   ├── admin.txt
+│   │   │   │   ├── Dolby.PDF
+│   │   │   │   ├── GameCube_Developer_Letter_New.pdf
+│   │   │   │   └── ProLogic2/
+│   │   │   │       ├── 0_TABLE OF CONTENTS.pdf
+│   │   │   │       ├── 1_Architecture and Specifictaions for Dolby Surround Pro Logic II Interactive Content Encoder.pdf
+│   │   │   │       ├── 2_Dolby Surround Pro Logic II Decoder Principles of Operation.pdf
+│   │   │   │       ├── 3_Test Procedures for Dolby Surround Pro Logic II Interactive Content Encoder.pdf
+│   │   │   │       ├── 4_Test Results for Dolby Surround Pro Logic II Interactive Content Encoder.pdf
+│   │   │   │       ├── 5_Dolby Logo Font and Dolby EPS Files Diskette.zip
+│   │   │   │       ├── 6_Dolby Surround Pro Logic II Trademark Usage Guidelines for Game Console and or Packaging.pdf
+│   │   │   │       ├── 7_1_Instructions for Game Developers and Publishers.pdf
+│   │   │   │       ├── 7_2_Dolby Interactive Sound Kit 2.zip
+│   │   │   │       ├── 7_3_Dolby Pro Logic II Trademark Usage on Games.pdf
+│   │   │   │       ├── 7_4_Sample Trademark and Standardization Agreement.pdf
+│   │   │   │       └── Docs/
+│   │   │   │           ├── 0_TABLE OF CONTENTS.doc
+│   │   │   │           ├── 1_Architecture and Specifictaions for Dolby Surround Pro Logic II Interactive Content Encoder.doc
+│   │   │   │           ├── 3_Test Procedures for Dolby Surround Pro Logic II Interactive Content Encoder.doc
+│   │   │   │           ├── 4_Test Results for Dolby Surround Pro Logic II Interactive Content Encoder.doc
+│   │   │   │           ├── 6_Dolby Surround Pro Logic II Trademark Usage Guidelines for Game Console and or Packaging.doc
+│   │   │   │           └── 7_1_Instructions for Game Developers and Publishers.doc
+│   │   │   └── Roland/
+│   │   │       ├── logo/
+│   │   │       │   ├── GS Format Logo.eps
+│   │   │       │   ├── GS Format Logo.gif
+│   │   │       │   ├── OnScreen Credit.eps
+│   │   │       │   ├── OnScreen Credit.gif
+│   │   │       │   ├── Roland Logo Grid.eps
+│   │   │       │   ├── Roland Logo Grid.gif
+│   │   │       │   ├── Roland Logo Small.eps
+│   │   │       │   ├── Roland Logo Small.gif
+│   │   │       │   ├── Roland Logo.eps
+│   │   │       │   └── Roland Logo.gif
+│   │   │       ├── Roland END-USER LICENSE AGREEMENT.doc
+│   │   │       ├── Roland END-USER LICENSE AGREEMENT.pdf
+│   │   │       └── Roland_contact_info.txt
+│   │   ├── Mastering_Tools/
+│   │   │   └── QuickStartGuide.en.doc
+│   │   ├── Programmer's_Guide/
+│   │   │   ├── Debug_Tips.us.doc
+│   │   │   ├── DVD.pdf
+│   │   │   ├── DVD.us.doc
+│   │   │   ├── DVD.us.pdf
+│   │   │   ├── DVD.us.zip
+│   │   │   ├── Images/
+│   │   │   │   ├── BS_Bins_Under_Dolphin-HW1_Tree.gif
+│   │   │   │   ├── BS_Commondefs_Org.gif
+│   │   │   │   ├── BS_Debugging_Workflow.gif
+│   │   │   │   ├── BS_First_Lvl_Src_Tree.gif
+│   │   │   │   ├── BS_Make_Locations.gif
+│   │   │   │   ├── BS_Module_Subtrees.gif
+│   │   │   │   ├── BS_Src_Tree_Oview.gif
+│   │   │   │   ├── BS_Sys_Interfaces.gif
+│   │   │   │   ├── GCNLogo.jpg
+│   │   │   │   ├── ODD_Apps_Use_Filenames.gif
+│   │   │   │   ├── ODD_Opt_Disc_Drive_Read_Speed.gif
+│   │   │   │   ├── OS_Access_Phys_Addr_Space.gif
+│   │   │   │   ├── OS_L1_Data_Cache_Config_Locked_Cache_Mode.gif
+│   │   │   │   ├── OS_Normal_Cache_Lookup.gif
+│   │   │   │   ├── OS_Phys_Addr_Space_Alternate.gif
+│   │   │   │   ├── PAD_PAD_Clamp_Algor_Schem.gif
+│   │   │   │   ├── PERF_Bandwidth_Graphs.gif
+│   │   │   │   ├── PERF_CPU_Efficiency_Graph.gif
+│   │   │   │   ├── PERF_Perf_Graph_Oview.gif
+│   │   │   │   ├── PERF_Perf_Grph_Oview_No_Bckgrnd.gif
+│   │   │   │   ├── PERF_perfView_Event_Timeline.gif
+│   │   │   │   ├── PERF_XF_Fill-rate_Util_Graphs.gif
+│   │   │   │   └── RightArrowDouble.gif
+│   │   │   ├── Optimization_Primer.us.doc
+│   │   │   ├── OS.pdf
+│   │   │   ├── OS.us.doc
+│   │   │   ├── OS.us.pdf
+│   │   │   ├── OS.us.zip
+│   │   │   ├── PAD.pdf
+│   │   │   ├── PAD.us.doc
+│   │   │   ├── PAD.us.pdf
+│   │   │   ├── PAD.us.zip
+│   │   │   ├── PERF.us.doc
+│   │   │   ├── PERF.us.pdf
+│   │   │   ├── Reset_Shutdown.pdf
+│   │   │   ├── RVL-BuildSystem.pdf
+│   │   │   ├── RVL-BuildSystem.us.fm
+│   │   │   ├── RVL-BuildSystem.us.pdf
+│   │   │   ├── RVL-BuildSystem.us.zip
+│   │   │   └── SDK_BuildSystem.us.doc
+│   │   ├── Quickstart/
+│   │   │   ├── GDEV_Installation.us.doc
+│   │   │   ├── Images/
+│   │   │   │   ├── DDH_Controller_Port_1.gif
+│   │   │   │   ├── DDH_Copy_Demo_Data_from_WkStn_to_DDH.gif
+│   │   │   │   ├── DDH_DVD_Emul_Access_Collision.gif
+│   │   │   │   ├── DDH_DVD_File_Sys_Root_Dir.gif
+│   │   │   │   ├── DDH_Safe_Seq_Copy_to_DVD_Emul.gif
+│   │   │   │   ├── GCNLogo.jpg
+│   │   │   │   ├── RM_Demo_Dir_Struct.gif
+│   │   │   │   ├── RM_GXDemo_Dir_Struct.gif
+│   │   │   │   ├── RM_Map_to_Demos.gif
+│   │   │   │   └── RM_Map_to_Libs.gif
+│   │   │   ├── RVL-QuickStartGuide.pdf
+│   │   │   ├── RVL-QuickStartGuide.us.fm
+│   │   │   ├── RVL-QuickStartGuide.us.pdf
+│   │   │   ├── RVL-QuickStartGuide.us.zip
+│   │   │   ├── RVL-SDK-RoadMap.pdf
+│   │   │   ├── RVL-SDK-RoadMap.us.fm
+│   │   │   ├── RVL-SDK-RoadMap.us.pdf
+│   │   │   ├── RVL-SDK-RoadMap.us.zip
+│   │   │   ├── SDK_Install.us.doc
+│   │   │   └── SDK_Roadmap.us.doc
+│   │   └── THP_Library_Guide/
+│   │       ├── Images/
+│   │       │   ├── GCNLogo.jpg
+│   │       │   ├── RightArrow.gif
+│   │       │   ├── THP_4-2-0_Sub-Sampling.gif
+│   │       │   ├── THP_4-2-0_Sub-Sampling.vsd
+│   │       │   ├── THP_File_Format.xls
+│   │       │   └── THP_THP_File_Format.pdf
+│   │       ├── THP.pdf
+│   │       ├── THP.us.doc
+│   │       ├── THP.us.pdf
+│   │       └── THP.us.zip
+│   └── internal/
+│       ├── BootMemSettings.xls
+│       ├── BootromTransition.xls
+│       ├── build_targets.xls
+│       ├── dev/
+│       │   ├── Abuse Test.doc
+│       │   ├── Arcade Implementation.doc
+│       │   ├── Arcade Security Architecture.doc
+│       │   ├── DI Remaining Todos.doc
+│       │   ├── EC_SDK_API.doc
+│       │   ├── ES Features for System Menu 3.doc
+│       │   ├── esapi.doc
+│       │   ├── IOP_USB_API.doc
+│       │   ├── IOS_New_Architecture/
+│       │   │   ├── IOS-SecureArch.ppt
+│       │   │   ├── IOS-SecureArch.ppt.pdf
+│       │   │   ├── IOS-v2_0_Versionitis.ppt
+│       │   │   ├── IOS-v2_0_Versionitis.ppt.pdf
+│       │   │   ├── IOS_Launch_Return_Matrix.xls
+│       │   │   ├── RVL-Dependencies-1H07.fm
+│       │   │   └── RVL-Dependencies-1H07.pdf
+│       │   ├── JJP071509F_Nintendo_en.ppt
+│       │   ├── Limited Play Tickets_en.doc
+│       │   ├── makeWad.doc
+│       │   ├── Manufacturing Sequence.doc
+│       │   ├── Mastering Tools.doc
+│       │   ├── NAND Application Development.doc
+│       │   ├── Nintendo's Integration of ES API ToDo.doc
+│       │   ├── PPC_USB_API.doc
+│       │   ├── PPC_USB_API3.doc
+│       │   ├── releasenotes_ehci.txt
+│       │   ├── sffs.doc
+│       │   ├── Software Launch and Transition Architecture.doc
+│       │   ├── System Menu Development.doc
+│       │   ├── System Update Procedure.doc
+│       │   ├── System Update.doc
+│       │   ├── Title ID.doc
+│       │   ├── TMD Version Issues.doc
+│       │   ├── Tools to Lock Partition.doc
+│       │   └── WAD Format.doc
+│       ├── DI/
+│       │   ├── DI test plan.doc
+│       │   ├── DVDDiskLayout.en.doc
+│       │   ├── DVDLowLevelAPI.en.doc
+│       │   └── Mastering tools.doc
+│       ├── HowToTestEncoding.txt
+│       ├── HowToTestInRawMode.txt
+│       ├── iop/
+│       │   ├── CommunicationOverView.doc
+│       │   ├── IOS_Versions.doc
+│       │   ├── IOS_VersionTable.xls
+│       │   ├── MinorUpdates.xls
+│       │   ├── ml_rvl_firmware.JPG
+│       │   ├── Overview.jp.utf8.txt
+│       │   ├── revolution communication functions overview_1.DOC
+│       │   └── RVL_Comm_Overview_UseCases.txt
+│       ├── iRDbootrom.doc
+│       ├── ReleasePlan.xls
+│       ├── RVL_EMU_QuickStart.en.pdf
+│       ├── RVL_integration.fm
+│       ├── RVL_integration.pdf
+│       ├── RVL_SDK_0_2_DemosStatus.xls
+│       ├── RVL_SDKTodo.xls
+│       ├── Schedules/
+│       │   ├── RVL-Dependencies-3.fm
+│       │   ├── RVL-Dependencies-3.pdf
+│       │   ├── RVL-Dependencies-4.fm
+│       │   ├── RVL-Dependencies-4.pdf
+│       │   ├── RVL-Dependencies-5.fm
+│       │   ├── RVL-Dependencies-5.pdf
+│       │   ├── RVL-Dependencies-Phase2.fm
+│       │   └── RVL-Dependencies-Phase2.pdf
+│       ├── SrcTreeMap.txt
+│       └── SrcTreeWoringRules.jp.txt
+├── ja_JP/
+│   ├── Developer/
+│   │   ├── Architecture/
+│   │   │   ├── BroadwayUserManual.jp.pdf
+│   │   │   ├── readme.jp.txt
+│   │   │   ├── RVL-ControllerHardwareOverview.jp.doc
+│   │   │   ├── RVL-ControllerHardwareOverview.jp.pdf
+│   │   │   ├── RVL-ControllerSetup.jp.doc
+│   │   │   ├── RVL-ControllerSetup.jp.pdf
+│   │   │   ├── RVL_Overview.doc
+│   │   │   ├── RVL_Overview.jp.pdf
+│   │   │   └── RVL_Overview.pdf
+│   │   ├── Audio_Programmer's_Guide/
+│   │   │   ├── ax/
+│   │   │   │   └── AX.jp.doc
+│   │   │   ├── AX.jp.doc
+│   │   │   ├── AX.jp.pdf
+│   │   │   ├── ax_applications/
+│   │   │   │   └── AX_Applications.jp.doc
+│   │   │   ├── AX_Applications.jp.doc
+│   │   │   ├── AX_Applications.jp.pdf
+│   │   │   ├── AX_Streaming.jp.doc
+│   │   │   ├── DSPADPCM.jp.doc
+│   │   │   ├── DSPADPCM.jp.pdf
+│   │   │   ├── DSPTOOLDLL.jp.doc
+│   │   │   ├── DSPTOOLDLL.jp.pdf
+│   │   │   ├── SoundPipeline.jp.doc
+│   │   │   └── SoundPipeline.jp.pdf
+│   │   ├── CSS/
+│   │   │   └── revolution.css
+│   │   ├── Graphics_Programmer's_Guide/
+│   │   │   ├── Advanced_GX.jp.doc
+│   │   │   ├── Advanced_GX.jp.pdf
+│   │   │   ├── g2d/
+│   │   │   │   ├── 1.html
+│   │   │   │   ├── 2.html
+│   │   │   │   ├── 3.html
+│   │   │   │   ├── Appendix-A.html
+│   │   │   │   ├── images/
+│   │   │   │   │   ├── image001.gif
+│   │   │   │   │   ├── image002.gif
+│   │   │   │   │   └── image003.gif
+│   │   │   │   └── index.html
+│   │   │   ├── G2D.jp.doc
+│   │   │   ├── G2D.jp.pdf
+│   │   │   ├── gx/
+│   │   │   │   ├── 1.html
+│   │   │   │   ├── 10.html
+│   │   │   │   ├── 11.html
+│   │   │   │   ├── 12.html
+│   │   │   │   ├── 13.html
+│   │   │   │   ├── 14.html
+│   │   │   │   ├── 15.html
+│   │   │   │   ├── 16.html
+│   │   │   │   ├── 2.html
+│   │   │   │   ├── 3.html
+│   │   │   │   ├── 4.html
+│   │   │   │   ├── 5.html
+│   │   │   │   ├── 6.html
+│   │   │   │   ├── 7.html
+│   │   │   │   ├── 8.html
+│   │   │   │   ├── 9.html
+│   │   │   │   ├── Appendix-A.html
+│   │   │   │   ├── Appendix-B.html
+│   │   │   │   ├── Appendix-C.html
+│   │   │   │   ├── Appendix-D.html
+│   │   │   │   ├── Appendix-E.html
+│   │   │   │   ├── history.html
+│   │   │   │   ├── images/
+│   │   │   │   │   ├── image001.gif
+│   │   │   │   │   ├── image002.gif
+│   │   │   │   │   ├── image003.gif
+│   │   │   │   │   ├── image004.gif
+│   │   │   │   │   ├── image005.gif
+│   │   │   │   │   ├── image006.gif
+│   │   │   │   │   ├── image007.gif
+│   │   │   │   │   ├── image008.gif
+│   │   │   │   │   ├── image009.gif
+│   │   │   │   │   ├── image010.gif
+│   │   │   │   │   ├── image011.gif
+│   │   │   │   │   ├── image012.gif
+│   │   │   │   │   ├── image013.gif
+│   │   │   │   │   ├── image014.gif
+│   │   │   │   │   ├── image015.gif
+│   │   │   │   │   ├── image016.gif
+│   │   │   │   │   ├── image017.gif
+│   │   │   │   │   ├── image018.gif
+│   │   │   │   │   ├── image019.gif
+│   │   │   │   │   ├── image020.gif
+│   │   │   │   │   ├── image021.gif
+│   │   │   │   │   ├── image022.gif
+│   │   │   │   │   ├── image023.gif
+│   │   │   │   │   ├── image024.gif
+│   │   │   │   │   ├── image025.gif
+│   │   │   │   │   ├── image026.gif
+│   │   │   │   │   ├── image027.jpg
+│   │   │   │   │   ├── image028.gif
+│   │   │   │   │   ├── image029.gif
+│   │   │   │   │   ├── image030.gif
+│   │   │   │   │   ├── image031.gif
+│   │   │   │   │   ├── image032.gif
+│   │   │   │   │   ├── image033.gif
+│   │   │   │   │   ├── image034.gif
+│   │   │   │   │   ├── image035.gif
+│   │   │   │   │   ├── image036.gif
+│   │   │   │   │   ├── image037.gif
+│   │   │   │   │   ├── image038.gif
+│   │   │   │   │   ├── image039.gif
+│   │   │   │   │   ├── image040.gif
+│   │   │   │   │   ├── image041.gif
+│   │   │   │   │   ├── image042.gif
+│   │   │   │   │   ├── image043.gif
+│   │   │   │   │   ├── image044.gif
+│   │   │   │   │   ├── image045.gif
+│   │   │   │   │   ├── image046.gif
+│   │   │   │   │   ├── image047.gif
+│   │   │   │   │   ├── image048.gif
+│   │   │   │   │   ├── image049.gif
+│   │   │   │   │   ├── image050.gif
+│   │   │   │   │   ├── image051.gif
+│   │   │   │   │   ├── image052.gif
+│   │   │   │   │   ├── image053.gif
+│   │   │   │   │   ├── image054.gif
+│   │   │   │   │   ├── image055.gif
+│   │   │   │   │   ├── image056.gif
+│   │   │   │   │   ├── image057.gif
+│   │   │   │   │   ├── image058.gif
+│   │   │   │   │   ├── image059.gif
+│   │   │   │   │   ├── image060.gif
+│   │   │   │   │   ├── image061.gif
+│   │   │   │   │   ├── image062.gif
+│   │   │   │   │   ├── image063.gif
+│   │   │   │   │   ├── image064.gif
+│   │   │   │   │   ├── image065.gif
+│   │   │   │   │   ├── image066.gif
+│   │   │   │   │   ├── image067.gif
+│   │   │   │   │   ├── image068.gif
+│   │   │   │   │   ├── image069.gif
+│   │   │   │   │   ├── image070.gif
+│   │   │   │   │   ├── image071.gif
+│   │   │   │   │   ├── image072.gif
+│   │   │   │   │   ├── image073.gif
+│   │   │   │   │   ├── image074.gif
+│   │   │   │   │   ├── image075.gif
+│   │   │   │   │   ├── image076.gif
+│   │   │   │   │   ├── image077.gif
+│   │   │   │   │   ├── image078.gif
+│   │   │   │   │   ├── image079.gif
+│   │   │   │   │   ├── image080.gif
+│   │   │   │   │   ├── image081.gif
+│   │   │   │   │   ├── image082.gif
+│   │   │   │   │   ├── image083.gif
+│   │   │   │   │   ├── image084.gif
+│   │   │   │   │   ├── image085.gif
+│   │   │   │   │   ├── image086.gif
+│   │   │   │   │   ├── image087.gif
+│   │   │   │   │   ├── image088.gif
+│   │   │   │   │   ├── image089.gif
+│   │   │   │   │   ├── image090.gif
+│   │   │   │   │   ├── image091.gif
+│   │   │   │   │   ├── image092.gif
+│   │   │   │   │   ├── image093.gif
+│   │   │   │   │   ├── image094.gif
+│   │   │   │   │   ├── image095.gif
+│   │   │   │   │   ├── image096.gif
+│   │   │   │   │   ├── image097.gif
+│   │   │   │   │   ├── image098.gif
+│   │   │   │   │   ├── image099.gif
+│   │   │   │   │   ├── image100.gif
+│   │   │   │   │   ├── image101.gif
+│   │   │   │   │   ├── image102.gif
+│   │   │   │   │   ├── image103.gif
+│   │   │   │   │   ├── image104.gif
+│   │   │   │   │   ├── image105.gif
+│   │   │   │   │   ├── image106.gif
+│   │   │   │   │   ├── image107.gif
+│   │   │   │   │   ├── image108.gif
+│   │   │   │   │   ├── image109.gif
+│   │   │   │   │   ├── image110.gif
+│   │   │   │   │   ├── image111.gif
+│   │   │   │   │   ├── image112.gif
+│   │   │   │   │   ├── image113.gif
+│   │   │   │   │   ├── image114.gif
+│   │   │   │   │   ├── image115.gif
+│   │   │   │   │   ├── image116.gif
+│   │   │   │   │   ├── image117.gif
+│   │   │   │   │   ├── image118.gif
+│   │   │   │   │   ├── image119.gif
+│   │   │   │   │   ├── image120.gif
+│   │   │   │   │   ├── image121.gif
+│   │   │   │   │   ├── image122.gif
+│   │   │   │   │   ├── image123.gif
+│   │   │   │   │   ├── image124.gif
+│   │   │   │   │   ├── image125.gif
+│   │   │   │   │   ├── image126.gif
+│   │   │   │   │   ├── image127.gif
+│   │   │   │   │   ├── image128.gif
+│   │   │   │   │   ├── image129.gif
+│   │   │   │   │   ├── image130.gif
+│   │   │   │   │   ├── image131.gif
+│   │   │   │   │   ├── image132.gif
+│   │   │   │   │   ├── image133.gif
+│   │   │   │   │   └── image134.gif
+│   │   │   │   └── index.html
+│   │   │   ├── GX.jp.doc
+│   │   │   ├── GX.jp.pdf
+│   │   │   ├── mtx/
+│   │   │   │   ├── 1.html
+│   │   │   │   ├── 10.html
+│   │   │   │   ├── 2.html
+│   │   │   │   ├── 3.html
+│   │   │   │   ├── 4.html
+│   │   │   │   ├── 5.html
+│   │   │   │   ├── 6.html
+│   │   │   │   ├── 7.html
+│   │   │   │   ├── 8.html
+│   │   │   │   ├── 9.html
+│   │   │   │   ├── Appendix-A.html
+│   │   │   │   ├── history.html
+│   │   │   │   ├── images/
+│   │   │   │   │   ├── image001.gif
+│   │   │   │   │   ├── image002.gif
+│   │   │   │   │   ├── image003.gif
+│   │   │   │   │   ├── image004.gif
+│   │   │   │   │   ├── image005.gif
+│   │   │   │   │   ├── image006.gif
+│   │   │   │   │   ├── image007.gif
+│   │   │   │   │   ├── image008.gif
+│   │   │   │   │   ├── image009.gif
+│   │   │   │   │   ├── image010.gif
+│   │   │   │   │   ├── image011.gif
+│   │   │   │   │   ├── image012.gif
+│   │   │   │   │   ├── image013.gif
+│   │   │   │   │   ├── image014.gif
+│   │   │   │   │   ├── image015.gif
+│   │   │   │   │   ├── image016.gif
+│   │   │   │   │   ├── image017.gif
+│   │   │   │   │   ├── image018.gif
+│   │   │   │   │   ├── image019.gif
+│   │   │   │   │   ├── image020.gif
+│   │   │   │   │   ├── image021.gif
+│   │   │   │   │   ├── image022.gif
+│   │   │   │   │   ├── image023.gif
+│   │   │   │   │   ├── image024.gif
+│   │   │   │   │   ├── image025.gif
+│   │   │   │   │   ├── image026.gif
+│   │   │   │   │   ├── image027.gif
+│   │   │   │   │   ├── image028.gif
+│   │   │   │   │   ├── image029.gif
+│   │   │   │   │   ├── image030.gif
+│   │   │   │   │   ├── image031.gif
+│   │   │   │   │   ├── image032.gif
+│   │   │   │   │   ├── image033.gif
+│   │   │   │   │   ├── image034.gif
+│   │   │   │   │   ├── image035.gif
+│   │   │   │   │   └── image036.gif
+│   │   │   │   └── index.html
+│   │   │   ├── MTX.jp.doc
+│   │   │   ├── MTX.jp.pdf
+│   │   │   ├── tpl/
+│   │   │   │   ├── 1.html
+│   │   │   │   └── images/
+│   │   │   │       ├── image006.gif
+│   │   │   │       └── image007.gif
+│   │   │   ├── TPL.jp.doc
+│   │   │   ├── TPL.jp.pdf
+│   │   │   ├── vi/
+│   │   │   │   ├── 1.html
+│   │   │   │   ├── 2.html
+│   │   │   │   ├── 3.html
+│   │   │   │   ├── 4.html
+│   │   │   │   ├── 5.html
+│   │   │   │   ├── 6.html
+│   │   │   │   ├── history.html
+│   │   │   │   ├── images/
+│   │   │   │   │   ├── image001.gif
+│   │   │   │   │   ├── image002.gif
+│   │   │   │   │   ├── image003.gif
+│   │   │   │   │   ├── image004.gif
+│   │   │   │   │   ├── image005.gif
+│   │   │   │   │   ├── image006.gif
+│   │   │   │   │   ├── image007.gif
+│   │   │   │   │   ├── image008.gif
+│   │   │   │   │   ├── image009.gif
+│   │   │   │   │   ├── image010.gif
+│   │   │   │   │   ├── image011.gif
+│   │   │   │   │   └── image012.gif
+│   │   │   │   └── index.html
+│   │   │   ├── VI.jp.doc
+│   │   │   └── VI.jp.pdf
+│   │   ├── Guidelines/
+│   │   │   ├── Wii_MessageList.xls
+│   │   │   ├── Wii_NANDapp_Guidelines.doc
+│   │   │   ├── Wii_NANDapp_Guidelines.pdf
+│   │   │   ├── Wii_ProgrammingGuidelines.doc
+│   │   │   ├── Wii_ProgrammingGuidelines.pdf
+│   │   │   └── Wii_SDCard_Guidelines.txt
+│   │   ├── Hardware_Transition_Guide/
+│   │   │   ├── RVL-HardwareTransitionGuide.jp.doc
+│   │   │   └── RVL-HardwareTransitionGuide.jp.pdf
+│   │   ├── index.html
+│   │   ├── License/
+│   │   │   ├── Dolby/
+│   │   │   │   ├── DPL2_for_Wii_J.pdf
+│   │   │   │   └── GameCube_Developer_Letter_J_New.pdf
+│   │   │   └── Roland/
+│   │   │       ├── logo/
+│   │   │       │   ├── GS Format Logo.eps
+│   │   │       │   ├── GS Format Logo.gif
+│   │   │       │   ├── OnScreen Credit.eps
+│   │   │       │   ├── OnScreen Credit.gif
+│   │   │       │   ├── Roland Logo Grid.eps
+│   │   │       │   ├── Roland Logo Grid.gif
+│   │   │       │   ├── Roland Logo Small.eps
+│   │   │       │   ├── Roland Logo Small.gif
+│   │   │       │   ├── Roland Logo.eps
+│   │   │       │   └── Roland Logo.gif
+│   │   │       ├── Roland END-USER LICENSE AGREEMENT.doc
+│   │   │       ├── Roland END-USER LICENSE AGREEMENT.pdf
+│   │   │       └── Roland_contact_info.txt
+│   │   ├── Mastering_Tools/
+│   │   │   ├── QuickStartGuide.jp.doc
+│   │   │   ├── QuickStartGuide.jp.pdf
+│   │   │   ├── RVT-H_manual.doc
+│   │   │   └── RVT-H_manual.pdf
+│   │   ├── Programmer's_Guide/
+│   │   │   ├── dvd/
+│   │   │   │   ├── 1.html
+│   │   │   │   ├── 2.html
+│   │   │   │   ├── 3.html
+│   │   │   │   ├── 4.html
+│   │   │   │   ├── 5.html
+│   │   │   │   ├── 6.html
+│   │   │   │   ├── 7.html
+│   │   │   │   ├── 8.html
+│   │   │   │   ├── images/
+│   │   │   │   │   ├── image002.gif
+│   │   │   │   │   ├── image003.gif
+│   │   │   │   │   └── image004.gif
+│   │   │   │   └── index.html
+│   │   │   ├── DVD.jp.doc
+│   │   │   ├── DVD.jp.pdf
+│   │   │   ├── FA.jp.doc
+│   │   │   ├── FA.jp.pdf
+│   │   │   ├── OS.jp.doc
+│   │   │   ├── OS.jp.pdf
+│   │   │   ├── pad/
+│   │   │   │   ├── 1.html
+│   │   │   │   ├── 2.html
+│   │   │   │   ├── 3.html
+│   │   │   │   ├── 4.html
+│   │   │   │   ├── images/
+│   │   │   │   │   ├── image001.gif
+│   │   │   │   │   ├── image002.gif
+│   │   │   │   │   ├── padclamp.gif
+│   │   │   │   │   ├── padclampcircle.gif
+│   │   │   │   │   └── padclampcompare.gif
+│   │   │   │   └── index.html
+│   │   │   ├── PAD.jp.doc
+│   │   │   ├── PAD.jp.pdf
+│   │   │   ├── Reset_Shutdown.jp.doc
+│   │   │   ├── Reset_Shutdown.jp.pdf
+│   │   │   ├── RVL-BuildSystem.jp.doc
+│   │   │   └── RVL-BuildSystem.jp.pdf
+│   │   ├── Quickstart/
+│   │   │   ├── RVL-QuickStartGuide.jp.doc
+│   │   │   ├── RVL-QuickStartGuide.jp.pdf
+│   │   │   ├── RVL-SDK-RoadMap.jp.doc
+│   │   │   ├── RVL-SDK-RoadMap.jp.pdf
+│   │   │   ├── SDK_BuildSystem.jp.doc
+│   │   │   └── SDK_Install.jp.doc
+│   │   └── THP_Library_Guide/
+│   │       ├── THP.jp.doc
+│   │       └── THP.jp.pdf
+│   └── internal/
+│       ├── AboutSettingTxt.txt
+│       ├── AllErase.txt
+│       ├── CountryList.xls
+│       ├── dev/
+│       │   ├── Arcade Implementation_jp.doc
+│       │   ├── ChannelInstallFromDisc_jp.doc
+│       │   ├── JJP071509F_Nintendo.ppt
+│       │   └── SwitchingApplication_jp.doc
+│       ├── filemenu.ppt
+│       ├── RegionList_SimpleAddress.xls
+│       ├── RegionList_SimpleAddress_for_Release.xls
+│       ├── System_NAND_Application.txt
+│       └── template/
+│           └── RVL.dot
+└── readme/
+    ├── readme-rmprint.txt
+    ├── readme-RVL_ARC_SDK_jp.txt
+    ├── readme-RVL_DARCH_SDK_jp.txt
+    ├── readme-RVL_DIAG_SDK_jp.txt
+    ├── readme-RVL_FA_SDK_jp.txt
+    ├── readme-RVL_GX_SDK_jp.txt
+    ├── readme-RVL_Installer_SDK_jp.txt
+    ├── readme-RVL_Launch_SDK_jp.txt
+    ├── readme-RVL_NWC24_SDK_jp.txt
+    ├── readme-RVL_SC-Dvd_SDK_jp.txt
+    ├── readme-RVL_SC-Internal_SDK_jp.txt
+    ├── readme-RVL_SC-Net_SDK_jp.txt
+    ├── readme-RVL_SCUTIL_SDK_jp.txt
+    ├── readme-RVL_SO_SDK_jp.txt
+    ├── readme-RVL_WFSEmu_SDK_jp.txt
+    ├── readme-setcountrycodeAll_jp.txt
+    ├── readme-swupdate.en.txt
+    ├── readme-swupdate.jp.txt
+    ├── readme-wpad_guitar_jp.txt
+    ├── readme-wpad_health_jp.txt
+    ├── readme_private_patch-SmaBro_jp.txt
+    ├── readme_private_patch.jp.txt
+    └── renew_readme.pl

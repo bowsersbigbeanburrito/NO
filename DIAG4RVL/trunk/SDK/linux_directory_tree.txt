@@ -1,0 +1,63 @@
+linux/
+├── diemu/
+│   ├── code.c
+│   ├── diemu
+│   ├── diemu.c
+│   ├── diemudemo.c
+│   ├── direg.h
+│   ├── dvdlow.c
+│   ├── dvdlow.h
+│   ├── dvdlowstubs.c
+│   ├── errorhandling
+│   ├── errorhandling.c
+│   ├── main.c
+│   ├── makefile
+│   ├── types.h
+│   ├── wkmc.c
+│   └── wkmc.h
+├── esEmu/
+│   ├── app.dol
+│   ├── dolformat.h
+│   ├── ipc_emu.c
+│   ├── ipc_emu.h
+│   ├── main.c
+│   ├── makefile
+│   ├── smaEmu.c
+│   ├── smaEmu.h
+│   ├── wkmc.c
+│   └── wkmc.h
+├── ipcFileSysdemo/
+│   ├── ipcFileSysdemo.c
+│   ├── ipcFileSysdemo.h
+│   ├── makefile
+│   ├── private/
+│   │   ├── ios.h
+│   │   ├── ioserrno.h
+│   │   ├── iosresclt.h
+│   │   ├── iosrestypes.h
+│   │   ├── iostypes.h
+│   │   └── ipcclt.h
+│   ├── smaEmu.c
+│   ├── smaEmu.h
+│   └── types.h
+├── ipcRegEmudemo/
+│   ├── ipc/
+│   │   ├── ipc.h
+│   │   └── ipcMain.c
+│   ├── ipcRegEmu/
+│   │   ├── ipcRegEmu.c
+│   │   └── ipcRegEmu.h
+│   ├── ipcRegEmudemo.c
+│   ├── ipcRegEmudemo.h
+│   ├── makefile
+│   └── wkmc/
+│       ├── wkmc.c
+│       └── wkmc.h
+└── smaEmu/
+    ├── basic
+    ├── main.c
+    ├── makefile
+    ├── smaEmu.c
+    ├── smaEmu.h
+    ├── wkmc.c
+    └── wkmc.h

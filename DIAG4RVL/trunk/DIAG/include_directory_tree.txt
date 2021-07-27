@@ -1,0 +1,282 @@
+include/
+├── ahb.h
+├── ahb_fdl_defs.h
+├── artx/
+│   ├── ai.h
+│   ├── ar_priv.h
+│   ├── aram.h
+│   ├── arch.h
+│   ├── args.h
+│   ├── ax_types.h
+│   ├── ax_ver.h
+│   ├── axdbg.h
+│   ├── axmc.h
+│   ├── crc.h
+│   ├── ctype.h
+│   ├── dbgcomm.h
+│   ├── di.h
+│   ├── diag.h
+│   ├── dolcnt.h
+│   ├── dsp.h
+│   ├── dspmxic.h
+│   ├── dvd.h
+│   ├── dvdfs.h
+│   ├── exi.h
+│   ├── fdl/
+│   │   ├── bp_reg.h
+│   │   ├── cp_reg.h
+│   │   ├── dsp_reg.h
+│   │   ├── fdl_assert.h
+│   │   ├── gen_if.h
+│   │   ├── gen_reg.h
+│   │   ├── io_reg.h
+│   │   ├── mem_reg.h
+│   │   ├── pe_misc.h
+│   │   ├── pe_reg.h
+│   │   ├── pi_reg.h
+│   │   ├── ra_gen.h
+│   │   ├── ras_reg.h
+│   │   ├── su_reg.h
+│   │   ├── tev_reg.h
+│   │   ├── tx_reg.h
+│   │   ├── vi_reg.h
+│   │   ├── xf_cmds.h
+│   │   └── xf_mem.h
+│   ├── flash.h
+│   ├── font.h
+│   ├── gecko_dma.h
+│   ├── gfxoldbu.h
+│   ├── gou_exi.h
+│   ├── gou_flash.h
+│   ├── gx.h
+│   ├── gxfifo.h
+│   ├── gxreg.h
+│   ├── gxu.h
+│   ├── i2c.h
+│   ├── irq.h
+│   ├── lib.h
+│   ├── loadrun.h
+│   ├── mc.h
+│   ├── mem.h
+│   ├── ml.h
+│   ├── n64cnt.h
+│   ├── ntd_regs.h
+│   ├── nvram.h
+│   ├── os.h
+│   ├── reset.h
+│   ├── sfx.h
+│   ├── si.h
+│   ├── standio.h
+│   ├── types.h
+│   ├── vertex.h
+│   ├── vi.h
+│   └── video.h
+├── ati/
+│   ├── acr.h
+│   ├── aes.h
+│   ├── aesreg.h
+│   ├── ahb.h
+│   ├── ahbdbg.h
+│   ├── ai.h
+│   ├── ar_priv.h
+│   ├── aram.h
+│   ├── arch.h
+│   ├── args.h
+│   ├── assert.h
+│   ├── ati_usb.h
+│   ├── atidiag.h
+│   ├── ax_types.h
+│   ├── ax_ver.h
+│   ├── axdbg.h
+│   ├── axmc.h
+│   ├── bfm750/
+│   │   └── buspvt.h
+│   ├── big_endian.h
+│   ├── boot.h
+│   ├── busclient.h
+│   ├── casm.inc
+│   ├── crc.h
+│   ├── dbg_viai_setup.h
+│   ├── dbgcomm.h
+│   ├── dbgint.h
+│   ├── dcbz_basic.h
+│   ├── di.h
+│   ├── diag/
+│   │   ├── model/
+│   │   │   └── unshared.h
+│   │   └── PPCArch.h
+│   ├── diag.h
+│   ├── diagerr.h
+│   ├── dma_basic.h
+│   ├── dolcnt.h
+│   ├── dsp.h
+│   ├── dspfix.h
+│   ├── dspmxic.h
+│   ├── dvd.h
+│   ├── dvdfs.h
+│   ├── ehci-hcd.h
+│   ├── ehci.h
+│   ├── ela.h
+│   ├── exi.h
+│   ├── eximdm.h
+│   ├── export/
+│   │   ├── gx.h
+│   │   ├── gxfifo.h
+│   │   └── vertex.h
+│   ├── fdl/
+│   │   ├── ahb_fdl_defs.h
+│   │   ├── bp_reg.h
+│   │   ├── cp_reg.h
+│   │   ├── dsp_reg.h
+│   │   ├── gen_if.h
+│   │   ├── gen_reg.h
+│   │   ├── io_reg.h
+│   │   ├── mem_reg.h
+│   │   ├── pe_misc.h
+│   │   ├── pe_reg.h
+│   │   ├── pi_reg.h
+│   │   ├── ra_gen.h
+│   │   ├── ras2_tev_if.h
+│   │   ├── ras_reg.h
+│   │   ├── su_reg.h
+│   │   ├── tev_reg.h
+│   │   ├── tx_reg.h
+│   │   ├── vi_reg.h
+│   │   ├── xf_cmds.h
+│   │   ├── xf_mem.h
+│   │   ├── xf_state.h
+│   │   └── xf_ucode.h
+│   ├── fifo.h
+│   ├── filerand.h
+│   ├── filerandom.h
+│   ├── flash.h
+│   ├── font.h
+│   ├── gecko_dma.h
+│   ├── generic.h
+│   ├── getopt.h
+│   ├── gfxbu.h
+│   ├── gfxoldbu.h
+│   ├── gpioexi.h
+│   ├── gx/
+│   │   ├── gx.h
+│   │   ├── gxfifo.h
+│   │   ├── gxreg.h
+│   │   └── vertex.h
+│   ├── gxu/
+│   │   └── gxu.h
+│   ├── hcd.h
+│   ├── helper/
+│   │   └── compiler.h
+│   ├── hidutil.h
+│   ├── hub.h
+│   ├── i2c.h
+│   ├── irq.h
+│   ├── lib.h
+│   ├── little_endian.h
+│   ├── lomem.h
+│   ├── mc.h
+│   ├── mem.h
+│   ├── ml.h
+│   ├── mrexi.h
+│   ├── n64cnt.h
+│   ├── ntd_regs.h
+│   ├── nvram.h
+│   ├── os.h
+│   ├── private/
+│   │   ├── common.h
+│   │   ├── fdl_assert.h
+│   │   ├── gxdebug.h
+│   │   ├── gxreg.h
+│   │   └── gxtypes.h
+│   ├── reset.h
+│   ├── sdi.h
+│   ├── serrx.h
+│   ├── sfx.h
+│   ├── sha.h
+│   ├── si.h
+│   ├── snake.h
+│   ├── standio.h
+│   ├── swab.h
+│   ├── types.h
+│   ├── usb-ohci.h
+│   ├── usb.h
+│   ├── usb_bitops.h
+│   ├── usb_input.h
+│   ├── usb_list.h
+│   ├── usb_mem.h
+│   ├── usb_other.h
+│   ├── usb_scsi.h
+│   ├── usb_spin.h
+│   ├── usb_timer.h
+│   ├── usb_wait.h
+│   ├── util.h
+│   ├── vi.h
+│   ├── vi_conexant.h
+│   └── video.h
+├── cp/
+│   ├── charPipeline/
+│   │   ├── actor/
+│   │   │   └── actorAnim.h
+│   │   ├── actor.h
+│   │   ├── anim/
+│   │   │   ├── animBank.h
+│   │   │   └── animPipe.h
+│   │   ├── anim.h
+│   │   ├── control.h
+│   │   ├── fileCache.h
+│   │   ├── geoPalette/
+│   │   │   ├── displayObjectInternals.h
+│   │   │   └── normalTable.h
+│   │   ├── geoPalette.h
+│   │   ├── GQRSetup.h
+│   │   ├── light.h
+│   │   ├── skinning/
+│   │   │   └── SKNTypes.h
+│   │   ├── Skinning.h
+│   │   ├── structures/
+│   │   │   ├── dolphinString.h
+│   │   │   ├── HTable.h
+│   │   │   ├── List.h
+│   │   │   └── Tree.h
+│   │   ├── structures.h
+│   │   ├── texPalette/
+│   │   │   └── tplAssert.h
+│   │   └── texPalette.h
+│   └── charPipeline.h
+├── diag/
+│   ├── diagcommon.h
+│   ├── diagerr.h
+│   ├── diagsdk.h
+│   ├── sdio.h
+│   ├── sdm.h
+│   ├── SItoUSB.h
+│   ├── SIusbOSReport.h
+│   └── wkreport.h
+├── diaginfo.h
+├── dolphin/
+│   ├── ais.h
+│   ├── ar.h
+│   ├── arq.h
+│   ├── doldefs.h
+│   ├── dtk.h
+│   ├── hio.h
+│   └── jpeg.h
+├── simplekit/
+│   └── simplekit.h
+└── uji/
+    ├── UJIUtility.h
+    └── utility/
+        ├── barcode.h
+        ├── BasicPad.h
+        ├── BasicPuts.h
+        ├── chklog.h
+        ├── Crc.h
+        ├── dpsram.h
+        ├── InitSystem.h
+        ├── Layer.h
+        ├── LayerInterface.h
+        ├── Menu.h
+        ├── PortExi.h
+        ├── sled.h
+        ├── Thread.h
+        └── WriteLog.h
