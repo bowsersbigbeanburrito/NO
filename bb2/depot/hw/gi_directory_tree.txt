@@ -1,0 +1,61 @@
+gi/
+├── altera/
+│   ├── gi_fpga.qpf,v
+│   ├── gi_fpga.qsf,v
+│   ├── gi_fpga.sof,v
+│   ├── gi_fpga.tcl,v
+│   └── v/
+│       ├── altera.vh,v
+│       ├── di_mux.v,v
+│       ├── gi_fpga.v,v
+│       ├── iopads.v,v
+│       ├── pll_75mhz.v,v
+│       ├── pll_99mhz.v,v
+│       ├── rom2kx32.v,v
+│       └── sram24kx16.v,v
+├── dv/
+│   ├── clkgen.v,v
+│   ├── dump.v,v
+│   ├── Makefile,v
+│   ├── sim.v,v
+│   ├── test_ali.v,v
+│   ├── test_all.v,v
+│   ├── test_bd.v,v
+│   ├── test_gi.v,v
+│   ├── test_lib.v,v
+│   └── tests.v,v
+├── lib/
+│   ├── aes.v,v
+│   ├── aes_task.v,v
+│   ├── ais_host.v,v
+│   ├── bi_mon.v,v
+│   ├── bi_sys.v,v
+│   ├── di_host.v,v
+│   ├── di_mon.v,v
+│   ├── pci.vh,v
+│   ├── pci_func.v,v
+│   ├── pci_host.v,v
+│   ├── pci_mon.v,v
+│   ├── sha1.v,v
+│   └── sha1_task.v,v
+└── v/
+    ├── ali.vh,v
+    ├── Attic/
+    │   └── gi_ctrl.v,v
+    ├── gi.v,v
+    ├── gi.vh,v
+    ├── gi_aes.v,v
+    ├── gi_ais.v,v
+    ├── gi_bi.v,v
+    ├── gi_dc.v,v
+    ├── gi_di.v,v
+    ├── gi_dummy.v,v
+    ├── gi_kbuf.v,v
+    ├── gi_mc.v,v
+    ├── gi_mixd.v,v
+    ├── gi_mixe.v,v
+    ├── gi_pci.v,v
+    ├── gi_rom.v,v
+    ├── gi_sha.v,v
+    ├── gi_sram.v,v
+    └── gi_v.v,v

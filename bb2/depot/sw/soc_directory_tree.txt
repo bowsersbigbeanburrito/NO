@@ -1,0 +1,45 @@
+soc/
+├── apps/
+│   ├── alires/
+│   │   ├── aes.c,v
+│   │   ├── ais.c,v
+│   │   ├── alires.h,v
+│   │   ├── bi.c,v
+│   │   ├── client.py,v
+│   │   ├── dc.c,v
+│   │   ├── di.c,v
+│   │   ├── gi.c,v
+│   │   ├── link.ld,v
+│   │   ├── main.c,v
+│   │   ├── Makefile,v
+│   │   ├── mc.c,v
+│   │   ├── network.c,v
+│   │   ├── os_start.S,v
+│   │   ├── server.py,v
+│   │   ├── sha.c,v
+│   │   └── startup.c,v
+│   └── dvdperf/
+│       ├── dvdperf.c,v
+│       ├── link.ld,v
+│       ├── Makefile,v
+│       ├── os_start.S,v
+│       └── startup.c,v
+├── include/
+│   ├── gi.h,v
+│   └── Makefile,v
+├── lib/
+│   ├── Makefile,v
+│   └── pci_common_driver/
+│       ├── Attic/
+│       │   └── common.h,v
+│       ├── eregdef.h,v
+│       ├── i82365.h,v
+│       ├── Makefile,v
+│       ├── pci_init.c,v
+│       ├── pci_init.h,v
+│       ├── pci_pcmcia.c,v
+│       ├── pci_pcmcia.h,v
+│       ├── pci_tlb.S,v
+│       └── readme.txt,v
+├── Makefile,v
+└── socdefs,v
